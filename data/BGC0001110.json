@@ -1,0 +1,335 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "isocoumarin group",
+                        "subcluster": [
+                            "not experimentally determined"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC1=C(C=C(C2=C1C[C@@H](OC2=O)[C@H](C)[C@H](C[C@@H]3C([C@@H](C[C@H](O3)[C@@H](NC(=O)[C@H](C(CC(=C)C)OC)O)OC)O)(C)C)O)O)O",
+                "chem_synonyms": [
+                    "irciniastatin a"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "RPL41 (C. elegans)"
+                    },
+                    {
+                        "target": "RPL36a and RPL36aI (human ortholog)"
+                    }
+                ],
+                "compound": "psymberin",
+                "database_id": [
+                    "pubchem:11456257"
+                ],
+                "mol_mass": 626.4251,
+                "molecular_formula": "C33H8NO13"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "isocoumarin group",
+                        "subcluster": [
+                            "not experimentally determined"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC1=C(C=C(C2=C1C[C@@H](OC2=O)[C@H](C)[C@H](C[C@@H]3C(C(=O)C[C@H](O3)[C@@H](NC(=O)[C@H]([C@H](CC(=C)C)OC)O)OC)(C)C)O)O)O",
+                "compound": "irciniastatin B",
+                "database_id": [
+                    "pubchem:66575256"
+                ],
+                "mol_mass": 626.4251,
+                "molecular_formula": "C33H8NO13"
+            }
+        ],
+        "loci": {
+            "accession": "FJ823461.1",
+            "completeness": "complete",
+            "evidence": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001110",
+        "minimal": false,
+        "ncbi_tax_id": "693111",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ADA82585.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "uncultured bacterium psy1",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ADA82581.1",
+                        "ADA82589.1",
+                        "ADA82585.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Acetyl-CoA"
+                            ],
+                            "domains": [
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "ADA82581.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82581.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82581.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "10",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "11"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "12"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7",
+                            "pks_mod_doms": [
+                                "Pyran synthase"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA82585.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "9"
+                        }
+                    ],
+                    "subclass": [
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "ADA82589.1"
+                        ]
+                    }
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:19448639",
+            "pubmed:15176791",
+            "pubmed:23088155",
+            "pubmed:24105772",
+            "pubmed:25529827",
+            "pubmed:23212972",
+            "pubmed:14971894"
+        ]
+    },
+    "comments": "Psymberin harbors an isocoumarin group, hence it is cyclized and contains a lactone. However, it is not a macrolactone."
+}

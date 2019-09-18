@@ -1,0 +1,175 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "2-amino-3,5- dimethyl-4-hexenoic acid  (ADH)",
+                        "subcluster": [
+                            "sare4566",
+                            "sare4567",
+                            "sare4568",
+                            "sare4569"
+                        ]
+                    }
+                ],
+                "chem_struct": "CO[C@@H]([C@@H]1NC(=O)[C@H](C)NC(=O)[C@H](C[C@@H](C)CO)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](NC1=O)C(C)C)[C@H](C)C=C(C)C)[C@H](O)C1=CN(C2=C1C=CC=C2)C(C)(C)C=C)C1=CC=CC=C1",
+                "compound": "Cyclomarin D",
+                "database_id": [
+                    "npatlas:11889",
+                    "pubchem:25220882"
+                ],
+                "mol_mass": 967.7615,
+                "molecular_formula": "C57H11N8O10"
+            }
+        ],
+        "loci": {
+            "accession": "CP000850.1",
+            "completeness": "complete",
+            "end_coord": 5187645,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 5140169
+        },
+        "mibig_accession": "BGC0000333",
+        "minimal": false,
+        "ncbi_tax_id": "391037",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "sare4562",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "2-Amino-3,5-dimethyl-4-hexenoic Acid"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "6"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Phenylalanine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "thioesterases": [
+                {
+                    "gene": "sare4565",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Salinispora arenicola CNS-205",
+        "publications": [
+            "pubmed:18331040",
+            "pubmed:20055491"
+        ]
+    }
+}

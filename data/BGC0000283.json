@@ -1,0 +1,126 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "aminocyclitol"
+                    }
+                ],
+                "chem_struct": "CC(=O)NC1=CC(=O)[C@]2(CO)O[C@@H]2[C@H]1O",
+                "compound": "Cetoniacytone A",
+                "database_id": [
+                    "npatlas:14963"
+                ],
+                "mol_mass": 204.1185,
+                "molecular_formula": "C9H2NO5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACH85575.1",
+                    "name": "cetL",
+                    "product": "cetL"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACH85576.1",
+                    "name": "cetM",
+                    "product": "cetM"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABL74381.1",
+                    "name": "cetA",
+                    "product": "2-epi-5-epi-valiolone synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABL74382.1",
+                    "name": "cetB",
+                    "product": "putative glyoxalase/bleomycin resistance protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ABL74384.1",
+                    "name": "cetD",
+                    "product": "putative acetyltransferase",
+                    "tailoring": [
+                        "Acetylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "EF120454.2",
+            "completeness": "complete",
+            "evidence": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000283",
+        "minimal": false,
+        "ncbi_tax_id": "416175",
+        "organism_name": "Actinomyces sp. Lu 9419",
+        "other": {
+            "subclass": "Cyclitol"
+        },
+        "publications": [
+            "pubmed:17195255",
+            "pubmed:19101977"
+        ]
+    }
+}

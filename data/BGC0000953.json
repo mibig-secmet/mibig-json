@@ -1,0 +1,131 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "C[C@H]1O[C@H](CC[C@@H]1O[C@H]1O[C@H](C)[C@H]([C@H](O)[C@H]1O)N(C)C)N1C=CC(NC(=O)C2=CC=C(NC(=O)[C@@](C)(N)CO)C=C2)=NC1=O",
+                "chem_targets": [
+                    {
+                        "target": "RNA polymerase"
+                    }
+                ],
+                "compound": "Amicetin",
+                "database_id": [
+                    "npatlas:2444",
+                    "pubchem:221187"
+                ],
+                "mol_mass": 608.439,
+                "molecular_formula": "C31H8N6O9"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AEF16044.1",
+                    "name": "amiE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AEF16046.1",
+                    "name": "amiG",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AEF16047.1",
+                    "name": "amiH",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AEF16051.1",
+                    "name": "amiL"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AEF16057.1",
+                    "name": "amiR",
+                    "tailoring": [
+                        "Acylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HM748814.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000953",
+        "minimal": false,
+        "ncbi_tax_id": "67376",
+        "organism_name": "Streptomyces vinaceusdrappus",
+        "publications": [
+            "pubmed:22267658",
+            "pubmed:22587000",
+            "pubmed:23919735"
+        ],
+        "saccharide": {
+            "subclass": "aminoglycoside"
+        }
+    }
+}

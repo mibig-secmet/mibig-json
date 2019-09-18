@@ -1,0 +1,316 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "COC(\\C=C\\C1=CSC(=N1)C1=CSC(=N1)C(C)\\C=C\\C=C\\C(C)C)C(C)C(\\OC)=C/C(N)=O",
+                "chem_targets": [
+                    {
+                        "target": "respiratory chain inhibitor BC-I complex"
+                    }
+                ],
+                "compound": "Myxothiazol",
+                "database_id": [
+                    "npatlas:1854"
+                ],
+                "mol_mass": 454.4133,
+                "molecular_formula": "C25N3O3S2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAF19809.1",
+                    "name": "mtaA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAF19810.1",
+                    "name": "mtaB "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAF19811.1",
+                    "name": "mtaC ",
+                    "product": "mtaC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAF19812.1",
+                    "name": "mtaD"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAF19813.1",
+                    "name": "mtaE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAF19814.1",
+                    "name": "mtaF "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAF19815.1",
+                    "name": "mtaG ",
+                    "product": "mtaG"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF188287.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0001024",
+        "minimal": false,
+        "ncbi_tax_id": "378806",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAF19811.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "3"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAF19812.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "4"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAF19815.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Stigmatella aurantiaca DW4/3-1",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "3-Methylbutyryl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AAF19810.1",
+                        "AAF19812.1",
+                        "AAF19814.1",
+                        "AAF19813.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AAF19810.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AAF19810.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AAF19812.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AAF19813.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "6"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AAF19814.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:10601310"
+        ]
+    }
+}

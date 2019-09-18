@@ -1,0 +1,219 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(C)C[C@@H](NC(=O)[C@H](O)CC1=CC=CC=C1)C(=O)N1[C@H]2C[C@@H](CC[C@H]2C[C@H]1C(=O)NCCCCNC(N)=N)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O",
+                "compound": "Aeruginoside 126B",
+                "database_id": [
+                    "npatlas:8514"
+                ],
+                "mol_mass": 646.4878,
+                "molecular_formula": "C34H10N6O9"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "2-carboxy-6-hydroxy-octahydroindole",
+                        "subcluster": [
+                            "CAJ21199.2",
+                            "CAM59603.1",
+                            "CAM59604.1",
+                            "CAM59605.1"
+                        ]
+                    },
+                    {
+                        "moiety": "1-amino-2-(N-amidino-delta3-pyrrolinyl)-ethyl"
+                    }
+                ],
+                "chem_struct": "CC(C)C[C@@H](NC(=O)[C@H](O)CC1=CC=CC=C1)C(=O)N1[C@H]2C[C@@H](CC[C@H]2C[C@H]1C(=O)NCCC1=CCN(C1)C(N)=N)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O",
+                "chem_targets": [
+                    {
+                        "target": "Trypsin"
+                    },
+                    {
+                        "target": "thrombin"
+                    }
+                ],
+                "compound": "Aeruginoside 126A",
+                "database_id": [
+                    "npatlas:6922"
+                ],
+                "mol_mass": 670.5098,
+                "molecular_formula": "C36H10N6O9"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "CAJ21199.2",
+                    "product": "putative oxygenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAM59603.1",
+                    "product": "Prephenate decarboxylase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM59604.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM59605.1",
+                    "product": "putative reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAM59608.1",
+                    "product": "putative glycosyltransferase",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AM071396.2",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000297",
+        "minimal": false,
+        "ncbi_tax_id": "213624",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "CAM59601.1",
+                    "modules": [
+                        {
+                            "active": true,
+                            "modification_domains": [
+                                "Unknown"
+                            ],
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAJ21198.2",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAM59606.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [
+                                    "CAJ21199.2",
+                                    "CAM59603.1",
+                                    "CAM59604.1",
+                                    "CAM59605.1"
+                                ],
+                                "epimerized": false,
+                                "nonproteinogenic": [
+                                    "2-carboxy-6-hydroxy-octahydroindole"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Glycopeptide"
+        },
+        "organism_name": "Planktothrix agardhii NIVA-CYA 126",
+        "polyketide": {
+            "cyclic": false,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAM59601.1"
+                    ],
+                    "subclass": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:17524987",
+            "pubmed:20863139",
+            "pubmed:19201978"
+        ],
+        "saccharide": {
+            "subclass": "hybrid/tailoring"
+        }
+    }
+}

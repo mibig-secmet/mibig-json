@@ -1,0 +1,138 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "forosamine",
+                        "subcluster": [
+                            "adm72812.1",
+                            "adm72818.1",
+                            "adm72819.1",
+                            "adm72825.1",
+                            "ACK77743.1",
+                            "ACK77744.1",
+                            "ack77745.1",
+                            "AIE41917.1"
+                        ]
+                    }
+                ],
+                "compound": "auricin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 542.2039
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "662023972",
+                    "name": "aur1PR3",
+                    "product": "SARP-family auricin specific regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "662024136",
+                    "name": "aur1R",
+                    "product": "auricin-specific repressor of TetR family"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "662024109",
+                    "name": "aur1P",
+                    "product": "auricin-specific activator"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KJ396772.1",
+            "completeness": "complete",
+            "end_coord": 86722,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 58195
+        },
+        "mibig_accession": "BGC0000201",
+        "minimal": false,
+        "ncbi_tax_id": "1894",
+        "organism_name": "Streptomyces aureofaciens",
+        "polyketide": {
+            "cyclases": [
+                "61968691",
+                "61968695",
+                "61968696"
+            ],
+            "cyclic": true,
+            "ketide_length": -1,
+            "subclasses": [
+                "Angucycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "61968691",
+                        "61968692",
+                        "61968696",
+                        "61968695",
+                        "662024112"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:12384301",
+            "pubmed:16079347",
+            "pubmed:20466770",
+            "pubmed:21393365",
+            "pubmed:23081778",
+            "pubmed:23373695",
+            "pubmed:23763439",
+            "pubmed:24265028",
+            "pubmed:25219533"
+        ],
+        "saccharide": {
+            "subclass": "hybrid/tailoring"
+        }
+    },
+    "comments": "Auricin is stable in acid and unstable in neutral and alkaline pH. It undergoes methanolysis (addition of methanol to the aglycon)   "
+}

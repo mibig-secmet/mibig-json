@@ -1,0 +1,202 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Pyrrole ring",
+                        "subcluster": [
+                            "AHA34034.1",
+                            "AHA34035.1",
+                            "AHA34036.1",
+                            "AHA34037.1",
+                            "AHA34033.1"
+                        ]
+                    },
+                    {
+                        "moiety": "bromophenol",
+                        "subcluster": [
+                            "AHA34038.1",
+                            "AHA34039.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "C1=C(C=C(C(=C1Br)O)C2=C(C(=C(N2)Br)Br)Br)Br",
+                "chem_targets": [
+                    {
+                        "target": "Myosin ATPase"
+                    },
+                    {
+                        "target": "IspD"
+                    }
+                ],
+                "compound": "pentabromopseudilin",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 230.1838,
+                "molecular_formula": "B5C11N2O"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34031.1",
+                    "name": "bmp10",
+                    "product": "Bmp10, Ferredoxin Reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34032.1",
+                    "name": "bmp9",
+                    "product": "Bmp9, Ferredoxin"
+                },
+                {
+                    "id": "AHA34033.1",
+                    "name": "bmp8",
+                    "product": "bmp8"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34034.1",
+                    "name": "bmp1",
+                    "product": "Bmp1, ACP-TE didomain"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34035.1",
+                    "name": "bmp2",
+                    "product": "Bmp2, Flavin-dependent pyrroly-S-ACP brominase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34036.1",
+                    "name": "bmp3",
+                    "product": "Bmp3, Flavin-dependent prolyl-S-ACP dehydrogenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34037.1",
+                    "name": "bmp4",
+                    "product": "Bmp4, prolyl adenylation domain"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34038.1",
+                    "name": "bmp5",
+                    "product": "Bmp5, Flavin-dependent single-component p-hydroxybenzoate brominase/decarboxylase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34039.1",
+                    "name": "bmp6",
+                    "product": "Bmp6, Chorismate lyase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHA34040.1",
+                    "name": "bmp7",
+                    "product": "Bmp7, Cytochrome P450"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF540211.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000890",
+        "minimal": false,
+        "ncbi_tax_id": "1315281",
+        "organism_name": "Pseudoalteromonas phenolica O-BC30",
+        "other": {
+            "subclass": "Aminocoumarin"
+        },
+        "publications": [
+            "pubmed:24974229",
+            "pubmed:19122661",
+            "pubmed:24446431",
+            "pubmed:7600609"
+        ]
+    }
+}

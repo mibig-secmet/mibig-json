@@ -1,0 +1,180 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCCCCCC\\C=C\\C=C\\C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@H]1CCCCNC(=O)\\C=C\\[C@H](C)NC1=O",
+                "compound": "Luminmycin A",
+                "database_id": [
+                    "npatlas:1451"
+                ],
+                "mol_mass": 464.3524,
+                "molecular_formula": "C27H4N4O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Heterologous expression"
+                            ]
+                        }
+                    ],
+                    "id": "CAE14171.1",
+                    "name": "plu1878"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Heterologous expression"
+                            ]
+                        }
+                    ],
+                    "id": "CAE14173.1",
+                    "name": "plu1880",
+                    "product": "hypothetical protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "BX470251.1",
+            "completeness": "complete",
+            "end_coord": 2239965,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 2221617
+        },
+        "mibig_accession": "BGC0000383",
+        "minimal": false,
+        "ncbi_tax_id": "243265",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "plu1878",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "plu1880",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Lysine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ]
+        },
+        "organism_name": "Photorhabdus laumondii subsp. laumondii TTO1",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "plu1880",
+                        "np_929147.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "plu1880"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "4"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "np_929147.1",
+                            "thioesterase_type": "Type I"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:22909174"
+        ]
+    },
+    "comments": "origin of polyketide tail currently unknown"
+}

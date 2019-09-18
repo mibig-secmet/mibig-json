@@ -1,0 +1,107 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC[C@H](C)[C@@H]1NC(=O)CNC(=O)[C@H](C[C@@]2(CSC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC2=O)C(=O)N[C@@H](CC(O)=O)C(=O)N[C@@H](CC(C)C)C(O)=O)NC1=O)NC(=O)[C@H](CC1=CN=CN1)NC(=O)CNC(=O)[C@H](CC(N)=O)NC(=O)[C@@H]1CSC[C@@]2(C[C@H](NC(=O)[C@H](CC(O)=O)NC(=O)CNC(=O)CNC(=O)CNC(=O)CNC(=O)[C@H](CC3=CN=CN3)NC(=O)CN)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N2)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N1",
+                "compound": "Catenulipeptin",
+                "database_id": [
+                    "npatlas:7476"
+                ],
+                "mol_mass": 2341.5983,
+                "molecular_formula": "C102H18N35O34S2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACU73103.1",
+                    "name": "aciKC",
+                    "product": "serine/threonine protein kinase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACU73104.1",
+                    "name": "aciA",
+                    "product": "precursor"
+                },
+                {
+                    "id": "ACU73105.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACU73106.1",
+                    "name": "aciT1",
+                    "product": "ABC transporter related"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACU73107.1",
+                    "name": "aciT2",
+                    "product": "ABC transporter related"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP001700.1",
+            "completeness": "complete",
+            "end_coord": 4816367,
+            "evidence": [
+                "Enzymatic assays"
+            ],
+            "start_coord": 4809160
+        },
+        "mibig_accession": "BGC0000501",
+        "minimal": false,
+        "ncbi_tax_id": "479433",
+        "organism_name": "Catenulispora acidiphila DSM 44928",
+        "publications": [
+            "pubmed:22725258"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

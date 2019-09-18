@@ -1,0 +1,222 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@@H]1OC=C2C(O)=C(C(O)=O)C(=O)C(C)=C2[C@H]1C",
+                "compound": "Citrinin",
+                "database_id": [
+                    "npatlas:14581",
+                    "chemspider:10222475"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 262.1778,
+                "molecular_formula": "C15H2O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "ALI92648.1",
+                    "name": "citC",
+                    "product": "CitC oxidoreductase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "ALI92649.1",
+                    "name": "citE",
+                    "product": "CitE dehydrogenase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "id": "ALI92650.1",
+                    "name": "mrl5",
+                    "product": "MRL5 glyoxalase-like domain"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "ALI92651.1",
+                    "name": "citD",
+                    "product": "CitD dehydrogenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "ALI92652.1",
+                    "name": "mrl3",
+                    "product": "MRL3 Zn(II)2Cys6 Transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "ALI92653.1",
+                    "name": "citB",
+                    "product": "CitB Fe(II)-dependent oxygenase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "ALI92654.1",
+                    "name": "citA",
+                    "product": "CitA serine hydrolase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "ALI92655.1",
+                    "name": "citS",
+                    "product": "CitS citrinin polyketide synthase"
+                },
+                {
+                    "id": "ALI92656.1",
+                    "name": "mrr1",
+                    "product": "MRR1 Major Facilitator Superfamily (MFS) protein"
+                },
+                {
+                    "id": "ALI92657.1",
+                    "name": "mrr2",
+                    "product": "MRR2 histidine phosphatase"
+                },
+                {
+                    "id": "ALI92658.1",
+                    "name": "mrr3",
+                    "product": "MRR3 unknown protein"
+                },
+                {
+                    "id": "ALI92659.1",
+                    "name": "mrr4",
+                    "product": "MRR4 WD40 protein"
+                },
+                {
+                    "id": "ALI92660.1",
+                    "name": "mrr5",
+                    "product": "MRR5 carbonic anhydrases"
+                },
+                {
+                    "id": "ALI92661.1",
+                    "name": "mrr6",
+                    "product": "MRR6 unknown protein"
+                },
+                {
+                    "id": "ALI92662.1",
+                    "name": "mrr7",
+                    "product": "MRR7 enoyl-(Acyl carrier protein) reductase"
+                },
+                {
+                    "id": "ALI92663.1",
+                    "name": "mrr8",
+                    "product": "MRR8 AMP-binding enzyme"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KT781075.1",
+            "completeness": "complete",
+            "end_coord": 42813,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0001338",
+        "minimal": false,
+        "ncbi_tax_id": "89489",
+        "organism_name": "Monascus ruber",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Reductive release"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "citS"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 4,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "doi:10.1039/c5sc04027b"
+        ]
+    }
+}

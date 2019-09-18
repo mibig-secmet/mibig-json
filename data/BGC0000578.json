@@ -1,0 +1,82 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "SRO15-2005",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2005.09
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "Derived by automated computational analysis using gene prediction method: Protein Homology.",
+                    "id": "SSGG_RS0132785",
+                    "product": "asparagine synthetase"
+                },
+                {
+                    "comments": "Derived by automated computational analysis using gene prediction method: Protein Homology.",
+                    "id": "SSGG_RS13910",
+                    "product": "asparagine synthetase"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "SSGG_RS0132785",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4290945,
+                                "start": 4290019
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "SSGG_RS13910",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4292235,
+                                "start": 4291216
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_DS999644.1",
+            "completeness": "complete",
+            "end_coord": 4294787,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 4289783
+        },
+        "mibig_accession": "BGC0000578",
+        "minimal": false,
+        "ncbi_tax_id": "457431",
+        "organism_name": "Streptomyces filamentosus NRRL 15998",
+        "publications": [
+            "pubmed:21983601"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Lassopeptide"
+        }
+    }
+}

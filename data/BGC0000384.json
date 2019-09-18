@@ -1,0 +1,104 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic",
+                    "Tumor promoter, irritant, vesicant "
+                ],
+                "chem_struct": "CC(C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)[C@](C)(CCC=C(C)C)C=C)CO",
+                "chem_targets": [
+                    {
+                        "target": "Protein kinase C (activator)"
+                    }
+                ],
+                "compound": "Lyngbyatoxin",
+                "database_id": [
+                    "pubchem:91706",
+                    "chebi:80050",
+                    "chemspider:10472344"
+                ],
+                "mol_mass": 700.6067,
+                "molecular_formula": "C52H2N3O2"
+            }
+        ],
+        "loci": {
+            "accession": "AY588942.1",
+            "completeness": "complete",
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000384",
+        "minimal": false,
+        "ncbi_tax_id": "158786",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAT12283",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ]
+        },
+        "organism_name": "Lyngbya majuscula",
+        "publications": [
+            "pubmed:107586",
+            "pubmed:15366877",
+            "pubmed:20000453",
+            "pubmed:22314229",
+            "pubmed:13880125",
+            "pubmed:24839542",
+            "pubmed:23751865"
+        ]
+    },
+    "comments": "Only one condensation domain is present within AAT12283"
+}

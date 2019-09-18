@@ -1,0 +1,220 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "COC1=C(C)C(=O)C(C)=C(O1)C1C\\C(CO1)=C\\C(\\C)=C\\C(\\C)=C\\C(\\C)=C\\C1=CC=C(C=C1)N(=O)=O",
+                "compound": "Spectinabilin",
+                "database_id": [
+                    "npatlas:1602"
+                ],
+                "mol_mass": 446.3111,
+                "molecular_formula": "C28NO6"
+            },
+            {
+                "chem_struct": "COC1=C(C)C(=O)C(C)=C(O1)[C@H]1C\\C(CO1)=C\\C1=CC=C(C=C1)N(=O)=O",
+                "compound": "Orinocin",
+                "database_id": [
+                    "npatlas:11246"
+                ],
+                "mol_mass": 339.22,
+                "molecular_formula": "C19HNO6"
+            },
+            {
+                "chem_acts": [
+                    "immunosuppressive"
+                ],
+                "chem_struct": "[H][C@]12C(C)=CC(C)=C[C@@]1(C)[C@@H](C1=CC=C(C=C1)N(=O)=O)[C@@]21CO[C@H](C1)C1=C(C)C(=O)C(C)=C(OC)O1",
+                "compound": "SNF4435C",
+                "database_id": [
+                    "npatlas:19666",
+                    "chemspider:8088555"
+                ],
+                "mol_mass": 449.3348,
+                "molecular_formula": "C28H3NO6"
+            },
+            {
+                "chem_acts": [
+                    "immunosuppressive"
+                ],
+                "chem_struct": "[H][C@]12C(C)=CC(C)=C[C@@]1(C)[C@@H](C1=CC=C(C=C1)N(=O)=O)[C@@]21CO[C@@H](C1)C1=C(C)C(=O)C(C)=C(OC)O1",
+                "compound": "SNF4435D",
+                "database_id": [
+                    "npatlas:1579",
+                    "chemspider:8226279"
+                ],
+                "mol_mass": 449.3348,
+                "molecular_formula": "C28H3NO6"
+            }
+        ],
+        "loci": {
+            "accession": "AM778535.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000110",
+        "minimal": false,
+        "ncbi_tax_id": "67339",
+        "organism_name": "Streptomyces orinoci",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "p-Nitrobenzoate",
+            "subclasses": [
+                "Polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAO85893.1",
+                        "CAO85898.1",
+                        "CAO85897.1",
+                        "CAO85896.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CAO85893.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CAO85896.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CAO85896.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CAO85897.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "CAO85898.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "CAO85898.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:17763486",
+            "pubmed:19651421",
+            "pubmed:24402879",
+            "pubmed:11897600",
+            "pubmed:5593974",
+            "pubmed:11560371",
+            "pubmed:20094652",
+            "pubmed:23968564"
+        ]
+    },
+    "comments": "The AT domain within module 6 is inactive and thus module 6 uses the AT domain from module 5."
+}

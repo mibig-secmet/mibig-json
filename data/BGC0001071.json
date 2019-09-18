@@ -1,0 +1,275 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "Unknown"
+                    }
+                ],
+                "chem_struct": "C[C@@H]1[C@H](C)C(C[C@@]([C@H](O)C(N/C=C/C(CO)[C@@H](O)C(C)C(N2CCC[C@H]2[C@H](O)CC(N)=O)=O)=O)(OC)O1)=C",
+                "compound": "nosperin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 518.3548,
+                "molecular_formula": "C26H6N4O9"
+            }
+        ],
+        "loci": {
+            "accession": "GQ979609.2",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001071",
+        "minimal": false,
+        "ncbi_tax_id": "414689",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ADA69239.2",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "10"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "5"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Nostoc sp. 'Peltigera membranacea cyanobiont'",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ADA69241.1",
+                        "ADA69237.1",
+                        "ADA69247.1",
+                        "ADA69239.2"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Acetyl-CoA"
+                            ],
+                            "domains": [
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "ADA69237.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69237.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69237.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69237.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69239.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69239.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69239.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69239.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ADA69239.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "9"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "ADA69241.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "11"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I",
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "ADA69247.1"
+                        ]
+                    }
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23898213"
+        ]
+    }
+}

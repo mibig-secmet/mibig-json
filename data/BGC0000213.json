@@ -1,0 +1,91 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "3-amino-4-hydroxybenzoic acid"
+                    }
+                ],
+                "chem_struct": "O=C(NC1=C[C@](/C=C/C=C/C=C/C=C/C(NC2=C(O)CCC2=O)=O)(O)C3C(O3)C1=O)/C=C/C=C/C=C/C=C\\C=C\\C",
+                "chem_targets": [
+                    {
+                        "target": "caspase 1"
+                    }
+                ],
+                "compound": "colabomycin E",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 604.404,
+                "molecular_formula": "C36N2O9"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AIL50163.1",
+                    "name": "colR5",
+                    "product": "regulatory protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF850685.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000213",
+        "minimal": false,
+        "ncbi_tax_id": "193461",
+        "organism_name": "Streptomyces aureus",
+        "polyketide": {
+            "cyclic": false,
+            "ketide_length": 9,
+            "subclasses": [
+                "Polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AIL50179.1",
+                        "AIL50166.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24838618"
+        ]
+    }
+}

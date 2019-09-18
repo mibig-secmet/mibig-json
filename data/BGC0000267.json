@@ -1,0 +1,116 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@@H]1O[C@H](CC[C@@H]1O)O[C@@H]1C[C@H](O[C@H]2CC[C@H](O[C@@H]3C[C@H](O[C@H]4CC[C@H](O[C@@]5(C)CC(=O)[C@]6(O)C7=C(OC8=C(C=CC([C@H]9C[C@@H](O)[C@H](O[C@H]%10C[C@H](O)C(O[C@H]%11CC[C@H](O[C@@H]%12O[C@@H](C)C(=O)C=C%12)[C@H](C)O%11)[C@H](C)O%10)[C@@H](C)O9)=C8O)C7=O)C=C[C@]6(O)C5)O[C@H]4C)O[C@H](C)[C@H]3O)O[C@H]2C)O[C@H](C)[C@H]1O",
+                "compound": "Saquayamycin Z",
+                "database_id": [
+                    "npatlas:2196"
+                ],
+                "mol_mass": 1846.3289,
+                "molecular_formula": "C102H29O37"
+            }
+        ],
+        "loci": {
+            "accession": "FJ670504.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000267",
+        "minimal": false,
+        "ncbi_tax_id": "428986",
+        "organism_name": "Micromonospora sp. Tu 6368",
+        "polyketide": {
+            "cyclases": [
+                "ACP19352.1",
+                "ACP19357.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 9,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Angucycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ACP19357.1",
+                        "ACP19353.1",
+                        "ACP19352.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:19384899"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "ACP19370.1",
+                    "specificity": "D-olivose"
+                },
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "ACP19363.1",
+                    "specificity": "L-rhodinose"
+                },
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "ACP19364.1",
+                    "specificity": "D-olivose"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ACP19365.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "ACP19361.1",
+                    "specificity": "L-Rhodinose"
+                },
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "ACP19375.1",
+                    "specificity": "2-deoxy-L-fucose"
+                }
+            ],
+            "subclass": "oligosaccharide"
+        }
+    }
+}

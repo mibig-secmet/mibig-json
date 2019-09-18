@@ -1,0 +1,211 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "[H][C@]1(C\\C=C(/C)\\C=C(C)\\[C@]([H])(O[C@@H]2OC(C)(C)[C@@H](OC(=O)C(C)C)[C@H](O)[C@@H]2O)[C@@H](CC)\\C=C(C)\\[C@@H](O)C\\C=C\\C=C(CO[C@@H]2O[C@H](C)[C@@H](OC(=O)C3=C(O)C(Cl)=C(O)C(Cl)=C3CC)[C@H](O)[C@@H]2OC)\\C(=O)O1)[C@@H](C)O",
+                "chem_synonyms": [
+                    "dificid",
+                    "fidaxomicin",
+                    "lipiarmicin",
+                    "difimicin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "RNA polymerase"
+                    }
+                ],
+                "compound": "Tiacumicin B",
+                "database_id": [
+                    "npatlas:3282",
+                    "pubchem:70678896"
+                ],
+                "mol_mass": 998.7378,
+                "molecular_formula": "C58H14O18"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADU86026.1",
+                    "name": "tiaG1",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADU85983.1",
+                    "name": "tiaS2",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADU85989.1",
+                    "name": "tiaG2",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADU85996.1",
+                    "name": "tiaP1",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADU85997.1",
+                    "name": "tiaS5",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADU85999.1",
+                    "name": "tiaM",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADU86000.1",
+                    "name": "tiaS6",
+                    "tailoring": [
+                        "Acylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADU86001.1",
+                    "name": "tiaP2",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HQ011923.1",
+            "completeness": "complete",
+            "end_coord": 88527,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ],
+            "start_coord": 6044
+        },
+        "mibig_accession": "BGC0000165",
+        "minimal": false,
+        "ncbi_tax_id": "703577",
+        "organism_name": "Dactylosporangium aurantiacum subsp. hamdenensis",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Ethylmalonyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "tiaE"
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "tiaE",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21186805",
+            "pubmed:21633995"
+        ]
+    }
+}

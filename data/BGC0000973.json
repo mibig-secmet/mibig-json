@@ -1,0 +1,219 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Neuroprotectant"
+                ],
+                "chem_struct": "COC1=C(/C(=C\\N=O)/NC(=C1)C2=CC=CC=N2)SC",
+                "compound": "collismycin A",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 288.2396,
+                "molecular_formula": "C14N4O2S"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC55909.1",
+                    "name": "clmM2",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC55911.1",
+                    "name": "clmAT",
+                    "tailoring": [
+                        "Amination"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC55912.1",
+                    "name": "clmM1",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC55914.1",
+                    "name": "clmG2"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC55915.1",
+                    "name": "clmM"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC55916.1",
+                    "name": "clmAH"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HE575208.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000973",
+        "minimal": false,
+        "ncbi_tax_id": "1068630",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "CCC55921.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "modification_domains": [
+                                "Cyclase"
+                            ],
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CCC55922.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Streptomyces sp. CS40",
+        "polyketide": {
+            "cyclic": true,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CCC55918.1",
+                        "CCC55921.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "CCC55918.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CCC55921.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:22444595"
+        ]
+    }
+}

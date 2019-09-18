@@ -1,0 +1,136 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "O=C(NC(C)C(NC(CC1=CNC2=C1C=CC=C2)C(O)=O)=O)C(N)CC3=CC=CC=C3",
+                "compound": "Sevadicin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 468.3434,
+                "molecular_formula": "C29N4O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGZ03650.1",
+                    "name": "sevA",
+                    "product": "sevA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGZ03651.1",
+                    "name": "sevB",
+                    "product": "sevB"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF318360.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000426",
+        "minimal": false,
+        "ncbi_tax_id": "1464",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "AGZ03650.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Phenylalanine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGZ03651.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "thioesterases": [
+                {
+                    "gene": "AGZ03651.1",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Paenibacillus larvae",
+        "publications": [
+            "pubmed:25118351"
+        ]
+    }
+}

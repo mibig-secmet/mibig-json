@@ -1,0 +1,200 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Neurotoxic"
+                ],
+                "chem_struct": "CC(=O)C1=CCC[C@@H]2CC[C@H]1N2",
+                "chem_targets": [
+                    {
+                        "target": "Nicotinic acetylcholine receptor"
+                    }
+                ],
+                "compound": "Anatoxin-a",
+                "database_id": [
+                    "pubchem:3034748"
+                ],
+                "mol_mass": 166.1386,
+                "molecular_formula": "C10H2N2O"
+            },
+            {
+                "chem_acts": [
+                    "Neurotoxic"
+                ],
+                "chem_struct": "CCC(=O)C1=CCC[C@@H]2CC[C@H]1N2",
+                "chem_targets": [
+                    {
+                        "target": "Nicotinic acetylcholine receptor"
+                    }
+                ],
+                "compound": "Homoanatoxin-a",
+                "database_id": [
+                    "pubchem:126727"
+                ],
+                "mol_mass": 178.1496,
+                "molecular_formula": "C11H2N2O"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Other enzymatic",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACR33074.1",
+                    "name": "anaB",
+                    "product": "Prolyl-ACP oxidase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACR33075.1",
+                    "name": "anaC",
+                    "product": "Proline adenylation protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACR33076.1",
+                    "name": "anaD",
+                    "product": "Acyl carrier protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FJ477836.1",
+            "completeness": "complete",
+            "evidence": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000017",
+        "minimal": false,
+        "ncbi_tax_id": "272129",
+        "organism_name": "[Oscillatoria] sp. PCC 6506",
+        "polyketide": {
+            "cyclic": true,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "anaA",
+                        "anaG",
+                        "anaF",
+                        "anaE"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "anaE"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "anaF"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase"
+                            ],
+                            "genes": [
+                                "anaG"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "anaA",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:25108149",
+            "pubmed:24311576",
+            "pubmed:21786780",
+            "pubmed:20675499",
+            "pubmed:19954230",
+            "pubmed:19489636",
+            "pubmed:19447947",
+            "pubmed:21873484",
+            "pubmed:23277585"
+        ]
+    }
+}

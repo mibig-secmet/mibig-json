@@ -1,0 +1,193 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C([C@H](CC(N)=O)NC1=O)N[C@H](CC(N)=O)C(N[C@H]([C@@H](C)CC)C(O[C@H](C)[C@H](C(N[C@@H]1C(C)C)=O)NC(/C=C/C=C/C=C/C=C/C2=CC=C(O)C(Br)=C2)=O)=O)=O",
+                "compound": "bromoalterochromide A",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 756.3462,
+                "molecular_formula": "BC40H7N7O10"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_AHCC01000002.1",
+            "completeness": "complete",
+            "end_coord": 238338,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 204471
+        },
+        "mibig_accession": "BGC0000314",
+        "minimal": false,
+        "ncbi_tax_id": "1117317",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_010369400.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "nonproteinogenic": [
+                                    "Coumaric acid"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "A0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_010369425.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "B1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_010369428.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "B2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Asparagine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "B3"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_010369430.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Asparagine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "B4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "B5"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Pseudoalteromonas piscicida JCM 20779",
+        "other": {
+            "subclass": "Aminocoumarin"
+        },
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_010369404.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_010369404.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "A1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23798442",
+            "pubmed:25140825"
+        ]
+    }
+}

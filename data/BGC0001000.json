@@ -1,0 +1,306 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@H]1[C@H](CCCC(C)(Cl)Cl)OC(=O)C2=CSC(=N2)[C@@H](OC(C)=O)C(C)(C)OC(=O)C2=CSC(=N2)[C@@H](OC1=O)C(C)(C)O",
+                "chem_targets": [
+                    {
+                        "target": "actin"
+                    }
+                ],
+                "compound": "Hectochlorin",
+                "database_id": [
+                    "npatlas:11115",
+                    "pubchem:636718"
+                ],
+                "mol_mass": 640.514,
+                "molecular_formula": "C31H4N4O9S2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42393.1",
+                    "name": "HctA",
+                    "product": "Acyl-ACP synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42394.1",
+                    "name": "HctB",
+                    "product": "Putative halogenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42395.1",
+                    "name": "HctC",
+                    "product": "Putative transposase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42396.1",
+                    "name": "HctD",
+                    "product": "Polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42397.1",
+                    "name": "HctE",
+                    "product": "Nonribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42398.1",
+                    "name": "HctF",
+                    "product": "Nonribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42399.1",
+                    "name": "HctG",
+                    "product": "Cytochrome P450 monooxygenase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAY42400.1",
+                    "name": "HctH",
+                    "product": "Cytochrome P450 monooxygenase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AY974560.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001000",
+        "minimal": false,
+        "ncbi_tax_id": "158786",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAY42393.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAY42397.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "2-oxo-isovaleric acid"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "3"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAY42398.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "2-oxo-isovaleric acid"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "5"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "subclass": "Other lipopeptide",
+            "thioesterases": [
+                {
+                    "gene": "AAY42398.1",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Lyngbya majuscula",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AAY42396.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "AAY42396.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "1",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:18001088",
+            "pubmed:12088429"
+        ]
+    },
+    "comments": "The phylogeny/classification of the producing organism for this molecule has been updated from Lyngbya majuscula JHB to Moorea producens JHB. "
+}

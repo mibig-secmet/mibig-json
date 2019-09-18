@@ -1,0 +1,248 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Disulfide bridge",
+                        "subcluster": [
+                            "yp_442880",
+                            "3850100"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C(NC(C(C)C)C(O)CC1=O)C(CSSCC/C=C/C2O1)NC(C(NC(C2)=O)CCSC)=O",
+                "chem_synonyms": [
+                    "thailandepsin c"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Histone deactylase inhibitor (HDAC)"
+                    }
+                ],
+                "compound": "Burkholdac A",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 522.4605,
+                "molecular_formula": "C24N3O6S3"
+            }
+        ],
+        "loci": {
+            "accession": "CP000086.1",
+            "completeness": "complete",
+            "end_coord": 2694284,
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 2655707
+        },
+        "mibig_accession": "BGC0000964",
+        "minimal": false,
+        "ncbi_tax_id": "271848",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABC39418.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABC36785.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Methionine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "6"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABC38000.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "thioesterases": [
+                {
+                    "gene": "yp_442881",
+                    "thioesterase_type": "Type I"
+                },
+                {
+                    "gene": "83720112",
+                    "thioesterase_type": "Type I"
+                },
+                {
+                    "gene": "3849184",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Burkholderia thailandensis E264",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Ansamycin"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ABC38737.1",
+                        "ABC39418.1",
+                        "ABC38101.1",
+                        "ABC36687.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "CoA-ligase"
+                            ],
+                            "genes": [
+                                "ABC39418.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC38737.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC36687.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Epimerization"
+                            ],
+                            "genes": [
+                                "ABC38101.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7"
+                        }
+                    ],
+                    "subclass": [
+                        "Trans-AT type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21348454",
+            "pubmed:22091906",
+            "pubmed:24589486"
+        ]
+    }
+}

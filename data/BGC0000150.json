@@ -1,0 +1,115 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "[H]C12OC11C(=O)C(C)=C3OC45C(O)C6=C(C(Cl)=C(C=C6)[C@@]([H])(O)COC(=O)[C@]1([H])OC)C4(OC23O)C([H])(O)CC5([H])O",
+                "compound": "Sporolide A",
+                "mol_mass": 1770.4733,
+                "molecular_formula": "C131H5O12"
+            },
+            {
+                "chem_struct": "CC1=C2[C@@]3([C@H]4[C@@](C1=O)(O4)[C@H](C(=O)OC[C@@H](C5=CC6=C([C@H]([C@@]7([C@@]6(O3)[C@@H](C[C@H]7O)O)O2)O)C(=C5)Cl)O)OC)O",
+                "compound": "Sporolide B",
+                "database_id": [
+                    "npatlas:7130"
+                ],
+                "mol_mass": 762.4656,
+                "molecular_formula": "C39H6O18"
+            }
+        ],
+        "loci": {
+            "accession": "CP000667.1",
+            "completeness": "complete",
+            "end_coord": 3086780,
+            "evidence": [
+                "Enzymatic assays"
+            ],
+            "start_coord": 3027087
+        },
+        "mibig_accession": "BGC0000150",
+        "minimal": false,
+        "ncbi_tax_id": "369723",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ABP55165.1",
+                    "modules": [
+                        {
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Salinispora tropica CNB-440",
+        "polyketide": {
+            "cyclic": true,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Enediyine"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "stro2696",
+                        "stro2697",
+                        "ABP55141.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "ABP55141.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ],
+                    "subclass": [
+                        "Enediyne type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "stro2696",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:18232689"
+        ]
+    }
+}

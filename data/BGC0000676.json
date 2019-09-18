@@ -1,0 +1,177 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@]12C[C@]3([H])C[C@]1(CC[C@]3(O)CO)[C@@]1(C)CC[C@@H](O)[C@@](C)(CO)[C@]1([H])CC2",
+                "chem_targets": [
+                    {
+                        "target": "DNA polymerase alpha"
+                    }
+                ],
+                "compound": "Aphidicolin",
+                "database_id": [
+                    "npatlas:10945",
+                    "pubchem:457964",
+                    "chebi:2766",
+                    "chembl:29711",
+                    "chemspider:10280269"
+                ],
+                "mol_mass": 320.2602,
+                "molecular_formula": "C21H4O4"
+            },
+            {
+                "chem_struct": "C[C@]12CCCC([C@@H]1CC[C@@H]3[C@@]24CC[C@@]([C@@H](C3)C4)(C)O)(C)C",
+                "compound": "Aphidicolan-16beta-ol",
+                "database_id": [
+                    "pubchem:443480",
+                    "chebi:29519",
+                    "chemspider:23106949"
+                ],
+                "mol_mass": 319.2981,
+                "molecular_formula": "C25H3O"
+            },
+            {
+                "chem_struct": "[H][C@]12C[C@]3([H])C[C@]1(CC[C@]3(O)CO)[C@@]1(C)CCC[C@@](C)(CO)[C@]1([H])CC2",
+                "compound": "3-deoxyaphidicolin",
+                "database_id": [
+                    "npatlas:1381",
+                    "pubchem:135046",
+                    "chemspider:119001"
+                ],
+                "mol_mass": 303.2529,
+                "molecular_formula": "C21H3O3"
+            },
+            {
+                "chem_struct": "C[C@@]1(CO)[C@H](O)CC[C@@]2(C)[C@@]1([H])CC[C@]3([H])[C@]2(CC[C@@]4(C)O)C[C@@]4([H])C3",
+                "compound": "17-deoxyaphidicolin",
+                "mol_mass": 316.2718,
+                "molecular_formula": "C22H4O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "BAD29970.1",
+                    "name": "PbGGS",
+                    "product": "geranylgeranyldiphosphate synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "BAD29971.1",
+                    "name": "ACS",
+                    "product": "aphidicolan-16b-ol synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "BAD29972.1",
+                    "name": "PbP450-1",
+                    "product": "P450 monooxygenase 1",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAD29973.1",
+                    "name": "PbTP",
+                    "product": "transporter protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "BAD29974.1",
+                    "name": "PbP450-2",
+                    "product": "P450 monooxygenase 2",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAD29975.1",
+                    "name": "PbTF",
+                    "product": "transcription factor"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AB114137.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000676",
+        "minimal": false,
+        "ncbi_tax_id": "137527",
+        "organism_name": "Phoma betae",
+        "publications": [
+            "pubmed:14745177"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Diterpene",
+            "terpene_precursor": "GGPP",
+            "terpene_synth_cycl": [
+                "bad29970"
+            ]
+        }
+    }
+}

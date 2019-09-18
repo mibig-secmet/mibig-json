@@ -1,0 +1,62 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated reference publication(s) (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCC(C)C1=CC(O)=C(CC)C(=O)O1",
+                "compound": "Germicidin",
+                "database_id": [
+                    "npatlas:10967"
+                ],
+                "mol_mass": 180.1192,
+                "molecular_formula": "C11O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "smCOG: SMCOG1024:chalcone_and_stilbene_synthase_domain_protein (Score: 335.7; E-value: 4.2e-102);",
+                    "id": "gcsA",
+                    "product": "germicidin synthase"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "gcsA",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 1185,
+                                "start": 1
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "LT989884.1",
+            "completeness": "Unknown"
+        },
+        "mibig_accession": "BGC0001454",
+        "minimal": true,
+        "ncbi_tax_id": "41951",
+        "organism_name": "Streptomyces argillaceus",
+        "publications": [
+            "pubmed:29795673"
+        ]
+    }
+}

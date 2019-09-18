@@ -1,0 +1,209 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "epoxyketone"
+                    }
+                ],
+                "chem_struct": "CC[C@H](C)[C@@H](C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(C)C)C(=O)[C@]1(CO1)C)NC(=O)[C@H]([C@@H](C)CC)N(C)C(=O)C",
+                "chem_targets": [
+                    {
+                        "target": "proteasome"
+                    }
+                ],
+                "compound": "epoxomicin",
+                "database_id": [
+                    "pubchem:11226684",
+                    "pubchem:9915668"
+                ],
+                "mol_mass": 511.3859,
+                "molecular_formula": "C28H7N4O7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AHB38494.1",
+                    "name": "epxA",
+                    "product": "TetR-like transcriptional regulator"
+                },
+                {
+                    "id": "AHB38495.1",
+                    "name": "epxB",
+                    "product": "FAD-dependent oxidoreductase"
+                },
+                {
+                    "id": "AHB38496.1",
+                    "name": "epxC",
+                    "product": "cytochrome P450",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "AHB38497.1",
+                    "name": "epxD",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "id": "AHB38498.1",
+                    "name": "epxE",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "id": "AHB38499.1",
+                    "name": "epxF",
+                    "product": "acyl-CoA dehydrogenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF647219.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000346",
+        "minimal": false,
+        "ncbi_tax_id": "334858",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "AHB38497.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ],
+            "thioesterases": [
+                {
+                    "gene": "AHB38498.1",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
+        "organism_name": "Goodfellowiella coeruleoviolacea",
+        "polyketide": {
+            "cyclic": false,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AHB38498.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "AHB38498.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "5",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24168704",
+            "pubmed:1468981",
+            "pubmed:10465562",
+            "pubmed:10468620"
+        ]
+    }
+}

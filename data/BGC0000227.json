@@ -1,0 +1,105 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "C[C@@H]1[C@]2(c3c(c(c4c(c3O)C(=O)C5=C(C4=O)[C@H]6[C@H](CC(=O)O6)OC5C)O)[C@@H](O1)C[C@H]2O)O",
+                "compound": "granaticin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 569.3275,
+                "molecular_formula": "C27H5O15"
+            }
+        ],
+        "loci": {
+            "accession": "AJ011500.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000227",
+        "minimal": false,
+        "ncbi_tax_id": "1935",
+        "organism_name": "Streptomyces violaceoruber",
+        "polyketide": {
+            "cyclic": true,
+            "ketide_length": -1,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Ansamycin"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAA09654.1",
+                        "CAA09655.1",
+                        "CAA09653.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "CAA09653.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "CoA-ligase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CAA09654.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "CAA09655.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:2583128",
+            "pubmed:7476861",
+            "pubmed:9831526"
+        ]
+    }
+}

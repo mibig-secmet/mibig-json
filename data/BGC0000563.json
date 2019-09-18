@@ -1,0 +1,74 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_synonyms": [
+                    "venA"
+                ],
+                "compound": "Venezuelin",
+                "mol_mass": -1
+            }
+        ],
+        "loci": {
+            "accession": "HQ328852.1",
+            "completeness": "complete",
+            "evidence": [
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0000563",
+        "minimal": false,
+        "ncbi_tax_id": "953739",
+        "organism_name": "Streptomyces venezuelae ATCC 10712",
+        "publications": [
+            "pubmed:20351769",
+            "pubmed:21229987"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "ATCECVGLLTLLNTVCIGISCA"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 2,
+                            "second_AA": 21
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 3,
+                            "second_AA": 7
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 9,
+                            "second_AA": 20
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 13,
+                            "second_AA": 18
+                        }
+                    ],
+                    "gene_id": "AEA03263.1",
+                    "leader_sequence": "MENHDIELLAHLHALPETDPVGVDGAPFA"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

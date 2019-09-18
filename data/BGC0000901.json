@@ -1,0 +1,124 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated reference publication(s) (MIBiG Annotathon)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(=O)N(CCCC1C(=O)NC(C(=O)NC(C(=O)NCC(=O)NCC(=O)NCC(=O)N1)CCCN(C(=O)C)[O-])CCCN(C(=O)C)[O-])[O-].[55Fe+3]",
+                "compound": "ferrichrome",
+                "database_id": [
+                    "pubchem:644246"
+                ],
+                "mol_mass": 661.3485,
+                "molecular_formula": "C27FN9O12"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "smCOG: SMCOG1002:AMP-dependent_synthetase_and_ligase (Score: 259.5; E-value: 8e-79);",
+                    "id": "ctg1_orf000000"
+                },
+                {
+                    "comments": "smCOG: SMCOG1002:AMP-dependent_synthetase_and_ligase (Score: 199.1; E-value: 1.6e-60);",
+                    "id": "ctg1_orf00001"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "ctg1_orf000000",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 11190,
+                                "start": 1762
+                            },
+                            {
+                                "end": 11373,
+                                "start": 11362
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "ctg1_orf00001",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 13092,
+                                "start": 11685
+                            },
+                            {
+                                "end": 13437,
+                                "start": 13336
+                            },
+                            {
+                                "end": 13749,
+                                "start": 13558
+                            },
+                            {
+                                "end": 15126,
+                                "start": 13825
+                            },
+                            {
+                                "end": 16491,
+                                "start": 15484
+                            },
+                            {
+                                "end": 19169,
+                                "start": 17089
+                            },
+                            {
+                                "end": 22593,
+                                "start": 19224
+                            },
+                            {
+                                "end": 22750,
+                                "start": 22662
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "ctg1_orf0002",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 23020,
+                                "start": 22914
+                            },
+                            {
+                                "end": 22839,
+                                "start": 22834
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "DJ389528.1",
+            "completeness": "Unknown"
+        },
+        "mibig_accession": "BGC0000901",
+        "minimal": true,
+        "ncbi_tax_id": "5061",
+        "organism_name": "Aspergillus niger",
+        "publications": [
+            "pubmed:25062661"
+        ]
+    }
+}

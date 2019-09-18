@@ -1,0 +1,118 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCCCCCCCCCCCCCCC=C",
+                "chem_synonyms": [
+                    "heptadec-1-ene"
+                ],
+                "compound": "1-heptadecene",
+                "database_id": [
+                    "pubchem:23217"
+                ],
+                "mol_mass": 204.187,
+                "molecular_formula": "C17"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHH34187.1",
+                    "product": "fatty acyl ACP ligase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHH34186.1",
+                    "product": "polyketide synthase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF550301.1",
+            "completeness": "complete",
+            "end_coord": 9161,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0001161",
+        "minimal": false,
+        "ncbi_tax_id": "568701",
+        "organism_name": "Moorea bouillonii PNG",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ahh34186",
+                        "AHH34186.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Sulfotransferase",
+                                "Thioesterase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AHH34186.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "ahh34186",
+                            "thioesterase_type": "Unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24475038"
+        ]
+    }
+}

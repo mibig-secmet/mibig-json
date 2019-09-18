@@ -1,0 +1,189 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "compound": "Streptolysin S",
+                "mol_mass": -1
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0738",
+                    "name": "sagA",
+                    "product": "RiPP precursor peptide"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0739",
+                    "name": "sagB",
+                    "product": "Dehydrogenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0740",
+                    "name": "sagC",
+                    "product": "Cyclodehydratase partner",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0741",
+                    "name": "sagD",
+                    "product": "Cyclodehydratase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0742",
+                    "name": "sagE",
+                    "product": "Putative protease"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0744",
+                    "name": "sagG",
+                    "product": "ABC transporter "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0745",
+                    "name": "sagH",
+                    "product": "ABC transporter "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SPy_0746",
+                    "name": "sagI",
+                    "product": "ABC transporter "
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AE004092.2",
+            "completeness": "complete",
+            "end_coord": 606966,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 598677
+        },
+        "mibig_accession": "BGC0000566",
+        "minimal": false,
+        "ncbi_tax_id": "160490",
+        "organism_name": "Streptococcus pyogenes M1 GAS",
+        "publications": [
+            "pubmed:10858242",
+            "pubmed:15819624",
+            "pubmed:18375757",
+            "pubmed:19286651",
+            "pubmed:21822292",
+            "pubmed:22001374"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "peptidases": [
+                "SPy_0742"
+            ],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "CCCCCTTCCFSIATGSGNSQGGSGSYTPGK"
+                    ],
+                    "gene_id": "SPy_0738",
+                    "leader_sequence": "MLKFTSNILATSVAETTQVAPGG",
+                    "recognition_motif": "FxxxI"
+                }
+            ],
+            "subclass": "LAP"
+        }
+    }
+}

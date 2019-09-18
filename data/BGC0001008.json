@@ -1,0 +1,183 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antioxidant"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "3,6-dimethylsalicylate",
+                        "subcluster": [
+                            "ABY66020.1",
+                            "ABY66019.1",
+                            "ABY66018.1",
+                            "ABY66017.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "COC1=C2C(=C(C=C1)[C@H](CC(=O)N3C[C@H]3/C/4=C/C#C[C@H](O2)[C@]5([C@H](CC=C5C#C4)O)O)O)Cl",
+                "chem_targets": [
+                    {
+                        "target": "DNA"
+                    }
+                ],
+                "compound": "maduropeptin",
+                "database_id": [
+                    "pubchem:102505401",
+                    "chemspider:21805429"
+                ],
+                "mol_mass": 554.4105,
+                "molecular_formula": "C33H4N3O7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABY66005.1",
+                    "name": "mdpC4",
+                    "product": "MIO-containing aminomutase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABY66004.1",
+                    "name": "mdpC1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABY66020.1",
+                    "name": "mdpB1",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABY66018.1",
+                    "name": "mdpB2"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAQ17110.2",
+                    "name": "mdpE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Heterologous expression"
+                            ]
+                        }
+                    ],
+                    "id": "AAQ17111.1",
+                    "name": "mdeE10"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AY271660.2",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001008",
+        "minimal": false,
+        "ncbi_tax_id": "1993",
+        "organism_name": "Actinomadura madurae",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Enediyine"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "mdpE10",
+                        "mdpE",
+                        "mdpB"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 7,
+                        "subtype": "Partially reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I",
+                        "Enediyne type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "mdpE10",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:17918933",
+            "pubmed:18223152",
+            "pubmed:20534556",
+            "pubmed:20718468"
+        ]
+    }
+}

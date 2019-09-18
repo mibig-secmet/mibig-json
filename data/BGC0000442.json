@@ -1,0 +1,78 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC(C)=CCC1=C(C2=CNC3=C2C=CC=C3)C(=O)C(O)=C(C2=C(NC3=C2C=CC=C3)C(C)(C)C=C)C1=O",
+                "compound": "Terrequinone A",
+                "database_id": [
+                    "npatlas:5272"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 604.4956,
+                "molecular_formula": "C44N2O3"
+            }
+        ],
+        "loci": {
+            "accession": "BN001305.1",
+            "completeness": "complete",
+            "end_coord": 741871,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 732113
+        },
+        "mibig_accession": "BGC0000442",
+        "minimal": false,
+        "ncbi_tax_id": "227321",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ABU51602",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "Indole pyruvic acid"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Aspergillus nidulans FGSC A4",
+        "publications": [
+            "pubmed:16426969",
+            "pubmed:17584611",
+            "pubmed:17291795",
+            "pubmed:18029206",
+            "pubmed:17704773"
+        ]
+    }
+}

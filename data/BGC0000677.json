@@ -1,0 +1,127 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(C)C\\1CCC2(/C1=C\\CC(C3C(CC(C3C2)CO)O)(C)O)C",
+                "chem_targets": [
+                    {
+                        "target": "lysophospholipase"
+                    }
+                ],
+                "compound": "cyclooctatin",
+                "database_id": [
+                    "pubchem:5467942"
+                ],
+                "mol_mass": 360.2842,
+                "molecular_formula": "C26O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAI44337.1",
+                    "name": "cotB1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAI44338.1",
+                    "name": "cotB2"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAI44339.1",
+                    "name": "cotB3",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAI44340.1",
+                    "name": "cotB4",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AB448947.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000677",
+        "minimal": false,
+        "ncbi_tax_id": "67327",
+        "organism_name": "Streptomyces melanosporofaciens",
+        "publications": [
+            "pubmed:19635410",
+            "pubmed:1474002",
+            "pubmed:1335449",
+            "pubmed:25689152"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Diterpene",
+            "prenyltransferases": [
+                "BAI44337.1"
+            ],
+            "terpene_precursor": "GGPP",
+            "terpene_synth_cycl": [
+                "BAI44338.1"
+            ]
+        }
+    }
+}

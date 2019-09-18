@@ -1,0 +1,138 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC1=C(O)C(=O)C2=C(C=C(O)C3=C2C(=O)C2=CC=CC(O)=C2C3=O)C1=O",
+                "compound": "Oviedomycin",
+                "database_id": [
+                    "npatlas:18728",
+                    "pubchem:5323531"
+                ],
+                "mol_mass": 436.2928,
+                "molecular_formula": "C27O7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAG14966.1",
+                    "name": "ovmK"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAG14963.1",
+                    "name": "ovmOI",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAG14970.1",
+                    "name": "ovmOII",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAG14971.1",
+                    "name": "ovmOIII",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AJ632203.2",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000253",
+        "minimal": false,
+        "ncbi_tax_id": "1890",
+        "organism_name": "Streptomyces antibioticus",
+        "polyketide": {
+            "cyclases": [
+                "CAG14964.1",
+                "CAG14969.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Angucycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAG14965.1",
+                        "CAG14964.1",
+                        "CAG14967.1",
+                        "CAG14969.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:15368568",
+            "pubmed:18988223"
+        ]
+    }
+}

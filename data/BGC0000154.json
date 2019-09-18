@@ -1,0 +1,229 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antiplasmodial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "tropolone",
+                        "subcluster": [
+                            "TSTA_117750",
+                            "TSTA_117740",
+                            "TSTA_117800"
+                        ]
+                    }
+                ],
+                "chem_struct": "C1=C(C=C(C(=CC1=O)O)O)C(=O)O",
+                "compound": "stipitatic acid",
+                "database_id": [
+                    "pubchem:20501",
+                    "chemspider:19955692"
+                ],
+                "mol_mass": 176.085,
+                "molecular_formula": "C8O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117750",
+                    "name": "tropA",
+                    "product": "NR-PKS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117740",
+                    "name": "tropB",
+                    "product": "FAD oxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117800",
+                    "name": "tropC",
+                    "product": "non-heme iron oxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117730",
+                    "name": "tropD",
+                    "product": "P450",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117820",
+                    "name": "tropE",
+                    "product": "NAD oxidase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117780",
+                    "name": "tropF",
+                    "product": "Hydrolase",
+                    "tailoring": [
+                        "Hydrolysis"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117790",
+                    "name": "tropH",
+                    "product": "NAD oxidase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117760",
+                    "name": "tropI",
+                    "product": "Hydrolase",
+                    "tailoring": [
+                        "Hydrolysis"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "TSTA_117720",
+                    "name": "TropJ",
+                    "product": "Decarboxylase",
+                    "tailoring": [
+                        "Decarboxylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "EQ962655.1",
+            "completeness": "complete",
+            "end_coord": 1837759,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 1805625
+        },
+        "mibig_accession": "BGC0000154",
+        "minimal": false,
+        "ncbi_tax_id": "441959",
+        "organism_name": "Talaromyces stipitatus ATCC 10500",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Reductive release"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "TSTA_117750"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 3,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:22508998",
+            "pubmed:23870699",
+            "pubmed:24863423"
+        ]
+    }
+}

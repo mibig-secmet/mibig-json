@@ -1,0 +1,179 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC1=C(C(=C2[C@@H]3[C@@H]4[C@H]5C6=C([C@@H](N4[C@H]([C@@H](N3C)CC2=C1)O)COC(=O)[C@@]7(CS5)C8=CC(=C(C=C8CCN7)O)OC)C9=C(C(=C6OC(=O)C)C)OCO9)O)OC",
+                "chem_synonyms": [
+                    "yondelis",
+                    "ecteinascidin 743",
+                    "trabectedin"
+                ],
+                "compound": "ET-743",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1543.2328,
+                "molecular_formula": "C73H6N14O19S5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ55474.1",
+                    "name": "etua1",
+                    "product": "NRPS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ55475.1",
+                    "name": "etua2",
+                    "product": "NRPS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ55476.1",
+                    "name": "etua3",
+                    "product": "NRPS"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HQ609499.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0000350",
+        "minimal": false,
+        "ncbi_tax_id": "155900",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ADQ55476.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "3-hydroxy-4-O-methyl-5-methyl-tyrosine"
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "0",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": false,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "3-hydroxy-4-O-methyl-5-methyl-tyrosine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": false,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADQ55474.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "Glycolic acid"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ],
+            "subclass": "Beta-lactam"
+        },
+        "organism_name": "uncultured organism",
+        "publications": [
+            "pubmed:21875091"
+        ]
+    }
+}

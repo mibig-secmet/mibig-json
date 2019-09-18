@@ -1,0 +1,212 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@@](O)(CC1CC(=O)NC(=O)C1)[C@@]1([H])C[C@@H](C)C[C@H](C)C1=O",
+                "chem_targets": [
+                    {
+                        "target": "ribosome E site"
+                    }
+                ],
+                "compound": "Cycloheximide",
+                "database_id": [
+                    "npatlas:12393",
+                    "pubchem:6197"
+                ],
+                "mol_mass": 262.2009,
+                "molecular_formula": "C15H4NO4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59862.1",
+                    "name": "ChxA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59863.1",
+                    "name": "ChxB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59864.1",
+                    "name": "ChxC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59865.1",
+                    "name": "ChxD",
+                    "product": "amidotransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59866.1",
+                    "name": "ChxE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59867.1",
+                    "name": "ChxF"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59868.1",
+                    "name": "ChxG",
+                    "product": "the OYE family of flavoprotein oxidoreductase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59869.1",
+                    "name": "ChxH",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59870.1",
+                    "name": "ChxI",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFO59871.1",
+                    "name": "ChxJ",
+                    "product": "three-domain carboxylic acid reductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JX014302.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000175",
+        "minimal": false,
+        "ncbi_tax_id": "1211968",
+        "organism_name": "Streptomyces sp. YIM 56141",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AFO59863.1"
+                    ],
+                    "subclass": [
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "AFO59863.1"
+                        ]
+                    }
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24815182",
+            "pubmed:21139626"
+        ]
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(C)CCCC[C@@H](O)[C@H]1[C@H](CO)COC1=O",
+                "compound": "SCB-1",
+                "database_id": [
+                    "npatlas:10708"
+                ],
+                "mol_mass": 223.1643,
+                "molecular_formula": "C13H3O4"
+            },
+            {
+                "chem_acts": [
+                    "Signalling"
+                ],
+                "chem_struct": "[H][C@]1([C@H](O)CCCCCCC)[C@H](CO)COC1=O",
+                "chem_targets": [
+                    {
+                        "target": "SCO6265"
+                    }
+                ],
+                "compound": "SCB2",
+                "database_id": [
+                    "npatlas:6705"
+                ],
+                "mol_mass": 223.1643,
+                "molecular_formula": "C13H3O4"
+            },
+            {
+                "chem_acts": [
+                    "Signalling"
+                ],
+                "chem_struct": "[H][C@]1([C@H](O)CCCCC(C)CC)[C@H](CO)COC1=O",
+                "chem_targets": [
+                    {
+                        "target": "SCO6265"
+                    }
+                ],
+                "compound": "SCB3",
+                "database_id": [
+                    "npatlas:19584"
+                ],
+                "mol_mass": 235.1753,
+                "molecular_formula": "C14H3O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO6265",
+                    "name": "scbR"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO6266",
+                    "name": "scbA",
+                    "product": "SCBs Biosynthesis Enzyme"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AL645882.2",
+            "completeness": "complete",
+            "end_coord": 6892237,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 6890528
+        },
+        "mibig_accession": "BGC0000849",
+        "minimal": false,
+        "ncbi_tax_id": "100226",
+        "organism_name": "Streptomyces coelicolor A3(2)",
+        "other": {
+            "subclass": "Butyrolactone"
+        },
+        "publications": [
+            "pubmed:12000953",
+            "pubmed:8843436"
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Indole/benzopyrrole"
+        },
+        "biosyn_class": [
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Indole group",
+                        "subcluster": [
+                            "AHE14639.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C1C2=C(C(C(OC)=O)N1)C3=C(C4=C2C5=CC=CC=C5N4)NC6=CC=CC=C63",
+                "chem_synonyms": [
+                    "erdasporine"
+                ],
+                "compound": "erdasporine A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 1381.1824,
+                "molecular_formula": "C104N6O3"
+            },
+            {
+                "chem_struct": "COC(=O)C1=C2C(=CN1)C3=C(C4=C2C5=CC=CC=C5N4)NC6=CC=CC=C63",
+                "compound": "erdasporine B",
+                "database_id": [
+                    "pubchem:102584106"
+                ],
+                "mol_mass": 1365.183,
+                "molecular_formula": "C104N6O2"
+            },
+            {
+                "chem_struct": "COC(=O)C1C2=C3C4=CC=CC=C4NC3=C5C(=C2C(=O)N1)C6=CC=CC=C6N5",
+                "compound": "erdasporine C",
+                "database_id": [
+                    "pubchem:102584107"
+                ],
+                "mol_mass": 722.5731,
+                "molecular_formula": "C48N7O3"
+            }
+        ],
+        "loci": {
+            "accession": "KF551865.1",
+            "completeness": "complete",
+            "end_coord": 15215,
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 2596
+        },
+        "mibig_accession": "BGC0001336",
+        "minimal": false,
+        "ncbi_tax_id": "77133",
+        "organism_name": "uncultured bacterium",
+        "publications": [
+            "pubmed:24171465"
+        ]
+    }
+}

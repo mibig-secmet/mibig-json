@@ -1,0 +1,259 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "salicylic acid",
+                        "subcluster": [
+                            "ADQ74616.1",
+                            "ADQ74615.1",
+                            "ADQ74621.1"
+                        ]
+                    },
+                    {
+                        "moiety": "2-pyrroline-5-carboxylic acid ",
+                        "subcluster": [
+                            "ADQ74618.1"
+                        ]
+                    },
+                    {
+                        "moiety": "2,8-dihydroxymyristamide",
+                        "subcluster": [
+                            "ADQ74614.1",
+                            "ADQ74607.1",
+                            "ADQ74608.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C(OC(CCCCCC(O)C(N)=O)CCCCCC)C(CC=C1)N1C(C2=C(O)C=CC=C2)=O",
+                "compound": "Promysalin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 460.3178,
+                "molecular_formula": "C28N2O6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ74607.1",
+                    "name": "ppgO",
+                    "product": "glutamine amidotransferase",
+                    "tailoring": [
+                        "Amination"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ74608.1",
+                    "name": "ppgN",
+                    "product": "Rieske [2Fe-2S] domain protein",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "id": "ADQ74609.1",
+                    "name": "ppgA",
+                    "product": "carrier protein"
+                },
+                {
+                    "id": "ADQ74610.1",
+                    "name": "ppgB",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "ADQ74611.1",
+                    "name": "ppgC",
+                    "product": "acyl carrier protein"
+                },
+                {
+                    "id": "ADQ74612.1",
+                    "name": "ppgD",
+                    "product": "beta-hydroxymyristoyl-acyl carrier protein dehydratase"
+                },
+                {
+                    "id": "ADQ74613.1",
+                    "name": "ppgE",
+                    "product": "beta-ketoacyl synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ74614.1",
+                    "name": "ppgF",
+                    "product": "Rieske [2Fe-2S] domain protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ74615.1",
+                    "name": "ppgG",
+                    "product": "isochorismate-pyruvate lyase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ74616.1",
+                    "name": "ppgH",
+                    "product": "isochorismate synthase"
+                },
+                {
+                    "id": "ADQ74617.1",
+                    "name": "ppgI",
+                    "product": "metal-dependent hydrolase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ74618.1",
+                    "name": "ppgJ",
+                    "product": "amino acid adenylation protein"
+                },
+                {
+                    "id": "ADQ74619.1",
+                    "name": "ppgK",
+                    "product": "beta-ketoacyl synthase"
+                },
+                {
+                    "id": "ADQ74620.1",
+                    "name": "ppgL",
+                    "product": "BAHD family acyl transferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADQ74621.1",
+                    "name": "ppgM",
+                    "product": "salicylyl-AMP ligase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "GU211010.1",
+            "completeness": "complete",
+            "end_coord": 20085,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 4335
+        },
+        "mibig_accession": "BGC0000921",
+        "minimal": false,
+        "ncbi_tax_id": "303",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ADQ74618.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Pseudomonas putida",
+        "other": {
+            "subclass": "Shikimate-derived"
+        },
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "ADQ74619.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "ADQ74619.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:22035801"
+        ]
+    }
+}

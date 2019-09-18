@@ -1,0 +1,95 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC1C(=O)c2cc3cccc(c3cc2C(C1(C(=O)O)O)(CCC(C)C)O)O",
+                "chem_targets": [
+                    {
+                        "target": "a2-macroglobulin"
+                    },
+                    {
+                        "target": "glutathione-S-transferase"
+                    }
+                ],
+                "compound": "Rishirilide B ",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 228.1174,
+                "molecular_formula": "C11O6"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC1C(=O)c2cc3cccc(c3cc2C(C1(C(=O)O)O)(CCC(C)C)O)O.CC1C(=O)C2=Cc3cccc(c3C(C24C(C1(C(=O)O4)O)(CCC(C)C)O)O)O",
+                "chem_targets": [
+                    {
+                        "target": "a2-macroglobulin"
+                    },
+                    {
+                        "target": "glutathione-S-transferase"
+                    }
+                ],
+                "compound": "Rishirilide A",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 856.5404,
+                "molecular_formula": "C50O16"
+            }
+        ],
+        "loci": {
+            "accession": "KJ437438.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0001179",
+        "minimal": false,
+        "ncbi_tax_id": "42235",
+        "organism_name": "Streptomyces bottropensis",
+        "polyketide": {
+            "cyclases": [
+                "AHL46720.1",
+                "AHL46724.1",
+                "AHL46707.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 9,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AHL46708.1",
+                        "AHL46710.1",
+                        "AHL46720.1",
+                        "AHL46707.1",
+                        "AHL46724.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:22162248",
+            "pubmed:6209258",
+            "pubmed:1473997"
+        ]
+    }
+}

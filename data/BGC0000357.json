@@ -1,0 +1,233 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 1"
+                ],
+                "compound": "cyclo-(D-Phe-L-Phe-D-Val-L-Val)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 493.2806,
+                "molecular_formula": "C28H36N4O4"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 2"
+                ],
+                "compound": "cyclo-(D-Tyr-L-Phe-D-Val-L-Val)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 509.2757,
+                "molecular_formula": "C28H36N4O5"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 3"
+                ],
+                "compound": "cyclo-(D-Tyr-L-Trp-D-Val-L-Val)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 548.2868,
+                "molecular_formula": "C30H37N5O5"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 4"
+                ],
+                "compound": "cyclo-(D-Phe-L-Trp-D-Val-L-Val)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 532.2916,
+                "molecular_formula": "C30H37N5O4"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 5"
+                ],
+                "compound": "cyclo-(D-Phe-L-Phe-D-Val-L-Ile)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 507.2962,
+                "molecular_formula": "C29H38N4O4"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 6"
+                ],
+                "compound": "cyclo-(D-Phe-L-Phe-D-Ile-L-Val)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 507.2962,
+                "molecular_formula": "C29H38N4O4"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 7"
+                ],
+                "compound": "cyclo-(D-Tyr-L-Trp-D-Val-L-Ile)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 562.3017,
+                "molecular_formula": "C31H39N5O5"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 8"
+                ],
+                "compound": "cyclo-(D-Tyr-L-Trp-D-Ile-L-Val)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 562.3017,
+                "molecular_formula": "C31H39N5O5"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 9"
+                ],
+                "compound": "cyclo-(D-Tyr-L-Phe-D-Val-L-Ile)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 523.2914,
+                "molecular_formula": "C29H38N4O5"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "fungisporin 10"
+                ],
+                "compound": "cyclo-(D-Tyr-L-Phe-D-Ile-L-Val)",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 523.2914,
+                "molecular_formula": "C29H38N4O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAP93139.1",
+                    "name": "HcpA",
+                    "product": "cyclic hydrophobic tetrapeptide"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AM920431.1",
+            "completeness": "complete",
+            "end_coord": 1099362,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 1080827
+        },
+        "mibig_accession": "BGC0000357",
+        "minimal": false,
+        "ncbi_tax_id": "500485",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "CAP93139.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "Phenylalanine, Tyrosine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "(Phenylalanine, Tryptophane),(Valine, Isoleucine)"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "Valine, isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Penicillium rubens Wisconsin 54-1255",
+        "publications": [
+            "pubmed:5371403",
+            "pubmed:24887561"
+        ]
+    }
+}

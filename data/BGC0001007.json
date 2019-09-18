@@ -1,0 +1,139 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(/C=C/OC)=O)=N3)=C3C(NC(C)=O)=C1",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "lymphostin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 372.2584,
+                "molecular_formula": "C20N6O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(CCO)=O)=N3)=C3C(NC(CC)=O)=C1",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "neolymphostinol B",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 372.2584,
+                "molecular_formula": "C20N6O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(CCO)=O)=N3)=C3C(NC(C)=O)=C1",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "lymphostinol",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 360.2474,
+                "molecular_formula": "C19N6O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(/C=C/OC)=O)=N3)=C3C(NC(CC)=O)=C1",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "neolymphostin b",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 384.2694,
+                "molecular_formula": "C21N6O3"
+            }
+        ],
+        "loci": {
+            "accession": "CP000850.1",
+            "completeness": "complete",
+            "end_coord": 3805331,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 3781645
+        },
+        "mibig_accession": "BGC0001007",
+        "minimal": false,
+        "ncbi_tax_id": "391037",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABV99085.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ]
+        },
+        "organism_name": "Salinispora arenicola CNS-205",
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "ABV99085.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "ABV99085.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:19474814",
+            "pubmed:21815669"
+        ]
+    }
+}

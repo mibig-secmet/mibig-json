@@ -1,0 +1,110 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Surfactant"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "lanthionine, dehydroalanine"
+                    }
+                ],
+                "chem_struct": "CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(CSCC(C(=O)NC(C(=O)NC(C(=O)NC(=C)C(=O)N1)CC(C)C)CO)NC(=O)C(CC(=O)O)NC(=O)CNC(=O)C2CSCC(C(=O)NC(C(=O)NC(C(=O)NC(=C)C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)CC(C)C)CC(C)C)CC(C)C)C)CCCNC(=N)N)NC(=O)CNC(=O)C(C(C)O)N)C(=O)NC(CC(=O)N)C(=O)O)C(C)O)C(C)O",
+                "compound": "SapB",
+                "mol_mass": 1913.2118,
+                "molecular_formula": "C85N26O29S2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAA19960.1",
+                    "name": "SCO6681",
+                    "product": "putative serine/threonine protein kinase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAA19961.1",
+                    "name": "SCO6682",
+                    "product": "hypothetical protein SC5A7.32"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAA19962.1",
+                    "name": "SCO6683",
+                    "product": "putative ABC transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAA19963.1",
+                    "name": "SCO6684",
+                    "product": "putative ABC transporter"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AL645882.2",
+            "completeness": "complete",
+            "end_coord": 7426391,
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 7419664
+        },
+        "mibig_accession": "BGC0000551",
+        "minimal": false,
+        "ncbi_tax_id": "100226",
+        "organism_name": "Streptomyces coelicolor A3(2)",
+        "publications": [
+            "pubmed:15277670"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

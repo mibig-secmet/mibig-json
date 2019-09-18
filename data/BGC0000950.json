@@ -1,0 +1,632 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CSCCC(C(NC(C(N/C=C1CC(C(N2C=CC(NC2=O)=O)O/1)O)=O)C(N(C(C3CC4=CC(O)=CC=C4CN3)=O)C)C)=O)NC(NC(C(O)=O)CC5=CC=CC(O)=C5)=O",
+                "chem_synonyms": [
+                    "mureidomycin f"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "translocase I"
+                    }
+                ],
+                "compound": "napsamycin A",
+                "database_id": [
+                    "pubchem:3037825"
+                ],
+                "mol_mass": 1050.7425,
+                "molecular_formula": "C56N11O12S"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CSCCC(C(NC(C(N/C=C1CC(C(N2C=CC(NC2=O)=O)O/1)O)=O)C(N(C(C3CC4=CC(O)=CC=C4C(N3)C)=O)C)C)=O)NC(NC(C(O)=O)CC5=CC=CC(O)=C5)=O",
+                "chem_targets": [
+                    {
+                        "target": "translocase I"
+                    }
+                ],
+                "compound": "napsamycin B",
+                "database_id": [
+                    "pubchem:3037710"
+                ],
+                "mol_mass": 1062.7535,
+                "molecular_formula": "C57N11O12S"
+            },
+            {
+                "chem_struct": "CSCCC(NC(=O)NC(CC1=CC=CC(O)=C1)C(O)=O)C(=O)NC(C(C)N(C)C(=O)C1CC2=CC(O)=CC=C2CN1)C(=O)N\\C=C1\\CC(O)C(O1)N1CCC(=O)NC1=O",
+                "compound": "Napsamycin-C",
+                "database_id": [
+                    "npatlas:1280"
+                ],
+                "mol_mass": 828.5574,
+                "molecular_formula": "C41N8O12S"
+            },
+            {
+                "chem_struct": "CSCCC(NC(=O)NC(CC1=CC=CC(O)=C1)C(O)=O)C(=O)NC(C(C)N(C)C(=O)C1CC2=CC(O)=CC=C2C(C)N1)C(=O)N\\C=C1\\CC(O)C(O1)N1CCC(=O)NC1=O",
+                "compound": "Napsamycin-D",
+                "database_id": [
+                    "npatlas:12755"
+                ],
+                "mol_mass": 840.5684,
+                "molecular_formula": "C42N8O12S"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CC([C@H](C(=O)N/C=C/1\\CC(C(O1)N2CCC(=O)NC2=O)O)NC(=O)[C@H](CCSC)NC(=O)NC(CC3=CC(=CC=C3)O)C(=O)O)N(C)C(=O)[C@H](CC4=CC(=CC=C4)O)N",
+                "chem_targets": [
+                    {
+                        "target": "translocase I"
+                    }
+                ],
+                "compound": "mureidomycin A",
+                "database_id": [
+                    "pubchem:3037004"
+                ],
+                "mol_mass": 941.6758,
+                "molecular_formula": "C49H3N9O12S"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CC([C@H](C(=O)N/C=C/1\\CC(C(O1)N2CCC(=O)NC2=O)O)NC(=O)[C@H](CCSC)NC(=O)NC(CC3=CC(=CC=C3)O)C(=O)O)N(C)C(=O)[C@H](CC4=CC(=CC=C4)O)N",
+                "chem_targets": [
+                    {
+                        "target": "translocase I"
+                    }
+                ],
+                "compound": "mureidomycin B",
+                "database_id": [
+                    "pubchem:101627952",
+                    "pubchem:3037873"
+                ],
+                "mol_mass": 941.6758,
+                "molecular_formula": "C49H3N9O12S"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76657.1",
+                    "name": "npsA",
+                    "product": "transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76658.1",
+                    "name": "npsB",
+                    "product": "N-acetyltransferase",
+                    "tailoring": [
+                        "Acetylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76659.1",
+                    "name": "npsC",
+                    "product": "phosphatase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76660.1",
+                    "name": "npsP1",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76661.1",
+                    "name": "npsP2",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76662.1",
+                    "name": "npsD",
+                    "product": "MbtH-like protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76663.1",
+                    "name": "npsE",
+                    "product": "FAD-depending oxidoreductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76664.1",
+                    "name": "npsP3",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76665.1",
+                    "name": "npsF",
+                    "product": "cupin 2 domain-containing protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76666.1",
+                    "name": "npsP4",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76667.1",
+                    "name": "npsP5",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76668.1",
+                    "name": "npsG",
+                    "product": "argininosuccinate lyase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76669.1",
+                    "name": "npsH",
+                    "product": "homoserine kinase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76670.1",
+                    "name": "npsI",
+                    "product": "DABA synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76671.1",
+                    "name": "npsJ",
+                    "product": "threonine aldolase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76672.1",
+                    "name": "npsK",
+                    "product": "phenylalanine 3-hydroxylase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76673.1",
+                    "name": "npsL",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76674.1",
+                    "name": "npsP6",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76675.1",
+                    "name": "npsM",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76676.1",
+                    "name": "npsN",
+                    "product": "tRNA-dependent amide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76677.1",
+                    "name": "npsO",
+                    "product": "exporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76678.1",
+                    "name": "npsP7",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76679.1",
+                    "name": "npsQ",
+                    "product": "aminotransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76680.1",
+                    "name": "npsR",
+                    "product": "dioxygenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76681.1",
+                    "name": "npsS",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76682.1",
+                    "name": "npsT",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76683.1",
+                    "name": "npsU",
+                    "product": "FMN-depending oxidoreductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76684.1",
+                    "name": "npsP8",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADY76685.1",
+                    "name": "npsV",
+                    "product": "methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HQ287563.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000950",
+        "minimal": false,
+        "ncbi_tax_id": "991132",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ADY76660.1",
+                    "modules": [
+                        {
+                            "active": false
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADY76661.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "LCL"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADY76664.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "m-Tyrosine"
+                                ]
+                            },
+                            "active": false
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADY76666.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "LCL"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADY76667.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "(2S,3S)-2,3-Diaminobutyric acid"
+                                ]
+                            },
+                            "active": false
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADY76674.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "m-Tyrosine"
+                                ]
+                            },
+                            "active": false
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADY76678.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "LCL"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADY76684.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Methionine"
+                                ]
+                            },
+                            "active": false
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Uridylpeptide",
+            "thioesterases": [
+                {
+                    "gene": "ADY76667.1",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Streptomyces sp. DSM 5940",
+        "other": {
+            "subclass": "Nucleoside"
+        },
+        "publications": [
+            "pubmed:21290549",
+            "pubmed:8040059",
+            "pubmed:24115404",
+            "pubmed:2498274",
+            "pubmed:8517724"
+        ]
+    }
+}

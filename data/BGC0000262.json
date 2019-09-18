@@ -1,0 +1,176 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "OC1=CC=CC2=C1C(O)=C(C(C[C@@](CC(C)=C3)(O)[C@]4([H])C3=O)=O)C4=C2",
+                "compound": "prejadomycin",
+                "mol_mass": 417.3129,
+                "molecular_formula": "C28HO5"
+            },
+            {
+                "chem_struct": "C[C@@]1(O)CC(=O)C2=C3C(=O)C4=C(C(O)=CC=C4)C(=O)C3=C(O)C=C2C1",
+                "compound": "Rabelomycin",
+                "database_id": [
+                    "npatlas:19619"
+                ],
+                "mol_mass": 468.3374,
+                "molecular_formula": "C31O6"
+            },
+            {
+                "chem_struct": "O=C1C2=C([C@@H](O)C[C@](O)(CC(C)=C3)[C@]2(O)C3=O)C(C4=C(O)C=CC=C41)=O",
+                "compound": "gaudimycin C",
+                "mol_mass": 917.7407,
+                "molecular_formula": "C67HO7"
+            },
+            {
+                "chem_struct": "O=C1C2=C(C=CC(C[C@](C)(O[C@@H]3O[C@H](C)[C@@H](N)CC3)CC(O)=O)=C2O)C(C4=C(O)C=CC=C41)=O",
+                "compound": "gaudimycin D",
+                "mol_mass": 1009.8176,
+                "molecular_formula": "C72H3NO8"
+            },
+            {
+                "chem_struct": "OC1=C(C(O)=C(C(C[C@@](C[C@@](C)(O)C2)(O)[C@]3([H])C2=O)=O)C3=C4)C4=CC=C1",
+                "compound": "UWM6",
+                "mol_mass": 445.3233,
+                "molecular_formula": "C29HO6"
+            },
+            {
+                "chem_struct": "OC1=C(C(C(CC[C@@](CC(C)=C2)(O)[C@]3(O)C2=O)=C3C4=O)=O)C4=CC=C1",
+                "compound": "gaudimycin A",
+                "mol_mass": 444.3154,
+                "molecular_formula": "C29O6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AAK57524.1",
+                    "name": "pgaF"
+                },
+                {
+                    "id": "AAK57529.1",
+                    "name": "pgaL"
+                },
+                {
+                    "id": "AAK57522.1",
+                    "name": "pgaE",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "AAK57530.1",
+                    "name": "pgaM",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AY034378.2",
+            "completeness": "complete",
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0000262",
+        "minimal": false,
+        "ncbi_tax_id": "161235",
+        "organism_name": "Streptomyces sp. PGA64",
+        "polyketide": {
+            "cyclases": [
+                "AAK57524.1",
+                "AAK57528.1",
+                "AAK57529.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Angucycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AAK57528.1",
+                        "AAK57524.1",
+                        "AAK57525.1",
+                        "AAK57529.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:12654660",
+            "pubmed:15515887",
+            "pubmed:17654627",
+            "pubmed:18291320"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHW57778.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHW57780.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHW57782.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHW57794.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHW57783.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHW57791.1",
+                    "specificity": "Unknown"
+                }
+            ],
+            "subclass": "hybrid/tailoring"
+        }
+    }
+}

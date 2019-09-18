@@ -1,0 +1,146 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CCC(C)C(NC(=O)C(NC(=O)C(CC1=CC=CC=C1)NC(=O)C(CCC(N)=O)NC(=O)C(C)NC(=O)C(NC(=O)C(\\NC(=O)C1CCCN1C(=O)C(\\NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(\\NC(=O)C(C)N(C)C)=C/C)=C/C)=C\\C)C(C)C)C(C)C)C(=O)NC(CCC(N)=O)C(=O)NCC(=O)NC(CO)C(=O)N\\C(=C/C)C(=O)NC(C(C)CC)C(=O)NC1CS\\C=C/NC(=O)C(NC(=O)C(CC(C)C)NC1=O)C(C)C",
+                "compound": "Cypemycin",
+                "database_id": [
+                    "npatlas:12286"
+                ],
+                "mol_mass": 1941.2954,
+                "molecular_formula": "C99N24O24S"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADR72962.1",
+                    "name": "cypA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADR72965.1",
+                    "name": "cypD",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADR72966.1",
+                    "name": "cypM",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADR72967.1",
+                    "name": "cypT"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADR72968.1",
+                    "name": "cypP"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HQ148718.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0000582",
+        "minimal": false,
+        "ncbi_tax_id": "932694",
+        "organism_name": "Streptomyces sp. OH-4156",
+        "publications": [
+            "pubmed:20805503",
+            "pubmed:22841713",
+            "pubmed:7802859"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "ATPATPTVAQFVIQGSTICLVC"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 19,
+                            "second_AA": 22
+                        }
+                    ],
+                    "gene_id": "ADR72962.1",
+                    "leader_sequence": "MRSEMTLTSTNSAEALAAQDFANTVLSAAAPGFHADCETPAM"
+                }
+            ],
+            "subclass": "Linaridin"
+        }
+    },
+    "comments": "Paper reporting the cypemycin structure is not archived in PubMed:\\nMinami Y, et al. (1994) Structure of cypemycin, a new peptide antibiotic. Tetrahedron Lett 35:8001-8004"
+}

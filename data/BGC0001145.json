@@ -1,0 +1,87 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "[H][C@]12CSC(=N1)C1=CSC(=N1)C1=CSC(=N1)C(=C)NC(=O)[C@@]1([H])CSC(=N1)C1=CSC(=N1)C1=CC=C3C(=N1)[C@H](C)NC(=O)[C@]1([H])CCCN1C(=O)\\C(NC(=O)CNC(=O)[C@H](CCCNC(N)=N)NC(=O)C(C)(NC(=O)\\C(NC(=O)C1CSC(=N1)[C@H](CC(N)=O)NC3=O)=C\\C)SC[C@H](NC2=O)C(O)=O)=C\\C",
+                "compound": "Cyclothiazomycin b1",
+                "database_id": [
+                    "npatlas:9917"
+                ],
+                "mol_mass": 1526.3342,
+                "molecular_formula": "C66H7N21O13S7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "H340_11770",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "H340_11775",
+                    "product": "hypothetical protein"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "H340_11770",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 47059,
+                                "start": 46250
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "H340_11775",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 47625,
+                                "start": 47080
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_AORZ01000028.1",
+            "completeness": "Unknown",
+            "end_coord": 50744,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 35019
+        },
+        "mibig_accession": "BGC0001145",
+        "minimal": false,
+        "ncbi_tax_id": "1223523",
+        "organism_name": "Streptomyces mobaraensis NBRC 13819 = DSM 40847",
+        "publications": [
+            "pubmed:24937678",
+            "pubmed:21885289",
+            "pubmed:17010619"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Thiopeptide"
+        }
+    }
+}

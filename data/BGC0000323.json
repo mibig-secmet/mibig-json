@@ -1,0 +1,249 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Surfactant"
+                ],
+                "chem_struct": "O=C(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(N[C@@H](CCC(N)=O)C(N[C@@H](CC(C)C)C(N[C@@H](CCC(N)=O)C(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O)=O)=O)=O)=O)=O)[C@H](CC1=CNC=N1)NC(CC(O)CCCCCCC)=O",
+                "compound": "cichofactin A",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1147.8208,
+                "molecular_formula": "C61H9N13O14"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Surfactant"
+                ],
+                "chem_struct": "O=C(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(N[C@@H](CCC(N)=O)C(N[C@@H](CC(C)C)C(N[C@@H](CCC(N)=O)C(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O)=O)=O)=O)=O)=O)[C@H](CC1=CNC=N1)NC(CC(O)CCCCCCCCC)=O",
+                "compound": "cichofactin B",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1171.8428,
+                "molecular_formula": "C63H9N13O14"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHZ34234.1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHZ34232.1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHZ34233.1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHZ34235.1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHZ34236.1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHZ34237.1"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KJ513093.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000323",
+        "minimal": false,
+        "ncbi_tax_id": "36746",
+        "nrp": {
+            "cyclic": false,
+            "lipid_moiety": "3-hydroxydecanoyl acid or 3-hydroxydodecanoyl acid",
+            "nrps_genes": [
+                {
+                    "gene_id": "AHZ34232.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "3"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AHZ34233.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "6"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Other lipopeptide"
+        },
+        "organism_name": "Pseudomonas cichorii",
+        "publications": [
+            "pubmed:23405865"
+        ]
+    }
+}

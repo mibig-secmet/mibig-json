@@ -1,0 +1,575 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_struct": "C[C@@H]1C2=NC(=CS2)/C=C\\C=C\\C(=O)[C@@H](/C=C(/CC[C@@]3(CC(=O)N1)[C@@](C(=O)SS3=O)(C)O)\\C)O",
+                "chem_synonyms": [
+                    "lnm"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "DNA"
+                    }
+                ],
+                "compound": "leinamycin",
+                "database_id": [
+                    "pubchem:9849230"
+                ],
+                "mol_mass": 594.6386,
+                "molecular_formula": "C23H2N2O6S6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85514.1",
+                    "name": "LnmA",
+                    "product": "cytochrome P450 hydroxylase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85515.1",
+                    "name": "LnmB",
+                    "product": "ferredoxin",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "id": "AAN85516.1",
+                    "name": "LnmC",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "AAN85517.1",
+                    "name": "LnmD",
+                    "product": "putative hydrolase/decarboxylase"
+                },
+                {
+                    "id": "AAN85518.1",
+                    "name": "LnmE",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85519.1",
+                    "name": "LnmF",
+                    "product": "putative enoyl-CoA hydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85520.1",
+                    "name": "LnmG",
+                    "product": "trans-acting acyltransferase/oxidoreductase"
+                },
+                {
+                    "id": "AAN85521.1",
+                    "name": "LnmH",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85522.1",
+                    "name": "LnmI",
+                    "product": "hybrid nonribosomal peptide synthetase / polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85523.1",
+                    "name": "LnmJ",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85524.1",
+                    "name": "LnmK",
+                    "product": "acyltransferase/decarboxylase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85525.1",
+                    "name": "LnmL",
+                    "product": "acyl carrier protein type II"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85526.1",
+                    "name": "LnmM",
+                    "product": "HMG-CoA synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85527.1",
+                    "name": "LnmN",
+                    "product": "thioesterase type II"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85528.1",
+                    "name": "LnmO",
+                    "product": "putative transcriptional activator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85529.1",
+                    "name": "LnmP",
+                    "product": "peptidyl carrier protein type II"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85530.1",
+                    "name": "LnmQ",
+                    "product": "nonribosomal peptide synthetase, discrete adenylation domain"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85531.1",
+                    "name": "LnmR",
+                    "product": "ABC transporter component, ATP hydrolase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85532.1",
+                    "name": "LnmS",
+                    "product": "ABC transporter component, membrane spanning protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85533.1",
+                    "name": "LnmT",
+                    "product": "ABC transporter component, membrane spanning protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85534.1",
+                    "name": "LnmU",
+                    "product": "ABC transporter component, periplasmic oligopeptide binding protein"
+                },
+                {
+                    "id": "AAN85535.1",
+                    "name": "LnmV",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "AAN85536.1",
+                    "name": "LnmW",
+                    "product": "4-coumarate:CoA ligase"
+                },
+                {
+                    "id": "AAN85537.1",
+                    "name": "LnmX",
+                    "product": "conserved hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85538.1",
+                    "name": "LnmY",
+                    "product": "antibiotic efflux protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85539.1",
+                    "name": "LnmZ",
+                    "product": "cytochrome P450 hydroxylase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAN85540.1",
+                    "name": "LnmZ_",
+                    "product": "hypothetical protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF484556.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001101",
+        "minimal": false,
+        "ncbi_tax_id": "66869",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAN85530.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "D-alanine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAN85529.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAN85522.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "thioesterases": [
+                {
+                    "gene": "aan85523",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
+        "organism_name": "Streptomyces atroolivaceus",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "aan85520",
+                        "AAN85522.1",
+                        "AAN85523.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAN85522.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "AAN85522.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Ketoreductase"
+                            ],
+                            "genes": [
+                                "AAN85523.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAN85523.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAN85523.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "5",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAN85523.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAN85523.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I",
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "aan85520"
+                        ]
+                    }
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:12446651",
+            "pubmed:12598647",
+            "pubmed:15112993",
+            "pubmed:17502372",
+            "pubmed:21192727"
+        ]
+    }
+}

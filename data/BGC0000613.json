@@ -1,0 +1,183 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C[C@@H](C1CO1)[C@@H]1NC(=O)[C@H](CC2=CC=C(O)C=C2)NC(=O)C2=CSC(=N2)[C@@H](NC(=O)C2=C(C)SC(=N2)[C@H](CC(N)=O)NC(=O)C2=CSC(=N2)C2=C(N=C(C=C2)C2=NC(=CS2)C(=O)NC(=C)C(=O)NC(=C)C(O)=O)C2=CSC(=N2)C2=CSC1=N2)[C@H](O)C1=CC=CC=C1",
+                "compound": "Thiomuracin A",
+                "database_id": [
+                    "npatlas:468"
+                ],
+                "mol_mass": 1517.3465,
+                "molecular_formula": "C69H6N19O12S7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83777.1",
+                    "name": "tpdI",
+                    "product": "coproporphyrinogen III oxidase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83778.1",
+                    "name": "tpdJ1",
+                    "product": "cytochrome P450 monooxygenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83779.1",
+                    "name": "tpdJ2",
+                    "product": "cytochrome P450 monooxygenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83780.1",
+                    "name": "tpdR",
+                    "product": "TetR transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83781.1",
+                    "name": "tpdA",
+                    "product": "thiomuracin prepropeptide"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83782.1",
+                    "name": "tpdB",
+                    "product": "dehydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83783.1",
+                    "name": "tpdC",
+                    "product": "dehydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83785.1",
+                    "name": "tpdE",
+                    "product": "dehydrogenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83787.1",
+                    "name": "tpdG",
+                    "product": "cyclodehydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACS83788.1",
+                    "name": "tpdH",
+                    "product": "peptidase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FJ461360.1",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000613",
+        "minimal": false,
+        "ncbi_tax_id": "653921",
+        "organism_name": "Nonomuraea sp. Bp3714-39",
+        "publications": [
+            "pubmed:19338336"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [
+                "ACS83788.1"
+            ],
+            "subclass": "Thiopeptide"
+        }
+    }
+}

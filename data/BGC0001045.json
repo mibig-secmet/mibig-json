@@ -1,0 +1,86 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@]12CSSCC\\C=C\\C(CC(=O)N[C@H](C)C(=O)N1)OC(=O)CC(O)C(NC2=O)C(C)C",
+                "chem_targets": [
+                    {
+                        "target": "Histone deacetylases"
+                    }
+                ],
+                "compound": "Spiruchostatin A",
+                "database_id": [
+                    "npatlas:7276",
+                    "pubchem:60209141"
+                ],
+                "mol_mass": 456.3833,
+                "molecular_formula": "C21H2N3O6S2"
+            }
+        ],
+        "loci": {
+            "accession": "JQ045344.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001045",
+        "minimal": false,
+        "ncbi_tax_id": "1231908",
+        "nrp": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Pseudomonas sp. Q71576",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "afr69340"
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "afr69340",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24973954"
+        ]
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "C[C@@H]1C(=O)N[C@H](C(=O)N2CCC[C@@H]2C(=O)N[C@H](C(=O)N1)C)CCCCCC(=O)C3CO3",
+                "chem_targets": [
+                    {
+                        "target": "histone deacetylase RPD3-class"
+                    }
+                ],
+                "compound": "HC-toxin",
+                "database_id": [
+                    "pubchem:107864"
+                ],
+                "mol_mass": 478.3133,
+                "molecular_formula": "C23H4N5O8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGQ43600.1",
+                    "name": "HTS1",
+                    "product": "HC-toxin synthetase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KC862269.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001166",
+        "minimal": false,
+        "ncbi_tax_id": "378183",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AGQ43600.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "modification_domains": [
+                                "Unknown"
+                            ],
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "D-Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "2-amino-9,10-epoxi-8-oxodecanoic acid"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ]
+        },
+        "organism_name": "Alternaria jesenskae",
+        "publications": [
+            "pubmed:23865912"
+        ]
+    }
+}

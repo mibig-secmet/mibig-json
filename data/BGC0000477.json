@@ -1,0 +1,69 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(C)C[C@H]1C2=N[C@H](CS2)C(=O)N[C@H](C(=O)N[C@H](C(=O)N3CCC[C@H]3C(=O)N[C@H](C(=O)N1)C(C)OC(C)(C)C=C)C(C)C)C(C)OC(C)(C)C=C",
+                "compound": "patellin 2 ",
+                "database_id": [
+                    "pubchem:24762149"
+                ],
+                "mol_mass": 750.6348,
+                "molecular_formula": "C38H6N8O7S2"
+            },
+            {
+                "chem_struct": "C[C@H]([C@H]1C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N[C@H](C(=O)N3CCC[C@H]3C(=O)N[C@H](C(=O)N[C@H](C4=N[C@@H](CS4)C(=O)N1)CC(C)C)C(C)OC(C)(C)C=C)C(C)C)CC(C)C)OC(C)(C)C=C",
+                "compound": "patellin 3",
+                "database_id": [
+                    "pubchem:24762150"
+                ],
+                "mol_mass": 1047.9404,
+                "molecular_formula": "C51H9N11O9S4"
+            }
+        ],
+        "loci": {
+            "accession": "EU290742.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000477",
+        "minimal": false,
+        "ncbi_tax_id": "503010",
+        "organism_name": "uncultured Prochloron sp. 06037A",
+        "publications": [
+            "pubmed:18425112"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "cleavage_recogn_site": [
+                        "GVDAS",
+                        "SYD",
+                        "GVDAS",
+                        "SYDD"
+                    ],
+                    "core_sequence": [
+                        "TLPVPTLC",
+                        "TVPTLC"
+                    ],
+                    "gene_id": "ACA04491.1",
+                    "leader_sequence": "MNKKNILPQLGQPVIRLTAGQLSSQLAELSEEALGGVDAS"
+                }
+            ],
+            "subclass": "Cyanobactin"
+        }
+    }
+}

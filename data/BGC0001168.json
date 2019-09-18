@@ -1,0 +1,118 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Trypsin"
+                    }
+                ],
+                "compound": "Livipeptin",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 347.16
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "509516289",
+                    "name": "SLI_0883",
+                    "product": "Adenylation and reductase domains containing protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "509516290",
+                    "name": "SLI_0884",
+                    "product": "Leucyl/Phenylalanil-tRNA-Protein transferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "509516291",
+                    "name": "SLI_0885",
+                    "product": "N-Acyl transferase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CM001889.1",
+            "completeness": "Unknown",
+            "end_coord": 896528,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 891947
+        },
+        "mibig_accession": "BGC0001168",
+        "minimal": false,
+        "ncbi_tax_id": "1200984",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "509516289",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Arginine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ]
+        },
+        "organism_name": "Streptomyces lividans 1326",
+        "publications": [
+            "pubmed:23709624"
+        ]
+    }
+}

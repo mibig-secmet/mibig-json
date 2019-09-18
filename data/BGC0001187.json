@@ -1,0 +1,142 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCCCCC/C=C/C=C/C=C/C(O)=C1C(N(O)CC/1=O)=O",
+                "compound": "xenolozoyenone",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 282.1913,
+                "molecular_formula": "C17NO4"
+            }
+        ],
+        "genes": {
+            "operons": [
+                {
+                    "evidence": [
+                        "RACE"
+                    ],
+                    "genes": [
+                        "AKL78824.1",
+                        "AKL78825.1"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KM603664.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0001187",
+        "minimal": false,
+        "ncbi_tax_id": "101852",
+        "nrp": {
+            "cyclic": true,
+            "lipid_moiety": "(4E,6E,8E)-3-oxopentadeca-4,6,8-trienoic acid",
+            "nrps_genes": [
+                {
+                    "gene_id": "AKL78825.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Other lipopeptide",
+            "thioesterases": [
+                {
+                    "gene": "AKL78825.1",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
+        "organism_name": "Glarea lozoyensis",
+        "polyketide": {
+            "cyclic": true,
+            "starter_unit": "Propionyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AKL78824.1",
+                        "AKL78824.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 6,
+                        "subtype": "Highly reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Propionyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Condensation"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AKL78824.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:26081635"
+        ]
+    }
+}

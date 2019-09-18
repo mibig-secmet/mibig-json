@@ -1,0 +1,100 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C[C@@H]1[C@@H](C(=O)O[C@@H]([C@@H](C(=O)O[C@@H]([C@@H](C(=O)O1)NC(=O)CNC(=O)C2=C(C(=CC=C2)O)O)C)NC(=O)CNC(=O)C3=C(C(=CC=C3)O)O)C)NC(=O)CNC(=O)C4=C(C(=CC=C4)O)O",
+                "compound": "bacillibactin",
+                "database_id": [
+                    "pubchem:125349"
+                ],
+                "mol_mass": 990.6378,
+                "molecular_formula": "C51H6N6O18"
+            }
+        ],
+        "loci": {
+            "accession": "CP000560.1",
+            "completeness": "complete",
+            "end_coord": 3032970,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 3021250
+        },
+        "mibig_accession": "BGC0001185",
+        "minimal": false,
+        "ncbi_tax_id": "326423",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABS75234.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "dhb"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABS75232.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "NRP siderophore"
+        },
+        "organism_name": "Bacillus velezensis FZB42",
+        "publications": [
+            "pubmed:18957859"
+        ]
+    },
+    "comments": "Deletion of the complete FZB42 bacillibactin gene cluster covering genomic region 3021250-3032970 revealed that ability to produce bacillibactin has been lost completely. Construction of mutants devoid in bacillibactin production RS01 (delta bac) and RS06 (delta sfp, delta bac) has been described in PMID   19061923 "
+}

@@ -1,0 +1,218 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic",
+                    "P-glycoprotein-mediated multiple drug resistance"
+                ],
+                "chem_struct": "CCCCCCC[C@H]1OC(=O)C[C@@H](O)[C@H](CC2=CC=CC=C2)N(C)C(=O)[C@@H](OC(=O)[C@H]1C)C(C)C",
+                "chem_targets": [
+                    {
+                        "target": "P-glycoprotein"
+                    }
+                ],
+                "compound": "Hapalosin",
+                "database_id": [
+                    "npatlas:19174",
+                    "pubchem:133055",
+                    "chemspider:117421"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 475.3726,
+                "molecular_formula": "C30H5NO6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "WP_035122279.1",
+                    "name": "hapE",
+                    "product": "type I polyketide synthase"
+                },
+                {
+                    "id": "WP_051206727.1",
+                    "name": "hapD",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "id": "WP_081656241.1",
+                    "name": "hapC",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "id": "WP_035121546.1",
+                    "name": "hapB",
+                    "product": "type I polyketide synthase"
+                },
+                {
+                    "id": "WP_026723805.1",
+                    "name": "hapA",
+                    "product": "AMP-dependent synthetase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_KE650771.1",
+            "completeness": "complete",
+            "end_coord": 6241521,
+            "evidence": [
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 6215740
+        },
+        "mibig_accession": "BGC0001467",
+        "minimal": false,
+        "ncbi_tax_id": "1173023",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_026723805.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_081656241.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "2-Hydroxyisovalerate"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_051206727.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Phenylalanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "thioesterases": [
+                {
+                    "gene": "hape",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Fischerella sp. PCC 9431",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Hexanoyl-ACP",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_035122279.1",
+                        "WP_035121546.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_035121546.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_035122279.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "doi:10.1021/jo00103a011",
+            "pubmed:26335778",
+            "pubmed:29940102"
+        ]
+    }
+}

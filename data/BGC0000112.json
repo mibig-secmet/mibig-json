@@ -1,0 +1,632 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "naphthonate",
+                        "subcluster": [
+                            "aam77986",
+                            "aam77997",
+                            "aam77987",
+                            "aam77984"
+                        ]
+                    }
+                ],
+                "chem_struct": "C[C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O[C@H]\\2[C@@H](C=C3/C2=C\\C#C[C@@H]4[C@@](O4)(C#C3)[C@H]5COC(=O)O5)OC(=O)C6=C(C=CC7=C(C=C(C=C76)OC)C)O)NC)O)O",
+                "chem_synonyms": [
+                    "neocarzinostatin chromophore"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "DNA"
+                    }
+                ],
+                "compound": "neocarzinostatin ",
+                "database_id": [
+                    "pubchem:447545"
+                ],
+                "mol_mass": 1840.4524,
+                "molecular_formula": "C126H9NO19"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77980.1",
+                    "name": "ncsC4",
+                    "product": "NDP-hexose-4-ketoreductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77981.1",
+                    "name": "ncsC3",
+                    "product": "aminotransferase",
+                    "tailoring": [
+                        "Amination"
+                    ]
+                },
+                {
+                    "id": "AAM77982.1",
+                    "name": "ncsORF13",
+                    "product": "Unknown"
+                },
+                {
+                    "id": "AAM77983.1",
+                    "name": "ncsORF14",
+                    "product": "Unknown"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77984.1",
+                    "name": "ncsB1",
+                    "product": "O-methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "id": "AAM77985.1",
+                    "name": "ncsORF16",
+                    "product": "Unknown"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77986.1",
+                    "name": "ncsB",
+                    "product": "iterative type I polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77987.1",
+                    "name": "ncsB2",
+                    "product": "adenylate ligase"
+                },
+                {
+                    "id": "AAM77988.1",
+                    "name": "ncsORf19",
+                    "product": "membrane protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77989.1",
+                    "name": "ncsC",
+                    "product": "NDP-hexose synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77990.1",
+                    "name": "ncsC1",
+                    "product": "NDP-hexose-4,6-dehydratase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77991.1",
+                    "name": "ncsC5",
+                    "product": "N-methyltransferase",
+                    "tailoring": [
+                        "Amination"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77992.1",
+                    "name": "ncsC6",
+                    "product": "glycosyltransferase",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "id": "AAM77993.1",
+                    "name": "ncsORF24",
+                    "product": "Unknown"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77994.1",
+                    "name": "ncsA",
+                    "product": "neocarzinostatin apoprotein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77995.1",
+                    "name": "ncsF1",
+                    "product": "epoxide hydrolase",
+                    "tailoring": [
+                        "Hydrolysis"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77996.1",
+                    "name": "ncsB4",
+                    "product": "esterase/hydrolase",
+                    "tailoring": [
+                        "Acylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77997.1",
+                    "name": "ncsB3",
+                    "product": "cytochrome P-450",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "id": "AAM77998.1",
+                    "name": "ncsORF29",
+                    "product": "hydroxylase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM77999.1",
+                    "name": "ncsA2",
+                    "product": "transmembrane transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78000.1",
+                    "name": "ncsR4",
+                    "product": "transcriptional regulator"
+                },
+                {
+                    "id": "AAM78001.1",
+                    "name": "ncsORF32",
+                    "product": "oxidase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78002.1",
+                    "name": "ncsF2",
+                    "product": "epoxide hydrolase",
+                    "tailoring": [
+                        "Hydrolysis"
+                    ]
+                },
+                {
+                    "id": "AAM78003.1",
+                    "name": "ncsORF34",
+                    "product": "hydroxylase"
+                },
+                {
+                    "id": "AAM78004.1",
+                    "name": "ncsE11",
+                    "product": "Unknown"
+                },
+                {
+                    "id": "AAM78005.1",
+                    "name": "ncsE9",
+                    "product": "oxidoreductase"
+                },
+                {
+                    "id": "AAM78006.1",
+                    "name": "ncsE8",
+                    "product": "Unknown"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78007.1",
+                    "name": "ncsR6",
+                    "product": "transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78008.1",
+                    "name": "ncsR5",
+                    "product": "transcriptional regulator"
+                },
+                {
+                    "id": "AAM78009.1",
+                    "name": "ncsE7",
+                    "product": "cytochrome P-450"
+                },
+                {
+                    "id": "AAM78010.1",
+                    "name": "ncsE6",
+                    "product": "flavin reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78011.1",
+                    "name": "ncsE10",
+                    "product": "thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78012.1",
+                    "name": "ncsE",
+                    "product": "warhead-forming iterative polyketide synthase"
+                },
+                {
+                    "id": "AAM78013.1",
+                    "name": "ncsE5",
+                    "product": "putative transporter"
+                },
+                {
+                    "id": "AAM78014.1",
+                    "name": "ncsE4",
+                    "product": "Unknown"
+                },
+                {
+                    "id": "AAM78015.1",
+                    "name": "ncsE3",
+                    "product": "Unknown"
+                },
+                {
+                    "id": "AAM78016.1",
+                    "name": "ncsE2",
+                    "product": "Unknown"
+                },
+                {
+                    "id": "AAM78017.1",
+                    "name": "ncsE1",
+                    "product": "Unknown"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78018.1",
+                    "name": "ncsORF49",
+                    "product": "transposase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78019.1",
+                    "name": "ncsR7",
+                    "product": "transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78020.1",
+                    "name": "ncsR3",
+                    "product": "transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78021.1",
+                    "name": "ncsC2",
+                    "product": "NDP-hexose-2,3-dehydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78022.1",
+                    "name": "ncsR2",
+                    "product": "butyrolactone receptor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAM78023.1",
+                    "name": "ncsR1",
+                    "product": "transcriptional regulator"
+                },
+                {
+                    "id": "AAM78024.1",
+                    "name": "ncsORF55",
+                    "product": "Unknown"
+                },
+                {
+                    "id": "AAM78025.1",
+                    "name": "ncsORF56",
+                    "product": "Unknown"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AY117439.1",
+            "completeness": "complete",
+            "end_coord": 72712,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 10097
+        },
+        "mibig_accession": "BGC0000112",
+        "minimal": false,
+        "ncbi_tax_id": "167636",
+        "organism_name": "Streptomyces carzinostaticus subsp. neocarzinostaticus",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Enediyine"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "aam78011",
+                        "aam77986",
+                        "AAM77986.1",
+                        "AAM78012.1",
+                        "aam78012"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 7,
+                        "subtype": "Partially reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "AAM77986.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Phosphopantetheinyl transferase"
+                            ],
+                            "evidence": "Activity assay",
+                            "genes": [
+                                "AAM78012.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "2",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I",
+                        "Enediyne type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "aam78011",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:15797213",
+            "pubmed:17539640",
+            "pubmed:18223152",
+            "pubmed:18387946",
+            "pubmed:19702337",
+            "pubmed:20704329"
+        ]
+    }
+}

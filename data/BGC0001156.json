@@ -1,0 +1,164 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "3-amino-4-hydroxybenzoic acid",
+                        "subcluster": [
+                            "add82993",
+                            "add82994"
+                        ]
+                    }
+                ],
+                "chem_struct": "C[C@@]1(C2C[C@@H]3CC[C@]2(CC3=C)C=CC1=O)CCC(=O)NC4=C(C=CC(=C4O)C(=O)O)O",
+                "chem_targets": [
+                    {
+                        "target": "FabF"
+                    },
+                    {
+                        "target": "FabH"
+                    }
+                ],
+                "compound": "Platencin",
+                "database_id": [
+                    "pubchem:44450228"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mol_mass": 507.374,
+                "molecular_formula": "C33HNO6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADD83016.1",
+                    "name": "PtnT4",
+                    "product": "GGPP synthease"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADD82999.1",
+                    "name": "PtnM1",
+                    "product": "HMBDP reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADD83000.1",
+                    "name": "PtnM2",
+                    "product": "HMBDP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADD83001.1",
+                    "name": "PtnM3",
+                    "product": "DXP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADD82993.1",
+                    "name": "PtnB1",
+                    "product": "ADHOHP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADD82994.1",
+                    "name": "PtnB2",
+                    "product": "3,4-AHBA synthase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "GQ398492.1",
+            "completeness": "complete",
+            "end_coord": 38278,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 2491
+        },
+        "mibig_accession": "BGC0001156",
+        "minimal": false,
+        "ncbi_tax_id": "58346",
+        "organism_name": "Streptomyces platensis",
+        "publications": [
+            "pubmed:20232845",
+            "pubmed:21825154",
+            "pubmed:23157615"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Diterpene",
+            "prenyltransferases": [
+                "add83016"
+            ],
+            "terpene_precursor": "GGPP",
+            "terpene_synth_cycl": [
+                "add83014",
+                "add83004"
+            ]
+        }
+    }
+}

@@ -1,0 +1,338 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide",
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Coumarin group",
+                        "subcluster": [
+                            "AAK06804.1",
+                            "AAK06805.1",
+                            "AAK06807.1",
+                            "AAK06802.1",
+                            "AAK06803.1",
+                            "AEU17894.1",
+                            "AAK06809.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "C[C@H]1O[C@H](C[C@@H](OC(=O)\\C=C\\C=C\\C=C\\C=C\\C(=O)NC2=C(O)C3=C(OC2=O)C(Cl)=C(O)C=C3)[C@@H]1OC(C)=O)C1=CC=C2C(=O)C34OC3(C(O)CC3(O)CC(C)=CC(=O)C43O)C(O)C2=C1O",
+                "chem_targets": [
+                    {
+                        "target": "bacterial DNA gyrase"
+                    },
+                    {
+                        "target": "inhibitor of human topoisomerases I and II"
+                    }
+                ],
+                "compound": "Simocyclinone D8",
+                "database_id": [
+                    "npatlas:8898",
+                    "pubchem:54736483",
+                    "chembl:1235969"
+                ],
+                "mol_mass": 1915.5015,
+                "molecular_formula": "C134H4NO18"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Heterologous expression"
+                            ]
+                        }
+                    ],
+                    "id": "AEU17892.1",
+                    "name": "simC7",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAK06810.1",
+                    "name": "simB3"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAK06804.1",
+                    "name": "SimH",
+                    "product": "Tyroxyl-AMP-forming enzyme"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAK06808.1",
+                    "name": "simReg1",
+                    "product": "regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAK06806.1",
+                    "name": "SimY",
+                    "product": "MbtH-like protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAK06803.1",
+                    "name": "SimL",
+                    "product": "aminocoumarin ligase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAK06799.1",
+                    "name": "SimX",
+                    "product": "simocyclinone-specific efflux pump"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAK06798.1",
+                    "name": "SimR",
+                    "product": "transcriptional repressor of transporter SimX"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF324838.2",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001072",
+        "minimal": false,
+        "ncbi_tax_id": "1890",
+        "organism_name": "Streptomyces antibioticus",
+        "other": {
+            "subclass": "Aminocoumarin"
+        },
+        "polyketide": {
+            "cyclases": [
+                "AAK06783.1",
+                "AAK06788.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AAK06785.1",
+                        "AAK06783.1",
+                        "AAK06788.1",
+                        "AAK06784.1",
+                        "AEU17897.1,AEU17898.1,AEU17899.1",
+                        "AAK06786.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AEU17897.1,AEU17898.1,AEU17899.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AEU17897.1,AEU17898.1,AEU17899.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AEU17897.1,AEU17898.1,AEU17899.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AEU17897.1,AEU17898.1,AEU17899.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AEU17897.1,AEU17898.1,AEU17899.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I",
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24594357",
+            "pubmed:22867097",
+            "pubmed:22214346",
+            "pubmed:21890635",
+            "pubmed:21835774",
+            "pubmed:15728908",
+            "pubmed:12115055",
+            "pubmed:12014451",
+            "pubmed:12014446",
+            "pubmed:11959542",
+            "pubmed:11780784",
+            "pubmed:21354180",
+            "pubmed:21890635",
+            "pubmed:21835774",
+            "pubmed:19460097",
+            "pubmed:19965760",
+            "pubmed:19858260",
+            "pubmed:19652356",
+            "pubmed:19273673",
+            "pubmed:19132295",
+            "pubmed:15812631",
+            "pubmed:11079799",
+            "pubmed:15779922",
+            "pubmed:25861759"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEU17886.1",
+                    "specificity": "D-olivose "
+                }
+            ],
+            "sugar_subclusters": [
+                [
+                    "AEU17887.1",
+                    "AEU17888.1",
+                    "AAK06810.1"
+                ]
+            ]
+        }
+    }
+}

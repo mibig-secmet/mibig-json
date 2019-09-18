@@ -1,0 +1,64 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "SRO15-2212",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2212.18
+            }
+        ],
+        "loci": {
+            "accession": "NZ_DS999644.1",
+            "completeness": "complete",
+            "end_coord": 5228789,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 5221350
+        },
+        "mibig_accession": "BGC0000553",
+        "minimal": false,
+        "ncbi_tax_id": "457431",
+        "organism_name": "Streptomyces filamentosus NRRL 15998",
+        "publications": [
+            "pubmed:21983601"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "TGSQVSLLVCEYSSLSVVLCTP"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 3,
+                            "second_AA": 10
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 13,
+                            "second_AA": 20
+                        }
+                    ],
+                    "gene_id": "SSGG_RS09925",
+                    "leader_sequence": "MALLDLQAMDTPAEDSFGELA"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    },
+    "comments": "The SRO15-2212 prepropeptide sequence is identical with AmfS from Streptomyces griseus IFO13350"
+}

@@ -1,0 +1,202 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "2-pyridone",
+                        "subcluster": [
+                            "DMBS",
+                            "DMBC",
+                            "DMBA"
+                        ]
+                    }
+                ],
+                "chem_struct": "OC1=CC=C(C2=CN(O)C(C(C(/C=C/C=C/C=C/[C@H](C)CC)=O)=C2O)=O)C=C1",
+                "compound": "desmethylbassianin",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 383.2756,
+                "molecular_formula": "C24HNO5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "DMBS",
+                    "name": "DMBS",
+                    "product": "PKS-NRPS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "DMBC",
+                    "name": "DMBC",
+                    "product": "ER"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "DMBB",
+                    "name": "DMBB",
+                    "product": "P450",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "DMBA",
+                    "name": "DMBA",
+                    "product": "P450",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "DMBS"
+                },
+                {
+                    "id": "DMBC"
+                },
+                {
+                    "id": "DMBB"
+                },
+                {
+                    "id": "DMBA"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HM243222.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0001136",
+        "minimal": false,
+        "ncbi_tax_id": "176275",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "DMBS",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tyrosine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Beauveria bassiana",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "DMBS"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 5,
+                        "subtype": "Highly reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Multiple (promiscuous)",
+                                "Malonyl-CoA",
+                                "Acetyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Methyltransferase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "DMBS"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21899331"
+        ]
+    }
+}

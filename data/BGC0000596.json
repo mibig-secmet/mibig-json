@@ -1,0 +1,132 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "SLI-2138",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 2138.17
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "smCOG: SMCOG1030:serine/threonine_protein_kinase (Score: 67.8; E-value: 1.8e-20);",
+                    "id": "SSPG_05082",
+                    "product": "protein kinase"
+                },
+                {
+                    "comments": "3' partial",
+                    "id": "SSPG_05083",
+                    "product": "serine/threonine protein kinase"
+                },
+                {
+                    "comments": "smCOG: SMCOG1059:acetyl-CoA_carboxylase,_carboxyl_transferase, (Score: 114.3; E-value: 1.1e-34);",
+                    "id": "SSPG_05088",
+                    "product": "acetyl CoA carboxylase alpha subunit"
+                },
+                {
+                    "comments": "3' partial",
+                    "id": "SSPG_05089",
+                    "product": "acetyl CoA carboxylase beta subunit"
+                },
+                {
+                    "comments": "smCOG: SMCOG1246:monooxygenase_FAD-binding (Score: 400.0; E-value: 2.2e-121);",
+                    "id": "SSPG_05096",
+                    "product": "hypothetical protein"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "SSPG_05082",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 5673135,
+                                "start": 5670019
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SSPG_05083",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 5674124,
+                                "start": 5673237
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SSPG_05088",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 5682033,
+                                "start": 5681518
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SSPG_05089",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 5682900,
+                                "start": 5682380
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SSPG_05096",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 5690544,
+                                "start": 5689180
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_GG657756.1",
+            "completeness": "incomplete",
+            "end_coord": 5690544,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 5668767
+        },
+        "mibig_accession": "BGC0000596",
+        "minimal": true,
+        "ncbi_tax_id": "457428",
+        "organism_name": "Streptomyces lividans TK24",
+        "publications": [
+            "pubmed:21983601"
+        ],
+        "ripp": {
+            "cyclic": false
+        }
+    }
+}

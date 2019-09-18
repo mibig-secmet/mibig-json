@@ -1,0 +1,119 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(C)C(=O)C(O)CC1=CNC2=C1C=CC=C2",
+                "compound": "3-(2\u201a\u00c4\u00f4-hydroxy-3\u201a\u00c4\u00f4-oxo-4\u201a\u00c4\u00f4-methyl-pentyl)-indole",
+                "database_id": [
+                    "npatlas:12089"
+                ],
+                "mol_mass": 238.1815,
+                "molecular_formula": "C16NO2"
+            },
+            {
+                "chem_struct": "CCC(C)C(=O)C(O)CC1=CNC2=C1C=CC=C2",
+                "compound": "3-(2'-Hydroxy-3'-oxo-4'-methylhexyl)-indole",
+                "database_id": [
+                    "npatlas:16111"
+                ],
+                "mol_mass": 250.1925,
+                "molecular_formula": "C17NO2"
+            },
+            {
+                "chem_struct": "CC(C)C(=O)C(CC1=CNC2=C1C=CC=C2)OC(C)=O",
+                "compound": "3-(2\u201a\u00c4\u00f4-acetoxy-3\u201a\u00c4\u00f4- oxo-4\u201a\u00c4\u00f4-methylpentyl)-indole",
+                "database_id": [
+                    "npatlas:3248"
+                ],
+                "mol_mass": 278.2029,
+                "molecular_formula": "C18NO3"
+            },
+            {
+                "chem_struct": "CCC(C)C(=O)C(CC1=CNC2=C1C=CC=C2)OC(C)=O",
+                "compound": "3-(2'-acetoxy-3'-oxo-4\u201a\u00c4\u00f4-methylhexyl)-indole",
+                "database_id": [
+                    "npatlas:16203"
+                ],
+                "mol_mass": 290.2139,
+                "molecular_formula": "C19NO3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CBJ83019.1",
+                    "name": "xclA",
+                    "product": "S-selective acyloin-like condensation enzyme"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CBJ83018.1",
+                    "name": "xclB",
+                    "product": "acylating ketosynthases, acylation of the XclA-derived xenolcyloins with acetyl-, propionyl- or maleonyl-CoA"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FN667741.1",
+            "completeness": "complete",
+            "end_coord": 3779127,
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 3771005
+        },
+        "mibig_accession": "BGC0000189",
+        "minimal": false,
+        "ncbi_tax_id": "406818",
+        "organism_name": "Xenorhabdus bovienii SS-2004",
+        "polyketide": {
+            "cyclic": false,
+            "ketide_length": -1,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "XBJ1_3900",
+                        "XBJ1_3898"
+                    ],
+                    "subclass": [
+                        "Type III"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24488732"
+        ]
+    }
+}

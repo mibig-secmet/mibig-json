@@ -1,0 +1,218 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC\\C(\\C=C\\C1=CC=CC(=O)O1)=C/C=C/C1=CC=CC=C1",
+                "chem_targets": [
+                    {
+                        "target": "inhibits the ABCB1 gene product P-glycoprotein (P-gp)"
+                    },
+                    {
+                        "target": "thereby reversing daunorubicin resistance in cancer cells"
+                    }
+                ],
+                "compound": "Phenylnannolone A",
+                "database_id": [
+                    "npatlas:9546",
+                    "chemspider:27024549"
+                ],
+                "mol_mass": 260.2078,
+                "molecular_formula": "C19O2"
+            },
+            {
+                "chem_struct": "C\\C(\\C=C\\C1=CC=CC(=O)O1)=C/C=C/C1=CC=CC=C1",
+                "chem_targets": [
+                    {
+                        "target": "not determined"
+                    }
+                ],
+                "compound": "Phenylnannolone B",
+                "database_id": [
+                    "npatlas:7826",
+                    "chemspider:27024550"
+                ],
+                "mol_mass": 248.1968,
+                "molecular_formula": "C18O2"
+            },
+            {
+                "chem_struct": "CC\\C(\\C=C\\C1=CC=CC(=O)O1)=C/C=C/C1=CC=C(O)C=C1",
+                "chem_targets": [
+                    {
+                        "target": "not determined"
+                    }
+                ],
+                "compound": "Phenylnannolone C",
+                "database_id": [
+                    "npatlas:2006",
+                    "chemspider:27024550"
+                ],
+                "mol_mass": 276.2072,
+                "molecular_formula": "C19O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHN85650",
+                    "name": "phn1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AHN85651 ",
+                    "name": "phn2"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF739396.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000122",
+        "minimal": false,
+        "ncbi_tax_id": "889268",
+        "organism_name": "Nannocystis pusilla",
+        "polyketide": {
+            "cyclic": false,
+            "subclasses": [
+                "Aryl polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AHN85651"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "CoA-ligase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Activity assay",
+                            "genes": [
+                                "AHN85651"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Ethylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "AHN85651"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "AHN85651"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "AHN85651"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "AHN85651"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "4"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24677362",
+            "pubmed:19040244"
+        ]
+    },
+    "comments": "cinnamic acid is adenylated by the AMP-ligase domain in the loading module to yield phenylnannolone A. The activity assay also showed reduced activation of p-coumaric acid which yields phenylnannolone C. \\nfirst BCC/PKS system in microbial biosynthesis\\nphn1 most likely involved in ethylmalonyl-CoA biosynthesis\\nAT1 predominantly accepts ethylmalonyl-CoA to give rise to phenylnannolone A. However, phenylnannolone B, which contains a methyl instead of an ethyl branch, was also isolated. this indicates that AT1 can also accept methylmalonyl-CoA. Phenylnannolone A, however, is the dominant metabolite thus suggesting a preference for ethylmalonyl-CoA (which is in agreement with the bioinformatic analysis)\\nThe TE releases the polyketide under pyrone ring formation which is uncommon for modular typ I PKS systems"
+}

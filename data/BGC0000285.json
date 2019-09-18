@@ -1,0 +1,125 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "O=C1C=C(O)C(C2=CC(O[C@H]3O[C@H](C)[C@@H](O)[C@H](O)[C@@H]3O)=CC(O)=C21)=O",
+                "compound": "Flaviolin rhamnoside",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 593.4411,
+                "molecular_formula": "C37H5O9"
+            },
+            {
+                "chem_acts": [
+                    "Potential UV protection"
+                ],
+                "chem_struct": "O=C1C=C(O)C(C2=CC(O)=C(C3=C(O)C=C(C(C(O)=CC4=O)=O)C4=C3O)C(O)=C21)=O",
+                "chem_synonyms": [
+                    "flaviolin dimer"
+                ],
+                "compound": "3,3'-diflaviolin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 772.555,
+                "molecular_formula": "C51O10"
+            },
+            {
+                "chem_struct": "C1=C(C=C2C(=C1O)C(=CC(=O)C2=O)O)O",
+                "compound": "Flaviolin",
+                "database_id": [
+                    "pubchem:160478"
+                ],
+                "mol_mass": 224.129,
+                "molecular_formula": "C12O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAL78053.1",
+                    "name": "rppA",
+                    "product": "Type III PKS"
+                },
+                {
+                    "id": "AAL78054.1",
+                    "name": "rppB",
+                    "product": "Cytochrome P450 monooxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "AAL78055.1",
+                    "name": "ORF3",
+                    "product": "Quinone forming monooxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AY078067.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000285",
+        "minimal": false,
+        "ncbi_tax_id": "1836",
+        "organism_name": "Saccharopolyspora erythraea",
+        "polyketide": {
+            "cyclic": true,
+            "ketide_length": 5,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Chalcone"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "aal78053"
+                    ],
+                    "subclass": [
+                        "Type III"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:12028378"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Structure-based inference"
+                    ],
+                    "gene_id": "No Gene ID",
+                    "specificity": "L-rhamnose"
+                }
+            ],
+            "subclass": "oligosaccharide"
+        }
+    },
+    "comments": "This type III PKS containing cluster is involved in the formation of red-brown pigment/melanin, and equivalent clusters have been studied in other organisms, e.g. PMID 10476972; 11723138; 15659395; 15701630; 16291687. The PKS product THN (1,3,6,8-tetrahydroxynaphthalene) of these clusters are variously oxidized/dimerized/polymerized by the action of additional enzymes in the cluster including a cytochrome P450 monooxygenase (RppB) and a monooxygenase of the cupin domain superfamily. The products of these clusters have been shown to provide resistance to UV radiation."
+}

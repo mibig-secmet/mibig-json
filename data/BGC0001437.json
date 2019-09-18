@@ -1,0 +1,106 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "\u03b2-lactone ",
+                        "subcluster": [
+                            "AQZ26587.1"
+                        ]
+                    },
+                    {
+                        "moiety": "(2S,3R)-2-amino-3-hydroxy-4-(4-nitrophenyl)butanoate",
+                        "subcluster": [
+                            "AQZ26585.1",
+                            "AQZ26586.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "OC1=C(O)C(=CC=C1)C(=O)N[C@H]1[C@@H](CC2=CC=C(C=C2)N(=O)=O)OC1=O",
+                "compound": "Obafluorin",
+                "database_id": [
+                    "npatlas:2806",
+                    "pubchem:146354"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 370.234,
+                "molecular_formula": "C19H2N2O7"
+            }
+        ],
+        "loci": {
+            "accession": "KX931446.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction",
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0001437",
+        "minimal": false,
+        "ncbi_tax_id": "294",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AQZ26587.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "2,3-Dihydroxybenzoic acid"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "nonproteinogenic": [
+                                    "(2S,3R)-2-amino-3-hydroxy-4-(4-nitrophenyl)butanoate"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "thioesterases": [
+                {
+                    "gene": "AQZ26587.1",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Pseudomonas fluorescens",
+        "publications": [
+            "doi:10.1038/ncomms15935"
+        ]
+    }
+}

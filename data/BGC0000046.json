@@ -1,0 +1,138 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "C[C@@H](O)[C@@H]1O[C@H]1\\C=C\\[C@@H]1O[C@H]1[C@H](O)C=C",
+                "chem_targets": [
+                    {
+                        "target": "Histone deacetylase (HDAC)"
+                    }
+                ],
+                "compound": "Depudecin",
+                "database_id": [
+                    "npatlas:1465",
+                    "pubchem:6438725",
+                    "chebi:64143",
+                    "chemspider:21169370"
+                ],
+                "mol_mass": 202.166,
+                "molecular_formula": "C11H6O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ACZ57545.1",
+                    "name": "DEP2",
+                    "product": "Monooxygenase",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ACZ57547.1",
+                    "name": "DEP4",
+                    "product": "Monooxygenase",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ACZ57548.1",
+                    "name": "DEP5"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ACZ57549.1",
+                    "name": "DEP6",
+                    "product": "Transcription factor"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FJ977165.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000046",
+        "minimal": false,
+        "ncbi_tax_id": "29001",
+        "organism_name": "Alternaria brassicicola",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ACZ57548.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 6,
+                        "subtype": "Partially reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:19737099"
+        ]
+    }
+}

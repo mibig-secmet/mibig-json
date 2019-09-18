@@ -1,0 +1,230 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "3-amino-4-hydroxybenzoic acid",
+                        "subcluster": [
+                            "ACO31287.1",
+                            "ACO31288.1",
+                            "ACO31289.1"
+                        ]
+                    },
+                    {
+                        "moiety": "ent-Kaurene",
+                        "subcluster": [
+                            "ACO31283.1",
+                            "ACO31279.1",
+                            "ACO31276.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "[H][C@]12C[C@]3([H])O[C@@]1(C)C[C@@]1(C2)C=CC(=O)[C@@](C)(CCC(=O)NC2=C(O)C=CC(C(O)=O)=C2O)[C@]31[H]",
+                "chem_targets": [
+                    {
+                        "target": "FabF fatty acid synthase"
+                    }
+                ],
+                "compound": "Platensimycin",
+                "database_id": [
+                    "npatlas:17180",
+                    "pubchem:6857724"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "X-ray",
+                    "Total synthesis"
+                ],
+                "mol_mass": 453.3232,
+                "molecular_formula": "C27H3NO7"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "3-amino-4-hydroxybenzoic acid",
+                        "subcluster": [
+                            "add82993",
+                            "add82994"
+                        ]
+                    },
+                    {
+                        "moiety": "ent-atiserene",
+                        "subcluster": [
+                            "ACO31276.1",
+                            "ACO31274.1",
+                            "ACO31283.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "[H][C@@]12C[C@@H]3CC[C@]1(CC3=C)C=CC(=O)[C@@]2(C)CCC(=O)NC1=C(O)C(=CC=C1O)C(O)=O",
+                "chem_targets": [
+                    {
+                        "target": "Fatty acid synthases FabF & FabH"
+                    }
+                ],
+                "compound": "Platencin",
+                "database_id": [
+                    "npatlas:12954",
+                    "pubchem:44450228"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mol_mass": 424.3049,
+                "molecular_formula": "C26H2NO6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACO31283.1",
+                    "name": "ptmT4",
+                    "product": "GGDP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACO31284.1",
+                    "name": "ptmM1",
+                    "product": "HMBDP reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACO31285.1",
+                    "name": "ptmM2",
+                    "product": "HMBDP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACO31286.1",
+                    "name": "ptmM3",
+                    "product": "DXP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACO31287.1",
+                    "name": "ptmB1",
+                    "product": "ADHOHP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACO31288.1",
+                    "name": "ptmB2",
+                    "product": "ADHOHP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACS13710.1",
+                    "name": "ptmP3",
+                    "product": "Resistance gene"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FJ655920.1",
+            "completeness": "complete",
+            "end_coord": 45738,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ],
+            "start_coord": 4531
+        },
+        "mibig_accession": "BGC0001140",
+        "minimal": false,
+        "ncbi_tax_id": "58346",
+        "organism_name": "Streptomyces platensis",
+        "publications": [
+            "pubmed:19164156",
+            "pubmed:20232845",
+            "pubmed:21825154",
+            "pubmed:23157615",
+            "pubmed:23361357"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Diterpene",
+            "prenyltransferases": [
+                "aco31283"
+            ],
+            "terpene_precursor": "GGPP",
+            "terpene_synth_cycl": [
+                "ACO31274.1",
+                "ACO31276.1",
+                "ACO31279.1"
+            ]
+        }
+    }
+}

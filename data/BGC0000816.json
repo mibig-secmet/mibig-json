@@ -1,0 +1,197 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Pyrrole/pyrrolidine"
+        },
+        "biosyn_class": [
+            "NRP",
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC1(C)[C@@H]2C[C@]34CCCN3C[C@@]2(CC2=C1NC1=CC(Cl)=CC=C21)NC4=O",
+                "chem_targets": [
+                    {
+                        "target": "calmodulin"
+                    }
+                ],
+                "compound": "Malbrancheamide A",
+                "database_id": [
+                    "npatlas:4108"
+                ],
+                "mol_mass": 639.5468,
+                "molecular_formula": "C46HN5O"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGA37261.1",
+                    "name": "malA",
+                    "product": "flavin-dependent halogenase",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGA37262.1",
+                    "name": "malB",
+                    "product": "prenyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGA37263.1",
+                    "name": "malC",
+                    "product": "short chain dehydrogenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGA37264.1",
+                    "name": "malD",
+                    "product": "negative regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGA37265.1",
+                    "name": "malE",
+                    "product": "prenyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGA37266.1",
+                    "name": "malF",
+                    "product": "oxidoreductase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGA37267.1",
+                    "name": "malG",
+                    "product": "NRPS"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JQ708193.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000816",
+        "minimal": false,
+        "ncbi_tax_id": "78605",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AGA37267.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ]
+        },
+        "organism_name": "Malbranchea aurantiaca",
+        "publications": [
+            "pubmed:23213353"
+        ]
+    }
+}

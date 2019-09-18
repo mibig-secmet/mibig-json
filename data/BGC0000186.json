@@ -1,0 +1,360 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "COC(C(C)C(O)=O)C(\\C)=C\\C=C\\C=C(/C)\\C=C\\CC(O)CC(=O)\\C=C\\C=C(/C)\\C=C\\C(C)NC(=O)C(C)C\\C=C\\CC(O)CC1=CC=C(O)C=C1",
+                "compound": "Thailandamide",
+                "database_id": [
+                    "npatlas:8975"
+                ],
+                "mol_mass": 658.4749,
+                "molecular_formula": "C43NO8"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CO[C@H]1[C@@H](C)C(=O)O[C@@]1(C)\\C=C\\C=C\\C(\\C)=C\\C=C\\C(\\O)=C\\C(=O)\\C=C\\C=C(/C)\\C=C\\C(C)NC(=O)C(C)C\\C=C\\CC(O)CC1=CC=C(O)C=C1",
+                "compound": "Thailandamide lactone",
+                "database_id": [
+                    "npatlas:586"
+                ],
+                "mol_mass": 660.4907,
+                "molecular_formula": "C43H2NO8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "ABC34138.1",
+                    "name": "thaA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABC34740.1",
+                    "name": "thaF",
+                    "product": "trans acyltransferase (AT-AT-ER)"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABC34599.1",
+                    "name": "thaQ"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP000085.1",
+            "completeness": "complete",
+            "end_coord": 2036975,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1950416
+        },
+        "mibig_accession": "BGC0000186",
+        "minimal": false,
+        "ncbi_tax_id": "271848",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABC35522.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "D-alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Burkholderia thailandensis E264",
+        "polyketide": {
+            "cyclic": false,
+            "subclasses": [
+                "Polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ABC34599.1",
+                        "ABC34176.1",
+                        "ABC34832.1",
+                        "ABC33986.1",
+                        "ABC35522.1",
+                        "ABC34675.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34832.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34832.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34832.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "3",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase"
+                            ],
+                            "genes": [
+                                "ABC35522.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC35522.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6",
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34176.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "7"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "ABC34176.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34176.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "9"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34675.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "10"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34675.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "11",
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC33986.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "12"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC33986.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "13",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC34599.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "14",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:18223641",
+            "pubmed:20853892",
+            "pubmed:22517609"
+        ]
+    }
+}

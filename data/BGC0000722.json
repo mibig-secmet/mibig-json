@@ -1,0 +1,260 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "O[C@H]1[C@H](O)[C@@H](O)[C@@H](N[C@H]2C[C@H](CO)[C@@H](O[C@H](OC(CO)[C@@H](O)[C@H]3O)[C@H]3O)[C@H](O)[C@H]2O)C=C1CO.C",
+                "chem_targets": [
+                    {
+                        "target": "Trehalose synthase"
+                    }
+                ],
+                "compound": "validamycin A",
+                "evidence": [
+                    "NMR"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 487.3326,
+                "molecular_formula": "C21H13NO13"
+            }
+        ],
+        "loci": {
+            "accession": "DQ164098.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000722",
+        "minimal": false,
+        "ncbi_tax_id": "311982",
+        "organism_name": "Streptomyces hygroscopicus subsp. jinggangensis",
+        "other": {
+            "subclass": "Cyclitol"
+        },
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "nigAII",
+                        "nigAIV",
+                        "nigAVII",
+                        "nigAIX",
+                        "nigAIII",
+                        "nigAV",
+                        "nigAVI",
+                        "nigAVIII",
+                        "nigAI"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Multiple (promiscuous)",
+                                "Acetyl-CoA",
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAI"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAII"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Multiple (promiscuous)",
+                                "Acetyl-CoA",
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAIII"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Multiple (promiscuous)",
+                                "Malonyl-CoA",
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAIV"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAV"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAVI"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAVII"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAVIII"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "nigAIX"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:16632251",
+            "pubmed:16151088",
+            "pubmed:17335096",
+            "pubmed:18563934",
+            "pubmed:19477421"
+        ]
+    }
+}

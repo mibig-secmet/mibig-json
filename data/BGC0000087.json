@@ -1,0 +1,108 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated reference publication(s) (MIBiG Annotathon)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCC(C1C(CC(O1)(CC)C2CCC(C(O2)C)(CC)O)C)C(=O)C(C)C(C(C)CCC3=C(C(=C(C=C3)C)O)C(=O)[O-])O.[Na+]",
+                "compound": "lasalocid",
+                "database_id": [
+                    "pubchem:2724110"
+                ],
+                "mol_mass": 626.4303,
+                "molecular_formula": "C39NO9"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "ORF05; dihydroxy-acid dehydratase, phage-like element",
+                    "id": "AUTOORF_00001"
+                },
+                {
+                    "comments": "ORF07",
+                    "id": "AUTOORF_00002"
+                },
+                {
+                    "comments": "ORF08",
+                    "id": "AUTOORF_00003"
+                },
+                {
+                    "comments": "ORF09; 3-oxoacyl-(acyl-carrier-protein) synthase III, fragment",
+                    "id": "AUTOORF_00004"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "AUTOORF_00001",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 6051,
+                                "start": 5479
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "AUTOORF_00002",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7788,
+                                "start": 7375
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "AUTOORF_00003",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 9088,
+                                "start": 7898
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "AUTOORF_00004",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 9519,
+                                "start": 9094
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FM173265.1",
+            "completeness": "Unknown"
+        },
+        "mibig_accession": "BGC0000087",
+        "minimal": true,
+        "ncbi_tax_id": "324833",
+        "organism_name": "Streptomyces lasaliensis",
+        "publications": [
+            "pubmed:19025863"
+        ]
+    }
+}

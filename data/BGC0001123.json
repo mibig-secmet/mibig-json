@@ -1,0 +1,82 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "[H][C@@]12SS[C@]3([H])NC(=O)[C@@]1(OC1=C2C=C(Cl)C(O)=C1)N(OC)C3=O",
+                "compound": "Aspirochlorine",
+                "database_id": [
+                    "npatlas:9910",
+                    "pubchem:44559211",
+                    "chemspider:23326711"
+                ],
+                "mol_mass": 366.3222,
+                "molecular_formula": "C16H2N2O5S2"
+            }
+        ],
+        "loci": {
+            "accession": "AP007154.1",
+            "completeness": "complete",
+            "end_coord": 103337,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ],
+            "start_coord": 59595
+        },
+        "mibig_accession": "BGC0001123",
+        "minimal": false,
+        "ncbi_tax_id": "510516",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AOR_1_68164, XP_001818608",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Phenylalanine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": false,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Aspergillus oryzae RIB40",
+        "publications": [
+            "pubmed:25302411"
+        ]
+    }
+}

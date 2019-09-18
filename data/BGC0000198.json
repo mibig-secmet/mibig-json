@@ -1,0 +1,204 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC1=CC2=C(C(O)=C1C(OC)=O)[C@]3(C(C4=CC5=C(C(O)=C4C([C@]3(CC2)OC)=O)C(C=C(C5=O)N[C@@H]6[C@@H]([C@H]([C@H]([C@@H](O6)C)O)O)OC)=O)=O)O",
+                "compound": "Arenimycin A",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 911.5738,
+                "molecular_formula": "C49H5NO19"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_029025939.1",
+                    "name": "No gene ID",
+                    "product": "glucose-1-phosphate thymidylyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_029025941.1",
+                    "name": "No gene ID",
+                    "product": "ABC transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_029025942.1",
+                    "name": "No gene ID",
+                    "product": "ABC transporter permease"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_029025951.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_029025952.1",
+                    "name": "No gene ID",
+                    "product": "polyketide cyclase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_029025958.1",
+                    "name": "No gene ID",
+                    "product": "beta-ACP synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_029025959.1",
+                    "name": "No gene ID",
+                    "product": "beta-ketoacyl synthase"
+                },
+                {
+                    "comments": "Derived by automated computational analysis using gene prediction method: GeneMarkS+.",
+                    "id": "B033_RS0101630",
+                    "product": "hypothetical protein"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "B033_RS0101630",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 26765,
+                                "start": 26394
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_AZXI01000002.1",
+            "completeness": "complete",
+            "end_coord": 41108,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 3084
+        },
+        "mibig_accession": "BGC0000198",
+        "minimal": false,
+        "ncbi_tax_id": "1137250",
+        "organism_name": "Salinispora arenicola CNB527",
+        "polyketide": {
+            "cyclases": [
+                "WP_029025952.1",
+                "WP_029025951.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 12,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Benzoisochromanequinone"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_029025952.1",
+                        "WP_029025958.1",
+                        "WP_029025951.1",
+                        "WP_029025959.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24191063",
+            "pubmed:19927167"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Structure-based inference"
+                    ],
+                    "gene_id": "Unknown",
+                    "specificity": "2-O-methyl-L-rhamnose"
+                },
+                {
+                    "evidence": [
+                        "Structure-based inference"
+                    ],
+                    "gene_id": "Unknown",
+                    "specificity": "L-forosamine"
+                }
+            ],
+            "subclass": "hybrid/tailoring"
+        }
+    }
+}

@@ -1,0 +1,643 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "[H][C@@]12CCCN1C(=O)[C@@H](CC=C)OC(=O)CCNC(=O)[C@H](C)N(C)C(=O)[C@H](C(C)C)N(C)C(=O)[C@@H](NC2=O)[C@@H](C)CC",
+                "compound": "Destruxin A",
+                "database_id": [
+                    "npatlas:9673"
+                ],
+                "mol_mass": 548.4067,
+                "molecular_formula": "C30H6N5O7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10043",
+                    "name": "DtxS1",
+                    "product": "Biosynthesis of the first NRP dtx B."
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10044",
+                    "name": "DtxS2",
+                    "product": "metabolite hydroxylation, desaturation, oxidation, and/or epoxidation",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10045",
+                    "name": "DtxS3",
+                    "product": "Conversion of alpha-ketoisocaproic acid into alpha-hydroxyisocaproic acid"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10046",
+                    "name": "DtxS4",
+                    "product": "Decarboxylation of aspartic acid into beta-Alanine"
+                },
+                {
+                    "comments": "smCOG: SMCOG1055:pyruvate_oxidase/decarboxylase (Score: 262.7; E-value: 1.2e-79);",
+                    "id": "MAA_10031",
+                    "product": "benzoylformate decarboxylase"
+                },
+                {
+                    "id": "MAA_10032",
+                    "product": "laccase Lcc4"
+                },
+                {
+                    "comments": "smCOG: SMCOG1028:crotonyl-CoA_reductase_/_alcohol_dehydrogenase (Score: 108.7; E-value: 3.828e-32);",
+                    "id": "MAA_10033",
+                    "product": "polyketide synthase, putative"
+                },
+                {
+                    "comments": "smCOG: SMCOG1034:cytochrome_P450 (Score: 275.6; E-value: 1.4e-83);",
+                    "id": "MAA_10034",
+                    "product": "cytochrome P450, putative"
+                },
+                {
+                    "comments": "smCOG: SMCOG1034:cytochrome_P450 (Score: 121.7; E-value: 3.78e-36);",
+                    "id": "MAA_10035",
+                    "product": "cytochrome P450 monooxygenaseGliC-like, putative"
+                },
+                {
+                    "comments": "smCOG: SMCOG1002:AMP-dependent_synthetase_and_ligase (Score: 241.3; E-value: 2.7e-73);",
+                    "id": "MAA_10036",
+                    "product": "nonribosomal peptide synthase GliP-like, putative"
+                },
+                {
+                    "comments": "smCOG: SMCOG1034:cytochrome_P450 (Score: 197.5; E-value: 6.6e-60);",
+                    "id": "MAA_10037",
+                    "product": "Cytochrome P450"
+                },
+                {
+                    "id": "MAA_10038",
+                    "product": "GPI-anchor biosynthetic protein (Mcd4), putative"
+                },
+                {
+                    "id": "MAA_10039",
+                    "product": "subgroup IIIi aminotransferase, putative"
+                },
+                {
+                    "id": "MAA_10040",
+                    "product": "SirZ; zinc finger transcriptional regulator"
+                },
+                {
+                    "id": "MAA_10041",
+                    "product": "proteinase, putative"
+                },
+                {
+                    "id": "MAA_10042",
+                    "product": "phytanoyl-CoA dioxygenase family protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1002:AMP-dependent_synthetase_and_ligase (Score: 285.7; E-value: 9.6e-87);",
+                    "id": "MAA_10043",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "comments": "smCOG: SMCOG1034:cytochrome_P450 (Score: 330.2; E-value: 3.5e-100);",
+                    "id": "MAA_10044",
+                    "product": "benzoate 4-monooxygenase cytochrome P450"
+                },
+                {
+                    "comments": "smCOG: SMCOG1039:aldo/keto_reductase_family_oxidoreductase (Score: 312.2; E-value: 5.7e-95);",
+                    "id": "MAA_10045",
+                    "product": "aldo-keto reductase"
+                },
+                {
+                    "comments": "smCOG: SMCOG1180:Decarboxylase,_pyridoxal-dependent (Score: 285.4; E-value: 1.2e-86);",
+                    "id": "MAA_10046",
+                    "product": "glutamate decarboxylase, putative"
+                },
+                {
+                    "id": "MAA_10047",
+                    "product": "Vacuolar ATP synthase subunit B"
+                },
+                {
+                    "comments": "smCOG: SMCOG1288:ABC_transporter_related_protein (Score: 279.4; E-value: 1e-84);",
+                    "id": "MAA_10048",
+                    "product": "multidrug resistance protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1042:O-methyltransferase (Score: 31.7; E-value: 1.6e-09);",
+                    "id": "MAA_10049",
+                    "product": "sterigmatocystin 8-O-methyltransferase precursor"
+                },
+                {
+                    "comments": "smCOG: SMCOG1106:major_facilitator_transporter (Score: 119.5; E-value: 9.5e-36);",
+                    "id": "MAA_10050",
+                    "product": "vitamin H transporter, putative"
+                },
+                {
+                    "id": "MAA_10051",
+                    "product": "hypothetical protein"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "MAA_10031",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 2514,
+                                "start": 1051
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10032",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 6316,
+                                "start": 6064
+                            },
+                            {
+                                "end": 6011,
+                                "start": 4573
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10033",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 12927,
+                                "start": 12241
+                            },
+                            {
+                                "end": 12197,
+                                "start": 11379
+                            },
+                            {
+                                "end": 11014,
+                                "start": 10115
+                            },
+                            {
+                                "end": 9995,
+                                "start": 9711
+                            },
+                            {
+                                "end": 9484,
+                                "start": 7766
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10034",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 14222,
+                                "start": 14151
+                            },
+                            {
+                                "end": 14472,
+                                "start": 14365
+                            },
+                            {
+                                "end": 14935,
+                                "start": 14524
+                            },
+                            {
+                                "end": 15376,
+                                "start": 15038
+                            },
+                            {
+                                "end": 16040,
+                                "start": 15430
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10035",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 16928,
+                                "start": 16872
+                            },
+                            {
+                                "end": 17708,
+                                "start": 17070
+                            },
+                            {
+                                "end": 17988,
+                                "start": 17769
+                            },
+                            {
+                                "end": 18132,
+                                "start": 18068
+                            },
+                            {
+                                "end": 18679,
+                                "start": 18206
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10036",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 23798,
+                                "start": 19976
+                            },
+                            {
+                                "end": 24296,
+                                "start": 24037
+                            },
+                            {
+                                "end": 26899,
+                                "start": 24563
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10037",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 28511,
+                                "start": 27748
+                            },
+                            {
+                                "end": 28784,
+                                "start": 28584
+                            },
+                            {
+                                "end": 28908,
+                                "start": 28886
+                            },
+                            {
+                                "end": 29091,
+                                "start": 28994
+                            },
+                            {
+                                "end": 29520,
+                                "start": 29206
+                            },
+                            {
+                                "end": 29731,
+                                "start": 29621
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10038",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 30717,
+                                "start": 30537
+                            },
+                            {
+                                "end": 32332,
+                                "start": 30774
+                            },
+                            {
+                                "end": 32573,
+                                "start": 32386
+                            },
+                            {
+                                "end": 32764,
+                                "start": 32623
+                            },
+                            {
+                                "end": 32843,
+                                "start": 32817
+                            },
+                            {
+                                "end": 32991,
+                                "start": 32947
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10039",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 35224,
+                                "start": 34382
+                            },
+                            {
+                                "end": 34322,
+                                "start": 34068
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10040",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 36524,
+                                "start": 35733
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10041",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 43043,
+                                "start": 41364
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10042",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 47655,
+                                "start": 46696
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10043",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 71714,
+                                "start": 63396
+                            },
+                            {
+                                "end": 63345,
+                                "start": 57385
+                            },
+                            {
+                                "end": 57339,
+                                "start": 47923
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10044",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 74873,
+                                "start": 74849
+                            },
+                            {
+                                "end": 74649,
+                                "start": 73409
+                            },
+                            {
+                                "end": 73309,
+                                "start": 72959
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10045",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 76503,
+                                "start": 76321
+                            },
+                            {
+                                "end": 76611,
+                                "start": 76567
+                            },
+                            {
+                                "end": 76892,
+                                "start": 76685
+                            },
+                            {
+                                "end": 77289,
+                                "start": 76955
+                            },
+                            {
+                                "end": 77664,
+                                "start": 77357
+                            },
+                            {
+                                "end": 77803,
+                                "start": 77728
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10046",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 79789,
+                                "start": 78302
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10047",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 81634,
+                                "start": 81467
+                            },
+                            {
+                                "end": 81414,
+                                "start": 81089
+                            },
+                            {
+                                "end": 81036,
+                                "start": 80445
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "MAA_10048",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 85871,
+                                "start": 84098
+                            },
+                            {
+                                "end": 88069,
+                                "start": 85923
+                            },
+                            {
+                                "end": 88361,
+                                "start": 88284
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10049",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 96244,
+                                "start": 95996
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10050",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 100807,
+                                "start": 100674
+                            },
+                            {
+                                "end": 101051,
+                                "start": 100871
+                            },
+                            {
+                                "end": 101184,
+                                "start": 101151
+                            },
+                            {
+                                "end": 101406,
+                                "start": 101240
+                            },
+                            {
+                                "end": 101679,
+                                "start": 101471
+                            },
+                            {
+                                "end": 101734,
+                                "start": 101710
+                            },
+                            {
+                                "end": 102132,
+                                "start": 101800
+                            },
+                            {
+                                "end": 102636,
+                                "start": 102604
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "MAA_10051",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 104779,
+                                "start": 104003
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "GL698760.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000337",
+        "minimal": false,
+        "ncbi_tax_id": "655844",
+        "nrp": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ]
+        },
+        "organism_name": "Metarhizium robertsii ARSEF 23",
+        "publications": [
+            "pubmed:22232661",
+            "pubmed:3268274"
+        ]
+    },
+    "comments": "The metabolite destruxins are used by the fungus to evade insect host immunities"
+}

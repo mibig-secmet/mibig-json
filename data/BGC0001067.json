@@ -1,0 +1,371 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@@]1([C@H](OC)[C@@H](CC[C@]11CO1)OC(=O)\\C=C\\C=C\\C=C\\C=C\\C(O)=O)[C@@]1(C)O[C@@H]1CC=C(C)C",
+                "chem_synonyms": [
+                    "amebacilin",
+                    "fugillin",
+                    "fumidil"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "methionine aminopeptidase 2"
+                    }
+                ],
+                "compound": "Fumagillin",
+                "database_id": [
+                    "npatlas:10119",
+                    "pubchem:6917655"
+                ],
+                "mol_mass": 428.3134,
+                "molecular_formula": "C26H4O7"
+            },
+            {
+                "chem_struct": "CC(=CCC[C@@]1([C@H]2CCC(=C)[C@@H]1C2)C)C",
+                "chem_synonyms": [
+                    "exo-beta-bergamotene",
+                    "trans-beta-bergamotene",
+                    "(e)-beta-bergamotene",
+                    "(+)-exo-beta-bergamotene"
+                ],
+                "compound": "beta-trans-bergamotene",
+                "database_id": [
+                    "pubchem:12300069"
+                ],
+                "mol_mass": 194.1918,
+                "molecular_formula": "C16H2"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(=CC[C@@H]1[C@@](O1)(C)[C@H]2[C@@H]([C@@H](CC[C@]23CO3)O)OC)C",
+                "chem_synonyms": [
+                    "alcohol-i from fumagillin",
+                    "gelcohol"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "methionine aminopeptidase 2"
+                    }
+                ],
+                "compound": "fumagillol",
+                "database_id": [
+                    "pubchem:222778"
+                ],
+                "mol_mass": 292.204,
+                "molecular_formula": "C16H4O6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85129.1",
+                    "name": "fmaB, fma-PKS",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85128.1",
+                    "name": "fmaC, fma-AT",
+                    "product": "acyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85127.1",
+                    "name": "fmaD, fma-MT",
+                    "product": "O-methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85125.1",
+                    "name": "fpaII",
+                    "product": "methionine aminopeptidase, type II, putative"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85124.1",
+                    "name": "fapR",
+                    "product": "C6 finger transcription factor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85123.1",
+                    "name": "No gene ID",
+                    "product": "conserved hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85121.1",
+                    "name": "fpaI",
+                    "product": "methionine aminopeptidase, type I, putative"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85120.1",
+                    "name": "fmaE, fma-ABM",
+                    "product": "ABM superfamily monooxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85119.2",
+                    "name": "fmaF, fma-C6H",
+                    "product": "hydroxylase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85118.1",
+                    "name": "fma-KR",
+                    "product": "PKS-like enzyme, ketoreductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85117.1",
+                    "name": "No gene ID",
+                    "product": "acetate-CoA ligase, putative"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85116.1",
+                    "name": "fmaG, fma-P450",
+                    "product": "cytochrome P450 oxidoreductase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAL85115.1",
+                    "name": "fmaA",
+                    "product": "terpene cycase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CM000176.1",
+            "completeness": "complete",
+            "end_coord": 114438,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 79285
+        },
+        "mibig_accession": "BGC0001067",
+        "minimal": false,
+        "ncbi_tax_id": "330879",
+        "organism_name": "Aspergillus fumigatus Af293",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "EAL85129.1",
+                        "EAL85129.1",
+                        "EAL85128.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 5,
+                        "subtype": "Highly reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Activity assay",
+                            "genes": [
+                                "EAL85129.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "EAL85128.1",
+                            "thioesterase_type": "Unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23488861",
+            "pubmed:24568283",
+            "pubmed:9177176"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "terpene_precursor": "FPP",
+            "terpene_synth_cycl": [
+                "EAL85115.1"
+            ]
+        }
+    }
+}
