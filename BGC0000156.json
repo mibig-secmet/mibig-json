@@ -1,0 +1,137 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(=O)C1=C(C2(C(=O)C3=C(CC2(CC1=O)O)C=C4C=C(C=C(C4=C3O)O)OC)O)O",
+                "chem_targets": [
+                    {
+                        "target": "neuropeptide Y"
+                    },
+                    {
+                        "target": "neurokinin-1 receptor"
+                    }
+                ],
+                "compound": "TAN-1612",
+                "database_id": [
+                    "pubchem:9887988",
+                    "chemspider:8063660"
+                ],
+                "mol_mass": 540.3576,
+                "molecular_formula": "C33O9"
+            },
+            {
+                "chem_struct": "O=C1C2=C(O)C3=C(O)C=C(OC)C=C3C=C2CC(CC(CC(C)=O)=O)(O)C1O",
+                "compound": "1-(2,3,5,10-tetrahydroxy-7-methoxy-4-oxo-1,2,3,4-tetrahydroanthracen-2-yl)pentane-2,4-dione",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 440.2812,
+                "molecular_formula": "C26O8"
+            },
+            {
+                "chem_struct": "O=C1C2=C(O)C3=C(O)C=C(O)C=C3C=C2CC4(O)C1(O)C(C(C(C)=O)=C(O)C4)=O",
+                "compound": "desmethyl TAN-1612",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 528.3466,
+                "molecular_formula": "C32O9"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AEN83888",
+                    "name": "adaB",
+                    "product": "metallo-beta-lactamase-like thioesterase/Claisen cyclase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression"
+                            ]
+                        }
+                    ],
+                    "id": "AEN83886",
+                    "name": "adaD",
+                    "product": "O-methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JN257714.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0000156",
+        "minimal": false,
+        "ncbi_tax_id": "5061",
+        "organism_name": "Aspergillus niger",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Claisen condensation"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Tetracycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "aen83889",
+                        "aen83888"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C6-C11 first",
+                        "nr_iterations": 9,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "aen83888",
+                            "thioesterase_type": "Unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21866960",
+            "pubmed:7490206",
+            "pubmed:7490207"
+        ]
+    }
+}

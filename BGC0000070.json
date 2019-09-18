@@ -1,0 +1,144 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "COC1=CC(OC)=C(Cl)C2=C1C(=O)C1(O2)[C@H](C)CC(=O)C=C1OC",
+                "chem_synonyms": [
+                    "fulvicin",
+                    "grisactin",
+                    "grisovin",
+                    "griseofulvinum",
+                    "spirofulvin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "microtubule protein"
+                    }
+                ],
+                "compound": "Griseofulvin",
+                "database_id": [
+                    "npatlas:2483",
+                    "pubchem:441140"
+                ],
+                "mol_mass": 341.2127,
+                "molecular_formula": "C19HO7"
+            },
+            {
+                "chem_struct": "COC1=CC(OC)=C2C(OC3(C(C)CC(=O)C=C3OC)C2=O)=C1",
+                "compound": "Epidechlorogriseofulvin",
+                "database_id": [
+                    "npatlas:19749"
+                ],
+                "mol_mass": 372.2494,
+                "molecular_formula": "C23O6"
+            },
+            {
+                "chem_acts": [
+                    "antioxidant"
+                ],
+                "chem_struct": "CC1=CC(=CC2=C1C(=O)C3=C(C=C(C=C3O2)O)O)O",
+                "compound": "norlichexanthone",
+                "database_id": [
+                    "pubchem:5281657"
+                ],
+                "mol_mass": 324.2054,
+                "molecular_formula": "C19O6"
+            },
+            {
+                "chem_struct": "CC1=CC(=O)C=C([C@]12C(=O)C3=C(O2)C(=C(C=C3OC)OC)Cl)OC",
+                "chem_synonyms": [
+                    "amudene"
+                ],
+                "compound": "dehydrogriseofulvin",
+                "database_id": [
+                    "pubchem:3082005"
+                ],
+                "mol_mass": 376.2378,
+                "molecular_formula": "C22O7"
+            },
+            {
+                "chem_struct": "C[C@@H]1CC(=O)C=C([C@]12C(=O)C3=C(O2)C(=C(C=C3O)OC)Cl)OC",
+                "compound": "4-desmethylgriseofulvin",
+                "database_id": [
+                    "pubchem:44565921"
+                ],
+                "mol_mass": 365.2347,
+                "molecular_formula": "C21HO7"
+            },
+            {
+                "chem_struct": "CC1=CC(=CC2=C1C(=O)C3=C(O2)C(=C(C=C3O)OC)C)O",
+                "compound": "Griseoxanthone B",
+                "database_id": [
+                    "pubchem:5359037"
+                ],
+                "mol_mass": 348.2274,
+                "molecular_formula": "C21O6"
+            }
+        ],
+        "loci": {
+            "accession": "GU574478.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0000070",
+        "minimal": false,
+        "ncbi_tax_id": "36650",
+        "organism_name": "Penicillium aethiopicum",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Claisen condensation"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Polyphenol"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "adi24953"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 6,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23978092",
+            "pubmed:22942257",
+            "pubmed:22191585",
+            "pubmed:20534346",
+            "pubmed:15985553",
+            "pubmed:588267",
+            "pubmed:864701",
+            "pubmed:4583106"
+        ]
+    }
+}

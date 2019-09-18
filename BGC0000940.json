@@ -1,0 +1,121 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCN",
+                "compound": "Desferrioxamin B",
+                "database_id": [
+                    "npatlas:9012"
+                ],
+                "mol_mass": 512.3104,
+                "molecular_formula": "C25N6O8"
+            },
+            {
+                "chem_acts": [
+                    "Siderophore"
+                ],
+                "chem_struct": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
+                "chem_synonyms": [
+                    "nocardamine",
+                    "deferrioxamine e"
+                ],
+                "compound": "Desferrioxamine E",
+                "database_id": [
+                    "pubchem:161532"
+                ],
+                "mol_mass": 552.3318,
+                "molecular_formula": "C27N6O9"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAB87217.1",
+                    "name": "DesE",
+                    "product": "Ferric-siderophore lipoprotein receptor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAB87218.1",
+                    "name": "DesF",
+                    "product": "Ferric-siderophore hydrolase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAB87221.1",
+                    "name": "DesC",
+                    "product": "Acyl CoA acyl transferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAB87222.1",
+                    "name": "DesD",
+                    "product": "ATP-dependent siderophore synthetase (IucA-IucC family)"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AL645882.2",
+            "completeness": "complete",
+            "end_coord": 3040682,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 3033355
+        },
+        "mibig_accession": "BGC0000940",
+        "minimal": false,
+        "ncbi_tax_id": "100226",
+        "organism_name": "Streptomyces coelicolor A3(2)",
+        "publications": [
+            "pubmed:15600304",
+            "pubmed:17074905",
+            "pubmed:17704771",
+            "pubmed:21342472"
+        ]
+    }
+}

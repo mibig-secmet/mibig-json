@@ -1,0 +1,61 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "thioamide",
+                        "subcluster": [
+                            "PYC67537.1",
+                            "PYC67538.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "C[C@H]([C@H](NC1=S)C2=NC([C@@H](N3)[C@](C4=NC(C(N[C@@](C(N/C(C5=N[C@@H](C(N[C@](C(C)(O)[C@@H](C)O)([H])C6=NC1=CS6)=O)CS5)=C\\C)=O)([H])[C@@H](C)O)=O)=CS4)(NC([C@H](C)NC(C(NC([C@H](C)NC([C@H]([C@@H](CC)C)N[C@@H]7C=CC8=C(N=C9C=C8[C@@H](O)C)[C@H]7O)=O)=O)=C)=O)=O)CC[C@@H]3C%10=NC(C(NC(C(NC(C(N)=O)=C)=O)=C)=O)=CS%10)=CS2)OC9=O",
+                "compound": "Sch 18640",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2572.6619,
+                "molecular_formula": "C115H16N21O17S19"
+            }
+        ],
+        "loci": {
+            "accession": "PYBV01000027.1",
+            "completeness": "complete",
+            "end_coord": 124586,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 92736
+        },
+        "mibig_accession": "BGC0001473",
+        "minimal": false,
+        "ncbi_tax_id": "2116518",
+        "organism_name": "Micromonospora arborensis",
+        "publications": [
+            "pubmed:29983054",
+            "doi:10.1021/ja00407a047"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Thiopeptide"
+        }
+    }
+}

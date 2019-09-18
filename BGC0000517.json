@@ -1,0 +1,192 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "Hal beta"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "cell wall- lipidII"
+                    },
+                    {
+                        "target": "pore forming"
+                    }
+                ],
+                "compound": "Haloduracin beta",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2330.05,
+                "molecular_formula": "C103H155N27O27S4"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_synonyms": [
+                    "Hal alpha"
+                ],
+                "compound": "Haloduracin alpha",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 3045.29,
+                "molecular_formula": "C130H196N36O37S6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAB04174.1",
+                    "name": "HalM1",
+                    "product": "Class II lantibiotic synthetase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAB04171.1",
+                    "name": "HalM2",
+                    "product": "Class II lantibiotic synthetase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAB04172.1",
+                    "name": "HalA2",
+                    "product": "lantibiotic haloduracin precursor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAB04173.1",
+                    "name": "HalA1",
+                    "product": "lantibiotic haloduracin precursor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "BAB04170.1",
+                    "name": "HalT",
+                    "product": "lantibiotic haloduracin protease and transporter"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "BA000004.3",
+            "completeness": "complete",
+            "end_coord": 486037,
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 476922
+        },
+        "mibig_accession": "BGC0000517",
+        "minimal": false,
+        "ncbi_tax_id": "272558",
+        "organism_name": "Bacillus halodurans C-125",
+        "publications": [
+            "pubmed:17085596",
+            "pubmed:17233677",
+            "pubmed:18940665",
+            "pubmed:19678697",
+            "pubmed:22003874"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [
+                "BAB04170.1"
+            ],
+            "precursor_genes": [
+                {
+                    "cleavage_recogn_site": [
+                        "GA"
+                    ],
+                    "core_sequence": [
+                        "CAWYNISCRLGNKGAYCTLTVECMPSCN"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 7,
+                            "second_AA": 17
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 18,
+                            "second_AA": 23
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 20,
+                            "second_AA": 27
+                        }
+                    ],
+                    "gene_id": "BAB04173.1",
+                    "leader_sequence": "MTNLLKEWKMPLERTHNNSNPAGDIFQELEDQDILAGVNGA"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    },
+    "comments": "The lantibiotic synthetases complete dehydration and cyclization so reaction type was marked as other. "
+}

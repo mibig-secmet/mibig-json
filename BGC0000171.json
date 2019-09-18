@@ -1,0 +1,175 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "[H][C@@](O)(CC1CC(=O)NC(=O)C1)CC(=O)[C@@]([H])(C)\\C=C(/C)\\C=C/C",
+                "compound": "9-methylstreptimidone",
+                "database_id": [
+                    "npatlas:19467"
+                ],
+                "mol_mass": 284.2071,
+                "molecular_formula": "C17H2NO4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21116.1",
+                    "name": "smdB",
+                    "product": "lysr family transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21115.1",
+                    "name": "smdA",
+                    "product": "drug resistance transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21118.1",
+                    "name": "smdD",
+                    "product": "two component transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21119.1",
+                    "name": "smdE",
+                    "product": "thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21120.1",
+                    "name": "smdF",
+                    "product": "malonyl coa-ACP transferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21121.1",
+                    "name": "smdG",
+                    "product": "acyl carrier protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21123.1",
+                    "name": "smdI",
+                    "product": "type-I polyketide synthases"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CCC21125.1",
+                    "name": "smdK",
+                    "product": "putative 3-octaprenyl-4-hydroxybenzoate"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FR878059.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000171",
+        "minimal": false,
+        "ncbi_tax_id": "457427",
+        "organism_name": "Streptomyces himastatinicus ATCC 53653",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Propionyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "smdE"
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "smdE",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23438151"
+        ]
+    }
+}

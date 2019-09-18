@@ -1,0 +1,176 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CO\\C(CC(C)C(Cl)(Cl)Cl)=C\\C(=O)N(C)C(CC1=CC=CC=C1)C1=NC=CS1",
+                "compound": "Barbamide",
+                "database_id": [
+                    "npatlas:18714"
+                ],
+                "mol_mass": 368.3252,
+                "molecular_formula": "C23N2O2S"
+            }
+        ],
+        "loci": {
+            "accession": "AF516145.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000962",
+        "minimal": false,
+        "ncbi_tax_id": "158786",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAN32974.1",
+                    "modules": [
+                        {
+                            "active": false
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAN32977.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAN32978.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "(4S)-5,5,5-trichloroleucine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAN32979.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAN32980.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Phenylalanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Lyngbya majuscula",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AAN32978.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "AAN32978.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:12383521"
+        ]
+    }
+}

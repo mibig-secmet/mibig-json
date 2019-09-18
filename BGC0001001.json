@@ -1,0 +1,375 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CO\\C(CCNC(=O)CC\\C=C\\C(C)CC\\C(CCCC#CBr)=C\\Cl)=C\\C(=O)N1C(C)C=CC1=O",
+                "compound": "Jamaicamide A",
+                "database_id": [
+                    "npatlas:13036"
+                ],
+                "mol_mass": 439.129,
+                "molecular_formula": "BC28N2O4"
+            },
+            {
+                "chem_acts": [
+                    "Sodium channel blocking"
+                ],
+                "chem_struct": "CO\\C(CCNC(=O)CC\\C=C\\C(C)CC\\C(CCCC#C)=C\\Cl)=C\\C(=O)N1C(C)C=CC1=O",
+                "chem_targets": [
+                    {
+                        "target": "Sodium channel blocking"
+                    }
+                ],
+                "compound": "Jamaicamide B",
+                "database_id": [
+                    "npatlas:374",
+                    "pubchem:49787032"
+                ],
+                "mol_mass": 428.319,
+                "molecular_formula": "C28N2O4"
+            },
+            {
+                "chem_struct": "CO\\C(CCNC(=O)CC\\C=C\\C(C)CC\\C(CCCC=C)=C\\Cl)=C\\C(=O)N1C(C)C=CC1=O",
+                "chem_targets": [
+                    {
+                        "target": "Sodium channel blocking"
+                    }
+                ],
+                "compound": "Jamaicamide C",
+                "database_id": [
+                    "npatlas:1111",
+                    "pubchem:49787033"
+                ],
+                "mol_mass": 428.319,
+                "molecular_formula": "C28N2O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AAS98794.1",
+                    "name": "No gene ID",
+                    "product": "sucrose synthase"
+                },
+                {
+                    "id": "AAS98795.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "AAS98796.1",
+                    "name": "No gene ID",
+                    "product": "putative transposase"
+                },
+                {
+                    "id": "AAS98797.1",
+                    "name": "No gene ID",
+                    "product": "transposase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98774.1",
+                    "name": "jamA",
+                    "product": "Acyl-ACP Synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98775.1",
+                    "name": "jamB",
+                    "product": "Desaturase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98798.1",
+                    "name": "jamC",
+                    "product": "acyl carrier protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98776.1",
+                    "name": "jamD",
+                    "product": "Putative bromination enzyme",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98777.1",
+                    "name": "jamE",
+                    "product": "polyketide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98799.1",
+                    "name": "jamF",
+                    "product": "acyl carrier protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98778.1",
+                    "name": "jamG",
+                    "product": "ketosynthase/decarboxylase",
+                    "tailoring": [
+                        "Decarboxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98779.1",
+                    "name": "jamH",
+                    "product": "hydroxymethyl glutaryl-ACP synthase like activity",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98780.1",
+                    "name": "jamI",
+                    "product": "enoyl hydratase family",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98781.1",
+                    "name": "jamJ",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98782.1",
+                    "name": "jamK",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98783.1",
+                    "name": "jamL",
+                    "product": "polyketide synthase/nonribosomal peptide synthase hybrid"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98784.1",
+                    "name": "jamM",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98785.1",
+                    "name": "jamN",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98786.1",
+                    "name": "jamO",
+                    "product": "nonribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98787.1",
+                    "name": "jamP",
+                    "product": "polyketide synthase/thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAS98788.1",
+                    "name": "jamQ",
+                    "product": "cyclization enzyme",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "id": "AAS98789.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "AAS98790.1",
+                    "name": "No gene ID",
+                    "product": "putative transposase"
+                },
+                {
+                    "id": "AAS98792.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "AAS98791.1",
+                    "name": "No gene ID",
+                    "product": "choloylglycine hydrolase-like protein"
+                },
+                {
+                    "id": "AAS98793.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AY522504.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001001",
+        "minimal": false,
+        "ncbi_tax_id": "158786",
+        "nrp": {
+            "cyclic": true
+        },
+        "organism_name": "Lyngbya majuscula",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclasses": [
+                "Other"
+            ]
+        },
+        "publications": [
+            "pubmed:21393570",
+            "pubmed:19951434",
+            "pubmed:19494914",
+            "pubmed:16460000"
+        ]
+    }
+}

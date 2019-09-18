@@ -1,0 +1,74 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Indole/benzopyrrole"
+        },
+        "biosyn_class": [
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Indole group",
+                        "subcluster": [
+                            "AKQ20701.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C1[C@@]2(O)N3C(C4=C([C@@]2(O)C(N1C)=O)C5=CC(Cl)=CC=C5N4)=C(OC)C6=CC(O)=C(Cl)C=C63",
+                "chem_synonyms": [
+                    "lazarimide"
+                ],
+                "compound": "lazarimide A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 1433.172,
+                "molecular_formula": "C102N8O6"
+            },
+            {
+                "chem_struct": "COC1=C2N(C3=C1C=CC(Cl)=C3)[C@]1(O)C(=O)N(C)C(=O)[C@]1(O)C1=C2NC2=C1C=C(Cl)C=C2",
+                "compound": "lazarimide B",
+                "mol_mass": 506.3691,
+                "molecular_formula": "C32N3O5"
+            },
+            {
+                "chem_struct": "O[C@@]12C(=O)NC(=O)[C@]1(O)C1=C(NC3=C1C=C(Cl)C=C3)C1=C2C2=C(N1)C=C(Cl)C=C2",
+                "compound": "lazarimide C",
+                "mol_mass": 454.3367,
+                "molecular_formula": "C29N3O4"
+            }
+        ],
+        "loci": {
+            "accession": "KR052816.1",
+            "completeness": "complete",
+            "end_coord": 25639,
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 3107
+        },
+        "mibig_accession": "BGC0001337",
+        "minimal": false,
+        "ncbi_tax_id": "77133",
+        "organism_name": "uncultured bacterium",
+        "publications": [
+            "pubmed:26150486"
+        ]
+    }
+}

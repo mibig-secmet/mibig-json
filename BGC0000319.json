@@ -1,0 +1,130 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "beta-lactam ring",
+                        "subcluster": [
+                            "SSCG_00147"
+                        ]
+                    }
+                ],
+                "chem_struct": "CO[C@]1(NC(=O)CCCC(N)C(O)=O)C2SCC(COC(N)=O)=C(N2C1=O)C(O)=O",
+                "chem_targets": [
+                    {
+                        "target": "penicillin binding proteins"
+                    },
+                    {
+                        "target": "transpeptidase"
+                    },
+                    {
+                        "target": "carboxypeptidase"
+                    }
+                ],
+                "compound": "Cephamycin C",
+                "database_id": [
+                    "npatlas:8205"
+                ],
+                "mol_mass": 450.2751,
+                "molecular_formula": "C17N5O9S"
+            }
+        ],
+        "loci": {
+            "accession": "DS570624.1",
+            "completeness": "complete",
+            "end_coord": 177446,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 142995
+        },
+        "mibig_accession": "BGC0000319",
+        "minimal": false,
+        "ncbi_tax_id": "443255",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "EDY47118.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "2-Amino-adipic-acid"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Beta-lactam"
+        },
+        "organism_name": "Streptomyces clavuligerus ATCC 27064",
+        "publications": [
+            "pubmed:3130293",
+            "pubmed:1547956",
+            "pubmed:1476443",
+            "pubmed:8652114",
+            "pubmed:8892828",
+            "pubmed:9696752",
+            "pubmed:10629179",
+            "pubmed:11882698",
+            "pubmed:15583166",
+            "pubmed:17573474"
+        ]
+    }
+}

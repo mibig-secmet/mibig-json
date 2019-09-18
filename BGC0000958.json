@@ -1,0 +1,202 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "3-formamidosalicylate",
+                        "subcluster": [
+                            "strs4_010100010947",
+                            "strs4_010100010952",
+                            "strs4_010100010957",
+                            "strs4_010100010962",
+                            "strs4_010100010967",
+                            "strs4_010100010972",
+                            "strs4_010100010977",
+                            "strs4_010100010987",
+                            "strs4_010100010992"
+                        ]
+                    }
+                ],
+                "chem_struct": "CCCCCC[C@@H]1[C@H]([C@@H](OC(=O)[C@H]([C@H](OC1=O)C)NC(=O)C2=C(C(=CC=C2)NC=O)O)C)OC(=O)CC(C)C",
+                "chem_synonyms": [
+                    "antipiricullin",
+                    "fintrol",
+                    "virosin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Bcl-XL"
+                    },
+                    {
+                        "target": "cytochrome C reductase"
+                    }
+                ],
+                "compound": "Antimycin",
+                "database_id": [
+                    "pubchem:14957"
+                ],
+                "mol_mass": 537.3775,
+                "molecular_formula": "C30H5N2O9"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_FR873698.1",
+            "completeness": "complete",
+            "end_coord": 106578,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 81953
+        },
+        "mibig_accession": "BGC0000958",
+        "minimal": false,
+        "ncbi_tax_id": "889487",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ZP_09179982.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ZP_09179983.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ZP_09179979.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "Pyruvate"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Streptomyces sp. S4",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ZP_09179989.1",
+                        "ZP_09179980.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Various atypical acyl-CoAs"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "evidence": "Activity assay",
+                            "genes": [
+                                "ZP_09179980.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketoreductase"
+                            ],
+                            "genes": [
+                                "ZP_09179989.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21857911",
+            "pubmed:22378565",
+            "pubmed:22861048",
+            "pubmed:22971101",
+            "pubmed:23772837",
+            "pubmed:24123503",
+            "pubmed:25275920",
+            "pubmed:24367419",
+            "pubmed:11175751",
+            "pubmed:13836892"
+        ]
+    }
+}

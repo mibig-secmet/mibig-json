@@ -1,0 +1,95 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "Arsenic-Carbon bond",
+                        "subcluster": [
+                            "sli_1096",
+                            "sli_1097",
+                            "sli1091",
+                            "sli1094"
+                        ]
+                    }
+                ],
+                "compound": "Arsono-polyketide",
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 331.1248,
+                "molecular_formula": "C15H28AsO3"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_CM001889.1",
+            "completeness": "complete",
+            "end_coord": 1113162,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1080808
+        },
+        "mibig_accession": "BGC0001283",
+        "minimal": false,
+        "ncbi_tax_id": "1200984",
+        "organism_name": "Streptomyces lividans 1326",
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_042799407.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_042799407.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23709624",
+            "pubmed:27289100"
+        ]
+    },
+    "comments": "The actual structures of these products are still subject to further investigation and will be discussed in detail in a future publication. "
+}

@@ -1,0 +1,104 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Pyrrole/pyrrolidine"
+        },
+        "biosyn_class": [
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C(N1C)C(C2=CNC3=CC=CC=C32)=C(C4=CNC5=CC=CC=C54)C1=O",
+                "chem_targets": [
+                    {
+                        "target": "Protein kinase"
+                    }
+                ],
+                "compound": "methylarcyriarubin",
+                "mol_mass": 1455.2839,
+                "molecular_formula": "C115N3O2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHE14572.1",
+                    "name": "marM",
+                    "product": "N-methyltransferase MarM",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHE14562.1",
+                    "name": "marB",
+                    "product": "chromopyrrolic acid synthase MarB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHE14552.1",
+                    "name": "marC",
+                    "product": "Rieske [2Fe-2S] domain dioxygenase MarC",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "AHE14571.1",
+                    "name": "marE",
+                    "product": "putative VioE-like protein MarE"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF551863.1",
+            "completeness": "complete",
+            "end_coord": 12491,
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 5678
+        },
+        "mibig_accession": "BGC0000817",
+        "minimal": false,
+        "ncbi_tax_id": "77133",
+        "organism_name": "uncultured bacterium",
+        "publications": [
+            "pubmed:24648189"
+        ]
+    }
+}

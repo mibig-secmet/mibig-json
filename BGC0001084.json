@@ -1,0 +1,100 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Pyrrole/pyrrolidine"
+        },
+        "biosyn_class": [
+            "NRP",
+            "Terpene",
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC1(C)[C@@H]2C[C@]34CCCN3C(=O)[C@@]2(C[C@@]11C(=O)N(O)C2=C1C=CC1=C2C=CC(C)(C)O1)NC4=O",
+                "compound": "Notoamide A",
+                "database_id": [
+                    "npatlas:4681"
+                ],
+                "mol_mass": 523.3794,
+                "molecular_formula": "C31HN5O5"
+            }
+        ],
+        "loci": {
+            "accession": "HM622670.1",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0001084",
+        "minimal": false,
+        "ncbi_tax_id": "877550",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ADM34138.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Aspergillus sp. MF297-2",
+        "publications": [
+            "pubmed:20722388"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Hemiterpene",
+            "prenyltransferases": [
+                "hm622670",
+                "ADM34136.1",
+                "notc",
+                "hm622670",
+                "ADM34138.1",
+                "notf"
+            ],
+            "terpene_precursor": "DMAPP"
+        }
+    }
+}

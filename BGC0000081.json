@@ -1,0 +1,135 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "beta-azatyrosine"
+                    }
+                ],
+                "chem_struct": "CC1C(C(CC(O1)OC\\2COC(=O)C(CC3=NC(=C(C=C3)OC4C=C5C#C/C2=C\\C#CC6C5(C4OC7CC(C(C(O7)C)O)(C)O)O6)Cl)NC(=O)C8=C(C=C9C=C(C(=C(C9=C8)OC)OC)OC(C)C)O)O)N(C)C",
+                "chem_targets": [
+                    {
+                        "target": "DNA"
+                    }
+                ],
+                "compound": "kedarcidin",
+                "database_id": [
+                    "pubchem:6477354"
+                ],
+                "mol_mass": 1843.2579,
+                "molecular_formula": "C114N3O27"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFV52190.1",
+                    "name": "kedY4",
+                    "product": "4-Methylideneimidazole-5-one (MIO)-containing aminomutases ",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AFV52145.1",
+                    "name": "kedE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AFV52146.1",
+                    "name": "kedE10"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JX679499.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000081",
+        "minimal": false,
+        "ncbi_tax_id": "756733",
+        "organism_name": "Streptoalloteichus sp. ATCC 53650",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Enediyine"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "kede",
+                        "kede10"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 7,
+                        "subtype": "Partially reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I",
+                        "Enediyne type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "kede10",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23360970",
+            "pubmed:23633564",
+            "pubmed:23844627"
+        ]
+    }
+}

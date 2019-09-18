@@ -1,0 +1,138 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "C[C@]12CC[C@@H]([C@@]([C@@H]1CCC3=C2C=C4C5=CC=CC=C5NC4=C3)(C)C(=O)O)O",
+                "compound": "xiamycin A",
+                "database_id": [
+                    "pubchem:38358410"
+                ],
+                "mol_mass": 568.4827,
+                "molecular_formula": "C42H2NO3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFK78074.1",
+                    "name": "xiaH",
+                    "product": "terpene cyclase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFK78075.1",
+                    "name": "xiaI",
+                    "product": "oxidative terpene cyclase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFK78077.1",
+                    "name": "xiaK",
+                    "product": "C,N- and N,N dimerization",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFK78079.1",
+                    "name": "xiaM",
+                    "product": "carboxylase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFK78081.1",
+                    "name": "xiaO",
+                    "product": "epoxidase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JQ812811.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0000666",
+        "minimal": false,
+        "ncbi_tax_id": "1194094",
+        "organism_name": "Streptomyces sp. SCSIO 02999",
+        "publications": [
+            "pubmed:22591327",
+            "pubmed:23205935"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "prenyltransferases": [
+                "AFK78080.1",
+                "AFK78082.1"
+            ],
+            "terpene_precursor": "DMAPP",
+            "terpene_synth_cycl": [
+                "AFK78070.1",
+                "AFK78071.1",
+                "AFK78072.1"
+            ]
+        }
+    }
+}

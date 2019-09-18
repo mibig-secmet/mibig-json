@@ -1,0 +1,90 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C[C@@H]1NC(=O)C2=CSC(=N2)[C@@H](C)NC(=O)C2=CSC(=N2)[C@H](C)NC(=O)C2=C(C)OC1=N2",
+                "compound": "Tenuecyclamide A",
+                "database_id": [
+                    "npatlas:17309",
+                    "pubchem:24762151"
+                ],
+                "mol_mass": 521.4436,
+                "molecular_formula": "C22H3N9O4S2"
+            },
+            {
+                "chem_struct": "CSCC[C@@H]1NC(=O)C2=CSC(CNC(=O)C3=C(C)OC(=N3)[C@H](C)NC(=O)C3=CSC1=N3)=N2",
+                "compound": "Tenuecyclamide C",
+                "database_id": [
+                    "npatlas:13841",
+                    "pubchem:10720367"
+                ],
+                "mol_mass": 616.5421,
+                "molecular_formula": "C25H2N11O4S3"
+            }
+        ],
+        "genes": {
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "ACA04484.1",
+                        "ACA04486.1",
+                        "ACA04482.1",
+                        "ACA04481.1",
+                        "ACA04485.1",
+                        "ACA04483.1",
+                        "ACA04480.1"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "EU290741.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000480",
+        "minimal": false,
+        "ncbi_tax_id": "503013",
+        "organism_name": "Nostoc spongiaeforme var. tenue str. Carmeli",
+        "publications": [
+            "pubmed:18425112"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "cleavage_recogn_site": [
+                        "GVGAS",
+                        "AYD",
+                        "GAGAS",
+                        "AYE"
+                    ],
+                    "core_sequence": [
+                        "ATGCMC",
+                        "ATACAC"
+                    ],
+                    "gene_id": "ACA04484.1",
+                    "leader_sequence": "MDKKNILPQQGKPVIRITTGQLPSFLAELSEEALGDAGVGAS"
+                }
+            ],
+            "subclass": "Cyanobactin"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Signalling"
+                ],
+                "chem_struct": "NC(CC1=CNC2=C1C=CC=C2)C(NC(CCCCN)C(NC(CSCC(C(NC(C5C)C(N4C(C(NC([H])C(NC(CS5)C(NC(C(C)C)C(NC(C6C)C(NC([H])C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C(NC(CS6)C(NC(CC7=CC=CC=C7)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C8C)C(NC(C(CC)C)C(NC(C9C)C(NC(CS8)C(NC(CC(N)=O)C(NC(CS9)C(NC(CC%10=CNC=N%10)C(NC(C(CC)C)C(NC(C(NC(CCCCN)C(O)=O)=O)=C)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=CC)=O)=O)=O)=O)=O)=O)=O)=O)=O)CCC4)=O)=O)NC3=O)C(NC(CCC(O)=O)C(NC(C(NC3C(C)C)=O)=C)=O)=O)=O)=O",
+                "compound": "Ericin S",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 4472.1551,
+                "molecular_formula": "C194H2N43O38S29"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "orfA; similar to YxvaQ; unknown",
+                    "id": "AUTOORF_00001"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "AUTOORF_00001",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 13031,
+                                "start": 12924
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF233755.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000511",
+        "minimal": false,
+        "ncbi_tax_id": "1423",
+        "organism_name": "Bacillus subtilis",
+        "publications": [
+            "pubmed:11872722",
+            "pubmed:25381239"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

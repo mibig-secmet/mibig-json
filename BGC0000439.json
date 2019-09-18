@@ -1,0 +1,65 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "O=C(N[C@H](C(N[C@@H](C(N[C@@H](CC(O)=O)C(N[C@H](C(NCC(N[C@H](C(N[C@@H](CC(O)=O)C(N[C@H](C)C(N[C@H](C(NCC(N[C@@H](C(N[C@H](C(N[C@H]1CC(C2=CC=C(Cl)C=C2N)=O)=O)[C@H](C)CC(O)=O)=O)C)=O)=O)CC(O)=O)=O)=O)=O)CCCN)=O)=O)[C@@H](C)OC1=O)=O)=O)CC(N)=O)=O)CC3=CNC4=C3C=CC(Cl)=C4)/C=C/C=C/CCC",
+                "compound": "Taromycin A",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1660.1256,
+                "molecular_formula": "C84H13N17O25"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AHH53517.1",
+                    "name": "tar19",
+                    "product": "transcriptional activator"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KF301601.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000439",
+        "minimal": false,
+        "ncbi_tax_id": "1137271",
+        "nrp": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Ca+-dependent lipopeptide"
+        },
+        "organism_name": "Saccharomonospora sp. CNQ490",
+        "publications": [
+            "pubmed:24449899"
+        ]
+    }
+}

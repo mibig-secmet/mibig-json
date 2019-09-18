@@ -1,0 +1,107 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CCCCCCCCCCCC/C=C/C(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@H]1O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)NC(=O)C)C[C@H]([C@@H]3[C@H]([C@H]([C@@H](O3)N4C=CC(=O)NC4=O)O)O)O)O)O",
+                "chem_synonyms": [
+                    "tunicamycin IV"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "MraY"
+                    }
+                ],
+                "compound": "Tunicamycin B1",
+                "database_id": [
+                    "pubchem:56927834",
+                    "chemspider:27471420"
+                ],
+                "mol_mass": 909.605,
+                "molecular_formula": "C41H15N7O19"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADP94221.1",
+                    "name": "tunA",
+                    "product": "tunA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADP94222.1",
+                    "name": "tunB",
+                    "product": "tunB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ADP94226.1",
+                    "name": "tunF",
+                    "product": "tunF"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HQ172897.1",
+            "completeness": "complete",
+            "end_coord": 20609,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 8616
+        },
+        "mibig_accession": "BGC0000880",
+        "minimal": false,
+        "ncbi_tax_id": "1079985",
+        "organism_name": "Streptomyces chartreusis NRRL 3882",
+        "other": {
+            "subclass": "Nucleoside"
+        },
+        "publications": [
+            "pubmed:22717438"
+        ]
+    },
+    "comments": "The core sugar components of tunicamycin are identical to corynetoxin, however between the two variations in lipid side chain exist."
+}

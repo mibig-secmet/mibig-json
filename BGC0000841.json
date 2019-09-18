@@ -1,0 +1,213 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)C[C@@H](C(=O)O)N",
+                "compound": "alanylclavam",
+                "database_id": [
+                    "pubchem:194618"
+                ],
+                "mol_mass": 207.1221,
+                "molecular_formula": "C8H3N2O5"
+            },
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)CO",
+                "compound": "2-Hydroxymethylclavam",
+                "database_id": [
+                    "pubchem:3050259"
+                ],
+                "mol_mass": 152.0861,
+                "molecular_formula": "C6H2NO4"
+            },
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)COC=O",
+                "compound": "2-Formyloxymethylclavam",
+                "database_id": [
+                    "pubchem:46173888"
+                ],
+                "mol_mass": 180.0965,
+                "molecular_formula": "C7H2NO5"
+            },
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)C(=O)O",
+                "compound": "Clavam-2-carboxylate",
+                "database_id": [
+                    "pubchem:15573391"
+                ],
+                "mol_mass": 168.0855,
+                "molecular_formula": "C6H2NO5"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "OC\\C=C1\\O[C@@H]2CC(=O)N2[C@H]1C(O)=O",
+                "chem_synonyms": [
+                    "antibiotic mm 14151",
+                    "clavulanate",
+                    "acido clavulanico",
+                    "acide clavulanique",
+                    "acidum clavulanicum",
+                    "clavulansaeure"
+                ],
+                "compound": "Clavulanic acid",
+                "database_id": [
+                    "npatlas:19639",
+                    "pubchem:5280980"
+                ],
+                "mol_mass": 206.1142,
+                "molecular_formula": "C8H2N2O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EFG04560.1",
+                    "name": "ceaS1",
+                    "product": "Carboxyethyl arginine synthase isoenzyme 1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EFG04561.1",
+                    "name": "bls1",
+                    "product": "Beta-lactam synthetase isoenzyme 1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EFG04562.1",
+                    "name": "pah1",
+                    "product": "Proclavaminate amidinohydrolase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EFG04563.1",
+                    "name": "oat1",
+                    "product": "Probable glutamate N-acetyltransferase 1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EFG04564.1",
+                    "name": "cvm6P",
+                    "product": "Putative pyridoxal phosphate-dependent aminotransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EFG04565.1",
+                    "name": "cvm7P",
+                    "product": "Putative transcriptional regulator"
+                }
+            ],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "EFG04560.1",
+                        "EFG04565.1",
+                        "EFG04561.1",
+                        "EFG04564.1",
+                        "EFG04563.1",
+                        "EFG04562.1"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CM000914.1",
+            "completeness": "complete",
+            "end_coord": 1163141,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1152119
+        },
+        "mibig_accession": "BGC0000841",
+        "minimal": false,
+        "ncbi_tax_id": "443255",
+        "organism_name": "Streptomyces clavuligerus ATCC 27064",
+        "other": {
+            "subclass": "Non-NRP beta-lactam"
+        },
+        "publications": [
+            "pubmed:10681345",
+            "pubmed:15342599",
+            "pubmed:17317567",
+            "pubmed:23104404",
+            "pubmed:14982786",
+            "pubmed:22751548",
+            "pubmed:14742203",
+            "pubmed:18931110"
+        ]
+    }
+}

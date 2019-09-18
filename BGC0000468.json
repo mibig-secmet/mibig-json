@@ -1,0 +1,68 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "[H][C@@]12[C@H](C)CCN1C(=O)CN\\C(=N/[C@H](C(=O)N[C@@H]([C@@H](C)C1=CC=CC=C1)C(=O)N[C@H](CC(=O)OC)C1=NC=CS1)C(C)(C)C)[C@@H](NC(=O)[C@@H](NC2=O)C(C)C)C(C)(C)C",
+                "chem_targets": [
+                    {
+                        "target": "Bacterial ribosome"
+                    }
+                ],
+                "compound": "Bottromycin A2",
+                "database_id": [
+                    "npatlas:4746",
+                    "chemspider:26365309"
+                ],
+                "mol_mass": 780.6456,
+                "molecular_formula": "C43H8N8O7S"
+            }
+        ],
+        "loci": {
+            "accession": "HE983629.1",
+            "completeness": "complete",
+            "end_coord": 18956,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ],
+            "start_coord": 1377
+        },
+        "mibig_accession": "BGC0000468",
+        "minimal": false,
+        "ncbi_tax_id": "42235",
+        "organism_name": "Streptomyces bottropensis",
+        "publications": [
+            "pubmed:19115340",
+            "pubmed:6337880",
+            "pubmed:7014241",
+            "doi:10.1039/C2SC21183A"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [
+                "CCM09447.1",
+                "CCM09448.1",
+                "bmbK",
+                "CCM09452.1",
+                "bmbH",
+                "bmbG"
+            ],
+            "subclass": "Bottromycin"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "Oc3cccc2C(=O)c1cc(O)cc(O)c1C(=O)c23",
+                "compound": "AQ-256",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 104.019,
+                "molecular_formula": "C2O5"
+            },
+            {
+                "chem_struct": "Oc3cccc2C(=O)c1cc(O)cc(OC)c1C(=O)c23",
+                "compound": "AQ-270a",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 116.03,
+                "molecular_formula": "C3O5"
+            },
+            {
+                "chem_struct": "Oc3cccc2C(=O)c1cc(cc(OC)c1C(=O)c23)OC",
+                "compound": "AQ-284a",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 128.041,
+                "molecular_formula": "C4O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "plu4193",
+                    "name": "antB"
+                },
+                {
+                    "id": "plu4192",
+                    "name": "antC"
+                },
+                {
+                    "id": "plu4191",
+                    "name": "antD"
+                },
+                {
+                    "id": "plu4190",
+                    "name": "antE"
+                },
+                {
+                    "id": "plu4189",
+                    "name": "antF"
+                },
+                {
+                    "id": "plu4188",
+                    "name": "antG"
+                },
+                {
+                    "id": "plu4187",
+                    "name": "antH"
+                },
+                {
+                    "id": "plu4186",
+                    "name": "antI"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "BX470251.1",
+            "completeness": "complete",
+            "end_coord": 4907928,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 4897935
+        },
+        "mibig_accession": "BGC0000196",
+        "minimal": false,
+        "ncbi_tax_id": "243265",
+        "organism_name": "Photorhabdus laumondii subsp. laumondii TTO1",
+        "polyketide": {
+            "cyclases": [
+                "plu4187"
+            ],
+            "cyclic": true,
+            "ketide_length": -1,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "plu4191",
+                        "plu4187"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:17722122"
+        ]
+    }
+}

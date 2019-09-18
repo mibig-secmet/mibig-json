@@ -1,0 +1,168 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "pyrrolquinoline"
+                    }
+                ],
+                "chem_struct": "CO\\C=C\\C(=O)C1=NC2=C3C(C=NC3=C(N)C=C2NC(C)=O)=C1",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "Lymphostin",
+                "database_id": [
+                    "npatlas:9688"
+                ],
+                "mol_mass": 368.267,
+                "molecular_formula": "C22N4O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "pyrroloquinoline"
+                    }
+                ],
+                "chem_struct": "CCC(=O)NC1=CC(N)=C2N=CC3=C2C1=NC(=C3)C(=O)CCO",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "Neolymphostinol B",
+                "database_id": [
+                    "npatlas:15444"
+                ],
+                "mol_mass": 368.267,
+                "molecular_formula": "C22N4O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "pyrrolquinoline"
+                    }
+                ],
+                "chem_struct": "CC(=O)NC1=CC(N)=C2N=CC3=C2C1=NC(=C3)C(=O)CCO",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "Lymphostinol",
+                "database_id": [
+                    "npatlas:884"
+                ],
+                "mol_mass": 356.256,
+                "molecular_formula": "C21N4O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "pyrrolquinoline"
+                    }
+                ],
+                "chem_struct": "CCC(=O)NC1=C2N=C(C=C3C=NC(=C23)C(N)=C1)C(=O)C=COC",
+                "chem_targets": [
+                    {
+                        "target": "mTOR"
+                    }
+                ],
+                "compound": "Neolymphostin B",
+                "database_id": [
+                    "npatlas:18570"
+                ],
+                "mol_mass": 608.487,
+                "molecular_formula": "C42N4O3"
+            }
+        ],
+        "loci": {
+            "accession": "CP000667.1",
+            "completeness": "complete",
+            "end_coord": 3519138,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 3494094
+        },
+        "mibig_accession": "BGC0001006",
+        "minimal": false,
+        "ncbi_tax_id": "369723",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABP55493.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ]
+        },
+        "organism_name": "Salinispora tropica CNB-440",
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "ABP55493.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "ABP55493.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:17563368",
+            "pubmed:21815669"
+        ]
+    }
+}

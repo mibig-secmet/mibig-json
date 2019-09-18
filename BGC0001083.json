@@ -1,0 +1,764 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "chlorine",
+                        "subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC(C)C1CC2C(C)(CCC=C(C)C)C3(Cl)C(=O)C2(C1)C1=CC(O)=CC(O)=C1C3=O",
+                "compound": "Merochlorin A",
+                "database_id": [
+                    "npatlas:7975"
+                ],
+                "mol_mass": 448.3496,
+                "molecular_formula": "C32O4"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "chlorine",
+                        "subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC(C)=CCCC1(C)OC2=C(Cl)C(=O)C3=C(O)C=C(O)C=C3C22CC(CC12)=C(C)C",
+                "compound": "Merochlorin B",
+                "database_id": [
+                    "npatlas:15740"
+                ],
+                "mol_mass": 820.6906,
+                "molecular_formula": "C63O4"
+            },
+            {
+                "chem_struct": "OC1=C2C([C@]3(C/C(C4)=C(C)\\C)[C@@H]4[C@@](C)(CC/C=C(C)/C)[C@](C3=O)([H])C2=O)=CC(O)=C1",
+                "compound": "deschloro-merochlorin A",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 450.3654,
+                "molecular_formula": "C32H2O4"
+            },
+            {
+                "chem_struct": "OC1=C2C(C(C3C(C)(CC/C=C(C)/C)O4)(C/C(C3)=C(C)/C)C4=C([H])C2=O)=CC(O)=C1",
+                "compound": "deschloro-merochlorin B",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 521.3777,
+                "molecular_formula": "C34HO7"
+            },
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "chlorine",
+                        "subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ],
+                "chem_struct": "OC1=C2C(C(C3C(C)(CC/C=C(C)/C)O4)(C/C(C3)=C(C)/C)C4=C([H])C2=O)=CC(O)=C1Cl",
+                "compound": "isochloro-merochlorin B",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 533.3887,
+                "molecular_formula": "C35HO7"
+            },
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "chlorine",
+                        "subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ],
+                "chem_struct": "OC1=C2C(C(C3C(C)(CC/C=C(C)/C)O4)(C/C(C3)=C(C)/C)C4=C(Cl)C2=O)=CC(O)=C1Cl",
+                "compound": "dichloro-merochlorin B",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 544.3918,
+                "molecular_formula": "C36O7"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "chlorine",
+                        "subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC(C)=CCCC(C)=CCC(CC1(O)C(=O)C2=C(C(O)=CC(O)=C2)C(=O)C1(C)Cl)=C(C)C",
+                "compound": "Merochlorin D",
+                "database_id": [
+                    "npatlas:8389"
+                ],
+                "mol_mass": 428.316,
+                "molecular_formula": "C29O5"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "chlorine",
+                        "subcluster": [
+                            "mcl24"
+                        ]
+                    },
+                    {
+                        "moiety": "chlorine",
+                        "subcluster": [
+                            "mcl40"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC(C)=C1CC=C(C)CCC(Cl)C(C)(C)OC2=CC(O)=C3C(=O)C(C)(Cl)C(O)(C1)C(=O)C3=C2",
+                "compound": "Merochlorin C",
+                "database_id": [
+                    "npatlas:11421"
+                ],
+                "mol_mass": 488.371,
+                "molecular_formula": "C34O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68886.1",
+                    "name": "mcl1",
+                    "product": "methylenetetrahydrofolate reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68887.1",
+                    "name": "mcl2",
+                    "product": "isoprenyl diphosphate synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68888.1",
+                    "name": "mcl3",
+                    "product": "ketoacyl-ACP synthase III"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68889.1",
+                    "name": "mcl4",
+                    "product": "HMG-CoA synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68890.1",
+                    "name": "mcl5",
+                    "product": "HMG-CoA reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68891.1",
+                    "name": "mcl6",
+                    "product": "isopentenyldiphosphate isomerase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68892.1",
+                    "name": "mcl7",
+                    "product": "phosphomevalonate kinase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68893.1",
+                    "name": "mcl8",
+                    "product": "mevalonate diphosphate decarboxylase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68894.1",
+                    "name": "mcl9",
+                    "product": "mevalonate kinase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68895.1",
+                    "name": "mcl10",
+                    "product": "MerR-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68896.1",
+                    "name": "mcl11",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68897.1",
+                    "name": "mcl12",
+                    "product": "oxidoreductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68898.1",
+                    "name": "mcl13",
+                    "product": "3-carboxymuconate cycloisomerase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68899.1",
+                    "name": "mcl14",
+                    "product": "FAD-dependent oxidoreductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68900.1",
+                    "name": "mcl15",
+                    "product": "cytochrome B-like protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68901.1",
+                    "name": "mcl16",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68902.1",
+                    "name": "mcl17",
+                    "product": "type-III polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68903.1",
+                    "name": "mcl18",
+                    "product": "monooxygenase",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68904.1",
+                    "name": "mcl19",
+                    "product": "aminotransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68905.1",
+                    "name": "mcl20",
+                    "product": "AMP-dependent synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68906.1",
+                    "name": "mcl21",
+                    "product": "methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68907.1",
+                    "name": "mcl22",
+                    "product": "isosesquilavandulyl diphosphate synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68908.1",
+                    "name": "mcl23",
+                    "product": "aromatic prenyltransferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68909.1",
+                    "name": "mcl24",
+                    "product": "vanadium-dependent chloroperoxidase",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68910.1",
+                    "name": "mcl25",
+                    "product": "MFS-like transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68911.1",
+                    "name": "mcl26",
+                    "product": "aromatase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68912.1",
+                    "name": "mcl27",
+                    "product": "thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68913.1",
+                    "name": "mcl28",
+                    "product": "SARP-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68914.1",
+                    "name": "mcl29",
+                    "product": "TetR-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68915.1",
+                    "name": "mcl30",
+                    "product": "iron-sulfur-binding oxidoreductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68916.1",
+                    "name": "mcl31",
+                    "product": "SARP-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68917.1",
+                    "name": "mcl32",
+                    "product": "TetR-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68918.1",
+                    "name": "mcl33",
+                    "product": "NRPS-like condensation domain"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68919.1",
+                    "name": "mcl34",
+                    "product": "SARP-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68920.1",
+                    "name": "mcl35",
+                    "product": "SARP-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68921.1",
+                    "name": "mcl36",
+                    "product": "SARP-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68922.1",
+                    "name": "mcl37",
+                    "product": "AfsA-like gamma-butyrolactone synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68923.1",
+                    "name": "mcl38",
+                    "product": "oxidoreductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68924.1",
+                    "name": "mcl39",
+                    "product": "MFS-like transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68925.1",
+                    "name": "mcl40",
+                    "product": "vanadium-dependent chloroperoxidase",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGH68926.1",
+                    "name": "mcl41",
+                    "product": "thioredoxin-like oxidoreductase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JX186999.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0001083",
+        "minimal": false,
+        "ncbi_tax_id": "1136432",
+        "organism_name": "Streptomyces sp. CNH189",
+        "polyketide": {
+            "cyclic": true,
+            "ketide_length": 5,
+            "starter_unit": "Malonamyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "mcl17,agh68902.1",
+                        "AGH68902.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "AGH68902.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ],
+                    "subclass": [
+                        "Type III"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:22784372"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "prenyltransferases": [
+                "mcl23",
+                "AGH68908.1"
+            ],
+            "terpene_precursor": "DMAPP",
+            "terpene_synth_cycl": [
+                "mcl22",
+                "AGH68907.1"
+            ]
+        }
+    },
+    "comments": "An unusual terpene cyclization catalyzed by chloroperoxidases not by classic terpene synthase/cyclases"
+}

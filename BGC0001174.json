@@ -1,0 +1,129 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "O=C(NCC(NCC(O)=O)=O)C1=CSC(C2=CSC(C3=CSC(C4=CSC(C5=CSC([C@@H]6CCCN6C([C@@H](NC(C7=C(C)OC(C8=C(C)OC(C9=CSC(C%10=COC(C%11=CSC([C@@H](N(C)C)CCCNC(N)=N)=N%11)=N%10)=N9)=N8)=N7)=O)[C@H](CC)C)=O)=N5)=N4)=N3)=N2)=N1",
+                "compound": "corynazolicin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2161.754,
+                "molecular_formula": "C86H4N54O9S7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CU7111_1582",
+                    "name": "pznL",
+                    "product": "SAM-dependent methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Other enzymatic",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CU7111_1584",
+                    "name": "pznC",
+                    "product": "cyclodehydratase partner"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CU7111_1585",
+                    "name": "pznD",
+                    "product": "cyclodehydratase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CU7111_1586",
+                    "name": "pznB",
+                    "product": "FMN-dependent dehydrogenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CU7111_1587",
+                    "name": "pznE",
+                    "product": "protease"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP004085.1",
+            "completeness": "complete",
+            "end_coord": 1882234,
+            "evidence": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1876183
+        },
+        "mibig_accession": "BGC0001174",
+        "minimal": true,
+        "ncbi_tax_id": "1267754",
+        "organism_name": "Corynebacterium urealyticum DSM 7111",
+        "publications": [
+            "pubmed:21950656"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "subclass": "LAP"
+        }
+    }
+}

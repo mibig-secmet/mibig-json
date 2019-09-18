@@ -1,0 +1,89 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "COC1=C(C\\C=C(/C)CCC(O)=O)C(O)=C2C(=O)OCC2=C1C",
+                "chem_targets": [
+                    {
+                        "target": "inosine monophosphate dehydrogenase"
+                    }
+                ],
+                "compound": "Mycophenolic acid",
+                "database_id": [
+                    "npatlas:15757",
+                    "pubchem:446541",
+                    "chebi:168396",
+                    "chembl:866",
+                    "chemspider:393865"
+                ],
+                "mol_mass": 324.2054,
+                "molecular_formula": "C19O6"
+            }
+        ],
+        "loci": {
+            "accession": "HQ731031.1",
+            "completeness": "complete",
+            "end_coord": 32485,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 7000
+        },
+        "mibig_accession": "BGC0000104",
+        "minimal": false,
+        "ncbi_tax_id": "5074",
+        "organism_name": "Penicillium brevicompactum",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ADY00130.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 3,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21398490",
+            "pubmed:4472552"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "prenyltransferases": [
+                "ADY00128.1"
+            ],
+            "structural_subclass": "Dolichol"
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@](C)(CC)[C@]([H])(NC(=O)[C@@H]1CCCNN1C(=O)[C@H](CCCCC)CC(=O)NO)C(=O)CC",
+                "chem_targets": [
+                    {
+                        "target": "typeIV collagenase"
+                    }
+                ],
+                "compound": "Matlystatin A",
+                "database_id": [
+                    "npatlas:12386",
+                    "pubchem:10054339"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 404.2974,
+                "molecular_formula": "C22H4N4O5"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_KB907224.1",
+            "completeness": "complete",
+            "end_coord": 56356,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ],
+            "start_coord": 32199
+        },
+        "mibig_accession": "BGC0001443",
+        "minimal": false,
+        "ncbi_tax_id": "1120936",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_019634556.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_026341873.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_019634550.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Actinomadura atramentaria DSM 43919",
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_019634550.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Feeding study",
+                            "genes": [
+                                "WP_019634550.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:7844042",
+            "pubmed:7844043"
+        ]
+    }
+}

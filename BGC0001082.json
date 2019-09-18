@@ -1,0 +1,102 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "C[C@]12CC[C@H]3C(=CC(=O)[C@H](O3)C(C)(C)O)[C@@]1(CC[C@@H]4[C@@]2(C5=C(C4)C6=CC=CC=C6N5)C)O",
+                "chem_targets": [
+                    {
+                        "target": "BK channels"
+                    }
+                ],
+                "compound": "paxilline",
+                "database_id": [
+                    "pubchem:105008"
+                ],
+                "mol_mass": 697.5376,
+                "molecular_formula": "C44H3N5O6"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor",
+                    "Antiviral"
+                ],
+                "chem_struct": "[H][C@]12CC3=C(NC4=CC=CC=C34)[C@]1(C)[C@@]1(C)CC[C@]3([H])O[C@@H](CC[C@@]3(C)[C@]1([H])CC2)C(C)(C)O",
+                "chem_targets": [
+                    {
+                        "target": "BK channels"
+                    }
+                ],
+                "compound": "Paspaline",
+                "database_id": [
+                    "npatlas:8347",
+                    "pubchem:115028"
+                ],
+                "mol_mass": 854.7741,
+                "molecular_formula": "C67H4NO2"
+            },
+            {
+                "chem_struct": "[H][C@]12CC3=C(NC4=CC=CC=C34)[C@]1(C)[C@@]1(C)CC[C@]3([H])O[C@@H](C(=O)C=C3[C@]1([H])CC2)C(C)(C)O",
+                "compound": "13-dehydroxypaxilline",
+                "database_id": [
+                    "npatlas:3569"
+                ],
+                "mol_mass": 882.7845,
+                "molecular_formula": "C68H4NO3"
+            },
+            {
+                "chem_struct": "CC(C)(O)C1CCC2(C=O)C(CCC3(C)C2CCC2CC4=C(NC5=CC=CC=C45)C32C)O1",
+                "compound": "Paspaline B",
+                "database_id": [
+                    "npatlas:3640",
+                    "pubchem:10342949"
+                ],
+                "mol_mass": 1443.2699,
+                "molecular_formula": "C115NO3"
+            }
+        ],
+        "loci": {
+            "accession": "HM171111.1",
+            "completeness": "complete",
+            "end_coord": 46982,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 28174
+        },
+        "mibig_accession": "BGC0001082",
+        "minimal": false,
+        "ncbi_tax_id": "70109",
+        "organism_name": "Penicillium paxilli",
+        "publications": [
+            "pubmed:11169115",
+            "pubmed:16494875",
+            "pubmed:17428785",
+            "pubmed:19529962",
+            "pubmed:23949005",
+            "pubmed:23311903",
+            "pubmed:23525886",
+            "pubmed:23886345"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Hemiterpene",
+            "structural_subclass": "Sterol",
+            "terpene_precursor": "DMAPP"
+        }
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor",
+                    "Induciton of apoptosis"
+                ],
+                "chem_struct": "CCCCCC1=C(C(O)=O)C(O)=C2C(C=CC3=C2C=C2C(=C3O)C(=O)C3=C(O)C=C(O)C=C3C2(C)C)=C1",
+                "chem_targets": [
+                    {
+                        "target": "Glutathion S-transferase"
+                    }
+                ],
+                "compound": "Benastatin A",
+                "database_id": [
+                    "npatlas:12843",
+                    "pubchem:126408",
+                    "chemspider:170880"
+                ],
+                "mol_mass": 616.4578,
+                "molecular_formula": "C42O7"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor",
+                    "Induction of apoptosis"
+                ],
+                "chem_struct": "CCCCCC1=C(C(O)=O)C(O)=C2C(CCC3=C(O)C4=C(C=C23)C(C)(C)C2=CC(O)=CC(O)=C2C4=O)=C1",
+                "chem_targets": [
+                    {
+                        "target": "Glutathion S-transferase"
+                    }
+                ],
+                "compound": "Benastatin B",
+                "database_id": [
+                    "npatlas:3217",
+                    "pubchem:126409",
+                    "chemspider:112338"
+                ],
+                "mol_mass": 868.6888,
+                "molecular_formula": "C63O7"
+            },
+            {
+                "chem_struct": "OC1=C(C(C(C(O)=C(C=CC2=C3C(O)=C(C(O)=O)C(CCCCC)=C2)C3=C4)=C4C5(C)O)=O)C5=CC(O)=C1",
+                "compound": "BE-43767",
+                "mol_mass": 716.5342,
+                "molecular_formula": "C49O8"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_struct": "OC1=C(C(C(C(O)=C(CCC2=C3C(O)=C(C(O)=O)C(CCCCC)=C2)C3=C4)=C4C5(C)O)=O)C5=CC(O)=C1",
+                "chem_targets": [
+                    {
+                        "target": "Microtuble"
+                    },
+                    {
+                        "target": "squalene synthase"
+                    }
+                ],
+                "compound": "TAN1532B",
+                "mol_mass": 716.5342,
+                "molecular_formula": "C49O8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAM58795.1",
+                    "product": "C-dimethyltransferse",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAM58804.1",
+                    "product": "C-19 ketoreductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAM58805.1"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AM501485.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000204",
+        "minimal": false,
+        "ncbi_tax_id": "431672",
+        "organism_name": "Streptomyces sp. A2991200",
+        "polyketide": {
+            "cyclases": [
+                "CAM58796.1",
+                "CAM58797.1",
+                "CAM58801.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 14,
+            "starter_unit": "Hexanoyl-ACP",
+            "subclasses": [
+                "Angucycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAM58801.1",
+                        "CAM58797.1",
+                        "CAM58796.1",
+                        "CAM58798.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:19047004",
+            "pubmed:17691088",
+            "pubmed:17625850",
+            "pubmed:17439117",
+            "pubmed:1429222",
+            "pubmed:1429223",
+            "pubmed:1468985",
+            "pubmed:11092982"
+        ]
+    }
+}

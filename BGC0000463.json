@@ -1,0 +1,342 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ],
+                "chem_struct": "CCCCCCCC(O)CC(NC(CC(C)C)C(NC(CCC(O)=O)C(NC(CCC(N)=O)C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(CO1)C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(CC(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C(CC)C)C1=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O",
+                "compound": "xantholysin A",
+                "mol_mass": 1629.0308,
+                "molecular_formula": "C84N18O23"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ],
+                "chem_struct": "CCCCCCCC(O)CC(NC(CC(C)C)C(NC(CCC(O)=O)C(NC(CCC(N)=O)C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(CO1)C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(CC(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C(C)C)C1=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O",
+                "compound": "xantholysin B",
+                "mol_mass": 1617.0198,
+                "molecular_formula": "C83N18O23"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ],
+                "chem_struct": "OC(CC(NC(CC(C)C)C(NC(CCC(O)=O)C(NC(CCC(N)=O)C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(CO1)C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(CC(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C(CC)C)C1=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)C/C=C\\CCCCCC",
+                "compound": "xantholysin C",
+                "mol_mass": 1653.0528,
+                "molecular_formula": "C86N18O23"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGM14933.1",
+                    "name": "xtlB",
+                    "product": "xantholysin synthetase B"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGM14934.1",
+                    "name": "xtlC",
+                    "product": "xantholysin synthetase C"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGM14935.1",
+                    "name": "xtlD",
+                    "product": "MacA-like protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGM14936.1",
+                    "name": "xtlE",
+                    "product": "MacB-like ABC transporter protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KC297506.1",
+            "completeness": "complete",
+            "end_coord": 47830,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 4624
+        },
+        "mibig_accession": "BGC0000463",
+        "minimal": false,
+        "ncbi_tax_id": "303",
+        "nrp": {
+            "cyclic": true,
+            "lipid_moiety": "3-hydroxydecanoic acid (xantholysin A, xantholysin B); 3-hydroxydodec-5-enoate (xantholysin C)",
+            "nrps_genes": [
+                {
+                    "gene_id": "AGM14925.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamate"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGM14933.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "10"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "6"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "8"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "9"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGM14934.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "11"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "12"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "13"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "Isoleucine; Valine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "14"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Other lipopeptide"
+        },
+        "organism_name": "Pseudomonas putida",
+        "publications": [
+            "pubmed:23690965"
+        ]
+    },
+    "comments": "Xantholysin A as main product. Additional minor products of which two congeners identified as xantholysin B and xantholysin C."
+}

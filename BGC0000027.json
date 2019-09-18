@@ -1,0 +1,181 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCCCCCCC(=O)C1C2CC3=C(COC(\\C=C\\C)=C3)C(=O)C2(C)OC1=O",
+                "compound": "Ankaflavin",
+                "database_id": [
+                    "npatlas:5638",
+                    "pubchem:15294091"
+                ],
+                "mol_mass": 428.316,
+                "molecular_formula": "C29O5"
+            },
+            {
+                "chem_struct": "[H]\\C(C)=C(\\[H])C1=CC2=C(CO1)C(=O)[C@]1(C)OC(=O)[C@H](C(=O)CCCCC)[C@@]1([H])C2",
+                "compound": "Monascin",
+                "database_id": [
+                    "npatlas:9686",
+                    "pubchem:12118082"
+                ],
+                "mol_mass": 360.2816,
+                "molecular_formula": "C23H4O5"
+            },
+            {
+                "chem_struct": "CCCCCC(=O)C1=C2C=C3C=C(OC=C3C(=O)[C@]2(C)OC1=O)\\C=C\\C",
+                "compound": "Rubropunctatine",
+                "database_id": [
+                    "npatlas:17529"
+                ],
+                "mol_mass": 392.283,
+                "molecular_formula": "C26O5"
+            },
+            {
+                "chem_struct": "CCCCCCCC(=O)C1=C2C=C3C=C(OC=C3C(=O)[C@]2(C)OC1=O)\\C=C\\C",
+                "compound": "Monascorubrin",
+                "database_id": [
+                    "npatlas:2306",
+                    "pubchem:12118084"
+                ],
+                "mol_mass": 416.305,
+                "molecular_formula": "C28O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGN71607.1",
+                    "name": "mppB",
+                    "product": "acyltransferase",
+                    "tailoring": [
+                        "Acylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGN71606.1",
+                    "name": "mppA",
+                    "product": "ketoreductase ",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGN71608.1",
+                    "name": "mppC",
+                    "product": "dehydrogenase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGN71622.1",
+                    "name": "mpp7",
+                    "product": "dehydratase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGN71623.1",
+                    "name": "mppF",
+                    "product": "hydroxylase",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KC148521.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000027",
+        "minimal": false,
+        "ncbi_tax_id": "89488",
+        "organism_name": "Monascus pilosus",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetoacetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "2362MpPKS5",
+                        "kc148521"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 5,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23504076"
+        ]
+    }
+}

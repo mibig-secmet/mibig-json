@@ -1,0 +1,166 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Antioxidant",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CN1C(=O)[C@]23CC4=CC=C[C@H](O)[C@@H]4N2C(=O)[C@@]1(CO)SS3",
+                "compound": "Gliotoxin",
+                "database_id": [
+                    "npatlas:17485",
+                    "pubchem:6223"
+                ],
+                "mol_mass": 428.4495,
+                "molecular_formula": "C16H2N3O4S4"
+            },
+            {
+                "chem_acts": [
+                    "Formation attenuates gliotoxin biosynthesis"
+                ],
+                "chem_struct": "CN1C(=O)[C@@]2(CC3=CC=C[C@@H]([C@H]3N2C(=O)[C@@]1(CO)SC)O)SC",
+                "chem_synonyms": [
+                    "bismethylgliotoxin"
+                ],
+                "compound": "Bisdethiobis(methylthio)gliotoxin",
+                "database_id": [
+                    "pubchem:194564",
+                    "pubchem:135171858"
+                ],
+                "mol_mass": 376.3405,
+                "molecular_formula": "C17H2N3O4S2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFUA_6G09745",
+                    "name": "gliH",
+                    "product": "GliH"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFUA_2G11120",
+                    "name": "gtmA",
+                    "product": "GtmA",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "AFUA_2G11120"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AAHF01000006.1",
+            "completeness": "complete",
+            "end_coord": 1054627,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 1054011
+        },
+        "mibig_accession": "BGC0000361",
+        "minimal": false,
+        "ncbi_tax_id": "330879",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAW03307.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Phenylalanine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Aspergillus fumigatus Af293",
+        "publications": [
+            "pubmed:24847038",
+            "pubmed:25126990",
+            "pubmed:25311525",
+            "pubmed:25062268",
+            "pubmed:24039048",
+            "pubmed:22936680",
+            "pubmed:21749092",
+            "pubmed:21513890",
+            "pubmed:20548963",
+            "pubmed:20593880",
+            "pubmed:18199036",
+            "pubmed:17601876",
+            "pubmed:17154540",
+            "pubmed:16956378",
+            "pubmed:16757745",
+            "pubmed:15979823"
+        ]
+    },
+    "comments": "The gli cluster contains an additional experimentally verified gene (gliH; EAL88826) which is essential for gliotoxin biosynthesis (Schrettl et al. 2010- PMID 20548963). gliH occurs after gliT in the gli cluster.\\n\\nBismethylgliotoxin is also formed via the action of the gli cluster, plus one additional gene on chromosome 2 (gliotoxin bis-thiomethyltransferase; AFUA_2g11120; Dolan et al. 2014; PMID 25126990)."
+}

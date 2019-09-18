@@ -1,0 +1,169 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Siderophore",
+                    "Virulence factor"
+                ],
+                "chem_struct": "CCCCCCC/C=C(\\C)/C(=C1C=C(OC1=O)C(=O)CC)O",
+                "chem_synonyms": [
+                    "malleilactone"
+                ],
+                "compound": "burkholderic acid",
+                "database_id": [
+                    "pubchem:102448589",
+                    "chemspider:28536046"
+                ],
+                "mol_mass": 280.1956,
+                "molecular_formula": "C18O4"
+            }
+        ],
+        "loci": {
+            "accession": "CP000086.1",
+            "completeness": "complete",
+            "end_coord": 2580940,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 2543245
+        },
+        "mibig_accession": "BGC0001120",
+        "minimal": false,
+        "ncbi_tax_id": "271848",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABC36203",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "A1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABC35796",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "B3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Burkholderia thailandensis E264",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Reductive release"
+            ],
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ABC36203",
+                        "ABC35796"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "ABC36203"
+                            ],
+                            "kr_stereochem": "Inactive",
+                            "module_number": "A2",
+                            "pks_mod_doms": [
+                                "Hydroxylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC35796"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "B0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "ABC35796"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "B1",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "ABC35796"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "B2"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23055407",
+            "pubmed:22765305"
+        ]
+    }
+}

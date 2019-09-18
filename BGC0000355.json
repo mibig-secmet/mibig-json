@@ -1,0 +1,244 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "[H][C@]12N[C@@H](C)C(=O)N1C1=CC=CC=C1[C@@]2(O)C[C@@]1([H])N2C(=O)C3=C(C=CC=C3)N=C2[C@H](C)NC1=O",
+                "compound": "Fumiquinazoline A",
+                "database_id": [
+                    "npatlas:5162",
+                    "pubchem:11247802"
+                ],
+                "mol_mass": 500.3884,
+                "molecular_formula": "C29H4N6O4"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "[H][C@]12N[C@@H](C)C(=O)N1C1=CC=CC=C1[C@@]21C[C@@]2([H])N3C(=O)C4=C(C=CC=C4)N=C3[C@](C)(NC2=O)O1",
+                "chem_synonyms": [
+                    "fqc",
+                    "mls004257388",
+                    "smr003082519"
+                ],
+                "compound": "Fumiquinazoline C",
+                "database_id": [
+                    "npatlas:6491",
+                    "pubchem:10003515"
+                ],
+                "mol_mass": 561.4312,
+                "molecular_formula": "C33H3N7O4"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@H]1C(=O)N2[C@@H]3N1[C@]4(C5=NC6=CC=CC=C6C(=O)N5[C@H](C[C@@]3(C7=CC=CC=C72)O)C(=O)N4)C",
+                "compound": "fumiquinazoline D",
+                "database_id": [
+                    "pubchem:9980845"
+                ],
+                "mol_mass": 1630.3734,
+                "molecular_formula": "C115H3N13O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EAL89045.1",
+                    "name": "fmqE",
+                    "product": "MFS transporter, putative"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "EAL89046.1",
+                    "name": "fmqC, fqzC, pesL, nrps11",
+                    "product": "nonribosomal peptide synthetase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "EAL89047.1",
+                    "name": "fmqB, fqzB",
+                    "product": "FAD-dependent monooxygenase",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "EAL89048.1",
+                    "name": "fmqD",
+                    "product": "FAD-dependent oxidoreductase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "EAL89049.1",
+                    "name": "fmqA, pesM, nrps12,",
+                    "product": "nonribosomal peptide synthetase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CM000174.1",
+            "completeness": "complete",
+            "end_coord": 3035305,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 3010494
+        },
+        "mibig_accession": "BGC0000355",
+        "minimal": false,
+        "ncbi_tax_id": "330879",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "XP_751087.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "Anthranilate"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "module_number": "3"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "XP_751084.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "thioesterases": [
+                {
+                    "gene": "xm_745994",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
+        "organism_name": "Aspergillus fumigatus Af293",
+        "publications": [
+            "pubmed:21899262",
+            "pubmed:20225828",
+            "pubmed:20804163",
+            "pubmed:22344643",
+            "pubmed:22902615",
+            "pubmed:23330675",
+            "pubmed:24121553"
+        ]
+    }
+}

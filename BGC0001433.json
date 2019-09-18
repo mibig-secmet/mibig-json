@@ -1,0 +1,456 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "O=C(O)[C@@H](NC(C)=O)CS/C(C)=C([H])/C([H])=C1C=CC2=C\\1C=CC=N2",
+                "compound": "argimycin PI",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 341.3,
+                "molecular_formula": "C18H3N3O3S"
+            },
+            {
+                "chem_struct": "[H]C(/C([H])=C(SC[C@@H](C(O)=O)NC(C)=O)\\C)=C1C=CC2=C\\1C=CC=N2",
+                "compound": "Argimycin PII",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 341.3,
+                "molecular_formula": "C18H3N3O3S"
+            },
+            {
+                "chem_struct": "C\\C=C\\C=C\\C=C\\C1=NCCCC1",
+                "compound": "Nigrifactin",
+                "database_id": [
+                    "npatlas:1371"
+                ],
+                "mol_mass": 158.1387,
+                "molecular_formula": "C12N"
+            },
+            {
+                "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCC[C@@H](O)[C@@]2\\1O",
+                "compound": "Argimycin PIV",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 192.1533,
+                "molecular_formula": "C12H2NO2"
+            },
+            {
+                "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCCC[C@@]2\\1O",
+                "compound": "Argimycin PV",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 175.146,
+                "molecular_formula": "C12HNO"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCCC[C@@]2\\1[H]",
+                "compound": "Argimycin PVI",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 160.1545,
+                "molecular_formula": "C12H2N"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "C/C=C/C=C/CCC1NCCCC1",
+                "compound": "Argimycin PIX",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 158.1387,
+                "molecular_formula": "C12N"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70300.1",
+                    "name": "arpRI",
+                    "product": "SARP-like transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70301.1",
+                    "name": "arpO",
+                    "product": "Dehydrogenase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70302.1",
+                    "name": "arpDHI",
+                    "product": "Dehydrogenase/hydroxylase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70303.1",
+                    "name": "arpDHII",
+                    "product": "Imine reductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70304.1",
+                    "name": "arpN",
+                    "product": "Aminotransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70305.1",
+                    "name": "arpK",
+                    "product": "Flavin reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70306.1",
+                    "name": "arpHI",
+                    "product": "Cyclase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70307.1",
+                    "name": "arpHII",
+                    "product": "Cyclase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70308.1",
+                    "name": "arpPI",
+                    "product": "Type I polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70309.1",
+                    "name": "arpPII",
+                    "product": "Type I polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70310.1",
+                    "name": "arpPIII",
+                    "product": "Type I polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70311.1",
+                    "name": "arpT",
+                    "product": "Type II thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70312.1",
+                    "name": "arpX",
+                    "product": "Hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "SCO70313.1",
+                    "name": "arpRII",
+                    "product": "TetR-like transcriptional repressor"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "LT615255.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001433",
+        "minimal": false,
+        "ncbi_tax_id": "41951",
+        "organism_name": "Streptomyces argillaceus",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Reductive release"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "SCO70310",
+                        "SCO70308",
+                        " SCO70309",
+                        "SCO70311.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "SCO70308"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "SCO70308"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "SCO70308"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                " SCO70309"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                " SCO70309"
+                            ],
+                            "kr_stereochem": "Inactive",
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiol reductase"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "SCO70310"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "5"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "SCO70311.1",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "doi:10.3389/fmicb.2017.00194"
+        ]
+    },
+    "comments": "No coments"
+}

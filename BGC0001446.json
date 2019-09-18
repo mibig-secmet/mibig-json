@@ -1,0 +1,121 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antiinsectan "
+                ],
+                "chem_struct": "CC(=O)CC(O)C1=C(O)C2=C(C=C1O)C(=O)C1=C(C(O)=CC(O)=C1)C2=O",
+                "compound": "Asparasone A",
+                "database_id": [
+                    "npatlas:18953",
+                    "pubchem:10808295"
+                ],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 368.2152,
+                "molecular_formula": "C20O8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EED57517.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EED57518.1",
+                    "name": "No gene ID",
+                    "product": "polyketide synthase, putative"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "EQ963472.1",
+            "completeness": "complete",
+            "end_coord": 2658105,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 2642293
+        },
+        "mibig_accession": "BGC0001446",
+        "minimal": false,
+        "ncbi_tax_id": "332952",
+        "organism_name": "Aspergillus flavus NRRL3357",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "EED57518.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 8,
+                        "subtype": "Non-reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "genes": [
+                                "EED57518.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24412484",
+            "pubmed:24405210"
+        ]
+    }
+}

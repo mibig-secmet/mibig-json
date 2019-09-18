@@ -1,0 +1,192 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "5,5-bicyclic carbamate"
+                    }
+                ],
+                "chem_synonyms": [
+                    "sb-253514"
+                ],
+                "compound": "brabantamide A",
+                "database_id": [
+                    "chemspider:8274723"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CDF96613.1",
+                    "name": "braA",
+                    "product": "RhlB, TDP-rhamnosyltransferase 1",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CDF96614.1",
+                    "name": "BraB",
+                    "product": "NRPS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CDF96615.1",
+                    "name": "BraC",
+                    "product": "FAD-dependent Baeyer\u2013Villiger monooxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CDF96616.1",
+                    "name": "BraD",
+                    "product": "LuxR-type transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CDF96617.1",
+                    "name": "BraE",
+                    "product": "RND efflux system"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CBLV010000330.1",
+            "completeness": "complete",
+            "end_coord": 209553,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 196768
+        },
+        "mibig_accession": "BGC0001149",
+        "minimal": false,
+        "ncbi_tax_id": "984195",
+        "nrp": {
+            "cyclic": true,
+            "lipid_moiety": "3-OH tetradecanoic acid ",
+            "nrps_genes": [
+                {
+                    "gene_id": "CDF96614.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Other lipopeptide",
+            "thioesterases": [
+                {
+                    "gene": "CDF96614.1",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
+        "organism_name": "Pseudomonas sp. SHC52",
+        "publications": [
+            "pubmed:24436210"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Structure-based inference"
+                    ],
+                    "gene_id": "CDF96613.1",
+                    "specificity": "D-rhamnose"
+                }
+            ],
+            "subclass": "hybrid/tailoring",
+            "sugar_subclusters": [
+                [
+                    "BN844_4693",
+                    "BN844_4692",
+                    "BN844_4691"
+                ]
+            ]
+        }
+    }
+}

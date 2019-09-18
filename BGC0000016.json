@@ -1,0 +1,87 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "C[C@H]1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@@H](C[C@H]2[C@@H]([C@H](C[C@](O2)(C[C@H](C[C@H]([C@@H](CC[C@H](C[C@H](CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O",
+                "compound": "Amphotericin B",
+                "database_id": [
+                    "pubchem:5386092"
+                ],
+                "mol_mass": 935.6364,
+                "molecular_formula": "C49H13NO20"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Other enzymatic",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAV48834.1",
+                    "name": "AmphE",
+                    "product": "Discrete thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAV48835.1",
+                    "name": "AmphRVI",
+                    "product": "Similar to regulatory protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAV48836.1",
+                    "name": "ORF10",
+                    "product": "Amino acid permease"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AY636001.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000016",
+        "minimal": false,
+        "ncbi_tax_id": "40318",
+        "organism_name": "Streptomyces nodosus",
+        "publications": [
+            "pubmed:15563836"
+        ]
+    },
+    "comments": "This is the sequence of the 5811 base-pair region on the right flank of the amphotericin polyketide synthase genes, adjacent to the amphC gene. It contains genes for a discrete thioesterase (amphE), a non-functional homologue of a transcriptional activator (amphRVI), and an amino acid permease (ORF10)."
+}

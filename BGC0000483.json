@@ -1,0 +1,168 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "N-prenyl"
+                    }
+                ],
+                "chem_struct": "CC(C)(C=C)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N3CCC[C@H]3C4=NC(=CS4)C(=O)OC",
+                "compound": "Aeruginosamide B",
+                "database_id": [
+                    "pubchem:132491096"
+                ],
+                "mol_mass": 723.7085,
+                "molecular_formula": "C37H3N6O4S4"
+            },
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "N-prenyl"
+                    }
+                ],
+                "chem_struct": "CC(C=C)(N[C@H](C(N[C@H](C(N1CCC[C@H]1C(N[C@H](C(C)C)C2=NC=C(C(OC)=O)S2)=O)=O)CC3=CC=CC=C3)=O)CC4=CC=CC=C4)C",
+                "compound": "Aeruginosamide C",
+                "mol_mass": 794.7101,
+                "molecular_formula": "C48H4N5O5S2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CCH92964.1",
+                    "name": "AgeG",
+                    "product": "C-terminal protease"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CCH92965.1",
+                    "name": "AgeF2",
+                    "product": "Prenyltransferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CCH92966.1",
+                    "name": "AgeF1",
+                    "product": "Methyltransferase/putative prenyl transferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CCH92967.1",
+                    "name": "AgeD",
+                    "product": "Heterocyclase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CCH92968.1",
+                    "name": "AgeB",
+                    "product": "Hypothetical"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CCH92969.1",
+                    "name": "AgeA",
+                    "product": "N-terminal protease"
+                }
+            ],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "MICCA_2630004",
+                        "MICCA_2630007",
+                        "MICCA_2630003",
+                        "MICCA_2630006",
+                        "MICCA_2630002",
+                        "MICCA_2630005"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CAIH01000183.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000483",
+        "minimal": true,
+        "ncbi_tax_id": "1160280",
+        "organism_name": "Microcystis aeruginosa PCC 9432",
+        "publications": [
+            "pubmed:23911585"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "subclass": "Cyanobactin"
+        }
+    }
+}

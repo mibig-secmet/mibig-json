@@ -1,0 +1,171 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Siderophore"
+                ],
+                "chem_struct": "CC(=O)N(O)CCCCNC(=O)[C@H](COC(=O)C1=C(O)C(O)=CC=C1)NC(=O)[C@@H]1COC(=N1)C1=C(O)C(O)=CC=C1",
+                "compound": "Fimsbactin A",
+                "database_id": [
+                    "npatlas:7176"
+                ],
+                "mol_mass": 546.322,
+                "molecular_formula": "C26H2N4O11"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "ACIAD2778",
+                    "name": "fbsA"
+                },
+                {
+                    "id": "ACIAD2776",
+                    "name": "fbsB"
+                },
+                {
+                    "id": "ACIAD2775",
+                    "name": "fbsC"
+                },
+                {
+                    "id": "ACIAD2774",
+                    "name": "fbsD"
+                },
+                {
+                    "id": "ACIAD2773",
+                    "name": "fbsE"
+                },
+                {
+                    "id": "ACIAD2772",
+                    "name": "fbsF"
+                },
+                {
+                    "id": "ACIAD2771",
+                    "name": "fbsG"
+                },
+                {
+                    "id": "ACIAD2770",
+                    "name": "fbsH"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ACIAD2769",
+                    "name": "fbsI"
+                },
+                {
+                    "id": "ACIAD2768",
+                    "name": "fbsJ"
+                },
+                {
+                    "id": "ACIAD2767",
+                    "name": "fbsK"
+                },
+                {
+                    "id": "ACIAD2765",
+                    "name": "fbsM"
+                },
+                {
+                    "id": "ACIAD2764",
+                    "name": "fbsN"
+                },
+                {
+                    "id": "ACIAD2763",
+                    "name": "fbsO"
+                },
+                {
+                    "id": "ACIAD2762",
+                    "name": "fbsP"
+                },
+                {
+                    "id": "ACIAD2761",
+                    "name": "fbsQ"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CR543861.1",
+            "completeness": "complete",
+            "end_coord": 2725713,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 2699483
+        },
+        "mibig_accession": "BGC0000352",
+        "minimal": false,
+        "ncbi_tax_id": "62977",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ACIAD2773",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Unknown"
+                            ],
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "NRP siderophore"
+        },
+        "organism_name": "Acinetobacter sp. ADP1",
+        "publications": [
+            "pubmed:23456955"
+        ]
+    }
+}

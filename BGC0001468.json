@@ -1,0 +1,209 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "2,5-diketopiperazine (cyclodipeptide synthase derived)",
+                        "subcluster": [
+                            "CYQ11_26550"
+                        ]
+                    }
+                ],
+                "chem_struct": "[H][C@](O)([C@@](C)(O)CO)[C@@]12NC(=O)[C@@](O)(NC1=O)C(=C)CCO2",
+                "chem_synonyms": [
+                    "bicozamycin",
+                    "aizumycin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "transcription termination factor rho"
+                    }
+                ],
+                "compound": "Bicyclomycin",
+                "database_id": [
+                    "npatlas:9159",
+                    "pubchem:70685091"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 301.1485,
+                "molecular_formula": "C12HN2O8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT15944.1",
+                    "name": "bcmG",
+                    "product": "2OG-Fe(II) oxygenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT15945.1",
+                    "name": "bcmF",
+                    "product": "2OG-Fe(II) oxygenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT16816.1",
+                    "name": "bcmE",
+                    "product": "2OG-Fe(II) oxygenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT15946.1",
+                    "name": "bcmD",
+                    "product": "cytochrome P450",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT15947.1",
+                    "name": "bcmC",
+                    "product": "2OG-Fe(II) oxygenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT16817.1",
+                    "name": "bcmB",
+                    "product": "isopenicillin N synthase family oxygenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT15948.1",
+                    "name": "bcmA",
+                    "product": "tRNA-dependent cyclodipeptide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "PPT15949.1",
+                    "name": "bcmT",
+                    "product": "MFS transporter"
+                }
+            ],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "CYQ11_26555"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "PKFQ01000001.1",
+            "completeness": "complete",
+            "end_coord": 5998011,
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 5989046
+        },
+        "mibig_accession": "BGC0001468",
+        "minimal": false,
+        "ncbi_tax_id": "53446",
+        "organism_name": "Streptomyces cinnamoneus",
+        "other": {
+            "subclass": "tRNA-derived"
+        },
+        "publications": [
+            "pubmed:29500259"
+        ]
+    }
+}

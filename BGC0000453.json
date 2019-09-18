@@ -1,0 +1,89 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Antiviral"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "D-alpha-hydroxyisovaleric acid",
+                        "subcluster": [
+                            "ABA59547.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC(C)[C@@H]1NC(=O)C(C)OC(=O)[C@H](NC(=O)[C@H](OC(=O)[C@@H](NC(=O)[C@H](C)OC(=O)[C@H](NC(=O)[C@H](OC(=O)[C@@H](NC(=O)[C@H](C)OC(=O)[C@H](NC(=O)[C@H](OC1=O)C(C)C)C(C)C)C(C)C)C(C)C)C(C)C)C(C)C)C(C)C)C(C)C",
+                "compound": "Valinomycin",
+                "database_id": [
+                    "npatlas:6953"
+                ],
+                "mol_mass": 1031.7103,
+                "molecular_formula": "C54H11N6O18"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABA59547.1",
+                    "name": "76884874",
+                    "product": "NRPS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABA59548.1",
+                    "name": "76884875",
+                    "product": "NRPS"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "DQ174261.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000453",
+        "minimal": false,
+        "ncbi_tax_id": "285482",
+        "nrp": {
+            "cyclic": true,
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Streptomyces tsusimaensis",
+        "publications": [
+            "pubmed:16511823"
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "[H][C@]12C[C@H](O[C@@H]3[C@H](C)O[C@H](C[C@@H]3N(C)C)O[C@H]3C[C@](O)(CC)[C@H](C(=O)OC)C4=CC5=C(C(O)=C34)C(=O)C3=C(O)C=CC(O)=C3C5=O)O[C@@H](C)[C@@]1([H])O[C@]1([H])O[C@@H](C)C(=O)C[C@]1([H])O2",
+                "chem_targets": [
+                    {
+                        "target": "DNA"
+                    }
+                ],
+                "compound": "Cinerubin B",
+                "database_id": [
+                    "npatlas:19994",
+                    "chemspider:66267"
+                ],
+                "mol_mass": 1380.0892,
+                "molecular_formula": "C90H13NO17"
+            }
+        ],
+        "loci": {
+            "accession": "GG770539.1",
+            "completeness": "complete",
+            "end_coord": 5121186,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 5086070
+        },
+        "mibig_accession": "BGC0000212",
+        "minimal": false,
+        "ncbi_tax_id": "465543",
+        "organism_name": "Streptomyces sp. SPB074",
+        "polyketide": {
+            "cyclases": [
+                "SSBG_00488",
+                "SSBG_00497",
+                "SSBG_00505"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Propionyl-CoA",
+            "subclasses": [
+                "Anthracycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "SSBG_00488",
+                        "SSBG_00497",
+                        "SSBG_00505",
+                        "SSBG_00494"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24191063"
+        ]
+    }
+}

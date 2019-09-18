@@ -1,0 +1,223 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "uncommon benzyl starter unit"
+                    }
+                ],
+                "chem_struct": "C[C@@H](CC)[C@@H]1N(C([C@@]2(C)[C@H](C[C@H](/C(C)=C/C=C/[C@H]([C@@H](C3=CC=CC=C3)OC([C@H](C(O)(C)C)NC([C@H](NC1=O)CC4=CC(Cl)=C(O)C(Cl)=C4)=O)=O)C)OC)O2)=O)C",
+                "chem_targets": [
+                    {
+                        "target": "eukaryotic translation elongation factor 1a (EF-1a)"
+                    }
+                ],
+                "compound": "nannocystin a",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mol_mass": 858.6713,
+                "molecular_formula": "C54H8N3O10"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82521.1",
+                    "name": "ncyA",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82522.1",
+                    "name": "ncyB",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82523.1",
+                    "name": "ncyC",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82524.1",
+                    "name": "ncyD",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82525.1",
+                    "name": "ncyE",
+                    "product": "non-ribosomal peptide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82526.1",
+                    "name": "ncyF",
+                    "product": "non-ribosomal peptide synthase"
+                },
+                {
+                    "id": "ALD82527.1",
+                    "name": "ncyG",
+                    "product": "ncyG"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82528.1",
+                    "name": "ncyH",
+                    "product": "P450 protein",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                },
+                {
+                    "id": "ALD82529.1",
+                    "name": "ncyI",
+                    "product": "kinase/phosphodiesterase"
+                },
+                {
+                    "id": "ALD82530.1",
+                    "name": "ncyJ",
+                    "product": "ncyJ"
+                },
+                {
+                    "id": "ALD82531.1",
+                    "name": "ncyK",
+                    "product": "ncyK"
+                },
+                {
+                    "id": "ALD82532.1",
+                    "name": "ncyL",
+                    "product": "ncyL"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ALD82533.1",
+                    "name": "ncyM",
+                    "product": "halogenase",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "id": "ALD82534.1",
+                    "name": "ncyN",
+                    "product": "heavy metal translocating P-type ATPase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KT067736.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001212",
+        "minimal": false,
+        "ncbi_tax_id": "1696011",
+        "nrp": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "thioesterases": [
+                {
+                    "gene": "ncyF",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Nannocystis sp. MB1016",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Benzoyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ]
+        },
+        "publications": [
+            "pubmed:26179970"
+        ]
+    }
+}

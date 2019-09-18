@@ -1,0 +1,282 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "epoxide ring",
+                        "subcluster": [
+                            "mmpE"
+                        ]
+                    },
+                    {
+                        "moiety": "pyran ring",
+                        "subcluster": [
+                            "mupW",
+                            "mupT"
+                        ]
+                    },
+                    {
+                        "moiety": "beta-methylation",
+                        "subcluster": [
+                            "mupG",
+                            "mupH",
+                            "mupJ",
+                            "mupK",
+                            "macpC"
+                        ]
+                    },
+                    {
+                        "moiety": "ester bond"
+                    },
+                    {
+                        "moiety": "C8 hydroxyl removal after pyran ring formation",
+                        "subcluster": [
+                            "macpE",
+                            "mupU",
+                            "mupV",
+                            "mupO",
+                            "mupC",
+                            "mupF"
+                        ]
+                    }
+                ],
+                "chem_struct": "C[C@H](O)[C@H](C)[C@@H]1O[C@H]1C[C@H]1CO[C@@H](C\\C(C)=C\\C(=O)OCCCCCCCCC(O)=O)[C@H](O)[C@@H]1O",
+                "chem_synonyms": [
+                    "mupirocin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Isoleucyl tRNA synthetase"
+                    }
+                ],
+                "compound": "Pseudomonic acid A",
+                "database_id": [
+                    "npatlas:6173",
+                    "chemspider:393914"
+                ],
+                "mol_mass": 464.3438,
+                "molecular_formula": "C26H8O9"
+            }
+        ],
+        "loci": {
+            "accession": "AF318063.3",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000182",
+        "minimal": false,
+        "ncbi_tax_id": "294",
+        "organism_name": "Pseudomonas fluorescens",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "1",
+                        "AAM12911.1",
+                        "AAM12909.2",
+                        "AAM12913.2"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 3,
+                        "subtype": "Highly reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12909.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12909.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12909.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7",
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12911.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12913.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12913.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12913.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AAM12913.2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I",
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:11495990",
+            "pubmed:12770824",
+            "pubmed:15583005",
+            "pubmed:15726184",
+            "pubmed:16039529",
+            "pubmed:17383964",
+            "pubmed:17713071",
+            "pubmed:20013982",
+            "pubmed:21318358",
+            "pubmed:24625190"
+        ]
+    }
+}

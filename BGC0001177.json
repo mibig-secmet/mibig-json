@@ -1,0 +1,100 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@H]1[C@H]([C@@]23C(=O)C4=C([C@@H]([C@@]2(O3)[C@H]([C@@]1(C(=O)[C@H]5[C@@H](O5)C)O)O)OC)C(=CC=C4)OC)O",
+                "compound": "Mensacaricin",
+                "database_id": [
+                    "pubchem:403671"
+                ],
+                "mol_mass": 570.3354,
+                "molecular_formula": "C27H6O15"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHL46694.1",
+                    "name": "msnO8"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Other enzymatic",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AHL46683.1",
+                    "name": "msnO3"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KJ437437.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0001177",
+        "minimal": false,
+        "ncbi_tax_id": "42235",
+        "organism_name": "Streptomyces bottropensis",
+        "polyketide": {
+            "cyclases": [
+                "AHL46690.1",
+                "AHL46693.1",
+                "AHL46699.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AHL46699.1",
+                        "AHL46693.1",
+                        "AHL46690.1",
+                        "AHL46697.1",
+                        "AHL46686.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:22162248",
+            "pubmed:24554499"
+        ]
+    }
+}

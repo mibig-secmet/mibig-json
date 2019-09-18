@@ -1,0 +1,101 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C\\C=C\\C1=CC(=O)[C@@H](O)[C@H]1O",
+                "compound": "Isoterrein",
+                "database_id": [
+                    "npatlas:19504"
+                ],
+                "mol_mass": 146.102,
+                "molecular_formula": "C8H2O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "EAU38789.1",
+                    "name": "ATEG_00143",
+                    "product": "FAD-dependent monooxygenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "EAU38785.1",
+                    "name": "ATEG_00139",
+                    "product": "transcription factor"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CH476594.1",
+            "completeness": "complete",
+            "end_coord": 432585,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 399827
+        },
+        "mibig_accession": "BGC0000161",
+        "minimal": false,
+        "ncbi_tax_id": "341663",
+        "organism_name": "Aspergillus terreus NIH2624",
+        "polyketide": {
+            "cyclic": true,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ATEG_00145"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 4,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24816227"
+        ]
+    }
+}

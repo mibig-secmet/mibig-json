@@ -1,0 +1,286 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@@H]1O[C@H](CC[C@@H]1O)O[C@@H]1C[C@H](O[C@@H]2[C@@H](C)O[C@H](C[C@H]2O)O[C@H]2CC[C@H](O[C@@H]3C[C@H](O[C@@H]4[C@@H](C)O[C@H](C[C@H]4O)OC4=CC=C(O)C5=C4C(=O)C4=C(C5=O)C5=C(O)C=C(C)C=C5C[C@H]4O)O[C@H](C)[C@H]3O)O[C@H]2C)O[C@H](C)[C@H]1O",
+                "chem_synonyms": [
+                    "NSC639187",
+                    "AC1L7WSP",
+                    "AC1Q5B9U",
+                    "CHEMBL411784",
+                    "KST-1A1045",
+                    "AR-1A6885",
+                    "NSC-639187"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "inhibition of DNA synthesis or interference of cellular processes critical to DNA synthesis"
+                    }
+                ],
+                "compound": "Landomycin A",
+                "database_id": [
+                    "npatlas:4350",
+                    "pubchem:368342",
+                    "chebi:70064",
+                    "chemspider:8164333"
+                ],
+                "mol_mass": 1336.0485,
+                "molecular_formula": "C80H23O22"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13541.1",
+                    "name": "LanM2",
+                    "product": "Dehydratase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13564.1",
+                    "name": "lanZ5",
+                    "product": "bifunctional oxygenase-dehydratase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13552.1",
+                    "name": "LanV ",
+                    "product": "bifunctional reductase + aromatase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13534.1",
+                    "name": "lanE",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13556.1",
+                    "name": "lanK",
+                    "product": "TetR-like regulatory protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13559.1",
+                    "name": "lanGT3",
+                    "product": "D-olivosyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13555.1",
+                    "name": "lanGT1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13553.1",
+                    "name": "lanGT2",
+                    "product": "D-olivose-transferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13562.1",
+                    "name": "lanGT4",
+                    "product": "L-rhodinosyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AAD13560.1",
+                    "name": "lanZ2",
+                    "product": " impacts the formation of the sugar side chain"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF080235.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000239",
+        "minimal": false,
+        "ncbi_tax_id": "80860",
+        "organism_name": "Streptomyces cyanogenus",
+        "polyketide": {
+            "cyclases": [
+                "AAD13535.1",
+                "AAD13540.1",
+                "AAD13552.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Angucycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AAD13535.1",
+                        "AAD13536.1",
+                        "AAD13540.1",
+                        "AAD13552.1",
+                        "AAD13538.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:9933932",
+            "pubmed:2358402",
+            "pubmed:10397496",
+            "pubmed:9621686",
+            "pubmed:22454092",
+            "pubmed:20583594",
+            "pubmed:18537830",
+            "pubmed:17786405",
+            "pubmed:15123249",
+            "pubmed:2358402",
+            "pubmed:16283688",
+            "pubmed:16039521",
+            "pubmed:19352642",
+            "pubmed:25581707",
+            "pubmed:21513888",
+            "pubmed:11755402",
+            "pubmed:15977274",
+            "pubmed:15515090"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAD13555.1",
+                    "specificity": "D-olivose"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAD13553.1",
+                    "specificity": "D-olivose"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAD13559.1",
+                    "specificity": "D-olivose"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAD13562.1",
+                    "specificity": "L-rhodinose"
+                }
+            ],
+            "subclass": "hybrid/tailoring"
+        }
+    }
+}

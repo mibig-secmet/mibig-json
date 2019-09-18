@@ -1,0 +1,60 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C[C@H](CC/C=C(\\C)/CCC=C(C)C)[C@]1(CCC2=C1CC[C@@H]3[C@@]2(CC[C@@H](C3(C)C)O)C)C",
+                "compound": "Thalianol",
+                "database_id": [
+                    "pubchem:25229600"
+                ],
+                "mol_mass": 415.3861,
+                "molecular_formula": "C33H3O"
+            },
+            {
+                "chem_struct": "C[C@H](CC(=O)C=C(C)C)[C@H]1CC[C@@]2([C@@]1(CC[C@]34[C@H]2CC[C@@H]5[C@]3(C4)[C@H](C[C@@H](C5(C)C)O)O)C)C",
+                "compound": "Thaliandiol",
+                "database_id": [
+                    "pubchem:3008858"
+                ],
+                "mol_mass": 498.4526,
+                "molecular_formula": "C37H6O3"
+            }
+        ],
+        "loci": {
+            "accession": "NC_003076.8",
+            "completeness": "complete",
+            "end_coord": 19461689,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 19428888
+        },
+        "mibig_accession": "BGC0000670",
+        "minimal": false,
+        "ncbi_tax_id": "3702",
+        "organism_name": "Arabidopsis thaliana",
+        "publications": [
+            "pubmed:18356490"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Triterpene",
+            "terpene_precursor": "FPP",
+            "terpene_synth_cycl": [
+                "thas"
+            ]
+        }
+    }
+}

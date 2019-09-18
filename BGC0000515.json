@@ -1,0 +1,101 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Binding to lipid II and pore formation"
+                    }
+                ],
+                "compound": "geobacillin I",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 3262.5,
+                "molecular_formula": "C136H220N40O37S8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "GTNG_0265",
+                    "name": "geoAI",
+                    "product": "Lantibiotic antimicrobial precursor peptide"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "GTNG_0268",
+                    "name": "geoC",
+                    "product": "cyclase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "GTNG_0266",
+                    "name": "geoB",
+                    "product": "dehydratase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP000557.1",
+            "completeness": "complete",
+            "end_coord": 311453,
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 298823
+        },
+        "mibig_accession": "BGC0000515",
+        "minimal": false,
+        "ncbi_tax_id": "420246",
+        "organism_name": "Geobacillus thermodenitrificans NG80-2",
+        "publications": [
+            "pubmed:22431611",
+            "pubmed:24169799"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Lanthipeptide"
+        }
+    },
+    "comments": "Locus tags have been given to the genes described. As of now the genes have been given the automatic GeneID designation as either sunA, spaB and spaC. The entered GeneID designations are as follows: geoAI, geoB, geoC respectively to match what is reported in the literature. "
+}

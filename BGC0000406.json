@@ -1,0 +1,228 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "phosphino-group"
+                    }
+                ],
+                "chem_struct": "CP(=O)(CCC(C(=O)[O-])[NH3+])[O-]",
+                "chem_synonyms": [
+                    "phosphinothricin",
+                    "bialaphos",
+                    "glufosinate",
+                    "basta"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "glutamine synthetase"
+                    }
+                ],
+                "compound": "Phosphinothricintripeptide",
+                "database_id": [
+                    "pubchem:25244585"
+                ],
+                "mol_mass": 172.0568,
+                "molecular_formula": "C5H3NO4P"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14037",
+                    "name": "phsB",
+                    "product": "peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14039",
+                    "name": "phsC",
+                    "product": "peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14040",
+                    "name": "pmi",
+                    "product": "phosphinomethylmalate isomerase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14044",
+                    "name": "ppm",
+                    "product": "PEP-phosphomutase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14045",
+                    "name": "ppd",
+                    "product": "phosphonopyruvate decarboxylase "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAA46312",
+                    "name": "pms",
+                    "product": "2-phosphinomethylmalic acid synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAA46313",
+                    "name": "phsA",
+                    "product": "peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAA46314",
+                    "name": "pat",
+                    "product": "phosphinothricin acetyl transferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAA46315",
+                    "name": "dea",
+                    "product": "phosphinothricin tripeptide acetyl hydrolase",
+                    "tailoring": [
+                        "Acetylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14052",
+                    "name": "the1",
+                    "product": "thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14053",
+                    "name": "the2",
+                    "product": "thioesterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ14055",
+                    "name": "prpA",
+                    "product": "regulatory protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "X65195.2",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000406",
+        "minimal": false,
+        "ncbi_tax_id": "1938",
+        "nrp": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ]
+        },
+        "organism_name": "Streptomyces viridochromogenes",
+        "publications": [
+            "pubmed:15574905"
+        ]
+    }
+}

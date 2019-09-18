@@ -1,0 +1,137 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated reference publication(s) (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Indole group",
+                        "subcluster": [
+                            "tryptophan dimer"
+                        ]
+                    }
+                ],
+                "chem_struct": "OC1=CC2=C(NC=C2C2=CC(C(=O)N2)=C2C(=O)NC3=C2C=CC=C3)C=C1",
+                "chem_targets": [
+                    {
+                        "target": "TNF-alpha-1"
+                    }
+                ],
+                "compound": "Violacein",
+                "database_id": [
+                    "npatlas:15879",
+                    "pubchem:9928039"
+                ],
+                "mol_mass": 452.344,
+                "molecular_formula": "C29N4O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM21200.1",
+                    "name": "vioA",
+                    "product": "vioA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM21201.1",
+                    "name": "vioB",
+                    "product": "vioB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM21202.1",
+                    "name": "vioC",
+                    "product": "vioC",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AAM21203.1",
+                    "name": "vioD",
+                    "product": "vioD",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                }
+            ],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "AAM21200.1",
+                        "AAM21202.1",
+                        "AAM21203.1",
+                        "AAM21201.1"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF367409.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000830",
+        "minimal": false,
+        "ncbi_tax_id": "77133",
+        "organism_name": "uncultured bacterium",
+        "other": {
+            "subclass": "Aminocoumarin"
+        },
+        "publications": [
+            "pubmed:11418029"
+        ]
+    }
+}

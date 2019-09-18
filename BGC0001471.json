@@ -1,0 +1,63 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "thioamide",
+                        "subcluster": [
+                            "wp_091614392.1",
+                            "WP_091614389.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "C[C@H]([C@H](NC1=S)C2=NC([C@](N3)([H])[C@](C4=NC(C(N[C@@](C(N/C(C5=N[C@](C(N[C@](C(C)(O)[C@@H](C)O)([H])C6=NC1=CS6)=O)([H])CS5)=C\\C)=O)([H])[C@@H](C)O)=O)=CS4)(NC(C(NC(C(NC(C(NC([C@@](C)([H])N[C@@H]7C=CC8=C(N=C9C=C8[C@@H](O)C)[C@H]7O)=O)=C)=O)=C)=O)=C)=O)CCC3C%10=NC(C(NC(C(NC(C(O)=O)=C)=O)=C)=O)=CS%10)=CS2)OC9=O",
+                "compound": "saalfelduracin",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2558.612,
+                "molecular_formula": "C114H12N20O18S19"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_FOEF01000002.1",
+            "completeness": "Unknown",
+            "end_coord": 733454,
+            "evidence": [
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 708692
+        },
+        "mibig_accession": "BGC0001471",
+        "minimal": false,
+        "ncbi_tax_id": "394193",
+        "organism_name": "Amycolatopsis saalfeldensis",
+        "publications": [
+            "pubmed:29983054",
+            "pubmed:29507203"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Thiopeptide"
+        }
+    },
+    "comments": "As we are waiting on publication, we do not have a DOI/PMID for article associated with this cluster (Step 2). A related publication from our lab has been used to allow for MIBiG submission while this publication is finishing the review process."
+}

@@ -1,0 +1,204 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C[C@H]1[C@@H]2C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H]3CSC[C@@H]4C(=O)N[C@@H](CS1)C(=O)N[C@@H](CNCCCC[C@H](NC(=O)[C@@H]([C@@H](SC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N4)CCC(=O)N)CCCNC(=N)N)N)C)NC(=O)[C@@H](NC(=O)CNC(=O)[C@@H](NC3=O)[C@@H](C(=O)O)O)CC(=O)N)C(=O)O)C(=O)N[C@H](C(=O)NCC(=O)N5CCC[C@H]5C(=O)N[C@H](C(=O)N2)CC6=CC=CC=C6)CC7=CC=CC=C7)C(C)C)CC8=CC=CC=C8",
+                "compound": "Ro 09\u20100198",
+                "database_id": [
+                    "pubchem:133562644"
+                ],
+                "mol_mass": 2503.9411,
+                "molecular_formula": "C127H20N33O25S3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60519.1",
+                    "name": "cinorf7",
+                    "product": "Cin orf7 protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60520.1",
+                    "name": "cinA",
+                    "product": "preprocinnamycin"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60521.1",
+                    "name": "cinM",
+                    "product": "CinM protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60522.1",
+                    "name": "cinX",
+                    "product": "CinX protein",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60523.1",
+                    "name": "cinT",
+                    "product": "CinT protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60524.1",
+                    "name": "cinH",
+                    "product": "CinH protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60529.1",
+                    "name": "cinR",
+                    "product": "CinR protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60530.1",
+                    "name": "cinK",
+                    "product": "CinK protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD60533.1",
+                    "name": "cinR1",
+                    "product": "CinR1 protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AJ536588.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000503",
+        "minimal": false,
+        "ncbi_tax_id": "53446",
+        "organism_name": "Streptomyces cinnamoneus",
+        "publications": [
+            "pubmed:12642677",
+            "pubmed:21770392"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "CRQSCSFGPFTFVCDGNTK"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 1,
+                            "second_AA": 18
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 4,
+                            "second_AA": 14
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 5,
+                            "second_AA": 11
+                        },
+                        {
+                            "crosslink_type": "Unknown",
+                            "first_AA": 6,
+                            "second_AA": 19
+                        }
+                    ],
+                    "gene_id": "cinA",
+                    "leader_sequence": "MTASILQQSVVDADFRAALLENPAAFGASAAALPTPVEAQDQASLDFWTKDIAATEAFA"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "COC1C(O)C(O)C(C)OC1OC1C(OC)C(C)(O)CC2=CC3=C(C(O)=C12)C(=O)C1=C(C=C(OC)C=C1O)C3=O",
+                "compound": "Steffimycin D",
+                "database_id": [
+                    "npatlas:12312"
+                ],
+                "mol_mass": 720.4768,
+                "molecular_formula": "C44O12"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ42323.1",
+                    "name": "stfX",
+                    "product": "cyclase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAJ42338.1",
+                    "name": "stfG",
+                    "product": "glycosyltransferase",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AM156932.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000273",
+        "minimal": false,
+        "ncbi_tax_id": "68271",
+        "organism_name": "Streptomyces steffisburgensis",
+        "polyketide": {
+            "cyclases": [
+                "CAJ42323.1",
+                "CAJ42324.1",
+                "CAJ42327.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Anthracycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAJ42320.1",
+                        "CAJ42318.1",
+                        "CAJ42324.1",
+                        "CAJ42327.1",
+                        "CAJ42323.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:16751529"
+        ],
+        "saccharide": {
+            "subclass": "hybrid/tailoring"
+        }
+    }
+}

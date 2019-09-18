@@ -1,0 +1,89 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Indole/benzopyrrole"
+        },
+        "biosyn_class": [
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Indole group",
+                        "subcluster": [
+                            "AGI62212.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C1[C@]2(OC)N3C(C4=C([C@]2(OC)C(N1C)=O)C5=CC=C(Cl)C=C5N4)(O)C(C6=CC=C(Cl)C=C63)=O",
+                "chem_synonyms": [
+                    "borregomycin"
+                ],
+                "compound": "borregomycin A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 1445.183,
+                "molecular_formula": "C103N8O6"
+            },
+            {
+                "chem_struct": "CN1C(=O)C2(C3=C(C4=C(C2(C1=O)OC)C5=C(N4)C=C(C=C5)Cl)NC6=C3C=CC(=C6)Cl)OC",
+                "compound": "borregomycin B",
+                "database_id": [
+                    "pubchem:102196434"
+                ],
+                "mol_mass": 772.6098,
+                "molecular_formula": "C52N6O4"
+            },
+            {
+                "chem_struct": "CN1C(=O)C2(C3=C(C4=C(C2(C1=O)OC)C5=C(N4)C=C(C=C5)Cl)NC6=C3C=CC(=C6)Cl)O",
+                "compound": "borregomycin C",
+                "database_id": [
+                    "pubchem:102196435"
+                ],
+                "mol_mass": 760.5988,
+                "molecular_formula": "C51N6O4"
+            },
+            {
+                "chem_struct": "CN1C(=O)C2(C3=C(C4=C(C2(C1=O)O)C5=C(N4)C=C(C=C5)Cl)NC6=C3C=CC(=C6)Cl)O",
+                "compound": "borregomycin D",
+                "database_id": [
+                    "pubchem:102196436"
+                ],
+                "mol_mass": 748.5878,
+                "molecular_formula": "C50N6O4"
+            }
+        ],
+        "loci": {
+            "accession": "JX827455.1",
+            "completeness": "complete",
+            "end_coord": 36113,
+            "evidence": [
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 9991
+        },
+        "mibig_accession": "BGC0001335",
+        "minimal": false,
+        "ncbi_tax_id": "77133",
+        "organism_name": "uncultured bacterium",
+        "publications": [
+            "pubmed:23302687"
+        ]
+    }
+}

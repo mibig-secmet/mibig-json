@@ -1,0 +1,166 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor",
+                    "A modulator of apoptosis"
+                ],
+                "chem_struct": "CC1=CC(=C2C3=C4C(=CC(=C13)O)C(C(=O)C5=C(C=C(C(=C45)C2=O)O)O)(C)C)O",
+                "chem_synonyms": [
+                    "Heliomycin",
+                    "Geliomycin",
+                    "Croceomycin",
+                    "Itamycin",
+                    "Geliomitsin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "HIV-1 protease"
+                    },
+                    {
+                        "target": "RNA polymerase"
+                    },
+                    {
+                        "target": "DNA polymerase"
+                    }
+                ],
+                "compound": "resistomycin",
+                "database_id": [
+                    "pubchem:5282060",
+                    "chemspider:4445287"
+                ],
+                "mol_mass": 1164.9754,
+                "molecular_formula": "C89O6"
+            },
+            {
+                "chem_struct": "CC1=C2C(=O)C=C3C(C)(C)C(=O)C4=C(O)C=C(O)C5=C4C3(O)C2=C(C(O)=C1)C5=O",
+                "compound": "Resistoflavine",
+                "database_id": [
+                    "npatlas:19089"
+                ],
+                "mol_mass": 616.4578,
+                "molecular_formula": "C42O7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAE51172.1",
+                    "product": "C-dimethyltransferse",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAE51171.1",
+                    "product": "Cyclase containing zinc"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAE51181.1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAE51184.1",
+                    "product": "Resistomycin hydroxylase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AJ585192.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000264",
+        "minimal": false,
+        "ncbi_tax_id": "67356",
+        "organism_name": "Streptomyces resistomycificus",
+        "polyketide": {
+            "cyclases": [
+                "CAE51171.1",
+                "CAE51178.1",
+                "CAE51181.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAE51181.1",
+                        "CAE51174.1",
+                        "CAE51171.1",
+                        "CAE51178.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:14982421",
+            "pubmed:17090047",
+            "pubmed:17914826",
+            "pubmed:19665022",
+            "pubmed:8150707",
+            "pubmed:812270",
+            "pubmed:12440735",
+            "pubmed:16580188"
+        ]
+    }
+}

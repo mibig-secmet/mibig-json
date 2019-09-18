@@ -1,0 +1,88 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Pyrrole/pyrrolidine"
+        },
+        "biosyn_class": [
+            "NRP",
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CN1C(=O)[C@]23C[C@H]4C(C)(C)[C@@]5(C[C@]14CN2CC[C@@]3(C)O)C(=O)NC1=C2OC=CC(C)(C)OC2=CC=C51",
+                "compound": "Paraherquamide",
+                "database_id": [
+                    "npatlas:3590"
+                ],
+                "mol_mass": 1097.9117,
+                "molecular_formula": "C80HN4O5"
+            }
+        ],
+        "loci": {
+            "accession": "JQ708195.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000819",
+        "minimal": false,
+        "ncbi_tax_id": "70095",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AGA37269.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "4-Methylproline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "modification_domains": [
+                                "Unknown"
+                            ],
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ]
+        },
+        "organism_name": "Penicillium fellutanum",
+        "publications": [
+            "pubmed:23213353"
+        ]
+    }
+}

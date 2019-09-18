@@ -1,0 +1,78 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Pyrrole ring",
+                        "subcluster": [
+                            "PL2TA16_01235",
+                            "PL2TA16_01236",
+                            "PL2TA16_01237",
+                            "PL2TA16_01238"
+                        ]
+                    },
+                    {
+                        "moiety": "Bromophenol",
+                        "subcluster": [
+                            "PL2TA16_01239",
+                            "PL2TA16_01240"
+                        ]
+                    }
+                ],
+                "chem_struct": "C1=C(C=C(C(=C1Br)O)C2=C(C(=C(N2)Br)Br)Br)Br",
+                "chem_targets": [
+                    {
+                        "target": "myosin ATPase"
+                    },
+                    {
+                        "target": "IspD"
+                    }
+                ],
+                "compound": "pentabromopseudilin",
+                "mol_mass": 230.1838,
+                "molecular_formula": "B5C11N2O"
+            }
+        ],
+        "loci": {
+            "accession": "AUSV01000133.1",
+            "completeness": "complete",
+            "end_coord": 43745,
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 32483
+        },
+        "mibig_accession": "BGC0000891",
+        "minimal": false,
+        "ncbi_tax_id": "1353533",
+        "organism_name": "Pseudoalteromonas luteoviolacea 2ta16",
+        "other": {
+            "subclass": "Aminocoumarin"
+        },
+        "publications": [
+            "pubmed:24974229",
+            "pubmed:19122661",
+            "pubmed:24446431",
+            "pubmed:7600609"
+        ]
+    }
+}

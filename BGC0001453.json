@@ -1,0 +1,146 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated reference publication(s) (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCN)O)O)O",
+                "compound": "desferrioxamine",
+                "database_id": [
+                    "pubchem:2973"
+                ],
+                "mol_mass": 512.3104,
+                "molecular_formula": "C25N6O8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "smCOG: SMCOG1033:iron_compound_ABC_transporter,_periplasmic (Score: 95.2; E-value: 5.5e-29);",
+                    "id": "desaE",
+                    "product": "ABC_transporter_substrate-binding_protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1200:vibriobactin_utilization_protein_ViuB (Score: 171.0; E-value: 4.4e-52);",
+                    "id": "desaF",
+                    "product": "siderophore-interacting_protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1180:Decarboxylase,_pyridoxal-dependent (Score: 391.1; E-value: 1.1e-118);",
+                    "id": "desaA",
+                    "product": "pyridoxal 5-phosfate (PLP)-dependen_lysine_decarboxylase"
+                },
+                {
+                    "comments": "smCOG: SMCOG1080:lysine/ornithine_N-monooxygenase (Score: 417.7; E-value: 7.5e-127);",
+                    "id": "desaB",
+                    "product": "FAD-dependent monooxygenase"
+                },
+                {
+                    "comments": "smCOG: SMCOG1203:putative_siderophore_biosynthesis_protein (Score: 145.7; E-value: 4.4e-44);",
+                    "id": "desaC",
+                    "product": "N-acetyltransferase"
+                },
+                {
+                    "id": "desaD",
+                    "product": "NTP-dependent siderophore synthetase"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "desaE",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 1050,
+                                "start": 1
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "desaF",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 1997,
+                                "start": 1440
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "desaA",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 3614,
+                                "start": 2172
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "desaB",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4890,
+                                "start": 3598
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "desaC",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 5438,
+                                "start": 4887
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "desaD",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7234,
+                                "start": 5435
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "LT989883.1",
+            "completeness": "Unknown"
+        },
+        "mibig_accession": "BGC0001453",
+        "minimal": true,
+        "ncbi_tax_id": "41951",
+        "organism_name": "Streptomyces argillaceus",
+        "publications": [
+            "pubmed:29795673"
+        ]
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(C(N/C(C(N1C(CCC1)C(NC(C)C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(N/C(C(NC(C(NC(C(NC(C(NC2C(C)C)=O)CC(C)C)=O)CS/C=C\\NC2=O)=O)[C@H](C)CC)=O)=C/C)=O)CO)=O)[H])=O)CCC(N)=O)=O)[C@H](C)CC)=O)C(C)C)=O)CC3=CC=CC=C3)=O)CCC(N)=O)=O)C)=O)C(C)C)=O)=O)=O)=C\\C)=O)N(C)C",
+                "compound": "grisemycin",
+                "mass_spec_ion_type": "Molecular ion",
+                "mol_mass": 1770.2238,
+                "molecular_formula": "C92H3N21O21S"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "smCOG: SMCOG1000:ABC_transporter_ATP-binding_protein (Score: 111.5; E-value: 8.6e-34);",
+                    "id": "SGR_6361",
+                    "product": "ABC transporter ATP-binding protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1248:methyltransferase (Score: 85.2; E-value: 8.2e-26);",
+                    "id": "SGR_6362",
+                    "product": "methyltransferase"
+                },
+                {
+                    "id": "SGR_6363",
+                    "product": "phosphopantothenoylcysteine synthetase/decarboxylase"
+                },
+                {
+                    "id": "SGR_6364",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "SGR_6365",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1041:transcriptional_regulator,_SARP_family (Score: 341.3; E-value: 2.4e-103);",
+                    "id": "SGR_6366",
+                    "product": "SARP family pathway specific regulatory protein"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "SGR_6361",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7570842,
+                                "start": 7570210
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SGR_6362",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7571576,
+                                "start": 7570839
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SGR_6363",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7572141,
+                                "start": 7571569
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SGR_6364",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7572704,
+                                "start": 7572138
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SGR_6365",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7574451,
+                                "start": 7572694
+                            }
+                        ],
+                        "strand": -1
+                    }
+                },
+                {
+                    "id": "SGR_6366",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 7576934,
+                                "start": 7575285
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NC_010572.1",
+            "completeness": "complete",
+            "end_coord": 7576934,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 7570210
+        },
+        "mibig_accession": "BGC0000583",
+        "minimal": false,
+        "ncbi_tax_id": "455632",
+        "organism_name": "Streptomyces griseus subsp. griseus NBRC 13350",
+        "publications": [
+            "pubmed:21421760"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Linaridin"
+        }
+    }
+}

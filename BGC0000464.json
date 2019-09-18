@@ -1,0 +1,157 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "antiparasitic"
+                ],
+                "chem_struct": "O=C(N[C@H](C(N[C@H](C(C)C)C(N[C@@H](C(C)C)C(N[C@H](C)C(NCCC1=O)=O)=O)=O)=O)C(C)C)[C@@H]([C@H](OC([C@@H](NC([C@@H]2N1CCC2)=O)C(C)C)=O)C)NC([C@H]([C@H](C)CC)NC([C@@H](CC(C)C)NC([C@H](C(C)C)NC([C@@H](C)NC([C@H]3N(C(CCC)=O)CCC3)=O)=O)=O)=O)=O",
+                "compound": "Xenoamicin A",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1240.9257,
+                "molecular_formula": "C67H14N13O15"
+            },
+            {
+                "chem_struct": "O=C(N[C@H](C(N[C@H]([C@H](C)CC)C(N[C@@H](C(C)C)C(N[C@H](C)C(NCCC1=O)=O)=O)=O)=O)C(C)C)[C@@H]([C@H](OC([C@@H](NC([C@@H]2N1CCC2)=O)C(C)C)=O)C)NC([C@H]([C@H](C)CC)NC([C@@H](CC(C)C)NC([C@H](C(C)C)NC([C@@H](C)NC([C@H]3N(C(CCC)=O)CCC3)=O)=O)=O)=O)=O",
+                "compound": "Xenoamicin B",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1253.9446,
+                "molecular_formula": "C68H15N13O15"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "XDD1_2282",
+                    "name": "xabB"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FO704550.1",
+            "completeness": "complete",
+            "end_coord": 2435321,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 2329335
+        },
+        "mibig_accession": "BGC0000464",
+        "minimal": false,
+        "ncbi_tax_id": "351671",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "XDD1_2281",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "XDD1_2282",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "2"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "4"
+                        },
+                        {
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "5"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "6"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "7"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "XDD1_2283",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "8"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "9"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "XDD1_2287",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "10"
+                        },
+                        {
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "11"
+                        },
+                        {
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "12"
+                        },
+                        {
+                            "active": true,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "13"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Xenorhabdus doucetiae",
+        "publications": [
+            "pubmed:24203528"
+        ]
+    }
+}

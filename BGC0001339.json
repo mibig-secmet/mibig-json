@@ -1,0 +1,196 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC[C@H](C)C[C@H](C)\\C=C\\C(=O)O[C@@H]1C[C@]2(CCC(=C)[C@@H](OC(C)=O)[C@H](C)CC3=CC=CC=C3)O[C@@]1(C(O)=O)[C@@](O)([C@H](O2)C(O)=O)C(O)=O",
+                "chem_synonyms": [
+                    "zaragozic acid a"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "squalene synthase"
+                    }
+                ],
+                "compound": "Squalestatin S1",
+                "database_id": [
+                    "npatlas:11630",
+                    "chemspider:4942838"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 698.468,
+                "molecular_formula": "C39H6O14"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AMY15057.1",
+                    "name": "mfpks1",
+                    "product": "tetraketide synthase MF-SQTKS"
+                },
+                {
+                    "id": "AMY15058.1",
+                    "name": "mfM1",
+                    "product": "copper dependent oxygenase"
+                },
+                {
+                    "id": "AMY15060.1",
+                    "name": "mfM3",
+                    "product": "NADP dependent dehydrogenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AMY15061.1",
+                    "name": "mfM4",
+                    "product": "acyltransferase AT1",
+                    "tailoring": [
+                        "Acylation"
+                    ]
+                },
+                {
+                    "id": "AMY15064.1",
+                    "name": "mfM7",
+                    "product": "phenylalanine ammonia-lyase"
+                },
+                {
+                    "id": "AMY15065.1",
+                    "name": "mfM8",
+                    "product": "esterase/lipase"
+                },
+                {
+                    "id": "AMY15066.1",
+                    "name": "mfM9",
+                    "product": "acyl-CoA synthetase/ligase"
+                },
+                {
+                    "id": "AMY15067.1",
+                    "name": "mfM10",
+                    "product": "hydrolase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AMY15068.1",
+                    "name": "mfpks2",
+                    "product": "hexaketide synthase MF-SQHKS"
+                },
+                {
+                    "id": "AMY15069.1",
+                    "name": "mfR1",
+                    "product": "putative non-heme iron dependent"
+                },
+                {
+                    "id": "AMY15070.1",
+                    "name": "mfR2",
+                    "product": "putative non-heme iron dependent"
+                },
+                {
+                    "id": "AMY15071.1",
+                    "name": "mfR3",
+                    "product": "citrate synthase"
+                },
+                {
+                    "id": "AMY15072.1",
+                    "name": "mfR4",
+                    "product": "acyltransferase-3 superfamily AT2"
+                },
+                {
+                    "id": "AMY15073.1",
+                    "name": "mfR5",
+                    "product": "MFS transporter"
+                },
+                {
+                    "id": "AMY15074.1",
+                    "name": "mfR6",
+                    "product": "squalene synthase"
+                },
+                {
+                    "id": "AMY15075.1",
+                    "name": "mfR7",
+                    "product": "ab hydrolase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KU946987.1",
+            "completeness": "complete",
+            "end_coord": 69700,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0001339",
+        "minimal": false,
+        "ncbi_tax_id": "1828523",
+        "organism_name": "Phoma sp. MF5453",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Benzoyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "phpks1",
+                        "phpks2"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 5,
+                        "subtype": "Highly reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "doi:10.1039/c6cc02130a"
+        ]
+    }
+}

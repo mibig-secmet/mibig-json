@@ -1,0 +1,132 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Indole/benzopyrrole"
+        },
+        "biosyn_class": [
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Signalling",
+                    "antitumor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Activates TNFr1"
+                    }
+                ],
+                "compound": "violacein",
+                "database_id": [
+                    "chemspider:8103672"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CV_3273",
+                    "name": "vioB",
+                    "product": "polyketide synthase-like"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CV_3272",
+                    "name": "vioC",
+                    "product": "monooxygebase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CV_3271",
+                    "name": "vioD",
+                    "product": "hydroxylase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CV_3274",
+                    "name": "vioA",
+                    "product": "tryptophan 2-monooxygenase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF172851.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000829",
+        "minimal": false,
+        "ncbi_tax_id": "536",
+        "organism_name": "Chromobacterium violaceum",
+        "publications": [
+            "pubmed:21779844",
+            "pubmed:21253897",
+            "pubmed:20490411",
+            "pubmed:19962399",
+            "pubmed:18949702",
+            "pubmed:18177311",
+            "pubmed:17925955",
+            "pubmed:17176066",
+            "pubmed:17011197",
+            "pubmed:16874749",
+            "pubmed:15100990",
+            "pubmed:11596879",
+            "pubmed:11418029",
+            "pubmed:11075927",
+            "pubmed:10803951"
+        ]
+    }
+}

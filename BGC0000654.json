@@ -1,0 +1,245 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Gamma-butyrolactone",
+                        "subcluster": [
+                            "ABB69735.1",
+                            "ABB69736.1",
+                            "ABB69737.1",
+                            "ABB69738.1",
+                            "ABB69760.1",
+                            "ABB69762.1",
+                            "ABB69763.1"
+                        ]
+                    },
+                    {
+                        "moiety": "Pyrrole ring",
+                        "subcluster": [
+                            "ABB69750.1",
+                            "ABB69751.1",
+                            "ABB69752.1",
+                            "ABB69753.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "[H][C@]12CC[C@@]3(C)[C@H](C4=C(O)C(=O)OC4O)C(C)=CC[C@@]3([H])[C@]1(C)[C@@H](O)C[C@@H](OC(C)=O)C2(CO[C@H]1CC[C@@H](OC)[C@H](C)O1)COC(=O)C1=CC=C(C)N1",
+                "compound": "Phenalinolactone A",
+                "database_id": [
+                    "npatlas:16342",
+                    "chemspider:28288564"
+                ],
+                "mol_mass": 754.5577,
+                "molecular_formula": "C45H8NO12"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69739.1",
+                    "name": "plaM1",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69759.1",
+                    "name": "plaO4",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69741.1",
+                    "name": "plaO1",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69761.1",
+                    "name": "plaA6",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69758.1",
+                    "name": "plaV",
+                    "product": "3-O-acetyl transferase",
+                    "tailoring": [
+                        "Acetylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69764.1",
+                    "name": "plaO5",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69734.1",
+                    "name": "plaR2"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69766.1",
+                    "name": "plaR3"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABB69733.1",
+                    "name": "plaR1"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "DQ230532.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000654",
+        "minimal": false,
+        "ncbi_tax_id": "355249",
+        "organism_name": "Streptomyces sp. Tu6071",
+        "publications": [
+            "pubmed:16632249",
+            "pubmed:18157854",
+            "pubmed:20540056",
+            "pubmed:21179045",
+            "pubmed:21685164",
+            "pubmed:24861595"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "ABB69761.1",
+                    "specificity": "L-amicetose"
+                }
+            ],
+            "subclass": "hybrid/tailoring",
+            "sugar_subclusters": [
+                [
+                    "ABB69735.1",
+                    "ABB69736.1",
+                    "ABB69737.1",
+                    "ABB69738.1",
+                    "ABB69760.1",
+                    "ABB69762.1",
+                    "ABB69763.1"
+                ]
+            ]
+        },
+        "terpene": {
+            "carbon_count_subclass": "Diterpene",
+            "prenyltransferases": [
+                "ABB69744.1"
+            ],
+            "terpene_precursor": "IPP",
+            "terpene_synth_cycl": [
+                "ABB69742.1",
+                "ABB69743.1",
+                "ABB69754.1",
+                "ABB69755.1",
+                "ABB69756.1"
+            ]
+        }
+    }
+}

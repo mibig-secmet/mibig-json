@@ -1,0 +1,279 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_synonyms": [
+                    "htd"
+                ],
+                "compound": "histidyltryptophanyldiketopiperazine"
+            },
+            {
+                "chem_synonyms": [
+                    "dhtd"
+                ],
+                "compound": "dehydrohistidyltryptophanyldiketopiperazine",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 322.1299,
+                "molecular_formula": "C17H15N5O2"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CC(C)(C=C)C12CC3N(C1NC1=CC=CC=C21)C(=O)C(CC1=CN=CN1)NC3=O",
+                "chem_synonyms": [
+                    "roquefortine d"
+                ],
+                "compound": "Roquefortine D",
+                "database_id": [
+                    "npatlas:10085"
+                ],
+                "mol_mass": 786.6593,
+                "molecular_formula": "C57N5O2"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "[H][C@@]12NC3=C(C=CC=C3)[C@@]1(C[C@@H]1N2C(=O)\\C(NC1=O)=C/C1=CN=CN1)C(C)(C)C=C",
+                "chem_synonyms": [
+                    "roquefortine c"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "RNA synthesis"
+                    }
+                ],
+                "compound": "Roquefortine C",
+                "database_id": [
+                    "npatlas:16637",
+                    "pubchem:324941"
+                ],
+                "mol_mass": 430.3408,
+                "molecular_formula": "C26H2N6O2"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(C)(C=C)C12C=C(C(=O)N\\3C1(NC4=CC=CC=C24)NC(=O)/C3=C\\C5=CN=CN5)O",
+                "chem_synonyms": [
+                    "glandicoline a"
+                ],
+                "compound": "glandicoline A",
+                "database_id": [
+                    "pubchem:91820007"
+                ],
+                "mol_mass": 954.7735,
+                "molecular_formula": "C65N9O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(C)(C=C)C12C=C(C(=O)N\\3C1(NC(=O)/C3=C\\C4=CN=CN4)N(C5=CC=CC=C25)O)O",
+                "chem_synonyms": [
+                    "glandicoline b"
+                ],
+                "compound": "glandicoline B",
+                "database_id": [
+                    "pubchem:91820473"
+                ],
+                "mol_mass": 968.7772,
+                "molecular_formula": "C66N8O4"
+            },
+            {
+                "chem_struct": "CON1C2=C(C=CC=C2)[C@]2(C=C(O)C(=O)N3\\C(=C\\C4=CNC=N4)C(=O)N[C@]123)C(C)(C)C=C",
+                "compound": "Meleagrine",
+                "database_id": [
+                    "npatlas:10351"
+                ],
+                "mol_mass": 540.3726,
+                "molecular_formula": "C28N10O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAP96439.1",
+                    "name": "roqT",
+                    "product": "Transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAP96440.1",
+                    "name": "roqD",
+                    "product": "dimethylallyltryptophan synthase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAP96441.1",
+                    "name": "roqN",
+                    "product": "methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAP96442.1",
+                    "name": "roqO",
+                    "product": "P450 monooxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAP96443.1",
+                    "name": "roqM",
+                    "product": "MAK1-type monooxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAP96444.1",
+                    "name": "roqR",
+                    "product": "cytochrome P450 oxidoreductase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAP96445.1",
+                    "name": "roqA",
+                    "product": "NRPS"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AM920436.1",
+            "completeness": "complete",
+            "end_coord": 3658739,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 3638081
+        },
+        "mibig_accession": "BGC0000420",
+        "minimal": false,
+        "ncbi_tax_id": "500485",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "CAP96445.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Histidine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Penicillium rubens Wisconsin 54-1255",
+        "publications": [
+            "pubmed:23776469",
+            "pubmed:24225953",
+            "pubmed:22118684"
+        ]
+    }
+}

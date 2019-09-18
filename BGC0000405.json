@@ -1,0 +1,212 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(C)[C@@H](NC(=O)[C@H](CS)NC(=O)CCC[C@H]([NH3+])C([O-])=O)C([O-])=O",
+                "chem_synonyms": [
+                    "acv"
+                ],
+                "compound": "delta-(L-alpha-aminoadipyl)-L-cysteine-D-valine",
+                "database_id": [
+                    "chebi:58572"
+                ],
+                "mol_mass": 344.2779,
+                "molecular_formula": "C14H6N3O6S"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)CCC[C@H](N)C(O)=O)C(O)=O",
+                "chem_synonyms": [
+                    "ipn"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "cell wall synthesis"
+                    }
+                ],
+                "compound": "isopenicillin N",
+                "database_id": [
+                    "chebi:18165"
+                ],
+                "mol_mass": 342.2621,
+                "molecular_formula": "C14H4N3O6S"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "[Na+].[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)Cc1ccccc1)C([O-])=O",
+                "chem_synonyms": [
+                    "penicillin g"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "cell wall biosynthesis"
+                    }
+                ],
+                "compound": "Benzylpenicillin",
+                "database_id": [
+                    "chebi:51765"
+                ],
+                "mol_mass": 261.2114,
+                "molecular_formula": "C10H3N3O4S"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_synonyms": [
+                    "penicillin v"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "cell wall biosynthesis"
+                    }
+                ],
+                "compound": "Phenoxymethylpenicillin ",
+                "database_id": [
+                    "chembl:615"
+                ],
+                "mol_mass": 350.4,
+                "molecular_formula": "C16H18N2O5S"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABR12615.1",
+                    "name": "pcbAB",
+                    "product": "ACV synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABR12616.1",
+                    "name": "pcbC",
+                    "product": "IPN synthase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ABR12617.1",
+                    "name": "penDE",
+                    "product": "IPN:acyltransferase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "EF601124.1",
+            "completeness": "complete",
+            "evidence": [
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0000405",
+        "minimal": false,
+        "ncbi_tax_id": "5076",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABR12615.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "2-Amino-adipic-acid"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Beta-lactam"
+        },
+        "organism_name": "Penicillium chrysogenum",
+        "publications": [
+            "pubmed:1368505",
+            "pubmed:2129535",
+            "pubmed:7597101",
+            "pubmed:11180058",
+            "pubmed:17548217",
+            "pubmed:20851974",
+            "pubmed:18820685"
+        ]
+    }
+}

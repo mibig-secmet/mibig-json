@@ -1,0 +1,128 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_synonyms": [
+                    "skf"
+                ],
+                "compound": "sporulation killing factor",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 2781.3023
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAB11984.1",
+                    "name": "skfA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAB11985.2",
+                    "name": "skfB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAX52541.1",
+                    "name": "skfC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAB11992.2",
+                    "name": "skfH"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression",
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAB11989.1",
+                    "name": "skfE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAB11990.2",
+                    "name": "skfF"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AL009126.3",
+            "completeness": "complete",
+            "end_coord": 220032,
+            "evidence": [
+                "Knock-out studies"
+            ],
+            "start_coord": 213941
+        },
+        "mibig_accession": "BGC0000601",
+        "minimal": false,
+        "ncbi_tax_id": "224308",
+        "organism_name": "Bacillus subtilis subsp. subtilis str. 168",
+        "publications": [
+            "pubmed:20805502",
+            "pubmed:12817086"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Head-to-tailcyclized peptide"
+        }
+    }
+}

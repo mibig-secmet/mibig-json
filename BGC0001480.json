@@ -1,0 +1,77 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "O[C@@H]1C=CC([C@](C2)([H])[C@H]1OC(C(OCC(C(O)C(CCCCC)=O)=C)=O)=C)=C(O)C2=O",
+                "compound": "Tundrenone",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 419.2829,
+                "molecular_formula": "C24H3O8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "WP_027148176.1",
+                    "name": "tunJ",
+                    "product": "Acyl-CoA ligase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "WP_006890625.1",
+                    "name": "mbaR",
+                    "product": "LuxR family transcriptional regulator"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_JMLA01000001.1",
+            "completeness": "Unknown",
+            "end_coord": 853163,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 833380
+        },
+        "mibig_accession": "BGC0001480",
+        "minimal": false,
+        "ncbi_tax_id": "1408450",
+        "organism_name": "Methylobacter tundripaludum 21/22",
+        "publications": [
+            "pubmed:29361220",
+            "pubmed:27994019"
+        ]
+    }
+}

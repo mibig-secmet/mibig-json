@@ -1,0 +1,98 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Odorous metabolite"
+                ],
+                "chem_struct": "C[C@@H]1CCC[C@]2(C)CCCC[C@@]12O",
+                "compound": "Geosmin",
+                "database_id": [
+                    "npatlas:9715",
+                    "pubchem:29746"
+                ],
+                "mol_mass": 161.1393,
+                "molecular_formula": "C12HO"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACC81293.1",
+                    "name": "No gene ID",
+                    "product": "Geosmin synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACC81292.1",
+                    "name": "No gene ID",
+                    "product": "cyclic nucleotide-binding protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ACC81291.1",
+                    "name": "No gene ID",
+                    "product": "cyclic nucleotide-binding protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP001037.1",
+            "completeness": "complete",
+            "end_coord": 3420177,
+            "evidence": [
+                "Enzymatic assays"
+            ],
+            "start_coord": 3414766
+        },
+        "mibig_accession": "BGC0000661",
+        "minimal": false,
+        "ncbi_tax_id": "63737",
+        "organism_name": "Nostoc punctiforme PCC 73102",
+        "publications": [
+            "pubmed:19031897"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "structural_subclass": "Sterol",
+            "terpene_precursor": "FPP",
+            "terpene_synth_cycl": [
+                "Npun_R2756"
+            ]
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic",
+                    "Signalling"
+                ],
+                "chem_struct": "CC[C@H](C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)C(C)(C)C=C)CO",
+                "compound": "methylpendolmycin",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 653.5706,
+                "molecular_formula": "C48H3N3O2"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Signalling"
+                ],
+                "chem_struct": " CC(C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)C(C)(C)C=C)CO",
+                "compound": "pendolmycin",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 640.5517,
+                "molecular_formula": "C47H2N3O2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFO85454.1",
+                    "name": "mpnC",
+                    "product": "P450-like monoxygenase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFO85453.1",
+                    "name": "mpnB",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFO85455.1",
+                    "name": "mpnD",
+                    "product": "aromatic prenyltransferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JN634585.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000391",
+        "minimal": false,
+        "ncbi_tax_id": "531310",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AFO85453.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ]
+        },
+        "organism_name": "Marinactinospora thermotolerans",
+        "publications": [
+            "pubmed:22362652"
+        ]
+    }
+}

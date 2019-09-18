@@ -1,0 +1,116 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "SAL-2242",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2242.22
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "smCOG: SMCOG1030:serine/threonine_protein_kinase (Score: 79.4; E-value: 5.4e-24);",
+                    "id": "SSHG_03588",
+                    "product": "serine/threonine protein kinase"
+                },
+                {
+                    "id": "SSHG_03589",
+                    "product": "predicted protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1288:ABC_transporter_related_protein (Score: 273.5; E-value: 6.3e-83);",
+                    "id": "SSHG_03590",
+                    "product": "ABC transporter ATP-binding protein"
+                },
+                {
+                    "comments": "smCOG: SMCOG1016:LuxR_family_DNA-binding_response_regulator (Score: 56.1; E-value: 4.8e-17);",
+                    "id": "SSHG_03592",
+                    "product": "two-component system response regulator"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "SSHG_03588",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4115428,
+                                "start": 4112717
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "SSHG_03589",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4115649,
+                                "start": 4115479
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "SSHG_03590",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4117703,
+                                "start": 4115880
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "SSHG_03592",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4120692,
+                                "start": 4120282
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_DS999645.1",
+            "completeness": "complete",
+            "end_coord": 4120692,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 4112717
+        },
+        "mibig_accession": "BGC0000546",
+        "minimal": false,
+        "ncbi_tax_id": "1886",
+        "organism_name": "Streptomyces albidoflavus",
+        "publications": [
+            "pubmed:21983601"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Lanthipeptide"
+        }
+    },
+    "comments": "AmfS-like classIII lanthipeptide"
+}

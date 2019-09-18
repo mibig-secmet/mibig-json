@@ -1,0 +1,69 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC[C@H](C)[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC2=CC=C(O)C=C2)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC2=CC=C(OCC=C(C)C)C=C2)NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC1=O",
+                "compound": "Prenylagaramide B",
+                "database_id": [
+                    "npatlas:16379",
+                    "pubchem:10629643"
+                ],
+                "mol_mass": 944.7072,
+                "molecular_formula": "C53H8N10O10"
+            },
+            {
+                "chem_struct": "O=C([C@H]([C@H](CC)C)NC(CNC([C@@H](NC([C@H](CC1=CC=C(OC/C=C(C)/C)C=C1)NC([C@H](C)NC([C@@H](NC([C@@H]2CCCN23)=O)CCC(N)=O)=O)=O)=O)CC(C)C)=O)=O)N4[C@H](C(N[C@@H](CC(C)C)C3=O)=O)CCC4",
+                "compound": "prenylagaramide C",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1359.926,
+                "molecular_formula": "C57H9N35O11"
+            }
+        ],
+        "loci": {
+            "accession": "HQ655154.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000479",
+        "minimal": false,
+        "ncbi_tax_id": "443922",
+        "organism_name": "Planktothrix agardhii NIES-596",
+        "publications": [
+            "pubmed:21513887"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "QAYLGIPLP"
+                    ],
+                    "gene_id": "AED99431.1",
+                    "leader_sequence": "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPH"
+                },
+                {
+                    "core_sequence": [
+                        "INPYLYP"
+                    ],
+                    "gene_id": "AED99432.1",
+                    "leader_sequence": "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPH"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCCCCCCCCCCCCCCC=C",
+                "chem_synonyms": [
+                    "heptadec-1-ene"
+                ],
+                "compound": "1-heptadecene",
+                "database_id": [
+                    "pubchem:23217"
+                ],
+                "mol_mass": 204.187,
+                "molecular_formula": "C17"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADN13832.1",
+                    "product": "Polyketide Synthase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP002198.1",
+            "completeness": "complete",
+            "end_coord": 2037562,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 2029235
+        },
+        "mibig_accession": "BGC0001164",
+        "minimal": false,
+        "ncbi_tax_id": "497965",
+        "organism_name": "Cyanothece sp. PCC 7822",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ADN13832.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonamyl-CoA"
+                            ],
+                            "domains": [
+                                "CoA-ligase",
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Sulfotransferase",
+                                "Thioesterase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "ADN13832.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24475038"
+        ]
+    }
+}

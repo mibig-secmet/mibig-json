@@ -1,0 +1,239 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic",
+                    "insecticide"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "para-nitrobenzoate",
+                        "subcluster": [
+                            "CAE02603.1",
+                            "CAE02601.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "CC1=C(OC(=C(C1=O)C)OC)[C@H]2CC/C(=C/C(=C/C3=CC=C(C=C3)[N+](=O)[O-])/C)/O2",
+                "compound": "aureothin",
+                "database_id": [
+                    "pubchem:6436188",
+                    "chemspider:5029106"
+                ],
+                "mol_mass": 439.2964,
+                "molecular_formula": "C26HNO7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression",
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAE02601.1",
+                    "product": "p-aminobenzoate N-oxygenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CAE02607.1",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression",
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAE02604.1",
+                    "product": "bifunctional cytochrome P450 monooxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CAE02600.1",
+                    "product": "p-nitrobenzoate CoA ligase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AJ575648.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000024",
+        "minimal": false,
+        "ncbi_tax_id": "66431",
+        "organism_name": "Streptomyces thioluteus",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "starter_unit": "p-Nitrobenzoate",
+            "subclasses": [
+                "Polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAE02605.1",
+                        "CAE02606.1",
+                        "CAE02602.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "CAE02602.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CAE02605.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Sequence-based prediction",
+                            "genes": [
+                                "CAE02606.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "CAE02606.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:13174453",
+            "pubmed:770405",
+            "pubmed:11079808",
+            "pubmed:14700630",
+            "pubmed:15038705",
+            "pubmed:15612710",
+            "pubmed:15645471",
+            "pubmed:15812854",
+            "pubmed:16292785",
+            "pubmed:17718517",
+            "pubmed:17763486",
+            "pubmed:17765264",
+            "pubmed:18458342",
+            "pubmed:20798054",
+            "pubmed:21280577",
+            "pubmed:21678538",
+            "pubmed:22799266",
+            "pubmed:23606628",
+            "pubmed:24402879",
+            "pubmed:24973817",
+            "pubmed:20662518"
+        ]
+    }
+}

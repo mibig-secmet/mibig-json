@@ -1,0 +1,89 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ],
+                "chem_struct": "[H][C@]12C[C@@H](C)[C@@H](CC)[C@]1([H])C=C[C@]1([H])[C@H]3C\\C=C/C(=O)NCCC[C@@H]4NC(=O)C(=C4O)C(=O)\\C=C\\[C@@H]3C[C@]21[H]",
+                "compound": "Ikarugamycin",
+                "database_id": [
+                    "npatlas:3249",
+                    "pubchem:101647494"
+                ],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 485.4341,
+                "molecular_formula": "C32H9N2O4"
+            }
+        ],
+        "loci": {
+            "accession": "KF954512.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0001435",
+        "minimal": false,
+        "ncbi_tax_id": "1469403",
+        "nrp": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "thioesterases": [
+                {
+                    "gene": "AJD77023.1",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Streptomyces sp. ZJ306",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AJD77023.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 6,
+                        "subtype": "Partially reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24519911",
+            "pubmed:24706593"
+        ]
+    },
+    "comments": "Please note that I was  not involved in the studies on the mechanism and genes involved in the biosynthesis of Ikarugamycin, I am submitting this entry as part of study on the evolution of polycyclic tetramate macromalctams."
+}

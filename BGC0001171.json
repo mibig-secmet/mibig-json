@@ -1,0 +1,145 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_synonyms": [
+                    "lls"
+                ],
+                "compound": "Listeriolysin S",
+                "mol_mass": -1
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "LMOf2365_1113",
+                    "name": "llsG",
+                    "product": "ABC transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "LMOf2365_1114",
+                    "name": "llsH",
+                    "product": "ABC transporter "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "LMOf2365_1116",
+                    "name": "llsB",
+                    "product": "Dehydrogenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "LMOf2365_1117",
+                    "name": "llsC",
+                    "product": "Cyclodehydratase partner",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "LMOf2365_1118",
+                    "name": "llsD",
+                    "product": "Cyclodehydratase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "LMOf2365_1119",
+                    "name": "llsE ",
+                    "product": "Putative protease"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AE017262.2",
+            "completeness": "complete",
+            "end_coord": 1132588,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1126697
+        },
+        "mibig_accession": "BGC0001171",
+        "minimal": true,
+        "ncbi_tax_id": "265669",
+        "organism_name": "Listeria monocytogenes serotype 4b str. F2365",
+        "publications": [
+            "pubmed:18375757",
+            "pubmed:18787690",
+            "pubmed:19286651",
+            "pubmed:21075895",
+            "pubmed:21822292",
+            "pubmed:24606727"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "subclass": "LAP"
+        }
+    },
+    "comments": "The genes within the llsGHXBCDE operon section should also contain an unannotated precursor peptide gene, llsA."
+}

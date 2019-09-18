@@ -1,0 +1,105 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@H]1[C@H]([C@@H]([C@H](O[C@@H]1OC2=CC3=CC4=C(C(=C3C(=C2C(=O)OC)C)O)C(=O)[C@@]5(C(=O)C=C([C@H]([C@@]5(C4=O)O)O)OC)OC)OC)OC)OC",
+                "chem_targets": [
+                    {
+                        "target": "DNA"
+                    }
+                ],
+                "compound": "elloramycin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 774.5224,
+                "molecular_formula": "C44H6O15"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "CAP12606.1",
+                    "name": "elmMI",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "id": "CAP12609.1",
+                    "name": "elmMIII",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "id": "CAP12608.1",
+                    "name": "elmMII",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AM900040.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000219",
+        "minimal": false,
+        "ncbi_tax_id": "47716",
+        "organism_name": "Streptomyces olivaceus",
+        "polyketide": {
+            "cyclases": [
+                "CAP12598.1",
+                "CAP12599.1",
+                "CAP12603.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Tetracenomycin"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAP12602.1",
+                        "CAP12598.1",
+                        "CAP12600.1",
+                        "CAP12603.1",
+                        "CAP12599.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:18310024"
+        ],
+        "saccharide": {
+            "subclass": "hybrid/tailoring"
+        }
+    },
+    "comments": "Elloramycin is a hybrid compound comprising a tetracenomycin scaffold and a sugar moiety. A second genomic loci comprises the Rha cluster - accession number: AM889123, Responsible for saccharide biosynthesis. Biosynthesis is discussed in PubMed ID: 18310024."
+}

@@ -1,0 +1,307 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "O=C(C(CC(C)C)NC(CC(O)CCCCCCCCC)=O)NC(CC(O)=O)C(NC(C(OC(C(CC(C)C)NC1=O)=O)C)C(NC(C(C)CC)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC1CC(C)C)=O)=O)=O)=O)=O",
+                "compound": "Bananamide 1",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1010.6569,
+                "molecular_formula": "C55N9O14"
+            },
+            {
+                "chem_struct": "O=C(C(CC(C)C)NC(CC(O)C/C=C/CCCCCC)=O)NC(CC(O)=O)C(NC(C(OC(C(CC(C)C)N1)=O)C)C(NC(C(C)CC)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(CC(C)C)C1=O)=O)=O)=O)=O)=O",
+                "compound": "Bananamide 2",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1010.6569,
+                "molecular_formula": "C55N9O14"
+            },
+            {
+                "chem_struct": "O=C(C(CC(C)C)NC(CC(O)CCCCCCC)=O)NC(CC(O)=O)C(NC(C(OC(C(CC(C)C)NC1=O)=O)C)C(NC(C(C)CC)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC1CC(C)C)=O)=O)=O)=O)=O",
+                "compound": "Bananamide 3",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 986.6349,
+                "molecular_formula": "C53N9O14"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33119.1",
+                    "name": "banF",
+                    "product": "RND efflux system, outer membrane lipoprotein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33120.1",
+                    "name": "banG",
+                    "product": "LuxR family DNA-binding response regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33121.1",
+                    "name": "banA",
+                    "product": "Nonribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33122.1",
+                    "name": "banB",
+                    "product": "Nonribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33123.1",
+                    "name": "banC",
+                    "product": "Nonribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33124.1",
+                    "name": "banD",
+                    "product": "RND family efflux transporter MFP subunit"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33125.1",
+                    "name": "banE",
+                    "product": "ABC transporter ATP-binding protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AOA33126.1",
+                    "name": "banH",
+                    "product": "LuxR family DNA-binding response regulator"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KX437753.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001346",
+        "minimal": false,
+        "ncbi_tax_id": "294",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AOA33121.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Aspartate"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AOA33122.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "6"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AOA33123.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Pseudomonas fluorescens",
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "comments": "Pseudomonas fluorescens strain BW11P2 (Bananamides). NCBI accession(full genome): LRUN00000000. Bananamide biosynthetic gene cluster: KX437753."
+}

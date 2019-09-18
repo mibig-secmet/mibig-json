@@ -1,0 +1,82 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C\\C=C1/NC(=O)[C@H]2CSSCC\\C=C\\[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C",
+                "compound": "FR901228",
+                "database_id": [
+                    "npatlas:16792"
+                ],
+                "mol_mass": 522.4455,
+                "molecular_formula": "C24H4N5O6S2"
+            }
+        ],
+        "loci": {
+            "accession": "EF210776.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000993",
+        "minimal": false,
+        "ncbi_tax_id": "536",
+        "nrp": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Chromobacterium violaceum",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "abp57754"
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "abp57754",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:17400765",
+            "pubmed:19549597",
+            "pubmed:21183645",
+            "pubmed:21183648",
+            "pubmed:24553401"
+        ]
+    }
+}

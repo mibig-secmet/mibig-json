@@ -1,0 +1,95 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Indole/benzopyrrole"
+        },
+        "biosyn_class": [
+            "Terpene",
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "[H][C@@]12CCC3=C(C=C4C(NC5=C4C=CC=C5)=C3)[C@@]1(C)CC[C@H](O)[C@@]2(C)C(O)=O",
+                "compound": "Xiamycin",
+                "database_id": [
+                    "npatlas:12008"
+                ],
+                "mol_mass": 556.4717,
+                "molecular_formula": "C41H2NO3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFK78075",
+                    "name": "xiaI",
+                    "product": "Indole oxygenase ",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFK78079",
+                    "name": "xiaM",
+                    "product": "Cytochrome P450",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HE815466.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000665",
+        "minimal": false,
+        "ncbi_tax_id": "995841",
+        "organism_name": "Streptomyces sp. HKI0576",
+        "publications": [
+            "pubmed:22591327",
+            "pubmed:22968942",
+            "pubmed:23205935"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "prenyltransferases": [
+                "CCH63739.1"
+            ],
+            "terpene_precursor": "FPP",
+            "terpene_synth_cycl": [
+                "CCH63731.1"
+            ]
+        }
+    }
+}

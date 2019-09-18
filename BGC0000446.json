@@ -1,0 +1,158 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C1C[C@H]2[C@@H](NC3=C(C=CC=C3O)C(=O)N2C1)C4=CNC5=CC=CC=C54",
+                "compound": "tilivalline",
+                "database_id": [
+                    "pubchem:128363"
+                ],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 1098.9654,
+                "molecular_formula": "C84H2N4O2"
+            },
+            {
+                "chem_struct": "O=C1C2=C(C=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5",
+                "compound": "9-deoxy tilivalline",
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 492.4313,
+                "molecular_formula": "C36H2N3O"
+            },
+            {
+                "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5",
+                "compound": "dihydroxy tilivalline",
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 524.4301,
+                "molecular_formula": "C36H2N3O3"
+            },
+            {
+                "chem_struct": "O=C1C2=C(C(O)=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5",
+                "compound": "dehydro tilivallin",
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 508.4307,
+                "molecular_formula": "C36H2N3O2"
+            },
+            {
+                "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5",
+                "compound": "dihydroxy-dehydro tilivallin",
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 524.4301,
+                "molecular_formula": "C36H2N3O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "smCOG: SMCOG1193:glutathione_S-transferase (Score: 44.2; E-value: 2.7e-13);",
+                    "id": "AUTOORF_00001",
+                    "product": "Glutathione S-transferase, unnamed subgroup 2"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "AUTOORF_00001",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4106,
+                                "start": 3499
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HG425356.1",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0000446",
+        "minimal": false,
+        "ncbi_tax_id": "571",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "CDG76957.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "nonproteinogenic": [
+                                    "2,3-Dihydroxybenzoic acid"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CDG76959.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ],
+            "subclass": "Pyrrolobenzodiazepine"
+        },
+        "organism_name": "Klebsiella oxytoca",
+        "publications": [
+            "pubmed:25157164",
+            "pubmed:28977734",
+            "pubmed:28972161",
+            "pubmed:29389112"
+        ]
+    }
+}

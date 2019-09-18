@@ -1,0 +1,315 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Siderophore"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "6-pentylsalicylic acid"
+                    }
+                ],
+                "chem_struct": "OC1=C(C2=N[C@]([C@@]3([H])SC[C@]([C@@H](O)C(C)(C)C4=N[C@](C(O)=O)(C)CS4)([H])N3C)([H])CS2)C(CCCCC)=CC=C1",
+                "compound": "micacocidin",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 734.8237,
+                "molecular_formula": "C31H4N5O4S7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15506.1",
+                    "name": "micA",
+                    "product": "protein with thioesterase and phosphopantetheinyl transferase domains"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15507.1",
+                    "name": "micB",
+                    "product": "thiazolinyl imide reductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15508.1",
+                    "name": "micC",
+                    "product": "polyketide synthase/non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15509.1",
+                    "name": "micD",
+                    "product": "TonB-dependent receptor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15510.1",
+                    "name": "micE",
+                    "product": "ATP-binding transmembrane ABC transporter protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15511.1",
+                    "name": "micF",
+                    "product": "ATP-binding transmembrane ABC transporter protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15512.1",
+                    "name": "micG",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15513.1",
+                    "name": "micH",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "id": "CAD15514.1",
+                    "name": "micI",
+                    "product": "conserved hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CAD15515.1",
+                    "name": "micJ",
+                    "product": "AraC-like regulator"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AL646052.1",
+            "completeness": "complete",
+            "end_coord": 1980062,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 1941939
+        },
+        "mibig_accession": "BGC0001014",
+        "minimal": false,
+        "ncbi_tax_id": "267608",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "CAD15508.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "2"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "module_number": "3"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAD15513.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "5"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "subclass": "NRP siderophore"
+        },
+        "organism_name": "Ralstonia solanacearum GMI1000",
+        "polyketide": {
+            "cyclic": true,
+            "starter_unit": "Hexanoyl-ACP",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "RSc1806",
+                        "CAD15512.1",
+                        "CAD15508.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 2,
+                        "subtype": "Partially reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Activity assay",
+                            "genes": [
+                                "CAD15508.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "CAD15512.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I",
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21724891",
+            "pubmed:23790487",
+            "pubmed:24202877"
+        ]
+    }
+}

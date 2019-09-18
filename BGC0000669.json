@@ -1,0 +1,119 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C[C@@H]1CCC(=C(C)C)[C@H]([C@]1(C)CC/C=C(\\C)/CC/C=C(\\C)/CCC=C(C)C)CCC=O",
+                "compound": "Marneral",
+                "database_id": [
+                    "pubchem:25001002"
+                ],
+                "mol_mass": 378.3452,
+                "molecular_formula": "C30H2O"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "NP_199072.1",
+                    "name": "CYP705A12",
+                    "product": "cytochrome P450, family 705, subfamily A, polypeptide 12",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "NP_199073.1",
+                    "name": "CYP71A16",
+                    "product": "cytochrome P450 71A16",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "NP_199074.1",
+                    "name": "MRN1",
+                    "product": "marneral synthase"
+                },
+                {
+                    "comments": "unknown protein; Has 30201 Blast hits to 17322 proteins in 780 species: Archae - 12; Bacteria - 1396; Metazoa - 17338; Fungi - 3422; Plants - 5037; Viruses - 0; Other Eukaryotes - 2996 (source: NCBI BLink).",
+                    "id": "AT5G42591",
+                    "product": "hypothetical protein"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "AT5G42591",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 17036780,
+                                "start": 17036673
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NC_003076.8",
+            "completeness": "complete",
+            "end_coord": 17058245,
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 17023646
+        },
+        "mibig_accession": "BGC0000669",
+        "minimal": false,
+        "ncbi_tax_id": "3702",
+        "organism_name": "Arabidopsis thaliana",
+        "publications": [
+            "pubmed:21876149",
+            "pubmed:22882494"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Triterpene",
+            "terpene_precursor": "FPP",
+            "terpene_synth_cycl": [
+                "MRN1"
+            ]
+        }
+    }
+}

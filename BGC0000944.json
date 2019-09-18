@@ -1,0 +1,118 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Siderophore"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "citric acid"
+                    },
+                    {
+                        "moiety": "L-ornithine"
+                    }
+                ],
+                "chem_struct": "C(C[C@H](C(=O)[O-])NC(=O)CC(CC(=O)[O-])(C(=O)[O-])O)CNC(=O)CC(CC(=O)[O-])(C(=O)[O-])O",
+                "chem_targets": [
+                    {
+                        "target": "Iron"
+                    }
+                ],
+                "compound": "Staphyloferrin A",
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 457.1999,
+                "molecular_formula": "C17HN2O14"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SAOUHSC_02434",
+                    "name": "sfaA",
+                    "product": "Siderophore Transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SAOUHSC_02436",
+                    "name": "sfaC",
+                    "product": "L-ornithine Racemase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "SAOUHSC_02435",
+                    "name": "sfaB",
+                    "product": "Nonribosomal peptide synthetase independent siderophore (NIS) Synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "SAOUHSC_02433",
+                    "name": "sfaD",
+                    "product": "Nonribosomal peptide synthetase independent siderophore (NIS) Synthetase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP000253.1",
+            "completeness": "complete",
+            "end_coord": 2263981,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 2257889
+        },
+        "mibig_accession": "BGC0000944",
+        "minimal": false,
+        "ncbi_tax_id": "93061",
+        "organism_name": "Staphylococcus aureus subsp. aureus NCTC 8325",
+        "other": {
+            "subclass": "Non-NRP siderophore"
+        },
+        "publications": [
+            "pubmed:19138128",
+            "pubmed:19400778"
+        ]
+    }
+}

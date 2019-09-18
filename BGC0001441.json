@@ -1,0 +1,104 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "beta-lactone"
+                    }
+                ],
+                "chem_struct": "CC[C@H](C)[C@H]1[C@@H](OC1=O)C(=O)N[C@H]1C[C@@H]1C[C@H](NC(=O)[C@H](C)N)C(O)=O",
+                "chem_targets": [
+                    {
+                        "target": "20S proteasome"
+                    }
+                ],
+                "compound": "Belactosin A",
+                "database_id": [
+                    "npatlas:14378",
+                    "pubchem:25053219"
+                ],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 349.2588,
+                "molecular_formula": "C17H7N3O6"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "beta-lactone"
+                    }
+                ],
+                "chem_struct": "CC[C@H](C)[C@H]1[C@@H](OC1=O)C(=O)NCCC[C@H](NC(=O)[C@H](C)N)C(O)=O",
+                "chem_targets": [
+                    {
+                        "target": "20S proteasome"
+                    }
+                ],
+                "compound": "Belactosin C",
+                "database_id": [
+                    "npatlas:10752",
+                    "pubchem:10666031"
+                ],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 335.232,
+                "molecular_formula": "C16H5N3O6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ARO49578.1",
+                    "name": "belJ",
+                    "product": "2-IPM synthase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "KY249118.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0001441",
+        "minimal": false,
+        "ncbi_tax_id": "1931",
+        "organism_name": "Streptomyces sp.",
+        "publications": [
+            "pubmed:28452105",
+            "pubmed:14698035",
+            "pubmed:10724015"
+        ]
+    }
+}

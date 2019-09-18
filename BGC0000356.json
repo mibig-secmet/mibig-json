@@ -1,0 +1,346 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Indole/benzopyrrole"
+        },
+        "biosyn_class": [
+            "NRP",
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "C/C(C)=C/[C@@H]1N2C3=C(C4=C2[C@@H](N5C([C@]6([H])CCCN6C([C@]5(O)[C@H]4O)=O)=O)CC(C)(C)OO1)C=CC(OC)=C3",
+                "chem_targets": [
+                    {
+                        "target": "M phase inhibitor of cell cycle"
+                    }
+                ],
+                "compound": "verruculogen",
+                "database_id": [
+                    "pubchem:104862"
+                ],
+                "mol_mass": 718.4995,
+                "molecular_formula": "C35H4N13O7"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(=CCN1C2=C(C=CC(=C2)OC)C3=C1[C@@H](N4C(=O)[C@@H]5CCCN5C(=O)[C@@]4([C@H]3O)O)C=C(C)C)C",
+                "chem_synonyms": [
+                    "lanosulin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "M phase inhibitor of cell cycle"
+                    }
+                ],
+                "compound": "fumitremorgin B",
+                "database_id": [
+                    "pubchem:105113"
+                ],
+                "mol_mass": 595.4287,
+                "molecular_formula": "C31H3N10O5"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(=C[C@H]1C2=C(C[C@@H]3N1C(=O)[C@@H]4CCCN4C3=O)C5=C(N2)C=C(C=C5)OC)C",
+                "chem_targets": [
+                    {
+                        "target": "BCRP/ABCG2 inhibitor"
+                    }
+                ],
+                "compound": "fumitremorgin c",
+                "database_id": [
+                    "pubchem:403923"
+                ],
+                "mol_mass": 545.4318,
+                "molecular_formula": "C33H3N7O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@@]12CCCN1C(=O)[C@]([H])(CC1=C(CC=C(C)C)NC3=C1C=CC(OC)=C3)NC2=O",
+                "chem_targets": [
+                    {
+                        "target": "M phase inhibitor of cell cycle"
+                    },
+                    {
+                        "target": "inhibitor of MAP-dependent microtubule assembly"
+                    },
+                    {
+                        "target": "BCRP/ABCG2 inhibitor"
+                    }
+                ],
+                "compound": "Tryprostatin A",
+                "database_id": [
+                    "npatlas:6056"
+                ],
+                "mol_mass": 416.3311,
+                "molecular_formula": "C27H2N3O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@@]12CCCN1C(=O)[C@]([H])(CC1=C(CC=C(C)C)NC3=C1C=CC=C3)NC2=O",
+                "chem_targets": [
+                    {
+                        "target": "BCRP/ABCG2 inhibitor"
+                    }
+                ],
+                "compound": "Tryprostatin B",
+                "database_id": [
+                    "npatlas:10659",
+                    "pubchem:9863281"
+                ],
+                "mol_mass": 388.3207,
+                "molecular_formula": "C26H2N3O2"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "[H][C@@]12CCCN1C(=O)[C@]1([H])CC3=C(NC4=CC=CC=C34)[C@H](C=C(C)C)N1C2=O",
+                "chem_targets": [
+                    {
+                        "target": "M phase inhibitors of the mammalian cell cycle"
+                    }
+                ],
+                "compound": "Demethoxyfumitremorgin C",
+                "database_id": [
+                    "npatlas:14999",
+                    "pubchem:10337896"
+                ],
+                "mol_mass": 797.7026,
+                "molecular_formula": "C60H3N3O2"
+            },
+            {
+                "chem_struct": "C1C[C@H]2C(=O)N[C@H](C(=O)N2C1)CC3=CNC4=CC=CC=C43",
+                "compound": "brevianamide F",
+                "database_id": [
+                    "pubchem:181567"
+                ],
+                "mol_mass": 846.7344,
+                "molecular_formula": "C63H2N4O2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "BAH23995.1",
+                    "name": "ftmA/ftmPS",
+                    "product": "nonribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "BAH23996.1",
+                    "name": "ftmC/ftmP450-1",
+                    "product": "cytochrome P450",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "BAH23997.1",
+                    "name": "ftmD/ftmMT",
+                    "product": "O-methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "BAH23998.1",
+                    "name": "ftmB/ftmPT1",
+                    "product": "prenyltransferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "BAH23999.1",
+                    "name": "ftmE/ftmP450-2",
+                    "product": "cytochrome P450",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "BAH24000.1",
+                    "name": "ftmF/ftmOx1",
+                    "product": "alpha-ketoglutarate dioxygenase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "BAH24001.1",
+                    "name": "ftmG/ftmP450-3",
+                    "product": "cytochrome P450",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "BAH24002.1",
+                    "name": "ftmH/ftmPT2",
+                    "product": "prenyltransferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AB436628.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000356",
+        "minimal": false,
+        "ncbi_tax_id": "746128",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "BAH23995.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan",
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan",
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Hydrolysis"
+            ]
+        },
+        "organism_name": "Aspergillus fumigatus",
+        "publications": [
+            "pubmed:8698635",
+            "pubmed:16520651",
+            "pubmed:9677311",
+            "pubmed:18321710",
+            "pubmed:17016657",
+            "pubmed:16755625",
+            "pubmed:18683158",
+            "pubmed:19226505",
+            "pubmed:19763315",
+            "pubmed:23109474",
+            "pubmed:23649274",
+            "pubmed:24082142"
+        ]
+    },
+    "comments": "ftmI/ftmO do not catalyze any enzymatic reactions, this has been shown by knock-out studies, and are therefore not regarded as part of the cluster.\\nA. fumigatus Af293 harbors a point mutation in ftmMT\\nN. fischeri NRRL181 produces fumitremorgin A catalyzed by ftmPT3 present outside the genomic context of the cluster homologous to A. fumigatus\\n"
+}

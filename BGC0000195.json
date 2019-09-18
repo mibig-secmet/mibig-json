@@ -1,0 +1,244 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "dioxane",
+                        "subcluster": [
+                            "ACI88875.1",
+                            "ACI88874.1",
+                            "ACI88873.1",
+                            "ACI88870.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "OC1=C2C(C=C(C)O[C@@H]2CCC)=CC3=C1C(C([C@]4([H])O[C@@H](CO)[C@H](O)CO4)=CC3=O)=O",
+                "chem_synonyms": [
+                    "k1115 b1"
+                ],
+                "compound": "alnumycin A",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 504.322,
+                "molecular_formula": "C27H4O11"
+            },
+            {
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C([C@@]4([H])O[C@@](CO[C@H]5O)([H])[C@@]5([H])O4)=CC3=O)=O",
+                "compound": "alnumycin B",
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 517.3409,
+                "molecular_formula": "C28H5O11"
+            },
+            {
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C([C@]4([H])O[C@H](CO)[C@@H](O)[C@H]4O)=CC3=O)=O",
+                "chem_synonyms": [
+                    "anhydroexfoliamycin"
+                ],
+                "compound": "alnumycin C",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 469.3427,
+                "molecular_formula": "C28H5O8"
+            },
+            {
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C([C@]4([H])O[C@H](COP([O-])([O-])=O)[C@@H](O)[C@H]4O)=CC3=O)=O",
+                "compound": "alnumycin P",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 548.3147,
+                "molecular_formula": "C28H5O11P"
+            },
+            {
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C=CC3=O)=O",
+                "compound": "prealnumycin",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 341.2585,
+                "molecular_formula": "C23HO4"
+            },
+            {
+                "chem_struct": "OC1=C(C(C2CC)=O)C(CC2(O)C)=CC3=CC=CC(O)=C31",
+                "compound": "thalnumycin A",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 676.5586,
+                "molecular_formula": "C51O4"
+            },
+            {
+                "chem_struct": "OC1=C(C(C2CC)=O)C(CC2(O)C)=CC3=C(O)C=CC(O)=C31",
+                "compound": "thalnumycin B",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 692.558,
+                "molecular_formula": "C51O5"
+            },
+            {
+                "chem_struct": "O=C1C2=C(C=C(O)C(C(O)=O)=C2CCC)C(C3=CC=CC(O)=C31)=O",
+                "compound": "K1115A",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 720.5684,
+                "molecular_formula": "C52O6"
+            },
+            {
+                "chem_struct": "O=C1C2=C(C=C(O)C=C2CCC)C(C3=CC=CC(O)=C31)=O",
+                "compound": "1,6-dihydro-8-propylanthraquinone",
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 676.5586,
+                "molecular_formula": "C51O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACI88875.1",
+                    "name": "alnA",
+                    "product": "prealnumycin C-ribosylase",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACI88874.1",
+                    "name": "alnB",
+                    "product": "alnumycin P phosphatase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACI88873.1",
+                    "name": "aln6",
+                    "product": "alnumycin C oxidase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACI88870.1",
+                    "name": "aln4",
+                    "product": "alnumycin B aldoreductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "ACI88867.1",
+                    "name": "alnT",
+                    "product": "quinone forming FMN-dependent mono-oxygenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ACI88884.1",
+                    "name": "alnH",
+                    "product": "flacin reductase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "EU852062.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0000195",
+        "minimal": false,
+        "ncbi_tax_id": "569580",
+        "organism_name": "Streptomyces sp. CM020",
+        "polyketide": {
+            "cyclases": [
+                "ACI88864.1",
+                "ACI88865.1",
+                "ACI88866.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 8,
+            "starter_unit": "Butyryl-ACP",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ACI88864.1",
+                        "ACI88865.1",
+                        "ACI88861.1",
+                        "ACI88866.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:18940666",
+            "pubmed:22467789",
+            "pubmed:22474343",
+            "pubmed:23297194"
+        ]
+    }
+}

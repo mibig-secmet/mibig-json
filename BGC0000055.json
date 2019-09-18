@@ -1,0 +1,657 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)O)(C)O",
+                "chem_synonyms": [
+                    "abomacetin",
+                    "erythromycin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Bacterial 70S ribosome"
+                    }
+                ],
+                "compound": "Erythromycin A",
+                "database_id": [
+                    "pubchem:12560",
+                    "chebi:42355",
+                    "chembl:532",
+                    "chemspider:12041"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "X-ray",
+                    "Chemical derivatization",
+                    "Total synthesis"
+                ],
+                "mol_mass": 729.5226,
+                "molecular_formula": "C37H15NO16"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@H]1C",
+                "chem_synonyms": [
+                    "berythromycin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Bacterial 70S ribosome"
+                    }
+                ],
+                "compound": "Erythromycin B",
+                "database_id": [
+                    "npatlas:15585",
+                    "pubchem:10702",
+                    "chebi:28196",
+                    "chembl:3220708",
+                    "chemspider:16736538"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization",
+                    "Total synthesis"
+                ],
+                "mol_mass": 682.5323,
+                "molecular_formula": "C37H16NO13"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(O)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+                "chem_targets": [
+                    {
+                        "target": "Bacterial 70S ribosome"
+                    }
+                ],
+                "compound": "Erythromycin C",
+                "database_id": [
+                    "npatlas:9987",
+                    "pubchem:441095",
+                    "chebi:64273",
+                    "chemspider:75735"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 685.5128,
+                "molecular_formula": "C36H15NO14"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC[C@@H]1[C@@H]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)O)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)O)C",
+                "chem_targets": [
+                    {
+                        "target": "Bacterial 70S ribosome"
+                    }
+                ],
+                "compound": "Erythromycin D",
+                "database_id": [
+                    "pubchem:24755489",
+                    "chebi:28331",
+                    "chemspider:21864912"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 702.5201,
+                "molecular_formula": "C36H16NO15"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "CAM00053.1",
+                    "product": "putative erythromycin esterase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00054.1",
+                    "name": "eryK",
+                    "product": "cytochrome P450 Erythromycin B/D C-12 hydroxylase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00055.1",
+                    "name": "eryBVII",
+                    "product": "dTDP-4-deoxyglucose 3,5-epimerase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00056.1",
+                    "name": "eryCV",
+                    "product": "EryCV NDP-4,6-dideoxyhexose 3,4-enoyl reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00057.1",
+                    "name": "eryCIV",
+                    "product": "eryCIV NDP-6-deoxyhexose 3,4-dehydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00058.1",
+                    "name": "eryBVI",
+                    "product": "NDP-4-keto-6-deoxy-glucose 2,3-dehydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00059.1",
+                    "name": "eryCVI",
+                    "product": "TDP-desosamine-N-dimethyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00060.1",
+                    "name": "eryBV",
+                    "product": "6-DEB TDP-mycarosyl glycosyltransferase",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00061.1",
+                    "name": "eryBIV",
+                    "product": "dTDP-4-keto-6-deoxy-L-hexose 4-reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00062.1",
+                    "name": "eryAI",
+                    "product": "EryAI Erythromycin polyketide synthase modules 1 and 2"
+                },
+                {
+                    "id": "CAM00063.1",
+                    "product": "transposase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00064.1",
+                    "name": "eryAII",
+                    "product": "EryAII Erythromycin polyketide synthase modules 3 and 4"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00065.1",
+                    "name": "eryAIII",
+                    "product": "EryAIII Erythromycin polyketide synthase modules 5 and 6"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00066.1",
+                    "name": "eryCII",
+                    "product": "TDP-4-keto-6-deoxy-glucose 3,4-isomerase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00067.1",
+                    "name": "eryCIII",
+                    "product": "glycosyl transferase, NDP-D-desosamine : 3-L-mycarosyl erythronolide B",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00068.1",
+                    "name": "eryBII",
+                    "product": "TDP-4-keto-6-deoxyhexose 2,3-reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00069.1",
+                    "name": "eryG",
+                    "product": "erythromycin C methlytransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00070.1",
+                    "product": "thioesterase, erythromycin biosynthesis"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00071.1",
+                    "name": "eryF",
+                    "product": "6-deoxyerythronolide B hydroxylase (6-DEB hydroxylase)",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00072.1",
+                    "name": "eryBIII",
+                    "product": "eryBIII NDP-4-keto-2,6-dideoxyhexose 3-C-methyltransferase"
+                },
+                {
+                    "id": "CAM00073.1",
+                    "name": "eryBI",
+                    "product": "beta-D-glucosidase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00074.1",
+                    "name": "ermE",
+                    "product": "N-6-aminoadenine-N-methyltransferase, erythromycinresistance"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CAM00075.1",
+                    "name": "eryCI",
+                    "product": "Erythromycin biosynthesis transaminase EryCI"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AM420293.1",
+            "completeness": "complete",
+            "end_coord": 832825,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 778214
+        },
+        "mibig_accession": "BGC0000055",
+        "minimal": false,
+        "ncbi_tax_id": "405948",
+        "organism_name": "Saccharopolyspora erythraea NRRL 2338",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Propionyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAM00064.1",
+                        "SACE_0729",
+                        "CAM00065.1",
+                        "CAM00062.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Propionyl-CoA"
+                            ],
+                            "domains": [
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAM00062.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAM00062.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAM00062.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAM00064.1"
+                            ],
+                            "kr_stereochem": "Inactive",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAM00064.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAM00065.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAM00065.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "6"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "SACE_0729",
+                            "thioesterase_type": "Unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:11336289",
+            "pubmed:24704088",
+            "pubmed:23902230",
+            "pubmed:21175699",
+            "pubmed:18836015",
+            "pubmed:18223111",
+            "pubmed:17369815",
+            "pubmed:16491356",
+            "pubmed:15575696",
+            "pubmed:15303858",
+            "pubmed:12904561",
+            "pubmed:12435693",
+            "pubmed:10559177",
+            "pubmed:9613575",
+            "pubmed:9563840",
+            "pubmed:9493390",
+            "pubmed:9393448",
+            "pubmed:9353926",
+            "pubmed:7737500",
+            "pubmed:7749919",
+            "pubmed:8300527",
+            "pubmed:8448148",
+            "pubmed:8449313",
+            "pubmed:8416893",
+            "pubmed:1618327",
+            "pubmed:1840640",
+            "pubmed:2234082",
+            "pubmed:2185216",
+            "pubmed:2681144",
+            "pubmed:2575703",
+            "pubmed:2469627"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "SACE_0726",
+                    "specificity": "D-desosamine"
+                },
+                {
+                    "evidence": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "SACE_0719",
+                    "specificity": "L-mycarose"
+                }
+            ],
+            "subclass": "hybrid/tailoring",
+            "sugar_subclusters": [
+                [
+                    "SACE_0725",
+                    "SACE_0716",
+                    "SACE_0715",
+                    "SACE_0718"
+                ],
+                [
+                    "SACE_0727",
+                    "SACE_0720",
+                    "SACE_0717",
+                    "SACE_0714"
+                ]
+            ]
+        }
+    }
+}

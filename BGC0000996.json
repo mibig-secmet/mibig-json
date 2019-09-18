@@ -1,0 +1,174 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "O=C(NCCC(O)C1C(O)=C(C(/C=C/2)=O)C(N1)=O)/C=C\\C[C@H]([C@]3([H])[C@]4([H])[C@@]5([H])[C@@](C[C@H](C=C)[C@@H]5C)([H])C3)[C@H]2CC4=O",
+                "compound": "frontalamide B",
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 540.447,
+                "molecular_formula": "C34H8N2O6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SSLG_04251",
+                    "name": "ftdB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "SSLG_04250",
+                    "name": "ftdA",
+                    "product": "frontalamide hydroxylase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                }
+            ],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "SSLG_04256",
+                        "SSLG_04255",
+                        "SSLG_04250",
+                        "SSLG_04251",
+                        "SSLG_04254",
+                        "SSLG_04253"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "GG657742.1",
+            "completeness": "incomplete",
+            "end_coord": 4909316,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 4892742
+        },
+        "mibig_accession": "BGC0000996",
+        "minimal": false,
+        "ncbi_tax_id": "591157",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "EFL02193.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "Ornithine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "thioesterases": [
+                {
+                    "gene": "SSLG_04251",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Streptomyces sp. SPB78",
+        "polyketide": {
+            "cyclic": true,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "EFL02193.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 12,
+                        "subtype": "Partially reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase"
+                            ],
+                            "genes": [
+                                "EFL02193.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "12",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:20547882"
+        ]
+    },
+    "comments": "The ftdB gene is present in three parts, and must be merged. A new paper includes the publication of a fragment that closed a genome sequencing gap within FtdB. Locus tags and protein ID comprising FtdB from N-C terminus: SSLG_04251, protein_id=ADJ54381.1,SSLG_04252. This is why there are two loci listed, which is technically incorrect. Only one locus but in GenBank as the sum of two accession numbers."
+}

@@ -1,0 +1,173 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_synonyms": [
+                    "bingicin alpha"
+                ],
+                "compound": "SBI-06990 A1",
+                "mol_mass": -1
+            },
+            {
+                "chem_synonyms": [
+                    "bingicin beta"
+                ],
+                "compound": "SBI-06989 A2",
+                "mol_mass": -1
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADI10107.1",
+                    "name": "bngM2T",
+                    "product": "type II lanthionine synthetase and    transporter",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADI10108.1",
+                    "name": "bngM1",
+                    "product": "type II lanthionine synthetase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADI10109.1",
+                    "name": "bngA2",
+                    "product": "lanthipeptide beta"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADI10110.1",
+                    "name": "bngA1",
+                    "product": "lanthipeptide alpha"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP002047.1",
+            "completeness": "complete",
+            "end_coord": 8365315,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 8356685
+        },
+        "mibig_accession": "BGC0001229",
+        "minimal": false,
+        "ncbi_tax_id": "749414",
+        "organism_name": "Streptomyces bingchenggensis BCW-1",
+        "publications": [
+            "pubmed:24621781"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [
+                "SBI_06987"
+            ],
+            "precursor_genes": [
+                {
+                    "cleavage_recogn_site": [
+                        "GG"
+                    ],
+                    "core_sequence": [
+                        "TISPIDTVKIIFRVSSHFGGNGGFGLFCTLSKECQPNCN"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 16,
+                            "second_AA": 18
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 29,
+                            "second_AA": 34
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 31,
+                            "second_AA": 38
+                        }
+                    ],
+                    "gene_id": "SBI_06990",
+                    "leader_sequence": "MHQEFEGDISLVEELAEQDLHDAAQHGG"
+                },
+                {
+                    "cleavage_recogn_site": [
+                        "GG"
+                    ],
+                    "core_sequence": [
+                        "TDPAVTGLILGIVAIQAGVAVGVSAAFCPTTKCTSRC"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 24,
+                            "second_AA": 28
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 30,
+                            "second_AA": 33
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 34,
+                            "second_AA": 37
+                        }
+                    ],
+                    "gene_id": "SBI_06989",
+                    "leader_sequence": "MQKDTDILGAWDEAELVELSEADVHGG"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    },
+    "comments": "The protease encoded in the two component lanthipeptide cluster is fused with a second lanthionine synthetase, LanM in the same orf SBI_06987"
+}

@@ -1,0 +1,68 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CC[C@H](C)[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)CNC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H]1CC(=O)N[C@@H](CO)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC2=CC=C(O)C=C2)C(=O)N[C@@H](CC(N)=O)C(=O)N1)[C@@H](C)CC)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(=O)N1CCC[C@H]1C(O)=O",
+                "compound": "Streptomonomicin",
+                "database_id": [
+                    "npatlas:3689"
+                ],
+                "mol_mass": 2133.5089,
+                "molecular_formula": "C109H22N23O30"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "LP52_05076",
+                    "name": "StmA",
+                    "product": "Precursor-encoding gene"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JROO01000009.1",
+            "completeness": "complete",
+            "end_coord": 14062,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 9271
+        },
+        "mibig_accession": "BGC0001176",
+        "minimal": false,
+        "ncbi_tax_id": "183763",
+        "organism_name": "Streptomonospora alba",
+        "publications": [
+            "pubmed:25601074"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Lassopeptide"
+        }
+    },
+    "comments": "Streptomonomicin is a lasso peptide from Streptomonospora alba with a unique Ser1-Asp9 linkage. Streptomonomicin exhibits antibiotic activity against Gram-positive bacteria, particularly the genus Bacillus.  "
+}

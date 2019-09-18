@@ -1,0 +1,53 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC[C@H](C)[C@@H]1NC(=O)C2=C(C)OC(=N2)[C@H](C)NC(=O)C2=CSC(=N2)[C@H](CC2=CN=CN2C)NC(=O)C2=CSC1=N2",
+                "chem_synonyms": [
+                    "aerucyclamide"
+                ],
+                "compound": "Microcyclamide",
+                "database_id": [
+                    "npatlas:18963",
+                    "pubchem:10555282"
+                ],
+                "mol_mass": 660.5596,
+                "molecular_formula": "C30H4N12O4S2"
+            }
+        ],
+        "loci": {
+            "accession": "AM774406.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000473",
+        "minimal": false,
+        "ncbi_tax_id": "449468",
+        "organism_name": "Microcystis aeruginosa NIES-298",
+        "publications": [
+            "pubmed:18245249"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [
+                "cao82088",
+                "cao82081"
+            ],
+            "subclass": "Cyanobactin"
+        }
+    }
+}

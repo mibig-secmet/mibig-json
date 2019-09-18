@@ -1,0 +1,129 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC[C@@H]1OC(=O)[C@H](C)C(=O)[C@](O)(CO)C\\C(OC)=C\\[C@@H](C)CC(=C)\\C=C1/C",
+                "compound": "Rustmicin",
+                "database_id": [
+                    "npatlas:17893"
+                ],
+                "mol_mass": 351.2511,
+                "molecular_formula": "C21H3O6"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ADE22340.1",
+                    "name": "galA",
+                    "product": "standing alone acyltransferase working with iterative type I PKS, GalB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADE22339.1",
+                    "name": "galB",
+                    "product": "iterative type I PKS (highly reducing type)"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADE22338.1",
+                    "name": "galC",
+                    "product": "KS fold with no cysteine catalytic residue; a partner of GalB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ADE22337.1",
+                    "name": "galD",
+                    "product": "cytochrome P450-type monooxygenase"
+                },
+                {
+                    "id": "ADE22336.1",
+                    "name": "galE",
+                    "product": "Rieske domain protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "GU300145.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000065",
+        "minimal": false,
+        "ncbi_tax_id": "33898",
+        "organism_name": "Streptomyces galbus",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Propionyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "ADE22339.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 6,
+                        "subtype": "Highly reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:20662933",
+            "pubmed:25336658"
+        ]
+    },
+    "comments": "GalABC is proposed as a novel type of PKS: bacterial highly-reducing type iterative PKS incorporating methylmalonyl-CoA with highly programmed beta-keto group modifications, a discrete AT, and no distinctive releasing domain. \\n"
+}
