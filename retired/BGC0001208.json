@@ -1,0 +1,380 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "antioomycete activity"
+                ],
+                "chem_struct": "CCCCCCC[C@@H](O)CC(N[C@@H](CC(C)C)C(N[C@H](CCC(O)=O)C(N[C@@H](C(N[C@H](CC(C)C)C(N[C@H](C(N[C@H](CO)C(N[C@@H](CC(C)C)C(N[C@H](C(N[C@@H](C(N[C@H](C1=O)[C@H](CC)C)=O)CO)=O)CC(C)C)=O)=O)=O)CC(C)C)=O)=O)[C@H](O1)C)=O)=O)=O",
+                "chem_synonyms": [],
+                "compound": "poaeamide A",
+                "database_id": [],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mass_spec_ion_type": "[M+Na]+",
+                "mol_mass": 1157.8305,
+                "molecular_formula": "C61H13N10O17"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGE26255.1",
+                    "name": "poaA",
+                    "product": "NRPS modules and related proteins"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGE26256.1",
+                    "name": "luxR1",
+                    "product": "LuxR family transcriptional regulators"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGE25479.1",
+                    "name": "poaB",
+                    "product": "NRPS modules and related proteins"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AGE25480.1",
+                    "name": "poaC",
+                    "product": "NRPS modules and related proteins"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGE25481.1",
+                    "name": "abc1",
+                    "product": "putative drug-efflux protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGE25482.1",
+                    "name": "abc2",
+                    "product": "putative drug-efflux protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "AGE25483.1",
+                    "name": "luxR2",
+                    "product": "LuxR family transcriptional regulators"
+                },
+                {
+                    "comments": "COG1239 Mg-chelatase subunit ChlI",
+                    "id": "H045_07025",
+                    "product": "magnesium chelatase"
+                },
+                {
+                    "comments": "COG1240 Mg-chelatase subunit ChlD",
+                    "id": "H045_07030",
+                    "product": "magnesium chelatase subunit ChlD"
+                },
+                {
+                    "comments": "COG1020 Non-ribosomal peptide synthetase modules and related proteins",
+                    "id": "H045_07035",
+                    "product": "putative non-ribosomal peptide synthetase"
+                },
+                {
+                    "comments": "COG1020 Non-ribosomal peptide synthetase modules and related proteins",
+                    "id": "H045_07040",
+                    "product": "amino acid adenylation protein"
+                },
+                {
+                    "comments": "COG0845 Membrane-fusion protein",
+                    "id": "H045_07045",
+                    "product": "putative drug-efflux protein"
+                },
+                {
+                    "comments": "COG1136 ABC-type antimicrobial peptide transport system, ATPase component",
+                    "id": "H045_07050",
+                    "product": "macrolide-specific ABC-type efflux carrier"
+                },
+                {
+                    "comments": "COG2771 DNA-binding HTH domain-containing proteins",
+                    "id": "H045_07055",
+                    "product": "putative LuxR family regulatory protein"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "H045_07025"
+                },
+                {
+                    "id": "H045_07030"
+                },
+                {
+                    "id": "H045_07035"
+                },
+                {
+                    "id": "H045_07040"
+                },
+                {
+                    "id": "H045_07045"
+                },
+                {
+                    "id": "H045_07050"
+                },
+                {
+                    "id": "H045_07055"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP004045.1",
+            "completeness": "complete",
+            "end_coord": 2542890,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 2532001
+        },
+        "mibig_accession": "BGC0001208",
+        "minimal": false,
+        "ncbi_tax_id": "1282356",
+        "nrp": {
+            "cyclic": true,
+            "lipid_moiety": "3-OH decanoic acid",
+            "nrps_genes": [
+                {
+                    "gene_id": "AGE26255.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glutamate"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGE25479.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "6"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGE25480.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "10"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "8"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "9"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Other lipopeptide"
+        },
+        "organism_name": "Pseudomonas poae RE*1-1-14",
+        "publications": [
+            "pubmed:25761208"
+        ]
+    }
+}

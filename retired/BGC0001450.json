@@ -1,0 +1,146 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CC1(CCCC2(C1CCC(=C)C2CC34C(O3)C(C(=CC4=O)CO)O)C)C",
+                "chem_synonyms": [],
+                "compound": "macrophorin A",
+                "database_id": [
+                    "pubchem:14526957"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 816.6564,
+                "molecular_formula": "C60O6"
+            },
+            {
+                "chem_struct": "[H][C@@]12CCC(=C)[C@H](C[C@@]34O[C@@H]3C(=O)C(CO)=CC4=O)[C@@]1(C)CCCC2(C)C",
+                "compound": "4\u201a\u00c4\u2264-oxomacrophorin A",
+                "database_id": [
+                    "npatlas:14543"
+                ],
+                "mol_mass": 379.3073,
+                "molecular_formula": "C26H3O4"
+            },
+            {
+                "chem_acts": [
+                    "immunomodulatory activity"
+                ],
+                "chem_struct": "[H][C@@]12CCC(=C)[C@H](C[C@@]34O[C@@H]3C(=O)C(COC(=O)CC(C)(O)CC(O)=O)=CC4=O)[C@@]1(C)CCCC2(C)C",
+                "chem_synonyms": [],
+                "compound": "4'-oxomacrophorin D",
+                "database_id": [
+                    "npatlas:2415",
+                    "chemspider:9180817"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 515.3709,
+                "molecular_formula": "C32H3O8"
+            },
+            {
+                "chem_acts": [],
+                "chem_struct": "C=C1CC[C@@]2([H])C(C)(C)CCC[C@]2(C)[C@H]1C[C@@]34[C@H](O4)C(C(COC(CC(O)=O)=O)=CC3=O)=O",
+                "chem_synonyms": [],
+                "compound": "4'-oxomacrophorin E",
+                "database_id": [],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 487.3147,
+                "molecular_formula": "C27H3O10"
+            }
+        ],
+        "loci": {
+            "accession": "MF989995.1",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction",
+                "Heterologous expression",
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0001450",
+        "minimal": false,
+        "ncbi_tax_id": "374132",
+        "organism_name": "Penicillium terrestre",
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "AVK70100"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "comments": "",
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "AVK70100"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            },
+                            "pks_mod_doms": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "doi:10.1021/acs.orglett.7b02653",
+            "doi:10.1021/np010152n",
+            "doi:10.1080/00021369.1983.10865611"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "prenyltransferases": [
+                "mf989998"
+            ],
+            "structural_subclass": "Unknown",
+            "terpene_precursor": "FPP",
+            "terpene_synth_cycl": [
+                "mf990004"
+            ]
+        }
+    },
+    "comments": "This cluster is responsible for the biosynthesis of meroterpenoid macrophorins. The membrane-bound terpene cyclase, MacJ, was characterized to catalyze the cyclization of meroterpenoids via direct protonation of the terminal olefin in the linear isoprenoid chain."
+}

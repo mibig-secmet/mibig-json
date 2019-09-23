@@ -1,0 +1,305 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "L-homotyrosine",
+                        "subcluster": [
+                            "aft91393",
+                            "aft91392",
+                            "aft91394",
+                            "aft91395"
+                        ]
+                    },
+                    {
+                        "moiety": "4R-methyl-L-proline",
+                        "subcluster": [
+                            "aft91382"
+                        ]
+                    }
+                ],
+                "chem_struct": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)N[C@H]1C[C@H]([C@H](NC(=O)[C@@H]2[C@H]([C@H](CN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@@H](NC1=O)[C@@H](C)O)O)[C@@H]([C@H](C4=CC=C(C=C4)O)O)O)[C@@H](C)O)C)O)O)O",
+                "chem_synonyms": [
+                    "agn-pc-0jrfuy",
+                    "ac1l9vmt"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "1"
+                    },
+                    {
+                        "publications": [],
+                        "target": "3-beta-D-glucan synthase"
+                    }
+                ],
+                "compound": "Echinocandin B",
+                "database_id": [
+                    "pubchem:9898144",
+                    "pubchem:456858"
+                ],
+                "mol_mass": 1107.8139,
+                "molecular_formula": "C58H15N10O16"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AFT91385.1",
+                    "name": "ecdB",
+                    "product": "Transcription factor"
+                },
+                {
+                    "id": "AFT91386.1",
+                    "name": "ecdC",
+                    "product": "transporter"
+                },
+                {
+                    "id": "AFT91387.1",
+                    "name": "ecdD",
+                    "product": "transporter"
+                },
+                {
+                    "id": "AFT91388.1",
+                    "name": "ecdE",
+                    "product": "glycosyl hydrolase"
+                },
+                {
+                    "id": "AFT91384.1",
+                    "name": "ecdF",
+                    "product": "glycosidase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFT91378.1",
+                    "name": "ecdA",
+                    "product": "NRPS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFT91379.1",
+                    "name": "ecdG",
+                    "product": "non-heme iron/\u03b1-KG dependent dioxygenase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFT91389.1",
+                    "name": "ecdH",
+                    "product": "cytochrome P450 oxygenase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "AFT91380.1",
+                    "name": "ecdI",
+                    "product": "fatty-acyl-AMP-ligase"
+                },
+                {
+                    "id": "AFT91381.1",
+                    "name": "ecdJ",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AFT91382.1",
+                    "name": "ecdK",
+                    "product": "non-heme iron/\u03b1-KG dependent dioxygenase"
+                },
+                {
+                    "id": "AFT91383.1",
+                    "name": "ecdL",
+                    "product": "multidrug transporter (ABC)"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JX421684.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0000338",
+        "minimal": false,
+        "ncbi_tax_id": "41736",
+        "nrp": {
+            "cyclic": true,
+            "lipid_moiety": "linoleic acid",
+            "nrps_genes": [
+                {
+                    "gene_id": "AFT91378.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "0"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "Ornithine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "Homotyrosine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "nonproteinogenic": [
+                                    "4-Methylproline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "6"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "7"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Other lipopeptide",
+            "thioesterases": []
+        },
+        "organism_name": "Aspergillus rugulosus",
+        "publications": [
+            "pubmed:22998630",
+            "pubmed:23451921",
+            "pubmed:6235127",
+            "pubmed:4613708"
+        ]
+    }
+}

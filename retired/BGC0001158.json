@@ -1,0 +1,72 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ],
+                "chem_struct": "CC1=CC(=CC2=C1C(=O)C3=C(O2)C(=C4C(=C3O)C(=O)C=C(C4=O)OC)O)OC",
+                "chem_synonyms": [],
+                "compound": "bikaverin",
+                "database_id": [
+                    "pubchem:5281730"
+                ],
+                "mol_mass": 516.3356,
+                "molecular_formula": "C31O9"
+            }
+        ],
+        "loci": {
+            "accession": "HE802545.1",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0001158",
+        "minimal": false,
+        "ncbi_tax_id": "40559",
+        "organism_name": "Botrytis cinerea",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Unknown"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "cch26295.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 9,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23308280"
+        ]
+    }
+}

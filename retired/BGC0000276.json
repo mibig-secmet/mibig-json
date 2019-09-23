@@ -1,0 +1,192 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Inhibition of protein SUMOylation"
+                ],
+                "chem_struct": "C[C@@H]1O[C@H](CC[C@@H]1O)O[C@]12C(=O)C[C@](C)(O)C[C@@]1(O)C=CC1=C2C(=O)c2ccc([C@H]3C[C@@H](O[C@H]4CC[C@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](C)O4)[C@H](O)[C@@H](C)O3)c(O)c2C1=O",
+                "chem_synonyms": [
+                    "Kerriamycin B"
+                ],
+                "compound": "Urdamycin A",
+                "database_id": [
+                    "chebi:32279"
+                ],
+                "mol_mass": 886.513,
+                "molecular_formula": "C38H14O26"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression"
+                            ]
+                        }
+                    ],
+                    "id": "AAF00214.1",
+                    "name": "urdGT1a",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAF00217.1",
+                    "name": "urdGT1c",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Heterologous expression",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "AAF00215.1",
+                    "name": "urdGT1b",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "AF164961.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000276",
+        "minimal": false,
+        "ncbi_tax_id": "1906",
+        "organism_name": "Streptomyces fradiae",
+        "polyketide": {
+            "cyclases": [
+                "CAA60568.1",
+                "AAF00205.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Angucycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "caa60571.1",
+                        "AAF00205.1",
+                        "caa60569.1",
+                        "CAA60568.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:3818439",
+            "pubmed:2925521",
+            "pubmed:2753820",
+            "pubmed:7592377",
+            "pubmed:10658661",
+            "pubmed:10662691",
+            "pubmed:11094336",
+            "pubmed:11410375",
+            "pubmed:11927254",
+            "pubmed:12022840",
+            "pubmed:12512084",
+            "pubmed:12696864",
+            "pubmed:17434221",
+            "pubmed:17640665",
+            "pubmed:3839784",
+            "pubmed:19265871"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "AAF00209.1",
+                    "specificity": "D-olivose "
+                },
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "AAF00214.1",
+                    "specificity": "L-rhodinose"
+                },
+                {
+                    "evidence": [
+                        "Knock-out construct"
+                    ],
+                    "gene_id": "AAF00215.1",
+                    "specificity": "D-olivose "
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAF00217.1",
+                    "specificity": "L-rhodinose"
+                }
+            ],
+            "subclass": "hybrid/tailoring",
+            "sugar_subclusters": [
+                [
+                    "AAF72551.1"
+                ],
+                [
+                    "AAF72549.1",
+                    "AAF72550.1",
+                    "AAF00208.1"
+                ],
+                [
+                    "AAF72551.1"
+                ],
+                [
+                    "AAF72549.1",
+                    "AAF72550.1",
+                    "AAF00208.1"
+                ]
+            ]
+        }
+    }
+}

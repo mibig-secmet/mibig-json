@@ -1,0 +1,106 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Retired, this is a duplicate entry of BGC0000057"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [],
+                "chem_struct": "CC1=CC(=CC(=C1C(=O)O)O)O",
+                "chem_synonyms": [],
+                "compound": "orsellinic acid",
+                "database_id": [
+                    "pubchem:68072",
+                    "chemspider:61385"
+                ],
+                "mol_mass": 160.0856,
+                "molecular_formula": "C8O4"
+            }
+        ],
+        "loci": {
+            "accession": "BN001302.1",
+            "completeness": "complete",
+            "end_coord": 224786,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 214879
+        },
+        "mibig_accession": "BGC0001121",
+        "minimal": false,
+        "ncbi_tax_id": "227321",
+        "organism_name": "Aspergillus nidulans FGSC A4",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "AN7909",
+                        "xp_681178",
+                        "an7909"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 3,
+                        "subtype": "Non-reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "comments": "",
+                            "domains": [
+                                "ACP transacylase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Product Template domain",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "genes": [
+                                "AN7909"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            },
+                            "pks_mod_doms": []
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:19666480",
+            "pubmed:20174687"
+        ]
+    }
+}

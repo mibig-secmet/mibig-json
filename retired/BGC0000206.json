@@ -1,0 +1,87 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor",
+                    "Antitumor"
+                ],
+                "chem_struct": "CO[C@H]1[C@@H](O)[C@@H](C)O[C@H](O[C@@H]2[C@@H](O)[C@@H](O)[C@@H](C)O[C@H]2OC2=C3C4=C5C(C(=O)OC6=CC=C(C)C(C(=O)O4)=C56)=C(O)C3=CC=C2)[C@@H]1O",
+                "chem_synonyms": [],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "DNA"
+                    },
+                    {
+                        "publications": [],
+                        "target": "topoisomerase II"
+                    }
+                ],
+                "compound": "Chartreusin",
+                "database_id": [
+                    "npatlas:2015",
+                    "pubchem:5281394",
+                    "chemspider:4444748"
+                ],
+                "mol_mass": 1543.2238,
+                "molecular_formula": "C105H10O17"
+            }
+        ],
+        "loci": {
+            "accession": "AJ786382.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000206",
+        "minimal": false,
+        "ncbi_tax_id": "1969",
+        "organism_name": "Streptomyces chartreusis",
+        "polyketide": {
+            "cyclases": [
+                "CAH10155.1",
+                "CAH10156.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Anthracycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CAH10156.1",
+                        "CAH10155.1",
+                        "CAH10161.1"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:15911378",
+            "pubmed:14529449",
+            "pubmed:12384604",
+            "pubmed:12107551"
+        ]
+    }
+}

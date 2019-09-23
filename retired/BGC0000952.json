@@ -1,0 +1,221 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "L-dimethylamino-phenylalanine",
+                        "subcluster": [
+                            "cbw45755",
+                            "cbw45753",
+                            "cbw45754",
+                            "cbw45752"
+                        ]
+                    },
+                    {
+                        "moiety": "L-pipecolic acid",
+                        "subcluster": [
+                            "cbw45757"
+                        ]
+                    },
+                    {
+                        "moiety": "L-phenylglycine",
+                        "subcluster": [
+                            "CBW45641",
+                            "CBW45643",
+                            "CBW45644",
+                            "CBW45645",
+                            "CBW45646"
+                        ]
+                    },
+                    {
+                        "moiety": "L-hydroxypicolinic acid",
+                        "subcluster": [
+                            "cbw45759"
+                        ]
+                    },
+                    {
+                        "moiety": "L-2-amino-butyric acid"
+                    }
+                ],
+                "chem_struct": "CCC1C(=O)N2CCCC2C(=O)N(C(C(=O)N3CCC(=O)CC3C(=O)NC(C(=O)OC(C(C(=O)N1)NC(=O)C4=C(C=CC=N4)O)C)C5=CC=CC=C5)CC6=CC=CC=C6)C.C[C@@H]1/C=C/C(=O)NC/C=C/C(=C/[C@H](CC(=O)CC2=NC(=CO2)C(=O)N3CCC=C3C(=O)O[C@@H]1C(C)C)O)/C",
+                "chem_synonyms": [
+                    "synercid",
+                    "pyostacine",
+                    "streptogramin",
+                    "staphylomycin"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "50 S ribosome"
+                    }
+                ],
+                "compound": "pristinamycin",
+                "database_id": [
+                    "pubchem:24847675"
+                ],
+                "mol_mass": 1720.2115,
+                "molecular_formula": "C98H3N18O18"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBW45641",
+                    "name": "pglE",
+                    "product": "phenylglycine aminotransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBW45645",
+                    "name": "pglB",
+                    "product": "pyruvate-dehydrogenase E1 component, alpha subunit "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBW45644",
+                    "name": "pglC",
+                    "product": "pyruvate-dehydrogenase E1 component, beta subunit"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBW45643",
+                    "name": "pglD",
+                    "product": " thioesterase type II"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBW45646",
+                    "name": "pglA",
+                    "product": "hydroxyacyl-dehydrogenase "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBW45642",
+                    "name": "mbtY",
+                    "product": "MbtH-like protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBW45649",
+                    "name": "papR6",
+                    "product": "response regulator"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FR681999.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000952",
+        "minimal": false,
+        "ncbi_tax_id": "38300",
+        "nrp": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "thioesterases": []
+        },
+        "organism_name": "Streptomyces pristinaespiralis",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Isobutyryl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "cbw45739"
+                    ],
+                    "subclass": [
+                        "Modular type I",
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "cbw45739"
+                        ]
+                    }
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:21342465"
+        ]
+    }
+}

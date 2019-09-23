@@ -1,0 +1,66 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated reference publication(s) (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CO[C@H]1[C@H](OC2CC(O)(OC(C(C)C)C2C)C(C)C(O)C(C)C2OC(=O)\\C(OC)=C\\C(\\C)=C\\C(C)C(O)C(C)C\\C(C)=C\\C=C\\C2OC)O[C@@H](C)[C@H](O)[C@H]1O",
+                "compound": "Leucanicidin",
+                "database_id": [
+                    "npatlas:3336"
+                ],
+                "mol_mass": 765.5377,
+                "molecular_formula": "C46H5O13"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "comments": "Derived by automated computational analysis using gene prediction method: Protein Homology.",
+                    "id": "BI06_RS39075",
+                    "product": "polyketide synthase"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "BI06_RS39075",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 40233,
+                                "start": 33514
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_JAIY01000017.1",
+            "completeness": "Unknown",
+            "end_coord": 40233,
+            "evidence": [],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0001232",
+        "minimal": true,
+        "ncbi_tax_id": "1444769",
+        "organism_name": "Kitasatospora sp. MBT66",
+        "polyketide": {},
+        "publications": [
+            "pubmed:26675041"
+        ]
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C[C@@H]1NC(=O)[C@H]2CCCN2C(=O)[C@H](CCCCCC(=O)[C@@H]2CO2)NC(=O)[C@@H](C)NC1=O",
+                "compound": "HC toxin",
+                "database_id": [
+                    "npatlas:17921"
+                ],
+                "mol_mass": 439.2998,
+                "molecular_formula": "C21H5N5O7"
+            }
+        ],
+        "loci": {
+            "accession": "M98024.2",
+            "completeness": "incomplete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0000370",
+        "minimal": false,
+        "ncbi_tax_id": "5017",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAA33023.2",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": true,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "modification_domains": [
+                                "Unknown"
+                            ],
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "Alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "D-alanine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Unknown",
+            "thioesterases": []
+        },
+        "organism_name": "Bipolaris zeicola",
+        "publications": [
+            "pubmed:8672886",
+            "pubmed:11860263",
+            "pubmed:23865912",
+            "pubmed:16839576"
+        ]
+    }
+}
