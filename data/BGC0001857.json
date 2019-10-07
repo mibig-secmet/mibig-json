@@ -1,0 +1,224 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "alkaloid": {
+            "subclass": "Pyrrolizidine"
+        },
+        "biosyn_class": [
+            "Polyketide",
+            "Alkaloid"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "O[C@H]([C@@H](CO)O[C@@H](OCCCCCC(O)CCCC(O)C/C=C/CCCCCCCCCC(CC(/C(O)=C1C(N(C[C@H](O)C2)[C@]2([H])C/1=O)=O)C)C)[C@H]3O)[C@@H]3O",
+                "chem_synonyms": [
+                    "bolaamphiphilic pyrrolizidinediones"
+                ],
+                "compound": "burnettramic acid A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 769,
+                "molecular_formula": "C41H71NO12"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Other enzymatic",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85641.1",
+                    "name": "No gene ID",
+                    "product": "BuaB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85642.1",
+                    "name": "No gene ID",
+                    "product": "BuaC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85643.1",
+                    "name": "No gene ID",
+                    "product": "BuaD",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85644.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85645.1",
+                    "name": "No gene ID",
+                    "product": "BuaE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85646.1",
+                    "name": "No gene ID",
+                    "product": "BuaF"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85647.1",
+                    "name": "No gene ID",
+                    "product": "BuaG",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85648.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "QBE85649.1",
+                    "name": "No gene ID",
+                    "product": "BuaA"
+                }
+            ],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "QBE85648.1",
+                        "QBE85646.1",
+                        "QBE85649.1",
+                        "QBE85647.1",
+                        "QBE85643.1",
+                        "QBE85641.1",
+                        "QBE85642.1",
+                        "QBE85645.1",
+                        "QBE85644.1"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "MK425157.1",
+            "completeness": "complete",
+            "end_coord": 28117,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0001857",
+        "minimal": false,
+        "ncbi_tax_id": "2508778",
+        "organism_name": "Aspergillus sp. CLMG-2019a",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Claisen condensation"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "QBE85649.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 14,
+                        "subtype": "Highly reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:30735051"
+        ]
+    }
+}

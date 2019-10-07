@@ -1,0 +1,127 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Swarming/Biofilm Induction"
+                ],
+                "chem_struct": "CCCCCCCC1CC(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)OC(CCCCC)CC(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)O1",
+                "compound": "Icosalide A",
+                "mol_mass": 712.91416,
+                "molecular_formula": "C36H64N4O10"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Swarming/Biofilm Induction"
+                ],
+                "chem_struct": "CCCCC[C@H](CC(N[C@@H](C(N[C@@H](C(O[C@H](CCCCC)CC1=O)=O)CC(C)C)=O)CO)=O)OC([C@H](CO)NC([C@@H](CC(C)C)N1)=O)=O",
+                "compound": "Icosalide B",
+                "evidence": [
+                    "NMR"
+                ],
+                "mol_mass": 684.4309,
+                "molecular_formula": "C34H60N4O10"
+            }
+        ],
+        "loci": {
+            "accession": "MH790860",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0001833",
+        "minimal": false,
+        "ncbi_tax_id": "28095",
+        "nrp": {
+            "cyclic": true,
+            "lipid_moiety": "\u03b2 -hydroxy decanoic acid, \u03b2 -hydroxy octanoic acid",
+            "nrps_genes": [
+                {
+                    "gene_id": "AYA44686.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "5"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Other lipopeptide"
+        },
+        "organism_name": "Burkholderia gladioli",
+        "publications": [
+            "doi:10.1021/acschembio.8b00600"
+        ]
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Iron reducing"
+                ],
+                "compound": "Tricholignan A",
+                "evidence": [
+                    "NMR"
+                ],
+                "mol_mass": -1
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KKP00962.1",
+                    "name": "tlnJ"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "KKP00963.1",
+                    "name": "tlnA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "KKP00964.1",
+                    "name": "tlnD"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "KKP00965.1",
+                    "name": "tlnE",
+                    "tailoring": [
+                        "Decarboxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "KKP00966.1",
+                    "name": "tlnB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "KKP00969.1",
+                    "name": "tlnC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "KKP00970.1",
+                    "name": "tlnF",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "KKP00962.1"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JOKZ01000220.1",
+            "completeness": "complete",
+            "end_coord": 56389,
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 22320
+        },
+        "mibig_accession": "BGC0001854",
+        "minimal": false,
+        "ncbi_tax_id": "5544",
+        "organism_name": "Trichoderma harzianum",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "subclasses": [
+                "Aryl polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "THAR02_06938",
+                        "KKP00966.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C2-C7 first",
+                        "nr_iterations": 3,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:30842286"
+        ]
+    }
+}

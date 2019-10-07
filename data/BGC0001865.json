@@ -1,0 +1,230 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC(C1C(C2=C(C(=C3C(=O)C=C(C4=C5C(=CC(=O)C6=C(C(=C1C(=C56)C2=C43)OC)O)OC)OC)O)OC)C(C)O)O",
+                "compound": "elsinochrome C",
+                "evidence": [
+                    "NMR"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 548.1682,
+                "molecular_formula": "C30H28O10"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798910.1",
+                    "name": "elcH",
+                    "product": "elsinochrome synthase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "XP_001798911.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "XP_001798912.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "XP_001798913.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "XP_001798914.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "XP_001798915.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "XP_001798916.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798917.1",
+                    "name": "elcE",
+                    "product": "FAD-dependent oxidoreductase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798918.1",
+                    "name": "elcR",
+                    "product": "Transcription factor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798919.1",
+                    "name": "elcD",
+                    "product": "O-methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "id": "XP_001798920.1",
+                    "name": "elcC",
+                    "product": "MFS transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798921.1",
+                    "name": "elcB",
+                    "product": "O-methyltransferase/FAD-dependentmonooxygenase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798923.1",
+                    "name": "elcA",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798924.1",
+                    "name": "elcF",
+                    "product": "fasciclin"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "XP_001798925.1",
+                    "name": "elcG",
+                    "product": "multi-copper oxidase/laccase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NW_001884561",
+            "completeness": "complete",
+            "end_coord": 311307,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 275125
+        },
+        "mibig_accession": "BGC0001865",
+        "minimal": false,
+        "ncbi_tax_id": "321614",
+        "organism_name": "Parastagonospora nodorum SN15",
+        "polyketide": {
+            "cyclic": true,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "SNOG_08614"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C4-C9 first",
+                        "nr_iterations": 6,
+                        "subtype": "Non-reducing"
+                    },
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:28251756",
+            "pubmed:30809363"
+        ]
+    },
+    "comments": "corresponding author for related publications: Dr Yit-Heng Chooi.Email: yitheng.chooi@uwa.edu.auFacility: School of Molecular Sciences, University of Western Australia"
+}

@@ -1,0 +1,290 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Immunomodulatory"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Unknown"
+                    }
+                ],
+                "chem_synonyms": [],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "EF-G"
+                    },
+                    {
+                        "publications": [],
+                        "target": "proteasome"
+                    }
+                ],
+                "compound": "Argyrin",
+                "database_id": [
+                    "pubchem:9940787",
+                    "chemspider:8116406"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "No protein ID",
+                    "name": "arg1",
+                    "product": "radical SAM-dependent methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "No protein ID",
+                    "name": "arg2",
+                    "product": "nonribosomal peptide synthetase (NRPS), subunit 1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "No protein ID",
+                    "name": "arg3",
+                    "product": "nonribosomal peptide synthetase (NRPS), subunit 2"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "No protein ID",
+                    "name": "arg4",
+                    "product": "O-methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "No protein ID",
+                    "name": "arg5",
+                    "product": "tryptophan 2,3-dioxygenase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "MK047651",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0001834",
+        "minimal": false,
+        "ncbi_tax_id": "764904",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "no_accession",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine;2-Aminobutyric acid;Valine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Unknown",
+                            "modification_domains": [
+                                "Methylation"
+                            ],
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Alanine;Serine;Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "5"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "6"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tryptophan"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Unknown",
+            "thioesterases": [
+                {
+                    "gene": "arg3",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Cystobacter sp. SBCb004",
+        "publications": [
+            "doi:10.1002/cbic.201200479",
+            "doi:10.1371/journal.pone.0042657",
+            "pubmed:30995838"
+        ]
+    }
+}
