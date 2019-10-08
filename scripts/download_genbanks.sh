@@ -13,12 +13,16 @@ set -o errexit
 
 DEFAULT_JSONS_DIR="$(dirname $(dirname $0))/data"
 DEFAULT_GENBANKS_DIR="$(dirname $(dirname $0))/genbanks"
+readonly VERSION="1.0.0"
 
 usage() {
     echo "Download the GenBank files related to the MIBiG entries"
-    echo "Usage: $0 [-j|--jsons dir-with-mibig-jsons] [-g|--genbanks dir-to-hold-gbk-files]"
-    echo "-j <path> | --jsons <path>       Path to directory containing MIBiG JSON files (default: ${DEFAULT_JSONS_DIR})"
-    echo "-g <path> | --genbanks <path>    Path to directory to hold the downloaded GenBank files (default: ${DEFAULT_GENBANKS_DIR})"
+    echo "Usage: $0 [options]"
+    echo "Options:"
+    echo "    -j <path> | --jsons <path>       Path to directory containing MIBiG JSON files (default: ${DEFAULT_JSONS_DIR})"
+    echo "    -g <path> | --genbanks <path>    Path to directory to hold the downloaded GenBank files (default: ${DEFAULT_GENBANKS_DIR})"
+    echo "    -V | --version                   Print the script's version"
+    echo "    -h | --help                      Print this help text"
 }
 
 download() {
@@ -61,6 +65,10 @@ while [[ $# -gt 0 ]]; do
         -g|--genbanks)
             GENBANKS_DIR="$2"
             shift; shift
+            ;;
+        -V|--version)
+            echo $VERSION
+            exit 0
             ;;
         *)
             usage
