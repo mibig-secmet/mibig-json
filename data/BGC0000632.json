@@ -3,14 +3,17 @@
         {
             "comments": [
                 "Migrated from v1.4",
-                "Updated compound(s) information (NPAtlas curation)"
+                "Updated compound(s) information (NPAtlas curation)",
+                "Added 2 new genes (bra0 and bra12) along with their supporting studies",
+                "Update biosynthetic class (added Saccharide for the sugar moiety of the compound)"
             ],
             "version": "2.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
-            "Terpene"
+            "Terpene",
+            "Saccharide"
         ],
         "compounds": [
             {
@@ -23,6 +26,30 @@
                 "molecular_formula": "C45H68N2O16"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "NZ_KV411304.AWN90_RS33405",
+                    "name": "bra0",
+                    "product": "taurine dioxygenase"
+                },
+                {
+                    "id": "NZ_KV411304.AWN90_RS33345",
+                    "name": "bra12",
+                    "comments": "transcriptional activator of the brasilicardin gene cluster"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "NZ_KV411304.AWN90_RS33405",
+                    "translation": "MPATITVQPISGALGAELRGIDLATLTDTEFETVHELLLEYQVLFFPDQGDLPPAAHIAFGRRFGEVELHPYLPKLEGFPEIVLIESDRGGKVDCWHTDMTFHESPPLVSILQLTTCPPRGGDTMWTNQYLVYERLSAPLRDLVDGLTAVHSVTAGDYTASAEHPLVRVHPETGRRSLYVNRLFTSHIPQLSRPESDALLQHLVEFSEGPQFTCRFRWQPGAVALWDNRVTQHYAVNDYDEPRRGRRVTVLGDHPEGNPPRWPNYTPADGERYWPMRVNAKSGY"
+                },
+                {
+                    "id": "NZ_KV411304.AWN90_RS33345",
+                    "translation": "MIQKPSGAPVFDPGGYMSLVRLGLLGPLEVLVDRVRLDGLHQPKQQAVFAMMAANSGRTVPIADLIGGIWGEGSPPSALSALRNYMSSLRTMLRHHGCRQDALRWAGGGYRFDATLEIDAAAVERFLVSAEAARASGRLDLAADSIRAGLRLWRGEALSGVPGPWAAGERARLHRSRETLRRWAIEISIDQGNHEAAIAQLEALVHAEPQSEQWRILLMTALFRAGRRIDALEVYRAARDWFIDTMGLEPSPAMTELHQHILSGETVGGGALAPAAVSAPARPVPSQLPPDTIDFTGRTAELAQVTAALAPGRAVSVVALTGMGGVGKTALAVHVGHRVQDRFPDGRLYVDLRPADGPPDVAEVLAGFLRALGVAEAEIPAGGAERSALFRTVARGKRLLVLLDNAICTEQVTPLLPASAGCAVLVTARTPMTALPVARRVRLAPMEPAEAAELFTRIVADARPAAEPQAVRRVVVLCGGLPLAIRIIAARLVTRPGWMIADEADRLGAERDGLQQFRFRDTSLESAFQSAYDQLDPELAHAFRTLARLDRPDATVAAVAAALGCDPGEAVRLCDALVDRGMLDSPAPGRYRFHDLVRVFARSRPDSDASAAMRRPTGFIGAPSPVILPCTQCSG"
+                }
+            ]
+        },
         "loci": {
             "accession": "AB264550.1",
             "completeness": "Unknown"
@@ -32,7 +59,9 @@
         "ncbi_tax_id": "455432",
         "organism_name": "Nocardia terpenica",
         "publications": [
-            "pubmed:18503195"
+            "pubmed:18503195",
+            "pubmed:27979943",
+            "pubmed:29045029"
         ]
     }
 }
