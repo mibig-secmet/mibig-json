@@ -3,7 +3,7 @@
         {
             "comments": [
                 "Migrated from v1.4",
-                "Updated compound(s) information (NPAtlas curation)"
+                "Updated compound(s) information"
             ],
             "version": "2.0"
         }
@@ -15,25 +15,30 @@
         ],
         "compounds": [
             {
-                "chem_struct": "[H][C@@]12C[C@]3(O[C@H](C)C(C)(C)C3=O)[C@@H](OC(C)=O)[C@]1(O)C[C@@]13S[C@@](CO)(N(C)C1=O)C(=O)N23",
-                "compound": "Sirodesmin H",
+                "chem_struct": "C[C@@H]1C(C(=O)[C@]2(O1)C[C@@H]3[C@]([C@@H]2OC(=O)C)(C[C@]45N3C(=O)[C@](N(C4=O)C)(SS5)CO)O)(C)C",
+                "compound": "Sirodesmin PL",
                 "database_id": [
-                    "npatlas:19656"
+                    "pubchem:15608374"
                 ],
-                "mol_mass": 454.14098679200004,
-                "molecular_formula": "C20H26N2O8S"
+                "mol_mass": 486.113058,
+                "molecular_formula": "C20H26N2O8S2"
             }
         ],
         "loci": {
             "accession": "AY553235.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "end_coord": 61960,
+            "start_coord": 13885
         },
         "mibig_accession": "BGC0001044",
         "minimal": true,
         "ncbi_tax_id": "5022",
         "organism_name": "Leptosphaeria maculans",
         "publications": [
-            "pubmed:15387811"
+            "pubmed:15387811",
+            "pubmed:19762440",
+            "pubmed:18023597",
+            "pubmed:15707846"
         ]
     }
 }
