@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Added compound information, update loci"
             ],
             "version": "2.0"
         }
@@ -13,19 +14,47 @@
         ],
         "compounds": [
             {
-                "compound": "carbapenem MM 4550 "
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "C[C@H](OS(=O)([O-])=O)[C@]([C@]1([H])N2C(C(O)=O)=C([S+]([O-])/C=C/NC([O-])=O)C1)([H])C2=O",
+                "chem_targets": [
+                    {
+                        "target": "penicillin-binding proteins"
+                    }
+                ],
+                "compound": "carbapenem MM4550",
+                "evidence": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "M-",
+                "mol_mass": 407.0226,
+                "molecular_formula": "C12H12N2O10S2 2-"
             }
         ],
         "loci": {
             "accession": "KF042303.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "end_coord": 43761,
+            "evidence": [
+                "Knock-out studies", 
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1
         },
         "mibig_accession": "BGC0000842",
         "minimal": true,
         "ncbi_tax_id": "67274",
         "organism_name": "Streptomyces argenteolus",
+        "other": {
+            "subclass": "Non-NRP beta-lactam"
+        },
         "publications": [
-            "pubmed:24420617"
+            "pubmed:24420617",
+            "pubmed:25399205",
+            "pubmed:6968745"
         ]
-    }
+    },
+    "comments": "UV spectrometry was used as further evidence that cabapenem MM 4550 was in fact the product of the BGC in question. Structure was drawn in chemdraw. Other cabapenem compounds are produced by orthologous genes in other Streptomycin species, but cabapenem MM 4550 is the only secondary metabolite product of this BGC."
 }
