@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Added 3 extra genes from external sources (Bthr1, BSCD1, BMR1)"
             ],
             "version": "2.0"
         }
@@ -22,6 +23,40 @@
                 "molecular_formula": "C18H10N2O4"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AB083402.BAC20956.1",
+                    "name": "Bthr1",
+                    "product": "reductase"
+                },
+                {
+                    "id": "AB100172.BAC79365.1",
+                    "name": "BSCD1",
+                    "product": "scytalone dehydratase"
+                },
+                {
+                    "id": "AB370340.BAF95183.1",
+                    "name": "BMR1",
+                    "product": "transcription factor Bmr1",
+                    "comments": "contains two Cys2His2 zinc finger domains and one Zn(II)2Cys6 binuclear cluster domain"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "AB083402.BAC20956.1",
+                    "translation": "MANIEQTWSLAGKVAVVTGSGRGIGKAMAIELAKRGAKVAVNYANAVEGAEQVVKEIKALGNGSDAHAFKANVGNVEESEKLMDDVVKHFGKLDICCSNSGVVSFGHFKDVTPEEFDRVFTINTRGQFFVAKAAYKRMEIGGRIILMGSITGQAKGVPKHAVYSGSKGAIETFTRCMAIDAGEKKVTVNCVAPGGIKTDMYHAVCREYIPNGDQLSDDQVDEYACTWSPHNRVGQPIDIARVVCFLASQDGDWVNGKVIGIDGAACM"
+                },
+                {
+                    "id": "AB100172.BAC79365.1",
+                    "translation": "MFEKKELQPTFEEVMGCQSACYEWADSYDSKDWERLRKCVAPTLKIDYRSFLDKIWEAMPADEFVAMASDPAVLGNPLLKTQHFIGGTRWEKTAEDEITGYHQLRVPHQRYTDESRATVAVKGHAHSFNTHWYKKIDGEWKFAGLNPDIRWYEYDFDKVFAEGREQLGEAKAAAGIPETAPGQAV"
+                },
+                {
+                    "id": "AB370340.BAF95183.1",
+                    "translation": "MVFCTYCGQSFTRDEHLERHILTHTNVKPFKCFTCHMSFARRDLLQRHYTVHGRNQNNEEGLPPQGIIPKSAGRTPIACSNCAKTKTKCDKKFPCTRCAQRNLKCTLRPTRRASKGVQRVGGPAEATSGDSSESGSTTENQNNSGNTSPNHESQSQPQSQQPTAQSSPAQIHQQPQLSNGQPSSQRQSQSPSASHSRNPSISQSVQAPSHISPEEKTLHLPLTNTPPFFDQSPSHALSQAPSLLSPLPTPVTGMNSFVSSTPMSGYDDFVRTVRDQGDNESPQFMMDPWHNMPMDTGFDPMRLDPSLMMSMGMDMSMGPPPEGILGMIPEMSPAQTFAHAPTPRVDESFSDLQIGSSAAMFYPSNRQSSIADAGVPDLGAIIAAQDGWTVFRCTPSIASSSCPRTARLNLECLELSLKNHEAWSSWTPSWDESDFQQGGRIAVSKLQESTRDKLLAITQSFLHKALDIHKEGSSTTSSGESPGSTASHSNFVLLPPARVLEYFLKSYANSFERYYPTSARGVLDTNELMQNYNDKASSLLILMMIAQGAMTIPSIEARWLTGGFTEACRISLFDLIEKNIIMAGDPIVLRAALLFTVQAAWSGDKWQMDIAMGQRGMYFSMLRHSGILDVRPPSTPHMNGTSTTDSLWKDWLQQESRSRLIYSWVMVDQDLSLFHDTAPLFSVTEFGASMPDSDRLWQAQTASEWSDMFNQVHEFSNGYSSVGSGARPPSLRDLFRYFLDDEIVVQDVQEIHLTPMHLRLLLHPLQTLVCQYCQLLSCFSDSVASRSRNRALTAASTRVRLEEVQALLGRWFDLAQRYMKANPICPMMQANLVMFHLISMNAVSNFPEIERLARREGIDGSYQQMVWMHKKCLSDVQEAITHAGQVLRLIRDMPRGIRPPWWAGAVYRAALIVWTDSLNQKESLSPNQQNAYQQQPPNAAFSVDRLPADHPTILRYMSRRDGIPTLTKRDGTPVPLDNGFAVLSHCVDVIDEGVATRFSDGIRSKLQKLARG"
+                }
+            ]
+        },
         "loci": {
             "accession": "AB176546.1",
             "completeness": "Unknown"
@@ -31,7 +66,10 @@
         "ncbi_tax_id": "101162",
         "organism_name": "Bipolaris oryzae",
         "publications": [
-            "pubmed:15336395"
+            "pubmed:15336395",
+            "pubmed:18312572",
+            "pubmed:14716498",
+            "pubmed:14717841"
         ]
     }
 }

@@ -2,7 +2,9 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Updated compound information",
+                "Updated loci information"
             ],
             "version": "2.0"
         }
@@ -13,18 +15,20 @@
         ],
         "compounds": [
             {
-                "chem_struct": "C1=CC2=C(C(=C1)O)C(=CC=C2)O",
-                "compound": "1,8-dihydroxynaphthalene",
+                "chem_struct": "C1=C2C=C(C=C(C2=C(C=C1O)O)O)O",
+                "compound": "1,3,6,8-Tetrahydroxynaphthalene",
                 "database_id": [
-                    "pubchem:68438"
+                    "pubchem:440202"
                 ],
-                "mol_mass": 160.052429496,
-                "molecular_formula": "C10H8O2"
+                "mol_mass": 192.042259,
+                "molecular_formula": "C10H8O4"
             }
         ],
         "loci": {
             "accession": "AF549411.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "end_coord": 7590,
+            "start_coord": 31
         },
         "mibig_accession": "BGC0001258",
         "minimal": true,
