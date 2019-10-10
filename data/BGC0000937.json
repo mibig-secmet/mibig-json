@@ -3,7 +3,7 @@
         {
             "comments": [
                 "Migrated from v1.4",
-                "Updated compound(s) information (NPAtlas curation)"
+                "Update compound, loci and subcluster information"
             ],
             "version": "2.0"
         }
@@ -14,35 +14,54 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Hydrazine", 
+                        "subcluster": [
+                            "agz93907.1", 
+                            "agz93908.1", 
+                            "agz93909.1", 
+                            "agz93910.1", 
+                            "agz93911.1", 
+                            "agz93912.1", 
+                            "agz93913.1"
+                        ]
+                    }
+                ],
                 "chem_struct": "CC(C)[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)NN(C)[P+](C(C(=O)OC)O)(O)[O-])N",
                 "compound": "fosfazinomycin A",
                 "database_id": [
                     "pubchem:101613178"
                 ],
+                "evidence": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ],
                 "mol_mass": 453.2100829939999,
                 "molecular_formula": "C15H32N7O7P"
-            },
-            {
-                "chem_struct": "CN(NC(=O)[C@H](CCCN=C(N)N)N)P(=O)(C(C(=O)OC)O)O",
-                "compound": "fosfazinomycin B",
-                "database_id": [
-                    "pubchem:14303332"
-                ],
-                "mol_mass": 354.1416690859999,
-                "molecular_formula": "C10H23N6O6P"
             }
         ],
         "loci": {
             "accession": "KF386865.1",
-            "completeness": "Unknown"
+            "completeness": "incomplete",
+            "end_coord": 33560,
+            "start_coord": 9914
         },
         "mibig_accession": "BGC0000937",
         "minimal": true,
         "ncbi_tax_id": "1415555",
         "organism_name": "Streptomyces sp. WM6372",
         "publications": [
-            "pubmed:24297932",
-            "pubmed:24"
+            "pubmed:30206228",
+            "pubmed:28070267",
+            "pubmed:25621145",
+            "pubmed:24376039",
+            "doi:10.1016/s0040-4039(00)81904-8",
+            "doi:10.1039/c3ob41574k",
+            "doi:10.1080/00021367.1983.10865911"
         ]
     }
 }
