@@ -15,10 +15,22 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "Cytotoxic"
+                ], 
                 "chem_struct": "[H][C@](O)([C@@]1([H])CCCC=C1)[C@@]12NC(=O)[C@H](CCCl)[C@]1(C)OC2=O",
+                "chem_targets": [
+                    {
+                        "target": "20S proteasome"
+                    }
+                ],
                 "compound": "Salinosporamide A",
                 "database_id": [
                     "npatlas:11013"
+                ],
+                "evidence": [
+                    "NMR", 
+                    "X-ray"
                 ],
                 "mol_mass": 313.10808579999997,
                 "molecular_formula": "C15H20ClNO4"
@@ -356,8 +368,12 @@
                 "Other"
             ]
         },
-        "publications": [
-            "pubmed:19590008"
+        "publications": [            
+            "pubmed:19590008",
+            "pubmed:19022674",
+            "pubmed:15941259",
+            "pubmed:15916417",
+            "pubmed:15149210"
         ]
     }
 }
