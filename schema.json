@@ -1,0 +1,1161 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema_created": "2019-04-12T15:40:24+02:00",
+    "$schema_version": "2.1",
+    "additionalProperties": false,
+    "properties": {
+        "changelog": {
+            "items": {
+                "additionalProperties": false,
+                "properties": {
+                    "comments": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
+                    },
+                    "contributors": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
+                    },
+                    "version": {
+                        "pattern": "^\\d+(\\.\\d+)*$",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+        },
+        "cluster": {
+            "additionalProperties": false,
+            "allOf": [
+                {
+                    "if": {
+                        "not": {
+                            "properties": {
+                                "minimal": {
+                                    "const": true
+                                }
+                            },
+                            "required": [
+                                "minimal"
+                            ]
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "loci": {
+                                "properties": {
+                                    "evidence": {
+                                        "minItems": 1
+                                    }
+                                },
+                                "required": [
+                                    "evidence"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "properties": {
+                "alkaloid": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "subclass": {
+                            "title": "Alkaloid subclass",
+                            "type": "string"
+                        }
+                    },
+                    "title": "Alkaloid-specific parameters",
+                    "type": "object"
+                },
+                "biosyn_class": {
+                    "items": {
+                        "enum": [
+                            "Alkaloid",
+                            "Polyketide",
+                            "RiPP",
+                            "NRP",
+                            "Saccharide",
+                            "Terpene",
+                            "Other"
+                        ],
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "title": "Biosynthetic class",
+                    "type": "array"
+                },
+                "compounds": {
+                    "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "chem_acts": {
+                                "items": {
+                                    "type": "string"
+                                },
+                                "title": "Molecular activities",
+                                "type": "array"
+                            },
+                            "chem_moieties": {
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "moiety": {
+                                            "title": "Chemical moiety",
+                                            "type": "string"
+                                        },
+                                        "subcluster": {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "title": "Sub-cluster involved in the biosynthesis of this moiety",
+                                            "type": "array"
+                                        }
+                                    },
+                                    "required": [
+                                        "moiety"
+                                    ],
+                                    "title": "Chemical moiety",
+                                    "type": "object"
+                                },
+                                "title": "Unusual chemical moieties in this molecule",
+                                "type": "array"
+                            },
+                            "chem_struct": {
+                                "title": "Compound structure",
+                                "type": "string"
+                            },
+                            "chem_synonyms": {
+                                "items": {
+                                    "type": "string"
+                                },
+                                "title": "Synonyms for this compound",
+                                "type": "array"
+                            },
+                            "chem_targets": {
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "publications": {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "title": "Publication id",
+                                            "type": "array"
+                                        },
+                                        "target": {
+                                            "title": "Target protein, RNA, molecule, etc",
+                                            "type": "string"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "title": "Molecular targets",
+                                "type": "array"
+                            },
+                            "compound": {
+                                "title": "Compound name (from PUBMED)",
+                                "type": "string"
+                            },
+                            "database_id": {
+                                "items": {
+                                    "oneOf": [
+                                        {
+                                            "pattern": "^pubchem:(\\d+)$"
+                                        },
+                                        {
+                                            "pattern": "^chebi:(\\d+)$"
+                                        },
+                                        {
+                                            "pattern": "^chembl:(\\d+)$"
+                                        },
+                                        {
+                                            "pattern": "^chemspider:(\\d+)$"
+                                        },
+                                        {
+                                            "pattern": "^npatlas:(\\d+)$"
+                                        }
+                                    ],
+                                    "type": "string"
+                                },
+                                "title": "Database Compound IDs (PubChem/ChEBI/ChEMBL/ChemSpider)",
+                                "type": "array"
+                            },
+                            "evidence": {
+                                "items": {
+                                    "type": "string"
+                                },
+                                "title": "Technique(s) used to elucidate/verify the structure",
+                                "type": "array"
+                            },
+                            "mass_spec_ion_type": {
+                                "title": "Ion type for this mass spec",
+                                "type": "string"
+                            },
+                            "mol_mass": {
+                                "title": "Exact molecular mass",
+                                "type": "number"
+                            },
+                            "molecular_formula": {
+                                "title": "Molecular formula",
+                                "type": "string"
+                            }
+                        },
+                        "title": "Chemical compound",
+                        "type": "object"
+                    },
+                    "minItems": 1,
+                    "title": "Chemical compound(s)",
+                    "type": "array"
+                },
+                "genes": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "annotations": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "comments": {
+                                        "title": "Comments on this gene",
+                                        "type": "string"
+                                    },
+                                    "functions": {
+                                        "items": {
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "category": {
+                                                    "title": "Gene function category",
+                                                    "type": "string"
+                                                },
+                                                "evidence": {
+                                                    "items": {
+                                                        "enum": [
+                                                            "Sequence-based prediction",
+                                                            "Other in vivo study",
+                                                            "Heterologous expression",
+                                                            "Knock-out",
+                                                            "Activity assay"
+                                                        ],
+                                                        "type": "string"
+                                                    },
+                                                    "title": "Evidence for function",
+                                                    "type": "array"
+                                                }
+                                            },
+                                            "required": [
+                                                "category",
+                                                "evidence"
+                                            ],
+                                            "type": "object"
+                                        },
+                                        "title": "Gene function categories",
+                                        "type": "array"
+                                    },
+                                    "id": {
+                                        "title": "Gene ID",
+                                        "type": "string"
+                                    },
+                                    "mut_pheno": {
+                                        "title": "Knockout mutation phenotype for this gene, if known",
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "title": "Gene name, ",
+                                        "type": "string"
+                                    },
+                                    "product": {
+                                        "title": "Gene product",
+                                        "type": "string"
+                                    },
+                                    "publications": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "title": "Publications on this gene",
+                                        "type": "array"
+                                    },
+                                    "tailoring": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "title": "Tailoring reaction type",
+                                        "type": "array"
+                                    }
+                                },
+                                "title": "Gene",
+                                "type": "object"
+                            },
+                            "required": [
+                                "id"
+                            ],
+                            "title": "Genes",
+                            "type": "array"
+                        },
+                        "extra_genes": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "id": {
+                                        "title": "Gene ID",
+                                        "type": "string"
+                                    },
+                                    "location": {
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "exons": {
+                                                "items": {
+                                                    "additionalProperties": false,
+                                                    "properties": {
+                                                        "end": {
+                                                            "minimum": 2,
+                                                            "title": "End coordinate of the exon, in nt",
+                                                            "type": "integer"
+                                                        },
+                                                        "start": {
+                                                            "minimum": 1,
+                                                            "title": "Start coordinate of the exon, in nt",
+                                                            "type": "integer"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "start",
+                                                        "end"
+                                                    ],
+                                                    "type": "object"
+                                                },
+                                                "minItems": 1,
+                                                "title": "Exons",
+                                                "type": "array"
+                                            },
+                                            "strand": {
+                                                "enum": [
+                                                    -1,
+                                                    1
+                                                ],
+                                                "type": "integer"
+                                            }
+                                        },
+                                        "required": [
+                                            "exons",
+                                            "strand"
+                                        ],
+                                        "title": "Gene location",
+                                        "type": "object"
+                                    },
+                                    "translation": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "id"
+                                ],
+                                "title": "Gene",
+                                "type": "object"
+                            },
+                            "type": "array"
+                        },
+                        "operons": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "evidence": {
+                                        "items": {
+                                            "enum": [
+                                                "Sequence-based prediction",
+                                                "RACE",
+                                                "ChIPseq",
+                                                "RNAseq"
+                                            ],
+                                            "type": "string"
+                                        },
+                                        "title": "Experimental evidence for this operon",
+                                        "type": "array"
+                                    },
+                                    "genes": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "minItems": 1,
+                                        "title": "Genes in operon",
+                                        "type": "array"
+                                    }
+                                },
+                                "required": [
+                                    "genes",
+                                    "evidence"
+                                ],
+                                "title": "Operon",
+                                "type": "object"
+                            },
+                            "title": "Operons",
+                            "type": "array"
+                        }
+                    },
+                    "title": "Genes in this gene cluster",
+                    "type": "object"
+                },
+                "loci": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "accession": {
+                            "pattern": "^([A-Za-z0-9\\._]{3,}){1}|(MIBIG:BGC\\d{7}){1}$",
+                            "title": "GenBank nucleotide accession number",
+                            "type": "string"
+                        },
+                        "completeness": {
+                            "enum": [
+                                "incomplete",
+                                "complete",
+                                "Unknown"
+                            ],
+                            "title": "Complete gene cluster sequence?",
+                            "type": "string"
+                        },
+                        "end_coord": {
+                            "minimum": 2,
+                            "title": "End coordinate (1-indexed, exclusive)",
+                            "type": "integer"
+                        },
+                        "evidence": {
+                            "items": {
+                                "enum": [
+                                    "Sequence-based prediction",
+                                    "Gene expression correlated with compound production",
+                                    "Knock-out studies",
+                                    "Enzymatic assays",
+                                    "Heterologous expression"
+                                ],
+                                "type": "string"
+                            },
+                            "title": "Evidence of involvement",
+                            "type": "array"
+                        },
+                        "mixs_compliant": {
+                            "title": "TODO: use old title",
+                            "type": "boolean"
+                        },
+                        "start_coord": {
+                            "minimum": 1,
+                            "title": "Start coordinate (1-indexed, inclusive)",
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "completeness",
+                        "accession"
+                    ],
+                    "title": "Gene cluster sequence information",
+                    "type": "object"
+                },
+                "mibig_accession": {
+                    "title": "MIBiG accession number",
+                    "type": "string"
+                },
+                "minimal": {
+                    "title": "if the entry contains no experimental data",
+                    "type": "boolean"
+                },
+                "ncbi_tax_id": {
+                    "type": "string"
+                },
+                "nrp": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "cyclic": {
+                            "title": "is the NRP cyclic (otherwise linear)",
+                            "type": "boolean"
+                        },
+                        "lipid_moiety": {
+                            "title": "Lipid moiety attached to the peptide",
+                            "type": "string"
+                        },
+                        "nrps_genes": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "gene_id": {
+                                        "title": "NRPS-encoding gene",
+                                        "type": "string"
+                                    },
+                                    "modules": {
+                                        "items": {
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "a_substr_spec": {
+                                                    "additionalProperties": false,
+                                                    "properties": {
+                                                        "aa_subcluster": {
+                                                            "items": {
+                                                                "type": "string"
+                                                            },
+                                                            "title": "Genes responsible for biosynthesis of the specificity, if within this gene cluster",
+                                                            "type": "array"
+                                                        },
+                                                        "epimerized": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "evidence": {
+                                                            "items": {
+                                                                "enum": [
+                                                                    "Sequence-based prediction",
+                                                                    "Structure-based inference",
+                                                                    "Feeding study",
+                                                                    "Activity assay"
+                                                                ],
+                                                                "type": "string"
+                                                            },
+                                                            "title": "Evidence for A-domain specificity",
+                                                            "type": "array"
+                                                        },
+                                                        "nonproteinogenic": {
+                                                            "items": {
+                                                                "type": "string"
+                                                            },
+                                                            "type": "array"
+                                                        },
+                                                        "proteinogenic": {
+                                                            "items": {
+                                                                "enum": [
+                                                                    "Alanine",
+                                                                    "Arginine",
+                                                                    "Glutamate",
+                                                                    "Serine",
+                                                                    "Tryptophan",
+                                                                    "Methionine",
+                                                                    "Threonine",
+                                                                    "Glycine",
+                                                                    "Isoleucine",
+                                                                    "Proline",
+                                                                    "Glutamine",
+                                                                    "Tyrosine",
+                                                                    "Phenylalanine",
+                                                                    "Cysteine",
+                                                                    "Histidine",
+                                                                    "Leucine",
+                                                                    "Lysine",
+                                                                    "Valine",
+                                                                    "Asparagine",
+                                                                    "Aspartate"
+                                                                ],
+                                                                "type": "string"
+                                                            },
+                                                            "type": "array"
+                                                        }
+                                                    },
+                                                    "title": "Adenylation domain substrate specificity",
+                                                    "type": "object"
+                                                },
+                                                "active": {
+                                                    "type": "boolean"
+                                                },
+                                                "c_dom_subtype": {
+                                                    "enum": [
+                                                        "Dual",
+                                                        "Starter",
+                                                        "LCL",
+                                                        "Unknown",
+                                                        "DCL",
+                                                        "Ester bond-forming",
+                                                        "Heterocyclization"
+                                                    ],
+                                                    "title": "Subtype of condensation domain in this module",
+                                                    "type": "string"
+                                                },
+                                                "comments": {
+                                                    "type": "string"
+                                                },
+                                                "modification_domains": {
+                                                    "items": {
+                                                        "type": "string"
+                                                    },
+                                                    "title": "Scaffold-modifying domains in this module",
+                                                    "type": "array"
+                                                },
+                                                "module_number": {
+                                                    "pattern": "^[A-Z]*[0-9]+$",
+                                                    "title": "Assembly line module number",
+                                                    "type": "string"
+                                                },
+                                                "non_canonical": {
+                                                    "additionalProperties": false,
+                                                    "properties": {
+                                                        "evidence": {
+                                                            "items": {
+                                                                "enum": [
+                                                                    "Sequence-based prediction",
+                                                                    "Structure-based inference",
+                                                                    "Activity assay"
+                                                                ],
+                                                                "type": "string"
+                                                            },
+                                                            "title": "Evidence for non-canonical activity",
+                                                            "type": "array"
+                                                        },
+                                                        "iterated": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "non_elongating": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "skipped": {
+                                                            "type": "boolean"
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                }
+                                            },
+                                            "title": "NRPS Module",
+                                            "type": "object"
+                                        },
+                                        "title": "NRPS modules in this gene",
+                                        "type": "array"
+                                    }
+                                },
+                                "title": "NRPS gene",
+                                "type": "object"
+                            },
+                            "title": "NRPS genes in cluster",
+                            "type": "array"
+                        },
+                        "release_type": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "title": "Release/cyclization type",
+                            "type": "array"
+                        },
+                        "subclass": {
+                            "title": "NRP subclass",
+                            "type": "string"
+                        },
+                        "thioesterases": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "gene": {
+                                        "title": "Thioesterase-encoding gene id",
+                                        "type": "string"
+                                    },
+                                    "thioesterase_type": {
+                                        "enum": [
+                                            "Unknown",
+                                            "Type II",
+                                            "Type I"
+                                        ],
+                                        "title": "Thioesterase type",
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "title": "NRP-specific parameters",
+                    "type": "object"
+                },
+                "organism_name": {
+                    "type": "string"
+                },
+                "other": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "subclass": {
+                            "title": "Other biosynthetic class",
+                            "type": "string"
+                        }
+                    },
+                    "title": "Parameters specific for other classes",
+                    "type": "object"
+                },
+                "polyketide": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "cyclases": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "title": "Gene(s) in cluster involved in folding and cyclization of the aromatic polyketide",
+                            "type": "array"
+                        },
+                        "cyclic": {
+                            "title": "is the polyketide cyclic (otherwise linear)",
+                            "type": "boolean"
+                        },
+                        "ketide_length": {
+                            "title": "Polyketide length",
+                            "type": "integer"
+                        },
+                        "release_type": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "title": "Release/cyclization type",
+                            "type": "array"
+                        },
+                        "starter_unit": {
+                            "title": "Starter unit",
+                            "type": "string"
+                        },
+                        "subclasses": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "title": "Polyketide subclasses",
+                            "type": "array"
+                        },
+                        "synthases": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "genes": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "minItems": 1,
+                                        "title": "all genes forming the synthase",
+                                        "type": "array"
+                                    },
+                                    "iterative": {
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "cyclization_type": {
+                                                "title": "Iterative PKS cyclization type",
+                                                "type": "string"
+                                            },
+                                            "evidence": {
+                                                "enum": [
+                                                    "Sequence-based prediction",
+                                                    "Structure-based inference",
+                                                    "Activity assay"
+                                                ],
+                                                "title": "Evidence for iteration",
+                                                "type": "string"
+                                            },
+                                            "genes": {
+                                                "items": {
+                                                    "type": "string"
+                                                },
+                                                "minItems": 1,
+                                                "title": "all genes forming the synthase",
+                                                "type": "array"
+                                            },
+                                            "nr_iterations": {
+                                                "minimum": 1,
+                                                "title": "Number of chain synthesis iterations performed by iterative PKS module",
+                                                "type": "integer"
+                                            },
+                                            "subtype": {
+                                                "enum": [
+                                                    "Partially reducing",
+                                                    "Non-reducing",
+                                                    "Highly reducing"
+                                                ],
+                                                "title": "Iterative PKS subtype",
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "subtype",
+                                            "cyclization_type"
+                                        ],
+                                        "type": "object"
+                                    },
+                                    "modules": {
+                                        "items": {
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "at_specificities": {
+                                                    "items": {
+                                                        "type": "string"
+                                                    },
+                                                    "title": "Acyltransferase substrate specificities",
+                                                    "type": "array"
+                                                },
+                                                "comments": {
+                                                    "type": "string"
+                                                },
+                                                "domains": {
+                                                    "items": {
+                                                        "type": "string"
+                                                    },
+                                                    "title": "Core PKS domains present in this module",
+                                                    "type": "array"
+                                                },
+                                                "evidence": {
+                                                    "enum": [
+                                                        "Sequence-based prediction",
+                                                        "Structure-based inference",
+                                                        "Feeding study",
+                                                        "Activity assay"
+                                                    ],
+                                                    "title": "Evidence for AT/CAL specificity",
+                                                    "type": "string"
+                                                },
+                                                "genes": {
+                                                    "items": {
+                                                        "type": "string"
+                                                    },
+                                                    "minItems": 1,
+                                                    "title": "all genes forming the synthase",
+                                                    "type": "array"
+                                                },
+                                                "kr_stereochem": {
+                                                    "enum": [
+                                                        "Unknown",
+                                                        "Inactive",
+                                                        "L-OH",
+                                                        "D-OH"
+                                                    ],
+                                                    "title": "KR domain stereochemistry / activity",
+                                                    "type": "string"
+                                                },
+                                                "module_number": {
+                                                    "pattern": "^[A-Z]*[0-9]+$",
+                                                    "title": "Assembly line module number",
+                                                    "type": "string"
+                                                },
+                                                "non_canonical": {
+                                                    "additionalProperties": false,
+                                                    "properties": {
+                                                        "evidence": {
+                                                            "items": {
+                                                                "enum": [
+                                                                    "Sequence-based prediction",
+                                                                    "Structure-based inference",
+                                                                    "Activity assay"
+                                                                ],
+                                                                "type": "string"
+                                                            },
+                                                            "title": "Evidence for non-canonical activity",
+                                                            "type": "array"
+                                                        },
+                                                        "iterated": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "non_elongating": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "skipped": {
+                                                            "type": "boolean"
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                },
+                                                "pks_mod_doms": {
+                                                    "items": {
+                                                        "type": "string"
+                                                    },
+                                                    "title": "Nonreductive scaffold-modifying domain in this module",
+                                                    "type": "array"
+                                                }
+                                            },
+                                            "title": "Modular PKS gene",
+                                            "type": "object"
+                                        },
+                                        "title": "Modular PKS genes in cluster",
+                                        "type": "array"
+                                    },
+                                    "pufa_modification_domains": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "title": "Non-reductive scaffold-modifying domain in this synthase",
+                                        "type": "array"
+                                    },
+                                    "subclass": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "title": "Polyketide synthase subclass",
+                                        "type": "array"
+                                    },
+                                    "thioesterases": {
+                                        "items": {
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "gene": {
+                                                    "title": "Thioesterase-encoding gene id",
+                                                    "type": "string"
+                                                },
+                                                "thioesterase_type": {
+                                                    "enum": [
+                                                        "Unknown",
+                                                        "Type II",
+                                                        "Type I"
+                                                    ],
+                                                    "title": "Thioesterase type",
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "type": "array"
+                                    },
+                                    "trans_at": {
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "genes": {
+                                                "items": {
+                                                    "type": "string"
+                                                },
+                                                "minItems": 1,
+                                                "title": "all genes forming the synthase",
+                                                "type": "array"
+                                            }
+                                        },
+                                        "title": "Genes in cluster encoding trans-acyltransferases (without ketosynthase domains)",
+                                        "type": "object"
+                                    }
+                                },
+                                "required": [
+                                    "genes"
+                                ],
+                                "type": "object"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "title": "Polyketide-specific parameters",
+                    "type": "object"
+                },
+                "publications": {
+                    "items": {
+                        "oneOf": [
+                            {
+                                "pattern": "^pubmed:(\\d+)$"
+                            },
+                            {
+                                "pattern": "^doi:10\\.\\d{4,9}/[-\\._;()/:a-zA-Z0-9]+$"
+                            },
+                            {
+                                "pattern": "^patent:(.+)$"
+                            },
+                            {
+                                "pattern": "^url:https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)$"
+                            }
+                        ],
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "title": "Key publications associated with this gene cluster, pathway or molecule",
+                    "type": "array"
+                },
+                "ripp": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "cyclic": {
+                            "title": "is the RiPP cyclic (otherwise linear)",
+                            "type": "boolean"
+                        },
+                        "peptidases": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "title": "Peptidase(s) involved in precursor cleavage",
+                            "type": "array"
+                        },
+                        "precursor_genes": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "cleavage_recogn_site": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "title": "Amino acid sequence(s) of cleavage recognition site(s), if known. If multiple, separate by commas.",
+                                        "type": "array"
+                                    },
+                                    "core_sequence": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "title": "RiPP core peptide amino acid sequence(s)",
+                                        "type": "array"
+                                    },
+                                    "crosslinks": {
+                                        "items": {
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "crosslink_type": {
+                                                    "title": "Type of crosslink",
+                                                    "type": "string"
+                                                },
+                                                "first_AA": {
+                                                    "title": "Position of first amino acid involved",
+                                                    "type": "integer"
+                                                },
+                                                "second_AA": {
+                                                    "title": "Position of second amino acid involved",
+                                                    "type": "integer"
+                                                }
+                                            },
+                                            "required": [
+                                                "crosslink_type"
+                                            ],
+                                            "title": "Crosslink",
+                                            "type": "object"
+                                        },
+                                        "title": "Crosslinks within final peptide",
+                                        "type": "array"
+                                    },
+                                    "follower_sequence": {
+                                        "title": "the follower peptide sequence",
+                                        "type": "string"
+                                    },
+                                    "gene_id": {
+                                        "title": "Gene ID:",
+                                        "type": "string"
+                                    },
+                                    "leader_sequence": {
+                                        "title": "the leader peptide sequence",
+                                        "type": "string"
+                                    },
+                                    "recognition_motif": {
+                                        "title": "Recognition motif in leader peptide for modification peptide",
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "gene_id",
+                                    "core_sequence"
+                                ],
+                                "title": "RiPP precursor",
+                                "type": "object"
+                            },
+                            "minItems": 1,
+                            "title": "Genes in cluster encoding RiPP precursor peptides",
+                            "type": "array"
+                        },
+                        "subclass": {
+                            "title": "RiPP subclass",
+                            "type": "string"
+                        }
+                    },
+                    "title": "RiPP-specific parameters",
+                    "type": "object"
+                },
+                "saccharide": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "glycosyltransferases": {
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "evidence": {
+                                        "items": {
+                                            "enum": [
+                                                "Sequence-based prediction",
+                                                "Structure-based inference",
+                                                "Knock-out construct",
+                                                "Activity assay"
+                                            ],
+                                            "type": "string"
+                                        },
+                                        "title": "Evidence",
+                                        "type": "array"
+                                    },
+                                    "gene_id": {
+                                        "title": "Gene ID",
+                                        "type": "string"
+                                    },
+                                    "specificity": {
+                                        "title": "Specificity of glycosyltransferase",
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "gene_id",
+                                    "specificity",
+                                    "evidence"
+                                ],
+                                "title": "Glycosyl transferase-encoding gene",
+                                "type": "object"
+                            },
+                            "title": "Genes in cluster encoding glycosyl transferases",
+                            "type": "array"
+                        },
+                        "subclass": {
+                            "title": "Saccharide subclass",
+                            "type": "string"
+                        },
+                        "sugar_subclusters": {
+                            "items": {
+                                "items": {
+                                    "type": "string"
+                                },
+                                "minItems": 1,
+                                "title": "Gene ids for sugar biosynthesis, if within this gene cluster",
+                                "type": "array"
+                            },
+                            "title": "Sub-clusters for sugar biosynthesis",
+                            "type": "array"
+                        }
+                    },
+                    "title": "Saccharide-specific parameters",
+                    "type": "object"
+                },
+                "terpene": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "carbon_count_subclass": {
+                            "title": "Terpene subclass by number of carbon units",
+                            "type": "string"
+                        },
+                        "prenyltransferases": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "title": "Genes in cluster encoding prenyltransferases",
+                            "type": "array"
+                        },
+                        "structural_subclass": {
+                            "title": "Terpene subclass by structure, if applicable",
+                            "type": "string"
+                        },
+                        "terpene_precursor": {
+                            "title": "Final isoprenoid precursor",
+                            "type": "string"
+                        },
+                        "terpene_synth_cycl": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "title": "Genes in cluster encoding terpene synthases/cyclases",
+                            "type": "array"
+                        }
+                    },
+                    "title": "Terpene-specific parameters",
+                    "type": "object"
+                }
+            },
+            "required": [
+                "mibig_accession",
+                "biosyn_class",
+                "compounds",
+                "publications",
+                "organism_name",
+                "ncbi_tax_id",
+                "minimal"
+            ],
+            "title": "MIBiG data",
+            "type": "object"
+        },
+        "comments": {
+            "title": "Please write any final comments here.",
+            "type": "string"
+        }
+    },
+    "required": [
+        "changelog",
+        "cluster"
+    ],
+    "title": "MIBiG Submission form",
+    "type": "object"
+}
