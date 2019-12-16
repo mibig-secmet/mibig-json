@@ -17,6 +17,20 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update compound structure (SMILES) for desosamine",
+                "Linked new PubChem id for desosamine (pubchem:5282034)",
+                "Linked new NPAtlas id for desosamine (npatlas:1238)",
+                "Add new compound: pikromycin",
+                "Add new compound: neomethymycin",
+                "Add new compound: narbomycin"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -28,10 +42,32 @@
                 "chem_acts": [
                     "Antibacterial"
                 ],
-                "chem_struct": "C[C@@H]1C[C@@H]([C@H]([C@@H](O1)O)O)N(C)C",
+                "chem_struct": "CC[C@@H]1[C@@](/C=C/C(=O)[C@@H](C[C@@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2[C@@H]([C@H](C[C@H](O2)C)N(C)C)O)C)C)(C)O",
                 "compound": "desosamine",
-                "mol_mass": 175.120843404,
-                "molecular_formula": "C8H17NO3"
+                "database_id": [
+                    "pubchem:5282034",
+                    "npatlas:1238"
+                ],
+                "mol_mass": 469.30395271599997,
+                "molecular_formula": "C25H43NO7"
+            },
+            {
+                "chem_struct": "CC[C@@H]1[C@@](/C=C/C(=O)[C@@H](C[C@@H]([C@@H]([C@H](C(=O)[C@H](C(=O)O1)C)C)O[C@H]2[C@@H]([C@H](C[C@H](O2)C)N(C)C)O)C)C)(C)O",
+                "compound": "pikromycin",
+                "mol_mass": 525.3301674639999,
+                "molecular_formula": "C28H47NO8"
+            },
+            {
+                "chem_struct": "C[C@H]1C[C@H](C(=O)/C=C/[C@H]([C@H](OC(=O)[C@@H]([C@H]1O[C@H]2[C@@H]([C@H](C[C@H](O2)C)N(C)C)O)C)[C@@H](C)O)C)C",
+                "compound": "neomethymycin",
+                "mol_mass": 469.30395271599997,
+                "molecular_formula": "C25H43NO7"
+            },
+            {
+                "chem_struct": "CC[C@@H]1[C@@H](/C=C/C(=O)[C@@H](C[C@@H]([C@@H]([C@H](C(=O)[C@H](C(=O)O1)C)C)O[C@H]2[C@@H]([C@H](C[C@H](O2)C)N(C)C)O)C)C)C",
+                "compound": "narbomycin",
+                "mol_mass": 509.33525284399997,
+                "molecular_formula": "C28H47NO7"
             }
         ],
         "loci": {

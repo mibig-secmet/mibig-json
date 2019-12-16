@@ -17,6 +17,18 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update compound structure (SMILES) for napyradiomycin A80915C",
+                "Add new compound: napyradiomycin 2",
+                "Add new compound: napyradiomycin 3",
+                "Add new compound: napyradiomycin 4"
+            ],
+            "contributors": [
+                "5UL74VURKJ25VSPPPO3H2NYB"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -49,11 +61,29 @@
                         ]
                     }
                 ],
-                "chem_struct": "O=C1C2(Cl)C(OC(C)(C)C(Cl)C2)(CC3C(C)(C)C(Cl)CCC3(O)C)C(C4=CC(O)=C(C)C(O)=C41)=O",
+                "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C([C@@]2(Cl)C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",
                 "compound": "napyradiomycin A80915C",
                 "mass_spec_ion_type": "[M+H]+",
                 "mol_mass": 546.1342718159999,
                 "molecular_formula": "C26H33Cl3O6"
+            },
+            {
+                "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C(C2=C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",
+                "compound": "napyradiomycin 2",
+                "mol_mass": 510.1575941039998,
+                "molecular_formula": "C26H32Cl2O6"
+            },
+            {
+                "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C([C@@]2([H])C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",
+                "compound": "napyradiomycin 3",
+                "mol_mass": 512.1732441679999,
+                "molecular_formula": "C26H34Cl2O6"
+            },
+            {
+                "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C([C@@]2(O)C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",
+                "compound": "napyradiomycin 4",
+                "mol_mass": 528.1681587879999,
+                "molecular_formula": "C26H34Cl2O7"
             }
         ],
         "genes": {
