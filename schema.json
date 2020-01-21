@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$schema_created": "2019-04-12T15:40:24+02:00",
-    "$schema_version": "2.1",
+    "$schema_created": "2020-01-21T15:40:24+02:00",
+    "$schema_version": "2.2",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -25,6 +25,11 @@
                         "type": "string"
                     }
                 },
+                "required": [
+                    "comments",
+                    "contributors",
+                    "version"
+                ],
                 "type": "object"
             },
             "minItems": 1,
@@ -578,7 +583,7 @@
                                                     "type": "array"
                                                 },
                                                 "module_number": {
-                                                    "pattern": "^[A-Z]*[0-9]+$",
+                                                    "pattern": "^[A-Z]*[0-9]+[A-Z]*$",
                                                     "title": "Assembly line module number",
                                                     "type": "string"
                                                 },
@@ -817,7 +822,7 @@
                                                     "type": "string"
                                                 },
                                                 "module_number": {
-                                                    "pattern": "^[A-Z]*[0-9]+$",
+                                                    "pattern": "^[A-Z]*[0-9]+[A-Z]*$",
                                                     "title": "Assembly line module number",
                                                     "type": "string"
                                                 },
