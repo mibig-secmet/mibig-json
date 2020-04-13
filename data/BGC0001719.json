@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fix wrongly assigned loci information: MF437311.1 to MN901947.1",
+                "Added compound properties of olimycin A (derived from ChemSpider ID:62934196)"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -25,17 +35,21 @@
         ],
         "compounds": [
             {
-                "compound": "olimycin A"
+                "chem_struct": "CC[C@@H]\\1CCC(=O)c2c3c(cc(c2O)C)C(=O)C4=C(C3=O)[C@@](C=CC(=O)N4)(C(=O)O[C@H](C/C=C1)CC(C)C)C",
+                "compound": "olimycin A",
+                "database_id": [
+                    "chemspider:62934196"
+                ],
+                "mol_mass": 533.241333,
+                "molecular_formula": "C31H35NO7"
             },
             {
                 "compound": "olimycin B"
             }
         ],
         "loci": {
-            "accession": "MF437311.1",
-            "completeness": "Unknown",
-            "end_coord": 38659,
-            "start_coord": 1
+            "accession": "MN901947.1",
+            "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001719",
         "minimal": true,
