@@ -1,0 +1,66 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(=O)NC1=C2SSC=C2NC1=O",
+                "chem_targets": [
+                    {
+                        "target": "RNA polymerase"
+                    }
+                ],
+                "compound": "holomycin",
+                "database_id": [
+                    "pubchem:10262683",
+                    "chebi:156451",
+                    "chembl:476226",
+                    "chemspider:8438162"
+                ],
+                "evidence": [
+                    "NMR"
+                ]
+            }
+        ],
+        "loci": {
+            "accession": "NZ_ACCC01000028",
+            "completeness": "complete",
+            "end_coord": 21565,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 3594
+        },
+        "mibig_accession": "BGC0002091",
+        "minimal": false,
+        "ncbi_tax_id": "527005",
+        "nrp": {
+            "cyclic": false,
+            "thioesterases": [
+                {
+                    "gene": "YRUCK0001_RS11370",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
+        "organism_name": "Yersinia ruckeri ATCC 29473",
+        "publications": [
+            "pubmed:23572522",
+            "pubmed:11158751"
+        ]
+    }
+}
