@@ -1,0 +1,343 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Signalling"
+                ],
+                "chem_struct": "OC1=CC=C(C[C@@H](C(N2[C@@H](CCC2)C(OC[C@@H](C(N3[C@@H](C[C@H](C)C3)C(N[C@@H](CC(C)C)C(CC(N[C@H]4CC(C)C)=O)=O)=O)=O)NC(C(NC(CCC)=O)[C@H](CC)C)=O)=O)=O)NC([C@H](CC(N)=O)NC(CNC4=O)=O)=O)C=C1",
+                "compound": "Nostopeptolide A1",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": -1,
+                "molecular_formula": "C53H80N10O14"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_012408783.1",
+                    "name": "No gene ID",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_148220293.1",
+                    "name": "No gene ID",
+                    "product": "acyltransferase domain-containing protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_012408785.1",
+                    "name": "No gene ID",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_012408786.1",
+                    "name": "No gene ID",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_012408787.1",
+                    "name": "No gene ID",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_012408788.1",
+                    "name": "proC",
+                    "product": "zinc-binding dehydrogenase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_012408789.1",
+                    "name": "proC",
+                    "product": "pyrroline-5-carboxylate reductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "WP_012408790.1",
+                    "name": "No gene ID",
+                    "product": "ABC transporter ATP-binding protein/permease"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NC_010628",
+            "completeness": "complete",
+            "end_coord": 2708401,
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 2667205
+        },
+        "mibig_accession": "BGC0002061",
+        "minimal": false,
+        "ncbi_tax_id": "63737",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_012408783.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Isoleucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "4-Methylproline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_012408785.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Leucine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "6"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "Asparigine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "8"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_012408786.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tyrosine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "10"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "9"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "organism_name": "Nostoc punctiforme PCC 73102",
+        "polyketide": {
+            "cyclic": true,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_148220293.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_148220293.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "5"
+                        }
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:15094385",
+            "pubmed:25624477",
+            "pubmed:28939609",
+            "pubmed:31091070"
+        ]
+    }
+}
