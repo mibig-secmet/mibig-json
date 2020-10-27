@@ -1,0 +1,138 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Pyrrolopyrrole ring",
+                        "subcluster": [
+                            "H1D33_25775",
+                            "H1D33_25770",
+                            "H1D33_25755",
+                            "H1D33_25750",
+                            "H1D33_25565",
+                            "H1D33_25550",
+                            "H1D33_25765",
+                            "H1D33_25760",
+                            "H1D33_25745",
+                            "H1D33_25740",
+                            "H1D33_25590",
+                            "H1D33_25545"
+                        ]
+                    }
+                ],
+                "chem_synonyms": [
+                    "quinocycline b"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Topoisomerase IIa"
+                    }
+                ],
+                "compound": "kosinostatin",
+                "database_id": [
+                    "pubchem:216205"
+                ],
+                "evidence": [
+                    "NMR"
+                ]
+            }
+        ],
+        "loci": {
+            "accession": "CP059322",
+            "completeness": "complete",
+            "end_coord": 5708619,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 5660056
+        },
+        "mibig_accession": "BGC0002097",
+        "minimal": false,
+        "ncbi_tax_id": "2749844",
+        "nrp": {
+            "cyclic": true
+        },
+        "organism_name": "Micromonospora sp. 28ISP2-46",
+        "polyketide": {
+            "cyclases": [
+                "H1D33_25780",
+                "H1D33_25715",
+                "H1D33_25685",
+                "H1D33_25640"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Anthracycline"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "H1D33_25780",
+                        "H1D33_25715",
+                        "H1D33_25700",
+                        "H1D33_25685",
+                        "H1D33_25690",
+                        "H1D33_25695",
+                        "H1D33_25640"
+                    ],
+                    "subclass": [
+                        "Type II"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:23790490",
+            "pubmed:12002993",
+            "pubmed:29403952"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "H1D33_25625",
+                    "specificity": "NDP-4-keto-L-digitoxose"
+                }
+            ],
+            "subclass": "hybrid/tailoring",
+            "sugar_subclusters": [
+                [
+                    "H1D33_25730",
+                    "H1D33_25725",
+                    "H1D33_25635",
+                    "H1D33_25630",
+                    "H1D33_25620",
+                    "H1D33_25620",
+                    "H1D33_25625",
+                    "H1D33_25620",
+                    "H1D33_25615",
+                    "H1D33_25610",
+                    "H1D33_25595"
+                ]
+            ]
+        }
+    },
+    "comments": "We rediscovered kosinostatin from a Micromonospora strain and identified the BGC in its genome sequence based on homology to the previously published BGC (antiSMASH). Certain genes thought to be important to kosinostatin biosynthesis are missing from our cluster."
+}
