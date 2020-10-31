@@ -19,6 +19,7 @@ usage() {
     echo "Download the GenBank files related to the MIBiG entries"
     echo "Usage: $0 [options]"
     echo "Options:"
+    echo "    -a <key>  | --api <key>          NCBI Entrez API key to use for downloading"
     echo "    -j <path> | --jsons <path>       Path to directory containing MIBiG JSON files (default: ${DEFAULT_JSONS_DIR})"
     echo "    -g <path> | --genbanks <path>    Path to directory to hold the downloaded GenBank files (default: ${DEFAULT_GENBANKS_DIR})"
     echo "    -V | --version                   Print the script's version"
@@ -28,9 +29,13 @@ usage() {
 download() {
     ACC=$1
     GENBANKS_DIR=$2
+    EXTRA_PARAMS=""
+    if [ ! -z ${API_KEY} ]; then
+        EXTRA_PARAMS="--api-key ${API_KEY}"
+    fi
     pushd ${GENBANKS_DIR} > /dev/null
     if [ ! -e "${ACC}.gbk" ]; then
-        ncbi-acc-download --recursive $ACC
+        ncbi-acc-download --recursive $ACC $EXTRA_PARAMS
     fi
     popd > /dev/null
 }
@@ -69,6 +74,10 @@ while [[ $# -gt 0 ]]; do
         -V|--version)
             echo $VERSION
             exit 0
+            ;;
+        -a|--api)
+            API_KEY="$2"
+            shift; shift
             ;;
         *)
             usage
