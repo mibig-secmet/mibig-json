@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Merged info from duplicate BGC0001804",
+                "Added back pks synthase subclass lost in 2.0 conversion"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -25,7 +35,10 @@
         ],
         "compounds": [
             {
-                "compound": "tiancimycin"
+                "chem_struct": "C[C@H]1C[C@H](C(=O)/C=C/C=C/[C@@H]([C@H](OC(=O)/C=C/[C@@H]([C@H]1O)C)C)C)C",
+                "compound": "tiancimycin",
+                "mol_mass": 334.21440944,
+                "molecular_formula": "C20H30O4"
             }
         ],
         "loci": {
@@ -36,8 +49,21 @@
         "minimal": true,
         "ncbi_tax_id": "1703937",
         "organism_name": "Streptomyces sp. CB03234",
+        "polyketide": {
+            "synthases": [
+                {
+                    "genes": [
+                        "tnmE"
+                    ],
+                    "subclass": [
+                        "enediyne"
+                    ]
+                }
+            ]
+        },
         "publications": [
-            "pubmed:25019332"
+            "pubmed:25019332",
+            "pubmed:27999165"
         ]
     }
 }
