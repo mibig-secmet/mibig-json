@@ -29,9 +29,13 @@ usage() {
 download() {
     ACC=$1
     GENBANKS_DIR=$2
+    RANGE=$3
     EXTRA_PARAMS=""
     if [ ! -z ${API_KEY} ]; then
         EXTRA_PARAMS="--api-key ${API_KEY}"
+    fi
+    if [ ! -z ${RANGE} ]; then
+        EXTRA_PARAMS+=" --range ${RANGE} -e correct"
     fi
     pushd ${GENBANKS_DIR} > /dev/null
     if [ ! -e "${ACC}.gbk" ]; then
@@ -45,14 +49,26 @@ getAcc() {
     jq '.cluster.loci.accession' $JSON_FILE | sed -e 's/"//g'
 }
 
+getRange() {
+  JSON_FILE=$1
+  range=$(jq -r '.cluster.loci|[.start_coord,.end_coord]|join(":")' ${JSON_FILE})
+  if [ "${range}" == ":" ] ; then
+    return 1
+  else
+    echo ${range}
+  fi
+}
+export -f getRange
+
 run() {
     JSONS_DIR=$1
     GENBANKS_DIR=$2
     for JSON_FILE in ${JSONS_DIR}/*.json; do
         ACC=$(getAcc ${JSON_FILE})
+        RANGE=$(getRange ${JSON_FILE})
         BGC_ID=$(basename ${JSON_FILE/\.json/})
-        echo "$BGC_ID: $ACC" 1>&2
-        download $ACC ${GENBANKS_DIR}
+        echo "$BGC_ID: $ACC $RANGE" 1>&2
+        download $ACC ${GENBANKS_DIR} $RANGE
     done
 }
 
