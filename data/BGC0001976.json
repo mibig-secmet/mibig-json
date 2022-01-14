@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fetch compound properties from PubChem"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -16,10 +25,21 @@
         ],
         "compounds": [
             {
+                "chem_struct": "CC1=C2CC3CC(C4(C(CC5=C(C=C(C(=O)C=C5O4)O)C)CC(/C=C/CC3(OC2=CC(=O)C(=C1)O)C)(C)C)C)O",
+                "chem_synonyms": [
+                    "Eupenifeldin",
+                    "(6aR*,8E,11aS*,18aR*,19R*,20aR*)-6a,7,10,11,11a,18a,19,20,20a,21-Decahydro-4,16,19-trihydroxy-1,6a,10,13,18a-hexamethyl-3H-dicyclohepta(e,e')cycloundeca(1,2-b:5,6-b')dipyran-3,15(12H)-dione",
+                    "151803-45-1",
+                    "Q15410978",
+                    "3H-Dicyclohepta(e,e')cycloundeca(1,2-b:5,6-b')dipyran-3,15(12H)-dione, 6a,7,10,11,11a,18a,19,20,20a,21-decahydro-4,16,19-trihydroxy-1,6a,10,10,13,18a-hexamethyl-, (6aR*,8E,11aS*,18aR*,19R*,20aR*)-"
+                ],
                 "compound": "eupenifeldin",
                 "database_id": [
-                    "chemspider:58909237"
-                ]
+                    "chemspider:58909237",
+                    "pubchem:135612713"
+                ],
+                "mol_mass": 548.277404,
+                "molecular_formula": "C33H40O7"
             }
         ],
         "loci": {
