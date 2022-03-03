@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected compound details"
+            ],
+            "contributors": [
+                "SJG3CBEHSM6A3I74YXLH6GLA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -26,12 +35,20 @@
         ],
         "compounds": [
             {
-                "chem_struct": "OCC1CC(NC2C=C(CO)C(O)C(O)C2O)C(O)C(O)C1OC1OC(CO)C(O)C(O)C1O",
-                "compound": "β-D-galactosylvalidoxylamine-A",
-                "database_id": [
-                    "npatlas:8641"
+                "chem_acts": [
+                    "Antifungal"
                 ],
-                "mol_mass": 497.2108401799999,
+                "chem_struct": "C1[C@@H]([C@H]([C@@H](C([C@H]1N[C@H]2C=C([C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O[C@H]3C(C([C@@H](C(O3)CO)O)O)O)CO",
+                "chem_targets": [
+                    {
+                        "target": "Trehalose synthase"
+                    }
+                ],
+                "compound": "validamycin A",
+                "database_id": [
+                    "npatlas:21209"
+                ],
+                "mol_mass": 497.2108,
                 "molecular_formula": "C20H35NO13"
             }
         ],
