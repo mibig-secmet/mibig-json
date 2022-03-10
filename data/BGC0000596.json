@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected gene references to remove duplications",
+                "Extended end position to fully include last relevant gene"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -34,97 +44,35 @@
             "annotations": [
                 {
                     "comments": "smCOG: SMCOG1030:serine/threonine_protein_kinase (Score: 67.8; E-value: 1.8e-20);",
-                    "id": "SSPG_05082",
+                    "id": "SSPG_RS25520",
                     "product": "protein kinase"
                 },
                 {
                     "comments": "3' partial",
-                    "id": "SSPG_05083",
+                    "id": "SSPG_RS25525",
                     "product": "serine/threonine protein kinase"
                 },
                 {
                     "comments": "smCOG: SMCOG1059:acetyl-CoA_carboxylase,_carboxyl_transferase, (Score: 114.3; E-value: 1.1e-34);",
-                    "id": "SSPG_05088",
+                    "id": "SSPG_RS25550",
                     "product": "acetyl CoA carboxylase alpha subunit"
                 },
                 {
                     "comments": "3' partial",
-                    "id": "SSPG_05089",
+                    "id": "SSPG_RS25555",
                     "product": "acetyl CoA carboxylase beta subunit"
                 },
                 {
                     "comments": "smCOG: SMCOG1246:monooxygenase_FAD-binding (Score: 400.0; E-value: 2.2e-121);",
-                    "id": "SSPG_05096",
+                    "id": "SSPG_RS25590",
                     "product": "hypothetical protein"
-                }
-            ],
-            "extra_genes": [
-                {
-                    "id": "SSPG_05082",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 5673135,
-                                "start": 5670019
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "SSPG_05083",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 5674124,
-                                "start": 5673237
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "SSPG_05088",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 5682033,
-                                "start": 5681518
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "SSPG_05089",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 5682900,
-                                "start": 5682380
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "SSPG_05096",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 5690544,
-                                "start": 5689180
-                            }
-                        ],
-                        "strand": -1
-                    }
                 }
             ]
         },
         "loci": {
             "accession": "NZ_GG657756.1",
             "completeness": "incomplete",
-            "end_coord": 5690544,
+            "end_coord": 5690586,
             "evidence": [
                 "Sequence-based prediction"
             ],
