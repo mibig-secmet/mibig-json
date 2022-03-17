@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added ibo19 gene described in paper but missing from NCBI data"
+            ],
+            "contributors": [
+                "SJG3CBEHSM6A3I74YXLH6GLA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -28,6 +37,22 @@
                 "compound": "ibomycin"
             }
         ],
+        "genes": {
+            "extra_genes": [
+                {
+                    "id": "ibo19",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 213314,
+                                "start": 202470
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
         "loci": {
             "accession": "KJ159185.1",
             "completeness": "Unknown"
