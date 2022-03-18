@@ -8,6 +8,15 @@
                 "SP3TSEAU4FOO7XSAAVENWCIW"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Merged annotations from duplicate entry BGC0002030"
+            ],
+            "contributors": [
+                "SJG3CBEHSM6A3I74YXLH6GLA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -20,18 +29,21 @@
                     "Antibacterial",
                     "Cytotoxic"
                 ],
-                "chem_struct": "COC1=C(C2=CC3=C(C(=C2C(=C1)O)O)C(=O)O[C@@H](C3)CC(=O)OC)C4=C(C=C(C5=C(C6=C(C[C@H](OC6=O)CC(=O)OC)C=C54)O)O)OC",
+                "chem_struct": "COC1=C(C2=C(C(=C1)O)C(=C3C(=C2)C[C@H](OC3=O)CC(=O)OC)O)C4=C(C=C(C5=C4C=C6C[C@H](OC(=O)C6=C5O)CC(=O)OC)O)OC",
                 "chem_targets": [
                     {
                         "target": "FtsZ"
                     }
                 ],
                 "compound": "viriditoxin",
+                "database_id": [
+                    "pubchem:53343291"
+                ],
                 "evidence": [
                     "NMR"
                 ],
                 "mass_spec_ion_type": "[M+H]+",
-                "mol_mass": 662.1635556400001,
+                "mol_mass": 662.163556,
                 "molecular_formula": "C34H30O14"
             }
         ],
@@ -165,8 +177,8 @@
             ]
         },
         "publications": [
-            "pubmed:31045362"
+            "pubmed:31045362",
+            "pubmed:31304040"
         ]
-    },
-    "comments": "Corresponding author for publications: Dr Yit-Heng ChooiEmail: yitheng.chooi@uwa,edu,auFacility: School of Molecular Sciences, University of Western Australia"
+    }
 }
