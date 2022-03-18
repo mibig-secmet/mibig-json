@@ -11,10 +11,12 @@
         },
         {
             "comments": [
-                "Remove negative molecular mass"
+                "Remove negative molecular mass",
+                "Merged annotations from duplicate entry BGC0001930"
             ],
             "contributors": [
-                "3UOU7PODQJXIM6BEPUHHRRA5"
+                "3UOU7PODQJXIM6BEPUHHRRA5",
+                "SJG3CBEHSM6A3I74YXLH6GLA"
             ],
             "version": "2.1"
         }
@@ -28,22 +30,28 @@
                 "chem_acts": [
                     "Antibacterial"
                 ],
-                "compound": "geocillicin",
+                "chem_synonyms": [
+                    "geocillicin"
+                ],
+                "compound": "pallidocin",
                 "mass_spec_ion_type": "[M+H]+"
             }
         ],
         "loci": {
             "accession": "NZ_LVHY01000134.1",
             "completeness": "complete",
+            "end_coord": 7600,
             "evidence": [
                 "Heterologous expression"
-            ]
+            ],
+            "start_coord": 2400
         },
         "mibig_accession": "BGC0001862",
         "minimal": true,
         "ncbi_tax_id": "33936",
         "organism_name": "Aeribacillus pallidus",
         "publications": [
+            "doi:10.1038/s41467-019-09065-5",
             "pubmed:30183259"
         ],
         "ripp": {
