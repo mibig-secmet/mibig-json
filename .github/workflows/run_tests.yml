@@ -19,5 +19,5 @@ jobs:
         pip install jsonschema
     - name: Test for schema violations
       run: |
-        ./scripts/check_valid.sh
+        ./scripts/check_valid.py
 
