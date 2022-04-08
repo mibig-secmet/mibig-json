@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$schema_created": "2020-01-21T15:40:24+02:00",
-    "$schema_version": "2.2",
+    "$schema_created": "2022-05-17T13:40:24+02:00",
+    "$schema_version": "2.3",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -264,6 +264,7 @@
                                         "type": "array"
                                     },
                                     "id": {
+                                        "pattern": "^[^ ].*[^ ]$",
                                         "title": "Gene ID",
                                         "type": "string"
                                     },
@@ -272,6 +273,7 @@
                                         "type": "string"
                                     },
                                     "name": {
+                                        "pattern": "^[^ ].*[^ ]$",
                                         "title": "Gene name, ",
                                         "type": "string"
                                     },
@@ -308,6 +310,7 @@
                                 "additionalProperties": false,
                                 "properties": {
                                     "id": {
+                                        "pattern": "^[^ ].*[^ ]$",
                                         "title": "Gene ID",
                                         "type": "string"
                                     },
@@ -723,6 +726,7 @@
                                 "properties": {
                                     "genes": {
                                         "items": {
+                                            "pattern": "^[^,]*$",
                                             "type": "string"
                                         },
                                         "minItems": 1,
@@ -747,6 +751,7 @@
                                             },
                                             "genes": {
                                                 "items": {
+                                                    "pattern": "^[^,]*$",
                                                     "type": "string"
                                                 },
                                                 "minItems": 1,
@@ -807,10 +812,11 @@
                                                 },
                                                 "genes": {
                                                     "items": {
+                                                        "pattern": "^[^,]*$",
                                                         "type": "string"
                                                     },
                                                     "minItems": 1,
-                                                    "title": "all genes forming the synthase",
+                                                    "title": "all genes forming the module",
                                                     "type": "array"
                                                 },
                                                 "kr_stereochem": {
