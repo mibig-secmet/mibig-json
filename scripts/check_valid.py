@@ -79,7 +79,10 @@ def check_single(file: str, prefix: str = "") -> bool:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        if not check_all():
+        try:
+            if not check_all():
+                sys.exit(1)
+        except KeyboardInterrupt:  # hides long JSON decoding stack traces
             sys.exit(1)
     else:
         if not check_multiple(sys.argv[1:]):
