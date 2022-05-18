@@ -35,6 +35,15 @@ def check_gene_duplication(data: Dict[str, Any], prefix: str) -> bool:
     return True
 
 
+def check_kr_stereochem(data: Dict[str, Any], prefix: str) -> bool:
+    for synthase in data["cluster"].get("polyketide", {}).get("synthases", []):
+        for module in synthase.get("modules", []):
+            if "kr_stereochem" in module and "Ketoreductase" not in module["domains"]:
+                print(f"{prefix}contains KR stereochemistry for modules without KR domains")
+                return False
+    return True
+
+
 def check_all() -> bool:
     valid = True
     for dir_name in ["data", "pending"]:
@@ -70,6 +79,7 @@ def check_single(file: str, prefix: str = "") -> bool:
     try:
         for func in [
             check_gene_duplication,
+            check_kr_stereochem,
         ]:
             valid = func(data, prefix) and valid
     except KeyError as err:
