@@ -38,14 +38,23 @@ def add_changelog(record: Dict[str, Any], release: str, comments: List[str], con
     if not contributors:
         contributors = ["AAAAAAAAAAAAAAAAAAAAAAAA"]
 
-    new_entry = {
-        "comments": comments,
-        "contributors": contributors,
-        "version": release,
-    }
+    previous = record["changelog"][-1]
 
-    record["changelog"].append(new_entry)
+    if previous["version"] != release:
+        new_entry = {
+            "comments": comments,
+            "contributors": contributors,
+            "version": release,
+        }
+        record["changelog"].append(new_entry)
+        return
 
+    for comment in comments:
+        if comment not in previous["comments"]:
+            previous["comments"].append(comment)
+    for contributor in contributors:
+        if contributor not in previous["contributors"]:
+            previous["contributors"].append(contributor)
 
 def amend_changelog(record: Dict[str, Any], release: str, comments: List[str], contributors: List[str]) -> None:
     entry = record["changelog"][-1]
