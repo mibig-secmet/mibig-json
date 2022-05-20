@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -216,10 +217,13 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "AFN27480.1"
+                                "AFN27480.1",
+                                "AFN27481.1"
                             ],
                             "module_number": "6",
                             "non_canonical": {
@@ -230,19 +234,6 @@
                                 "non_elongating": false,
                                 "skipped": true
                             }
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "AFN27481.1"
-                            ],
-                            "module_number": "6"
                         },
                         {
                             "at_specificities": [
@@ -267,24 +258,14 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Ketoreductase",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "AFN27481.1"
-                            ],
-                            "kr_stereochem": "L-OH",
-                            "module_number": "8"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "AFN27481.1",
                                 "AFN27482.1"
                             ],
+                            "kr_stereochem": "L-OH",
                             "module_number": "8"
                         },
                         {
@@ -294,27 +275,14 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Ketoreductase",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "AFN27482.1"
-                            ],
-                            "kr_stereochem": "L-OH",
-                            "module_number": "9",
-                            "pks_mod_doms": [
-                                "Methylation"
-                            ]
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "AFN27482.1",
                                 "AFN27483.1"
                             ],
+                            "kr_stereochem": "L-OH",
                             "module_number": "9",
                             "pks_mod_doms": [
                                 "Methylation"
