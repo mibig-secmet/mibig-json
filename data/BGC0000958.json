@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Reworked NRPS/PKS modules to match reference papers"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -98,26 +99,7 @@
             "cyclic": true,
             "nrps_genes": [
                 {
-                    "gene_id": "ZP_09179982.1",
-                    "modules": [
-                        {
-                            "active": true,
-                            "c_dom_subtype": "Starter",
-                            "module_number": "0"
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "ZP_09179983.1",
-                    "modules": [
-                        {
-                            "active": true,
-                            "module_number": "0"
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "ZP_09179979.1",
+                    "gene_id": "WP_010639240.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -167,8 +149,7 @@
             "synthases": [
                 {
                     "genes": [
-                        "ZP_09179989.1",
-                        "ZP_09179980.1"
+                        "WP_010639241.1"
                     ],
                     "modules": [
                         {
@@ -183,21 +164,8 @@
                             ],
                             "evidence": "Activity assay",
                             "genes": [
-                                "ZP_09179980.1"
+                                "WP_010639241.1"
                             ],
-                            "module_number": "3"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "ZP_09179989.1"
-                            ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3"
                         }
                     ],
