@@ -22,7 +22,8 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Corrected polyketide synthase gene entries",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -203,24 +204,14 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "rhiB"
-                            ],
-                            "kr_stereochem": "L-OH",
-                            "module_number": "3"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "rhiB",
                                 "rhiC"
                             ],
+                            "kr_stereochem": "L-OH",
                             "module_number": "3",
                             "pks_mod_doms": [
                                 "Methylation"
