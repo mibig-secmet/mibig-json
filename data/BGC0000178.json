@@ -22,7 +22,8 @@
             "comments": [
                 "Fixed incorrect gene id in annotations",
                 "Remove leading/trailing whitespace in gene identifiers",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -330,22 +331,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "AEC04356.1"
-                            ],
-                            "module_number": "2"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "AEC04356.1",
                                 "AEC04357.1"
                             ],
                             "kr_stereochem": "D-OH",
@@ -423,23 +414,13 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "AEC04361.1"
-                            ],
-                            "module_number": "7"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Ketoreductase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "AEC04361.1",
                                 "AEC04362.1"
                             ],
                             "kr_stereochem": "D-OH",
@@ -481,24 +462,14 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Ketoreductase",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "AEC04362.1"
-                            ],
-                            "kr_stereochem": "D-OH",
-                            "module_number": "10"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "AEC04362.1",
                                 "AEC04363.1"
                             ],
+                            "kr_stereochem": "D-OH",
                             "module_number": "10",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -543,23 +514,13 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "AEC04363.1"
-                            ],
-                            "module_number": "13"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Ketoreductase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "AEC04363.1",
                                 "AEC04364.1"
                             ],
                             "kr_stereochem": "D-OH",
