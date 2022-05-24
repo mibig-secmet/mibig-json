@@ -23,7 +23,8 @@
             "comments": [
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Corrected gene identifiers",
-                "Merged cross-CDS PKS modules"
+                "Merged cross-CDS PKS modules",
+                "Corrected PKS module 11 activity based on reference paper"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -344,7 +345,15 @@
                                 "sce3191"
                             ],
                             "kr_stereochem": "D-OH",
-                            "module_number": "11"
+                            "module_number": "11",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": false,
+                                "non_elongating": false,
+                                "skipped": true
+                            }
                         },
                         {
                             "at_specificities": [
