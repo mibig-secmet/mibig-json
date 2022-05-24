@@ -44,6 +44,23 @@ def check_kr_stereochem(data: Dict[str, Any], prefix: str) -> bool:
     return True
 
 
+def check_pks_module_duplication(data: Dict[str, Any], prefix: str) -> bool:
+    for synthase in data["cluster"].get("polyketide", {}).get("synthases", []):
+        module_numbers = set()
+        duplicates = set()
+        for module in synthase.get("modules", []):
+            num = module.get("module_number")
+            if num is None:
+                continue
+            if num in module_numbers:
+                duplicates.add(num)
+            module_numbers.add(num)
+        if duplicates:
+            print(f"{prefix}contains duplicate PKS module numbers: {sorted(duplicates)}")
+            return False
+    return True
+
+
 def check_all() -> bool:
     valid = True
     for dir_name in ["data", "pending"]:
@@ -80,6 +97,7 @@ def check_single(file: str, prefix: str = "") -> bool:
         for func in [
             check_gene_duplication,
             check_kr_stereochem,
+            check_pks_module_duplication,
         ]:
             valid = func(data, prefix) and valid
     except KeyError as err:
