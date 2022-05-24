@@ -22,10 +22,12 @@
         {
             "comments": [
                 "Removed invalid NRP information",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Reworked PKS modules to match reference paper"
             ],
             "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "77MNCE2XEGC43DNOUCFLS2KM"
             ],
             "version": "2.1"
         }
@@ -61,37 +63,16 @@
             "synthases": [
                 {
                     "genes": [
-                        "dfnD",
-                        "dfnI",
-                        "dfnF",
-                        "dfnE",
-                        "dfnA",
-                        "dfnJ",
-                        "dfnG",
-                        "dfnH"
+                        "difA",
+                        "difF",
+                        "difG",
+                        "difH",
+                        "difI",
+                        "difJ",
+                        "difK",
+                        "difL"
                     ],
                     "modules": [
-                        {
-                            "at_specificities": [
-                                "Malonyl-CoA"
-                            ],
-                            "domains": [
-                                "Acyltransferase"
-                            ],
-                            "evidence": "Sequence-based prediction",
-                            "genes": [
-                                "dfnA"
-                            ],
-                            "module_number": "0",
-                            "non_canonical": {
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "iterated": true,
-                                "non_elongating": false,
-                                "skipped": false
-                            }
-                        },
                         {
                             "at_specificities": [
                                 "Unknown"
@@ -103,7 +84,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnD"
+                                "difF"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "1",
@@ -118,11 +99,10 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "Ketoreductase",
-                                "Thiolation (ACP/PCP)"
+                                "Ketoreductase"
                             ],
                             "genes": [
-                                "dfnD"
+                                "difF"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "2"
@@ -132,23 +112,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "dfnD"
-                            ],
-                            "module_number": "3"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Dehydratase",
+                                "Ketosynthase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnE"
+                                "difF",
+                                "difG"
                             ],
                             "module_number": "3"
                         },
@@ -162,7 +131,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnE"
+                                "difG"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "4"
@@ -172,31 +141,13 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "dfnE"
-                            ],
-                            "module_number": "5",
-                            "non_canonical": {
-                                "evidence": [
-                                    "Structure-based inference"
-                                ],
-                                "iterated": false,
-                                "non_elongating": false,
-                                "skipped": true
-                            }
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnF"
+                                "difG",
+                                "difH"
                             ],
                             "module_number": "5",
                             "non_canonical": {
@@ -215,38 +166,12 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "dfnF"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "6"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "dfnG"
-                            ],
-                            "module_number": "10"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
                                 "Ketoreductase",
-                                "Thiolation (ACP/PCP)",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnG"
+                                "difH",
+                                "difI"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "6",
@@ -264,7 +189,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnG"
+                                "difI"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "7"
@@ -280,7 +205,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnG"
+                                "difI"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "8"
@@ -295,7 +220,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnG"
+                                "difI"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "9"
@@ -305,14 +230,14 @@
                                 "Unknown"
                             ],
                             "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
-                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "dfnH"
+                                "difI",
+                                "difJ"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "10"
                         },
                         {
@@ -320,31 +245,13 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "dfnH"
-                            ],
-                            "module_number": "11",
-                            "non_canonical": {
-                                "evidence": [
-                                    "Structure-based inference"
-                                ],
-                                "iterated": false,
-                                "non_elongating": false,
-                                "skipped": true
-                            }
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
-                                "Thiolation (ACP/PCP)"
+                                "Dehydratase"
                             ],
                             "genes": [
-                                "dfnI"
+                                "difJ",
+                                "difK"
                             ],
                             "module_number": "11",
                             "non_canonical": {
@@ -363,23 +270,12 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "Ketoreductase"
+                                "Thiolation (ACP/PCP)",
+                                "Enoylreductase"
                             ],
                             "genes": [
-                                "dfnI"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "12"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "dfnJ"
+                                "difK",
+                                "difL"
                             ],
                             "module_number": "12",
                             "pks_mod_doms": [
@@ -391,17 +287,21 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Enoylreductase",
                                 "Ketosynthase",
                                 "Thiolation (ACP/PCP)",
                                 "Thioesterase"
                             ],
                             "genes": [
-                                "dfnJ"
+                                "difL"
                             ],
                             "module_number": "13"
                         }
-                    ]
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "difA"
+                        ]
+                    }
                 }
             ]
         },
