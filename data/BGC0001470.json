@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -315,24 +316,14 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "RAT98530.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "1"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "RAT98530.1",
                                 "RAT98529.1"
                             ],
+                            "kr_stereochem": "Unknown",
                             "module_number": "1",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -360,24 +351,14 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "RAT98529.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "3"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "RAT98529.1",
                                 "RAT98528.1"
                             ],
+                            "kr_stereochem": "Unknown",
                             "module_number": "3",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -404,22 +385,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "RAT98528.1"
-                            ],
-                            "module_number": "5"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "RAT98528.1",
                                 "RAT98527.1"
                             ],
                             "module_number": "5"
@@ -479,13 +450,18 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Ketoreductase"
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "RAT98526.1"
+                                "RAT98526.1",
+                                "RAT98525.1"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "10"
+                            "module_number": "10",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
                         },
                         {
                             "at_specificities": [
@@ -500,21 +476,6 @@
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "9"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "RAT98525.1"
-                            ],
-                            "module_number": "10",
-                            "pks_mod_doms": [
-                                "Methylation"
-                            ]
                         },
                         {
                             "at_specificities": [
@@ -567,40 +528,16 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Enoylreductase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "RAT98519.1"
-                            ],
-                            "module_number": "13"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
                                 "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "RAT98519.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "14"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
+                                "RAT98519.1",
                                 "RAT98518.1"
                             ],
+                            "kr_stereochem": "Unknown",
                             "module_number": "14",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -641,22 +578,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "RAT98518.1"
-                            ],
-                            "module_number": "17"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "RAT98518.1",
                                 "RAT98517.1"
                             ],
                             "module_number": "17"
