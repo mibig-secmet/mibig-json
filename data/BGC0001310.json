@@ -17,11 +17,20 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected biosynthetic class"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
         "biosyn_class": [
-            "Terpene"
+            "Polyketide"
         ],
         "compounds": [
             {
@@ -44,6 +53,22 @@
         "minimal": true,
         "ncbi_tax_id": "443255",
         "organism_name": "Streptomyces clavuligerus ATCC 27064",
+        "polyketide": {
+            "cyclic": false,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "SCLAV_5492"
+                    ],
+                    "subclass": [
+                        "Type III"
+                    ]
+                }
+            ]
+        },
         "publications": [
             "pubmed:26553209"
         ]
