@@ -23,7 +23,8 @@
                 "Corrected NRP module activity",
                 "Removed duplicate gene annotation",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Merged cross-CDS PKS modules"
+                "Merged cross-CDS PKS modules",
+                "Excluded flanking genes"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -111,9 +112,11 @@
         "loci": {
             "accession": "AM746336.1",
             "completeness": "complete",
+            "end_coord": 103763,
             "evidence": [
                 "Knock-out studies"
-            ]
+            ],
+            "start_coord": 23875
         },
         "mibig_accession": "BGC0001070",
         "minimal": false,
