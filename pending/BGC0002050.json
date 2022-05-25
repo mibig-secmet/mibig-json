@@ -7,7 +7,8 @@
                 "Removed erroneous gene name",
                 "Removed gene annotations with no information",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Merged cross-CDS PKS modules"
+                "Merged cross-CDS PKS modules",
+                "Sorted modules by module number"
             ],
             "contributors": [
                 "Z7AIIJAM3U3HR6IYDPQOINM4",
@@ -289,104 +290,44 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Thiolation (ACP/PCP)"
+                                "OXY"
                             ],
                             "genes": [
-                                "QIE07367.1"
+                                "QIE07362.1"
                             ],
-                            "module_number": "14"
+                            "module_number": "3"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase",
-                                "Ketoreductase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "QIE07367.1"
-                            ],
-                            "kr_stereochem": "D-OH",
-                            "module_number": "15"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Thiolation (ACP/PCP)",
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "Thiolation (ACP/PCP)",
-                                "Thioesterase"
+                                "MT"
                             ],
                             "genes": [
-                                "QIE07367.1"
+                                "QIE07363.1"
                             ],
-                            "module_number": "16"
+                            "module_number": "4"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
                             "domains": [
+                                "Thiolation (ACP/PCP)",
                                 "Ketosynthase",
+                                "Dehydratase",
                                 "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "QIE07366.1"
+                                "QIE07364.1"
                             ],
                             "kr_stereochem": "L-OH",
-                            "module_number": "12"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "QIE07366.1",
-                                "QIE07367.1"
-                            ],
-                            "module_number": "13"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Ketoreductase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "QIE07365.1"
-                            ],
-                            "kr_stereochem": "L-OH",
-                            "module_number": "10"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "QIE07365.1",
-                                "QIE07366.1"
-                            ],
-                            "module_number": "11"
+                            "module_number": "5"
                         },
                         {
                             "at_specificities": [
@@ -441,32 +382,31 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Thiolation (ACP/PCP)",
                                 "Ketosynthase",
-                                "Dehydratase",
                                 "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "QIE07364.1"
+                                "QIE07365.1"
                             ],
                             "kr_stereochem": "L-OH",
-                            "module_number": "5"
+                            "module_number": "10"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
                             "domains": [
-                                "Thiolation (ACP/PCP)",
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "MT"
+                                "Thiolation (ACP/PCP)",
+                                "Dehydratase"
                             ],
                             "genes": [
-                                "QIE07363.1"
+                                "QIE07365.1",
+                                "QIE07366.1"
                             ],
-                            "module_number": "4"
+                            "module_number": "11"
                         },
                         {
                             "at_specificities": [
@@ -474,12 +414,73 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "OXY"
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "QIE07362.1"
+                                "QIE07366.1"
                             ],
-                            "module_number": "3"
+                            "kr_stereochem": "L-OH",
+                            "module_number": "12"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Dehydratase"
+                            ],
+                            "genes": [
+                                "QIE07366.1",
+                                "QIE07367.1"
+                            ],
+                            "module_number": "13"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07367.1"
+                            ],
+                            "module_number": "14"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07367.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "15"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "genes": [
+                                "QIE07367.1"
+                            ],
+                            "module_number": "16"
                         }
                     ],
                     "subclass": [
