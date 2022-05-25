@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Sorted modules by module number"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -229,14 +230,15 @@
                                 "Acyltransferase",
                                 "Ketoreductase",
                                 "Dehydratase",
+                                "Enoylreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
-                            "evidence": "Structure-based inference",
+                            "evidence": "Sequence-based prediction",
                             "genes": [
-                                "CAO98847.1"
+                                "CAO98852.1"
                             ],
                             "kr_stereochem": "L-OH",
-                            "module_number": "6"
+                            "module_number": "1"
                         },
                         {
                             "at_specificities": [
@@ -288,24 +290,6 @@
                                 "Ketosynthase",
                                 "Acyltransferase",
                                 "Ketoreductase",
-                                "Enoylreductase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "evidence": "Structure-based inference",
-                            "genes": [
-                                "CAO98848.1"
-                            ],
-                            "kr_stereochem": "L-OH",
-                            "module_number": "7"
-                        },
-                        {
-                            "at_specificities": [
-                                "Malonyl-CoA"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Acyltransferase",
-                                "Ketoreductase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
@@ -348,6 +332,42 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAO98847.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "6"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CAO98848.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "7"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
                                 "Dehydratase",
                                 "Enoylreductase",
                                 "Thiolation (ACP/PCP)"
@@ -357,25 +377,6 @@
                                 "CAO98850.1"
                             ],
                             "module_number": "8"
-                        },
-                        {
-                            "at_specificities": [
-                                "Methylmalonyl-CoA"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Acyltransferase",
-                                "Ketoreductase",
-                                "Dehydratase",
-                                "Enoylreductase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "evidence": "Sequence-based prediction",
-                            "genes": [
-                                "CAO98852.1"
-                            ],
-                            "kr_stereochem": "L-OH",
-                            "module_number": "1"
                         }
                     ],
                     "subclass": [

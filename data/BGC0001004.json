@@ -22,7 +22,8 @@
         {
             "comments": [
                 "Corrected polyketide synthase gene entries",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Sorted modules by module number"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -150,21 +151,18 @@
                     "modules": [
                         {
                             "at_specificities": [
-                                "Methylmalonyl-CoA"
+                                "Malonyl-CoA"
                             ],
                             "domains": [
                                 "Ketosynthase",
                                 "Acyltransferase",
-                                "Ketoreductase",
-                                "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "evidence": "Structure-based inference",
                             "genes": [
-                                "lobA1"
+                                "lobA5"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "10"
+                            "module_number": "0"
                         },
                         {
                             "at_specificities": [
@@ -174,16 +172,13 @@
                                 "Ketosynthase",
                                 "Acyltransferase",
                                 "Ketoreductase",
-                                "Dehydratase",
-                                "Enoylreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
-                            "evidence": "Structure-based inference",
                             "genes": [
-                                "lobA1"
+                                "lobA5"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "9"
+                            "module_number": "1"
                         },
                         {
                             "at_specificities": [
@@ -193,14 +188,14 @@
                                 "Ketosynthase",
                                 "Acyltransferase",
                                 "Ketoreductase",
+                                "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
-                            "evidence": "Structure-based inference",
                             "genes": [
-                                "lobA2"
+                                "lobA5"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "11"
+                            "module_number": "2"
                         },
                         {
                             "at_specificities": [
@@ -213,12 +208,11 @@
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
-                            "evidence": "Structure-based inference",
                             "genes": [
-                                "lobA3"
+                                "lobA5"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "8"
+                            "module_number": "3"
                         },
                         {
                             "at_specificities": [
@@ -297,45 +291,34 @@
                                 "Ketosynthase",
                                 "Acyltransferase",
                                 "Ketoreductase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "lobA5"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "1"
-                        },
-                        {
-                            "at_specificities": [
-                                "Malonyl-CoA"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Acyltransferase",
+                                "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "evidence": "Structure-based inference",
                             "genes": [
-                                "lobA5"
+                                "lobA3"
                             ],
-                            "module_number": "0"
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8"
                         },
                         {
                             "at_specificities": [
-                                "Malonyl-CoA"
+                                "Methylmalonyl-CoA"
                             ],
                             "domains": [
                                 "Ketosynthase",
                                 "Acyltransferase",
                                 "Ketoreductase",
                                 "Dehydratase",
+                                "Enoylreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
+                            "evidence": "Structure-based inference",
                             "genes": [
-                                "lobA5"
+                                "lobA1"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "2"
+                            "module_number": "9"
                         },
                         {
                             "at_specificities": [
@@ -348,11 +331,29 @@
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
+                            "evidence": "Structure-based inference",
                             "genes": [
-                                "lobA5"
+                                "lobA1"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "3"
+                            "module_number": "10"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "lobA2"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "11"
                         }
                     ],
                     "subclass": [
