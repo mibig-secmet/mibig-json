@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -45,142 +46,6 @@
                 "molecular_formula": "C39H56N6O8"
             }
         ],
-        "genes": {
-            "annotations": [
-                {
-                    "comments": "smCOG: SMCOG1003:sensor_histidine_kinase (Score: 182.4; E-value: 3.1e-55);",
-                    "id": "orf1",
-                    "product": "two-component sensor histidine kinase"
-                },
-                {
-                    "id": "orf2",
-                    "product": "membrane protein"
-                },
-                {
-                    "id": "orf3",
-                    "product": "uncharacterized protein"
-                },
-                {
-                    "id": "orf4",
-                    "product": "uncharacterized protein"
-                },
-                {
-                    "id": "orf5",
-                    "product": "uncharacterized protein"
-                },
-                {
-                    "comments": "smCOG: SMCOG1039:aldo/keto_reductase_family_oxidoreductase (Score: 129.0; E-value: 3.4e-39);",
-                    "id": "orf6",
-                    "product": "aldo/keto reductase"
-                },
-                {
-                    "id": "orf7",
-                    "product": "uncharacterized protein"
-                },
-                {
-                    "id": "orf8",
-                    "product": "uncharacterized protein"
-                }
-            ],
-            "extra_genes": [
-                {
-                    "id": "orf1",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 1521,
-                                "start": 1
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf2",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 2064,
-                                "start": 1576
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "orf3",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 3118,
-                                "start": 2489
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf4",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 3563,
-                                "start": 3078
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf5",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 32108,
-                                "start": 31848
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf6",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 32938,
-                                "start": 32129
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "orf7",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 34105,
-                                "start": 33347
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "orf8",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 34448,
-                                "start": 34107
-                            }
-                        ],
-                        "strand": -1
-                    }
-                }
-            ]
-        },
         "loci": {
             "accession": "KX622587.1",
             "completeness": "complete",
