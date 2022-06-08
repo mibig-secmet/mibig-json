@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Fixed incorrect gene identifier"
+                "Fixed incorrect gene identifier",
+                "Moved complete compound to first in the list"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,6 +35,15 @@
             "Saccharide"
         ],
         "compounds": [
+            {
+                "chem_struct": "C1=C(C=C2C(=C1O)C(=CC(=O)C2=O)O)O",
+                "compound": "flaviolin",
+                "database_id": [
+                    "pubchem:160478"
+                ],
+                "mol_mass": 206.021523292,
+                "molecular_formula": "C10H6O5"
+            },
             {
                 "chem_struct": "O=C1C=C(O)C(C2=CC(O[C@H]3O[C@H](C)[C@@H](O)[C@H](O)[C@@H]3O)=CC(O)=C21)=O",
                 "compound": "flaviolin rhamnoside",
@@ -53,15 +63,6 @@
                 "mass_spec_ion_type": "[M+H]+",
                 "mol_mass": 410.0273965199999,
                 "molecular_formula": "C20H10O10"
-            },
-            {
-                "chem_struct": "C1=C(C=C2C(=C1O)C(=CC(=O)C2=O)O)O",
-                "compound": "flaviolin",
-                "database_id": [
-                    "pubchem:160478"
-                ],
-                "mol_mass": 206.021523292,
-                "molecular_formula": "C10H6O5"
             }
         ],
         "genes": {
