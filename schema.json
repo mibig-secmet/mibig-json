@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$schema_created": "2022-05-17T13:40:24+02:00",
-    "$schema_version": "2.3",
+    "$schema_created": "2022-06-08T15:07:24+02:00",
+    "$schema_version": "2.5",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -264,7 +264,7 @@
                                         "type": "array"
                                     },
                                     "id": {
-                                        "pattern": "^[^ ].*[^ ]$",
+                                        "pattern": "^[^, ]*$",
                                         "title": "Gene ID",
                                         "type": "string"
                                     },
@@ -273,7 +273,7 @@
                                         "type": "string"
                                     },
                                     "name": {
-                                        "pattern": "^[^ ].*[^ ]$",
+                                        "pattern": "^[^, ]*$",
                                         "title": "Gene name, ",
                                         "type": "string"
                                     },
@@ -310,7 +310,7 @@
                                 "additionalProperties": false,
                                 "properties": {
                                     "id": {
-                                        "pattern": "^[^ ].*[^ ]$",
+                                        "pattern": "^[^, ]*$",
                                         "title": "Gene ID",
                                         "type": "string"
                                     },
@@ -489,6 +489,7 @@
                                 "additionalProperties": false,
                                 "properties": {
                                     "gene_id": {
+                                        "pattern": "^[^, ]*$",
                                         "title": "NRPS-encoding gene",
                                         "type": "string"
                                     },
@@ -648,6 +649,7 @@
                                 "additionalProperties": false,
                                 "properties": {
                                     "gene": {
+                                        "pattern": "^[^, ]*$",
                                         "title": "Thioesterase-encoding gene id",
                                         "type": "string"
                                     },
@@ -726,7 +728,7 @@
                                 "properties": {
                                     "genes": {
                                         "items": {
-                                            "pattern": "^[^,]*$",
+                                            "pattern": "^[^, ]*$",
                                             "type": "string"
                                         },
                                         "minItems": 1,
@@ -751,7 +753,7 @@
                                             },
                                             "genes": {
                                                 "items": {
-                                                    "pattern": "^[^,]*$",
+                                                    "pattern": "^[^, ]*$",
                                                     "type": "string"
                                                 },
                                                 "minItems": 1,
@@ -812,7 +814,7 @@
                                                 },
                                                 "genes": {
                                                     "items": {
-                                                        "pattern": "^[^,]*$",
+                                                        "pattern": "^[^, ]*$",
                                                         "type": "string"
                                                     },
                                                     "minItems": 1,
@@ -894,6 +896,7 @@
                                             "additionalProperties": false,
                                             "properties": {
                                                 "gene": {
+                                                    "pattern": "^[^, ]*$",
                                                     "title": "Thioesterase-encoding gene id",
                                                     "type": "string"
                                                 },
@@ -1023,6 +1026,7 @@
                                         "type": "string"
                                     },
                                     "gene_id": {
+                                        "pattern": "^[^, ]*$",
                                         "title": "Gene ID:",
                                         "type": "string"
                                     },
@@ -1075,6 +1079,7 @@
                                         "type": "array"
                                     },
                                     "gene_id": {
+                                        "pattern": "^[^, ]*$",
                                         "title": "Gene ID",
                                         "type": "string"
                                     },
