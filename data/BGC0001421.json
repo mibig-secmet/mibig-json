@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations"
+                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations",
+                "Changed gene identifiers used to consistently be 'gene' names"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -62,7 +63,7 @@
             "cyclic": true,
             "nrps_genes": [
                 {
-                    "gene_id": "no_accession",
+                    "gene_id": "mchB",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -94,7 +95,12 @@
                             "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "3"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "mchC",
+                    "modules": [
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
@@ -189,7 +195,6 @@
             "synthases": [
                 {
                     "genes": [
-                        "no_accession",
                         "mchA"
                     ],
                     "iterative": {
@@ -212,7 +217,7 @@
                             ],
                             "evidence": "Structure-based inference",
                             "genes": [
-                                "no_accession"
+                                "mchA"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "1",
