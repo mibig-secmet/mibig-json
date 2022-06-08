@@ -12,6 +12,34 @@ with open("schema.json") as schema_handle:
     schema = json.load(schema_handle)
 
 
+def check_gene_naming(data: Dict[str, Any], prefix: str) -> bool:
+    invalid = {
+        "no_accession",
+    }
+    ids = set()
+    for gene in data["cluster"].get("genes", {}).get("annotations", {}):
+        ids.add(gene["id"])
+        name = gene.get("name")
+        if name:
+            ids.add(name)
+    nrp = data["cluster"].get("nrp", {})
+    if nrp:
+        for nrps_gene in nrp.get("nrps_genes", []):
+            ids.add(nrps_gene["gene_id"])
+        for thioesterase in nrp.get("thioesterases", []):
+            ids.add(thioesterase["gene"])
+    for synthase in data["cluster"].get("polyketide", {}).get("synthases", []):
+        for gene in synthase.get("genes", []):
+            ids.add(gene)
+        for module in synthase.get("modules", []):
+            for gene in module.get("genes", []):
+                ids.add(gene)
+    if ids.intersection(invalid):
+        print(f"{prefix}invalid gene identifiers: {', '.join(list(ids.intersection(invalid)))}")
+        return False
+    return True
+
+
 def check_gene_duplication(data: Dict[str, Any], prefix: str) -> bool:
     ids = []
     names = []
@@ -96,6 +124,7 @@ def check_single(file: str, prefix: str = "") -> bool:
     try:
         for func in [
             check_gene_duplication,
+            check_gene_naming,
             check_kr_stereochem,
             check_pks_module_duplication,
         ]:
