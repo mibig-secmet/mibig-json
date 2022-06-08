@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -45,146 +46,6 @@
                 "molecular_formula": "C38H54N6O8"
             }
         ],
-        "genes": {
-            "annotations": [
-                {
-                    "id": "orf1",
-                    "product": "uncharacterized protein"
-                },
-                {
-                    "comments": "smCOG: SMCOG1057:TetR_family_transcriptional_regulator (Score: 113.0; E-value: 3.8e-34);",
-                    "id": "orf2",
-                    "product": "TetR family transcriptional regulator"
-                },
-                {
-                    "comments": "smCOG: SMCOG1036:alpha/beta_hydrolase_fold_protein (Score: 143.5; E-value: 1.7e-43);",
-                    "id": "orf3",
-                    "product": "3-oxoadipate enol-lactonase"
-                },
-                {
-                    "comments": "smCOG: SMCOG1104:putative_esterase (Score: 23.4; E-value: 4.9e-07);",
-                    "id": "orf4",
-                    "product": "PHB depolymerase esterase"
-                },
-                {
-                    "comments": "smCOG: SMCOG1193:glutathione_S-transferase (Score: 122.0; E-value: 4e-37);",
-                    "id": "orf5",
-                    "product": "glutathione S-transferase"
-                },
-                {
-                    "id": "orf6",
-                    "product": "uncharacterized protein"
-                },
-                {
-                    "comments": "smCOG: SMCOG1030:serine/threonine_protein_kinase (Score: 108.1; E-value: 9.2e-33);",
-                    "id": "orf7",
-                    "product": "protein kinase"
-                },
-                {
-                    "comments": "smCOG: SMCOG1030:serine/threonine_protein_kinase (Score: 165.6; E-value: 2.5e-50);",
-                    "id": "orf8",
-                    "product": "protein kinase"
-                }
-            ],
-            "extra_genes": [
-                {
-                    "id": "orf1",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 1557,
-                                "start": 1
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf2",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 2260,
-                                "start": 1616
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "orf3",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 3203,
-                                "start": 2382
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf4",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 4221,
-                                "start": 3220
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf5",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 34815,
-                                "start": 34183
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf6",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 35241,
-                                "start": 34873
-                            }
-                        ],
-                        "strand": 1
-                    }
-                },
-                {
-                    "id": "orf7",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 36389,
-                                "start": 35262
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "orf8",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 38283,
-                                "start": 36550
-                            }
-                        ],
-                        "strand": -1
-                    }
-                }
-            ]
-        },
         "loci": {
             "accession": "KX622600.1",
             "completeness": "complete",
