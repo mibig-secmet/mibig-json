@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations"
+                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations",
+                "Changed gene identifiers used to consistently be 'gene' names"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -60,7 +61,7 @@
             "cyclic": true,
             "nrps_genes": [
                 {
-                    "gene_id": "APZ78833.1",
+                    "gene_id": "mchB",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -96,7 +97,7 @@
                     ]
                 },
                 {
-                    "gene_id": "APZ78834.1",
+                    "gene_id": "mchC",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -177,7 +178,6 @@
             "synthases": [
                 {
                     "genes": [
-                        "APZ78832.1",
                         "mchA"
                     ],
                     "iterative": {
@@ -200,7 +200,7 @@
                             ],
                             "evidence": "Sequence-based prediction",
                             "genes": [
-                                "APZ78832.1"
+                                "mchA"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "1",
