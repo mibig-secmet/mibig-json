@@ -20,10 +20,14 @@
         },
         {
             "comments": [
-                "Update compound structure (SMILES) for onnamide A"
+                "Update compound structure (SMILES) for onnamide A",
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Removed invalid PKS modules"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
         }
@@ -82,7 +86,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "5"
                         }
@@ -101,7 +105,7 @@
                                     "Arginine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "14"
                         }
@@ -126,8 +130,7 @@
                 {
                     "genes": [
                         "AAV97877.1",
-                        "AAV97870.1",
-                        "no accession available"
+                        "AAV97870.1"
                     ],
                     "modules": [
                         {
@@ -140,7 +143,6 @@
                             "genes": [
                                 "AAV97870.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "0",
                             "pks_mod_doms": [
                                 "GNAT"
@@ -177,7 +179,6 @@
                             "genes": [
                                 "AAV97870.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2",
                             "pks_mod_doms": [
                                 "2x Crotonase / Enoyl-CoA dehydratase"
@@ -194,7 +195,6 @@
                             "genes": [
                                 "AAV97870.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3"
                         },
                         {
@@ -223,7 +223,6 @@
                             "genes": [
                                 "AAV97877.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "11"
                         },
                         {
@@ -237,7 +236,6 @@
                             "genes": [
                                 "AAV97877.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4"
                         },
                         {
@@ -307,50 +305,6 @@
                             ],
                             "kr_stereochem": "L-OH",
                             "module_number": "9"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "no accession available"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "11"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "no accession available"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "12"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Ketosynthase",
-                                "Ketoreductase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "no accession available"
-                            ],
-                            "kr_stereochem": "D-OH",
-                            "module_number": "13"
                         }
                     ],
                     "subclass": [

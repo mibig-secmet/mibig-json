@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -115,12 +125,12 @@
                     "gene_id": "ABS74181",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Unknown",
                             "module_number": "1"
                         },
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Unknown",
                             "modification_domains": [
                                 "Amination"
@@ -137,12 +147,12 @@
                                     "Asparagine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         },
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "5"
                         }
@@ -161,7 +171,7 @@
                                     "Tyrosine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "5"
                         },
                         {
@@ -174,7 +184,7 @@
                                     "Asparagine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "6"
                         },
@@ -188,7 +198,7 @@
                                     "Proline"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "7"
                         },
@@ -202,12 +212,12 @@
                                     "Glutamate"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "8"
                         },
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "9"
                         }
@@ -226,7 +236,7 @@
                                     "Threonine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "10"
                         },
@@ -240,7 +250,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "9"
                         }
                     ]
@@ -268,7 +278,6 @@
                             "genes": [
                                 "ABS74182"
                             ],
-                            "kr_stereochem": "Unknown",
                             "non_canonical": {
                                 "evidence": [
                                     "Sequence-based prediction"
@@ -289,7 +298,6 @@
                             "genes": [
                                 "ABS74181"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2"
                         }
                     ]

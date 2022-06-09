@@ -2,10 +2,15 @@
     "changelog": [
         {
             "comments": [
-                "Submitted"
+                "Submitted",
+                "Corrected NRP module activity",
+                "Removed gene names of 'No gene ID'",
+                "Corrected duplicate gene name",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
             ],
             "contributors": [
-                "KTTDKEJDYAQ7MKSNPMBDOYYX"
+                "KTTDKEJDYAQ7MKSNPMBDOYYX",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
         }
@@ -41,7 +46,6 @@
                         }
                     ],
                     "id": "WP_012408783.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -54,7 +58,6 @@
                         }
                     ],
                     "id": "WP_148220293.1",
-                    "name": "No gene ID",
                     "product": "acyltransferase domain-containing protein"
                 },
                 {
@@ -67,7 +70,6 @@
                         }
                     ],
                     "id": "WP_012408785.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -80,7 +82,6 @@
                         }
                     ],
                     "id": "WP_012408786.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -93,7 +94,6 @@
                         }
                     ],
                     "id": "WP_012408787.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
@@ -106,7 +106,6 @@
                         }
                     ],
                     "id": "WP_012408788.1",
-                    "name": "proC",
                     "product": "zinc-binding dehydrogenase"
                 },
                 {
@@ -132,7 +131,6 @@
                         }
                     ],
                     "id": "WP_012408790.1",
-                    "name": "No gene ID",
                     "product": "ABC transporter ATP-binding protein/permease"
                 }
             ]
@@ -166,7 +164,7 @@
                                     "Isoleucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "1"
                         },
@@ -180,7 +178,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "2"
                         },
@@ -194,7 +192,7 @@
                                     "4-Methylproline"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "3"
                         },
@@ -208,7 +206,7 @@
                                     "Leucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         }
@@ -227,7 +225,7 @@
                                     "Leucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "6"
                         },
@@ -241,7 +239,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "7"
                         },
@@ -255,7 +253,7 @@
                                     "Asparigine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "8"
                         }
@@ -274,7 +272,7 @@
                                     "Tyrosine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "10"
                         },
@@ -288,7 +286,7 @@
                                     "Proline"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "9"
                         }
@@ -325,7 +323,6 @@
                             "genes": [
                                 "WP_148220293.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "5"
                         }
                     ],

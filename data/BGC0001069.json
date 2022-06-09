@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -165,7 +176,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization",
                             "module_number": "9"
                         }
@@ -348,24 +359,13 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "AAY89051.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "11"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Ketoreductase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "AAY89051.1",
                                 "AAY89052.1"
                             ],
                             "kr_stereochem": "D-OH",
@@ -469,7 +469,6 @@
                             "genes": [
                                 "AAY89053.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "17"
                         }
                     ],

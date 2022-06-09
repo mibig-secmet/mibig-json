@@ -2,10 +2,16 @@
     "changelog": [
         {
             "comments": [
-                "Submitted"
+                "Submitted",
+                "Corrected NRP module activity",
+                "Removed erroneous gene name",
+                "Removed gene annotations with no information",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
             ],
             "contributors": [
-                "Z7AIIJAM3U3HR6IYDPQOINM4"
+                "Z7AIIJAM3U3HR6IYDPQOINM4",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
         }
@@ -50,16 +56,7 @@
                     ]
                 },
                 {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
                     "id": "QIE07360.1",
-                    "name": "necB",
                     "product": "hypothetical protein"
                 },
                 {
@@ -216,7 +213,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "6"
                         }
@@ -235,7 +232,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "2"
                         }
                     ]
@@ -253,7 +250,7 @@
                                     "Lysine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Starter",
                             "module_number": "1"
                         }
@@ -291,28 +288,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "QIE07367.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "13"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
                                 "Ketosynthase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
                                 "QIE07367.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "14"
                         },
                         {
@@ -343,23 +324,7 @@
                             "genes": [
                                 "QIE07367.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "16"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "QIE07366.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "11"
                         },
                         {
                             "at_specificities": [
@@ -381,12 +346,15 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Dehydratase"
                             ],
                             "genes": [
-                                "QIE07366.1"
+                                "QIE07366.1",
+                                "QIE07367.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "13"
                         },
                         {
@@ -409,12 +377,15 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Dehydratase"
                             ],
                             "genes": [
-                                "QIE07365.1"
+                                "QIE07365.1",
+                                "QIE07366.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "11"
                         },
                         {
@@ -495,7 +466,6 @@
                             "genes": [
                                 "QIE07363.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4"
                         },
                         {
@@ -509,7 +479,6 @@
                             "genes": [
                                 "QIE07362.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3"
                         }
                     ],

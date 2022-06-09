@@ -20,10 +20,15 @@
         },
         {
             "comments": [
-                "Linked new PubChem id for bacillaene (pubchem:25144999)"
+                "Linked new PubChem id for bacillaene (pubchem:25144999)",
+                "Corrected NRP module activity",
+                "Changed annotations to use correct gene idenitifers",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules and corrected others"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
         }
@@ -59,7 +64,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421284",
+                    "id": "baeB",
                     "name": "baeB",
                     "product": "hydroxyacylglutathione hydrolase"
                 },
@@ -72,7 +77,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421285",
+                    "id": "baeC",
                     "name": "baeC",
                     "product": "malonyl-CoA-[acyl-carrier-protein] transacylase [AT]"
                 },
@@ -85,7 +90,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421286",
+                    "id": "baeD",
                     "name": "baeD",
                     "product": "malonyl-CoA-[acyl-carrier-protein] transacylase [AT]"
                 },
@@ -98,7 +103,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421287",
+                    "id": "baeE",
                     "name": "baeE",
                     "product": "malonyl-CoA-[acyl-carrier protein] transacylase [AT]/oxidoreductase [OR]"
                 },
@@ -111,7 +116,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421288",
+                    "id": "acpK",
                     "name": "acpK",
                     "product": "acyl carrier protein"
                 },
@@ -124,7 +129,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421289",
+                    "id": "baeG",
                     "name": "baeG",
                     "product": "3-hydroxy-3-methylglutaryl CoA synthase"
                 },
@@ -137,7 +142,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421290",
+                    "id": "baeH",
                     "name": "baeH",
                     "product": "polyketide biosynthesis enoyl-CoA hydratase"
                 },
@@ -150,7 +155,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421291",
+                    "id": "baeI",
                     "name": "baeI",
                     "product": "polyketide biosynthesis enoyl-CoA hydratase"
                 },
@@ -163,7 +168,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421292",
+                    "id": "baeJ",
                     "name": "baeJ",
                     "product": "hybrid NRPS/PKS protein"
                 },
@@ -176,7 +181,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421293",
+                    "id": "baeL",
                     "name": "baeL",
                     "product": "polyketide synthase of type I"
                 },
@@ -189,7 +194,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421294",
+                    "id": "baeM",
                     "name": "baeM",
                     "product": "polyketide synthase of type I"
                 },
@@ -202,7 +207,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421295",
+                    "id": "baeN",
                     "name": "baeN",
                     "product": "hybrid NRPS/PKS protein"
                 },
@@ -215,7 +220,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421296",
+                    "id": "baeR",
                     "name": "baeR",
                     "product": "polyketide synthase of type I"
                 },
@@ -228,7 +233,7 @@
                             ]
                         }
                     ],
-                    "id": "YP001421297",
+                    "id": "baeS",
                     "name": "baeS",
                     "product": "cytochrome P450 'oxidase'"
                 }
@@ -247,10 +252,10 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "YP001421292",
+                    "gene_id": "baeJ",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "0"
                         },
@@ -261,17 +266,17 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "1"
                         }
                     ]
                 },
                 {
-                    "gene_id": "YP001421295",
+                    "gene_id": "baeN",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "11"
                         }
@@ -284,11 +289,11 @@
             "synthases": [
                 {
                     "genes": [
-                        "YP001421292",
-                        "YP001421293",
-                        "YP001421295",
-                        "YP001421296",
-                        "YP001421294"
+                        "baeJ",
+                        "baeL",
+                        "baeM",
+                        "baeN",
+                        "baeR"
                     ],
                     "modules": [
                         {
@@ -303,7 +308,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421292"
+                                "baeJ"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "2"
@@ -318,7 +323,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421292"
+                                "baeJ"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "3"
@@ -328,35 +333,23 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421292"
+                                "baeJ",
+                                "baeL"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4",
                             "non_canonical": {
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
                                 "iterated": false,
-                                "non_elongating": false,
-                                "skipped": true
+                                "non_elongating": true,
+                                "skipped": false
                             }
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "YP001421293"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "4"
                         },
                         {
                             "at_specificities": [
@@ -369,7 +362,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421293"
+                                "baeL"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "5"
@@ -384,9 +377,8 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421293"
+                                "baeL"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "6"
                         },
                         {
@@ -399,7 +391,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421293"
+                                "baeL"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "7"
@@ -412,17 +404,16 @@
                                 "Ketosynthase"
                             ],
                             "genes": [
-                                "YP001421293"
+                                "baeL"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "8",
                             "non_canonical": {
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
                                 "iterated": false,
-                                "non_elongating": false,
-                                "skipped": true
+                                "non_elongating": true,
+                                "skipped": false
                             }
                         },
                         {
@@ -436,7 +427,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421294"
+                                "baeM"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "9",
@@ -454,7 +445,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421294"
+                                "baeM"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "10"
@@ -470,7 +461,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421295"
+                                "baeN"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "12"
@@ -486,7 +477,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421295"
+                                "baeN"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "13"
@@ -498,26 +489,15 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "YP001421295"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "14"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421296"
+                                "baeN",
+                                "baeR"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "15",
+                            "module_number": "14",
                             "pks_mod_doms": [
                                 "Methylation"
                             ]
@@ -532,10 +512,9 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "YP001421296"
+                                "baeR"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "16",
+                            "module_number": "15",
                             "non_canonical": {
                                 "evidence": [
                                     "Structure-based inference"
@@ -555,10 +534,9 @@
                                 "Thioesterase"
                             ],
                             "genes": [
-                                "YP001421296"
+                                "baeR"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "17",
+                            "module_number": "16",
                             "non_canonical": {
                                 "evidence": [
                                     "Structure-based inference"

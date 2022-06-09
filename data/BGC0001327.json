@@ -19,6 +19,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed gene names of 'No gene ID'",
+                "Removed gene annotation with no reference name or ID"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -58,7 +69,6 @@
                         }
                     ],
                     "id": "WP_052165465.1",
-                    "name": "No gene ID",
                     "product": "type I polyketide synthase"
                 },
                 {
@@ -71,7 +81,6 @@
                         }
                     ],
                     "id": "WP_030498974.1",
-                    "name": "No gene ID",
                     "product": "tyrocidine synthase 3"
                 },
                 {
@@ -84,7 +93,6 @@
                         }
                     ],
                     "id": "WP_030498975.1",
-                    "name": "No gene ID",
                     "product": "type I polyketide synthase"
                 },
                 {
@@ -97,7 +105,6 @@
                         }
                     ],
                     "id": "WP_052165466.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -110,7 +117,6 @@
                         }
                     ],
                     "id": "WP_030498977.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
@@ -123,25 +129,10 @@
                         }
                     ],
                     "id": "WP_030498978.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
-                    "functions": [
-                        {
-                            "category": "Scaffold biosynthesis",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "No protein ID",
-                    "name": "No gene ID",
-                    "product": "gramicidin dehydrogenase"
-                },
-                {
                     "id": "WP_030498980.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
@@ -154,7 +145,6 @@
                         }
                     ],
                     "id": "WP_030498981.1",
-                    "name": "No gene ID",
                     "product": "clavaminate synthase",
                     "tailoring": [
                         "Monooxygenation"
@@ -190,7 +180,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "2"
                         }
@@ -209,7 +199,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "modification_domains": [
                                 "Methylation"
@@ -231,12 +221,12 @@
                                     "Beta-hydroxyasparagine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "5"
                         },
                         {
-                            "active": true,
+                            "active": false,
                             "c_dom_subtype": "LCL",
                             "module_number": "6",
                             "non_canonical": {
@@ -254,7 +244,7 @@
                     "gene_id": "WP_030498980.1",
                     "modules": [
                         {
-                            "active": true,
+                            "active": false,
                             "c_dom_subtype": "DCL",
                             "module_number": "7",
                             "non_canonical": {

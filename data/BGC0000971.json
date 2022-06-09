@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Remove leading/trailing whitespace in gene identifiers",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -175,7 +186,7 @@
                         }
                     ],
                     "id": "CBW54676.1",
-                    "name": "cinF ",
+                    "name": "cinF",
                     "product": "octenoyl-CoA reductase/carboxylase"
                 },
                 {
@@ -238,7 +249,7 @@
                     "gene_id": "CBW54671.1",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "2"
                         }
@@ -257,7 +268,7 @@
                                     "B-OH-cyc-hex-ala"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "2"
                         }
@@ -297,7 +308,6 @@
                             "genes": [
                                 "CBW54671.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1"
                         }
                     ],

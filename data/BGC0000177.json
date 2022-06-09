@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -309,7 +319,6 @@
                             "genes": [
                                 "ACY01388.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "0"
                         },
                         {
@@ -339,7 +348,6 @@
                             "genes": [
                                 "ACY01390.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2",
                             "pks_mod_doms": [
                                 "Michael branching"
@@ -350,23 +358,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "ACY01390.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "3"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ACY01390.1",
                                 "ACY01391.1"
                             ],
                             "kr_stereochem": "Unknown",
@@ -383,7 +380,6 @@
                             "genes": [
                                 "ACY01391.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4"
                         },
                         {
@@ -434,7 +430,6 @@
                             "genes": [
                                 "ACY01391.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "7"
                         },
                         {
@@ -460,12 +455,13 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Dehydratase"
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "ACY01391.1"
+                                "ACY01391.1",
+                                "ACY01392.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "9"
                         },
                         {
@@ -483,19 +479,6 @@
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "10"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "ACY01392.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "9"
                         }
                     ],
                     "subclass": [

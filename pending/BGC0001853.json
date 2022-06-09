@@ -12,7 +12,10 @@
         {
             "comments": [
                 "Fixed NRPS module numbering",
-                "Re-added to MIBiG"
+                "Re-added to MIBiG",
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Reworked NRPS/PKS module information"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -481,7 +484,7 @@
             "cyclic": true,
             "nrps_genes": [
                 {
-                    "gene_id": "LrgS",
+                    "gene_id": "ctg3_15",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -494,13 +497,13 @@
                                     "Threonine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "1"
                         }
                     ]
                 },
                 {
-                    "gene_id": "LrgI",
+                    "gene_id": "ctg3_18",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -513,7 +516,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization",
                             "modification_domains": [
                                 "Oxidation"
@@ -542,31 +545,11 @@
             "synthases": [
                 {
                     "genes": [
-                        "LrgG",
-                        "LrgA",
-                        "LrgN",
-                        "LrgJ",
-                        "LrgI",
-                        "LrgL",
-                        "LrgK"
+                        "ctg3_13",
+                        "ctg3_18",
+                        "ctg3_19"
                     ],
                     "modules": [
-                        {
-                            "at_specificities": [
-                                "Malonyl-CoA"
-                            ],
-                            "comments": "",
-                            "domains": [
-                                "Acyltransferase"
-                            ],
-                            "evidence": "Structure-based inference",
-                            "genes": [
-                                "LrgG"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0",
-                            "pks_mod_doms": []
-                        },
                         {
                             "at_specificities": [
                                 "Unknown"
@@ -577,11 +560,17 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "LrgI"
+                                "ctg3_18"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3A",
-                            "pks_mod_doms": []
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": false,
+                                "non_elongating": false,
+                                "skipped": true
+                            }
                         },
                         {
                             "at_specificities": [
@@ -594,10 +583,10 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "LrgI"
+                                "ctg3_18"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "3B",
+                            "module_number": "3",
                             "pks_mod_doms": []
                         },
                         {
@@ -609,9 +598,8 @@
                                 "Ketosynthase"
                             ],
                             "genes": [
-                                "LrgI"
+                                "ctg3_18"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4A",
                             "pks_mod_doms": []
                         },
@@ -626,7 +614,7 @@
                                 "Ketoreductase"
                             ],
                             "genes": [
-                                "LrgJ"
+                                "ctg3_19"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "4B",
@@ -642,9 +630,8 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "LrgJ"
+                                "ctg3_19"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "5",
                             "pks_mod_doms": [
                                 "Enoyl-CoA dehydratase",
@@ -663,7 +650,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "LrgJ"
+                                "ctg3_19"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "6",
@@ -682,7 +669,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "LrgJ"
+                                "ctg3_19"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "7",
@@ -700,79 +687,22 @@
                                 "Thioesterase"
                             ],
                             "genes": [
-                                "LrgJ"
+                                "ctg3_19"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "8",
                             "pks_mod_doms": [
                                 "Beta-branching"
                             ]
-                        },
-                        {
-                            "at_specificities": [
-                                "Methylmalonyl-CoA"
-                            ],
-                            "comments": "",
-                            "domains": [
-                                "Acyltransferase"
-                            ],
-                            "evidence": "Structure-based inference",
-                            "genes": [
-                                "LrgK"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0",
-                            "pks_mod_doms": []
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "comments": "",
-                            "domains": [
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "LrgL"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0",
-                            "pks_mod_doms": []
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "comments": "",
-                            "domains": [
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "LrgA"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0",
-                            "pks_mod_doms": []
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "comments": "",
-                            "domains": [
-                                "Thioesterase"
-                            ],
-                            "genes": [
-                                "LrgN"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0",
-                            "pks_mod_doms": []
                         }
                     ],
                     "subclass": [
                         "Modular type I"
-                    ]
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "ctg3_13"
+                        ]
+                    }
                 }
             ]
         },

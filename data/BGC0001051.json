@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Remove leading/trailing whitespace in gene identifiers",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -63,7 +74,7 @@
                         }
                     ],
                     "id": "ADH04640.1",
-                    "name": "tgaB "
+                    "name": "tgaB"
                 },
                 {
                     "functions": [
@@ -75,7 +86,7 @@
                         }
                     ],
                     "id": "ADH04641.1",
-                    "name": "tgaC "
+                    "name": "tgaC"
                 },
                 {
                     "functions": [
@@ -87,7 +98,7 @@
                         }
                     ],
                     "id": "ADH04642.1",
-                    "name": "tgaD ",
+                    "name": "tgaD",
                     "product": "alcohol dehydrogenase",
                     "tailoring": [
                         "Oxidation"
@@ -103,7 +114,7 @@
                         }
                     ],
                     "id": "ADH04638.1",
-                    "name": "tgaE ",
+                    "name": "tgaE",
                     "product": "monooxygenase",
                     "tailoring": [
                         "Oxidation"
@@ -137,7 +148,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization",
                             "modification_domains": [
                                 "Oxidation"
@@ -203,7 +214,6 @@
                             "genes": [
                                 "ADH04639.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2"
                         },
                         {

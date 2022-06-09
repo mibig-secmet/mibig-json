@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -53,14 +63,6 @@
             "cyclic": false,
             "nrps_genes": [
                 {
-                    "gene_id": "AAN32974.1",
-                    "modules": [
-                        {
-                            "active": false
-                        }
-                    ]
-                },
-                {
                     "gene_id": "AAN32977.1",
                     "modules": [
                         {
@@ -73,7 +75,7 @@
                                     "Leucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "0"
                         }
                     ]
@@ -91,7 +93,7 @@
                                     "(4S)-5,5,5-trichloroleucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "1"
                         }
                     ]
@@ -100,7 +102,7 @@
                     "gene_id": "AAN32979.1",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "modification_domains": [
                                 "Methylation"
                             ],
@@ -121,7 +123,7 @@
                                     "Phenylalanine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "modification_domains": [
                                 "Methylation"
@@ -138,7 +140,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         }
@@ -171,7 +173,6 @@
                             "genes": [
                                 "AAN32978.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2"
                         }
                     ],

@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -231,7 +241,7 @@
                                     "Leucine"
                                 ]
                             },
-                            "active": false
+                            "active": true
                         }
                     ]
                 },
@@ -248,7 +258,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "1"
                         },
@@ -259,7 +269,7 @@
                                     "Leucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "2"
                         }
@@ -292,7 +302,6 @@
                             "genes": [
                                 "AHB38509.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3",
                             "pks_mod_doms": [
                                 "Methylation"

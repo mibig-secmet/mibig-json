@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -493,7 +504,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "modification_domains": [
                                 "Methylation"
                             ],
@@ -514,12 +525,12 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         },
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "modification_domains": [
                                 "Unknown"
@@ -541,7 +552,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "8"
                         }
                     ]
@@ -559,7 +570,7 @@
                                     "Alanine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "29"
                         }
@@ -578,7 +589,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "33"
                         }
@@ -624,7 +635,6 @@
                             "genes": [
                                 "BAP05589.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -642,7 +652,6 @@
                             "genes": [
                                 "BAP05589.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -660,7 +669,6 @@
                             "genes": [
                                 "BAP05590.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3"
                         },
                         {
@@ -693,7 +701,6 @@
                             "genes": [
                                 "BAP05590.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "6"
                         },
                         {
@@ -708,7 +715,6 @@
                             "genes": [
                                 "BAP05590.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "7"
                         },
                         {
@@ -723,7 +729,6 @@
                             "genes": [
                                 "BAP05591.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "9",
                             "pks_mod_doms": [
                                 "Oxidation"
@@ -781,7 +786,6 @@
                             "genes": [
                                 "BAP05593.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "12"
                         },
                         {
@@ -795,7 +799,6 @@
                             "genes": [
                                 "BAP05593.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "13"
                         },
                         {
@@ -841,7 +844,6 @@
                             "genes": [
                                 "BAP05593.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "16"
                         },
                         {
@@ -856,7 +858,6 @@
                             "genes": [
                                 "BAP05593.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "17"
                         },
                         {
@@ -886,7 +887,6 @@
                             "genes": [
                                 "BAP05594.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "19"
                         },
                         {
@@ -917,7 +917,6 @@
                             "genes": [
                                 "BAP05594.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "21"
                         },
                         {
@@ -942,24 +941,12 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Ketoreductase"
-                            ],
-                            "evidence": "Sequence-based prediction",
-                            "genes": [
-                                "BAP05594.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "23"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "evidence": "Sequence-based prediction",
                             "genes": [
+                                "BAP05594.1",
                                 "BAP05595.1"
                             ],
                             "kr_stereochem": "Unknown",
@@ -999,7 +986,6 @@
                             "genes": [
                                 "BAP05595.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "25",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -1036,7 +1022,6 @@
                             "genes": [
                                 "BAP05595.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "27",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -1053,7 +1038,6 @@
                             "genes": [
                                 "BAP05596.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "28",
                             "pks_mod_doms": [
                                 "Beta-branching"
@@ -1083,13 +1067,15 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
                             ],
                             "evidence": "Sequence-based prediction",
                             "genes": [
-                                "BAP05596.1"
+                                "BAP05596.1",
+                                "BAP05597.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "31",
                             "pks_mod_doms": [
                                 "Beta-branching"
@@ -1100,28 +1086,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "evidence": "Sequence-based prediction",
-                            "genes": [
-                                "BAP05597.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "31"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
                                 "Ketosynthase"
                             ],
                             "evidence": "Sequence-based prediction",
                             "genes": [
                                 "BAP05597.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "32"
                         }
                     ],

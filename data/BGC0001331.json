@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed gene names of 'No gene ID'",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -231,7 +242,6 @@
                         }
                     ],
                     "id": "WP_019032749.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
@@ -244,7 +254,6 @@
                         }
                     ],
                     "id": "WP_019032750.1",
-                    "name": "No gene ID",
                     "product": "multidrug ABC transporter ATP-binding protein"
                 },
                 {
@@ -257,7 +266,6 @@
                         }
                     ],
                     "id": "WP_019032752.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
@@ -270,7 +278,6 @@
                         }
                     ],
                     "id": "WP_019032753.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -283,7 +290,6 @@
                         }
                     ],
                     "id": "WP_019032754.1",
-                    "name": "No gene ID",
                     "product": "type I polyketide synthase"
                 },
                 {
@@ -296,7 +302,6 @@
                         }
                     ],
                     "id": "WP_019032755.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -309,7 +314,6 @@
                         }
                     ],
                     "id": "WP_019032756.1",
-                    "name": "No gene ID",
                     "product": "type I polyketide synthase"
                 },
                 {
@@ -322,7 +326,6 @@
                         }
                     ],
                     "id": "WP_019032757.1",
-                    "name": "No gene ID",
                     "product": "type I polyketide synthase"
                 },
                 {
@@ -335,7 +338,6 @@
                         }
                     ],
                     "id": "WP_019032758.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein",
                     "tailoring": [
                         "Monooxygenation"
@@ -393,7 +395,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "3"
                         },
@@ -407,7 +409,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         }
@@ -426,7 +428,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "modification_domains": [
                                 "Methylation"
@@ -434,7 +436,7 @@
                             "module_number": "6"
                         },
                         {
-                            "active": true,
+                            "active": false,
                             "c_dom_subtype": "LCL",
                             "module_number": "7",
                             "non_canonical": {
@@ -489,7 +491,6 @@
                             "genes": [
                                 "WP_019032757.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "0"
                         },
                         {
@@ -522,7 +523,6 @@
                             "genes": [
                                 "WP_019032756.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2"
                         },
                         {

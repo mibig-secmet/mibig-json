@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -219,7 +229,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "8",
                             "non_canonical": {
@@ -243,7 +253,7 @@
                                     "N-Methyl-Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "modification_domains": [
                                 "Methylation"
@@ -396,7 +406,6 @@
                             "genes": [
                                 "CAQ18834.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "11"
                         },
                         {
@@ -431,7 +440,6 @@
                             "genes": [
                                 "CAQ18835.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "13"
                         },
                         {
@@ -447,7 +455,6 @@
                             "genes": [
                                 "CAQ18838.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1",
                             "pks_mod_doms": [
                                 "Methylation"

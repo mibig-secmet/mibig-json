@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Remove leading/trailing whitespace in gene identifiers",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -69,7 +80,7 @@
                         }
                     ],
                     "id": "AAF19810.1",
-                    "name": "mtaB "
+                    "name": "mtaB"
                 },
                 {
                     "functions": [
@@ -81,7 +92,7 @@
                         }
                     ],
                     "id": "AAF19811.1",
-                    "name": "mtaC ",
+                    "name": "mtaC",
                     "product": "mtaC"
                 },
                 {
@@ -118,7 +129,7 @@
                         }
                     ],
                     "id": "AAF19814.1",
-                    "name": "mtaF "
+                    "name": "mtaF"
                 },
                 {
                     "functions": [
@@ -130,7 +141,7 @@
                         }
                     ],
                     "id": "AAF19815.1",
-                    "name": "mtaG ",
+                    "name": "mtaG",
                     "product": "mtaG"
                 }
             ]
@@ -161,7 +172,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization",
                             "modification_domains": [
                                 "Oxidation"
@@ -180,7 +191,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization",
                             "modification_domains": [
                                 "Oxidation"
@@ -202,7 +213,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "8"
                         }
@@ -311,7 +322,6 @@
                             "genes": [
                                 "AAF19814.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "7"
                         }
                     ],

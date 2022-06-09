@@ -22,7 +22,12 @@
         },
         {
             "comments": [
-                "Manually updates compound information for skyllamycin A & B (Structure from Pubchem isn't correct)"
+                "Manually updates compound information for skyllamycin A & B (Structure from Pubchem isn't correct)",
+                "Corrected NRP module activity",
+                "Removed gene names of 'No gene ID'",
+                "Removed duplicate gene names",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Removed module numbers from incomplete PKS modules"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -87,7 +92,6 @@
                         }
                     ],
                     "id": "AEA30246.1",
-                    "name": "sky4",
                     "product": "putative cytosine/adenosine deaminase"
                 },
                 {
@@ -139,7 +143,6 @@
                         }
                     ],
                     "id": "AEA30250.1",
-                    "name": "sky8",
                     "product": "hypothetical protein"
                 },
                 {
@@ -165,7 +168,6 @@
                         }
                     ],
                     "id": "AEA30252.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
@@ -178,7 +180,6 @@
                         }
                     ],
                     "id": "AEA30253.1",
-                    "name": "sky11",
                     "product": "putative integrin-like protein"
                 },
                 {
@@ -204,7 +205,6 @@
                         }
                     ],
                     "id": "AEA30255.1",
-                    "name": "sky13",
                     "product": "putative isoprenyl diphosphate synthase"
                 },
                 {
@@ -496,7 +496,6 @@
                         }
                     ],
                     "id": "AEA30277.1",
-                    "name": "sky35",
                     "product": "hypothetical protein"
                 },
                 {
@@ -706,7 +705,6 @@
                         }
                     ],
                     "id": "AEA30292.1",
-                    "name": "No gene ID",
                     "product": "putative DNA polymerase III"
                 }
             ]
@@ -737,7 +735,7 @@
                                     "Threonine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Starter",
                             "module_number": "1"
                         },
@@ -751,7 +749,7 @@
                                     "Alanine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "2"
                         },
@@ -765,7 +763,7 @@
                                     "Beta-methoxyaspartate"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "3"
                         },
@@ -779,7 +777,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         }
@@ -798,7 +796,7 @@
                                     "Phenylalanine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Unknown",
                             "modification_domains": [
                                 "Oxidation"
@@ -815,7 +813,7 @@
                                     "Proline"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "6"
                         },
@@ -829,7 +827,7 @@
                                     "Tyrosine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "modification_domains": [
                                 "Oxidation"
@@ -846,7 +844,7 @@
                                     "D-tryptophan"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "8"
                         }
@@ -865,7 +863,7 @@
                                     "D-leucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "10"
                         },
@@ -879,7 +877,7 @@
                                     "D-leucine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Unknown",
                             "modification_domains": [
                                 "Oxidation"
@@ -896,7 +894,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Unknown",
                             "module_number": "9"
                         }
@@ -934,9 +932,7 @@
                             ],
                             "genes": [
                                 "AEA30256.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0"
+                            ]
                         },
                         {
                             "at_specificities": [
@@ -947,9 +943,7 @@
                             ],
                             "genes": [
                                 "AEA30260.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0"
+                            ]
                         },
                         {
                             "at_specificities": [
@@ -960,9 +954,7 @@
                             ],
                             "genes": [
                                 "AEA30261.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0"
+                            ]
                         },
                         {
                             "at_specificities": [
@@ -973,9 +965,7 @@
                             ],
                             "genes": [
                                 "AEA30262.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "0"
+                            ]
                         }
                     ]
                 }

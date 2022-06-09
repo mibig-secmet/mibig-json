@@ -23,10 +23,13 @@
         {
             "comments": [
                 "Update compound structure (SMILES) for psymberin",
-                "Linked new PubChem id for psymberin (pubchem:11692946)"
+                "Linked new PubChem id for psymberin (pubchem:11692946)",
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
         }
@@ -117,7 +120,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         }
@@ -152,7 +155,6 @@
                             "genes": [
                                 "ADA82581.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "0"
                         },
                         {
@@ -166,7 +168,6 @@
                             "genes": [
                                 "ADA82581.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1"
                         },
                         {
@@ -195,7 +196,6 @@
                             "genes": [
                                 "ADA82585.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "10",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -212,7 +212,6 @@
                             "genes": [
                                 "ADA82585.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "11"
                         },
                         {
@@ -227,7 +226,6 @@
                             "genes": [
                                 "ADA82585.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "12"
                         },
                         {
@@ -241,7 +239,6 @@
                             "genes": [
                                 "ADA82585.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3",
                             "pks_mod_doms": [
                                 "Methylation"

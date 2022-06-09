@@ -17,6 +17,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed duplicate gene name",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -57,7 +68,6 @@
                 },
                 {
                     "id": "CAJ76282.1",
-                    "name": "clbQ",
                     "product": "hypothetical protein"
                 },
                 {
@@ -287,7 +297,7 @@
                                     "Alanine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "2"
                         }
@@ -306,10 +316,10 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false
+                            "active": true
                         },
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL"
                         }
                     ]
@@ -327,7 +337,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL"
                         },
                         {
@@ -340,7 +350,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization"
                         }
                     ]
@@ -358,7 +368,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization"
                         }
                     ]
@@ -376,7 +386,7 @@
                                     "Asparigine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Starter",
                             "module_number": "1"
                         }
@@ -435,8 +445,7 @@
                             ],
                             "genes": [
                                 "CAJ76297.1"
-                            ],
-                            "kr_stereochem": "Unknown"
+                            ]
                         },
                         {
                             "at_specificities": [
@@ -450,8 +459,7 @@
                             "evidence": "Sequence-based prediction",
                             "genes": [
                                 "CAJ76291.1"
-                            ],
-                            "kr_stereochem": "Unknown"
+                            ]
                         },
                         {
                             "at_specificities": [
@@ -463,8 +471,7 @@
                             ],
                             "genes": [
                                 "CAJ76289.1"
-                            ],
-                            "kr_stereochem": "Unknown"
+                            ]
                         },
                         {
                             "at_specificities": [
@@ -475,8 +482,7 @@
                             ],
                             "genes": [
                                 "CAJ76285.1"
-                            ],
-                            "kr_stereochem": "Unknown"
+                            ]
                         }
                     ],
                     "subclass": [

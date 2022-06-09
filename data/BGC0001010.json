@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Remove leading/trailing whitespace in gene identifiers",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -69,7 +80,7 @@
                         }
                     ],
                     "id": "CAD89774.1",
-                    "name": "melC "
+                    "name": "melC"
                 },
                 {
                     "functions": [
@@ -93,7 +104,7 @@
                         }
                     ],
                     "id": "CAD89776.1",
-                    "name": "melE "
+                    "name": "melE"
                 },
                 {
                     "functions": [
@@ -162,7 +173,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization",
                             "modification_domains": [
                                 "Oxidation"
@@ -184,7 +195,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "Heterocyclization",
                             "modification_domains": [
                                 "Oxidation"
@@ -206,7 +217,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "7"
                         }
@@ -243,7 +254,6 @@
                             "genes": [
                                 "CAD89773.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1"
                         },
                         {
@@ -294,7 +304,6 @@
                             "genes": [
                                 "CAD89777.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "6"
                         }
                     ],

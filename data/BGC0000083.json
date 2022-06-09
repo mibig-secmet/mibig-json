@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fixed inconsistent gene labelling",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -176,13 +187,12 @@
             "synthases": [
                 {
                     "genes": [
-                        "ACY01400.1",
-                        "acy01397",
-                        "acy01402",
-                        "ACY01401.1",
+                        "ACY01397.1",
                         "ACY01398.1",
-                        "acy01403",
-                        "ACY01402.1"
+                        "ACY01400.1",
+                        "ACY01401.1",
+                        "ACY01402.1",
+                        "ACY01403.1"
                     ],
                     "modules": [
                         {
@@ -195,7 +205,6 @@
                             "genes": [
                                 "ACY01398.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "0"
                         },
                         {
@@ -225,7 +234,6 @@
                             "genes": [
                                 "ACY01400.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2",
                             "pks_mod_doms": [
                                 "Michael branching"
@@ -236,23 +244,12 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "ACY01400.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "3"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ACY01400.1",
                                 "ACY01401.1"
                             ],
                             "kr_stereochem": "L-OH",
@@ -269,7 +266,6 @@
                             "genes": [
                                 "ACY01401.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4"
                         },
                         {
@@ -319,7 +315,6 @@
                             "genes": [
                                 "ACY01401.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "7"
                         },
                         {
@@ -345,12 +340,13 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Dehydratase"
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "ACY01401.1"
+                                "ACY01401.1",
+                                "ACY01402.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "9"
                         },
                         {
@@ -368,19 +364,6 @@
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "10"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Thiolation (ACP/PCP)"
-                            ],
-                            "genes": [
-                                "ACY01402.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "9"
                         }
                     ],
                     "subclass": [
@@ -389,17 +372,17 @@
                     ],
                     "thioesterases": [
                         {
-                            "gene": "acy01397",
+                            "gene": "ACY01397.1",
                             "thioesterase_type": "Unknown"
                         },
                         {
-                            "gene": "acy01402",
+                            "gene": "ACY01402.1",
                             "thioesterase_type": "Unknown"
                         }
                     ],
                     "trans_at": {
                         "genes": [
-                            "acy01403"
+                            "ACY01403.1"
                         ]
                     }
                 }

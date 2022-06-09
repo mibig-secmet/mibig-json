@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fetched compound information from PubChem"
+            ],
+            "contributors": [
+                "SJG3CBEHSM6A3I74YXLH6GLA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -26,13 +35,40 @@
         ],
         "compounds": [
             {
-                "chem_struct": "C\\C=C1/NC(=O)C2CSC(=N2)C2CC(C)N2C(=O)C(CC(C)C)NC(=O)C(C)NC(=O)C(O)COC(=O)C(C(C)C)N(C)C(=O)C(NC(=O)C2CCCCN2C1=O)C(C)O",
+                "chem_struct": "C/C=C\\1/C(=O)N2CCCCC2C(=O)NC(C(=O)N(C(C(=O)OCC(C(=O)NC(C(=O)NC(C(=O)N3C(CC3C4=NC(CS4)C(=O)N1)C)CC(C)C)C)O)C(C)C)C)C(C)O",
                 "compound": "vioprolide A",
                 "database_id": [
-                    "npatlas:1487"
+                    "pubchem:58351276"
                 ],
-                "mol_mass": 862.4258758039999,
+                "mol_mass": 862.425876,
                 "molecular_formula": "C40H62N8O11S"
+            },
+            {
+                "chem_struct": "C/C=C/1\\C(=O)N2CCCC[C@H]2C(=O)N[C@H](C(=O)N([C@H](C(=O)OC[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N3CCC[C@H]3C4=N[C@@H](CS4)C(=O)N1)CC(C)C)C)O)C(C)C)C)[C@@H](C)O",
+                "compound": "vioprolide B",
+                "database_id": [
+                    "pubchem:10533632"
+                ],
+                "mol_mass": 862.425876,
+                "molecular_formula": "C40H62N8O11S"
+            },
+            {
+                "chem_struct": "C/C=C/1\\C(=O)N2CCCC2C(=O)NC(C(=O)N(C(C(=O)OCC(C(=O)NC(C(=O)NC(C(=O)N3C(CC3C4=NC(CS4)C(=O)N1)C)CC(C)C)C)O)C(C)C)C)C(C)O",
+                "compound": "vioprolide C",
+                "database_id": [
+                    "pubchem:153274467"
+                ],
+                "mol_mass": 848.41022593,
+                "molecular_formula": "C39H60N8O11S"
+            },
+            {
+                "chem_struct": "C/C=C/1\\C(=O)N2CCC[C@H]2C(=O)N[C@H](C(=O)N([C@H](C(=O)OC[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N3CCC[C@H]3C4=N[C@@H](CS4)C(=O)N1)CC(C)C)C)O)C(C)C)C)",
+                "compound": "vioprolide D",
+                "database_id": [
+                    "pubchem:10533574"
+                ],
+                "mol_mass": 848.41022593,
+                "molecular_formula": "C39H60N8O11S"
             }
         ],
         "loci": {

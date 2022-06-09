@@ -17,6 +17,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -390,7 +401,7 @@
                                     "D-alanine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "0"
                         }
                     ]
@@ -399,7 +410,7 @@
                     "gene_id": "AAN85529.1",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "module_number": "0"
                         }
                     ]
@@ -417,7 +428,7 @@
                                     "Cysteine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "modification_domains": [
                                 "Oxidation"
@@ -475,24 +486,13 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "AAN85522.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "3"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)",
                                 "Ketoreductase"
                             ],
                             "genes": [
+                                "AAN85522.1",
                                 "AAN85523.1"
                             ],
                             "kr_stereochem": "Unknown",
@@ -509,7 +509,6 @@
                             "genes": [
                                 "AAN85523.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4"
                         },
                         {
@@ -560,7 +559,6 @@
                             "genes": [
                                 "AAN85523.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "7"
                         }
                     ],

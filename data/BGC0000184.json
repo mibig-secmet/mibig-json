@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -226,7 +236,6 @@
                             "genes": [
                                 "ADN68476.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2"
                         },
                         {
@@ -274,7 +283,6 @@
                             "genes": [
                                 "ADN68476.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "5"
                         },
                         {
@@ -297,26 +305,14 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "ADN68476.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "7"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ADN68476.1",
                                 "ADN68477.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "7"
                         },
                         {
@@ -331,7 +327,6 @@
                             "genes": [
                                 "ADN68477.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "8"
                         },
                         {
@@ -346,7 +341,6 @@
                             "genes": [
                                 "ADN68477.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "9"
                         },
                         {
@@ -370,26 +364,14 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "ADN68477.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "11"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ADN68477.1",
                                 "ADN68478.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "11"
                         },
                         {
@@ -398,25 +380,14 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "ADN68478.1"
-                            ],
-                            "kr_stereochem": "D-OH",
-                            "module_number": "12"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ADN68478.1",
                                 "ADN68479.1"
                             ],
-                            "kr_stereochem": "Unknown",
+                            "kr_stereochem": "D-OH",
                             "module_number": "12",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -443,25 +414,14 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "ADN68479.1"
-                            ],
-                            "kr_stereochem": "D-OH",
-                            "module_number": "14"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ADN68479.1",
                                 "ADN68480.1"
                             ],
-                            "kr_stereochem": "Unknown",
+                            "kr_stereochem": "D-OH",
                             "module_number": "14",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -506,25 +466,14 @@
                             "domains": [
                                 "Ketosynthase",
                                 "Ketoreductase",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "ADN68480.1"
-                            ],
-                            "kr_stereochem": "D-OH",
-                            "module_number": "17"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ADN68480.1",
                                 "ADN68482.1"
                             ],
-                            "kr_stereochem": "Unknown",
+                            "kr_stereochem": "D-OH",
                             "module_number": "17",
                             "pks_mod_doms": [
                                 "Methylation"
@@ -541,7 +490,6 @@
                             "genes": [
                                 "ADN68482.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "18"
                         },
                         {
@@ -550,23 +498,12 @@
                             ],
                             "domains": [
                                 "Ketosynthase",
-                                "Dehydratase"
-                            ],
-                            "genes": [
-                                "ADN68482.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "19"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Dehydratase",
                                 "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ADN68482.1",
                                 "ADN68483.1"
                             ],
                             "kr_stereochem": "D-OH",
@@ -608,26 +545,14 @@
                                 "Unknown"
                             ],
                             "domains": [
-                                "Ketosynthase"
-                            ],
-                            "genes": [
-                                "ADN68483.1"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "22"
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
+                                "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
+                                "ADN68483.1",
                                 "ADN68484.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "22"
                         },
                         {

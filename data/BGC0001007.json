@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -105,7 +115,7 @@
                     "gene_id": "ABV99085.1",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "module_number": "0"
                         }
                     ]
@@ -136,7 +146,6 @@
                             "genes": [
                                 "ABV99085.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1"
                         }
                     ]

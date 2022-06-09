@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Removed gene names of 'No gene ID'",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -95,7 +106,6 @@
                         }
                     ],
                     "id": "EWM62997.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -108,7 +118,6 @@
                         }
                     ],
                     "id": "EWM62998.1",
-                    "name": "No gene ID",
                     "product": "mycocerosic acid synthase"
                 },
                 {
@@ -121,7 +130,6 @@
                         }
                     ],
                     "id": "EWM62999.1",
-                    "name": "No gene ID",
                     "product": "hypothetical protein"
                 },
                 {
@@ -134,7 +142,6 @@
                         }
                     ],
                     "id": "EWM63000.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -147,7 +154,6 @@
                         }
                     ],
                     "id": "EWM63001.1",
-                    "name": "No gene ID",
                     "product": "polyketide synthase type I"
                 },
                 {
@@ -160,7 +166,6 @@
                         }
                     ],
                     "id": "EWM63002.1",
-                    "name": "No gene ID",
                     "product": "non-ribosomal peptide synthetase"
                 },
                 {
@@ -173,7 +178,6 @@
                         }
                     ],
                     "id": "EWM63003.1",
-                    "name": "No gene ID",
                     "product": "polyketide synthase type I"
                 },
                 {
@@ -186,7 +190,6 @@
                         }
                     ],
                     "id": "EWM63004.1",
-                    "name": "No gene ID",
                     "product": "polyketide synthase type I"
                 },
                 {
@@ -199,7 +202,6 @@
                         }
                     ],
                     "id": "EWM63005.1",
-                    "name": "No gene ID",
                     "product": "linear gramicidin synthetase LgrC"
                 },
                 {
@@ -212,7 +214,6 @@
                         }
                     ],
                     "id": "EWM63006.1",
-                    "name": "No gene ID",
                     "product": "linear gramicidin synthetase LgrD"
                 },
                 {
@@ -225,7 +226,6 @@
                         }
                     ],
                     "id": "EWM63007.1",
-                    "name": "No gene ID",
                     "product": "linear gramicidin synthetase LgrC"
                 },
                 {
@@ -238,7 +238,6 @@
                         }
                     ],
                     "id": "EWM63008.1",
-                    "name": "No gene ID",
                     "product": "pyoverdine ABC transporter permease/ATP-binding protein"
                 },
                 {
@@ -251,7 +250,6 @@
                         }
                     ],
                     "id": "EWM63009.1",
-                    "name": "No gene ID",
                     "product": "gramicidin S biosynthesis protein GrsT"
                 },
                 {
@@ -264,7 +262,6 @@
                         }
                     ],
                     "id": "EWM63011.1",
-                    "name": "No gene ID",
                     "product": "clavaminate synthase"
                 }
             ]
@@ -297,7 +294,7 @@
                                     "Serine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "3"
                         }
@@ -316,7 +313,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "5"
                         }
@@ -326,7 +323,7 @@
                     "gene_id": "EWM63006.1",
                     "modules": [
                         {
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "6"
                         }
@@ -345,11 +342,11 @@
                                     "Beta-hydroxyasparagine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "module_number": "6"
                         },
                         {
-                            "active": true,
+                            "active": false,
                             "c_dom_subtype": "LCL",
                             "module_number": "7",
                             "non_canonical": {
@@ -367,7 +364,7 @@
                     "gene_id": "EWM63010.1",
                     "modules": [
                         {
-                            "active": true,
+                            "active": false,
                             "c_dom_subtype": "DCL",
                             "module_number": "8",
                             "non_canonical": {
@@ -422,7 +419,6 @@
                             "genes": [
                                 "EWM62997.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "0"
                         },
                         {
@@ -435,7 +431,6 @@
                             "genes": [
                                 "EWM62997.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1"
                         },
                         {
@@ -450,7 +445,6 @@
                             "genes": [
                                 "EWM63000.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2"
                         },
                         {
@@ -463,7 +457,6 @@
                             "genes": [
                                 "EWM63003.1"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4"
                         }
                     ],

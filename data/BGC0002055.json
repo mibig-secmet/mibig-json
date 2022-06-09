@@ -2,10 +2,22 @@
     "changelog": [
         {
             "comments": [
-                "Submitted"
+                "Submitted",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
             ],
             "contributors": [
-                "DSCNCSJNYVZZHSG74Z2O37QE"
+                "DSCNCSJNYVZZHSG74Z2O37QE",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        },
+        {
+            "comments": [
+                "Removed gene annotations with no information",
+                "Removed additional gene with no identifier or information"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
         }
@@ -94,40 +106,6 @@
                     ]
                 },
                 {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "mycK2",
-                    "name": "mycK2",
-                    "product": "Unknown"
-                },
-                {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "No gene ID",
-                    "name": "No gene ID",
-                    "product": "Unknown"
-                },
-                {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
                     "id": "mycT",
                     "name": "mycT",
                     "product": "di-oxygenase"
@@ -147,19 +125,6 @@
                     "tailoring": [
                         "Methylation"
                     ]
-                },
-                {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "mycK1",
-                    "name": "mycK1",
-                    "product": "Unknown"
                 },
                 {
                     "functions": [
@@ -191,43 +156,9 @@
                     "product": "polyketide synthase"
                 },
                 {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
                     "id": "mycB",
                     "name": "mycB",
                     "product": "enoyl reductase"
-                },
-                {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "No gene ID",
-                    "name": "No gene ID",
-                    "product": "Unknown"
-                },
-                {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "No gene ID",
-                    "name": "No gene ID",
-                    "product": "Unknown"
                 },
                 {
                     "functions": [
@@ -245,32 +176,6 @@
                 {
                     "functions": [
                         {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "mycS",
-                    "name": "mycS",
-                    "product": "Unknown"
-                },
-                {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "No gene ID",
-                    "name": "No gene ID",
-                    "product": "Unknown"
-                },
-                {
-                    "functions": [
-                        {
                             "category": "Transport",
                             "evidence": [
                                 "Sequence-based prediction"
@@ -280,19 +185,6 @@
                     "id": "mycR",
                     "name": "mycR",
                     "product": "transporter"
-                },
-                {
-                    "functions": [
-                        {
-                            "category": "Unknown",
-                            "evidence": [
-                                "Sequence-based prediction"
-                            ]
-                        }
-                    ],
-                    "id": "mycQ",
-                    "name": "mycQ",
-                    "product": "Unknown"
                 },
                 {
                     "functions": [
@@ -416,18 +308,6 @@
                             {
                                 "end": 54614,
                                 "start": 53595
-                            }
-                        ],
-                        "strand": -1
-                    }
-                },
-                {
-                    "id": "No gene ID",
-                    "location": {
-                        "exons": [
-                            {
-                                "end": 54874,
-                                "start": 54692
                             }
                         ],
                         "strand": -1
@@ -692,7 +572,6 @@
                             "genes": [
                                 "mycM"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "1",
                             "pks_mod_doms": [
                                 "Beta-branching"
@@ -724,7 +603,6 @@
                             "genes": [
                                 "mycH"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "11"
                         },
                         {
@@ -757,7 +635,6 @@
                             "genes": [
                                 "mycH"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "13"
                         },
                         {
@@ -787,7 +664,6 @@
                             "genes": [
                                 "mycH"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "15"
                         },
                         {
@@ -822,7 +698,6 @@
                             "genes": [
                                 "mycI"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3",
                             "pks_mod_doms": [
                                 "Crotonase / Enoyl-CoA dehydratase"
@@ -854,7 +729,6 @@
                             "genes": [
                                 "mycF"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "5"
                         },
                         {

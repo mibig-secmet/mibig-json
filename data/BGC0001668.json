@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added new publication",
+                "Changed compound name to that commonly used in literature"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -27,7 +37,10 @@
         "compounds": [
             {
                 "chem_struct": "OC1OC(=O)C(=C1CC1=CC=CC=C1)C1=CC=CC=C1",
-                "compound": "EQ-4",
+                "chem_synonyms": [
+                    "EQ-4"
+                ],
+                "compound": "microperfuranone",
                 "database_id": [
                     "npatlas:16720"
                 ],
@@ -46,7 +59,8 @@
         "ncbi_tax_id": "227321",
         "organism_name": "Aspergillus nidulans FGSC A4",
         "publications": [
-            "pubmed:22627757"
+            "pubmed:22627757",
+            "pubmed:32526136"
         ]
     }
 }

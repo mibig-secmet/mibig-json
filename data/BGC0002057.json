@@ -2,10 +2,14 @@
     "changelog": [
         {
             "comments": [
-                "Submitted"
+                "Submitted",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Removed references to invalid gene identifier",
+                "Reworked NRPS/PKS modules to match reference paper"
             ],
             "contributors": [
-                "DSCNCSJNYVZZHSG74Z2O37QE"
+                "DSCNCSJNYVZZHSG74Z2O37QE",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
         }
@@ -160,26 +164,11 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "modification_domains": [
                                 "Methylation"
                             ],
                             "module_number": "0"
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "pamB",
-                    "modules": [
-                        {
-                            "active": false,
-                            "c_dom_subtype": "Heterocyclization",
-                            "module_number": "6"
-                        },
-                        {
-                            "active": false,
-                            "c_dom_subtype": "Heterocyclization",
-                            "module_number": "7"
                         }
                     ]
                 },
@@ -194,16 +183,26 @@
                                     "Sequence-based prediction"
                                 ],
                                 "proteinogenic": [
-                                    "Cysteine"
+                                    "Serine"
                                 ]
                             },
                             "active": false,
-                            "module_number": "0"
+                            "module_number": "6"
                         },
                         {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Cysteine"
+                                ]
+                            },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "5"
+                            "module_number": "7"
                         }
                     ]
                 }
@@ -222,7 +221,6 @@
             "synthases": [
                 {
                     "genes": [
-                        "16084-17031",
                         "pamB",
                         "pamC",
                         "pamD",
@@ -233,7 +231,6 @@
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
@@ -253,7 +250,6 @@
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
@@ -264,14 +260,12 @@
                                 "pamA"
                             ],
                             "kr_stereochem": "D-OH",
-                            "module_number": "2",
-                            "pks_mod_doms": []
+                            "module_number": "2"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
@@ -280,7 +274,6 @@
                             "genes": [
                                 "pamA"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "3",
                             "pks_mod_doms": [
                                 "Beta-branching"
@@ -302,14 +295,12 @@
                                 "pamB"
                             ],
                             "kr_stereochem": "D-OH",
-                            "module_number": "4",
-                            "pks_mod_doms": []
+                            "module_number": "4"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Thiolation (ACP/PCP)"
@@ -317,15 +308,12 @@
                             "genes": [
                                 "pamB"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "5",
-                            "pks_mod_doms": []
+                            "module_number": "5"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Thiolation (ACP/PCP)"
@@ -333,8 +321,16 @@
                             "genes": [
                                 "pamC"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "1",
+                            "module_number": "8",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": false,
+                                "non_elongating": true,
+                                "skipped": false
+                            },
+
                             "pks_mod_doms": [
                                 "Oxidation"
                             ]
@@ -343,7 +339,6 @@
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
@@ -352,9 +347,7 @@
                             "genes": [
                                 "pamC"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "2",
-                            "pks_mod_doms": []
+                            "module_number": "9"
                         },
                         {
                             "at_specificities": [
@@ -362,6 +355,7 @@
                             ],
                             "comments": "aminotransferase",
                             "domains": [
+                                "Enoylreductase",
                                 "Ketosynthase",
                                 "Dehydratase",
                                 "Thiolation (ACP/PCP)"
@@ -369,17 +363,12 @@
                             "genes": [
                                 "pamC"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "3",
-                            "pks_mod_doms": [
-                                "Methylation"
-                            ]
+                            "module_number": "10"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
@@ -388,69 +377,41 @@
                             "genes": [
                                 "pamC"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "4",
-                            "pks_mod_doms": []
+                            "module_number": "11"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)",
-                                "Thioesterase"
-                            ],
-                            "genes": [
-                                "pamD"
-                            ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "10",
-                            "pks_mod_doms": []
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "comments": "",
-                            "domains": [
-                                "Ketosynthase",
-                                "Ketoreductase"
-                            ],
-                            "genes": [
-                                "pamD"
-                            ],
-                            "kr_stereochem": "L-OH",
-                            "module_number": "6",
-                            "pks_mod_doms": []
-                        },
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "comments": "",
-                            "domains": [
-                                "Ketosynthase",
-                                "Dehydratase",
-                                "Thiolation (ACP/PCP)",
+                                "Ketoreductase",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
                                 "pamD"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "7",
-                            "pks_mod_doms": [
-                                "Beta-branching"
-                            ]
+                            "module_number": "12"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "pamD"
+                            ],
+                            "module_number": "13"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
@@ -461,14 +422,12 @@
                                 "pamD"
                             ],
                             "kr_stereochem": "Unknown",
-                            "module_number": "8",
-                            "pks_mod_doms": []
+                            "module_number": "14"
                         },
                         {
                             "at_specificities": [
                                 "Unknown"
                             ],
-                            "comments": "",
                             "domains": [
                                 "Ketosynthase",
                                 "Dehydratase",
@@ -477,19 +436,35 @@
                             "genes": [
                                 "pamD"
                             ],
-                            "kr_stereochem": "Unknown",
-                            "module_number": "9",
-                            "pks_mod_doms": []
+                            "module_number": "15",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": false,
+                                "non_elongating": true,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "genes": [
+                                "pamD"
+                            ],
+                            "module_number": "16"
                         }
                     ],
                     "subclass": [
                         "Trans-AT type I"
-                    ],
-                    "trans_at": {
-                        "genes": [
-                            "16084-17031"
-                        ]
-                    }
+                    ]
                 }
             ]
         },

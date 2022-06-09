@@ -17,6 +17,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Corrected NRP module activity",
+                "Fixed incorrect gene identifiers",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -91,7 +102,7 @@
                             ]
                         }
                     ],
-                    "id": "mscC",
+                    "id": "mscD",
                     "name": "mscD"
                 },
                 {
@@ -204,7 +215,7 @@
                             ]
                         }
                     ],
-                    "id": "mscN",
+                    "id": "mscM",
                     "name": "mscM",
                     "product": "Fe(II)/α-ketoglutarate dependent oxygenase",
                     "tailoring": [
@@ -265,7 +276,7 @@
                                     "Asparagine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "5"
                         }
@@ -284,7 +295,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "modification_domains": [
                                 "Methylation"
@@ -301,7 +312,7 @@
                                     "Tryptophan"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "8"
                         },
@@ -315,7 +326,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "9"
                         }
@@ -334,7 +345,7 @@
                                     "Glycine"
                                 ]
                             },
-                            "active": false,
+                            "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "10"
                         }
@@ -404,7 +415,6 @@
                             "genes": [
                                 "mscB"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "2",
                             "non_canonical": {
                                 "evidence": [
@@ -450,7 +460,6 @@
                             "genes": [
                                 "mscD"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "4",
                             "non_canonical": {
                                 "evidence": [
@@ -471,7 +480,6 @@
                             "genes": [
                                 "mscF"
                             ],
-                            "kr_stereochem": "Unknown",
                             "module_number": "5"
                         },
                         {
