@@ -15,6 +15,7 @@ with open("schema.json") as schema_handle:
 def check_gene_naming(data: Dict[str, Any], prefix: str) -> bool:
     invalid = {
         "no_accession",
+        "unknown",
     }
     ids = set()
     for gene in data["cluster"].get("genes", {}).get("annotations", {}):
@@ -34,8 +35,9 @@ def check_gene_naming(data: Dict[str, Any], prefix: str) -> bool:
         for module in synthase.get("modules", []):
             for gene in module.get("genes", []):
                 ids.add(gene)
-    if ids.intersection(invalid):
-        print(f"{prefix}invalid gene identifiers: {', '.join(list(ids.intersection(invalid)))}")
+    bad_names = {name.lower() for name in ids}.intersection(invalid)
+    if bad_names:
+        print(f"{prefix}invalid gene identifiers: {', '.join(list(bad_names))}")
         return False
     return True
 
