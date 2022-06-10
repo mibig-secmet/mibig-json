@@ -24,10 +24,11 @@ def run(args: argparse.Namespace) -> None:
     with open(args.json_file, 'r', encoding="utf-8") as handle:
         record = json.load(handle)
 
+    comments = [comment.strip() for comment in args.comment]
     if args.amend:
-        amend_changelog(record, args.release, args.comment, args.contributor)
+        amend_changelog(record, args.release, comments, args.contributor)
     else:
-        add_changelog(record, args.release, args.comment, args.contributor)
+        add_changelog(record, args.release, comments, args.contributor)
 
     with open(args.json_file, 'w', encoding="utf-8") as handle:
         json.dump(record, handle, indent=4, separators=(',', ': '), sort_keys=True, ensure_ascii=False)
