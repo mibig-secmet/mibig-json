@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Linked new PubChem id for desmethylbassianin (pubchem:91820224)",
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Corrected gene identifiers"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -41,9 +42,9 @@
                     {
                         "moiety": "2-pyridone",
                         "subcluster": [
-                            "DMBS",
-                            "DMBC",
-                            "DMBA"
+                            "ADN43685.1",
+                            "ADN43684.1",
+                            "ADN43682.1"
                         ]
                     }
                 ],
@@ -68,8 +69,8 @@
                             ]
                         }
                     ],
-                    "id": "DMBS",
-                    "name": "DMBS",
+                    "id": "ADN43685.1",
+                    "name": "dmbS",
                     "product": "PKS-NRPS"
                 },
                 {
@@ -81,8 +82,8 @@
                             ]
                         }
                     ],
-                    "id": "DMBC",
-                    "name": "DMBC",
+                    "id": "ADN43684.1",
+                    "name": "dmbC",
                     "product": "ER"
                 },
                 {
@@ -94,8 +95,8 @@
                             ]
                         }
                     ],
-                    "id": "DMBB",
-                    "name": "DMBB",
+                    "id": "ADN43683.1",
+                    "name": "dmbB",
                     "product": "P450",
                     "tailoring": [
                         "Oxidation"
@@ -110,26 +111,12 @@
                             ]
                         }
                     ],
-                    "id": "DMBA",
-                    "name": "DMBA",
+                    "id": "ADN43682.1",
+                    "name": "dmbA",
                     "product": "P450",
                     "tailoring": [
                         "Oxidation"
                     ]
-                }
-            ],
-            "extra_genes": [
-                {
-                    "id": "DMBS"
-                },
-                {
-                    "id": "DMBC"
-                },
-                {
-                    "id": "DMBB"
-                },
-                {
-                    "id": "DMBA"
                 }
             ]
         },
@@ -147,7 +134,7 @@
             "cyclic": false,
             "nrps_genes": [
                 {
-                    "gene_id": "DMBS",
+                    "gene_id": "ADN43685.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -177,7 +164,7 @@
             "synthases": [
                 {
                     "genes": [
-                        "DMBS"
+                        "ADN43685.1"
                     ],
                     "iterative": {
                         "cyclization_type": "Unknown",
@@ -201,7 +188,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "DMBS"
+                                "ADN43685.1"
                             ],
                             "kr_stereochem": "Unknown",
                             "module_number": "1",
