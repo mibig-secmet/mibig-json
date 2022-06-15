@@ -55,7 +55,7 @@ def run_all(files: List[str], threshold: int) -> bool:
         with open(file) as handle:
             data = json.load(handle)
         loci = data["cluster"]["loci"]
-        acc = loci["accession"]
+        acc = loci["accession"].rsplit(".", 1)[0]
         start = loci.get("start_coord", 0)
         end = loci.get("end_coord", END_GUARD)
 
