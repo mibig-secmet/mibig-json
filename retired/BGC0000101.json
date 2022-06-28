@@ -23,8 +23,8 @@
             "comments": [
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Corrected loci",
-                "Removed gene from different contig",
-                "Removed thioesterase with unknown gene ID"
+                "Removed thioesterase with unknown gene ID",
+                "Retired due to involving multiple contigs"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -89,6 +89,26 @@
                 "molecular_formula": "C25H26O5"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF73676.1",
+                    "name": "xptC",
+                    "product": "oxidoreductase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                }
+            ]
+        },
         "loci": {
             "accession": "BN001308.1",
             "completeness": "complete",
