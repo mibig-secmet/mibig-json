@@ -179,18 +179,21 @@
                                             "pattern": "^chebi:(\\d+)$"
                                         },
                                         {
-                                            "pattern": "^chembl:(\\d+)$"
+                                            "pattern": "^chembl:CHEMBL(\\d+)$"
                                         },
                                         {
                                             "pattern": "^chemspider:(\\d+)$"
                                         },
                                         {
-                                            "pattern": "^npatlas:(\\d+)$"
+                                            "pattern": "^npatlas:NPA(\\d+)$"
+                                        },
+                                        {
+                                            "pattern": "^lotus:Q(\\d+)$"
                                         }
                                     ],
                                     "type": "string"
                                 },
-                                "title": "Database Compound IDs (PubChem/ChEBI/ChEMBL/ChemSpider)",
+                                "title": "Database Compound IDs (PubChem/ChEBI/ChEMBL/ChemSpider/NPAtlas/LOTUS)",
                                 "type": "array"
                             },
                             "evidence": {
