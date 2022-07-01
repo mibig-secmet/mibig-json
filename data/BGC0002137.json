@@ -1,0 +1,79 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCC(=O)C1=C(C(C2(CC3=C(C(=O)C4=C(C3=O)C=CC=C4O)OC2C1=O)C(=O)O)OC)O",
+                "compound": "mutaxanthene A",
+                "database_id": [
+                    "pubchem:139587940"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            },
+            {
+                "chem_struct": "CCC(=O)C1=C(C(C2(CC3=C(C(=O)C4=C(C3=O)C=CC=C4OC)OC2C1=O)C(=O)O)OC)O",
+                "compound": "mutaxanthene B",
+                "database_id": [
+                    "pubchem:139585953"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            },
+            {
+                "chem_struct": "CC(=O)C1=C(C(C2(CC3=C(C(=O)C4=C(C3=O)C=CC=C4O)OC2C1=O)C(=O)O)OC)O",
+                "compound": "mutaxanthene C",
+                "database_id": [
+                    "pubchem:139583842"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            }
+        ],
+        "loci": {
+            "accession": "NZ_JOIQ01000020.1",
+            "completeness": "complete",
+            "end_coord": 216609,
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 183729
+        },
+        "mibig_accession": "BGC0002137",
+        "minimal": false,
+        "ncbi_tax_id": "1463846",
+        "organism_name": "Streptomyces sp. NRRL F-3213",
+        "polyketide": {
+            "cyclic": false,
+            "ketide_length": 9,
+            "starter_unit": "Propionyl-CoA",
+            "subclasses": [
+                "Type II",
+                "Tetracycline"
+            ]
+        },
+        "publications": [
+            "doi:10.1101/2022.01.13.476137"
+        ]
+    }
+}

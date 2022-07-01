@@ -1,0 +1,78 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CCCCCCCCCCCCCC(N[C@H](CC(C)C)C(N[C@@H](C)C(N[C@H](CCCNC(N)=O)C(N)=O)=O)=O)=O",
+                "compound": "bovienimide A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 569.8115,
+                "molecular_formula": "C29H56N6O5"
+            }
+        ],
+        "loci": {
+            "accession": "NC_013892.1",
+            "completeness": "complete",
+            "end_coord": 2347906,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 2336399
+        },
+        "mibig_accession": "BGC0002135",
+        "minimal": false,
+        "ncbi_tax_id": "406818",
+        "nrp": {
+            "cyclic": false,
+            "lipid_moiety": "myristic acid",
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_012988806.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "c_dom_subtype": "Dual",
+                            "module_number": "2"
+                        },
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "c_dom_subtype": "Dual",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "subclass": "Other lipopeptide"
+        },
+        "organism_name": "Xenorhabdus bovienii SS-2004",
+        "publications": [
+            "pubmed:34581573"
+        ]
+    }
+}

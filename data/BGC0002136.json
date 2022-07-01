@@ -1,0 +1,269 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@H]([C@H](OC)/C(C)=C/[C@H](C)C[C@H](C)C(C(C)(C)C)=O)[C@H](O1)[C@H](O)C2=NC=CC(O)=C2C1=O",
+                "compound": "janustatin A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mol_mass": 447.2621,
+                "molecular_formula": "C25H37NO6"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@H]([C@H](OC)/C(C)=C/[C@H](C)C[C@H](C)C(C(C)(C)C)=O)[C@H](O)[C@@H]1OC(C2=C1N=CC=C2O)=O",
+                "compound": "janustatin A'",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 447.2621,
+                "molecular_formula": "C25H37NO6"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC(C(OC)/C(C)=C/C(C)CC(C)CC(C)(C)C)C(O1)C(O)C2=NC=CC(O)=C2C1=O",
+                "compound": "janustatin B",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 433.2828,
+                "molecular_formula": "C25H39NO5"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC(C(OC)/C(C)=C/C(C)CC(C)C(C(C)(C)C)=O)C(O)C(O)C1=NC=CC(O)=C1C(O)=O",
+                "compound": "janustatin C",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 465.2727,
+                "molecular_formula": "C25H39NO7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "WP_052830554.1",
+                    "name": "janE",
+                    "product": "non-ribosomal peptide synthetase"
+                },
+                {
+                    "id": "WP_044619203.1",
+                    "mut_pheno": "knock-out abolishes polyketide production",
+                    "name": "janD",
+                    "product": "trans-acyltransferase polyketide synthase"
+                },
+                {
+                    "id": "WP_044619204.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "WP_044619205.1",
+                    "name": "janC",
+                    "product": "enoyl reductase"
+                },
+                {
+                    "id": "WP_052830555.1",
+                    "name": "JanB",
+                    "product": "sterol desaturase family protein"
+                },
+                {
+                    "id": "WP_052830556.1",
+                    "name": "janA",
+                    "product": "sterol desaturase family protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_CP007142.1",
+            "completeness": "complete",
+            "end_coord": 5941646,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 5869722
+        },
+        "mibig_accession": "BGC0002136",
+        "minimal": false,
+        "ncbi_tax_id": "1445510",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_052830554.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "DCL",
+                            "module_number": "8"
+                        },
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "9"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "None"
+            ],
+            "subclass": "None"
+        },
+        "organism_name": "Gynuella sunshinyii YC6258",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Unknown"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Trans-AT type I",
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_044619203.1"
+                    ],
+                    "modules": [
+                        {
+                            "domains": [
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_044619203.1"
+                            ],
+                            "module_number": "1",
+                            "pks_mod_doms": [
+                                "Methylation",
+                                "GNAT"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_044619203.1"
+                            ],
+                            "module_number": "2",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_044619203.1"
+                            ],
+                            "module_number": "3"
+                        },
+                        {
+                            "domains": [
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_044619203.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_044619203.1"
+                            ],
+                            "module_number": "5",
+                            "non_canonical": {
+                                "non_elongating": true
+                            },
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_044619203.1"
+                            ],
+                            "module_number": "6",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_044619203.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "7"
+                        }
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "yc6258_rs30000"
+                        ]
+                    }
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

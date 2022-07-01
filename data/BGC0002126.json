@@ -1,0 +1,156 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        },
+        {
+            "comments": [
+                "Fixed thioesterase gene ID"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CC[C@H](C)[C@H]1C(=O)O[C@H]([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)[C@@H](C(C)C)O)[C@H](C2=CC=C(C=C2)O)O)NC(=O)[C@H]([C@H](C(=O)N)O)NC(=O)[C@@H](CCCN=C(N)N)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](C)N)C(=O)N",
+                "chem_targets": [
+                    {
+                        "target": "Undecaprenyl pyrophosphate-containing cell wall precursors of gram positive bacteria"
+                    }
+                ],
+                "compound": "hypeptin",
+                "database_id": [
+                    "pubchem:121225236"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "QWP75299.1",
+                    "product": "efflux RND transporter permease subunit"
+                },
+                {
+                    "id": "QWP75300.1",
+                    "product": "efflux RND transporter periplasmic adaptor subunit"
+                },
+                {
+                    "id": "QWP75301.1",
+                    "product": "Fe(II)/alpha-ketoglutarate dependent hydroxylase"
+                },
+                {
+                    "id": "QWP75302.1",
+                    "product": "ABC transporter ATP-binding protein"
+                },
+                {
+                    "id": "QWP75303.1",
+                    "product": "non-heme diiron monooxygenase"
+                },
+                {
+                    "id": "QWP75304.1",
+                    "product": "non-ribosomal peptide synthase"
+                },
+                {
+                    "id": "QWP75305.1",
+                    "product": "non-ribosomal peptide synthase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP072597.1",
+            "completeness": "complete",
+            "end_coord": 3931610,
+            "evidence": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 3896012
+        },
+        "mibig_accession": "BGC0002126",
+        "minimal": false,
+        "ncbi_tax_id": "2820808",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "QWP75305.1",
+                    "modules": [
+                        {
+                            "module_number": "0"
+                        },
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "c_dom_subtype": "Dual",
+                            "module_number": "2"
+                        },
+                        {
+                            "c_dom_subtype": "Dual",
+                            "module_number": "3"
+                        },
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        },
+                        {
+                            "module_number": "5"
+                        },
+                        {
+                            "c_dom_subtype": "Dual",
+                            "module_number": "6"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QWP75304.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "7"
+                        },
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "thioesterases": [
+                {
+                    "gene": "QWP75304.1",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Lysobacter sp. K5869",
+        "publications": [
+            "pubmed:33768646"
+        ]
+    }
+}

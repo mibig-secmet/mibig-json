@@ -1,0 +1,198 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        },
+        {
+            "comments": [
+                "Fixed subcluster gene ID",
+                "Added organism name"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Signalling"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "D-phenylactic acid",
+                        "subcluster": [
+                            "QPI18725.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "CCC(=O)N[C@@H]([C@@H](C(C)C)O)C(=O)O[C@@H]([C@H]1C(=O)N([C@H](C(=O)O[C@@H]([C@@H](C(=O)O[C@@H](C(=O)N(C(=C)C(=O)N[C@H](C(=O)N([C@H](C(=O)N1)C)C)C)C)CC2=CC=CC=C2)NC(=O)C)C(C)C)[C@@H](C)OC)C)C(C)C",
+                "chem_synonyms": [
+                    "ubo-qic"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "G protein"
+                    },
+                    {
+                        "target": "subtype Gi"
+                    },
+                    {
+                        "target": "subunit alpha"
+                    }
+                ],
+                "compound": "FR900359",
+                "database_id": [
+                    "pubchem:14101198"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "QPI18723.1",
+                    "name": "frsA",
+                    "product": "nonribosomal peptide synthetase"
+                },
+                {
+                    "id": "QPI18724.1",
+                    "name": "frsB",
+                    "product": "MbtH-like short protein"
+                },
+                {
+                    "id": "QPI18725.1",
+                    "name": "frsC",
+                    "product": "MDH/LDH-like protein"
+                },
+                {
+                    "id": "QPI18726.1",
+                    "name": "frsD",
+                    "product": "nonribosomal peptide synthetase"
+                },
+                {
+                    "id": "QPI18727.1",
+                    "name": "frsE",
+                    "product": "nonribosomal peptide synthetase"
+                },
+                {
+                    "id": "QPI18728.1",
+                    "name": "frsF",
+                    "product": "nonribosomal peptide synthetase"
+                },
+                {
+                    "id": "QPI18729.1",
+                    "name": "frsG",
+                    "product": "nonribosomal peptide synthetase"
+                },
+                {
+                    "id": "QPI18730.1",
+                    "name": "frsH",
+                    "product": "non-heme diiron monooxygenase"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "MT876545.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "mibig_accession": "BGC0002125",
+        "minimal": false,
+        "ncbi_tax_id": "1108595",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "QPI18729.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        },
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QPI18728.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        },
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QPI18727.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "5"
+                        },
+                        {
+                            "c_dom_subtype": "DCL",
+                            "module_number": "6"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QPI18726.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "Starter",
+                            "module_number": "7"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QPI18723.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "Starter",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "thioesterases": [
+                {
+                    "gene": "25969..35376",
+                    "thioesterase_type": "Type I"
+                }
+            ]
+        },
+        "organism_name": "Chromobacterium vaccinii MWU205",
+        "publications": [
+            "pubmed:33420046"
+        ]
+    }
+}

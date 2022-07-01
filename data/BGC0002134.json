@@ -1,0 +1,130 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "O=CC(CCCNC(N)=N)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
+                "chem_synonyms": [
+                    "leupeptin"
+                ],
+                "compound": "leupeptin A",
+                "evidence": [
+                    "Mass spectrometry",
+                    "Other"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 427.5695,
+                "molecular_formula": "C20H38N6O4"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "O=CC(CC1=CC=C(O)C=C1)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
+                "compound": "leupeptin B",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 434.5565,
+                "molecular_formula": "C23H35N3O5"
+            },
+            {
+                "chem_struct": "O=CC(CCSC)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
+                "compound": "leupeptin D",
+                "evidence": [
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 402.5735,
+                "molecular_formula": "C19H35N3O4S"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "O=CC(CC1=CC=CC=C1)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
+                "compound": "leupeptin C",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization",
+                    "Total synthesis"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 418.5575,
+                "molecular_formula": "C23H35N3O4"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "CBJ79719.1",
+                    "mut_pheno": "accumulation of leupeptic acid, no leupeptin production",
+                    "name": "leupA",
+                    "product": "activate carboxylate with CoA"
+                },
+                {
+                    "id": "CBJ79718.1",
+                    "mut_pheno": "no leupeptic acid produced",
+                    "name": "leupB",
+                    "product": "ligate third amino acid, reduce CoA thioester to aldehyde",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "id": "CBJ79717.1",
+                    "mut_pheno": "no production of ac-leu-leu and other dipeptides",
+                    "name": "leupC",
+                    "product": "activate carboxylate with ATP and ligate second amino acid"
+                },
+                {
+                    "id": "CBJ79716.1",
+                    "mut_pheno": "reduced production level of acetyl-leu",
+                    "name": "leupD",
+                    "product": "acetylation"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FN667741.1",
+            "completeness": "complete",
+            "end_coord": 594000,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 588227
+        },
+        "mibig_accession": "BGC0002134",
+        "minimal": false,
+        "ncbi_tax_id": "406818",
+        "organism_name": "Xenorhabdus bovienii SS-2004",
+        "other": {
+            "subclass": "Other"
+        },
+        "publications": [
+            "doi:10.1002/anie.202005506"
+        ]
+    },
+    "comments": "This pathway is non-NRP, using separate AMP-dependent ligases to form amide bonds, with a reductase to form aldehyde."
+}

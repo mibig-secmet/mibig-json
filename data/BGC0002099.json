@@ -1,0 +1,66 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "OC(C(CC1=CN=C2N1)NC(C(CC3=CC=CC=C3)NC(C(CC4=CC=C(O)C2=C4)NC(C)=O)=O)=O)=O",
+                "compound": "biarylite-YFH",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 505.52,
+                "molecular_formula": "C26H27N5O6"
+            }
+        ],
+        "loci": {
+            "accession": "MW201789.1",
+            "completeness": "complete",
+            "end_coord": 1920,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0002099",
+        "minimal": false,
+        "ncbi_tax_id": "2028102",
+        "organism_name": "Planomonospora sp. ID107089",
+        "publications": [
+            "pubmed:33321099"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "YFH"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Other",
+                            "first_AA": 1,
+                            "second_AA": 3
+                        }
+                    ],
+                    "gene_id": "byta"
+                }
+            ],
+            "subclass": "Other"
+        }
+    }
+}

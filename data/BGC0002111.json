@@ -1,0 +1,154 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_synonyms": [
+                    "lanthipeptide",
+                    "lantibiotic",
+                    "methylated lanthipeptide"
+                ],
+                "compound": "andalusicin A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2259.07313,
+                "molecular_formula": "C107H147N27O26S"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_synonyms": [
+                    "lanthipeptide",
+                    "lantibiotic",
+                    "methylated lanthipeptide"
+                ],
+                "compound": "andalusicin B",
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2231.04183,
+                "molecular_formula": "C105H143N27O26S"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "QIW19938.1",
+                    "name": "EVG22_16510",
+                    "product": "ABC transporter ATP-binding protein"
+                },
+                {
+                    "id": "QIW19939.1",
+                    "name": "EVG22_16515",
+                    "product": "ABC-2 transporter permease"
+                },
+                {
+                    "id": "QIW19940.1",
+                    "name": "ancKC",
+                    "product": "class III lanthionine synthetase LanKC",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "id": "QQY95970.1",
+                    "name": "ancA1",
+                    "product": "class III lanthipeptide"
+                },
+                {
+                    "id": "QQY95971.1",
+                    "name": "ancA2",
+                    "product": "class III lanthipeptide"
+                },
+                {
+                    "id": "QQY95972.1",
+                    "name": "ancA3",
+                    "product": "class III lanthipeptide"
+                },
+                {
+                    "id": "QQY95973.1",
+                    "name": "ancA4",
+                    "product": "class III lanthipeptide"
+                },
+                {
+                    "id": "QQY95974.1",
+                    "name": "ancA5",
+                    "product": "class III lanthipeptide"
+                },
+                {
+                    "id": "QQY95975.1",
+                    "name": "ancA6",
+                    "product": "class III lanthipeptide"
+                },
+                {
+                    "id": "QQY95976.1",
+                    "name": "ancA7",
+                    "product": "class III lanthipeptide"
+                },
+                {
+                    "id": "QIW19941.1",
+                    "name": "ancS",
+                    "product": "methyltransferase domain-containing protein",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP035727.2",
+            "completeness": "complete",
+            "end_coord": 3156657,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 3149977
+        },
+        "mibig_accession": "BGC0002111",
+        "minimal": false,
+        "ncbi_tax_id": "257985",
+        "organism_name": "Bacillus thuringiensis serovar andalousiensis NRRL B-23139",
+        "publications": [
+            "pubmed:34113822"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "ATITTTWTVTTTGVWASTISNNC",
+                        "ATITTTWTVTTTGAWASTISNNC"
+                    ],
+                    "gene_id": "evg22_16510"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

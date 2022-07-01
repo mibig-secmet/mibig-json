@@ -1,0 +1,169 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "Amidine ring",
+                        "subcluster": [
+                            "AGI92078.1",
+                            "AGI92080.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C(NC(CC(C)C)/C(N1)=N\\\\[C@@H](CO)C(N[C@@H](C)C(N[C@@H]([C@@H](C)O)C(N[C@H](C(O)=O)CC2=CN=CN2)=O)=O)=O)[C@@H]1CC3=CN=CN3",
+                "compound": "streptamidine",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mol_mass": 646.3187,
+                "molecular_formula": "C28H42N10O8"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AGI92072.1",
+                    "mut_pheno": "Reduced streptamidine production, accumulation of shunt metabolites",
+                    "name": "amiX",
+                    "product": "Oxidoreductase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "AGI92073.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiF1",
+                    "product": "ABC Fe(3+) transporter"
+                },
+                {
+                    "id": "AGI92074.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiF2",
+                    "product": "iron ABC transporter"
+                },
+                {
+                    "id": "AGI92075.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiF3",
+                    "product": "Iron ABC transporter"
+                },
+                {
+                    "id": "AGI92076.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiF4",
+                    "product": "Iron(III) dicitrate transport system permease"
+                },
+                {
+                    "id": "AGI92077.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiA",
+                    "product": "RiPP Precursor peptide"
+                },
+                {
+                    "id": "AGI92078.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiB",
+                    "product": "E1-like protein",
+                    "tailoring": [
+                        "Other"
+                    ]
+                },
+                {
+                    "id": "AGI92079.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiC",
+                    "product": "Hydrolase CocE/NonD family protein",
+                    "tailoring": [
+                        "Hydrolysis"
+                    ]
+                },
+                {
+                    "id": "AGI92080.1",
+                    "mut_pheno": "Abolished production of all pathway metabolites",
+                    "name": "amiD",
+                    "product": "YcaO-domain protein",
+                    "tailoring": [
+                        "Other"
+                    ]
+                },
+                {
+                    "id": "AGI92081.1",
+                    "mut_pheno": "Abolished streptamidine production, accumulation of shunt metabolites",
+                    "name": "amiE",
+                    "product": "dehydrogenase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "AGI92082.1",
+                    "mut_pheno": "No phenotype",
+                    "name": "amiT1",
+                    "product": "HlyB/MsbA family ABC transporter"
+                },
+                {
+                    "id": "AGI92083.1",
+                    "mut_pheno": "No phenotype",
+                    "name": "amiT2",
+                    "product": "ABC efflux pump"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP004370.1",
+            "completeness": "complete",
+            "end_coord": 6513041,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 6498603
+        },
+        "mibig_accession": "BGC0002115",
+        "minimal": false,
+        "ncbi_tax_id": "1886",
+        "organism_name": "Streptomyces albidoflavus J1074",
+        "publications": [
+            "doi:10.1101/2020.05.04.076059"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "HLSATH"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Other",
+                            "first_AA": 1,
+                            "second_AA": 2
+                        }
+                    ],
+                    "gene_id": "AGI92077.1"
+                }
+            ],
+            "subclass": "Other"
+        }
+    }
+}

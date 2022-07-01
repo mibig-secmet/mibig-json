@@ -1,0 +1,110 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "NC1C(NC(CC(N)=O)C(NC(C(C2=CNC3=C2C=CC(C4CCCN)=C3)OC5=CC=CC6=C5NC=C6C1)C(NC(CO)C(NC4C(NC(CO)C(NC(CC7=CC=CC=C7)C(O)=O)=O)=O)=O)=O)=O)=O",
+                "chem_targets": [
+                    {
+                        "target": "BamA"
+                    }
+                ],
+                "compound": "darobactin A",
+                "evidence": [
+                    "NMR"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 965.4032,
+                "molecular_formula": "C47H55N11O12"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "WP_152962143.1",
+                    "name": "darA",
+                    "product": "peptide antibiotic darobactin A"
+                },
+                {
+                    "id": "WP_152962144.1",
+                    "name": "darB",
+                    "product": "darobactin export ABC transporter permease subunit"
+                },
+                {
+                    "id": "WP_152962145.1",
+                    "name": "darC",
+                    "product": "darobactin export ABC transporter periplasmic adaptor subunit"
+                },
+                {
+                    "id": "WP_152962146.1",
+                    "name": "darD",
+                    "product": "darobactin export ABC transporter ATP-binding protein"
+                },
+                {
+                    "id": "WP_152962147.1",
+                    "name": "darE",
+                    "product": "darobactin maturation radical SAM/SPASM protein DarE",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_WHZZ01000001.1",
+            "completeness": "complete",
+            "end_coord": 1243174,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 1236987
+        },
+        "mibig_accession": "BGC0002116",
+        "minimal": false,
+        "ncbi_tax_id": "1004150",
+        "organism_name": "Photorhabdus khanii HGB 1456",
+        "publications": [
+            "pubmed:32269338"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "WNWSKSF"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Other",
+                            "first_AA": 1,
+                            "second_AA": 3
+                        },
+                        {
+                            "crosslink_type": "Ether",
+                            "first_AA": 3,
+                            "second_AA": 5
+                        }
+                    ],
+                    "gene_id": "gea64_rs05020"
+                }
+            ],
+            "subclass": "Other"
+        }
+    }
+}

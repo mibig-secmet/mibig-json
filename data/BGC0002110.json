@@ -1,0 +1,116 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_synonyms": [
+                    "brtα",
+                    "brtβ"
+                ],
+                "compound": "birimositide",
+                "evidence": [
+                    "Mass spectrometry"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "QKV49893.1",
+                    "name": "brtA1",
+                    "product": "BrtA1"
+                },
+                {
+                    "id": "QKV49894.1",
+                    "name": "brtA2",
+                    "product": "BrtA2"
+                },
+                {
+                    "id": "QKV49892.1",
+                    "name": "brtM1",
+                    "product": "BrtM"
+                },
+                {
+                    "id": "QKV49895.1",
+                    "name": "brtT",
+                    "product": "BrtT"
+                },
+                {
+                    "id": "QKV49896.1",
+                    "name": "brtM2",
+                    "product": "BrtM"
+                },
+                {
+                    "id": "QKV49897.1",
+                    "name": "brtJ",
+                    "product": "BrtJ"
+                },
+                {
+                    "id": "QKV49898.1",
+                    "name": "abc1",
+                    "product": "ABC transporter"
+                },
+                {
+                    "id": "QKV49899.1",
+                    "name": "abc2",
+                    "product": "ABC transporter"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "MT037000.1",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0002110",
+        "minimal": false,
+        "ncbi_tax_id": "132474",
+        "organism_name": "Streptomyces rimosus subsp. rimosus WC-3908",
+        "publications": [
+            "pubmed:32493223"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "cleavage_recogn_site": [
+                        "GA"
+                    ],
+                    "core_sequence": [
+                        "CTTNTFSLSNALGNNGGWCTLTKECQPNCN"
+                    ],
+                    "gene_id": "qkv49893.1"
+                },
+                {
+                    "cleavage_recogn_site": [
+                        "GG"
+                    ],
+                    "core_sequence": [
+                        "TGPLCVAASVAASAAFCPTTKCTSKC"
+                    ],
+                    "gene_id": "qkv49894.1"
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    },
+    "comments": "This is a 2-component lanthipeptide."
+}

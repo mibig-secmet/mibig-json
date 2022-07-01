@@ -1,0 +1,89 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "OC1=C(C)C(O[C@H]2C[C@@](O)(C)[C@H](O)[C@@H](C)O2)=CC3=C1C(O)=C(C([C@@H](O[C@H]4C[C@@H](O[C@H]5C[C@@H](O[C@H]6C[C@@](O)(C)[C@H](O)[C@@H](C)O6)[C@@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)C7[C@H](OC)C([C@@H](O)[C@H](O)C)=O)=O)C(C7)=C3",
+                "compound": "metathramycin",
+                "evidence": [
+                    "Mass spectrometry",
+                    "Other"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 968.43,
+                "molecular_formula": "C47H68O21"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "OC1=C(C)C(O[C@H]2C[C@@](O)(C)[C@H](O)[C@@H](C)O2)=CC3=C1C(O)=C(C(C4(O[C@H]5C[C@@H](O[C@H]6C[C@@H](O[C@H]7C[C@@](O)(C)[C@H](O)[C@@H](C)O7)[C@@H](O)[C@@H](C)O6)[C@H](O)[C@@H](C)O5)C8[C@H](OC)C(O)=C(C(C)=O)C4=O)=O)C(C8)=C3",
+                "compound": "premetathramycin",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Other"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 976.39,
+                "molecular_formula": "C48H64O21"
+            }
+        ],
+        "loci": {
+            "accession": "MW512268.1",
+            "completeness": "complete",
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0002129",
+        "minimal": false,
+        "ncbi_tax_id": "77133",
+        "organism_name": "uncultured bacterium",
+        "polyketide": {
+            "cyclases": [
+                "QVQ68793.1",
+                "QVQ68794.1",
+                "QVQ68785.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 10,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Type II",
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "QVQ68798.1",
+                        "QVQ68799.1"
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:34458799"
+        ]
+    }
+}
