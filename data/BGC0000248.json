@@ -25,17 +25,194 @@
         ],
         "compounds": [
             {
-                "compound": "naphtocyclinone"
+                "chem_struct": "C[C@H](O1)C2=C(O)C(C([C@@H]3C[C@@]4(OC(C)=O)C5=C3C(O)=C(C(C(O)=C(CC(O)CC(O)=O)C6=O)=O)C6=C5O)=O)=C4C=C2C[C@@H]1CC(O)=O",
+                "compound": "α naphtocyclinoic acid",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 652.14,
+                "molecular_formula": "C32H28O15"
+            },
+            {
+                "chem_struct": "OC(C[C@H]1CC2=CC3=C(C(O)=CC=C3O)C(O)=C2[C@H](C)O1)=O",
+                "compound": "fogacin",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 304.09,
+                "molecular_formula": "C16H16O6"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "MCG7203797.1",
+                    "name": "ncnR",
+                    "product": "response regulator transcription factor"
+                },
+                {
+                    "id": "MCG7203798.1",
+                    "name": "ncnE",
+                    "product": "MBL fold metallo-hydrolase"
+                },
+                {
+                    "id": "MCG7203799.1",
+                    "name": "ncnT",
+                    "product": "flavin reductase family protein"
+                },
+                {
+                    "id": "MCG7203800.1",
+                    "name": "ncnS",
+                    "product": "acyl-CoA carboxylase subunit beta"
+                },
+                {
+                    "id": "MCG7203801.1",
+                    "name": "ncnR4",
+                    "product": "AfsR/SARP family transcriptional regulator"
+                },
+                {
+                    "id": "MCG7203802.1",
+                    "name": "ncnR3",
+                    "product": "nuclear transport factor 2 family protein"
+                },
+                {
+                    "id": "MCG7203803.1",
+                    "name": "ncnQ",
+                    "product": "3-oxoacyl-ACP reductase"
+                },
+                {
+                    "id": "MCG7203804.1",
+                    "name": "ncnP",
+                    "product": "SDR family oxidoreductase"
+                },
+                {
+                    "id": "MCG7203805.1",
+                    "name": "ncnO",
+                    "product": "LLM class flavin-dependent oxidoreductase"
+                },
+                {
+                    "id": "MCG7203806.1",
+                    "name": "ncnN",
+                    "product": "DUF6081 family protein"
+                },
+                {
+                    "id": "MCG7203807.1",
+                    "name": "ncnH",
+                    "product": "flavin-dependent monooxygenase"
+                },
+                {
+                    "id": "MCG7203808.1",
+                    "name": "ncnT2",
+                    "product": "DoxX family protein"
+                },
+                {
+                    "id": "MCG7203809.1",
+                    "name": "ncnM",
+                    "product": "NmrA/HSCARG family protein"
+                },
+                {
+                    "id": "MCG7203810.1",
+                    "name": "ncnL",
+                    "product": "acyltransferase"
+                },
+                {
+                    "id": "MCG7203811.1",
+                    "name": "ncnT1",
+                    "product": "DHA2 family efflux MFS transporter permease subunit"
+                },
+                {
+                    "id": "MCG7203812.1",
+                    "name": "ncnR2",
+                    "product": "TetR family transcriptional regulator"
+                },
+                {
+                    "id": "MCG7203813.1",
+                    "name": "ncnK",
+                    "product": "PPOX class F420-dependent oxidoreductase"
+                },
+                {
+                    "id": "MCG7203814.1",
+                    "name": "ncnJ",
+                    "product": "TIGR03619 family F420-dependent LLM class oxidoreductase"
+                },
+                {
+                    "id": "MCG7203815.1",
+                    "name": "ncnI",
+                    "product": "SAM-dependent methyltransferase"
+                },
+                {
+                    "id": "MCG7203816.1",
+                    "name": "ncnG",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "MCG7203817.1",
+                    "name": "ncnD",
+                    "product": "aromatase/cyclase"
+                },
+                {
+                    "id": "MCG7203818.1",
+                    "name": "ncnC",
+                    "product": "acyl carrier protein"
+                },
+                {
+                    "id": "MCG7203819.1",
+                    "name": "ncnB",
+                    "product": "ketosynthase chain-length factor"
+                },
+                {
+                    "id": "MCG7203820.1",
+                    "name": "ncnA",
+                    "product": "beta-ketoacyl-[acyl-carrier-protein] synthase family protein"
+                },
+                {
+                    "id": "MCG7203821.1",
+                    "name": "ncnF",
+                    "product": "M56 family metallopeptidase"
+                },
+                {
+                    "id": "MCG7203822.1",
+                    "name": "ncnR1",
+                    "product": "BlaI/MecI/CopY family transcriptional regulator"
+                }
+            ]
+        },
         "loci": {
-            "accession": "AF098965.1",
-            "completeness": "Unknown"
+            "accession": "JAKQYH010000014.1",
+            "completeness": "complete",
+            "end_coord": 120787,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 94867
         },
         "mibig_accession": "BGC0000248",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "29301",
-        "organism_name": "Streptomyces arenae",
+        "organism_name": "Streptomyces arenae DSM 40737",
+        "polyketide": {
+            "cyclases": [
+                "MCG7203817.1",
+                "MCG7203798.1"
+            ],
+            "cyclic": true,
+            "ketide_length": 8,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Type II",
+                "Benzoisochromanequinone"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "MCG7203819.1",
+                        "MCG7203820.1"
+                    ]
+                }
+            ]
+        },
         "publications": [
             "pubmed:10206788"
         ]
