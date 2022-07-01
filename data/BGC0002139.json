@@ -1,0 +1,183 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic",
+                    "Other"
+                ],
+                "chem_struct": "O=C([C@H](C)[C@H](O)/C=C/C=C/C=C/C=C/C=C/[C@@]1(C)[C@@](CC[C@@H](C)C2)([H])[C@]2([H])C=C(C(OC)=O)[C@H]1/C(C)=C/C(O)=O)O",
+                "compound": "burnettiene A",
+                "evidence": [
+                    "NMR"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 537.286,
+                "molecular_formula": "C32H42O7"
+            },
+            {
+                "chem_struct": "O=C([C@H](C)[C@H](O)/C=C/C=C/C=C/C=C/C=C/[C@@]1(C)[C@@](CC[C@@H](C)C2)([H])[C@]2([H])C=C(C(O)=O)[C@H]1/C(C)=C/C(O)=O)O",
+                "compound": "preburnettiene B",
+                "evidence": [
+                    "NMR"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 523.2714,
+                "molecular_formula": "C31H40O7"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "O=C([C@H](C)[C@H](O)/C=C/C=C/C=C/C=C/C=C/[C@@]1(C)[C@@](CC[C@@H](C)C2)([H])[C@]2([H])C=C(C)[C@H]1/C(C)=C/C)O",
+                "compound": "preburnettiene A",
+                "evidence": [
+                    "NMR"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 463.3239,
+                "molecular_formula": "C31H44O3"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "KAF5858310.1",
+                    "name": "BueA",
+                    "product": "HR-PKS"
+                },
+                {
+                    "id": "KAF5858311.1",
+                    "name": "BueB",
+                    "product": "Enoyl reductase"
+                },
+                {
+                    "id": "KAF5858312.1",
+                    "name": "BueE",
+                    "product": "Cytochrome P450",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "KAF5858313.1",
+                    "name": "BueD",
+                    "product": "Epimerase"
+                },
+                {
+                    "id": "KAF5858314.1",
+                    "name": "BueC",
+                    "product": "α/β hydrolase"
+                },
+                {
+                    "id": "KAF5858315.1",
+                    "name": "BueR",
+                    "product": "Transcription Factor"
+                },
+                {
+                    "id": "KAF5858316.1",
+                    "name": "BueF",
+                    "product": "Methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "id": "KAF5858317.1",
+                    "name": "BueG",
+                    "product": "MFS transporter"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "SPNV01000211.1",
+            "completeness": "complete",
+            "end_coord": 66398,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 43487
+        },
+        "mibig_accession": "BGC0002139",
+        "minimal": false,
+        "ncbi_tax_id": "2508778",
+        "organism_name": "Aspergillus burnettii FRR 5400",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Iterative type I",
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "KAF5858310.1",
+                        "KAF5858311.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Other",
+                        "nr_iterations": 13,
+                        "subtype": "Highly reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase"
+                            ],
+                            "genes": [
+                                "KAF5858310.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "iterated": true
+                            },
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Enoylreductase"
+                            ],
+                            "genes": [
+                                "KAF5858311.1"
+                            ],
+                            "module_number": "2",
+                            "non_canonical": {
+                                "non_elongating": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:34714309"
+        ]
+    }
+}

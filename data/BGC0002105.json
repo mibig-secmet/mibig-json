@@ -1,0 +1,342 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "CCCCC1C/C=C/C=C/C=C/C=C/C(CC2C(C(CC(O2)(CC(CC3C(O3)/C=C/C(=O)O1)O)O)O)C(=O)O)OC4C(C(C(C(O4)C)O)N)O",
+                "chem_synonyms": [
+                    "etruscomycin"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Ergosterol"
+                    }
+                ],
+                "compound": "lucensomycin",
+                "database_id": [
+                    "pubchem:5382508"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "WP_174703967.1",
+                    "product": "polyketide synthase docking domain-containing protein"
+                },
+                {
+                    "id": "WP_081238284.1",
+                    "product": "type I polyketide synthase"
+                },
+                {
+                    "id": "WP_081238285.1",
+                    "product": "glycosyltransferase family 1 protein"
+                },
+                {
+                    "id": "WP_081238286.1",
+                    "product": "DegT/DnrJ/EryC1/StrS family aminotransferase"
+                },
+                {
+                    "id": "WP_081238287.1",
+                    "product": "cytochrome P450"
+                },
+                {
+                    "id": "WP_081238288.1",
+                    "product": "ferredoxin"
+                },
+                {
+                    "id": "WP_081238289.1",
+                    "product": "type I polyketide synthase"
+                },
+                {
+                    "id": "WP_081238290.1",
+                    "product": "type I polyketide synthase"
+                },
+                {
+                    "id": "WP_081238291.1",
+                    "product": "type I polyketide synthase"
+                },
+                {
+                    "id": "WP_081238292.1",
+                    "product": "ABC transporter ATP-binding protein"
+                },
+                {
+                    "id": "WP_081238293.1",
+                    "product": "ABC transporter ATP-binding protein"
+                },
+                {
+                    "id": "WP_107501505.1",
+                    "product": "cytochrome P450"
+                },
+                {
+                    "id": "WP_159461037.1",
+                    "product": "PAS domain-containing protein"
+                },
+                {
+                    "id": "WP_081238295.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "WP_081238296.1",
+                    "product": "GMC family oxidoreductase"
+                },
+                {
+                    "id": "WP_143626333.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "WP_081238300.1",
+                    "product": "AAA family ATPase"
+                },
+                {
+                    "id": "WP_081238297.1",
+                    "product": "IS5 family transposase"
+                },
+                {
+                    "id": "WP_081238298.1",
+                    "product": "Mucin-2"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_MSGP01000218.1",
+            "completeness": "incomplete",
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0002105",
+        "minimal": false,
+        "ncbi_tax_id": "67581",
+        "organism_name": "Streptomyces viridosporus NRRL 2414",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Modular type I",
+                "Polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_081238284.1",
+                        "WP_081238289.1",
+                        "WP_081238290.1",
+                        "WP_081238291.1",
+                        "WP_174703967.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238291.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238291.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2"
+                        },
+                        {
+                            "at_specificities": [
+                                "Methylmalonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238291.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238291.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238291.1"
+                            ],
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238291.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238290.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238289.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238284.1"
+                            ],
+                            "module_number": "9"
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "WP_081238284.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "10"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_174703967.1"
+                            ],
+                            "module_number": "11"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:5364432",
+            "pubmed:5297232"
+        ]
+    }
+}

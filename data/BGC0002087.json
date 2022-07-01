@@ -1,0 +1,216 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal"
+                ],
+                "chem_struct": "O[C@H](CC1CC(NC(C1)=O)=O)CC([C@@H](C)/C=C/CCCCCCCCC(C2=C(C)C(O)OC2=O)=O)=O",
+                "chem_synonyms": [
+                    "gladiofungin a"
+                ],
+                "compound": "gladiostatin A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 505.2676,
+                "molecular_formula": "C27H39NO8"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_UZVS01000001.1",
+            "completeness": "complete",
+            "end_coord": 3530217,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 3449913
+        },
+        "mibig_accession": "BGC0002087",
+        "minimal": false,
+        "ncbi_tax_id": "28095",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_126241645.1",
+                    "modules": [
+                        {
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_164720583.1",
+                    "modules": [
+                        {
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Burkholderia gladioli 238",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Malonamyl-CoA",
+            "subclasses": [
+                "Modular type I",
+                "Trans-AT type I",
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "WP_126241644.1",
+                        "WP_164720583.1"
+                    ],
+                    "modules": [
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_126241644.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "1"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_126241644.1"
+                            ],
+                            "module_number": "2"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_126241644.1"
+                            ],
+                            "module_number": "3"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_164720583.1"
+                            ],
+                            "module_number": "4"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_164720583.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "5",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_164720583.1"
+                            ],
+                            "module_number": "6"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_164720583.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "7"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_164720583.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "8"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "WP_164720583.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "9"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase"
+                            ],
+                            "genes": [
+                                "WP_164720583.1"
+                            ],
+                            "module_number": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "doi:10.1002/anie.202005711",
+            "doi:10.1002/anie.202009007"
+        ]
+    }
+}

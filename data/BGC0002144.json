@@ -1,0 +1,116 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "50S ribosome subunit"
+                    }
+                ],
+                "compound": "phazolicin",
+                "evidence": [
+                    "Mass spectrometry",
+                    "X-ray"
+                ],
+                "mol_mass": 2362.86
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "WP_128623601.1",
+                    "name": "phzE",
+                    "product": "ABC transporter ATP-binding protein/permease"
+                },
+                {
+                    "id": "WP_164841440.1",
+                    "name": "phzA",
+                    "product": "precursor peptide"
+                },
+                {
+                    "id": "WP_008531782.1",
+                    "name": "phzC",
+                    "product": "McbB family protein",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "id": "WP_008531784.1",
+                    "name": "phzB",
+                    "product": "azoline dehydrogenase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "id": "WP_164841441.1",
+                    "mut_pheno": "no phazolicin biosynthesis",
+                    "name": "phzD",
+                    "product": "YcaO-domain-containing cyclodehydratase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "id": "WP_008531786.1",
+                    "name": "phzR",
+                    "product": "MucR family transcriptional regulator"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_AMCP01000684.1",
+            "completeness": "complete",
+            "end_coord": 6978,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 1464
+        },
+        "mibig_accession": "BGC0002144",
+        "minimal": false,
+        "ncbi_tax_id": "1223565",
+        "organism_name": "Rhizobium sp. Pop5",
+        "publications": [
+            "pubmed:31594941"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "ATCARCDSSSRCGASGKSSGSASSIST"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "None",
+                            "first_AA": -1,
+                            "second_AA": -1
+                        }
+                    ],
+                    "gene_id": "rccgepop_rs37510"
+                }
+            ],
+            "subclass": "LAP"
+        }
+    }
+}

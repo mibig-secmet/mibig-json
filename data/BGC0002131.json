@@ -1,0 +1,272 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide",
+            "Saccharide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C[C@@H]1[C@H]([C@@H]([C@@H](O1)O[C@@H]2CO[C@H]([C@H]([C@H]2O)O)O[C@H]3[C@@H]([C@@H](COC3N4[C@H](C(=O)/C(=C(\\C=C\\C=C\\C=C\\C=C\\C=C(\\C=C(/C)\\Cl)/Cl)/O)/C4=O)CC(=O)N)O)O)OC)O",
+                "compound": "aurantoside A",
+                "database_id": [
+                    "pubchem:54681529",
+                    "chembl:CHEMBL502660"
+                ],
+                "evidence": [
+                    "Mass spectrometry",
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "MBV7329448.1",
+                    "product": "ABC transporter ATP-binding protein/permease"
+                },
+                {
+                    "id": "MBV7329449.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "MBV7329450.1",
+                    "product": "ATP-binding cassette domain-containing protein"
+                },
+                {
+                    "id": "MBV7329451.1",
+                    "product": "heavy metal translocating P-type ATPase"
+                },
+                {
+                    "id": "MBV7329452.1",
+                    "product": "tryptophan 7-halogenase",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "id": "MBV7329453.1",
+                    "product": "NAD(P)/FAD-dependent oxidoreductase",
+                    "tailoring": [
+                        "Halogenation"
+                    ]
+                },
+                {
+                    "id": "MBV7329454.1",
+                    "product": "type I polyketide synthase"
+                },
+                {
+                    "id": "MBV7329455.1",
+                    "product": "amino acid adenylation domain-containing protein"
+                },
+                {
+                    "id": "MBV7329456.1",
+                    "product": "hypothetical protein",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "id": "MBV7329457.1",
+                    "product": "glycosyl transferase family 1",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "id": "MBV7329458.1",
+                    "product": "FkbM family methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "id": "MBV7329459.1",
+                    "product": "NAD-dependent epimerase/dehydratase family protein",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "MBV7329460.1",
+                    "product": "NTP transferase domain-containing protein",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "MBV7329461.1",
+                    "product": "glycosyl transferase family 1",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "id": "MBV7329462.1",
+                    "product": "NAD-dependent epimerase/dehydratase family protein",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "MBV7329463.1",
+                    "product": "MFS transporter"
+                },
+                {
+                    "id": "MBV7329464.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "id": "MBV7329465.1",
+                    "product": "hypothetical protein"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JAHBNG010000012.1",
+            "completeness": "complete",
+            "end_coord": 167526,
+            "evidence": [
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "start_coord": 128405
+        },
+        "mibig_accession": "BGC0002131",
+        "minimal": false,
+        "ncbi_tax_id": "2834438",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "MBV7329455.1",
+                    "modules": [
+                        {
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Other"
+            ],
+            "subclass": "Glycopeptide",
+            "thioesterases": [
+                {
+                    "gene": "MBV7329455.1",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
+        "organism_name": "Chloroflexi bacterium TSY",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Other"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Modular type I",
+                "Iterative type I",
+                "Polyene"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "MBV7329454.1",
+                        "MBV7329455.1",
+                        "MBV7329454.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 6,
+                        "subtype": "Partially reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "MBV7329454.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "iterated": true
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "MBV7329455.1"
+                            ],
+                            "module_number": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "doi:10.1093/pnasnexus/pgab007"
+        ],
+        "saccharide": {
+            "glycosyltransferases": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "MBV7329456.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "MBV7329461.1",
+                    "specificity": "Unknown"
+                },
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "MBV7329457.1",
+                    "specificity": "Unknown"
+                }
+            ],
+            "subclass": "hybrid/tailoring"
+        }
+    }
+}

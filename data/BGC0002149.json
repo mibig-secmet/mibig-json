@@ -1,0 +1,192 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "N,N-dimethylleucine",
+                        "subcluster": [
+                            "UOH28374.1",
+                            "UOH28375.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C1[C@@H]2O[C@](C3=C1)(OC2(C)C)CC[C@]([C@@]3(O)[C@@H](OC([C@H](CC(C)C)N(C)C)=O)C4)(C)[C@@]([C@]4([H])C5)(C)C6=C5C7=CC=CC=C7N6",
+                "compound": "14-(N,N-dimethylleucyloxy)paspalinine",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 591.34,
+                "molecular_formula": "C35H46N2O6"
+            },
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "L-leucine",
+                        "subcluster": [
+                            "UOH28374.1"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C1[C@@H]2O[C@](C3=C1)(OC2(C)C)CC[C@]([C@@]3(O)[C@@H](OC([C@H](CC(C)C)N)=O)C4)(C)[C@@]([C@]4([H])C5)(C)C6=C5C7=CC=CC=C7N6",
+                "compound": "14-(leucyloxy)paspalinine",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 563.3,
+                "molecular_formula": "C33H42N2O6"
+            },
+            {
+                "chem_struct": "C[C@]12CC[C@]34C(=CC(=O)[C@H](O3)C(O4)(C)C)[C@@]1([C@H](C[C@@H]5[C@@]2(C6=C(C5)C7=CC=CC=C7N6)C)O)O",
+                "compound": "14-hydroxypaspalinine",
+                "database_id": [
+                    "pubchem:10072409"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "UOH28366.1",
+                    "mut_pheno": "13-desoxypaxilline producer",
+                    "name": "aceQ",
+                    "product": "AceQ",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "UOH28367.1",
+                    "name": "aceR",
+                    "product": "AceR",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                },
+                {
+                    "id": "UOH28375.1",
+                    "name": "aceT",
+                    "product": "AceT",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "id": "UOH28369.1",
+                    "name": "aceP",
+                    "product": "AceP",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "id": "UOH28370.1",
+                    "name": "aceC",
+                    "product": "AceC"
+                },
+                {
+                    "id": "UOH28368.1",
+                    "mut_pheno": "accumulates epoxidised GGI",
+                    "name": "aceB",
+                    "product": "AceB"
+                },
+                {
+                    "id": "UOH28371.1",
+                    "name": "aceM",
+                    "product": "AceM"
+                },
+                {
+                    "id": "UOH28372.1",
+                    "name": "aceA",
+                    "product": "AceA"
+                },
+                {
+                    "id": "UOH28373.1",
+                    "name": "aceG",
+                    "product": "AceG"
+                },
+                {
+                    "id": "UOH28374.1",
+                    "name": "aceN",
+                    "product": "AceN",
+                    "tailoring": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "OK546695.1",
+            "completeness": "complete",
+            "end_coord": 40000,
+            "evidence": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0002149",
+        "minimal": false,
+        "ncbi_tax_id": "209559",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "UOH28374.1",
+                    "modules": [
+                        {
+                            "module_number": "0"
+                        },
+                        {
+                            "c_dom_subtype": "Unknown",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Other"
+            ],
+            "subclass": "Other"
+        },
+        "organism_name": "Aspergillus alliaceus ATCC 20738",
+        "publications": [
+            "pubmed:35315670"
+        ],
+        "terpene": {
+            "carbon_count_subclass": "Diterpene",
+            "prenyltransferases": [
+                "UOH28370.1"
+            ],
+            "structural_subclass": "Other",
+            "terpene_precursor": "GGPP",
+            "terpene_synth_cycl": [
+                "UOH28368.1"
+            ]
+        }
+    }
+}

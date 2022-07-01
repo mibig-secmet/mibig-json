@@ -1,0 +1,156 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "Cyclopropane ring"
+                    }
+                ],
+                "chem_struct": "O=C(O)/C=C/C=C/C=C\\\\C1CC1C1CC1C1CC1C1CC1C1CC1C1CC1C1CC1C",
+                "compound": "fuelimycin A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 418.28718,
+                "molecular_formula": "C29H38O2"
+            },
+            {
+                "chem_moieties": [
+                    {
+                        "moiety": "Cyclopropane ring"
+                    }
+                ],
+                "chem_struct": "O=C(O)/C=C/C=C/C1CC1C1CC1C1CC1C1CC1C1CC1C1CC1C1CC1C",
+                "compound": "fuelimicin B",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M-H]-",
+                "mol_mass": 392.27153,
+                "molecular_formula": "C27H36O2"
+            },
+            {
+                "chem_struct": "O=C(O)/C=C/C=C/C=C\\\\C1CC1C1CC1C1CC1C1CC1C1CC1C1CC1C",
+                "compound": "fuelimicin C",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 378.25588,
+                "molecular_formula": "C26H34O2"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "PAU45552.1",
+                    "name": "Pop1",
+                    "product": "Iterative polyketide synthase"
+                },
+                {
+                    "id": "PAU45553.1",
+                    "name": "Pop2",
+                    "product": "PKS associated cyclopropanase"
+                },
+                {
+                    "id": "PAU45554.1",
+                    "name": "Pop3",
+                    "product": "beta-ketoacyl-ACP reductase"
+                },
+                {
+                    "id": "PAU45555.1",
+                    "name": "Pop4",
+                    "product": "Acyl-ACP thioesterase, hot dog family"
+                },
+                {
+                    "id": "PAU45556.1",
+                    "name": "Pop5",
+                    "product": "Transporter"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NSJV01000558.1",
+            "completeness": "Unknown",
+            "end_coord": 99055,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 93384
+        },
+        "mibig_accession": "BGC0002138",
+        "minimal": false,
+        "ncbi_tax_id": "1940",
+        "organism_name": "Streptomyces albireticuli NRRL B-1670",
+        "polyketide": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Iterative type I",
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "PAU45552.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Unknown",
+                        "nr_iterations": 1,
+                        "subtype": "Partially reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "PAU45552.1"
+                            ],
+                            "module_number": "1",
+                            "non_canonical": {
+                                "iterated": true
+                            }
+                        }
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "PAU45555.1",
+                            "thioesterase_type": "Unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

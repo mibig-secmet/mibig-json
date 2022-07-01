@@ -1,0 +1,70 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Add information lost in migration from 1.4 to 2.0"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.1"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(=O)NC3Cc1ccc(O)c(c1)c4ncc(CC(C(=O)O)NC(=O)C(Cc2ccc(O)cc2)NC3=O)[nH]4",
+                "compound": "biarylite-YYH",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 521.52,
+                "molecular_formula": "C26H27N5O7"
+            }
+        ],
+        "loci": {
+            "accession": "MW201788.1",
+            "completeness": "complete",
+            "end_coord": 2160,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0002084",
+        "minimal": false,
+        "ncbi_tax_id": "2028102",
+        "organism_name": "Planomonospora sp. ID82291",
+        "publications": [
+            "pubmed:33321099"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "cleavage_recogn_site": [
+                        "R"
+                    ],
+                    "core_sequence": [
+                        "MRYYH"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Other",
+                            "first_AA": 3,
+                            "second_AA": 5
+                        }
+                    ],
+                    "gene_id": "byta"
+                }
+            ],
+            "subclass": "Other"
+        }
+    },
+    "comments": "bytA= precursor peptide; bytO= cytochrome P450"
+}
