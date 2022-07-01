@@ -12,6 +12,15 @@ with open("schema.json") as schema_handle:
     schema = json.load(schema_handle)
 
 
+def check_coordinates(data: Dict[str, Any], prefix: str) -> bool:
+    start = data["cluster"]["loci"].get("start_coord", 1)
+    end = data["cluster"]["loci"].get("end_coord", start + 10)
+    if start >= end:
+        print(f"{prefix}invalid coordinates: end ({end}) before start ({start})")
+        return False
+    return True
+
+
 def check_gene_naming(data: Dict[str, Any], prefix: str) -> bool:
     invalid = {
         "no_accession",
@@ -125,6 +134,7 @@ def check_single(file: str, prefix: str = "") -> bool:
         prefix = f"{prefix}{file.rsplit(prefix, 1)[-1]}: "
     try:
         for func in [
+            check_coordinates,
             check_gene_duplication,
             check_gene_naming,
             check_kr_stereochem,
