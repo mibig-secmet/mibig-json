@@ -134,6 +134,7 @@
                                 "type": "array"
                             },
                             "chem_struct": {
+                                "pattern": "^[\\[\\]a-zA-Z0-9\\@()=\\/\\\\#+.%*-]+$",
                                 "title": "Compound structure",
                                 "type": "string"
                             },
@@ -166,6 +167,7 @@
                                 "type": "array"
                             },
                             "compound": {
+                                "pattern": "^[a-zA-zα-ωΑ-Ω0-9'()/&, +-]+$",
                                 "title": "Compound name (from PUBMED)",
                                 "type": "string"
                             },
