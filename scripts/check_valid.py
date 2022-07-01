@@ -65,6 +65,22 @@ def check_gene_duplication(data: Dict[str, Any], prefix: str) -> bool:
     return True
 
 
+def check_item_duplication(data: Dict[str, Any], prefix: str) -> bool:
+    def check_list(items) -> bool:
+        if items and isinstance(items[0], str):
+            return len(items) == len(set(items))
+        return True
+
+    for key, val in data.items():
+        if isinstance(val, list) and not check_list(val):
+            print(f"{prefix}contains duplicated items in '{key}': {val}")
+            return False
+        if isinstance(val, dict):
+            if not check_item_duplication(val, prefix):
+                return False
+    return True
+
+
 def check_kr_stereochem(data: Dict[str, Any], prefix: str) -> bool:
     for synthase in data["cluster"].get("polyketide", {}).get("synthases", []):
         for module in synthase.get("modules", []):
@@ -127,6 +143,7 @@ def check_single(file: str, prefix: str = "") -> bool:
         for func in [
             check_gene_duplication,
             check_gene_naming,
+            check_item_duplication,
             check_kr_stereochem,
             check_pks_module_duplication,
         ]:
