@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$schema_created": "2022-06-10T14:35:24+02:00",
-    "$schema_version": "2.6",
+    "$schema_created": "2022-07-4T13:37:00+02:00",
+    "$schema_version": "2.7",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -415,7 +415,7 @@
                     "additionalProperties": false,
                     "properties": {
                         "accession": {
-                            "pattern": "^([A-Za-z0-9._]{3,}\\.\\d)|(MIBIG:BGC\\d{7}){1}$",
+                            "pattern": "^([A-Za-z0-9_]{3,}\\.\\d)|(MIBIG\\.BGC\\d{7}\\.\\d)$",
                             "title": "GenBank nucleotide accession number",
                             "type": "string"
                         },
