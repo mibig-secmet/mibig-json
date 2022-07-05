@@ -7,7 +7,7 @@ from typing import Any, Dict, List
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-r", "--release", default="2.1",
+    parser.add_argument("-r", "--release", default="3.0",
                         help="Set the release version of the changelog entry to add (default: %(default)s).")
     parser.add_argument("-c", "--comment", action="append",
                         help="Comment to add to changelog entry (can be used multiple times)")
