@@ -44,6 +44,10 @@ def check_gene_naming(data: Dict[str, Any], prefix: str) -> bool:
         for module in synthase.get("modules", []):
             for gene in module.get("genes", []):
                 ids.add(gene)
+    terpene = data["cluster"].get("terpene", {})
+    if terpene:
+        ids.update(terpene.get("terpene_prenyltransferases", []))
+        ids.update(terpene.get("terpene_synth_cycl", []))
     bad_names = {name.lower() for name in ids}.intersection(invalid)
     if bad_names:
         print(f"{prefix}invalid gene identifiers: {', '.join(list(bad_names))}")
