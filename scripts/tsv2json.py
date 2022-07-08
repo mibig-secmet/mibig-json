@@ -122,7 +122,6 @@ def run(infile: IO, outdir: str, cache_file: str, structure_file: str = '',
                     if not compound.smiles:
                         compound.smiles = structure.smiles
                     entry.compounds.append(compound)
-                entry.compounds.sort(key=lambda x: x.name)
             else:
                 for compound in entry.compounds:
                     if compound.npaid and npatlas_data:
