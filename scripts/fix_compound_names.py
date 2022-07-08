@@ -5,13 +5,14 @@
 import argparse
 import json
 import os
+from typing import List
 
 
 DATA_DIR = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "data")
 
 
 def run(args: argparse.Namespace) -> None:
-    json_files = []  # type: List[str]
+    json_files: List[str] = []
     for name in os.listdir(args.data_dir):
         if name.startswith("BGC") and name.endswith(".json"):
             json_files.append(os.path.join(args.data_dir, name))
@@ -24,13 +25,12 @@ def rename_compounds(json_file: str) -> None:
     with open(json_file, 'r', encoding="utf-8") as handle:
         entry = json.load(handle)
 
-    mibig_acc = entry['cluster']['mibig_accession']
-
     for compound_data in entry['cluster']['compounds']:
         compound_data['compound'] = fix_name(compound_data['compound'])
 
     with open(json_file, 'w', encoding="utf-8") as handle:
-        json.dump(entry, handle, indent=4, separators=(',', ': '), sort_keys=True, ensure_ascii=False)
+        json.dump(entry, handle, indent=4, separators=(',', ': '), sort_keys=True,
+                  ensure_ascii=False)
 
 
 def fix_name(name: str) -> str:
@@ -56,14 +56,54 @@ def fix_greek_letters(name: str) -> str:
 
 
 def replace_greek(symbol: str) -> str:
-    if symbol== "alpha":
+    if symbol == "alpha":
         return "α"
-    elif symbol== "beta":
+    elif symbol == "beta":
         return "β"
-    elif symbol== "gamma":
+    elif symbol == "gamma":
         return "γ"
-    elif symbol== "delta":
+    elif symbol == "delta":
         return "δ"
+    elif symbol == "epsilon":
+        return "ε"
+    elif symbol == "zeta":
+        return "ζ"
+    elif symbol == "eta":
+        return "η"
+    elif symbol == "theta":
+        return "θ"
+    elif symbol == "iota":
+        return "ι"
+    elif symbol == "kappa":
+        return "κ"
+    elif symbol == "lambda":
+        return "λ"
+    elif symbol == "mu":
+        return "μ"
+    elif symbol == "nu":
+        return "ν"
+    elif symbol == "xi":
+        return "ξ"
+    elif symbol == "omicron":
+        return "ο"
+    elif symbol == "pi":
+        return "π"
+    elif symbol == "rho":
+        return "ρ"
+    elif symbol == "sigma":
+        return "σ"
+    elif symbol == "tau":
+        return "τ"
+    elif symbol == "upsilon":
+        return "υ"
+    elif symbol == "phi":
+        return "φ"
+    elif symbol == "chi":
+        return "χ"
+    elif symbol == "psi":
+        return "ψ"
+    elif symbol == "omega":
+        return "ω"
     return symbol
 
 
@@ -77,9 +117,10 @@ def fix_string(name: str) -> str:
         if name.lower() == "iso":
             return "iso"
         return name
-    if 3 <= len(name) <=5 and name[0].isupper() and name[1].islower() and name[-1].isupper():
+    if 3 <= len(name) <= 5 and name[0].isupper() and name[1].islower() and name[-1].isupper():
         return name
-    if 3 <= len(name) <=5 and name[0].isupper() and name[1].islower() and name[-1].isdigit() and name[-2].isupper():
+    if 3 <= len(name) <= 5 and name[0].isupper() and name[1].islower() and name[-1].isdigit() \
+            and name[-2].isupper():
         return name
     if name.startswith("CDA"):
         return name
@@ -99,11 +140,13 @@ def fix_string(name: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data-dir', default=DATA_DIR, help="Directory containing the MIBiG JSON files (default: %(default)s).")
+    parser.add_argument('--data-dir', default=DATA_DIR,
+                        help="Directory containing the MIBiG JSON files (default: %(default)s).")
 
     args = parser.parse_args()
 
     run(args)
+
 
 if __name__ == "__main__":
     main()
