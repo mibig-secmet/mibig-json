@@ -600,6 +600,31 @@
                                                     "title": "Assembly line module number",
                                                     "type": "string"
                                                 },
+                                                "monomer_integrated": {
+                                                    "additionalProperties": false,
+                                                    "properties": {
+                                                        "evidence": {
+                                                            "items": {
+                                                                "enum": [
+                                                                    "Sequence-based prediction",
+                                                                    "Structure-based inference"
+                                                                ],
+                                                                "type": "string"
+                                                            },
+                                                            "title": "Evidence for integrated monomer",
+                                                            "type": "array"
+                                                        },
+                                                        "name": {
+                                                            "type": "string"
+                                                        },
+                                                        "structure": {
+                                                            "pattern": "^[\\[\\]a-zA-Z0-9\\@()=\\/\\\\#+.%*-]+$",
+                                                            "title": "Monomer structure",
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                },
                                                 "non_canonical": {
                                                     "additionalProperties": false,
                                                     "properties": {
