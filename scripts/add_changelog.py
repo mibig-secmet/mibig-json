@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import os
 from typing import Any, Dict, List
 
 
@@ -17,6 +18,8 @@ def main():
                         help="Fix the last changelog entry instead of adding a new entry")
     parser.add_argument("json_file", help="Filename of json file to add changelog entry to.")
     args = parser.parse_args()
+    if not args.contributor and os.getenv("MIBIG_ID"):
+        args.contributor = [os.getenv("MIBIG_ID")]
     run(args)
 
 
