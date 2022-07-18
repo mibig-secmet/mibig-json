@@ -2,9 +2,12 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Corrected NRP module activity",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "Z7AIIJAM3U3HR6IYDPQOINM4",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -16,10 +19,25 @@
         ],
         "compounds": [
             {
-                "compound": "endopyrrole A"
+                "chem_struct": "CC(C(C(NC(CO)C(NC(CC1=CC=C(O)C=C1)C(O)=O)=O)=O)NC(C(C(C)C)NC(C(C(C)C)NC(C(CCC2)N2C(C(C(C)C)NC(C3=CC=CN3)=O)=O)=O)=O)=O)O",
+                "compound": "endopyrrole B",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 856.4331,
+                "molecular_formula": "C41H60N8O12"
             },
             {
-                "compound": "endopyrrole B"
+                "chem_struct": "C[C@H]([C@@H](C(N[C@H](CO)C1=O)=O)NC([C@@H](C(C)C)NC([C@H](C(C)C)NC([C@H](CCC2)N2C([C@H](C(C)C)NC(C3=CC=CN3)=O)=O)=O)=O)=O)OC([C@H](CC4=CC=C(O)C=C4)NC([C@@H](N1)CC5=CC=C(O)C=C5)=O)=O",
+                "compound": "endopyrrole A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mol_mass": 1001.4858,
+                "molecular_formula": "C50H67N9O13"
             }
         ],
         "loci": {
@@ -27,17 +45,181 @@
             "completeness": "Unknown",
             "end_coord": 1866150,
             "evidence": [
+                "Sequence-based prediction",
                 "Knock-out studies"
             ],
             "start_coord": 1835600
         },
         "mibig_accession": "BGC0002048",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "882378",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "CBW75455.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "nonproteinogenic": [
+                                    "Pyrrole carboxylic acid"
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBW75454.1",
+                    "modules": [
+                        {
+                            "active": true,
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBW75453.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBW75452.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Valine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "5"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBW75451.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "6"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tyrosine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Dual",
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Tyrosine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "8"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
         "organism_name": "Mycetohabitans rhizoxinica HKI 454",
         "publications": [
             "pubmed:21131495",
-            "doi:10.1128/JB.01318-10"
+            "pubmed:31283172"
         ]
     }
 }
