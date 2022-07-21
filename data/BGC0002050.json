@@ -2,9 +2,18 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Corrected NRP module activity",
+                "Removed erroneous gene name",
+                "Removed gene annotations with no information",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules",
+                "Sorted modules by module number",
+                "Added version to NCBI accession",
+                "Added extra compounds from annotathon data"
             ],
             "contributors": [
+                "Z7AIIJAM3U3HR6IYDPQOINM4",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -12,16 +21,26 @@
     ],
     "cluster": {
         "biosyn_class": [
-            "Polyketide",
-            "NRP"
+            "NRP",
+            "Polyketide"
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
                 "chem_struct": "CON=CC=CC(=O)NC=CC[C@H]1C[C@@H](OC(=O)[C@H](CCCCN)NC(=O)C[C@@H](C)O)[C@H]2O[C@H]2[C@@H](O)C=CC2=C(C(=O)O1)C(O)=CC=C2",
                 "compound": "necroxime A",
                 "database_id": [
                     "npatlas:NPA031543"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mol_mass": 672.3007,
+                "molecular_formula": "C33H44N4O11"
             },
             {
                 "chem_struct": "CCCC(=O)N[C@@H](CCCCN)C(=O)O[C@@H]1C[C@H](CC=CNC(=O)C=CC=NOC)OC(=O)C2=C(C=C[C@H](O)[C@@H]3O[C@@H]31)C=CC=C2O",
@@ -45,20 +64,464 @@
                 ]
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07359.1",
+                    "name": "necA",
+                    "product": "dimodular nonribosomal peptide synthase NecA",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "id": "QIE07360.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07361.1",
+                    "name": "necB",
+                    "product": "polyketide synthase NecB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07362.1",
+                    "name": "necC",
+                    "product": "polyketide synthase NecC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07363.1",
+                    "name": "necD",
+                    "product": "polyketide synthase NecD"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07364.1",
+                    "name": "necE",
+                    "product": "polyketide synthase NecE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07365.1",
+                    "name": "necF",
+                    "product": "polyketide synthase NecF"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07366.1",
+                    "name": "necG",
+                    "product": "polyketide synthase NecG"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07367.1",
+                    "name": "necH",
+                    "product": "polyketide synthase NecH"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07368.1",
+                    "name": "necI",
+                    "product": "cytochrome P450",
+                    "tailoring": [
+                        "Dioxygenation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QIE07369.1",
+                    "name": "necJ",
+                    "product": "4'-phosphopantetheinyl transferase superfamily protein",
+                    "tailoring": [
+                        "Monooxygenation"
+                    ]
+                }
+            ]
+        },
         "loci": {
             "accession": "MN734804.1",
-            "completeness": "Unknown",
-            "end_coord": 86010,
-            "evidence": [],
-            "start_coord": 20000
+            "completeness": "complete",
+            "end_coord": 86009,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 20001
         },
         "mibig_accession": "BGC0002050",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2713619",
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "QIE07364.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "6"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QIE07362.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Glycine"
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "2"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QIE07359.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "proteinogenic": [
+                                    "Lysine"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Starter",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Macrolactonization"
+            ]
+        },
         "organism_name": "Burkholderia sp. B8(2020)",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactonization"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "QIE07366.1",
+                        "QIE07361.1",
+                        "QIE07365.1",
+                        "QIE07364.1",
+                        "QIE07363.1",
+                        "QIE07367.1",
+                        "QIE07362.1"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "OXY"
+                            ],
+                            "genes": [
+                                "QIE07362.1"
+                            ],
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "MT"
+                            ],
+                            "genes": [
+                                "QIE07363.1"
+                            ],
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07364.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "5"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07365.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "7"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07365.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "8"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07365.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "9"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07365.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "10"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Dehydratase"
+                            ],
+                            "genes": [
+                                "QIE07365.1",
+                                "QIE07366.1"
+                            ],
+                            "module_number": "11"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07366.1"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "module_number": "12"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Dehydratase"
+                            ],
+                            "genes": [
+                                "QIE07366.1",
+                                "QIE07367.1"
+                            ],
+                            "module_number": "13"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07367.1"
+                            ],
+                            "module_number": "14"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QIE07367.1"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "15"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "genes": [
+                                "QIE07367.1"
+                            ],
+                            "module_number": "16"
+                        }
+                    ],
+                    "subclass": [
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "QIE07361.1"
+                        ]
+                    }
+                }
+            ]
+        },
         "publications": [
-            "pubmed:32040253",
-            "doi:10.1002/anie.201916007"
+            "pubmed:32040253"
         ]
     }
 }
