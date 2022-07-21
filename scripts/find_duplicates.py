@@ -51,7 +51,7 @@ def run_all(files: List[str], threshold: int) -> bool:
 
     accessions = defaultdict(list)
 
-    for file in files:
+    for file in sorted(files):
         with open(file) as handle:
             data = json.load(handle)
         loci = data["cluster"]["loci"]
