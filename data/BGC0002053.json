@@ -2,12 +2,14 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "LOOLDPJUN4VZBEJ3W5R2EHIG",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "3.0"
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -16,18 +18,22 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CC[C@@H](C)[C@H](NC(=O)[C@H]1CC(=O)NCC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H]([C@H](C)CC)C(=O)NCC(=O)N[C@@H](CC2=CNC3=CC=CC=C23)C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N1)C(=O)N[C@H](CC1=CC=CC=C1)C(=O)NCC(=O)NC(CC1=CN=CN1)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(=O)NCC(=O)NCC(O)=O",
-                "compound": "ulleungdin"
+                "chem_acts": [
+                    "cancer cell migration inhibitor"
+                ],
+                "chem_struct": "O=C(N[C@@](Cc1ccccc1)(C(N[C@@]([C@](CC)(C)[H])(C(NCC(N[C@@](CC2=CNC3=C2C=CC=C3)(C(NCC(N[C@@](CCCCN)(C(N[C@@](C4)(C(N[C@@]([C@](CC)(C)[H])(C(N[C@@](Cc5ccccc5)(C(NCC(N[C@@](CC6=CN=CN6)(C(N[C@@](Cc7ccc(O)cc7)(C(NCC(NCC(O)=O)=O)=O)[H])=O)[H])=O)=O)[H])=O)[H])=O)[H])=O)[H])=O)=O)[H])=O)=O)[H])=O)[H])CNC4=O",
+                "compound": "ulleungdin",
+                "evidence": [
+                    "Mass spectrometry"
+                ]
             }
         ],
         "loci": {
             "accession": "MT149903.1",
-            "completeness": "Unknown",
-            "end_coord": 3120,
+            "completeness": "complete",
             "evidence": [
                 "Sequence-based prediction"
-            ],
-            "start_coord": 1
+            ]
         },
         "mibig_accession": "BGC0002053",
         "minimal": true,
@@ -35,7 +41,11 @@
         "organism_name": "Streptomyces sp.",
         "publications": [
             "pubmed:33712632",
-            "doi:10.1038/s41598-021-84833-2"
-        ]
+            "doi:10.1021/acs.jnatprod.8b00449"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Lassopeptide"
+        }
     }
 }
