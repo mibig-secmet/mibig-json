@@ -2,9 +2,15 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Corrected NRP module activity",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules",
+                "Sorted modules by module number",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "RLTUJMQB5UUY7AZHW5PDUHV4",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -12,30 +18,294 @@
     ],
     "cluster": {
         "biosyn_class": [
-            "Polyketide",
-            "NRP"
+            "NRP",
+            "Polyketide"
         ],
         "compounds": [
             {
-                "compound": "spliceostatin"
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC(/C=C/C1CC2(CO2)C[C@](O)(C)O1)=C\\C(O)C3OC(C)C(NC(/C=C\\C(OC(C(C)C)=O)C)=O)CC3C",
+                "compound": "spliceostatin L",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 535.3145,
+                "molecular_formula": "C29H45NO8"
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC(/C=C/C1CC2(CO2)C[C@](O)(C)O1)=C\\C(O)C3OC(C)C(NC(/C=C\\C(OC(CC)=O)C)=O)CC3C",
+                "compound": "spliceostatin M",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 521.2989,
+                "molecular_formula": "C28H43NO8"
             }
         ],
         "loci": {
             "accession": "BK010647.1",
-            "completeness": "Unknown",
-            "end_coord": 72874,
+            "completeness": "complete",
             "evidence": [
                 "Sequence-based prediction"
-            ],
-            "start_coord": 1
+            ]
         },
         "mibig_accession": "BGC0002059",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1885894",
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "sxcD",
+                    "modules": [
+                        {
+                            "active": true,
+                            "comments": "catalyzes condensation of amino acid and polyketide",
+                            "module_number": "4"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "sxcE",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Threonine"
+                                ]
+                            },
+                            "active": true,
+                            "comments": "catalyzes condensation of amino acid and polyketide",
+                            "module_number": "4"
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Xanthomonas cannabis pv. cannabis",
+        "polyketide": {
+            "cyclic": false,
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "sxcO",
+                        "sxcN",
+                        "sxcD",
+                        "sxcF",
+                        "sxcH",
+                        "sxcG",
+                        "sxcE"
+                    ],
+                    "modules": [
+                        {
+                            "domains": [
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcD"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "0",
+                            "pks_mod_doms": [
+                                "FkbH"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcD"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "genes": [
+                                "sxcD"
+                            ],
+                            "module_number": "2"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcD"
+                            ],
+                            "module_number": "3"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Enoylreductase"
+                            ],
+                            "genes": [
+                                "sxcE"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "5",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcE"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "6",
+                            "pks_mod_doms": [
+                                "Pyran synthase"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcE"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcE",
+                                "sxcF"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcF"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "9"
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcF"
+                            ],
+                            "module_number": "10",
+                            "pks_mod_doms": [
+                                "Crotonase / Enoyl-CoA dehydratase"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcF",
+                                "sxcG"
+                            ],
+                            "module_number": "11",
+                            "pks_mod_doms": [
+                                "Oxidation"
+                            ]
+                        },
+                        {
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "sxcG"
+                            ],
+                            "module_number": "12"
+                        },
+                        {
+                            "domains": [
+                                "Thioesterase"
+                            ],
+                            "genes": [
+                                "sxcG"
+                            ],
+                            "module_number": "13"
+                        }
+                    ],
+                    "subclass": [
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "sxcH",
+                            "sxcN",
+                            "sxcO"
+                        ]
+                    }
+                }
+            ]
+        },
         "publications": [
-            "pubmed:33658492",
-            "doi:10.1038/s41467-021-21163-x"
+            "pubmed:33658492"
         ]
     }
 }
