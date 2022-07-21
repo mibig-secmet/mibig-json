@@ -22,12 +22,13 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged burkholderic acid annotation"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,31 +39,118 @@
         "compounds": [
             {
                 "chem_acts": [
+                    "Cytotoxic",
                     "Siderophore"
                 ],
                 "chem_struct": "CCCCCCC\\C=C(/C)\\C(\\O)=C1/C=C(OC1=O)C(=O)CC",
+                "chem_synonyms": [
+                    "burkholderic acid"
+                ],
                 "compound": "malleilactone",
                 "database_id": [
+                    "pubchem:136229184",
                     "npatlas:NPA013598"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
                 ],
                 "mol_mass": 306.183109312,
                 "molecular_formula": "C18H26O4"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "id": "ABC34352.1",
+                    "name": "burR",
+                    "product": "LuxR-type regulator"
+                },
+                {
+                    "id": "ABC36203.1",
+                    "name": "burA",
+                    "product": "Gonyol-Synthetase (NRPS-PKS hybrid)"
+                },
+                {
+                    "id": "ABC34581.1",
+                    "name": "burB",
+                    "product": "methyltransferase"
+                },
+                {
+                    "id": "ABC35239.1",
+                    "name": "burC",
+                    "product": "hydroxylase"
+                },
+                {
+                    "id": "ABC35627.1",
+                    "name": "burD",
+                    "product": "aminotransferase"
+                },
+                {
+                    "id": "ABC35115.1",
+                    "name": "burE",
+                    "product": "dehydrogenase"
+                },
+                {
+                    "id": "ABC35796.1",
+                    "name": "burF",
+                    "product": "NRPS-PKS hybrid"
+                },
+                {
+                    "id": "ABC34926.1",
+                    "name": "burG",
+                    "product": "reductoisomerase"
+                },
+                {
+                    "id": "ABC34723.1",
+                    "name": "burH",
+                    "product": "FkbH-like protein"
+                },
+                {
+                    "id": "ABC34346.1",
+                    "name": "burJ",
+                    "product": "acyl-CoA ligase"
+                },
+                {
+                    "id": "ABC34855.1",
+                    "name": "burK",
+                    "product": "Unknown"
+                },
+                {
+                    "id": "ABC35574.1",
+                    "name": "burL",
+                    "product": "acyltransferase"
+                },
+                {
+                    "id": "ABC35922.1",
+                    "name": "burM",
+                    "product": "acyl-CoA ligase"
+                },
+                {
+                    "id": "ABC35961.1",
+                    "name": "burN",
+                    "product": "efflux carrier protein"
+                }
+            ]
+        },
         "loci": {
             "accession": "CP000085.1",
             "completeness": "complete",
             "end_coord": 2580940,
             "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
                 "Gene expression correlated with compound production"
             ],
-            "start_coord": 2545193
+            "start_coord": 2543245
         },
         "mibig_accession": "BGC0001102",
         "minimal": false,
         "ncbi_tax_id": "271848",
         "nrp": {
-            "cyclic": false,
+            "cyclic": true,
             "nrps_genes": [
                 {
                     "gene_id": "ABC35922.1",
@@ -103,7 +191,10 @@
                     ]
                 }
             ],
-            "subclass": "Beta-lactam",
+            "release_type": [
+                "Reductive release"
+            ],
+            "subclass": "Other",
             "thioesterases": [
                 {
                     "gene": "BTH_II2088",
@@ -111,15 +202,15 @@
                 }
             ]
         },
-        "organism_name": "Burkholderia thailandensis E264",
+        "organism_name": "Burkholderia thailandensis E264; ATCC 700388",
         "polyketide": {
-            "cyclic": false,
+            "cyclic": true,
             "release_type": [
                 "Reductive release"
             ],
             "starter_unit": "Malonyl-CoA",
             "subclasses": [
-                "Polyene"
+                "Other"
             ],
             "synthases": [
                 {
@@ -180,13 +271,18 @@
                         }
                     ],
                     "subclass": [
-                        "Modular type I"
+                        "Modular type I",
+                        "Trans-AT type I"
                     ]
                 }
             ]
         },
         "publications": [
+            "pubmed:32314848",
+            "pubmed:31353766",
+            "pubmed:23055407",
             "pubmed:22765305"
         ]
-    }
+    },
+    "comments": "Putative gene functions: BurR: LuxR-type regulator, BurA: Gonyol-Synthetase (NRPS/PKS), BurB: methyltransferase, BurC: hydroxylase, BurD: aminotransferase, BurE: dehydrogenase, BurF: NRPS/PKS, BurG: reductoisomerase, BurH: FkbH-like protein, BurI: decarboxylase, BurJ: acyl-CoA ligase, BurK: unknown, BurL: acyltransferase, BurM: acyl-CoA ligase, BurN: efflux carrier protein"
 }
