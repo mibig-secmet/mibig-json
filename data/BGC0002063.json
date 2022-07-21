@@ -2,9 +2,12 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "5B66KLYJNZGZOCCCX4CRFPVL",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -20,40 +23,232 @@
                 "compound": "cryptosporioptide B",
                 "database_id": [
                     "npatlas:NPA001897"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 779.1823,
+                "molecular_formula": "C38H34O18"
             },
             {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
                 "chem_struct": "C[C@@]12[C@@H](O1)C(=O)C3=C(C4=C(C=CC(=C4O)C5=C(C6=C(C=C5)O[C@]7([C@H]([C@@]8([C@@H](O8)C(=O)C7=C6O)C)OC(=O)CC(=O)O)C)O)O[C@]3([C@H]2OC(=O)CC(=O)O)C)O",
                 "compound": "cryptosporioptide A",
                 "database_id": [
                     "npatlas:NPA006231"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 751.1502,
+                "molecular_formula": "C36H30O18"
             },
             {
                 "chem_struct": "CCC(C(=O)O)C(=O)O[C@H]1[C@@]2([C@@H](O2)C(=O)C3=C(C4=C(C=CC(=C4O)C5=C(C6=C(C=C5)O[C@]7([C@H]([C@@]8([C@@H](O8)C(=O)C7=C6O)C)OC(=O)C(CC)C(=O)O)C)O)O[C@@]13C)O)C",
                 "compound": "cryptosporioptide C",
                 "database_id": [
                     "npatlas:NPA024766"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 807.2137,
+                "molecular_formula": "C40H38O18"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QCL09089.1",
+                    "name": "dmxL2",
+                    "product": "dmxL2"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QCL09090.1",
+                    "name": "dmxL1",
+                    "product": "dmxL1",
+                    "tailoring": [
+                        "Carboxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QCL09091.1",
+                    "name": "dmx-nrPKS",
+                    "product": "dmx-nrPKS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QCL09096.1",
+                    "name": "dmxR5",
+                    "product": "dmxR5",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QCL09097.1",
+                    "name": "dmxR6",
+                    "product": "dmxR6",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QCL09104.1",
+                    "name": "dmxR13",
+                    "product": "dmxR13",
+                    "tailoring": [
+                        "Acylation"
+                    ]
+                }
+            ]
+        },
         "loci": {
             "accession": "MK182094.1",
             "completeness": "Unknown",
-            "end_coord": 82565,
             "evidence": [
                 "Knock-out studies",
                 "Sequence-based prediction"
-            ],
-            "start_coord": 1
+            ]
         },
         "mibig_accession": "BGC0002063",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2572248",
         "organism_name": "Cryptosporiopsis sp. 8999",
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "QCL09089.1",
+                        "QCL09091.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C6-C11 first",
+                        "nr_iterations": 8,
+                        "subtype": "Non-reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QCL09091.1"
+                            ],
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "QCL09089.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "2",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            }
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ]
+                }
+            ]
+        },
         "publications": [
             "pubmed:30996871",
-            "doi:10.1039/c8sc05126g"
+            "pubmed:23642454"
         ]
     }
 }
