@@ -2,9 +2,11 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "ICOIWUET5GIWWSDSPJ7RYJQQ",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -22,26 +24,29 @@
                 "compound": "amipurimycin",
                 "database_id": [
                     "npatlas:NPA021133"
-                ]
+                ],
+                "evidence": [
+                    "X-ray"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 496,
+                "molecular_formula": "C20H29N7O8"
             }
         ],
         "loci": {
             "accession": "MK257770.1",
-            "completeness": "Unknown",
-            "end_coord": 57776,
+            "completeness": "complete",
             "evidence": [
                 "Gene expression correlated with compound production",
                 "Knock-out studies"
-            ],
-            "start_coord": 1
+            ]
         },
         "mibig_accession": "BGC0002054",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2586640",
         "organism_name": "Streptomyces novoguineensis",
         "publications": [
-            "pubmed:30990701",
-            "doi:10.1021/acs.orglett.9b00840"
+            "pubmed:30990701"
         ]
     }
 }
