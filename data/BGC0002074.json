@@ -2,9 +2,11 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "3BAEWLAJEJZVIT7VC2LDIRNV",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -20,25 +22,94 @@
                 "compound": "huascopeptin",
                 "database_id": [
                     "npatlas:NPA032097"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 1410.6429,
+                "molecular_formula": "C65H87N17O19"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QCY49166.1",
+                    "name": "hptA",
+                    "product": "lasso peptide precursor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QCY49167.1",
+                    "name": "hptC",
+                    "product": "lasso peptide cyclase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QCY49168.1",
+                    "name": "hptB1",
+                    "product": "RiPP recognition element"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QCY49169.1",
+                    "name": "hptB2",
+                    "product": "lasso peptide protease"
+                }
+            ]
+        },
         "loci": {
             "accession": "MK636692.1",
-            "completeness": "Unknown",
-            "end_coord": 2630,
+            "completeness": "complete",
             "evidence": [
+                "Gene expression correlated with compound production",
                 "Sequence-based prediction"
-            ],
-            "start_coord": 1
+            ]
         },
         "mibig_accession": "BGC0002074",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1854574",
         "organism_name": "Streptomyces huasconensis",
         "publications": [
-            "pubmed:31931565",
             "doi:10.1021/acs.joc.9b02231"
-        ]
-    }
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [
+                "qcy49169"
+            ],
+            "subclass": "Lassopeptide"
+        }
+    },
+    "comments": "The huascopeptin is a 13-residue class II lasso peptide containing the first Gly1-Asp7 macrolactam ring. This lasso peptide was isolated from Streptomyces huasconensis HST28 from Salar de Huasco, Atacama Desert, Chile and it represents the smallest macrocycle opening isolated to date with 22 atoms (One less than the xanthomonins)."
 }
