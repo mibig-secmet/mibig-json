@@ -2,12 +2,14 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "4CEPXXFDQQ46VQJXBT4B4AUO",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "3.0"
+            "version": "2.1"
         }
     ],
     "cluster": {
@@ -17,31 +19,186 @@
         "compounds": [
             {
                 "chem_struct": "CCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NC(CCCN=C(N)N)C=O",
+                "chem_synonyms": [
+                    "N-propionyl-L-leucyl-L-leucyl-L-argininal"
+                ],
                 "compound": "leupeptin Pr",
                 "database_id": [
                     "npatlas:NPA013087"
                 ]
             },
             {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Acetyl moiety"
+                    }
+                ],
                 "chem_struct": "CC(C)C[C@@H](C(=O)N[C@@H](CC(C)C)C(=O)NC(CCCN=C(N)N)C=O)NC(=O)C",
+                "chem_synonyms": [
+                    "N-acetyl-L-leucyl-L-leucyl-L-argininal"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "cysteine / serine and threonine peptidases"
+                    }
+                ],
                 "compound": "leupeptin Ac",
                 "database_id": [
+                    "pubchem:72429",
+                    "chebi:6426",
+                    "chemspider:65357",
                     "npatlas:NPA017329"
+                ],
+                "evidence": [
+                    "Mass spectrometry"
                 ]
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "extra_gene",
+                    "product": "NRPS/PKS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KMO93430.1",
+                    "name": "WP_003998061.1",
+                    "product": "Argininosuccinate lyase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KMO93431.1",
+                    "name": "WP_007463626.1",
+                    "product": "Threonine kinase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KMO93432.1",
+                    "name": "WP_015803231.1",
+                    "product": "Cysteine synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KMO93433.1",
+                    "name": "WP_014061551.1",
+                    "product": "MbtH protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KMO93434.1",
+                    "name": "WP_010470980.1",
+                    "product": "NRPS/PKS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KMO93435.1",
+                    "name": "WP_015655459.1",
+                    "product": "NRPS/PKS"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "KMO93436.1",
+                    "name": "WP_018842460.1",
+                    "product": "NRPS/PKS"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "extra_gene",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 100912,
+                                "start": 93602
+                            }
+                        ],
+                        "strand": 1
+                    }
+                }
+            ]
+        },
         "loci": {
             "accession": "LFML01000163.1",
-            "completeness": "Unknown",
+            "completeness": "complete",
             "end_coord": 116056,
             "evidence": [
-                "Knock-out studies"
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
             ],
             "start_coord": 93602
         },
         "mibig_accession": "BGC0002095",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "66430",
+        "nrp": {
+            "cyclic": false,
+            "release_type": [
+                "Reductive release"
+            ]
+        },
         "organism_name": "Streptomyces roseus",
         "publications": [
             "doi:10.1101/2020.10.26.356543"
