@@ -2,9 +2,14 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Removed gene names of 'No gene ID'",
+                "Fixed duplicate gene name",
+                "Corrected invalid SMILES",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "FF3ZPRRW73UWTQ65BL4APVC7",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -16,8 +21,14 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CCCCCCCCC\\C=C\\C(=O)N\\C(=C/C1=CC=C(O)C(C)=C1)C(O)=O",
-                "compound": "stieleriacine A1"
+                "chem_struct": "OC(C(C)=C1)=CC=C1/C=C(C(O)=O)NC(/C=C/CCCCCCCCC)=O",
+                "compound": "stieleriacine A1",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 373.23,
+                "molecular_formula": "C22H31NO4"
             },
             {
                 "chem_struct": "CCCCCCCCC\\C=C\\C(=O)N\\C(=C\\C1=CC=C(O)C(C)=C1)C(O)=O",
@@ -36,6 +47,108 @@
                 "compound": "stieleriacine C"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99658.1",
+                    "product": "Fatty acid desaturase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99659.1",
+                    "name": "dnrK",
+                    "product": "Carminomycin 4-O-methyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99660.1",
+                    "name": "tcdA_2",
+                    "product": "tRNA threonylcarbamoyladenosine dehydratase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99665.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99668.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99671.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99672.1",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "QEF99677.1",
+                    "product": "hypothetical protein"
+                }
+            ]
+        },
         "loci": {
             "accession": "CP036264.1",
             "completeness": "Unknown",
@@ -46,12 +159,15 @@
             "start_coord": 5274681
         },
         "mibig_accession": "BGC0002080",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2795974",
         "organism_name": "Stieleria maiorica",
+        "other": {
+            "subclass": "Amino acid-derived"
+        },
         "publications": [
             "pubmed:32958819",
-            "doi:10.1038/s42003-020-01271-y"
+            "doi:10.1038/s42003-020-0993-2"
         ]
     }
 }
