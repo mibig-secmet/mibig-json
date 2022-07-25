@@ -2,66 +2,181 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Corrected NRP module activity",
+                "Removed gene names of 'No gene ID'",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "6CADHILFODRMCII55WHSHZ6V",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
     ],
     "cluster": {
+        "alkaloid": {
+            "subclass": "Pyrrolizidine"
+        },
         "biosyn_class": [
             "NRP",
-            "Other"
+            "Alkaloid"
         ],
         "compounds": [
             {
-                "chem_struct": "CCCCCCCCCC(=O)C1=C([C@@H]2CCCN2C1=O)O",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C([C@@]1([H])N(C/2=O)CCC1)C2=C(O)/CCCCCCC",
+                "compound": "pyreudione A",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 266.1751,
+                "molecular_formula": "C15H23NO3"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C([C@@]1([H])N(C/2=O)CCC1)C2=C(O)/CCCCCCCCC",
                 "compound": "pyreudione B",
                 "database_id": [
                     "npatlas:NPA024340"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 294.2064,
+                "molecular_formula": "C17H27NO3"
             },
             {
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
                 "chem_struct": "CCCCCCC/C=C/C(=C/1\\C(=O)[C@@H]2CCCN2C1=O)/O",
                 "compound": "pyreudione C",
                 "database_id": [
+                    "pubchem:386996837",
                     "npatlas:NPA024341"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
                 ]
             },
             {
-                "chem_struct": "CCCCCC/C=C\\CCCC(=O)C1=C(O)[C@@H]2CCCN2C1=O",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C([C@@]1([H])N(C/2=O)CCC1)C2=C(O)/CCC/C=C\\CCCCCC",
                 "compound": "pyreudione D",
                 "database_id": [
                     "npatlas:NPA024342"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 320.222,
+                "molecular_formula": "C19H29NO3"
             },
             {
-                "chem_struct": "CCCCCCC/C(O)=C1\\C(=O)[C@@H]2CCCCN2C1=O",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C([C@@](CCCC1)([H])N1C/2=O)C2=C(O)/CCCCCCC",
                 "compound": "pyreudione E",
                 "database_id": [
                     "npatlas:NPA028502"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 280.1907,
+                "molecular_formula": "C16H25NO3"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study",
+                                "Activity assay"
+                            ]
+                        }
+                    ],
+                    "id": "WP_064118616.1",
+                    "product": "non-ribosomal peptide synthetase"
+                }
+            ]
+        },
         "loci": {
             "accession": "NZ_LVEJ01000014.1",
-            "completeness": "Unknown",
+            "completeness": "complete",
             "end_coord": 31238,
             "evidence": [
-                "Heterologous expression",
-                "Enzymatic assays"
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
             ],
             "start_coord": 27345
         },
         "mibig_accession": "BGC0002075",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "294",
+        "nrp": {
+            "cyclic": false,
+            "lipid_moiety": "3-oxo fatty acids, variably length and saturation",
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_064118616.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Activity assay"
+                                ],
+                                "nonproteinogenic": [
+                                    "L-Proline, L-Pipecolic Acid, 3-hydroxyproline, 3-oxoproline"
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Starter",
+                            "comments": "A feeding study proved A domain specificity",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "subclass": "Other lipopeptide"
+        },
         "organism_name": "Pseudomonas fluorescens",
         "publications": [
+            "pubmed:27294402",
             "pubmed:29606578",
-            "doi:10.1016/j.chembiol.2018.02.013"
+            "pubmed:31294961"
         ]
-    }
+    },
+    "comments": "The single NRPS is multispecific with regards to amino acid activation (L-proline, L-pipecolic acid) and C starter domain substrate specificity (3-oxo fatty acids of different length and saturation), thereby allowing to form different tetramic acids via Dieckmann-type cyclization. Depending on the amino acid substrate, acyltetramic acids with a pyrrolizidine (A domain substrate: L-proline) or an indolicidine (A domain substrate: L-pipecolic acid) core structure are formed."
 }
