@@ -2,10 +2,17 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Merged cross-CDS PKS modules",
+                "Sorted modules by module number",
+                "Added version to NCBI accession",
+                "Convert from RefSeq to Genbank"
             ],
             "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "Z7AIIJAM3U3HR6IYDPQOINM4",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
         }
@@ -16,19 +23,37 @@
         ],
         "compounds": [
             {
-                "compound": "gladiofungin B"
-            },
-            {
-                "chem_struct": "CC1=C(C(=O)CCCCCCCC/C=C/[C@H](C)C(=O)C[C@H](O)CC2CC(=O)NC(=O)C2)C(=O)OC1O",
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Glutarimide ring",
+                        "subcluster": [
+                            "LvStA_05071"
+                        ]
+                    }
+                ],
+                "chem_struct": "O=C(NC(C1)=O)CC1C[C@@H](O)CC([C@@H](C)/C=C/CCCCCCCCC(C2=C(C)C(O)OC2=O)=O)=O",
                 "compound": "gladiofungin A",
                 "database_id": [
                     "npatlas:NPA031554"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 505.2676,
+                "molecular_formula": "C27H39NO8"
+            },
+            {
+                "compound": "gladiofungin B"
             }
         ],
         "loci": {
             "accession": "WITE01000004.1",
-            "completeness": "Unknown",
+            "completeness": "complete",
             "end_coord": 1205481,
             "evidence": [
                 "Knock-out studies",
@@ -37,11 +62,210 @@
             "start_coord": 1150314
         },
         "mibig_accession": "BGC0002083",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "28095",
         "organism_name": "Burkholderia gladioli",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "LvStA_05070",
+                        "LvStA_05073",
+                        "LvStA_05069"
+                    ],
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "domains": [
+                                "Acyltransferase",
+                                "Acyltransferase",
+                                "Enoylreductase"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "LvStA_05073"
+                            ],
+                            "module_number": "0"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05070"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "B",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05070"
+                            ],
+                            "module_number": "2",
+                            "pks_mod_doms": [
+                                "Michael branching"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05070",
+                                "LvStA_05069"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "3"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05069"
+                            ],
+                            "module_number": "4"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "MT",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05069"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "module_number": "5",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ]
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05069"
+                            ],
+                            "module_number": "6"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05069"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "7"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05069"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "8"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "genes": [
+                                "LvStA_05069"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "9"
+                        },
+                        {
+                            "at_specificities": [
+                                "Unknown"
+                            ],
+                            "domains": [
+                                "Ketosynthase",
+                                "AFSA"
+                            ],
+                            "genes": [
+                                "LvStA_05069"
+                            ],
+                            "module_number": "10"
+                        }
+                    ],
+                    "subclass": [
+                        "Trans-AT type I"
+                    ],
+                    "trans_at": {
+                        "genes": [
+                            "LvStA_05073"
+                        ]
+                    }
+                }
+            ]
+        },
         "publications": [
-            "pubmed:32588959",
             "doi:10.1002/anie.202005711"
         ]
     }
