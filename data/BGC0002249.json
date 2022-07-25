@@ -2,10 +2,13 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Fix locus",
+                "Add gene annotations"
             ],
             "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
         }
@@ -23,19 +26,75 @@
                 ]
             }
         ],
+        "genes": {
+            "extra_genes": [
+                {
+                    "id": "apmlA",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4446134,
+                                "start": 4445569
+                            },
+                            {
+                                "end": 4446323,
+                                "start": 4446205
+                            },
+                            {
+                                "end": 4451404,
+                                "start": 4446405
+                            },
+                            {
+                                "end": 4451831,
+                                "start": 4451469
+                            },
+                            {
+                                "end": 4452079,
+                                "start": 4451907
+                            },
+                            {
+                                "end": 4452448,
+                                "start": 4452139
+                            },
+                            {
+                                "end": 4453403,
+                                "start": 4452527
+                            }
+                        ],
+                        "strand": 1
+                    }
+                },
+                {
+                    "id": "apmlB",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 4443329,
+                                "start": 4443220
+                            },
+                            {
+                                "end": 4444200,
+                                "start": 4443382
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
         "loci": {
-            "accession": "SSWP01000056.1",
+            "accession": "QYRS01000001.1",
             "completeness": "Unknown",
-            "end_coord": 47500,
+            "end_coord": 4452527,
             "evidence": [
                 "Heterologous expression"
             ],
-            "start_coord": 15500
+            "start_coord": 4443220
         },
         "mibig_accession": "BGC0002249",
         "minimal": true,
-        "ncbi_tax_id": "104259",
-        "organism_name": "Penicillium brasilianum",
+        "ncbi_tax_id": "112178",
+        "organism_name": "Arthrinium phaeospermum",
         "publications": [
             "pubmed:31180682",
             "doi:10.1021/acs.orglett.9b01674"
