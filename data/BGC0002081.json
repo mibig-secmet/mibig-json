@@ -2,9 +2,13 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Remove negative ketide_length",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "ZA5Z4HT5MOJPYYEQY2X7STLX",
+                "3UOU7PODQJXIM6BEPUHHRRA5",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -16,36 +20,86 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CCC(O)=CC1=CC2=C3C(=CC4=CC=CC(=O)C4=C3O1)C[C@@H](CC(=O)O)O2",
+                "chem_acts": [
+                    "Anti-HIV"
+                ],
+                "chem_struct": "O=C(CC)/C=C1OC2=C(C(O[C@H](CC(O)=O)C3)=C\\1)C3=CC4=C2C(O)=CC=C4",
                 "compound": "streptoketide A",
                 "database_id": [
                     "npatlas:NPA032109"
+                ],
+                "evidence": [
+                    "NMR"
                 ]
             },
             {
-                "chem_struct": "CCC(O)=CC1=CC2=C3C(=CC4=CC=CC(=O)C4=C3O1)C[C@@H](CC(=O)OC)O2",
+                "chem_acts": [
+                    "Anti-HIV"
+                ],
+                "chem_struct": "O=C(CC)/C=C1OC2=C(C(O[C@H](CC(OC)=O)C3)=C\\1)C3=CC4=C2C(O)=CC=C4",
                 "compound": "streptoketide B",
                 "database_id": [
                     "npatlas:NPA032110"
+                ],
+                "evidence": [
+                    "NMR"
+                ]
+            },
+            {
+                "chem_acts": [
+                    "Anti-HIV"
+                ],
+                "chem_struct": "OC1=C2C(C[C@@H](CC(O)=O)OC2=O)=CC3=C1C(O)=CC=C3",
+                "compound": "streptoketide C",
+                "evidence": [
+                    "NMR"
+                ]
+            },
+            {
+                "chem_acts": [
+                    "Anti-HIV"
+                ],
+                "chem_struct": "O=C(C)/C=C1OC2=C(C(O[C@H](CC(O)=O)C3)=C\\1)C3=CC4=C2C(O)=CC=C4",
+                "compound": "S2502",
+                "evidence": [
+                    "NMR"
+                ]
+            },
+            {
+                "chem_struct": "O=C(C)/C=C1OC2=C(C(O[C@H](CC(OC)=O)C3)=C\\1)C3=CC4=C2C(O)=CC=C4",
+                "compound": "S2507",
+                "evidence": [
+                    "NMR"
+                ]
+            },
+            {
+                "chem_struct": "OC1=C(C(C2=C(CC(O3)=CC(O)=CC3=O)C=CC=C2O)=O)C(CC)=CC(O)=C1",
+                "compound": "UWM5",
+                "evidence": [
+                    "NMR"
                 ]
             }
         ],
         "loci": {
             "accession": "MK424349.1",
-            "completeness": "Unknown",
+            "completeness": "complete",
             "end_coord": 26330,
             "evidence": [
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ],
-            "start_coord": 5928
+            "start_coord": 5927
         },
         "mibig_accession": "BGC0002081",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2602572",
         "organism_name": "Streptomyces sp. Tue6314",
+        "polyketide": {
+            "cyclic": true,
+            "subclasses": [
+                "Other"
+            ]
+        },
         "publications": [
-            "pubmed:31746205",
             "doi:10.1021/acs.joc.9b02741"
         ]
     }
