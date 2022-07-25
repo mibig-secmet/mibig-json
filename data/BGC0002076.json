@@ -2,9 +2,11 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "HMWVYOMJMGV43R3HNEI4DBLR",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -16,36 +18,61 @@
         ],
         "compounds": [
             {
+                "chem_struct": "C=C1C=C([C@H](O)CCCCCCC)C(=O)O1",
+                "compound": "4,5-dehydroacaterin",
+                "database_id": [
+                    "npatlas:NPA028503"
+                ],
+                "evidence": [
+                    "NMR"
+                ],
+                "mol_mass": 224.1412,
+                "molecular_formula": "C13H20O3"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
                 "chem_struct": "CCCCCCC[C@H](C1=C[C@H](OC1=O)C)O",
+                "chem_targets": [
+                    {
+                        "target": "Acyl-CoA: Cholesterol Acyltransferase"
+                    }
+                ],
                 "compound": "acaterin",
                 "database_id": [
                     "npatlas:NPA010624"
-                ]
-            },
-            {
-                "chem_struct": "C=C1C=C([C@H](O)CCCCCCC)C(=O)O1",
-                "compound": "4,5-didehydroacaterin",
-                "database_id": [
-                    "npatlas:NPA028503"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Total synthesis"
+                ],
+                "mol_mass": 226.1569,
+                "molecular_formula": "C13H22O3"
             }
         ],
         "loci": {
             "accession": "VDDB01000004.1",
-            "completeness": "Unknown",
-            "end_coord": 164819,
+            "completeness": "complete",
+            "end_coord": 164820,
             "evidence": [
                 "Knock-out studies",
+                "Heterologous expression",
                 "Gene expression correlated with compound production"
             ],
-            "start_coord": 161646
+            "start_coord": 161640
         },
         "mibig_accession": "BGC0002076",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "77298",
         "organism_name": "Pseudomonas jessenii",
         "publications": [
-            "pubmed:31880848",
+            "doi:10.7164/antibiotics.45.1216",
+            "doi:10.1080/10575639708043758",
+            "doi:10.1016/S0040-4039(98)01283-0",
+            "doi:10.1016/S0040-4039(99)00681-4",
+            "doi:10.1021/jo015614g",
+            "doi:10.1016/j.bmc.2006.05.039",
             "doi:10.1002/anie.201914154"
         ]
     }
