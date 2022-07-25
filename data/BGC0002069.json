@@ -2,9 +2,11 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "6CADHILFODRMCII55WHSHZ6V",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -16,38 +18,204 @@
         ],
         "compounds": [
             {
-                "chem_struct": "C[C@@H]1C=C(/C=C/C2=CC=C(O)C=C2)C(=O)O1",
+                "chem_acts": [
+                    "Signalling"
+                ],
+                "chem_struct": "OC1=CC=C(/C=C/C2=C[C@@H](C)OC2=O)C=C1",
                 "compound": "styrolide A",
                 "database_id": [
                     "npatlas:NPA028534"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 216.08,
+                "molecular_formula": "C13H12O3"
             },
             {
-                "chem_struct": "C=C1C=C(/C=C/C2=CC=C(O)C=C2)C(=O)O1",
+                "chem_acts": [
+                    "Signalling"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety": "Butenolide with exo-methylene group",
+                        "subcluster": [
+                            "FGA82_11245",
+                            "FGA82_11250",
+                            "FGA82_11255"
+                        ]
+                    }
+                ],
+                "chem_struct": "OC1=CC=C(/C=C/C2=CC(OC2=O)=C)C=C1",
                 "compound": "styrolide B",
                 "database_id": [
                     "npatlas:NPA028535"
-                ]
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "M+",
+                "mol_mass": 214.06,
+                "molecular_formula": "C13H10O3"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80018.1",
+                    "name": "stoA",
+                    "product": "indolepyruvate ferredoxin oxidoreductase family protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80019.1",
+                    "name": "stoB",
+                    "product": "A-factor biosynthesis protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80020.1",
+                    "name": "stoC",
+                    "product": "NADH:flavin oxidoreductase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80021.1",
+                    "name": "stoD",
+                    "product": "SDR family oxidoreductase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80022.1",
+                    "name": "stoE",
+                    "product": "SDR family NAD(P)-dependent oxidoreductase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80023.1",
+                    "name": "stoF",
+                    "product": "hypothetical protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80024.1",
+                    "name": "stoG",
+                    "product": "long-chain fatty acid--CoA ligase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80025.1",
+                    "name": "stoH",
+                    "product": "acyl carrier protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Other in vivo study"
+                            ]
+                        }
+                    ],
+                    "id": "TMU80026.1",
+                    "name": "stoI",
+                    "product": "ketoacyl-ACP synthase III"
+                }
+            ]
+        },
         "loci": {
             "accession": "VCNJ01000015.1",
-            "completeness": "Unknown",
-            "end_coord": 37507,
+            "completeness": "complete",
+            "end_coord": 37505,
             "evidence": [
                 "Heterologous expression",
                 "Knock-out studies",
                 "Gene expression correlated with compound production"
             ],
-            "start_coord": 26880
+            "start_coord": 26882
         },
         "mibig_accession": "BGC0002069",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "294",
         "organism_name": "Pseudomonas fluorescens",
+        "other": {
+            "subclass": "Aminocoumarin"
+        },
         "publications": [
-            "pubmed:31880848",
-            "doi:10.1002/anie.201914154"
+            "pubmed:31880848"
         ]
-    }
+    },
+    "comments": "The styrolide BGC spans locus 1-9. However, stoR (locus 10, the single gene on another contig, not located in the proximity of the BGC) was identified through protein homology search based on acaR. The acaterin cluster aca will also be submitted to MIBiG. Due to high reactivity of styrolide B, styrolide A forms also upon heterologous expression of stoA-stoI, without stoR (and also in the respective stoR gene deletion mutant). Since formation of the styrolide A-related acaterin requires acaR, we wish to include the homologous enzyme stoR (84% seq. identity) for the styrolide BGC entry, since it is plausible that this gene product contributes to the formation of the final product of the pathway, styrolide A. \\nGene deletion mutants verified essential genes stoB, C, D, E and G. Compound production in the heterologous host using the essential set of genes was not possible. Instead, stoA-stoI was required for compound production in the heterologous host. We hypothesize that the native producer holds alternative pathways/enzymes to compensate for gene deletions of stoA, stoF, stoH, and stoI, thus allowing compound production in these gene deletion mutants."
 }
