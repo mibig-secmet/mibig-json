@@ -2,10 +2,14 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession",
+                "Convert from RefSeq to Genbank"
             ],
             "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
         }
@@ -16,33 +20,56 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CC(=O)NC1=C2C(=CSS2)NC1=O",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC(=O)NC1=C2SSC=C2NC1=O",
+                "chem_targets": [
+                    {
+                        "target": "RNA polymerase"
+                    }
+                ],
                 "compound": "holomycin",
                 "database_id": [
                     "npatlas:NPA013565",
                     "pubchem:10262683",
+                    "chebi:156451",
+                    "chembl:CHEMBL476226",
                     "chemspider:8438162"
+                ],
+                "evidence": [
+                    "NMR"
                 ]
             }
         ],
         "loci": {
             "accession": "ACCC01000028.1",
-            "completeness": "Unknown",
+            "completeness": "complete",
             "end_coord": 21565,
             "evidence": [
                 "Knock-out studies",
                 "Heterologous expression",
                 "Gene expression correlated with compound production"
             ],
-            "start_coord": 3594
+            "start_coord": 3593
         },
         "mibig_accession": "BGC0002091",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "527005",
+        "nrp": {
+            "cyclic": false,
+            "thioesterases": [
+                {
+                    "gene": "yruck0001_11720",
+                    "thioesterase_type": "Unknown"
+                }
+            ]
+        },
         "organism_name": "Yersinia ruckeri ATCC 29473",
         "publications": [
             "pubmed:23572522",
-            "doi:10.1074/jbc.M112.448415"
+            "pubmed:11158751"
         ]
     }
 }
