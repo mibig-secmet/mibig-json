@@ -2,9 +2,11 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Submitted",
+                "Added version to NCBI accession"
             ],
             "contributors": [
+                "SSSZYUCEUV37TGDT5UNOPARF",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
@@ -12,20 +14,50 @@
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
             {
-                "chem_struct": "CC1C(=C)COC1(C(C(CC2CC(=O)NC(=O)C2)O)OC)O",
-                "compound": "sesbanimide",
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "CC([C@@]1(C(OC)C(O)CC(CC2=O)CC(N2)=O)O)C(CO1)=C",
+                "compound": "sesbanimide C",
                 "database_id": [
                     "npatlas:NPA018944"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C(C1)NC(CC1CC(O)C(OC)C(C(C(COC(CCCCC/C=C/C=C/C(O)=O)=O)=C)C)=O)=O",
+                "compound": "sesbanimide F",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            },
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "O=C(C1)NC(CC1CC(O)C(OC)C(C(C(CO)=C)C)=O)=O",
+                "compound": "sesbanimide E",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
                 ]
             }
         ],
         "loci": {
             "accession": "CP046908.1",
-            "completeness": "Unknown",
+            "completeness": "complete",
             "end_coord": 4466149,
             "evidence": [
                 "Sequence-based prediction"
@@ -33,12 +65,21 @@
             "start_coord": 4404390
         },
         "mibig_accession": "BGC0002082",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "538381",
+        "nrp": {
+            "cyclic": false
+        },
         "organism_name": "Stappia indica",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "Aminomalonyl-CoA",
+            "subclasses": [
+                "Other"
+            ]
+        },
         "publications": [
-            "pubmed:33734547",
-            "doi:10.1111/1462-2920.15470"
+            "doi:10.7164/antibiotics.51.64"
         ]
     }
 }
