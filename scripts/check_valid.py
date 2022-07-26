@@ -121,9 +121,7 @@ def check_pks_module_duplication(data: Dict[str, Any], prefix: str) -> bool:
 
 
 def check_all() -> bool:
-    valid = True
-    for dir_name in ["data", "pending"]:
-        valid = check_multiple(glob.glob(os.path.join(dir_name, "*.json")), prefix=f"{dir_name}/") and valid
+    valid = check_multiple(glob.glob(os.path.join("data", "*.json")), prefix="data/")
     return valid
 
 
