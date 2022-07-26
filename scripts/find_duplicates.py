@@ -46,7 +46,7 @@ def compare(prev: Tuple[int, int, str], current: Tuple[int, int, str], threshold
 def run_all(files: List[str], threshold: int) -> bool:
     if not files:
         files = []
-        for dir_name in ["data", "pending"]:
+        for dir_name in ["data"]:
             files.extend(glob.glob(os.path.join(dir_name, "*.json")))
 
     accessions = defaultdict(list)
@@ -54,6 +54,8 @@ def run_all(files: List[str], threshold: int) -> bool:
     for file in sorted(files):
         with open(file) as handle:
             data = json.load(handle)
+        if data["cluster"]["status"] == "retired":
+            continue
         loci = data["cluster"]["loci"]
         acc = loci["accession"].rsplit(".", 1)[0]
         start = loci.get("start_coord", 0)
@@ -76,7 +78,7 @@ if __name__ == "__main__":
     parser.add_argument("--threshold", type=int, default=2000,
                         help="Allowable overlap (in nucleotides) (default: %(default)s)")
     parser.add_argument("files", type=str, nargs="*", default=[],
-                        help="Specific files to compare (default: all files in 'data' and 'pending')")
+                        help="Specific files to compare (default: all files in 'data')")
 
     args = parser.parse_args()
     if run_all(args.files, args.threshold):
