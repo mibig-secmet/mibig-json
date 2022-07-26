@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$schema_created": "2022-07-4T13:37:00+02:00",
-    "$schema_version": "2.7",
+    "$schema_created": "2022-07-26T12:33:51+02:00",
+    "$schema_version": "2.8",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -63,6 +63,66 @@
                                     "evidence"
                                 ]
                             }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "status": {
+                                "const": "active"
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ]
+                    },
+                    "then": {
+                        "properties": {
+                            "publications": {
+                                "minItems": 1
+                            }
+                        },
+                        "required": [
+                            "publications"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "status": {
+                                "const": "retired"
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ]
+                    },
+                    "then": {
+                        "properties": {
+                            "retirement_reasons": {
+                                "minItems": 1
+                            }
+                        },
+                        "required": [
+                            "retirement_reasons"
+                        ]
+                    },
+                    "else": {
+                        "not": {
+                            "anyOf": [
+                                {
+                                    "required": [
+                                        "retirement_reasons"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "see_also"
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -992,8 +1052,13 @@
                         ],
                         "type": "string"
                     },
-                    "minItems": 1,
                     "title": "Key publications associated with this gene cluster, pathway or molecule",
+                    "type": "array"
+                },
+                "retirement_reasons": {
+                    "items": {
+                        "type": "string"
+                    },
                     "type": "array"
                 },
                 "ripp": {
@@ -1152,6 +1217,21 @@
                     "title": "Saccharide-specific parameters",
                     "type": "object"
                 },
+                "see_also": {
+                    "items": {
+                        "pattern": "^BGC[0-9]{7,7}$",
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "status": {
+                    "enum": [
+                        "pending",
+                        "active",
+                        "retired"
+                    ],
+                    "type": "string"
+                },
                 "terpene": {
                     "additionalProperties": false,
                     "properties": {
@@ -1190,10 +1270,10 @@
                 "mibig_accession",
                 "biosyn_class",
                 "compounds",
-                "publications",
                 "organism_name",
                 "ncbi_tax_id",
-                "minimal"
+                "minimal",
+                "status"
             ],
             "title": "MIBiG data",
             "type": "object"

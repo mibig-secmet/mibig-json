@@ -264,6 +264,7 @@ class Entry:
                 # TODO: Make taxid a number in the schema
                 "ncbi_tax_id": f"{self.taxid}",
                 "publications": self.publications.to_json(),
+                "status": "active",
             },
         }
 
