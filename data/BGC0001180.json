@@ -5,6 +5,9 @@
                 "Migrated from v1.4",
                 "Updated compound(s) information (NPAtlas curation)"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
         }
     ],
@@ -15,7 +18,7 @@
         "compounds": [
             {
                 "chem_struct": "CC(C)C1=C(O)C=C(\\C=C\\C2=CC=CC=C2)C=C1O",
-                "compound": "Benvitimod",
+                "compound": "benvitimod",
                 "database_id": [
                     "npatlas:NPA019552"
                 ],
@@ -71,6 +74,7 @@
                     "name": "bkdC"
                 },
                 {
+                    "comments": "smCOG: SMCOG1002:AMP-dependent_synthetase_and_ligase (Score: 404.2; E-value: 1.1e-122);",
                     "functions": [
                         {
                             "category": "Scaffold biosynthesis",
@@ -80,57 +84,23 @@
                         }
                     ],
                     "id": "plu2234",
-                    "name": "stlA"
-                },
-                {
-                    "id": "plu2163",
-                    "name": "stlC"
-                },
-                {
-                    "id": "plu2164",
-                    "name": "stlD"
-                },
-                {
-                    "id": "plu2165",
-                    "name": "stlE"
-                },
-                {
-                    "comments": "smCOG: SMCOG1002:AMP-dependent_synthetase_and_ligase (Score: 404.2; E-value: 1.1e-122);",
-                    "id": "plu2134",
+                    "name": "stlA",
                     "product": "long-chain-fatty-acid--CoA ligase (long-chain acyl-CoA synthetase)"
                 },
                 {
                     "comments": "unnamed protein product; Hypothetical transmembrane protein",
-                    "id": "plu2163"
+                    "id": "plu2163",
+                    "name": "stlC"
                 },
                 {
                     "comments": "unnamed protein product; Similar to 3-oxoacyl-[acyl-carrier-protein] synthase",
-                    "id": "plu2164"
+                    "id": "plu2164",
+                    "name": "stlD"
                 },
                 {
                     "comments": "unnamed protein product; Similar to acyl carrier protein (ACP)",
-                    "id": "plu2165"
-                },
-                {
-                    "comments": "unnamed protein product; Similar to histidine ammonia-lyase",
-                    "id": "plu2234"
-                }
-            ],
-            "extra_genes": [
-                {
-                    "id": "plu2134"
-                },
-                {
-                    "id": "plu2163"
-                },
-                {
-                    "id": "plu2164"
-                },
-                {
-                    "id": "plu2165"
-                },
-                {
-                    "id": "plu2234"
+                    "id": "plu2165",
+                    "name": "stlE"
                 }
             ]
         },
@@ -154,6 +124,10 @@
         "publications": [
             "pubmed:25346446",
             "pubmed:18236486"
-        ]
+        ],
+        "retirement_reasons": [
+            "Entry spread over multiple genomic loci"
+        ],
+        "status": "retired"
     }
 }
