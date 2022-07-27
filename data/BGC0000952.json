@@ -4,6 +4,9 @@
             "comments": [
                 "Migrated from v1.4"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
         }
     ],
@@ -21,32 +24,32 @@
                     {
                         "moiety": "L-dimethylamino-phenylalanine",
                         "subcluster": [
-                            "cbw45755",
-                            "cbw45753",
-                            "cbw45754",
-                            "cbw45752"
+                            "CBW45755.1",
+                            "CBW45753.1",
+                            "CBW45754.1",
+                            "CBW45752.1"
                         ]
                     },
                     {
                         "moiety": "L-pipecolic acid",
                         "subcluster": [
-                            "cbw45757"
+                            "CBW45757.1"
                         ]
                     },
                     {
                         "moiety": "L-phenylglycine",
                         "subcluster": [
-                            "CBW45641",
-                            "CBW45643",
-                            "CBW45644",
-                            "CBW45645",
-                            "CBW45646"
+                            "CBW45641.1",
+                            "CBW45643.1",
+                            "CBW45644.1",
+                            "CBW45645.1",
+                            "CBW45646.1"
                         ]
                     },
                     {
                         "moiety": "L-hydroxypicolinic acid",
                         "subcluster": [
-                            "cbw45759"
+                            "CBW45759.1"
                         ]
                     },
                     {
@@ -85,7 +88,7 @@
                             ]
                         }
                     ],
-                    "id": "CBW45641",
+                    "id": "CBW45641.1",
                     "name": "pglE",
                     "product": "phenylglycine aminotransferase"
                 },
@@ -98,7 +101,7 @@
                             ]
                         }
                     ],
-                    "id": "CBW45645",
+                    "id": "CBW45645.1",
                     "name": "pglB",
                     "product": "pyruvate-dehydrogenase E1 component, alpha subunit "
                 },
@@ -111,7 +114,7 @@
                             ]
                         }
                     ],
-                    "id": "CBW45644",
+                    "id": "CBW45644.1",
                     "name": "pglC",
                     "product": "pyruvate-dehydrogenase E1 component, beta subunit"
                 },
@@ -124,7 +127,7 @@
                             ]
                         }
                     ],
-                    "id": "CBW45643",
+                    "id": "CBW45643.1",
                     "name": "pglD",
                     "product": " thioesterase type II"
                 },
@@ -137,7 +140,7 @@
                             ]
                         }
                     ],
-                    "id": "CBW45646",
+                    "id": "CBW45646.1",
                     "name": "pglA",
                     "product": "hydroxyacyl-dehydrogenase "
                 },
@@ -150,7 +153,7 @@
                             ]
                         }
                     ],
-                    "id": "CBW45642",
+                    "id": "CBW45642.1",
                     "name": "mbtY",
                     "product": "MbtH-like protein"
                 },
@@ -163,7 +166,7 @@
                             ]
                         }
                     ],
-                    "id": "CBW45649",
+                    "id": "CBW45649.1",
                     "name": "papR6",
                     "product": "response regulator"
                 }
@@ -171,7 +174,8 @@
         },
         "loci": {
             "accession": "FR681999.1",
-            "completeness": "complete",
+            "completeness": "incomplete",
+            "end_coord": 41840,
             "evidence": [
                 "Knock-out studies"
             ]
@@ -184,8 +188,7 @@
             "release_type": [
                 "Macrolactonization"
             ],
-            "subclass": "Cyclic depsipeptide",
-            "thioesterases": []
+            "subclass": "Cyclic depsipeptide"
         },
         "organism_name": "Streptomyces pristinaespiralis",
         "polyketide": {
@@ -200,7 +203,7 @@
             "synthases": [
                 {
                     "genes": [
-                        "cbw45739"
+                        "CBW45739.1"
                     ],
                     "subclass": [
                         "Modular type I",
@@ -208,7 +211,7 @@
                     ],
                     "trans_at": {
                         "genes": [
-                            "cbw45739"
+                            "CBW45739.1"
                         ]
                     }
                 }
@@ -216,6 +219,11 @@
         },
         "publications": [
             "pubmed:21342465"
-        ]
-    }
+        ],
+        "retirement_reasons": [
+            "Cluster split over multiple loci."
+        ],
+        "status": "retired"
+    },
+    "comments": "Split over multiple genomic loci: FR681999, FR682000 and FR682001."
 }
