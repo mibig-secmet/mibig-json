@@ -5,6 +5,9 @@
                 "Migrated from v1.4",
                 "Updated compound(s) information (NPAtlas curation)"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
         }
     ],
@@ -26,14 +29,12 @@
                     }
                 ],
                 "chem_struct": "OC1=CC=C(\\C=C2\\C(=O)C(C3=C4C5=C(C=CC=C5)N=C4\\C(=C/C4=CC=C(O)C=C4)C3=O)=C3C4=C(C=CC=C4)N=C23)C=C1",
-                "chem_synonyms": [],
                 "chem_targets": [
                     {
-                        "publications": [],
                         "target": "polo-like kinase 1; protein kinase C"
                     }
                 ],
-                "compound": "Scytonemin",
+                "compound": "scytonemin",
                 "database_id": [
                     "npatlas:NPA016943",
                     "chembl:CHEMBL505177",
@@ -205,23 +206,6 @@
                     "id": "Npun_F5236",
                     "product": "type I phosphodiesterase/nucleotide pyrophosphatase"
                 }
-            ],
-            "extra_genes": [
-                {
-                    "id": "Npun_F5232"
-                },
-                {
-                    "id": "Npun_F5233"
-                },
-                {
-                    "id": "Npun_F5234"
-                },
-                {
-                    "id": "Npun_F5235"
-                },
-                {
-                    "id": "Npun_F5236"
-                }
             ]
         },
         "loci": {
@@ -247,7 +231,6 @@
             "pubmed:17351042",
             "pubmed:19780555",
             "pubmed:19429608",
-            "pubmed:21742508",
             "pubmed:19630972",
             "pubmed:21501195",
             "pubmed:21786790",
@@ -255,7 +238,11 @@
             "pubmed:1508978",
             "pubmed:11926312",
             "pubmed:8405307"
-        ]
+        ],
+        "retirement_reasons": [
+            "Spread over multiple genomic loci"
+        ],
+        "status": "retired"
     },
     "comments": "The second genomic locus I listed for scytonemin biosynthesis involves 5 genes (Npun_F5232-Npun5236) that have been shown to be upregulated through cDNA analysis by UV light (as has the main scytonemin cluster) and are shown to be associated with the main scytonemin cluster in other cyanobacterial species but are separated from the scytonmein cluster in Nostoc.  \\n\\nAlso, the genes Npun_1277 and Npun_1278 are thought through sequence analysis to be involved in scytonemin biosynthesis, particularly signaling but are located on a different operon.  These are included as part of the main scytonemin gene cluster however there is no experimental evidence to support this. \\n\\nAll of the genes from Npun_R1260-Npun_R1276 have been shown through cDNA assays to be upregulated under UV light, a known key factor in the production of scytonemin."
 }
