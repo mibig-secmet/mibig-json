@@ -30,6 +30,8 @@ def main():
     for json_file in json_files:
         with open(json_file) as handle:
             data = json.load(handle)
+        if "publications" not in data["cluster"]:
+            continue
         publications = data["cluster"]["publications"]
         for publication in publications:
             if not publication.startswith("pubmed:"):
