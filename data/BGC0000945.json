@@ -4,7 +4,20 @@
             "comments": [
                 "Migrated from v1.4"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fix accessions and gene infos",
+                "Un-retire entry"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,38 +39,40 @@
             "annotations": [
                 {
                     "comments": "smCOG: SMCOG1127:condensation_domain-containing_protein (Score: 146.9; E-value: 1.7e-44);",
-                    "id": "VC2209",
+                    "id": "VC_2209",
                     "product": "nonribosomal peptide synthetase VibF"
                 },
                 {
                     "comments": "similar to GB:U11759 PID:531823 SP:Q56646; identified by sequence similarity",
-                    "id": "VC2210",
+                    "id": "VC_2210",
                     "product": "vibriobactin utilization protein ViuB"
                 },
                 {
                     "comments": "similar to SP:Q00964 PID:531822; identified by sequence similarity",
-                    "id": "VC2211",
+                    "id": "VC_2211",
                     "product": "ferric vibriobactin receptor"
                 }
             ],
             "extra_genes": [
                 {
-                    "id": "VC2209"
-                },
-                {
-                    "id": "VC2210"
-                },
-                {
-                    "id": "VC2211"
+                    "id": "VC_2209",
+                    "location": {
+                        "exons": [
+                            {
+                                "end": 2360659,
+                                "start": 2353406
+                            }
+                        ],
+                        "strand": -1
+                    }
                 }
             ]
         },
         "loci": {
-            "accession": "NC_002505.1",
+            "accession": "AE003852.1",
             "completeness": "Unknown",
-            "end_coord": 838159,
-            "evidence": [],
-            "start_coord": 826197
+            "end_coord": 2364087,
+            "start_coord": 2353277
         },
         "mibig_accession": "BGC0000945",
         "minimal": true,
@@ -68,6 +83,7 @@
         },
         "publications": [
             "pubmed:9371453"
-        ]
+        ],
+        "status": "active"
     }
 }
