@@ -46,15 +46,19 @@ def compare(prev: Tuple[int, int, str], current: Tuple[int, int, str], threshold
 def run_all(files: List[str], threshold: int) -> bool:
     if not files:
         files = []
-        for dir_name in ["data"]:
+        for dir_name in ["data", "retired"]:
             files.extend(glob.glob(os.path.join(dir_name, "*.json")))
 
     accessions = defaultdict(list)
 
     for file in sorted(files):
         with open(file) as handle:
-            data = json.load(handle)
-        if data["cluster"]["status"] == "retired":
+            try:
+                data = json.load(handle)
+            except json.decoder.JSONDecodeError as err:
+                print(file, err)
+                raise
+        if "status" in data["cluster"] and data["cluster"]["status"] == "retired":
             continue
         loci = data["cluster"]["loci"]
         acc = loci["accession"].rsplit(".", 1)[0]
