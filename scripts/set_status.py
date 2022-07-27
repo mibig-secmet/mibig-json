@@ -23,7 +23,8 @@ def run(args: argparse.Namespace) -> None:
         else:
             if old_status == "retired":
                 del cluster['retirement_reasons']
-                del cluster['see_also']
+                if 'see_also' in cluster:
+                    del cluster['see_also']
 
         if args.comment:
             entry['comments'] = args.comment
