@@ -4,6 +4,9 @@
             "comments": [
                 "Migrated from v1.4"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
         }
     ],
@@ -13,7 +16,6 @@
         ],
         "compounds": [
             {
-                "chem_acts": [],
                 "chem_moieties": [
                     {
                         "moiety": "Pyrrole ring",
@@ -29,7 +31,6 @@
                         ]
                     }
                 ],
-                "chem_synonyms": [],
                 "compound": "disgocidine",
                 "database_id": [
                     "chemspider:133391"
@@ -57,10 +58,8 @@
                     }
                 ],
                 "chem_struct": "CN1C=C(C=C1C(=O)NC2=CN(C(=C2)C(=O)NC3=CN(C(=C3)C(=O)NCCC(=N)N)C)C)NC=O",
-                "chem_synonyms": [],
                 "chem_targets": [
                     {
-                        "publications": [],
                         "target": "DNA"
                     }
                 ],
@@ -100,7 +99,6 @@
                 ],
                 "chem_targets": [
                     {
-                        "publications": [],
                         "target": "DNA"
                     }
                 ],
@@ -155,6 +153,11 @@
                     "id": "AIS24848.1",
                     "name": "dst2",
                     "product": "dst2"
+                },
+                {
+                    "id": "AIS24863.1",
+                    "name": "dst3",
+                    "product": "Dst3"
                 },
                 {
                     "id": "AIS24849.1",
@@ -270,11 +273,6 @@
                     "product": "dst18"
                 },
                 {
-                    "id": "AIS24863.1",
-                    "name": "dst19",
-                    "product": "Dst3"
-                },
-                {
                     "functions": [
                         {
                             "category": "Scaffold biosynthesis",
@@ -291,7 +289,7 @@
         },
         "loci": {
             "accession": "KJ634466.1",
-            "completeness": "complete",
+            "completeness": "incomplete",
             "evidence": [
                 "Knock-out studies",
                 "Heterologous expression"
@@ -359,43 +357,14 @@
                             "active": false
                         }
                     ]
-                },
-                {
-                    "gene_id": "AIS24865.1",
-                    "modules": [
-                        {
-                            "active": false
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "AIS24866.1",
-                    "modules": [
-                        {
-                            "active": false,
-                            "c_dom_subtype": "LCL"
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "AIS24867.1",
-                    "modules": [
-                        {
-                            "active": false,
-                            "c_dom_subtype": "Unknown"
-                        }
-                    ]
                 }
-            ],
-            "release_type": [
-                "Unknown"
-            ],
-            "subclass": "Unknown",
-            "thioesterases": []
+            ]
         },
         "organism_name": "Streptomyces netropsis",
         "publications": [
             "pubmed:25415678"
-        ]
-    }
+        ],
+        "status": "active"
+    },
+    "comments": "Contig lacks AIS24865.1, AIS24866.1, AIS24867.1 as part of the NRPS"
 }
