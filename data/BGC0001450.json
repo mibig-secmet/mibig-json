@@ -5,6 +5,9 @@
                 "Migrated from v1.4",
                 "Updated compound(s) information (NPAtlas curation)"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
         }
     ],
@@ -19,7 +22,6 @@
                     "Antibacterial"
                 ],
                 "chem_struct": "CC1(CCCC2(C1CCC(=C)C2CC34C(O3)C(C(=CC4=O)CO)O)C)C",
-                "chem_synonyms": [],
                 "compound": "macrophorin A",
                 "database_id": [
                     "pubchem:14526957"
@@ -45,7 +47,6 @@
                     "immunomodulatory activity"
                 ],
                 "chem_struct": "[H][C@@]12CCC(=C)[C@H](C[C@@]34O[C@@H]3C(=O)C(COC(=O)CC(C)(O)CC(O)=O)=CC4=O)[C@@]1(C)CCCC2(C)C",
-                "chem_synonyms": [],
                 "compound": "4'-oxomacrophorin D",
                 "database_id": [
                     "npatlas:NPA02415",
@@ -59,11 +60,8 @@
                 "molecular_formula": "C28H38O8"
             },
             {
-                "chem_acts": [],
                 "chem_struct": "C=C1CC[C@@]2([H])C(C)(C)CCC[C@]2(C)[C@H]1C[C@@]34[C@H](O4)C(C(COC(CC(O)=O)=O)=CC3=O)=O",
-                "chem_synonyms": [],
                 "compound": "4'-oxomacrophorin E",
-                "database_id": [],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
@@ -119,8 +117,7 @@
                                 "iterated": true,
                                 "non_elongating": false,
                                 "skipped": false
-                            },
-                            "pks_mod_doms": []
+                            }
                         }
                     ]
                 }
@@ -131,6 +128,10 @@
             "doi:10.1021/np010152n",
             "doi:10.1080/00021369.1983.10865611"
         ],
+        "retirement_reasons": [
+            "Reference sequence contains only a single gene"
+        ],
+        "status": "retired",
         "terpene": {
             "carbon_count_subclass": "Sesquiterpene",
             "prenyltransferases": [
