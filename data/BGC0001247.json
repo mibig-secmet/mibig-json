@@ -5,6 +5,9 @@
                 "Migrated from v1.4",
                 "Updated compound(s) information (NPAtlas curation)"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
         }
     ],
@@ -15,7 +18,7 @@
         "compounds": [
             {
                 "chem_struct": "COC1=C(C[C@H](C)O)C2=C3C(C[C@H](C)O)=C(OC)C(=O)C4=C3C3=C(OCOC5=C3C2=C(C(O)=C5)C1=O)C=C4O",
-                "compound": "Cercosporin",
+                "compound": "cercosporin",
                 "database_id": [
                     "npatlas:NPA013081",
                     "pubchem:90471707"
@@ -26,16 +29,18 @@
         ],
         "loci": {
             "accession": "AY649543.1",
-            "completeness": "Unknown",
-            "evidence": []
+            "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001247",
         "minimal": true,
         "ncbi_tax_id": "29003",
         "organism_name": "Cercospora nicotianae",
-        "polyketide": {},
         "publications": [
             "pubmed:17462021"
-        ]
+        ],
+        "retirement_reasons": [
+            "Reference sequence contains only a single gene"
+        ],
+        "status": "retired"
     }
 }
