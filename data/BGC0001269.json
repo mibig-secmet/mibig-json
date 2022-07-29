@@ -5,6 +5,9 @@
                 "Migrated from v1.4",
                 "Updated compound(s) information (NPAtlas curation)"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
         }
     ],
@@ -34,7 +37,7 @@
             },
             {
                 "chem_struct": "[H][C@@]12CC[C@@H]3C[C@]1(CC3=C)[C@@H](C(O)=O)[C@]1([H])[C@]3(C)[C@@H](O)C=C[C@@]21OC3=O",
-                "compound": "Gibberellin A7",
+                "compound": "gibberellin A7",
                 "database_id": [
                     "npatlas:NPA07600",
                     "pubchem:92782"
@@ -44,7 +47,7 @@
             },
             {
                 "chem_struct": "[H][C@@]12CC[C@@H]3C[C@]1(CC3=C)[C@@H](C(O)=O)[C@]1([H])C3(C)[C@@H](O)CC[C@@]21OC3=O",
-                "compound": "Gibberellin A4",
+                "compound": "gibberellin A4",
                 "database_id": [
                     "npatlas:NPA01469",
                     "pubchem:92109"
@@ -64,16 +67,18 @@
         ],
         "loci": {
             "accession": "AM886292.1",
-            "completeness": "Unknown",
-            "evidence": []
+            "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001269",
         "minimal": true,
         "ncbi_tax_id": "49223",
         "organism_name": "Sphaceloma manihoticola",
-        "polyketide": {},
         "publications": [
             "pubmed:18567680"
-        ]
+        ],
+        "retirement_reasons": [
+            "Reference sequence contains only a single gene"
+        ],
+        "status": "retired"
     }
 }
