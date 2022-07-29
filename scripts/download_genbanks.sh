@@ -51,6 +51,10 @@ run() {
     for JSON_FILE in ${JSONS_DIR}/*.json; do
         ACC=$(getAcc ${JSON_FILE})
         BGC_ID=$(basename ${JSON_FILE/\.json/})
+        if [[ "$ACC" == "MIBIG.BGC"* ]]; then
+            echo "Skipping $BGC_ID: $ACC" >&2
+            continue
+        fi
         echo "$BGC_ID: $ACC" 1>&2
         download $ACC ${GENBANKS_DIR}
     done
