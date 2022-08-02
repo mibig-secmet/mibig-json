@@ -30,6 +30,9 @@ def fix_publcations(json_file: str, args: argparse.Namespace) -> None:
 
     changed = False
 
+    if 'publications' not in entry['cluster']:
+        return
+
     publications = entry['cluster']['publications']
     old_len = len(publications)
     unique_pubs = {}
@@ -62,9 +65,9 @@ def fix_publcations(json_file: str, args: argparse.Namespace) -> None:
 
             entry["changelog"].append(log)
 
-
     with open(json_file, 'w', encoding="utf-8") as handle:
-        json.dump(entry, handle, indent=4, separators=(',', ': '), sort_keys=True, ensure_ascii=False)
+        json.dump(entry, handle, indent=4, separators=(',', ': '),
+                  sort_keys=True, ensure_ascii=False)
 
 
 def main():
@@ -81,6 +84,7 @@ def main():
         args.contributor = CONTRIBUTORS
 
     run(args)
+
 
 if __name__ == "__main__":
     main()
