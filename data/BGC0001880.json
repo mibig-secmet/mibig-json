@@ -4,7 +4,22 @@
             "comments": [
                 "Submitted"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fix gene ids",
+                "Add organism name and tax ID",
+                "Add NPAtlas link from BGC0002481",
+                "Un-retire entry"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -13,11 +28,11 @@
         ],
         "compounds": [
             {
-                "chem_acts": [],
                 "chem_struct": "C[C@H](CC)[C@@H](C(N[C@@H](CO)C(N1[C@H](C(N[C@@H](C)C(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(N[C@@H](C)C(N[C@@H](CO)C(N[C@@H](CC(C)C)C(N[C@H](C(N)=O)C(C)C)=O)=O)=O)=O)=O)=O)=O)CCC1)=O)=O)NC",
-                "chem_synonyms": [],
                 "compound": "scytodecamide",
-                "database_id": [],
+                "database_id": [
+                    "npatlas:NPA025827"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
@@ -38,7 +53,7 @@
                             ]
                         }
                     ],
-                    "id": "No protein ID",
+                    "id": "scdC",
                     "name": "scdC",
                     "product": "cyanobactin biosynthesis PatC/TenC/TruC family protein"
                 },
@@ -51,7 +66,7 @@
                             ]
                         }
                     ],
-                    "id": "No protein ID",
+                    "id": "scdB",
                     "name": "scdB",
                     "product": "cyanobactin biosynthesis system PatB/AcyB/McaB family"
                 },
@@ -64,7 +79,7 @@
                             ]
                         }
                     ],
-                    "id": "No protein ID",
+                    "id": "scdMT",
                     "name": "scdMT",
                     "product": "methyltransferase",
                     "tailoring": [
@@ -80,7 +95,7 @@
                             ]
                         }
                     ],
-                    "id": "No protein ID",
+                    "id": "scdA",
                     "name": "scdA",
                     "product": "PatA/PatG family cyanobactin maturation protease"
                 },
@@ -93,7 +108,7 @@
                             ]
                         }
                     ],
-                    "id": "No protein ID",
+                    "id": "scdTA",
                     "name": "scdTA",
                     "product": "transamidase",
                     "tailoring": [
@@ -113,14 +128,15 @@
         },
         "mibig_accession": "BGC0001880",
         "minimal": true,
+        "ncbi_tax_id": "2304196",
+        "organism_name": "Scytonema sp. UIC 10036",
         "publications": [
-            "pubmed:0"
+            "pubmed:31769581"
         ],
         "ripp": {
             "cyclic": false,
-            "peptidases": [],
             "subclass": "Cyanobactin"
-        }
-    },
-    "comments": "The manuscript is currently under revision."
+        },
+        "status": "active"
+    }
 }
