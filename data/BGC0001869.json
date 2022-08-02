@@ -1,0 +1,178 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fixed genomic coordinates",
+                "Un-retire entry"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "3.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other",
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "COC1=CC=C(C2=NC3=CC=CC(=C3N=C12)C(=O)O)CO",
+                "compound": "griseoluteic acid",
+                "database_id": [
+                    "pubchem:120266"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ]
+            },
+            {
+                "chem_struct": "C1=CC(=C2C(=C1)N=C3C(=N2)C=CC=C3C(=O)O)CO",
+                "chem_synonyms": [
+                    "6-(hydroxymethyl)phenazine-1-carboxylic acid"
+                ],
+                "compound": "demethoxygriseoluteic acid",
+                "database_id": [
+                    "pubchem:101965688"
+                ],
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ]
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "O=C([C@H](C(C)C)N)OCC1=CC=CC2=NC3=C(C(O)=O)C=CC=C3N=C21",
+                "compound": "phenaszentine A",
+                "evidence": [
+                    "Mass spectrometry",
+                    "X-ray",
+                    "Total synthesis"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 353.13755608800005,
+                "molecular_formula": "C19H19N3O4"
+            },
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "O=C([C@H](CC(C)C)N)OCC1=CC=C(OC)C2=NC3=C(C(O)=O)C=CC=C3N=C21",
+                "compound": "phenaszentine C",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 397.163770836,
+                "molecular_formula": "C21H23N3O5"
+            },
+            {
+                "chem_struct": "O=C(C=C1C)CC(C1)C2=CC=CC3=NC4=C(C(O)=O)C=CC=C4N=C32",
+                "compound": "phenaszenketide C",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 332.116092372,
+                "molecular_formula": "C20H16N2O3"
+            },
+            {
+                "chem_struct": "O=C(C)/C=C/C1=CC=C(OC)C2=NC3=C(C(O)=O)C=CC=C3N=C21",
+                "compound": "phenaszenketide D",
+                "evidence": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 322.095356928,
+                "molecular_formula": "C18H14N2O4"
+            }
+        ],
+        "loci": {
+            "accession": "NIBV01000002.1",
+            "completeness": "complete",
+            "end_coord": 1268444,
+            "evidence": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction",
+                "Knock-out studies"
+            ],
+            "start_coord": 1256653
+        },
+        "mibig_accession": "BGC0001869",
+        "minimal": false,
+        "ncbi_tax_id": "1427518",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "PHM32437.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "proteinogenic": [
+                                    "Isoleucine",
+                                    "Leucine",
+                                    "Valine"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "PHM32438.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "PHM32439.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "organism_name": "Xenorhabdus szentirmaii DSM 16338",
+        "other": {
+            "subclass": "Phenazine"
+        },
+        "publications": [
+            "pubmed:30886436"
+        ],
+        "see_also": [
+            "BGC0001868"
+        ],
+        "status": "active"
+    },
+    "comments": "Uses the phenazine produced in BGC0001868 as precursor"
+}
