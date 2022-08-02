@@ -4,7 +4,20 @@
             "comments": [
                 "Submitted"
             ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Add precursor gene annotation",
+                "Un-retire entry"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -20,13 +33,29 @@
                     "bacteriocins",
                     "pyocins"
                 ],
-                "compound": "Type R and F tailocins",
-                "database_id": [],
+                "compound": "type R and F tailocins",
                 "evidence": [
                     "Total synthesis"
                 ]
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "precursor",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "QS95_21755",
+                    "name": "ptm",
+                    "product": "phage tape measture bacteriocin"
+                }
+            ]
+        },
         "loci": {
             "accession": "JTGH01000018.1",
             "completeness": "complete",
@@ -45,7 +74,8 @@
         },
         "publications": [
             "doi:10.1099/mic.0.056002-0",
-            "doi:10.1016/j.micres.2018.05.01"
-        ]
+            "doi:10.1016/j.micres.2018.05.010"
+        ],
+        "status": "active"
     }
 }
