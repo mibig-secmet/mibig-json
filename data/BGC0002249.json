@@ -4,7 +4,9 @@
             "comments": [
                 "Entry added",
                 "Fix locus",
-                "Add gene annotations"
+                "Add gene annotations",
+                "Fix cluster coordinates",
+                "Order exons the right way around"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA",
@@ -69,12 +71,12 @@
                     "location": {
                         "exons": [
                             {
-                                "end": 4443329,
-                                "start": 4443220
-                            },
-                            {
                                 "end": 4444200,
                                 "start": 4443382
+                            },
+                            {
+                                "end": 4443329,
+                                "start": 4443220
                             }
                         ],
                         "strand": -1
@@ -85,7 +87,7 @@
         "loci": {
             "accession": "QYRS01000001.1",
             "completeness": "Unknown",
-            "end_coord": 4452527,
+            "end_coord": 4453403,
             "evidence": [
                 "Heterologous expression"
             ],
