@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Removed direct reference to D-rhamnose precursor supply genes that are outside of the cluster, on another contig"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -207,15 +216,9 @@
                     "specificity": "D-rhamnose"
                 }
             ],
-            "subclass": "hybrid/tailoring",
-            "sugar_subclusters": [
-                [
-                    "BN844_4693",
-                    "BN844_4692",
-                    "BN844_4691"
-                ]
-            ]
+            "subclass": "hybrid/tailoring"
         },
         "status": "active"
-    }
+    },
+    "comments": "The glycosyltransferase CDF96613.1 attaches D-rhamnose, which is synthesised by BN844_4691, BN844_4692, BN844_4693 in contig CBLV010000092.1"
 }
