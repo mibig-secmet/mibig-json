@@ -226,8 +226,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "proteinogenic": [
-                                    "Serine"
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -250,8 +254,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "nonproteinogenic": [
-                                    "N-Methyl-Glycine"
+                                "substrates": [
+                                    {
+                                        "name": "N-Methyl-Glycine",
+                                        "proteinogenic": false,
+                                        "structure": "[Po][Po]"
+                                    }
                                 ]
                             },
                             "active": true,

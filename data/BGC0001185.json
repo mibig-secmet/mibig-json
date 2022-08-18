@@ -67,8 +67,12 @@
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
-                                "nonproteinogenic": [
-                                    "dhb"
+                                "substrates": [
+                                    {
+                                        "name": "dhb",
+                                        "proteinogenic": false,
+                                        "structure": "[Po][Po]"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -85,8 +89,12 @@
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
-                                "proteinogenic": [
-                                    "Glycine"
+                                "substrates": [
+                                    {
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -99,8 +107,12 @@
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
-                                "proteinogenic": [
-                                    "Threonine"
+                                "substrates": [
+                                    {
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
                                 ]
                             },
                             "active": true,

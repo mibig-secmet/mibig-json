@@ -167,8 +167,12 @@
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
-                                "proteinogenic": [
-                                    "Leucine"
+                                "substrates": [
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -189,8 +193,12 @@
                                     "CAM59605.1"
                                 ],
                                 "epimerized": false,
-                                "nonproteinogenic": [
-                                    "2-carboxy-6-hydroxy-octahydroindole"
+                                "substrates": [
+                                    {
+                                        "name": "2-carboxy-6-hydroxy-octahydroindole",
+                                        "proteinogenic": false,
+                                        "structure": "[Po][Po]"
+                                    }
                                 ]
                             },
                             "active": true,

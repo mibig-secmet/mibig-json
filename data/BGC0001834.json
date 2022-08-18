@@ -151,12 +151,22 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "nonproteinogenic": [
-                                    "2-Aminobutyric acid"
-                                ],
-                                "proteinogenic": [
-                                    "Alanine",
-                                    "Valine"
+                                "substrates": [
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "2-Aminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": false,
@@ -168,8 +178,12 @@
                                 "evidence": [
                                     "Feeding study"
                                 ],
-                                "proteinogenic": [
-                                    "Serine"
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
                                 ]
                             },
                             "active": false,
@@ -182,8 +196,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "proteinogenic": [
-                                    "Glycine"
+                                "substrates": [
+                                    {
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
                                 ]
                             },
                             "active": false,
@@ -204,10 +222,22 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "proteinogenic": [
-                                    "Alanine",
-                                    "Serine",
-                                    "Glycine"
+                                "substrates": [
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
                                 ]
                             },
                             "active": false,
@@ -220,8 +250,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "proteinogenic": [
-                                    "Cysteine"
+                                "substrates": [
+                                    {
+                                        "name": "Cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
                                 ]
                             },
                             "active": false,
@@ -237,8 +271,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "proteinogenic": [
-                                    "Tryptophan"
+                                "substrates": [
+                                    {
+                                        "name": "Tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": false,
@@ -251,8 +289,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "proteinogenic": [
-                                    "Tryptophan"
+                                "substrates": [
+                                    {
+                                        "name": "Tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": false,
@@ -265,8 +307,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "proteinogenic": [
-                                    "Glycine"
+                                "substrates": [
+                                    {
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
                                 ]
                             },
                             "active": false,

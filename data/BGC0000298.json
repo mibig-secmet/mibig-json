@@ -193,8 +193,12 @@
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
-                                "proteinogenic": [
-                                    "Isoleucine"
+                                "substrates": [
+                                    {
+                                        "name": "Isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -215,8 +219,12 @@
                                     "ACM68688.1"
                                 ],
                                 "epimerized": false,
-                                "nonproteinogenic": [
-                                    "2-carboxy-6-hydroxyoctahydroindole"
+                                "substrates": [
+                                    {
+                                        "name": "2-carboxy-6-hydroxyoctahydroindole",
+                                        "proteinogenic": false,
+                                        "structure": "N1[C@H](C(=O)O)C[C@@H]2CC[C@@H](O)C[C@H]12"
+                                    }
                                 ]
                             },
                             "active": true,

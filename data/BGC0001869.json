@@ -130,10 +130,22 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
-                                "proteinogenic": [
-                                    "Isoleucine",
-                                    "Leucine",
-                                    "Valine"
+                                "substrates": [
+                                    {
+                                        "name": "Isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": false,

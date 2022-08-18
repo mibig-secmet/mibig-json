@@ -179,8 +179,12 @@
                                 "evidence": [
                                     "Activity assay"
                                 ],
-                                "nonproteinogenic": [
-                                    "2-Amino-adipic-acid"
+                                "substrates": [
+                                    {
+                                        "name": "2-Amino-adipic-acid",
+                                        "proteinogenic": false,
+                                        "structure": "[Po][Po]"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -192,8 +196,12 @@
                                 "evidence": [
                                     "Activity assay"
                                 ],
-                                "proteinogenic": [
-                                    "Cysteine"
+                                "substrates": [
+                                    {
+                                        "name": "Cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -206,8 +214,12 @@
                                 "evidence": [
                                     "Activity assay"
                                 ],
-                                "proteinogenic": [
-                                    "Valine"
+                                "substrates": [
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": true,

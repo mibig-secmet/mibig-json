@@ -158,8 +158,12 @@
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
-                                "proteinogenic": [
-                                    "Cysteine"
+                                "substrates": [
+                                    {
+                                        "name": "Cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -177,8 +181,12 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
-                                "proteinogenic": [
-                                    "Leucine"
+                                "substrates": [
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": true,
