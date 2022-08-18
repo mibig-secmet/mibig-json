@@ -202,7 +202,7 @@
                                     "properties": {
                                         "publications": {
                                             "items": {
-                                                "type": "string"
+                                                "$ref": "#/$defs/publication"
                                             },
                                             "title": "Publication id",
                                             "type": "array"
@@ -340,7 +340,7 @@
                                     },
                                     "publications": {
                                         "items": {
-                                            "type": "string"
+                                            "$ref": "#/$defs/publication"
                                         },
                                         "title": "Publications on this gene",
                                         "type": "array"
@@ -1037,21 +1037,7 @@
                 },
                 "publications": {
                     "items": {
-                        "oneOf": [
-                            {
-                                "pattern": "^pubmed:(\\d+)$"
-                            },
-                            {
-                                "pattern": "^doi:10\\.\\d{4,9}/[-\\._;()/:a-zA-Z0-9]+$"
-                            },
-                            {
-                                "pattern": "^patent:(.+)$"
-                            },
-                            {
-                                "pattern": "^url:https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)$"
-                            }
-                        ],
-                        "type": "string"
+                        "$ref": "#/$defs/publication"
                     },
                     "title": "Key publications associated with this gene cluster, pathway or molecule",
                     "type": "array"
