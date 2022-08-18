@@ -630,6 +630,65 @@
                                                                 "$ref": "#/$defs/publication"
                                                             },
                                                             "type": "array"
+                                                        },
+                                                        "substrates": {
+                                                            "items": {
+                                                                "additionalProperties": false,
+                                                                "allOf": [
+                                                                    {
+                                                                        "if": {
+                                                                            "properties": {
+                                                                                "proteinogenic": {
+                                                                                    "const": true
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "proteinogenic"
+                                                                            ]
+                                                                        },
+                                                                        "then": {
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "$ref": "#/$defs/proteinogenic_amino_acids"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name"
+                                                                            ]
+                                                                        },
+                                                                        "else": {
+                                                                            "not": {
+                                                                                "properties": {
+                                                                                    "name": {
+                                                                                        "$ref": "#/$defs/proteinogenic_amino_acids"
+                                                                                    }
+                                                                                },
+                                                                                "required": [
+                                                                                    "name"
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "properties": {
+                                                                    "name": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "proteinogenic": {
+                                                                        "type": "boolean"
+                                                                    },
+                                                                    "structure": {
+                                                                        "$ref": "#/$defs/smiles"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "name",
+                                                                    "proteinogenic",
+                                                                    "structure"
+                                                                ],
+                                                                "type": "object"
+                                                            },
+                                                            "type": "array"
                                                         }
                                                     },
                                                     "title": "Adenylation domain substrate specificity",
@@ -1287,6 +1346,30 @@
     "title": "MIBiG Submission form",
     "type": "object",
     "$defs": {
+        "proteinogenic_amino_acids": {
+            "enum": [
+                "Alanine",
+                "Arginine",
+                "Glutamate",
+                "Serine",
+                "Tryptophan",
+                "Methionine",
+                "Threonine",
+                "Glycine",
+                "Isoleucine",
+                "Proline",
+                "Glutamine",
+                "Tyrosine",
+                "Phenylalanine",
+                "Cysteine",
+                "Histidine",
+                "Leucine",
+                "Lysine",
+                "Valine",
+                "Asparagine",
+                "Aspartate"
+            ]
+        },
         "publication": {
             "oneOf": [
                 {
