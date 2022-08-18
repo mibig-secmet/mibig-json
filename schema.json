@@ -1289,5 +1289,24 @@
         "cluster"
     ],
     "title": "MIBiG Submission form",
-    "type": "object"
+    "type": "object",
+    "$defs": {
+        "publication": {
+            "oneOf": [
+                {
+                    "pattern": "^pubmed:(\\d+)$"
+                },
+                {
+                    "pattern": "^doi:10\\.\\d{4,9}/[-\\._;()/:a-zA-Z0-9]+$"
+                },
+                {
+                    "pattern": "^patent:(.+)$"
+                },
+                {
+                    "pattern": "^url:https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)$"
+                }
+            ],
+            "type": "string"
+        }
+    }
 }
