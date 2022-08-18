@@ -398,8 +398,12 @@
                                 "evidence": [
                                     "Activity assay"
                                 ],
-                                "nonproteinogenic": [
-                                    "D-alanine"
+                                "substrates": [
+                                    {
+                                        "name": "D-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H](C(=O)O)N"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -425,8 +429,12 @@
                                 "evidence": [
                                     "Activity assay"
                                 ],
-                                "nonproteinogenic": [
-                                    "Cysteine"
+                                "substrates": [
+                                    {
+                                        "name": "Cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
                                 ]
                             },
                             "active": true,

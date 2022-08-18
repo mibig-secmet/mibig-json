@@ -105,8 +105,12 @@
                                 "evidence": [
                                     "Activity assay"
                                 ],
-                                "proteinogenic": [
-                                    "Threonine"
+                                "substrates": [
+                                    {
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -119,8 +123,12 @@
                                 "evidence": [
                                     "Activity assay"
                                 ],
-                                "nonproteinogenic": [
-                                    "Pyruvate"
+                                "substrates": [
+                                    {
+                                        "name": "Pyruvate",
+                                        "proteinogenic": false,
+                                        "structure": "[Po][Po]"
+                                    }
                                 ]
                             },
                             "active": true,

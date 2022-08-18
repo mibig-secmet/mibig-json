@@ -98,8 +98,12 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
-                                "nonproteinogenic": [
-                                    "N5-Hydroxyornithine"
+                                "substrates": [
+                                    {
+                                        "name": "N5-Hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CNO"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -112,8 +116,12 @@
                                 "evidence": [
                                     "Sequence-based prediction"
                                 ],
-                                "proteinogenic": [
-                                    "Aspartate"
+                                "substrates": [
+                                    {
+                                        "name": "Aspartate",
+                                        "proteinogenic": true,
+                                        "structure": "[Po][Po]"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -126,8 +134,12 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
-                                "proteinogenic": [
-                                    "Serine"
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
                                 ]
                             },
                             "active": true,
@@ -147,8 +159,12 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
-                                "nonproteinogenic": [
-                                    "N5-hydroxy-N5-formylornitine"
+                                "substrates": [
+                                    {
+                                        "name": "N5-hydroxy-N5-formylornitine",
+                                        "proteinogenic": false,
+                                        "structure": "[Po][Po]"
+                                    }
                                 ]
                             },
                             "active": true,
