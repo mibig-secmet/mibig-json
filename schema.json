@@ -684,6 +684,12 @@
                                                         "name": {
                                                             "type": "string"
                                                         },
+                                                        "publications": {
+                                                            "items": {
+                                                                "$ref": "#/$defs/publication"
+                                                            },
+                                                            "type": "array"
+                                                        },
                                                         "structure": {
                                                             "pattern": "^[\\[\\]a-zA-Z0-9\\@()=\\/\\\\#+.%*-]+$",
                                                             "title": "Monomer structure",
