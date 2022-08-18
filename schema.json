@@ -185,9 +185,8 @@
                                 "type": "array"
                             },
                             "chem_struct": {
-                                "pattern": "^[\\[\\]a-zA-Z0-9\\@()=\\/\\\\#+.%*-]+$",
-                                "title": "Compound structure",
-                                "type": "string"
+                                "$ref": "#/$defs/smiles",
+                                "title": "Compound structure"
                             },
                             "chem_synonyms": {
                                 "items": {
@@ -691,9 +690,8 @@
                                                             "type": "array"
                                                         },
                                                         "structure": {
-                                                            "pattern": "^[\\[\\]a-zA-Z0-9\\@()=\\/\\\\#+.%*-]+$",
-                                                            "title": "Monomer structure",
-                                                            "type": "string"
+                                                            "$ref": "#/$defs/smiles",
+                                                            "title": "Monomer structure"
                                                         }
                                                     },
                                                     "type": "object"
@@ -1304,6 +1302,10 @@
                     "pattern": "^url:https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)$"
                 }
             ],
+            "type": "string"
+        },
+        "smiles": {
+            "pattern": "^[\\[\\]a-zA-Z0-9\\@()=\\/\\\\#+.%*-]+$",
             "type": "string"
         }
     }
