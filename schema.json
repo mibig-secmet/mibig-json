@@ -570,23 +570,7 @@
                                                         },
                                                         "evidence": {
                                                             "items": {
-                                                                "enum": [
-                                                                    "Activity assay",
-                                                                    "ACVS assay",
-                                                                    "ATP-PPi exchange assay",
-                                                                    "Feeding study",
-                                                                    "Heterologous expression",
-                                                                    "Homology",
-                                                                    "In-vitro experiments",
-                                                                    "Knock-out studies",
-                                                                    "Mass spectrometry",
-                                                                    "Radio labelling",
-                                                                    "Sequence-based prediction",
-                                                                    "Steady-state kinetics",
-                                                                    "Structure-based inference",
-                                                                    "X-ray crystallography"
-                                                                ],
-                                                                "type": "string"
+                                                                "$ref": "#/$defs/substrate_evidence"
                                                             },
                                                             "title": "Evidence for A-domain specificity",
                                                             "type": "array"
@@ -1355,6 +1339,25 @@
         },
         "smiles": {
             "pattern": "^[\\[\\]a-zA-Z0-9\\@()=\\/\\\\#+.%*-]+$",
+            "type": "string"
+        },
+        "substrate_evidence": {
+            "enum": [
+                "Activity assay",
+                "ACVS assay",
+                "ATP-PPi exchange assay",
+                "Feeding study",
+                "Heterologous expression",
+                "Homology",
+                "In-vitro experiments",
+                "Knock-out studies",
+                "Mass spectrometry",
+                "Radio labelling",
+                "Sequence-based prediction",
+                "Steady-state kinetics",
+                "Structure-based inference",
+                "X-ray crystallography"
+            ],
             "type": "string"
         }
     }
