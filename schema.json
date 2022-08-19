@@ -663,6 +663,39 @@
                                                 "comments": {
                                                     "type": "string"
                                                 },
+                                                "integrated_monomers": {
+                                                    "items": {
+                                                        "additionalProperties": false,
+                                                        "properties": {
+                                                            "evidence": {
+                                                                "items": {
+                                                                    "$ref": "#/$defs/substrate_evidence"
+                                                                },
+                                                                "title": "Evidence for integrated monomer",
+                                                                "type": "array"
+                                                            },
+                                                            "name": {
+                                                                "type": "string"
+                                                            },
+                                                            "publications": {
+                                                                "items": {
+                                                                    "$ref": "#/$defs/publication"
+                                                                },
+                                                                "type": "array"
+                                                            },
+                                                            "structure": {
+                                                                "$ref": "#/$defs/smiles",
+                                                                "title": "Monomer structure"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "name",
+                                                            "structure"
+                                                        ],
+                                                        "type": "object"
+                                                    },
+                                                    "type": "array"
+                                                },
                                                 "modification_domains": {
                                                     "items": {
                                                         "type": "string"
@@ -674,36 +707,6 @@
                                                     "pattern": "^[A-Z]*[0-9]+[A-Z]*$",
                                                     "title": "Assembly line module number",
                                                     "type": "string"
-                                                },
-                                                "monomer_integrated": {
-                                                    "additionalProperties": false,
-                                                    "properties": {
-                                                        "evidence": {
-                                                            "items": {
-                                                                "enum": [
-                                                                    "Sequence-based prediction",
-                                                                    "Structure-based inference"
-                                                                ],
-                                                                "type": "string"
-                                                            },
-                                                            "title": "Evidence for integrated monomer",
-                                                            "type": "array"
-                                                        },
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "publications": {
-                                                            "items": {
-                                                                "$ref": "#/$defs/publication"
-                                                            },
-                                                            "type": "array"
-                                                        },
-                                                        "structure": {
-                                                            "$ref": "#/$defs/smiles",
-                                                            "title": "Monomer structure"
-                                                        }
-                                                    },
-                                                    "type": "object"
                                                 },
                                                 "non_canonical": {
                                                     "additionalProperties": false,
