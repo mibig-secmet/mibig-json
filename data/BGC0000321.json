@@ -21,6 +21,7 @@
         {
             "comments": [
                 "Removed empty gene annotations"
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -386,6 +387,26 @@
         "publications": [
             "pubmed:24123808"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ctg1_orf10",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "Tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

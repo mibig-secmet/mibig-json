@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -47,6 +56,57 @@
         "see_also": [
             "BGC0001818"
         ],
-        "status": "retired"
+        "status": "retired",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAV57443.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:28288097"
+                                ],
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "(2S,6R)-diamino-(5R,7)-dihydroxy-heptanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)[C@H]([C@@H](CO)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAV57451.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:28288097"
+                                ],
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

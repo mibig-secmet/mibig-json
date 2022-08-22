@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -39,6 +48,56 @@
         "publications": [
             "pubmed:24120331"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AGY30674.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:24120331"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-amino-3-hydroxycyclopent-2-enone",
+                                        "proteinogenic": false,
+                                        "structure": "C1CC(=O)C(=C1O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGY30675.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:24120331"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "5-aminolevulinic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CC(=O)O)C(=O)CN"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

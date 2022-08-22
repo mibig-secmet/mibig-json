@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -39,6 +40,158 @@
             "pubmed:33497210",
             "doi:10.1021/acs.jnatprod.0c00864"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QRG35013.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33497210"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "D-alanine",
+                                    "structure": "C[C@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33497210"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "D-serine",
+                                    "structure": "C([C@H](C(=O)O)N)O"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QRG35014.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33497210"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "D-leucine",
+                                    "structure": "CC(C)C[C@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33497210"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "Valine",
+                                    "structure": "CC(C)[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33497210"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-diaminopropionic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "2,3-diaminopropionic acid",
+                                    "structure": "C([C@@H](C(=O)O)N)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33497210"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S-methylaspartic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@@H]([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "3S-methylaspartic acid",
+                                    "structure": "C[C@@H]([C@@H](C(=O)O)N)C(=O)O"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -177,14 +186,17 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ACVS assay"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-Amino-adipic-acid",
+                                        "name": "2-aminoadipic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C(C[C@@H](C(=O)O)N)CC(=O)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.fgb.2007.03.008"
                                 ]
                             },
                             "active": true,
@@ -194,7 +206,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ACVS assay"
                                 ],
                                 "substrates": [
                                     {
@@ -202,6 +214,9 @@
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.fgb.2007.03.008"
                                 ]
                             },
                             "active": true,
@@ -212,7 +227,7 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ACVS assay"
                                 ],
                                 "substrates": [
                                     {
@@ -220,6 +235,9 @@
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.fgb.2007.03.008"
                                 ]
                             },
                             "active": true,

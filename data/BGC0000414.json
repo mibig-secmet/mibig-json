@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -45,6 +54,91 @@
         "publications": [
             "pubmed:24269153"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAO84861.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAO84864.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "glycolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAO84866.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2013.10.011"
+                                ],
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4,5-dehydroarginine",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)[C@@H](N)C/C=C/NC(N)=N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAO84868.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2013.10.011"
+                                ],
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "meta-tyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)O)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "3-hydroxy-O-methyl-5-methyltyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(O)C(=C(C)C=C1C[C@@H](C(=O)O)N)OC"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

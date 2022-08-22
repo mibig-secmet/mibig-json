@@ -31,7 +31,8 @@
         },
         {
             "comments": [
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -69,6 +70,56 @@
             "doi:10.1021/jacs.9b03021",
             "pubmed:30990701"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QCX41944.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:3115026"
+                                ],
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-ketoglutaric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CC(=O)O)C(=O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QCX41962.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:3115026"
+                                ],
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "succinic semialdehyde",
+                                        "proteinogenic": false,
+                                        "structure": "C(CC(=O)O)C=O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

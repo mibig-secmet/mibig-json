@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -83,6 +92,115 @@
             "pubmed:26954535",
             "pubmed:33736433"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CRG85572.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:26954535"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:26954535"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S,4R-dichloroproline",
+                                        "proteinogenic": false,
+                                        "structure": "Cl[C@H]1[C@@H](Cl)[C@H](NC1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3R-chloroproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1[C@@H](Cl)[C@H](NC1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "Proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:26954535"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-aminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:26954535"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:26954535"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-phenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)[C@@H](CC(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

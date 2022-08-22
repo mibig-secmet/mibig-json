@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -77,10 +86,21 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Arginine / Lysine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    },
+                                    {
+                                        "name": "Lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -90,7 +110,7 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
@@ -98,6 +118,9 @@
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -113,7 +136,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
@@ -121,6 +144,9 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -130,7 +156,7 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
@@ -138,6 +164,9 @@
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -153,7 +182,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
@@ -176,14 +205,42 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homotyrosine",
+                                        "name": "homotyrosine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -195,10 +252,16 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "N-Methyl-alanine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -217,7 +280,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
@@ -225,6 +288,9 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,

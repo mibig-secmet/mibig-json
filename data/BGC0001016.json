@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -83,6 +92,13 @@
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.70.2.686-692.2004",
+                                    "doi:10.1128/aem.58.8.2495-2500.1992"
                                 ]
                             },
                             "active": true,
@@ -99,10 +115,22 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Leucine / Arginine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.70.2.686-692.2004",
+                                    "doi:10.1128/aem.58.8.2495-2500.1992"
                                 ]
                             },
                             "active": true,
@@ -114,10 +142,22 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Aspartate / N-methylaspartate",
+                                        "name": "3S-methyl-D-aspartic acid branched",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H]([C@H](O)C(O)=O)C(O)=O"
+                                    },
+                                    {
+                                        "name": "aspartic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.70.2.686-692.2004",
+                                    "doi:10.1128/aem.58.8.2495-2500.1992"
                                 ]
                             },
                             "active": true,
@@ -138,6 +178,14 @@
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.70.2.686-692.2004",
+                                    "doi:10.1128/aem.58.8.2495-2500.1992"
                                 ]
                             },
                             "active": true,
@@ -155,6 +203,13 @@
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.70.2.686-692.2004",
+                                    "doi:10.1128/aem.58.8.2495-2500.1992"
                                 ]
                             },
                             "active": true,
@@ -171,10 +226,28 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Hydrocinnamate",
+                                        "name": "cinnamic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1=CC=C(C=C1)/C=C/C(=O)O"
+                                    },
+                                    {
+                                        "name": "hydrocinnamic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)CCC(=O)O"
+                                    },
+                                    {
+                                        "name": "D-phenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)C[C@H](C(=O)O)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/cb500007v",
+                                    "doi:10.1128/AEM.70.2.686-692.2004"
                                 ]
                             },
                             "active": true,
@@ -198,10 +271,17 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Glutamine",
-                                        "proteinogenic": true,
-                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                        "name": "D-glutamic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C(CC(=O)O)[C@H](C(=O)O)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.70.2.686-692.2004",
+                                    "doi:10.1128/aem.58.8.2495-2500.1992"
                                 ]
                             },
                             "active": true,

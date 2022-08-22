@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Use gene names as per publication",
-                "Add structures for ilicicolin J/ 8-epi-ilicicolin H"
+                "Add structures for ilicicolin J/ 8-epi-ilicicolin H",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5"
@@ -175,6 +176,29 @@
         "publications": [
             "pubmed:31216742"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "gene3",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

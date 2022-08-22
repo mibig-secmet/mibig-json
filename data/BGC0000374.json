@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -598,9 +607,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(3-Ncp)Ala",
+                                        "name": "3-(2-nitrocyclopropylalanine)",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1[C@H]([C@@H]1[N+](=O)[O-])C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -630,14 +639,34 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Feeding study"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(beta-Me)Phe",
+                                        "name": "R-beta-methylphenylalanine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C[C@H](C1=CC=CC=C1)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "2-fluorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C[C@@H](C(=O)O)N)F"
+                                    },
+                                    {
+                                        "name": "3-fluorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)F)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.12.018"
                                 ]
                             },
                             "active": true,
@@ -652,9 +681,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(3-Ncp)Ala",
+                                        "name": "3-(2-nitrocyclopropylalanine)",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1[C@H]([C@@H]1[N+](=O)[O-])C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -671,14 +700,58 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay",
+                                    "Feeding study"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(beta-Me)Phe",
+                                        "name": "R-beta-methylphenylalanine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C[C@H](C1=CC=CC=C1)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "2-fluorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C[C@@H](C(=O)O)N)F"
+                                    },
+                                    {
+                                        "name": "3-fluorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)F)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "Tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "alpha-methylphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@](CC1=CC=CC=C1)(C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.12.018"
                                 ]
                             },
                             "active": true,
@@ -712,9 +785,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(4-Pe)Pro",
+                                        "name": "4S-propenylproline",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C/C=C\\[C@H]1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },

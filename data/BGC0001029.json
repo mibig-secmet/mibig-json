@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -67,13 +76,13 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "VGVWVAASGK",
+                                        "name": "3R-amino-2S,5R-dihydroxy-8-phenyloctanoic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C[C@H](O)CCCc1ccccc1)[C@H](O)C(O)=O"
                                     }
                                 ]
                             },
@@ -93,9 +102,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DAWLFGLIDK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -111,9 +120,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DILALGLIWK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
                                     }
                                 ]
                             },
@@ -134,9 +143,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DVQFIAHVVK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },
@@ -148,14 +157,17 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DAWTIAAVCK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.05993-11"
                                 ]
                             },
                             "active": true,
@@ -170,9 +182,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DAFFLGVTFK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -188,9 +200,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DVQFIAHVVK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },

@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -38,6 +39,37 @@
             "pubmed:31061132",
             "doi:10.1073/pnas.1903282116"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EAA62478.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:31061132"
+                                ],
+                                "evidence": [
+                                    "Enzyme-coupled assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "betaine",
+                                        "proteinogenic": false,
+                                        "structure": "C[N+](C)(C)CC(=O)O"
+                                    },
+                                    {
+                                        "name": "N-dimethylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "CN(C)CC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

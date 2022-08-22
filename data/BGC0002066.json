@@ -6,7 +6,8 @@
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
                 "Added version to NCBI accession",
-                "Added SMILES"
+                "Added SMILES",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "PAM2M7KUAUIJ3CVOXWVXWGKQ",
@@ -178,7 +179,8 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Feeding study"
+                                    "Structure-based inference",
+                                    "Heterologous expression"
                                 ],
                                 "substrates": [
                                     {
@@ -186,6 +188,9 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
+                                ],
+                                "publications": [
+                                    "pubmed:32365298"
                                 ]
                             },
                             "active": false,

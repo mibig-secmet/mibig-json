@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Add compound details"
+                "Add compound details",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "SJG3CBEHSM6A3I74YXLH6GLA"
@@ -74,6 +75,53 @@
         "publications": [
             "pubmed:23302043"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ADL64235.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "doi:10.1021/bi301330q"
+                                ],
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "4-aminophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

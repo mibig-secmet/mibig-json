@@ -31,7 +31,8 @@
         {
             "comments": [
                 "Remove aminocoumarin BGC type",
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5",
@@ -386,9 +387,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyproline",
+                                        "name": "4R-hydroxyproline",
                                         "proteinogenic": false,
-                                        "structure": "C1[C@H](NCC1O)C(=O)O"
+                                        "structure": "C1[C@H](NC[C@@H]1O)C(=O)O"
                                     }
                                 ]
                             },
@@ -404,9 +405,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3,4-hydroxyhomotyrosine",
+                                        "name": "3S,4S-dihydroxyhomotyrosine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1=CC(=CC=C1[C@H](O)[C@H]([C@@H](C(=O)O)N)O)O"
                                     }
                                 ]
                             },
@@ -440,9 +441,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3-hydroxy-4-methylproline",
+                                        "name": "3S-hydroxy-4S-methylproline",
                                         "proteinogenic": false,
-                                        "structure": "CC1C(O)[C@H](NC1)C(=O)O"
+                                        "structure": "C[C@@H]1[C@H](O)[C@H](NC1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3S-hydroxyproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1CN[C@@H]([C@H]1O)C(=O)O"
                                     }
                                 ]
                             },

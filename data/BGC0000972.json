@@ -33,7 +33,8 @@
         },
         {
             "comments": [
-                "Added NRP module specificity"
+                "Added NRP module specificity",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -302,14 +303,22 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
                                         "name": "Alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja312154m"
                                 ]
                             },
                             "active": true,
@@ -325,7 +334,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
@@ -333,6 +342,9 @@
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1038/nchembio.2448"
                                 ]
                             },
                             "active": true
@@ -341,7 +353,6 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction",
                                     "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
@@ -350,6 +361,9 @@
                                         "proteinogenic": false,
                                         "structure": "C[S+](CC[C@@H](C(=O)[O-])N)C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1038/nchembio.2448"
                                 ]
                             },
                             "active": true,
@@ -364,7 +378,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -372,6 +386,9 @@
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1126/science.aax2685"
                                 ]
                             },
                             "active": true,
@@ -381,7 +398,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -389,6 +406,9 @@
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1126/science.aax2685"
                                 ]
                             },
                             "active": true,
@@ -403,7 +423,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -411,6 +431,9 @@
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1126/science.aax2685"
                                 ]
                             },
                             "active": true,
@@ -425,7 +448,7 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
@@ -433,6 +456,9 @@
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja312154m"
                                 ]
                             },
                             "active": true,

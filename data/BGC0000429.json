@@ -33,6 +33,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -769,9 +778,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-methoxyaspartate",
+                                        "name": "Aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3S-methylaspartic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C[C@@H]([C@@H](C(=O)O)N)C(=O)O"
                                     }
                                 ]
                             },
@@ -806,7 +820,8 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Knock-out studies"
                                 ],
                                 "substrates": [
                                     {
@@ -814,6 +829,9 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja108971p"
                                 ]
                             },
                             "active": true,
@@ -845,14 +863,23 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Knock-out studies"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "O-methyltyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "COC1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Phenylalanine",
                                         "proteinogenic": true,
-                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja108971p"
                                 ]
                             },
                             "active": true,
@@ -870,10 +897,13 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-tryptophan",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja108971p"
                                 ]
                             },
                             "active": true,
@@ -893,9 +923,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-leucine",
-                                        "proteinogenic": false,
-                                        "structure": "CC(C)C[C@H](C(=O)O)N"
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -911,9 +941,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-leucine",
-                                        "proteinogenic": false,
-                                        "structure": "CC(C)C[C@H](C(=O)O)N"
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },

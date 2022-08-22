@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -76,7 +85,7 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Coumaric acid",
+                                        "name": "coumaric acid",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1/C=C/C(=O)O)O"
                                     }
@@ -94,7 +103,7 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -102,6 +111,9 @@
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1021/sb500280q"
                                 ]
                             },
                             "active": true,

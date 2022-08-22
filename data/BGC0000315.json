@@ -31,7 +31,8 @@
         {
             "comments": [
                 "Fix duplication in gene evidence (issue #1)",
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5",
@@ -595,7 +596,7 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -603,6 +604,10 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/s1074-5521(02)00252-1",
+                                    "doi:10.1099/00221287-144-1-193"
                                 ]
                             },
                             "active": true,
@@ -653,7 +658,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyphenylglycine",
+                                        "name": "4-hydroxyphenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
                                     }
@@ -709,9 +714,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine or (2S, 3S)-3-hydroxyasparagine",
+                                        "name": "Asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    },
+                                    {
+                                        "name": "3S-hydroxyasparagine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C(O)=O)[C@H](O)C(N)=O"
                                     }
                                 ]
                             },
@@ -729,9 +739,14 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Glutamate or (2S, 3R)-3-methylglutamate",
+                                        "name": "Glutamic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "3R-methylglutamic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C[C@H](CC(=O)O)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -743,7 +758,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -751,6 +766,11 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ol0701619",
+                                    "doi:10.1099/00221287-144-1-193",
+                                    "doi:10.1016/s1074-5521(02)00252-1"
                                 ]
                             },
                             "active": true,

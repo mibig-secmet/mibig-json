@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -69,6 +78,35 @@
         "see_also": [
             "BGC0001592"
         ],
-        "status": "retired"
+        "status": "retired",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AVI10276.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-amino-4-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "4-hydroxy-3-nitrobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C(=O)O)[N+](=O)[O-])O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

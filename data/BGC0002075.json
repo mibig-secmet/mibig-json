@@ -5,7 +5,8 @@
                 "Submitted",
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "6CADHILFODRMCII55WHSHZ6V",
@@ -155,14 +156,39 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay",
+                                    "Mass spectrometry",
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "L-Proline, L-Pipecolic Acid, 3-hydroxyproline, 3-oxoproline",
+                                        "name": "Proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "pipecolic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "4-hydroxyproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1[C@H](NCC1O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "4-oxoproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1[C@H](NCC1=O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "azetidine-2-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)[C@H]1NCC1"
                                     }
+                                ],
+                                "publications": [
+                                    "pubmed:29606578"
                                 ]
                             },
                             "active": true,

@@ -32,7 +32,8 @@
         },
         {
             "comments": [
-                "Corrected NRP module 3"
+                "Corrected NRP module 3",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -246,6 +247,9 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -255,14 +259,17 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-lysine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -286,6 +293,9 @@
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -305,15 +315,18 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homophenylalanine",
-                                        "proteinogenic": false,
-                                        "structure": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N"
-                                    },
-                                    {
-                                        "name": "Homotyrosine",
+                                        "name": "homotyrosine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "homophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,
@@ -332,6 +345,9 @@
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "integrated_monomers": [
@@ -363,10 +379,18 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homotyrosine",
+                                        "name": "homotyrosine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "homophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ]
                             },
                             "active": true,

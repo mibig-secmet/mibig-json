@@ -13,7 +13,8 @@
             "comments": [
                 "Fixed subcluster gene ID",
                 "Added organism name",
-                "Fix thioesterase gene ID"
+                "Fix thioesterase gene ID",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -127,11 +128,42 @@
                     "modules": [
                         {
                             "c_dom_subtype": "LCL",
-                            "module_number": "1"
+                            "module_number": "1",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "c_dom_subtype": "LCL",
-                            "module_number": "2"
+                            "module_number": "2",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "O-methylthreonine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)OC"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -140,11 +172,41 @@
                     "modules": [
                         {
                             "c_dom_subtype": "LCL",
-                            "module_number": "3"
+                            "module_number": "3",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "c_dom_subtype": "LCL",
-                            "module_number": "4"
+                            "module_number": "4",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -153,11 +215,41 @@
                     "modules": [
                         {
                             "c_dom_subtype": "LCL",
-                            "module_number": "5"
+                            "module_number": "5",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "c_dom_subtype": "DCL",
-                            "module_number": "6"
+                            "module_number": "6",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -166,7 +258,23 @@
                     "modules": [
                         {
                             "c_dom_subtype": "Starter",
-                            "module_number": "7"
+                            "module_number": "7",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -175,7 +283,24 @@
                     "modules": [
                         {
                             "c_dom_subtype": "Starter",
-                            "module_number": "8"
+                            "module_number": "8",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }

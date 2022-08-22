@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -32,6 +41,46 @@
         "publications": [
             "pubmed:30908039"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_045972716.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay",
+                                    "Feeding study"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C(=O)O)O"
+                                    },
+                                    {
+                                        "name": "3-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3-fluoro-4-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C(=O)O)F)O"
+                                    },
+                                    {
+                                        "name": "4-fluoro-3-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C(=O)O)O)F"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

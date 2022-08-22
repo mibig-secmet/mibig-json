@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -224,14 +233,22 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
+                                    {
+                                        "name": "3-chlorotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(Cl)C(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    },
                                     {
                                         "name": "Tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2008.11.005."
                                 ]
                             },
                             "active": true,

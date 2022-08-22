@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP module"
+                "Added NRP module",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -129,6 +130,11 @@
                                         "name": "Isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -148,6 +154,13 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "doi:10.1002/cbic.201100700"
                                 ]
                             },
                             "active": true,

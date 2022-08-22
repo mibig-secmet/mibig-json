@@ -19,6 +19,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -85,6 +94,144 @@
         "publications": [
             "pubmed:19514719"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAI63283.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:19514719"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAI63284.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:19514719"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-hydroxyquinaldic acid",
+                                        "proteinogenic": false,
+                                        "structure": "c1ccc2c(c1)cc(c(n2)C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAI63288.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:19514719"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:19514719"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAI63289.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:19514719"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:19514719"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "norcoronamic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H]1C[C@]1(C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

@@ -31,7 +31,8 @@
         },
         {
             "comments": [
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -68,6 +69,34 @@
             "pubmed:22627757",
             "pubmed:32526136"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CBF82791.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:22627757"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Heterologous expression",
+                                    "Mass spectrometry"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylpyruvic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)CC(=O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

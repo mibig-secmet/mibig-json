@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -48,6 +49,73 @@
             "pubmed:32159958",
             "doi:10.1021/acs.jnatprod.9b00989"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EHA27898.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:32159958"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "D-phenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)C[C@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "2-chlorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C[C@@H](C(=O)O)N)Cl"
+                                    },
+                                    {
+                                        "name": "3-chlorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)Cl)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "4-chlorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)Cl"
+                                    },
+                                    {
+                                        "name": "4-bromophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)Br"
+                                    },
+                                    {
+                                        "name": "4-fluorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)F"
+                                    },
+                                    {
+                                        "name": "4-methylphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "CC1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "alpha-methylphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@](CC1=CC=CC=C1)(C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

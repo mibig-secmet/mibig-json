@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Submitted",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "RWYY5IOXGZUT2OPVWGVF5SYB",
@@ -55,6 +56,56 @@
             "pubmed:31787953",
             "pubmed:28696720"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QDG75035.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:31787953"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QDG75033.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:31787953"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -59,6 +68,131 @@
             "pubmed:25156669",
             "pubmed:29987385"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAN91483.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23451921",
+                                    "pubmed:25156669"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "ornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23451921",
+                                    "pubmed:25156669"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:29987385",
+                                    "pubmed:23451921",
+                                    "pubmed:25156669"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "In-vitro experiments"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4R-hydroxyproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1[C@H](NC[C@@H]1O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23451921",
+                                    "pubmed:25156669"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "In-vitro experiments"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3R-hydroxyhomotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@H]([C@@H](C(=O)O)N)O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23451921",
+                                    "pubmed:25156669"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:29987385",
+                                    "pubmed:23451921",
+                                    "pubmed:25156669"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Knock-out studies"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S-hydroxy-4S-methylproline",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@@H]1[C@H](O)[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

@@ -28,6 +28,15 @@
                 "5UL74VURKJ25VSPPPO3H2NYB"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -65,6 +74,76 @@
         "publications": [
             "pubmed:21097631"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAD55611.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "doi:10.1128/JB.00897-10",
+                                    "doi:10.1074/jbc.M114.629485",
+                                    "doi:10.1016/j.abb.2016.08.004"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N6-hydroxylysine",
+                                        "proteinogenic": false,
+                                        "structure": "C(CCNO)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAD55612.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "doi:10.1128/JB.00897-10",
+                                    "doi:10.1074/jbc.M114.629485",
+                                    "doi:10.1016/j.abb.2016.08.004"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N6-hydroxylysine",
+                                        "proteinogenic": false,
+                                        "structure": "C(CCNO)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAD55613.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -72,9 +81,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Dihydroxy hexadecanoic acid",
+                                        "name": "2,3-dihydroxyhexadecanoic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CCCCCCCCCCCCCC(C(C(=O)O)O)O"
                                     }
                                 ]
                             },
@@ -235,9 +244,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "N-methyl-threonine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -256,9 +265,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamine / Tyrosine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },

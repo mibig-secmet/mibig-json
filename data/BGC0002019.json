@@ -11,7 +11,8 @@
         },
         {
             "comments": [
-                "Add compound details"
+                "Add compound details",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "SJG3CBEHSM6A3I74YXLH6GLA"
@@ -108,6 +109,29 @@
         "publications": [
             "pubmed:29806086"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "DAC74137.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "5-chloroanthranilic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1Cl)C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

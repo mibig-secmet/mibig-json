@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Submitted",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "HSOJFFPY5IUT4HBQLSN7DGJX",
@@ -396,6 +397,56 @@
         "publications": [
             "pubmed:33881506"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "MBA5221218.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:11514230"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "MBA5221219.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:11514230"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pyrrole-2-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CNC(=C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

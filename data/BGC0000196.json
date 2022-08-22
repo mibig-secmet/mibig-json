@@ -26,6 +26,15 @@
                 "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -128,6 +137,31 @@
         "publications": [
             "pubmed:17722122"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAE16560.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "acetic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(=O)O"
+                                    },
+                                    {
+                                        "name": "malic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C(C(=O)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

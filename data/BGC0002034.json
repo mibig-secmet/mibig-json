@@ -17,6 +17,15 @@
                 "CUSGWVK3I4TVHJH7NHPFAP2L"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -47,6 +56,33 @@
         "publications": [
             "doi:10.1002/anie.201905538"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "TXL86009.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:31310031"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Compound 4 (formed by the decarboxylative condensation of L-Phe and succinyl-CoA)",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)CCC(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

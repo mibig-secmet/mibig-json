@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Add product details"
+                "Add product details",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "SJG3CBEHSM6A3I74YXLH6GLA"
@@ -66,6 +67,165 @@
         "publications": [
             "pubmed:25510965"
         ],
-        "status": "active"
+        "status": "active",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AKP45395.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-hydroxy-para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C(=O)O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxy-para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C(N)1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AKP45396.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AKP45399.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": []
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AKP45400.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

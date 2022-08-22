@@ -4,7 +4,8 @@
             "comments": [
                 "Submitted",
                 "Added version to NCBI accession",
-                "Convert from RefSeq to Genbank"
+                "Convert from RefSeq to Genbank",
+                "Added NRP substrate specificities."
             ],
             "contributors": [
                 "SJG3CBEHSM6A3I74YXLH6GLA",
@@ -63,6 +64,31 @@
                 {
                     "gene": "yruck0001_11720",
                     "thioesterase_type": "Unknown"
+                }
+            ],
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_004721331.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23572522"
+                                ],
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             ]
         },

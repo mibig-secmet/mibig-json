@@ -32,7 +32,8 @@
         },
         {
             "comments": [
-                "Fixed NRP substrates"
+                "Fixed NRP substrates",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -106,7 +107,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Ornithine",
+                                        "name": "ornithine",
                                         "proteinogenic": false,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN"
                                     }
@@ -138,14 +139,18 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
-                                        "proteinogenic": true,
-                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                        "name": "homoserine",
+                                        "proteinogenic": false,
+                                        "structure": "C(CO)[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1038/ncomms9421",
+                                    "doi:10.1073/pnas.1203689109"
                                 ]
                             },
                             "active": true,
@@ -156,7 +161,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -164,6 +169,10 @@
                                         "proteinogenic": true,
                                         "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "doi:10.1038/ncomms9421",
+                                    "doi:10.1073/pnas.1203689109"
                                 ]
                             },
                             "active": true,
@@ -185,13 +194,13 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Didehydroaminobutyric acid",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -203,13 +212,18 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Hydroxyaspartate",
+                                        "name": "Aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3-hydroxyaspartic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@@H](C(C(=O)O)O)(C(=O)O)"
                                     }
                                 ]
                             },
@@ -221,13 +235,18 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Chlorothreonine",
+                                        "name": "4-chlorothreonine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "ClC[C@H]([C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "Threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },

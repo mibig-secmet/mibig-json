@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Updated NRP substrate specificities."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.3"
         }
     ],
     "cluster": {
@@ -597,9 +606,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyproline",
+                                        "name": "4R-hydroxyproline",
                                         "proteinogenic": false,
-                                        "structure": "C1[C@H](NCC1O)C(=O)O"
+                                        "structure": "C1[C@H](NC[C@@H]1O)C(=O)O"
                                     }
                                 ]
                             },
@@ -620,9 +629,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Sarcosine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
                                     }
                                 ]
                             },
@@ -641,9 +650,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-methylleucine",
+                                        "name": "3-methylleucine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CC(C)C(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -680,7 +689,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylglycine",
+                                        "name": "phenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC=C(C=C1)[C@@H](C(=O)O)N"
                                     }

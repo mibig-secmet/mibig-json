@@ -32,7 +32,8 @@
         },
         {
             "comments": [
-                "Corrected NRP module numbers"
+                "Corrected NRP module numbers",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -627,7 +628,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homoserine",
+                                        "name": "homoserine",
                                         "proteinogenic": false,
                                         "structure": "C(CO)[C@@H](C(=O)O)N"
                                     }
@@ -678,9 +679,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
@@ -707,11 +708,12 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference",
+                                    "Homology"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-alanine",
+                                        "name": "beta-alanine",
                                         "proteinogenic": false,
                                         "structure": "NCCC(=O)O"
                                     }
@@ -725,7 +727,8 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference",
+                                    "Homology"
                                 ],
                                 "substrates": [
                                     {
@@ -743,7 +746,6 @@
                             "module_number": "10",
                             "comments": "Trans-activates ZbmIII"
                         }
-                        
                     ]
                 },
                 {

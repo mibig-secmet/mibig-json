@@ -33,7 +33,8 @@
         },
         {
             "comments": [
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Updated NRP substrate specificities."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -194,14 +195,43 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Anthranilate",
+                                        "name": "anthanillic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "benzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "2-chlorobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)Cl"
+                                    },
+                                    {
+                                        "name": "4-chlorobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C(=O)O)Cl"
+                                    },
+                                    {
+                                        "name": "3-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)N)C(=O)O"
                                     }
+                                ],
+                                "publications": [
+                                    "pubmed:20225828"
                                 ]
                             },
                             "active": true,
@@ -212,7 +242,7 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -220,6 +250,9 @@
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "pubmed:20225828"
                                 ]
                             },
                             "active": true,
@@ -238,6 +271,9 @@
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "pubmed:20225828"
                                 ]
                             },
                             "active": true,
@@ -253,7 +289,7 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
@@ -261,6 +297,9 @@
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
+                                ],
+                                "publications": [
+                                    "pubmed:20225828"
                                 ]
                             },
                             "active": true,
