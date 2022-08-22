@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Fixed NRP substrates"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.2"
         }
     ],
     "cluster": {
@@ -167,22 +176,10 @@
                     "gene_id": "AED90003.1",
                     "modules": [
                         {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Threonine",
-                                        "proteinogenic": true,
-                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
-                                    }
-                                ]
-                            },
                             "active": true,
                             "c_dom_subtype": "Unknown",
-                            "module_number": "6"
+                            "module_number": "6",
+                            "comments": "Trans-activates threonine"
                         },
                         {
                             "a_substr_spec": {

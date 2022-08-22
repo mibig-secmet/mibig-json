@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Added NRP module specificity"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.2"
         }
     ],
     "cluster": {
@@ -329,6 +338,20 @@
                             "active": true
                         },
                         {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "S-adenosylmethionine",
+                                        "proteinogenic": false,
+                                        "structure": "C[S+](CC[C@@H](C(=O)[O-])N)C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O"
+                                    }
+                                ]
+                            },
                             "active": true,
                             "c_dom_subtype": "LCL"
                         }
@@ -406,9 +429,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },

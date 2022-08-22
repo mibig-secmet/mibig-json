@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Corrected NRP module numbers"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.2"
         }
     ],
     "cluster": {
@@ -577,9 +586,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
@@ -702,15 +711,15 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                        "name": "Beta-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "NCCC(=O)O"
                                     }
                                 ]
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "10"
+                            "module_number": "9"
                         },
                         {
                             "a_substr_spec": {
@@ -731,26 +740,10 @@
                             "modification_domains": [
                                 "Oxidation"
                             ],
-                            "module_number": "11"
-                        },
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Beta-alanine",
-                                        "proteinogenic": false,
-                                        "structure": "NCCC(=O)O"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "LCL",
-                            "module_number": "9"
+                            "module_number": "10",
+                            "comments": "Trans-activates ZbmIII"
                         }
+                        
                     ]
                 },
                 {
@@ -760,6 +753,19 @@
                             "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "12"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ACG60771.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "11",
+                            "comments": "Trans-activates cysteine"
                         }
                     ]
                 },

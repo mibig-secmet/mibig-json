@@ -28,6 +28,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Removed substrate from blmV gene",
+                "Fixed module numbers"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.2"
         }
     ],
     "cluster": {
@@ -380,15 +390,15 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Histidine",
+                                        "name": "Asparagine",
                                         "proteinogenic": true,
-                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "8"
+                            "module_number": "3"
                         },
                         {
                             "a_substr_spec": {
@@ -398,15 +408,15 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "9"
+                            "module_number": "4"
                         }
                     ]
                 },
@@ -429,7 +439,7 @@
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "7"
+                            "module_number": "5"
                         }
                     ]
                 },
@@ -460,22 +470,9 @@
                     "gene_id": "AAG02359.1",
                     "modules": [
                         {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
-                                    }
-                                ]
-                            },
                             "active": true,
-                            "c_dom_subtype": "LCL",
-                            "module_number": "3"
+                            "c_dom_subtype": "Starter",
+                            "module_number": "0"
                         },
                         {
                             "a_substr_spec": {
@@ -493,12 +490,25 @@
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "4"
+                            "module_number": "1"
                         },
                         {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            },
                             "active": true,
-                            "c_dom_subtype": "Starter",
-                            "module_number": "5"
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
                         }
                     ]
                 },
@@ -506,70 +516,16 @@
                     "gene_id": "AAG02360.1",
                     "modules": [
                         {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
-                                    }
-                                ]
-                            },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "3"
+                            "module_number": "2",
+                            "comments": "Trans-activates asparagine"
                         }
                     ]
                 },
                 {
                     "gene_id": "AAG02364.1",
                     "modules": [
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Cysteine",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)S"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "Heterocyclization",
-                            "modification_domains": [
-                                "Oxidation"
-                            ],
-                            "module_number": "0"
-                        },
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Cysteine",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)S"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "LCL",
-                            "modification_domains": [
-                                "Unknown"
-                            ],
-                            "module_number": "1"
-                        },
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
@@ -586,7 +542,39 @@
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "module_number": "2"
+                            "module_number": "7"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Heterocyclization",
+                            "module_number": "8",
+                            "comments": "Trans-activates BlmIII"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAG02365.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "module_number": "9",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "comments": "Trans-activates cysteine"
                         }
                     ]
                 }

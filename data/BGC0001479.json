@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Corrected NRP module 3"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.2"
         }
     ],
     "cluster": {
@@ -296,44 +305,10 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "N-methylglycine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "LCL",
-                            "module_number": "4"
-                        },
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Structure-based inference"
-                                ],
-                                "substrates": [
-                                    {
                                         "name": "Homophenylalanine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "LCL",
-                            "modification_domains": [
-                                "Methylation"
-                            ],
-                            "module_number": "A3"
-                        },
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Structure-based inference"
-                                ],
-                                "substrates": [
+                                    },
                                     {
                                         "name": "Homotyrosine",
                                         "proteinogenic": false,
@@ -343,10 +318,37 @@
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "modification_domains": [
-                                "Methylation"
+                            "module_number": "3"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "N-methylglycine",
+                                    "structure": "CNCC(=O)O"
+                                }
                             ],
-                            "module_number": "B3"
+                            "active": true,
+                            "c_dom_subtype": "LCL",
+                            "modification_domains": [
+                                "N-methylation"
+                            ],
+                            "module_number": "4"
                         }
                     ]
                 },

@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.1"
+        },
+        {
+            "comments": [
+                "Corrected NRP modules"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "2.2"
         }
     ],
     "cluster": {
@@ -197,14 +206,19 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine, Tyrosine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
                             "active": true,
-                            "module_number": "0"
+                            "module_number": "1"
                         },
                         {
                             "a_substr_spec": {
@@ -214,15 +228,42 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(Phenylalanine, Tryptophane),(Valine, Isoleucine)",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
                             "active": true,
                             "c_dom_subtype": "DCL",
-                            "module_number": "1"
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "Phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "2"
                         },
                         {
                             "a_substr_spec": {
@@ -232,17 +273,17 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine, isoleucine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "Valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "Isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
-                            "active": true,
-                            "c_dom_subtype": "DCL",
-                            "module_number": "2"
-                        },
-                        {
                             "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "3"
@@ -251,6 +292,11 @@
                             "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "4"
+                        },
+                        {
+                            "active": true,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "5"
                         }
                     ]
                 }
