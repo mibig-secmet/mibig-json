@@ -23,7 +23,8 @@
             "comments": [
                 "Update compound structure (SMILES) for nocobactin NA",
                 "Add new compound: nocobactin NA 10152B",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -45,7 +46,10 @@
                     "pubchem:102002485"
                 ],
                 "mol_mass": 715.3792428959999,
-                "molecular_formula": "C36H53N5O10"
+                "molecular_formula": "C36H53N5O10",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             },
             {
                 "chem_struct": "C[C@@H](C(N[C@@H]1CCCCN(O)C1=O)=O)[C@@H](OC([C@@H](NC(C2=C(C)OC(N2)=C3C=CC=CC3=O)=O)CCCCN(O)C(C)=O)=O)CCCCCCCCC",
@@ -58,10 +62,13 @@
             "accession": "AP006618.1",
             "completeness": "Unknown",
             "end_coord": 840689,
-            "start_coord": 820180
+            "start_coord": 820180,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001027",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "247156",
         "organism_name": "Nocardia farcinica IFM 10152",
         "publications": [
@@ -127,7 +134,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

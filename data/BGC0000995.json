@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -43,17 +44,23 @@
                     "pubchem:10553647"
                 ],
                 "mol_mass": 507.2832172719999,
-                "molecular_formula": "C27H41NO8"
+                "molecular_formula": "C27H41NO8",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "HM047288.1",
             "completeness": "Unknown",
             "end_coord": 92515,
-            "start_coord": 11932
+            "start_coord": 11932,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000995",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "764483",
         "organism_name": "Pseudomonas sp. 2663",
         "publications": [
@@ -69,7 +76,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

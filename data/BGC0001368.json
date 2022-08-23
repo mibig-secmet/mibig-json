@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,17 +42,23 @@
                     "npatlas:NPA016046"
                 ],
                 "mol_mass": 535.1833759799999,
-                "molecular_formula": "C24H30ClN5O7"
+                "molecular_formula": "C24H30ClN5O7",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "NZ_JOIB01000012.1",
             "completeness": "Unknown",
             "end_coord": 183860,
-            "start_coord": 141430
+            "start_coord": 141430,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001368",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1463851",
         "organism_name": "Streptomyces sp. NRRL F-4474",
         "publications": [
@@ -132,7 +139,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }

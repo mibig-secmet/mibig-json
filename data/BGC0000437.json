@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -40,17 +41,23 @@
                     "pubchem:11966095"
                 ],
                 "mol_mass": 1224.59056494,
-                "molecular_formula": "C53H85ClN14O17"
+                "molecular_formula": "C53H85ClN14O17",
+                "chem_acts": [
+                    "Phytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "CP000075.1",
             "completeness": "Unknown",
             "end_coord": 3182922,
-            "start_coord": 3060225
+            "start_coord": 3060225,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000437",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "205918",
         "organism_name": "Pseudomonas syringae pv. syringae B728a",
         "publications": [
@@ -74,7 +81,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -92,7 +99,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -146,7 +153,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -164,7 +171,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -182,7 +189,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -200,7 +207,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -224,7 +231,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

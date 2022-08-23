@@ -22,7 +22,8 @@
             "comments": [
                 "Changed to correct biosynthetic class",
                 "Retired as duplicate of BGC0001442",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "CUSGWVK3I4TVHJH7NHPFAP2L",
@@ -41,17 +42,34 @@
                 "chem_struct": "CCCCC[C@H](CC(=O)NO)C(=O)N[C@@H](C(C)C)C(=O)N1CCC[C@H]1CO",
                 "compound": "actinonin",
                 "mol_mass": 385.25767122,
-                "molecular_formula": "C19H35N3O5"
+                "molecular_formula": "C19H35N3O5",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antiviral",
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Metalloproteinase",
+                        "publications": [
+                            "pubmed:13900478",
+                            "pubmed:24705170"
+                        ]
+                    }
+                ]
             }
         ],
         "loci": {
             "accession": "KY906183.1",
             "completeness": "Unknown",
             "end_coord": 32297,
-            "start_coord": 1
+            "start_coord": 1,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001497",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1931",
         "organism_name": "Streptomyces sp.",
         "publications": [
@@ -73,7 +91,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -89,7 +107,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

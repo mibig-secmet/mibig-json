@@ -21,10 +21,12 @@
         {
             "comments": [
                 "Add compound details",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -41,7 +43,10 @@
                     "pubchem:49838500"
                 ],
                 "mol_mass": 244.121177757,
-                "molecular_formula": "C14H16N2O2"
+                "molecular_formula": "C14H16N2O2",
+                "chem_acts": [
+                    "Virulence"
+                ]
             },
             {
                 "chem_struct": "CC(C)C1=NC=C(NC1=O)CC2=CC=CC=C2",
@@ -50,7 +55,10 @@
                     "pubchem:10376483"
                 ],
                 "mol_mass": 228.126263138,
-                "molecular_formula": "C14H16N2O"
+                "molecular_formula": "C14H16N2O",
+                "chem_acts": [
+                    "Virulence"
+                ]
             },
             {
                 "chem_struct": "CC(C)CC1=CN=C(C(=O)N1)C(C)C",
@@ -59,17 +67,23 @@
                     "pubchem:121434429"
                 ],
                 "mol_mass": 194.141913202,
-                "molecular_formula": "C11H18N2O"
+                "molecular_formula": "C11H18N2O",
+                "chem_acts": [
+                    "Virulence"
+                ]
             }
         ],
         "loci": {
             "accession": "CP002120.1",
             "completeness": "Unknown",
             "end_coord": 183901,
-            "start_coord": 176051
+            "start_coord": 176051,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000308",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "546342",
         "organism_name": "Staphylococcus aureus subsp. aureus str. JKD6008",
         "publications": [
@@ -85,7 +99,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -102,12 +116,12 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     },
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     },

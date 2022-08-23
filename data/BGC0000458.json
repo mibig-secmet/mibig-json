@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -40,15 +41,21 @@
                     "pubchem:3034080"
                 ],
                 "mol_mass": 783.2929641200001,
-                "molecular_formula": "C25H45N13O14S"
+                "molecular_formula": "C25H45N13O14S",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "AY263398.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000458",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1960",
         "organism_name": "Streptomyces vinaceus",
         "publications": [
@@ -64,7 +71,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -75,7 +82,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

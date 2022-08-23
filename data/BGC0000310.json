@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -40,15 +41,21 @@
                     "pubchem:65281"
                 ],
                 "mol_mass": 1421.7489412159996,
-                "molecular_formula": "C66H103N17O16S"
+                "molecular_formula": "C66H103N17O16S",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "AF007865.2",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000310",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1402",
         "organism_name": "Bacillus licheniformis",
         "publications": [
@@ -64,7 +71,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -75,7 +82,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -86,7 +93,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -97,7 +104,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Glutamic acid",
+                                        "name": "glutamic acid",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
                                     }
@@ -108,7 +115,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -131,7 +138,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
@@ -158,7 +165,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -176,7 +183,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -194,7 +201,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Histidine",
+                                        "name": "histidine",
                                         "proteinogenic": true,
                                         "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }
@@ -205,7 +212,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -216,7 +223,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }

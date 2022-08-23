@@ -15,7 +15,8 @@
                 "Added missing polyketide class",
                 "Added polyene subclass",
                 "Use PubMed reference instead of DOI",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "CUSGWVK3I4TVHJH7NHPFAP2L",
@@ -31,15 +32,23 @@
         ],
         "compounds": [
             {
-                "compound": "acyldepsipeptide 1"
+                "compound": "acyldepsipeptide 1",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "MK047367.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001967",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "67305",
         "organism_name": "Streptomyces hawaiiensis",
         "polyketide": {
@@ -67,7 +76,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -75,7 +84,7 @@
                             },
                             "integrated_monomers": [
                                 {
-                                    "name": "Phenylalanine",
+                                    "name": "phenylalanine",
                                     "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                 }
                             ]
@@ -91,7 +100,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -99,7 +108,7 @@
                             },
                             "integrated_monomers": [
                                 {
-                                    "name": "Serine",
+                                    "name": "serine",
                                     "structure": "C([C@@H](C(=O)O)N)O"
                                 }
                             ]
@@ -116,7 +125,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -124,7 +133,7 @@
                             },
                             "integrated_monomers": [
                                 {
-                                    "name": "Proline",
+                                    "name": "proline",
                                     "structure": "C1C[C@H](NC1)C(=O)O"
                                 }
                             ]
@@ -140,7 +149,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -169,7 +178,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -177,7 +186,7 @@
                             },
                             "integrated_monomers": [
                                 {
-                                    "name": "Alanine",
+                                    "name": "alanine",
                                     "structure": "C[C@@H](C(=O)O)N"
                                 }
                             ]
@@ -194,7 +203,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     },
@@ -207,7 +216,7 @@
                             },
                             "integrated_monomers": [
                                 {
-                                    "name": "Proline",
+                                    "name": "proline",
                                     "structure": "C1C[C@H](NC1)C(=O)O"
                                 },
                                 {

@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Fix DOI",
-                "Removed gene names of 'No gene ID'"
+                "Removed gene names of 'No gene ID'",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5",
@@ -37,7 +38,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "Siderophore",
+                    "Cytotoxic",
+                    "Antioxidant",
+                    "Inhibitor"
                 ],
                 "chem_struct": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
                 "chem_synonyms": [
@@ -51,7 +55,16 @@
                     "Mass spectrometry"
                 ],
                 "mol_mass": 600.3482771160001,
-                "molecular_formula": "C27H48N6O9"
+                "molecular_formula": "C27H48N6O9",
+                "chem_targets": [
+                    {
+                        "target": "biofilm formation",
+                        "publications": [
+                            "pubmed:2978958",
+                            "pubmed:21376551"
+                        ]
+                    }
+                ]
             }
         ],
         "genes": {

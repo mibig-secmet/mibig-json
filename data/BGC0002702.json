@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Entry added",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -17,7 +18,25 @@
         ],
         "compounds": [
             {
-                "compound": "GP6738"
+                "compound": "GP6738",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "PG",
+                        "publications": [
+                            "pubmed:33067466"
+                        ]
+                    },
+                    {
+                        "target": "autolysins",
+                        "publications": [
+                            "pubmed:33067466"
+                        ]
+                    }
+                ]
             }
         ],
         "loci": {
@@ -30,7 +49,7 @@
             "start_coord": 7785350
         },
         "mibig_accession": "BGC0002702",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2203210",
         "organism_name": "Streptomyces sp. WAC 06738",
         "publications": [
@@ -54,7 +73,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
@@ -113,7 +132,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -172,7 +191,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

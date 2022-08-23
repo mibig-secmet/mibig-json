@@ -19,8 +19,12 @@
             "version": "2.0"
         },
         {
-            "comments": [],
-            "contributors": [],
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "3.0"
         }
     ],
@@ -31,12 +35,21 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "Inhibitor",
+                    "Antiprotozoa",
+                    "Antibacterial"
                 ],
                 "chem_struct": "CC(C)C\\1CCC2(/C1=C\\CC(C3C(CC(C3C2)CO)O)(C)O)C",
                 "chem_targets": [
                     {
                         "target": "lysophospholipase"
+                    },
+                    {
+                        "target": "Lyso-PL",
+                        "publications": [
+                            "pubmed:1335449",
+                            "pubmed:27554496"
+                        ]
                     }
                 ],
                 "compound": "cyclooctatin",

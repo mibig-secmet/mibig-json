@@ -23,7 +23,8 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Updated NRP substrate specificities."
+                "Updated NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -45,6 +46,12 @@
                 "chem_targets": [
                     {
                         "target": "typeIV collagenase"
+                    },
+                    {
+                        "target": "Collagenase",
+                        "publications": [
+                            "doi:10.7164/antibiotics.45.1733"
+                        ]
                     }
                 ],
                 "compound": "matlystatin A",
@@ -107,7 +114,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }

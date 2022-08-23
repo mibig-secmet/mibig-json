@@ -11,7 +11,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -25,17 +26,23 @@
         ],
         "compounds": [
             {
-                "compound": "armeniaspirols"
+                "compound": "armeniaspirols",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "MF401191.1",
             "completeness": "Unknown",
             "end_coord": 53232,
-            "start_coord": 1270
+            "start_coord": 1270,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001934",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "83291",
         "organism_name": "Streptomyces armeniacus",
         "publications": [
@@ -57,7 +64,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }

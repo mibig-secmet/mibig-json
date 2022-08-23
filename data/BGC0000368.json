@@ -23,7 +23,8 @@
             "comments": [
                 "Refined reference coordinates",
                 "Changed compound to that used by the reference paper",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -37,17 +38,23 @@
         ],
         "compounds": [
             {
-                "compound": "griseobactin"
+                "compound": "griseobactin",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "FN545130.1",
             "completeness": "Unknown",
             "end_coord": 24298,
-            "start_coord": 3182
+            "start_coord": 3182,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000368",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "668825",
         "organism_name": "Streptomyces sp. ATCC 700974",
         "publications": [
@@ -91,7 +98,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -108,7 +115,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

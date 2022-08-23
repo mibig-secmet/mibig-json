@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,15 +43,22 @@
                     "pubchem:5462518"
                 ],
                 "mol_mass": 324.06023437199997,
-                "molecular_formula": "C14H16N2O3S2"
+                "molecular_formula": "C14H16N2O3S2",
+                "chem_acts": [
+                    "Siderophore",
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "AF074705.2",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000412",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "208964",
         "organism_name": "Pseudomonas aeruginosa PAO1",
         "publications": [
@@ -67,7 +75,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -83,7 +91,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }

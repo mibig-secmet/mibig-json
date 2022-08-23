@@ -25,7 +25,8 @@
                 "Add new compound: paenilamicin B1",
                 "Add new compound: paenilamicin B2",
                 "Fixed incorrect publication",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -44,7 +45,12 @@
                 "chem_struct": "NCCCCNCCCNC(CNC([C@@H](NC(C[C@H](C[C@H]([C@@H](NC([C@@H]([C@H](N)CCCCN)NC([C@@H](NC([C@@H](C)NC([C@H](O)[C@@H](O)C[C@@H](CCCCN)O)=O)=O)CNC)=O)=O)CO)O)O)=O)CNC)=O)=O",
                 "compound": "paenilamicin",
                 "mol_mass": 1008.6655288760004,
-                "molecular_formula": "C43H88N14O13"
+                "molecular_formula": "C43H88N14O13",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "NCCCCNCCCNC(CNC([C@@H](NC(C[C@H](C[C@H]([C@@H](NC([C@@H]([C@H](N)CCCCN)NC([C@@H](NC([C@@H](C)NC([C@H](O)[C@@H](O)C[C@@H](CCCN)O)=O)=O)CNC)=O)=O)CO)O)O)=O)CNC)=O)=O",
@@ -69,10 +75,13 @@
             "accession": "CP003355.1",
             "completeness": "Unknown",
             "end_coord": 1788675,
-            "start_coord": 1729923
+            "start_coord": 1729923,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001033",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "697284",
         "organism_name": "Paenibacillus larvae subsp. larvae DSM 25430",
         "publications": [
@@ -97,12 +106,12 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     },
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -172,7 +181,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     },
@@ -200,7 +209,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -217,8 +226,7 @@
                                 "publications": [
                                     "pubmed:25080172",
                                     "pubmed:25044543"
-                                ],
-                                "substrates": []
+                                ]
                             }
                         },
                         {
@@ -250,7 +258,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -274,7 +282,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }

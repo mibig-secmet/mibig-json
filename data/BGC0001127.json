@@ -22,7 +22,8 @@
         {
             "comments": [
                 "Update compound structure (SMILES) for jagaricin",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -43,15 +44,21 @@
                     "pubchem:102192082"
                 ],
                 "mol_mass": 1180.612824608,
-                "molecular_formula": "C56H84N12O16"
+                "molecular_formula": "C56H84N12O16",
+                "chem_acts": [
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
             "accession": "HE967328.2",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001127",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "55508",
         "organism_name": "Janthinobacterium agaricidamnosum",
         "publications": [
@@ -74,7 +81,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -96,7 +103,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -113,7 +120,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -136,7 +143,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -153,7 +160,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamine",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
@@ -170,7 +177,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -209,7 +216,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Histidine",
+                                        "name": "histidine",
                                         "proteinogenic": true,
                                         "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }

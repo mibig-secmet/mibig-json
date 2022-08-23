@@ -15,7 +15,8 @@
                 "Added NRP substrate specificities.",
                 "Fetch compound properties from PubChem",
                 "Fixed DOIs",
-                "Merged publication from duplicate entry BGC0001958"
+                "Merged publication from duplicate entry BGC0001958",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA",
@@ -40,15 +41,21 @@
                     "pubchem:162956"
                 ],
                 "mol_mass": 495.207761,
-                "molecular_formula": "C20H29N7O8"
+                "molecular_formula": "C20H29N7O8",
+                "chem_acts": [
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
             "accession": "MH534949.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001957",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2586640",
         "organism_name": "Streptomyces novoguineensis",
         "publications": [

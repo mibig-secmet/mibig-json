@@ -13,7 +13,8 @@
             "comments": [
                 "Cleaned up synonym list",
                 "Added NRP substrate specificities.",
-                "Fetch compound properties from PubChem"
+                "Fetch compound properties from PubChem",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -37,21 +38,33 @@
                     "pubchem:11036174"
                 ],
                 "mol_mass": 376.10527,
-                "molecular_formula": "C13H20N4O7S"
+                "molecular_formula": "C13H20N4O7S",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             },
             {
-                "compound": "SB-203207"
+                "compound": "SB-203207",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             },
             {
-                "compound": "SB-203208"
+                "compound": "SB-203208",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "LC420052.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001925",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1931",
         "organism_name": "Streptomyces sp.",
         "publications": [

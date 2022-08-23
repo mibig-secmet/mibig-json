@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -40,15 +41,21 @@
                     "pubchem:16131418"
                 ],
                 "mol_mass": 2066.6615887999983,
-                "molecular_formula": "C95H110N8O44"
+                "molecular_formula": "C95H110N8O44",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "KJ364518.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000418",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "31959",
         "organism_name": "Amycolatopsis lurida",
         "publications": [
@@ -216,7 +223,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }

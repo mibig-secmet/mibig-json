@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,21 +42,30 @@
                     "pubchem:160293"
                 ],
                 "mol_mass": 524.2634848719999,
-                "molecular_formula": "C28H36N4O6"
+                "molecular_formula": "C28H36N4O6",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "CC1=C(OC)C(O)=C2[C@H]3[C@@H]4CC5=C(C(C(OC)=C(C)C5=O)=O)[C@H](CNC([C@@H](N)C)=O)N4C(O)[C@@H](CC2=C1)N3C",
                 "compound": "safracin B",
                 "mol_mass": 540.2583994920001,
-                "molecular_formula": "C28H36N4O7"
+                "molecular_formula": "C28H36N4O7",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "AY061859.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000421",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "294",
         "organism_name": "Pseudomonas fluorescens",
         "publications": [
@@ -78,7 +88,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -101,7 +111,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     },

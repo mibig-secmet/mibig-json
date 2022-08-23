@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Entry added",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -17,13 +18,67 @@
         ],
         "compounds": [
             {
-                "compound": "rimomycin A"
+                "compound": "rimomycin A",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "PG",
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ]
+                    },
+                    {
+                        "target": "autolysins",
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ]
+                    }
+                ]
             },
             {
-                "compound": "rimomycin B"
+                "compound": "rimomycin B",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "PG",
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ]
+                    },
+                    {
+                        "target": "autolysins",
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ]
+                    }
+                ]
             },
             {
-                "compound": "rimomycin C"
+                "compound": "rimomycin C",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "PG",
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ]
+                    },
+                    {
+                        "target": "autolysins",
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ]
+                    }
+                ]
             }
         ],
         "loci": {
@@ -38,7 +93,7 @@
             "start_coord": 67545
         },
         "mibig_accession": "BGC0002637",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2203211",
         "organism_name": "Streptomyces sp. WAC 06783",
         "publications": [
@@ -120,7 +175,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -184,7 +239,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }

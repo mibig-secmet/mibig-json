@@ -22,7 +22,8 @@
         {
             "comments": [
                 "Linked new NPAtlas id for albicidin (npatlas:NPA020027)",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -44,15 +45,22 @@
                     "npatlas:NPA020027"
                 ],
                 "mol_mass": 842.2547706560003,
-                "molecular_formula": "C44H38N6O12"
+                "molecular_formula": "C44H38N6O12",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
             "accession": "AJ586576.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001088",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "29447",
         "organism_name": "Xanthomonas albilineans",
         "publications": [
@@ -68,7 +76,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }

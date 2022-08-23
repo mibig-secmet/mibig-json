@@ -21,10 +21,12 @@
         {
             "comments": [
                 "Add iliamycin compound details",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -41,7 +43,11 @@
                     "pubchem:101285944"
                 ],
                 "mol_mass": 1011.57933969,
-                "molecular_formula": "C54H77N9O10"
+                "molecular_formula": "C54H77N9O10",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N1)CC(C)C)CC(C)C)C)C)CC2=CC(=C(C=C2)O)[N+](=O)[O-])CC(C)C)C)CC3=CN(C4=CC=CC=C43)C(C)(C)[C@H]5CO5",
@@ -50,7 +56,11 @@
                     "pubchem:156021420"
                 ],
                 "mol_mass": 1027.57425431,
-                "molecular_formula": "C54H77N9O11"
+                "molecular_formula": "C54H77N9O11",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H]2C[C@@H]([C@H](N(C2=O)[C@H](C(=O)N1)CC(C)C)O)C)C)C)CC3=CC(=C(C=C3)O)[N+](=O)[O-])CC(C)C)C)CC4=CN(C5=CC=CC=C54)C(C)(C)[C@H]6CO6",
@@ -59,7 +69,11 @@
                     "pubchem:155524533"
                 ],
                 "mol_mass": 1041.55351886,
-                "molecular_formula": "C54H75N9O12"
+                "molecular_formula": "C54H75N9O12",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H]2C[C@@H]([C@@H](N(C2=O)[C@H](C(=O)N1)CC(C)C)O)C)C)C)CC3=CC(=C(C=C3)O)[N+](=O)[O-])CC(C)C)C)CC4=CN(C5=CC=CC=C54)C(C)(C)[C@H]6CO6",
@@ -68,10 +82,18 @@
                     "pubchem:155545940"
                 ],
                 "mol_mass": 1041.55351886,
-                "molecular_formula": "C54H75N9O12"
+                "molecular_formula": "C54H75N9O12",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             },
             {
-                "compound": "ilamycin D"
+                "compound": "ilamycin D",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H]2C[C@@H]([C@H](N(C2=O)[C@H](C(=O)N1)CC(C)C)O)C)C)C)CC3=CC(=C(C=C3)O)[N+](=O)[O-])CC(C)C)C)CC4=CN(C5=CC=CC=C54)C(C)(C)C=C",
@@ -80,17 +102,24 @@
                     "pubchem:155560045"
                 ],
                 "mol_mass": 1025.55860424,
-                "molecular_formula": "C54H75N9O11"
+                "molecular_formula": "C54H75N9O11",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "KY173348.1",
             "completeness": "Unknown",
             "end_coord": 63617,
-            "start_coord": 5862
+            "start_coord": 5862,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001620",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1893",
         "organism_name": "Streptomyces atratus",
         "publications": [
@@ -130,7 +159,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -165,7 +194,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -182,7 +211,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -199,7 +228,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }

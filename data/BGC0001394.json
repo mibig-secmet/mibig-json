@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,17 +43,24 @@
                     "npatlas:NPA018050"
                 ],
                 "mol_mass": 491.3399443,
-                "molecular_formula": "C32H45NO3"
+                "molecular_formula": "C32H45NO3",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
             "accession": "CP004025.1",
             "completeness": "Unknown",
             "end_coord": 5568893,
-            "start_coord": 5512653
+            "start_coord": 5512653,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001394",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1278073",
         "organism_name": "Myxococcus stipitatus DSM 14675",
         "publications": [
@@ -74,7 +82,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }

@@ -20,8 +20,12 @@
             "version": "2.0"
         },
         {
-            "comments": [],
-            "contributors": [],
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
             "version": "3.0"
         }
     ],
@@ -32,7 +36,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "Inhibitor",
+                    "Toxin"
                 ],
                 "chem_struct": "[H][C@]12N(C)CC[C@@]1(C)C1=C(C=CC(OC(=O)NC)=C1)N2C",
                 "compound": "physostigmine",
@@ -41,7 +46,15 @@
                     "pubchem:5983"
                 ],
                 "mol_mass": 275.163376912,
-                "molecular_formula": "C15H21N3O2"
+                "molecular_formula": "C15H21N3O2",
+                "chem_targets": [
+                    {
+                        "target": "cholinesterase",
+                        "publications": [
+                            "doi:10.1016/0041-0101(88)90282-6"
+                        ]
+                    }
+                ]
             }
         ],
         "loci": {

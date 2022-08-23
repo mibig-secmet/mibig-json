@@ -13,7 +13,8 @@
             "comments": [
                 "Cleaned up synonym list",
                 "Added NRP substrate specificities.",
-                "Fetch compound properties from PubChem"
+                "Fetch compound properties from PubChem",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,15 +35,21 @@
                     "pubchem:585842"
                 ],
                 "mol_mass": 698.305075,
-                "molecular_formula": "C36H46N2O12"
+                "molecular_formula": "C36H46N2O12",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "LC375136.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001919",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "67339",
         "organism_name": "Streptomyces orinoci",
         "publications": [
@@ -66,7 +73,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

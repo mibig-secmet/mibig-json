@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,17 +42,23 @@
                     "pubchem:71492379"
                 ],
                 "mol_mass": 962.4808074000001,
-                "molecular_formula": "C41H70N8O18"
+                "molecular_formula": "C41H70N8O18",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "CU633750.1",
             "completeness": "Unknown",
             "end_coord": 1320161,
-            "start_coord": 1278232
+            "start_coord": 1278232,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001189",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "977880",
         "organism_name": "Cupriavidus taiwanensis LMG 19424",
         "publications": [
@@ -74,7 +81,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -97,7 +104,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -115,7 +122,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -156,7 +163,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

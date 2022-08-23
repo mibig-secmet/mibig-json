@@ -25,7 +25,8 @@
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
                 "Removed gene annotation with no reference name or ID",
-                "Updated NRP substrate specificities."
+                "Updated NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -46,7 +47,11 @@
                     "npatlas:NPA019491"
                 ],
                 "mol_mass": 606.399250068,
-                "molecular_formula": "C32H54N4O7"
+                "molecular_formula": "C32H54N4O7",
+                "chem_acts": [
+                    "Surfactant",
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "CC(C)CCCCCCCCCCCCC(C)C1OC(=O)C(NC(=O)CN(C)C(=O)\\C=C/C(=C)NC(=O)C1C)C(O)C(N)=O",
@@ -179,7 +184,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -202,7 +207,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,17 +35,23 @@
         ],
         "compounds": [
             {
-                "compound": "albachelin"
+                "compound": "albachelin",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "NZ_KB913032.1",
             "completeness": "Unknown",
             "end_coord": 6464849,
-            "start_coord": 6431187
+            "start_coord": 6431187,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001211",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1125972",
         "organism_name": "Amycolatopsis alba DSM 44262",
         "publications": [
@@ -83,7 +90,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -117,7 +124,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -134,7 +141,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

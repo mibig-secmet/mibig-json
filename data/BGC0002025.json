@@ -12,7 +12,8 @@
         {
             "comments": [
                 "Added missing polyketide class",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "CUSGWVK3I4TVHJH7NHPFAP2L",
@@ -28,15 +29,21 @@
         ],
         "compounds": [
             {
-                "compound": "thaxteramide C"
+                "compound": "thaxteramide C",
+                "chem_acts": [
+                    "Surfactant"
+                ]
             }
         ],
         "loci": {
             "accession": "MK551161.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0002025",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1434086",
         "organism_name": "Jahnella sp. MSr9139",
         "publications": [
@@ -59,7 +66,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -77,7 +84,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -95,7 +102,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -130,7 +137,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }

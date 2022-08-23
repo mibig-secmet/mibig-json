@@ -24,7 +24,8 @@
         {
             "comments": [
                 "Cleaned up synonym list",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -44,15 +45,21 @@
                     "npatlas:NPA014034"
                 ],
                 "mol_mass": 330.13280505599994,
-                "molecular_formula": "C16H18N4O4"
+                "molecular_formula": "C16H18N4O4",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "EF484930.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000410",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "294",
         "organism_name": "Pseudomonas fluorescens",
         "publications": [
@@ -75,7 +82,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,15 +42,21 @@
                     "npatlas:NPA018076"
                 ],
                 "mol_mass": 1561.8140435719995,
-                "molecular_formula": "C73H111N17O21"
+                "molecular_formula": "C73H111N17O21",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "JN596952.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000461",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "69",
         "organism_name": "Lysobacter enzymogenes",
         "publications": [
@@ -65,7 +72,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Glutamic acid",
+                                        "name": "glutamic acid",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
                                     }
@@ -76,7 +83,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -87,7 +94,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
@@ -109,7 +116,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -125,7 +132,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -145,7 +152,7 @@
                                         "structure": "N[C@H](C(O)=O)[C@@H](O)C(N)=O"
                                     },
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -156,7 +163,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -167,7 +174,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -178,7 +185,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -189,7 +196,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }

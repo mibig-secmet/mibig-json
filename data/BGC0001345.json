@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,7 +43,10 @@
                     "pubchem:16093504"
                 ],
                 "mol_mass": 404.1583511079999,
-                "molecular_formula": "C20H24N2O7"
+                "molecular_formula": "C20H24N2O7",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             },
             {
                 "chem_struct": "C1=CC(=C(C(=C1)O)O)C(=O)NCCCC[C@@H](CN)NC(=O)C2=C(C(=CC=C2)O)O",
@@ -51,15 +55,21 @@
                     "pubchem:10873133"
                 ],
                 "mol_mass": 403.17433551999994,
-                "molecular_formula": "C20H25N3O6"
+                "molecular_formula": "C20H25N3O6",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "AF299336.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001345",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "675526",
         "organism_name": "Stigmatella aurantiaca Sg a15",
         "publications": [
@@ -92,7 +102,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }

@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,7 +43,10 @@
                     "chemspider:30900652"
                 ],
                 "mol_mass": 615.2288902560001,
-                "molecular_formula": "C27H33N7O10"
+                "molecular_formula": "C27H33N7O10",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             },
             {
                 "chem_struct": "CS(=O)(=O)C1=C(O)C(O)=C(C=C1)C(=O)N[C@H](CCCNC(N)=NC(=O)C1=CC=CC(O)=C1O)C(=O)NCC(=O)N[C@H]1CCCN(O)C1=O",
@@ -51,17 +55,23 @@
                     "npatlas:NPA018083"
                 ],
                 "mol_mass": 693.20644056,
-                "molecular_formula": "C28H35N7O12S"
+                "molecular_formula": "C28H35N7O12S",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "AP008957.1",
             "completeness": "Unknown",
             "end_coord": 2910756,
-            "start_coord": 2888228
+            "start_coord": 2888228,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000371",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "234621",
         "organism_name": "Rhodococcus erythropolis PR4",
         "publications": [
@@ -99,7 +109,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -110,7 +120,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

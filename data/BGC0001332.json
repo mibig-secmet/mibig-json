@@ -22,7 +22,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -43,17 +44,23 @@
                     "pubchem:60149579"
                 ],
                 "mol_mass": 451.26823590399994,
-                "molecular_formula": "C23H37N3O6"
+                "molecular_formula": "C23H37N3O6",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "NZ_KB891904.1",
             "completeness": "Unknown",
             "end_coord": 42086,
-            "start_coord": 1
+            "start_coord": 1,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001332",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1155718",
         "organism_name": "Streptomyces sp. MspMP-M5",
         "publications": [
@@ -73,7 +80,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -93,7 +100,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -108,7 +115,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,17 +42,23 @@
                     "npatlas:NPA08134"
                 ],
                 "mol_mass": 571.212571496,
-                "molecular_formula": "C23H33N5O12"
+                "molecular_formula": "C23H33N5O12",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "CP000431.1",
             "completeness": "Unknown",
             "end_coord": 2455531,
-            "start_coord": 2443456
+            "start_coord": 2443456,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000417",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "101510",
         "organism_name": "Rhodococcus jostii RHA1",
         "publications": [
@@ -67,7 +74,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

@@ -21,10 +21,12 @@
         {
             "comments": [
                 "Add product details",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -41,7 +43,10 @@
                     "pubchem:122367906"
                 ],
                 "mol_mass": 919.30244913,
-                "molecular_formula": "C46H45N7O14"
+                "molecular_formula": "C46H45N7O14",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             },
             {
                 "chem_struct": "CC(C)OC1=C(C=CC(=C1)C(=O)O)NC(=O)C2=C(C(=C(C=C2)NC(=O)C3=CC=C(C=C3)NC(=O)[C@H]([C@@H](C(=O)N)OC)NC(=O)C4=CC=C(C=C4)NC(=O)C5=CC=C(C=C5)[N+](=O)[O-])OC(C)C)O",
@@ -50,18 +55,27 @@
                     "pubchem:122367908"
                 ],
                 "mol_mass": 919.30244913,
-                "molecular_formula": "C46H45N7O14"
+                "molecular_formula": "C46H45N7O14",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             },
             {
-                "compound": "cystobactamid 919-3"
+                "compound": "cystobactamid 919-3",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "KP836244.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001413",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1679164",
         "organism_name": "Cystobacter sp. Cbv34",
         "publications": [
@@ -128,7 +142,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -181,8 +195,7 @@
                                 "publications": [
                                     "pubmed:33727542",
                                     "pubmed:25510965"
-                                ],
-                                "substrates": []
+                                ]
                             }
                         },
                         {

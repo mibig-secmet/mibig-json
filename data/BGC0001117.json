@@ -22,7 +22,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,15 +43,22 @@
                     "npatlas:NPA016115"
                 ],
                 "mol_mass": 1484.7551317279992,
-                "molecular_formula": "C72H104N14O20"
+                "molecular_formula": "C72H104N14O20",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "FR823394.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001117",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "457427",
         "organism_name": "Streptomyces himastatinicus ATCC 53653",
         "publications": [
@@ -96,7 +104,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -142,7 +150,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -160,7 +168,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -178,7 +186,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }

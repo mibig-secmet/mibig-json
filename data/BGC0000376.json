@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,7 +42,10 @@
                     "npatlas:NPA01973"
                 ],
                 "mol_mass": 480.14117681999994,
-                "molecular_formula": "C21H25ClN4O7"
+                "molecular_formula": "C21H25ClN4O7",
+                "chem_acts": [
+                    "Radical scavanging"
+                ]
             },
             {
                 "chem_struct": "C[C@@H](NC(=O)[C@@]1(C)COC(=N1)C1=CN(C)C2=CC(Cl)=CC(O)=C12)C(=O)N[C@@H](CO)C(O)=O",
@@ -55,10 +59,13 @@
         ],
         "loci": {
             "accession": "AB902962.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000376",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "630397",
         "organism_name": "Streptomyces sp. Sp080513GE-23",
         "publications": [
@@ -80,7 +87,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     },
@@ -149,7 +156,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,7 +43,11 @@
                     "pubchem:3086522"
                 ],
                 "mol_mass": 562.20636392,
-                "molecular_formula": "C29H30N4O8"
+                "molecular_formula": "C29H30N4O8",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "CC1=C(C(=O)C2=C(C1=O)C[C@@H]3CN4[C@H]([C@H]2N3C)CC5=C([C@@H]4CNC(=O)C(=O)C)C(=O)C(=C(C5=O)C)OC)OC",
@@ -51,15 +56,22 @@
                     "pubchem:171748"
                 ],
                 "mol_mass": 537.2111149519999,
-                "molecular_formula": "C28H31N3O8"
+                "molecular_formula": "C28H31N3O8",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "DQ838002.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000422",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1914",
         "organism_name": "Streptomyces lavendulae",
         "publications": [
@@ -83,7 +95,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -107,7 +119,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

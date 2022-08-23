@@ -13,7 +13,8 @@
             "comments": [
                 "Cleaned up synonym list",
                 "Updated NRP substrate specificities.",
-                "Fetch compound properties from PubChem"
+                "Fetch compound properties from PubChem",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -30,7 +31,9 @@
             {
                 "chem_acts": [
                     "Antibacterial",
-                    "Cytotoxic"
+                    "Cytotoxic",
+                    "Antifungal",
+                    "Other"
                 ],
                 "chem_struct": "C[C@H]1C(=O)N[C@H](C(=O)O[C@@H](C(=O)NC(C(=O)O[C@H](C(=O)N[C@H](C(=O)O[C@@H](C(=O)N[C@@H](C(=O)O[C@H](C(=O)N[C@H](C(=O)O[C@@H](C(=O)N[C@@H](C(=O)O1)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C",
                 "compound": "valinomycin",
@@ -45,7 +48,10 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "Cytotoxic",
+                    "Antifungal",
+                    "Antibacterial",
+                    "Other"
                 ],
                 "chem_struct": "CC1C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)O1)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C",
                 "chem_synonyms": [
@@ -112,7 +118,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -181,7 +187,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

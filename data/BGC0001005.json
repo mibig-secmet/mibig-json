@@ -24,7 +24,8 @@
                 "Add new compound structure (SMILES) for locillomycin",
                 "Add new compound: locillomycin B",
                 "Add new compound: locillomycin C",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -43,7 +44,10 @@
                 "chem_struct": "O=C(N[C@@H]1C(N[C@@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(OC1C)=O)C(C)C)=O)Cc2ccc(O)cc2)=O)=O)CC(O)=O)=O)CC(N)=O)=O)=O)CC(O)=O)=O)CCC(N)=O)=O)CCCCCCCCCCCC",
                 "compound": "locillomycin",
                 "mol_mass": 1145.5604546880002,
-                "molecular_formula": "C52H79N11O18"
+                "molecular_formula": "C52H79N11O18",
+                "chem_acts": [
+                    "Antifungal"
+                ]
             },
             {
                 "chem_struct": "O=C(N[C@@H]1C(N[C@@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(OC1C)=O)C(C)C)=O)Cc2ccc(O)cc2)=O)=O)CC(O)=O)=O)CC(N)=O)=O)=O)CC(O)=O)=O)CCC(N)=O)=O)CCCCCCCCCCCCC",
@@ -60,10 +64,13 @@
         ],
         "loci": {
             "accession": "KF866134.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001005",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1423",
         "organism_name": "Bacillus subtilis",
         "publications": [
@@ -86,7 +93,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -109,12 +116,12 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamine",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     },
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -132,7 +139,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -150,7 +157,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -173,7 +180,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -191,7 +198,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

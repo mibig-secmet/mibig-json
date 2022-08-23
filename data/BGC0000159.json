@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -36,7 +37,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "Inhibitor",
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -57,6 +61,13 @@
                 "chem_targets": [
                     {
                         "target": "Protein Phosphatase"
+                    },
+                    {
+                        "target": "phosphatase",
+                        "publications": [
+                            "pubmed:19372564",
+                            "pubmed:3610839"
+                        ]
                     }
                 ],
                 "compound": "tautomycin",

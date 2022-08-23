@@ -21,7 +21,8 @@
         {
             "comments": [
                 "Update compound structure (SMILES) for mycosubtilin",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -43,15 +44,21 @@
                     "pubchem:3083700"
                 ],
                 "mol_mass": 1198.6346226719998,
-                "molecular_formula": "C55H86N14O16"
+                "molecular_formula": "C55H86N14O16",
+                "chem_acts": [
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
             "accession": "AF184956.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001103",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "703612",
         "organism_name": "Bacillus subtilis subsp. spizizenii ATCC 6633",
         "publications": [
@@ -67,7 +74,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -83,7 +90,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -94,7 +101,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -105,7 +112,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Glutamine",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
@@ -116,7 +123,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -132,7 +139,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -143,7 +150,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }

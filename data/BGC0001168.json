@@ -22,7 +22,8 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Corrected gene identifiers",
-                "Updated NRP substrate specificities."
+                "Updated NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,6 +43,12 @@
                 "chem_targets": [
                     {
                         "target": "Trypsin"
+                    },
+                    {
+                        "target": "Protease",
+                        "publications": [
+                            "doi:10.1093/gbe/evt082"
+                        ]
                     }
                 ],
                 "compound": "livipeptin",
@@ -121,7 +128,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }

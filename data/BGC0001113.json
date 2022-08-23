@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,7 +42,10 @@
                     "pubchem:16204481"
                 ],
                 "mol_mass": 1002.5711430640001,
-                "molecular_formula": "C51H82N6O12S"
+                "molecular_formula": "C51H82N6O12S",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "C[C@H]1C[C@H]([C@H](O[C@H]1C/C=C(\\C)/C=C/[C@@H]2[C@H]([C@@]3(C[C@@](O2)(C)O)CO3)O)C)NC(=O)/C=C\\[C@H](C)OC(=O)C",
@@ -55,10 +59,13 @@
         ],
         "loci": {
             "accession": "KJ461964.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001113",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1494466",
         "organism_name": "Burkholderia sp. FERM BP-3421",
         "publications": [
@@ -74,7 +81,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

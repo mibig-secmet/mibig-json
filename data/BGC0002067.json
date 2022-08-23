@@ -7,7 +7,8 @@
                 "Removed gene names of 'No gene ID'",
                 "Added version to NCBI accession",
                 "Remove duplicated gene ID",
-                "Updated NRP substrate specificities."
+                "Updated NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "PAM2M7KUAUIJ3CVOXWVXWGKQ",
@@ -25,12 +26,21 @@
             {
                 "chem_acts": [
                     "Antifungal",
-                    "Inhibitor"
+                    "Inhibitor",
+                    "Antibacterial"
                 ],
                 "chem_struct": "CCC(C)CC(C)C(=O)C1=C(C(=C(NC1=O)OC)OC)O",
                 "chem_targets": [
                     {
                         "target": "succinate dehydrogenase"
+                    },
+                    {
+                        "target": "human prostate cancer cells",
+                        "publications": [
+                            "pubmed:2276974",
+                            "pubmed:3209470",
+                            "pubmed:12515859"
+                        ]
                     }
                 ],
                 "compound": "atpenin B",
@@ -193,7 +203,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }

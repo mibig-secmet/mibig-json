@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,17 +42,24 @@
                     "npatlas:NPA09462"
                 ],
                 "mol_mass": 603.286405132,
-                "molecular_formula": "C24H41N7O11"
+                "molecular_formula": "C24H41N7O11",
+                "chem_acts": [
+                    "Siderophore",
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "AM420293.1",
             "completeness": "Unknown",
             "end_coord": 3348992,
-            "start_coord": 3324848
+            "start_coord": 3324848,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000349",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "405948",
         "organism_name": "Saccharopolyspora erythraea NRRL 2338",
         "publications": [
@@ -91,7 +99,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

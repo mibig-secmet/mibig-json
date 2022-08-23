@@ -22,7 +22,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -43,15 +44,21 @@
                     "pubchem:6419429"
                 ],
                 "mol_mass": 500.15432834799986,
-                "molecular_formula": "C23H24N4O9"
+                "molecular_formula": "C23H24N4O9",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "AY541063.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000395",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "96045",
         "organism_name": "Nocardia uniformis subsp. tsuyamanensis",
         "publications": [
@@ -90,7 +97,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -129,7 +136,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

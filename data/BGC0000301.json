@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -38,7 +39,18 @@
                 "chem_struct": "CC[C@@H]([C@H]1C(NCCCC[C@@H](NC(N[C@H](C(O)=O)CCCNC(N)=N)=O)C(N[C@@H](C(C)C)C(N[C@@H](CCC2=CC=C(O)C=C2)C(N(C)[C@@H](CCC3=CC=C(O)C=C3)C(N1)=O)=O)=O)=O)=O)C",
                 "compound": "anabaenopeptin 908",
                 "mol_mass": 908.5119883760002,
-                "molecular_formula": "C45H68N10O10"
+                "molecular_formula": "C45H68N10O10",
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Protease",
+                        "publications": [
+                            "doi:10.1016/j.bmcl.2016.09.008"
+                        ]
+                    }
+                ]
             },
             {
                 "chem_struct": "CC[C@H](C)[C@H]1C(=O)NCCCC[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N1)CCC2=CC=C(C=C2)O)C)CCC3=CC=C(C=C3)O)C(C)C)NC(=O)N[C@@H](CC4=CC=C(C=C4)O)C(=O)O",
@@ -47,15 +59,29 @@
                     "npatlas:NPA06610"
                 ],
                 "mol_mass": 915.4742059000001,
-                "molecular_formula": "C48H65N7O11"
+                "molecular_formula": "C48H65N7O11",
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Protease",
+                        "publications": [
+                            "doi:10.1016/j.bmcl.2016.09.008"
+                        ]
+                    }
+                ]
             }
         ],
         "loci": {
             "accession": "EF672686.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000301",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "388467",
         "organism_name": "Planktothrix agardhii NIVA-CYA 126/8",
         "publications": [
@@ -78,12 +104,12 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     },
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -101,7 +127,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
@@ -124,12 +150,12 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     },
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -175,7 +201,7 @@
                                         "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
                                     },
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -198,12 +224,12 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     },
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }

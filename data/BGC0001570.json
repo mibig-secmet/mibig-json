@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,17 +35,31 @@
         ],
         "compounds": [
             {
-                "compound": "deimino-antipain"
+                "compound": "deimino-antipain",
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Protease",
+                        "publications": [
+                            "pubmed:27797509"
+                        ]
+                    }
+                ]
             }
         ],
         "loci": {
             "accession": "LWBU01000384.1",
             "completeness": "Unknown",
             "end_coord": 240028,
-            "start_coord": 224545
+            "start_coord": 224545,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001570",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "68570",
         "organism_name": "Streptomyces albulus",
         "publications": [
@@ -63,7 +78,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -82,7 +97,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -101,7 +116,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

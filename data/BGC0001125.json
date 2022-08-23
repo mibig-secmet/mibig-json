@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,7 +43,10 @@
                     "pubchem:72193951"
                 ],
                 "mol_mass": 1234.7172896759998,
-                "molecular_formula": "C58H98N12O17"
+                "molecular_formula": "C58H98N12O17",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "CCCCC(=O)CCCCCCCCC[C@H](C)[C@@H]1[C@H](C(=O)N[C@H](C(=O)N/C(=C/C)/C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N([C@H](C(=O)N2CCC[C@H]2C(=O)N1)CC(=O)N)C)[C@H](C)OC)CCC(=O)N)C(C)C)[C@H](C)O)C(C)C)O",
@@ -51,7 +55,10 @@
                     "pubchem:72193952"
                 ],
                 "mol_mass": 1232.73802512,
-                "molecular_formula": "C59H100N12O16"
+                "molecular_formula": "C59H100N12O16",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "CCC(Cl)CCCCCCCCCC(C)C1NC(=O)C2CCCN2C(=O)C(CC(N)=O)N(C)C(=O)C(NC(=O)CNC(=O)C(CCC(N)=O)NC(=O)C(NC(=O)C(NC(=O)\\C(NC(=O)C(NC(=O)C1O)C(C)C)=C/C)C(C)O)C(C)O)C(C)OC",
@@ -61,7 +68,10 @@
                     "pubchem:72193953"
                 ],
                 "mol_mass": 1226.66775264,
-                "molecular_formula": "C56H95ClN12O16"
+                "molecular_formula": "C56H95ClN12O16",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             },
             {
                 "chem_struct": "CCC(CCCCCCCCC[C@H](C)[C@@H]1[C@H](C(=O)N[C@H](C(=O)N/C(=C/C)/C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N([C@H](C(=O)N2CCC[C@H]2C(=O)N1)CC(=O)N)C)[C@H](C)OC)CCC(=O)N)C(C)C)[C@H](C)O)C(C)C)O)Cl",
@@ -70,15 +80,21 @@
                     "pubchem:72193954"
                 ],
                 "mol_mass": 1224.688488084,
-                "molecular_formula": "C57H97ClN12O15"
+                "molecular_formula": "C57H97ClN12O15",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "KM078884.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001125",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1382618",
         "organism_name": "Cylindrospermum alatosporum CCALA 988",
         "publications": [
@@ -94,7 +110,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -105,7 +121,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -121,7 +137,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -137,7 +153,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -148,12 +164,12 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     },
                                     {
-                                        "name": "Glutamine",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
@@ -169,7 +185,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -180,7 +196,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -191,7 +207,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -207,7 +223,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

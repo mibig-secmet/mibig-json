@@ -22,7 +22,8 @@
             "comments": [
                 "Update compound structure (SMILES) for mycobactin",
                 "Linked new PubChem id for mycobactin (pubchem:136041711)",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -45,17 +46,23 @@
                     "pubchem:136041711"
                 ],
                 "mol_mass": 914.4936075520901,
-                "molecular_formula": "C46H76FeN5O10+"
+                "molecular_formula": "C46H76FeN5O10+",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "AL123456.3",
             "completeness": "Unknown",
             "end_coord": 2680020,
-            "start_coord": 2656200
+            "start_coord": 2656200,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001021",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "83332",
         "organism_name": "Mycobacterium tuberculosis H37Rv",
         "publications": [
@@ -71,7 +78,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }

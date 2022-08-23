@@ -23,7 +23,8 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Updated NRP substrate specificities."
+                "Updated NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -44,7 +45,11 @@
                     "npatlas:NPA017944"
                 ],
                 "mol_mass": 654.2707940159999,
-                "molecular_formula": "C35H43ClN2O8"
+                "molecular_formula": "C35H43ClN2O8",
+                "chem_acts": [
+                    "Cytotoxic",
+                    "Antifungal"
+                ]
             }
         ],
         "genes": {
@@ -192,7 +197,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }

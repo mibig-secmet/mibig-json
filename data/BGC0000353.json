@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,15 +42,29 @@
                     "npatlas:NPA019402"
                 ],
                 "mol_mass": 803.481976648,
-                "molecular_formula": "C44H69NO12"
+                "molecular_formula": "C44H69NO12",
+                "chem_acts": [
+                    "Immunosuppressant"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Immunosuppressant",
+                        "publications": [
+                            "pubmed:2484094"
+                        ]
+                    }
+                ]
             }
         ],
         "loci": {
             "accession": "AF082100.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000353",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "82632",
         "organism_name": "Streptomyces sp. MA6548",
         "publications": [

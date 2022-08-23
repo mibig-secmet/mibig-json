@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Entry added",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -19,7 +20,10 @@
         "compounds": [
             {
                 "chem_struct": "OC([C@@H]1C=C[C@]2([H])CCCC[C@]2([H])[C@H]1/C(O)=C3C([C@]([H])([C@@H](C)CC)N(C)C\\3=O)=O)=O",
-                "compound": "varicidin A"
+                "compound": "varicidin A",
+                "chem_acts": [
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
@@ -33,7 +37,7 @@
             "start_coord": 1
         },
         "mibig_accession": "BGC0002304",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "28576",
         "organism_name": "Talaromyces variabilis",
         "publications": [
@@ -56,7 +60,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }

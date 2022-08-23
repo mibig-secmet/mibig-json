@@ -22,7 +22,8 @@
         {
             "comments": [
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Removed trailing whitespace in gene names"
+                "Removed trailing whitespace in gene names",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -38,7 +39,10 @@
             {
                 "chem_acts": [
                     "Antibacterial",
-                    "Cytotoxic"
+                    "Cytotoxic",
+                    "Antifungal",
+                    "Inhibitor",
+                    "Antiviral"
                 ],
                 "chem_struct": "[H][C@]1(CCC[C@H]1C(O)=O)[C@]1([H])C\\C=C\\C=C(C#N)/[C@H](O)[C@@H](C)C[C@H](C)C[C@H](C)C[C@H](C)[C@@H](O)CC(=O)O1",
                 "chem_synonyms": [
@@ -47,6 +51,13 @@
                 "chem_targets": [
                     {
                         "target": "Threonyl-tRNA synthetase"
+                    },
+                    {
+                        "target": "Angiogenesis",
+                        "publications": [
+                            "pubmed:18134558",
+                            "pubmed:5836317"
+                        ]
                     }
                 ],
                 "compound": "borrelidin",

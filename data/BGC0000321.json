@@ -20,7 +20,7 @@
         },
         {
             "comments": [
-                "Removed empty gene annotations"
+                "Removed empty gene annotations",
                 "Added NRP substrate specificities."
             ],
             "contributors": [
@@ -378,10 +378,13 @@
         },
         "loci": {
             "accession": "KF496217.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000321",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1934374",
         "organism_name": "Collariella virescens",
         "publications": [
@@ -397,7 +400,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }

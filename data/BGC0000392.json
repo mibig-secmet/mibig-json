@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,17 +35,23 @@
         ],
         "compounds": [
             {
-                "compound": "mirubactin"
+                "compound": "mirubactin",
+                "chem_acts": [
+                    "Siderophore"
+                ]
             }
         ],
         "loci": {
             "accession": "CP001630.1",
             "completeness": "Unknown",
             "end_coord": 3141040,
-            "start_coord": 3113324
+            "start_coord": 3113324,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000392",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "446462",
         "organism_name": "Actinosynnema mirum DSM 43827",
         "publications": [
@@ -68,7 +75,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }

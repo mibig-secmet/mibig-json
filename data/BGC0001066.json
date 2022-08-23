@@ -23,7 +23,8 @@
             "comments": [
                 "Remove leading/trailing whitespace in gene identifiers",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Sorted modules by module number"
+                "Sorted modules by module number",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -39,7 +40,8 @@
             {
                 "chem_acts": [
                     "Antibacterial",
-                    "Cytotoxic"
+                    "Cytotoxic",
+                    "Inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -62,7 +64,15 @@
                     "npatlas:NPA07727"
                 ],
                 "mol_mass": 486.2981390639999,
-                "molecular_formula": "C29H42O6"
+                "molecular_formula": "C29H42O6",
+                "chem_targets": [
+                    {
+                        "target": "endothelin receptor",
+                        "publications": [
+                            "pubmed:17592829"
+                        ]
+                    }
+                ]
             }
         ],
         "genes": {

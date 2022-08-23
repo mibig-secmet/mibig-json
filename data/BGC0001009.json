@@ -22,7 +22,8 @@
         {
             "comments": [
                 "Retired as incomplete duplicate of BGC0001010",
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -43,15 +44,22 @@
                     "npatlas:NPA08025"
                 ],
                 "mol_mass": 422.13339931199994,
-                "molecular_formula": "C20H26N2O4S2"
+                "molecular_formula": "C20H26N2O4S2",
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "AJ557546.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001009",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "45",
         "organism_name": "Melittangium lichenicola",
         "publications": [
@@ -73,7 +81,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -89,7 +97,7 @@
                             "a_substr_spec": {
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }

@@ -22,7 +22,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,15 +43,22 @@
                     "pubchem:10345604"
                 ],
                 "mol_mass": 493.31920885599993,
-                "molecular_formula": "C31H43NO4"
+                "molecular_formula": "C31H43NO4",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
             "accession": "FJ545274.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000079",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1890",
         "organism_name": "Streptomyces antibioticus",
         "publications": [
@@ -72,7 +80,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }

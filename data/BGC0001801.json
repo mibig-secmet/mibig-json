@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -35,7 +36,11 @@
         ],
         "compounds": [
             {
-                "compound": "thiazostatin"
+                "compound": "thiazostatin",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             },
             {
                 "chem_struct": "[H][C@]1(SC[C@@](C)(N1C)C(O)=O)[C@]1([H])N=C(S[C@H]1C)C1=CC=CC=C1O",
@@ -44,7 +49,11 @@
                     "npatlas:NPA08164"
                 ],
                 "mol_mass": 352.09153449999997,
-                "molecular_formula": "C16H20N2O3S2"
+                "molecular_formula": "C16H20N2O3S2",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             },
             {
                 "chem_struct": "[H][C@@]1(SC[C@](C)(N1C)C(O)=O)[C@@]1([H])N=C(S[C@H]1C)C1=CC=CC=C1O",
@@ -53,23 +62,38 @@
                     "npatlas:NPA013161"
                 ],
                 "mol_mass": 352.09153449999997,
-                "molecular_formula": "C16H20N2O3S2"
+                "molecular_formula": "C16H20N2O3S2",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             },
             {
-                "compound": "2-hydroxyphenylthiazoline enantiopyochelin"
+                "compound": "2-hydroxyphenylthiazoline enantiopyochelin",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             },
             {
-                "compound": "isopyochelin"
+                "compound": "isopyochelin",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             }
         ],
         "loci": {
             "accession": "FR845719.1",
             "completeness": "Unknown",
             "end_coord": 584067,
-            "start_coord": 555257
+            "start_coord": 555257,
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001801",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "953739",
         "organism_name": "Streptomyces venezuelae ATCC 10712",
         "publications": [
@@ -115,7 +139,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -138,7 +162,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }

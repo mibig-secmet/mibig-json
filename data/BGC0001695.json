@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,15 +42,21 @@
                     "npatlas:NPA010703"
                 ],
                 "mol_mass": 698.305074912,
-                "molecular_formula": "C36H46N2O12"
+                "molecular_formula": "C36H46N2O12",
+                "chem_acts": [
+                    "Cytotoxic"
+                ]
             }
         ],
         "loci": {
             "accession": "MH128122.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0001695",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1653203",
         "organism_name": "Streptomyces conglobatus",
         "publications": [
@@ -72,7 +79,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

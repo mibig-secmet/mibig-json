@@ -22,7 +22,8 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Updated NRP substrate specificities."
+                "Updated NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -37,7 +38,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "Inhibitor",
+                    "Antibacterial"
                 ],
                 "chem_struct": "[H][C@@](CCCCC)(CC(=O)NO)C(=O)N[C@@]([H])(C(C)C)C(=O)N1CCC[C@H]1CO",
                 "chem_targets": [
@@ -46,6 +48,12 @@
                     },
                     {
                         "target": "bacterial peptide deformylase"
+                    },
+                    {
+                        "target": "peptide deformylase",
+                        "publications": [
+                            "pubmed:10684604"
+                        ]
                     }
                 ],
                 "compound": "actinonin",
@@ -85,7 +93,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -117,7 +125,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }

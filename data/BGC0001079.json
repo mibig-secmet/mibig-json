@@ -26,7 +26,8 @@
                 "Add new compound: napyradiomycin 4",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Fixed incorrect terpene synthase/cyclase gene names",
-                "Removed duplicated alternative name of gene in polyketide synthase"
+                "Removed duplicated alternative name of gene in polyketide synthase",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
@@ -43,7 +44,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Other"
                 ],
                 "chem_moieties": [
                     {
@@ -69,7 +72,17 @@
                 "compound": "napyradiomycin A80915C",
                 "mass_spec_ion_type": "[M+H]+",
                 "mol_mass": 546.1342718159999,
-                "molecular_formula": "C26H33Cl3O6"
+                "molecular_formula": "C26H33Cl3O6",
+                "chem_targets": [
+                    {
+                        "target": "Grp94",
+                        "publications": [
+                            "pubmed:3710909",
+                            "pubmed:21731557",
+                            "pubmed:24292715"
+                        ]
+                    }
+                ]
             },
             {
                 "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C(C2=C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",

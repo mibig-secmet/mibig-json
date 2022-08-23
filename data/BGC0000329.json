@@ -21,7 +21,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities."
+                "Added NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,7 +42,10 @@
                     "pubchem:102439469"
                 ],
                 "mol_mass": 2094.2088769559978,
-                "molecular_formula": "C98H163N23O27"
+                "molecular_formula": "C98H163N23O27",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             },
             {
                 "chem_struct": "CCCC/C=C\\CC(CC(=N/C(=C\\C)/C(=O)N1CCC[C@H]1C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C(C)C)C(=N[C@@H](C(C)C)C(=N/C(=C\\C)/C(=N[C@@H](CCO)C(=N[C@@H](C(C)C)C(=N[C@@H]([C@H](C)CC)C(=NC(=C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C(C)C)C(=N/C(=C\\C)/C(=N[C@H]2[C@@H](OC(=O)[C@@H](N=C([C@@H](N=C([C@@H](N=C([C@@H](N=C2O)C)O)CCN)O)CO)O)[C@@H](C)CC)C)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O",
@@ -50,15 +54,21 @@
                     "pubchem:102439470"
                 ],
                 "mol_mass": 2092.1932268919977,
-                "molecular_formula": "C98H161N23O27"
+                "molecular_formula": "C98H161N23O27",
+                "chem_acts": [
+                    "Antibacterial"
+                ]
             }
         ],
         "loci": {
             "accession": "KF192265.2",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
         },
         "mibig_accession": "BGC0000329",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "47879",
         "organism_name": "Pseudomonas corrugata",
         "publications": [
@@ -78,7 +88,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -93,7 +103,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }

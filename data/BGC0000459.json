@@ -25,7 +25,8 @@
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Sorted modules by module number",
                 "Corrected gene identifiers",
-                "Updated NRP substrate specificities."
+                "Updated NRP substrate specificities.",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -41,7 +42,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "Antibacterial",
+                    "Antifungal"
                 ],
                 "chem_struct": "[H][C@@]12CS\\C(=C/C[C@@H](C)OC1=O)C(=O)NC\\C=C\\C=C\\[C@@H](O)C[C@H](O)CC1=NC(=CO1)C(=O)N2",
                 "chem_synonyms": [
@@ -67,7 +69,11 @@
                     "npatlas:NPA019593"
                 ],
                 "mol_mass": 878.453804804,
-                "molecular_formula": "C44H62N8O11"
+                "molecular_formula": "C44H62N8O11",
+                "chem_acts": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
             }
         ],
         "genes": {
@@ -557,7 +563,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -575,7 +581,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -621,7 +627,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -663,7 +669,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -707,7 +713,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -730,7 +736,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -755,7 +761,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
