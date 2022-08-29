@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,7 +34,18 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "regulatory"
+                ],
                 "chem_struct": "CC(C)CCCCC(=O)C1[C@@H](COC1=O)CO",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.1111/j.1365-2958.1994.tb01073.x"
+                        ],
+                        "target": "receptor protein"
+                    }
+                ],
                 "compound": "A-factor",
                 "database_id": [
                     "pubchem:119102"

@@ -23,12 +23,13 @@
             "comments": [
                 "Remove leading/trailing whitespace in gene identifiers",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Sorted modules by module number"
+                "Sorted modules by module number",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,8 +39,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -57,6 +59,14 @@
                     }
                 ],
                 "chem_struct": "[H][C@]12CC[C@H](C)\\C=C(C)\\C[C@@H](C)C[C@H](C)[C@]3(O)OC4=C(C)C(=O)C(O)=C(C4=C3)[C@]([H])(O1)[C@H](C)[C@@H](O)[C@H]2C",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:17592829"
+                        ],
+                        "target": "endothelin receptor"
+                    }
+                ],
                 "compound": "kendomycin",
                 "database_id": [
                     "npatlas:NPA07727"

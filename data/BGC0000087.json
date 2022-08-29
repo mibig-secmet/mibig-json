@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations"
+                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,6 +36,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antiprotozoal"
+                ],
                 "chem_struct": "CCC(C1C(CC(O1)(CC)C2CCC(C(O2)C)(CC)O)C)C(=O)C(C)C(C(C)CCC3=C(C(=C(C=C3)C)O)C(=O)[O-])O.[Na+]",
                 "compound": "lasalocid",
                 "database_id": [

@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,12 +36,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "CC(C)C[C@@H]1NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CC2=CC=CC=C2)NC(C)=O)[C@@H](C)O)[C@@H](C)OC(=O)C[C@@H]2NC(=O)[C@@H]3COC(=O)CC[C@H](NC(=O)[C@H](CC4=CC5=CC=CC=C5N4)NC2=O)C(=O)N[C@@H](CCC(=O)NCCCC[C@H](NC1=O)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(=O)N1CCC[C@H]1C(=O)N3)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(O)=O",
                 "chem_targets": [
                     {
                         "target": "elastase"
+                    },
+                    {
+                        "publications": [
+                            "doi:10.1128/aem.70.8.5047-5050.2004"
+                        ],
+                        "target": "Protease"
                     }
                 ],
                 "compound": "microviridin B",

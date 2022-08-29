@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,11 +35,14 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "CC1CCN2C1C(=O)NC(C(=O)NC(C(=NCC2=O)NC(C(=O)NC(C(C)C3=CC=CC=C3)C(=O)NC(CC(=O)OC)C4=NC=CS4)C(C)(C)C)C(C)(C)C)C(C)C",
                 "chem_targets": [
                     {
+                        "publications": [
+                            "doi:10.1002/anie.200804138"
+                        ],
                         "target": "Ribosome"
                     }
                 ],
@@ -229,8 +241,7 @@
             "completeness": "complete",
             "end_coord": 6321700,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 6304534
         },

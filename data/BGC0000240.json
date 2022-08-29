@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,7 +38,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -60,7 +62,8 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -78,6 +81,10 @@
                 "molecular_formula": "C68H82N4O24"
             },
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "chem_moieties": [
                     {
                         "moiety": "diazo group"
@@ -89,6 +96,10 @@
                 "molecular_formula": "C69H84N4O24"
             },
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "chem_struct": "CC[C@@]1([C@H](C(=C2C(=CC3=C2C(=C4C(=O)C=CC(=O)C4=C3O)O)[C@H]1O[C@@H]5C[C@@H]([C@H]([C@@H](O5)C)N(C)C)O)O)[C@H]6C(=O)C7=C([C@H]([C@@]6(CC)O[C@H]8C[C@@H]([C@H]([C@@H](O8)C)OC)OC)O[C@@H]9C[C@@H]([C@H]([C@@H](O9)C)N(C)C)O)C(=[N+]=[N-])C1=C7C(=C2C(=O)C=CC(=O)C2=C1O)O)O[C@H]1C[C@@H]([C@H]([C@@H](O1)C)OC)OC",
                 "compound": "lomaiviticin E",
                 "database_id": [
@@ -849,8 +860,7 @@
             "completeness": "Unknown",
             "evidence": [
                 "Knock-out studies",
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ]
         },
         "mibig_accession": "BGC0000240",

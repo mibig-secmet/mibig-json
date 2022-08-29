@@ -12,12 +12,13 @@
         {
             "comments": [
                 "Removed gene names of 'No gene ID'",
-                "Removed gene annotation with no information"
+                "Removed gene annotation with no information",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +28,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "compound": "komodoquinone B",
                 "database_id": [
                     "chemspider:8196720"
@@ -55,7 +59,7 @@
                     "product": "2nd and 3rd ring cyclase"
                 },
                 {
-                    "id": "WP_030957329.1",
+                    "id": "WP_199819199.1",
                     "product": "4-ketoreductase"
                 },
                 {
@@ -101,7 +105,7 @@
                             ]
                         }
                     ],
-                    "id": "WP_078906300.1",
+                    "id": "WP_030957347.1",
                     "product": "10-decarboxylase",
                     "tailoring": [
                         "Decarboxylation"
@@ -217,11 +221,11 @@
                     "product": "3,5-epimerase"
                 },
                 {
-                    "id": "WP_037878726.1",
+                    "id": "WP_234432094.1",
                     "product": "2,3-dehydratase"
                 },
                 {
-                    "id": "WP_078906286.1",
+                    "id": "WP_234432095.1",
                     "product": "SARP family"
                 }
             ]
@@ -231,8 +235,7 @@
             "completeness": "complete",
             "end_coord": 230564,
             "evidence": [
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ],
             "start_coord": 186402
         },

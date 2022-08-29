@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,6 +37,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "N[C@@H]1C2=CC=C(OS(O)(=O)=O)C(OC3=CC(=CC(O)=C3)[C@@H]3NC(=O)[C@@H](CC4=CC(Cl)=C(OC5=C(O)C6=CC(=C5)[C@@H](NC3=O)C(=O)N[C@@H]3C5=CC(Cl)=C(O)C(=C5)C5=C(O)C=C(O)C=C5[C@H](NC(=O)[C@@H](NC3=O)[C@H](O)C3=CC=C(O6)C(Cl)=C3)C(O)=O)C=C4)NC1=O)=C2",
                 "compound": "A-47934",
                 "database_id": [
@@ -70,8 +75,7 @@
             "completeness": "complete",
             "evidence": [
                 "Enzymatic assays",
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ]
         },
         "mibig_accession": "BGC0000290",
@@ -97,7 +101,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyphenylglycine",
+                                        "name": "4-hydroxyphenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
                                     }
@@ -115,7 +119,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -145,9 +149,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3,5-Dihydroxy-phenylglycine",
+                                        "name": "3,5-dihydroxyphenylglycine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C(=O)O)c1cc(O)cc(O)c1"
                                     }
                                 ]
                             },
@@ -174,7 +178,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyphenylglycine",
+                                        "name": "4-hydroxyphenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
                                     }
@@ -198,7 +202,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyphenylglycine",
+                                        "name": "4-hydroxyphenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
                                     }
@@ -219,7 +223,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -249,9 +253,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3,5-Dihydroxy-phenylglycine",
+                                        "name": "3,5-dihydroxyphenylglycine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C(=O)O)c1cc(O)cc(O)c1"
                                     }
                                 ]
                             },

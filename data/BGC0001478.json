@@ -20,19 +20,13 @@
         },
         {
             "comments": [
-                "Removed gene names of 'No gene ID'"
+                "Fix DOI",
+                "Removed gene names of 'No gene ID'",
+                "Updated bioactivity data"
             ],
             "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Fix DOI"
-            ],
-            "contributors": [
-                "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
         }
@@ -44,11 +38,23 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "antioxidant",
+                    "cytotoxic",
+                    "inhibitor",
+                    "siderophore"
                 ],
                 "chem_struct": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
                 "chem_synonyms": [
                     "nocardamine"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:2978958",
+                            "pubmed:21376551"
+                        ],
+                        "target": "biofilm formation"
+                    }
                 ],
                 "compound": "desferrioxamine E",
                 "database_id": [
@@ -115,10 +121,7 @@
         },
         "loci": {
             "accession": "MG459167.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001478",
         "minimal": false,

@@ -21,12 +21,14 @@
         {
             "comments": [
                 "Remove negative ketide_length",
-                "Added missing id in gene annotation"
+                "Added missing id in gene annotation",
+                "Updated bioactivity data"
             ],
             "contributors": [
-                "3UOU7PODQJXIM6BEPUHHRRA5"
+                "3UOU7PODQJXIM6BEPUHHRRA5",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,6 +38,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "chem_struct": "O[C@H](C(C)=C1)[C@@]2(O)[C@]([C@@]1([H])O[C@H](C[C@@H](OC)[C@@H]3O)O[C@H]3C)(O)C4=C(C(C(C(O)=C5[C@@H](C[C@@H](O[C@H]6C[C@]([C@H](O[C@@H]7O[C@@H]([C@H](CC7)OC(N)=O)C)[C@@H](C)O6)(C)O)[C@@H]8O)O[C@@H]8C)=C(C=C5)C4=O)=O)[C@H](O)[C@@H]2OC(C)=O",
                 "compound": "warkmycin CS1",
                 "evidence": [
@@ -46,6 +52,10 @@
                 "molecular_formula": "C48H65NO22"
             },
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "chem_struct": "O=C1C(C(O)=C2[C@@H](C[C@@H](O[C@H]3C[C@]([C@H](O[C@@H]4O[C@@H]([C@H](CC4)OC(N)=O)C)[C@@H](C)O3)(C)O)[C@@H]5O)O[C@@H]5C)=C(C=C2)C(C6=C1[C@H](O)[C@H](OC(C)=O)[C@]([C@H](OC(C)=O)C(C)=C7)(O)[C@@]6(O)[C@@]7([H])O[C@H](C[C@@H](OC)[C@@H]8O)O[C@H]8C)=O",
                 "compound": "warkmycin CS2",
                 "evidence": [
@@ -564,8 +574,7 @@
             "completeness": "complete",
             "end_coord": 1795313,
             "evidence": [
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 1756999
         },

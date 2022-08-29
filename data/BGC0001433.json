@@ -23,12 +23,13 @@
             "comments": [
                 "Removed comment with no information",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Fixed incorrect gene identifiers"
+                "Fixed incorrect gene identifiers",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,6 +38,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "O=C(O)[C@@H](NC(C)=O)CS/C(C)=C([H])/C([H])=C1C=CC2=C\\1C=CC=N2",
                 "compound": "argimycin PI",
                 "evidence": [
@@ -48,6 +52,9 @@
                 "molecular_formula": "C17H18N2O3S"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "[H]C(/C([H])=C(SC[C@@H](C(O)=O)NC(C)=O)\\C)=C1C=CC2=C\\1C=CC=N2",
                 "compound": "argimycin PII",
                 "evidence": [
@@ -59,6 +66,9 @@
                 "molecular_formula": "C17H18N2O3S"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "C\\C=C\\C=C\\C=C\\C1=NCCCC1",
                 "compound": "nigrifactin",
                 "database_id": [
@@ -68,6 +78,9 @@
                 "molecular_formula": "C12H17N"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCC[C@@H](O)[C@@]2\\1O",
                 "compound": "argimycin PIV",
                 "evidence": [
@@ -79,6 +92,9 @@
                 "molecular_formula": "C12H17NO2"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCCC[C@@]2\\1O",
                 "compound": "argimycin PV",
                 "evidence": [
@@ -91,7 +107,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCCC[C@@]2\\1[H]",
                 "compound": "argimycin PVI",
@@ -105,7 +121,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "C/C=C/C=C/CCC1NCCCC1",
                 "compound": "argimycin PIX",
@@ -325,8 +341,7 @@
             "completeness": "complete",
             "evidence": [
                 "Knock-out studies",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ]
         },
         "mibig_accession": "BGC0001433",

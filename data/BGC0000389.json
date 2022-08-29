@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Retired due to involving multiple contigs"
+                "Retired due to involving multiple contigs",
+                "Corrected NRP gene names",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,8 +39,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Surfactant"
+                    "antibacterial",
+                    "antifungal",
+                    "surfactant"
                 ],
                 "chem_struct": "CCCCCCC[C@@H](O)CC(=O)NC(CC(C)C)C(=O)NC(CCC(O)=O)C(=O)NC1C(C)OC(=O)C(NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(NC1=O)C(C)CC)C(C)CC",
                 "chem_targets": [
@@ -95,8 +98,7 @@
                 "Knock-out studies",
                 "Enzymatic assays",
                 "Heterologous expression",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 11695
         },
@@ -107,7 +109,7 @@
             "cyclic": true,
             "nrps_genes": [
                 {
-                    "gene_id": "ABH06367",
+                    "gene_id": "ABH06367.2",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -117,7 +119,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -135,7 +137,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamic acid",
+                                        "name": "glutamic acid",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
                                     }
@@ -148,7 +150,7 @@
                     ]
                 },
                 {
-                    "gene_id": "ABH06368",
+                    "gene_id": "ABH06368.2",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -158,7 +160,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -176,7 +178,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -194,7 +196,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -212,7 +214,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -225,7 +227,7 @@
                     ]
                 },
                 {
-                    "gene_id": "ABH06369",
+                    "gene_id": "ABH06369.2",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -235,7 +237,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -253,7 +255,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -271,7 +273,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
