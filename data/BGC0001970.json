@@ -11,16 +11,9 @@
         },
         {
             "comments": [
-                "Fetch compound properties from PubChem"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Fetch compound properties from PubChem",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -51,8 +44,36 @@
             "start_coord": 283
         },
         "mibig_accession": "BGC0001970",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1458930",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AZH23792.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference",
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "pubmed:30444349"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Okeania hirsuta",
         "publications": [
             "pubmed:30444349"

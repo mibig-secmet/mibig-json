@@ -6,7 +6,8 @@
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
                 "Added version to NCBI accession",
-                "Added SMILES"
+                "Added SMILES",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "PAM2M7KUAUIJ3CVOXWVXWGKQ",
@@ -24,8 +25,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Inhibitor"
+                    "antifungal",
+                    "inhibitor"
                 ],
                 "chem_struct": "COC1=C(OC)C(O)=C(C(=O)[C@@H](C)C\\C=C\\C)C(=O)N1",
                 "chem_targets": [
@@ -160,8 +161,7 @@
             "evidence": [
                 "Enzymatic assays",
                 "Heterologous expression",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 16184
         },
@@ -178,11 +178,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Feeding study"
+                                    "Structure-based inference",
+                                    "Heterologous expression"
+                                ],
+                                "publications": [
+                                    "pubmed:32365298"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }

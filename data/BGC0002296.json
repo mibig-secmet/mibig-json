@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -64,14 +65,105 @@
             "completeness": "Unknown",
             "end_coord": 97932,
             "evidence": [
-                "Sequence-based prediction",
                 "Enzymatic assays"
             ],
             "start_coord": 1
         },
         "mibig_accession": "BGC0002296",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2546228",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QCP68969.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31071229"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QCP68976.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31071229"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QCP68971.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31071229"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QCP68975.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31071229"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Moorena producens ASI16Jul14-2",
         "publications": [
             "pubmed:31071229",

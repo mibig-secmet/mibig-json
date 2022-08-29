@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -28,14 +29,39 @@
             "completeness": "Unknown",
             "end_coord": 1977735,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 1968773
         },
         "mibig_accession": "BGC0002271",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "341663",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EAU39346.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23841722"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus terreus NIH2624",
         "publications": [
             "pubmed:23841722",

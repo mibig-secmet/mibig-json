@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -43,8 +52,78 @@
             "start_coord": 260465
         },
         "mibig_accession": "BGC0001341",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "85336",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ORC16617.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pyruvic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(=O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ORC16618.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-ketoisovaleric acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(C(=O)O)C(C)C"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Rothia nasimurium",
         "publications": [
             "pubmed:28572325"

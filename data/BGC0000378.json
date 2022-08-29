@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal"
+                ],
                 "chem_struct": "[H][C@@]12NC3=C(C=CC(Cl)=C3Cl)[C@]1(O)C[C@@H]1N2C(=O)[C@H](NC(=O)[C@H](COC)NC(=O)[C@@H]2C[C@@H](Cl)CNN2C(=O)[C@@H](OC(=O)[C@H](NC1=O)C1(C)CC1)C(C)(C)C)[C@@H](O)CC(O)=O",
                 "compound": "kutzneride 2",
                 "database_id": [
@@ -40,8 +53,190 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000378",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "345341",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ABV56582.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:17940045"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "allo-isoleucine",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABV56585.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17940045"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-(1-methylcyclopropyl)-D-glycine",
+                                        "proteinogenic": false,
+                                        "structure": "CC1(CC1)[C@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABV56587.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:17940045"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-ketoisovaleric acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(C(=O)O)C(C)C"
+                                    },
+                                    {
+                                        "name": "2-ketobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCC(=O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABV56588.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:17940045",
+                                    "pubmed:21648411"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "piperazic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1C[C@H](NNC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Heterologous expression"
+                                ],
+                                "publications": [
+                                    "pubmed:24105608"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Heterologous expression",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:17940045",
+                                    "pubmed:18828589"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "6,7-dichlorotryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(Cl)C(Cl)=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABV56594.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17940045"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Kutzneria sp. 744",
         "publications": [
             "pubmed:17940045"

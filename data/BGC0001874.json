@@ -8,6 +8,15 @@
                 "RZXXEFYXH3WXN74YX6LRS5EA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -18,8 +27,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "compound": "cyclopiazonic acid",
                 "mol_mass": 336.384,
@@ -37,7 +46,29 @@
         "minimal": false,
         "ncbi_tax_id": "5059",
         "nrp": {
-            "cyclic": true
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AFA26384.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         "organism_name": "Aspergillus flavus",
         "polyketide": {

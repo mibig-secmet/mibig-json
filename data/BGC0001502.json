@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -42,8 +51,109 @@
             "start_coord": 2741866
         },
         "mibig_accession": "BGC0001502",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "380703",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "YP_856987.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:27531515"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "YP_856988.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:27531515"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "YP_856990.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:27531515"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "YP_856992.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:27531515"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aeromonas hydrophila subsp. hydrophila ATCC 7966",
         "publications": [
             "pubmed:27531515"

@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -54,8 +55,224 @@
             "start_coord": 3040488
         },
         "mibig_accession": "BGC0002370",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2750812",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QXJ26485.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "Z-dehydrobutyrine",
+                                    "structure": "C/C=C(/C(=O)O)\\N"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QXJ21807.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2S-methyl-3-oxobutyrine",
+                                        "proteinogenic": false,
+                                        "structure": "CC(=O)[C@](C)(N)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "2S-methyl-3-oxobutyrine",
+                                    "structure": "CC(=O)[C@](C)(N)C(=O)O"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "glycine",
+                                    "structure": "NCC(=O)O"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QXJ21808.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "D-alanine",
+                                    "structure": "C[C@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "thiazole-4-carboxylic acid",
+                                    "structure": "C(O)(=O)C1=CSC=N1"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "tryptophan",
+                                    "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QXJ21809.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-aminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "D-2-aminobutyric acid",
+                                    "structure": "CC[C@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34847153"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "N-methylglycine",
+                                    "structure": "CNCC(=O)O"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Actinomadura graeca",
         "publications": [
             "pubmed:33216552",

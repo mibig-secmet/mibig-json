@@ -20,12 +20,14 @@
         },
         {
             "comments": [
-                "Removed erroneous polyketide class"
+                "Removed erroneous polyketide class",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "CUSGWVK3I4TVHJH7NHPFAP2L"
+                "CUSGWVK3I4TVHJH7NHPFAP2L",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -48,8 +50,156 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001018",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "600778",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAH22762.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21212071"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAH22763.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAH22764.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21212071"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21212071"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-amino-6-hydroxy-2-piperidone",
+                                        "proteinogenic": false,
+                                        "structure": "C1CC(NC(=O)C1N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21212071"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21212071"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAH22765.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21212071"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Microcystis aeruginosa K-139",
         "publications": [
             "pubmed:21212071"

@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,8 +49,69 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001250",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "35717",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AET13875.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23658520"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23658520"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:23658520"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-trans-anhydromevalonyl-N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN(O)C(=O)/C=C(C)/CCO"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Epichloe festucae",
         "publications": [
             "pubmed:23658520"

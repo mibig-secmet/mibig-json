@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CC/C(=C\\1/C(=O)O[C@@H]([C@@H](C(=O)N[C@H]([C@@H]([C@H](C(=O)O1)C)O)CC2=CN=CC=C2)NC(=O)C3=C(C=CC=N3)O)C)/C",
                 "compound": "pyridomycin",
                 "database_id": [
@@ -40,8 +53,39 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001039",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "68260",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AEF33078.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "3-(3-pyridyl)-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CN=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces pyridomyceticus",
         "publications": [
             "pubmed:21454714"

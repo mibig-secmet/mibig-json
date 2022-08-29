@@ -22,12 +22,13 @@
         {
             "comments": [
                 "Corrected gene annotations, along with a new sequence",
-                "Corrected compound name"
+                "Corrected compound name",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -496,8 +497,138 @@
             "start_coord": 1270402
         },
         "mibig_accession": "BGC0000334",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "29910",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "simA",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "D-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "4R-butenyl-4R-methylthreonine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H](C/C=C/C)[C@@H](O)[C@H](N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "2-aminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Tolypocladium inflatum NRRL 8044",
         "publications": [
             "pubmed:23818858"

@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -43,8 +52,140 @@
             "start_coord": 926
         },
         "mibig_accession": "BGC0001711",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "60550",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "KFL51883.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21742901"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "KFL51885.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21742901"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-hydroxytyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@H]([C@@H](C(=O)O)N)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "KFL51886.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21742901"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21742901"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "KFL51887.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21742901"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21742901"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Burkholderia pyrrocinia",
         "publications": [
             "pubmed:26910858"

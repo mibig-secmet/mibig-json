@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_moieties": [
                     {
@@ -61,7 +63,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_moieties": [
                     {
@@ -83,7 +85,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_moieties": [
                     {
@@ -105,7 +107,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_moieties": [
                     {
@@ -127,7 +129,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial",
+                    "surfactant"
                 ],
                 "chem_moieties": [
                     {
@@ -330,8 +333,7 @@
             "completeness": "complete",
             "evidence": [
                 "Knock-out studies",
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ]
         },
         "mibig_accession": "BGC0001056",
@@ -351,7 +353,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -367,9 +369,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1039/c4sc01927j"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Histidine",
+                                        "name": "histidine",
                                         "proteinogenic": true,
                                         "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }
@@ -387,7 +392,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -405,7 +410,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -428,7 +433,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -446,7 +451,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

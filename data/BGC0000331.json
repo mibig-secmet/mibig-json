@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Corrected compound name"
+                "Corrected compound name",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -42,8 +43,146 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000331",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "329558",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ABI26077.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17921284"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "homotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17921284"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABI26078.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17921284"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "homotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17921284"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-amino-6-hydroxy-2-piperidone",
+                                        "proteinogenic": false,
+                                        "structure": "C1CC(NC(=O)C1N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17921284"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17921284"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABI26079.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17921284"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Planktothrix agardhii NIVA-CYA 116",
         "publications": [
             "pubmed:17921284"

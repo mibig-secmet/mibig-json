@@ -21,19 +21,12 @@
         },
         {
             "comments": [
+                "Cleaned up synonym list",
                 "Corrected NRP module activity",
                 "Corrected gene names referencing other accessions",
                 "Removed thioesterase annotation for unknown gene",
-                "Removed inconsistent additional gene names"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
+                "Removed inconsistent additional gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -48,7 +41,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "[H][C@]12N[C@@H](C)C(=O)N1C1=CC=CC=C1[C@@]2(O)C[C@@]1([H])N2C(=O)C3=C(C=CC=C3)N=C2[C@H](C)NC1=O",
                 "compound": "fumiquinazoline A",
@@ -61,7 +54,7 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "[H][C@]12N[C@@H](C)C(=O)N1C1=CC=CC=C1[C@@]21C[C@@]2([H])N3C(=O)C4=C(C=CC=C4)N=C3[C@](C)(NC2=O)O1",
                 "chem_synonyms": [
@@ -77,7 +70,7 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "C[C@H]1C(=O)N2[C@@H]3N1[C@]4(C5=NC6=CC=CC=C6C(=O)N5[C@H](C[C@@]3(C7=CC=CC=C72)O)C(=O)N4)C",
                 "compound": "fumiquinazoline D",
@@ -194,13 +187,42 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:20225828"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Anthranilate",
+                                        "name": "anthanillic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "benzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "2-chlorobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)Cl"
+                                    },
+                                    {
+                                        "name": "4-chlorobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C(=O)O)Cl"
+                                    },
+                                    {
+                                        "name": "3-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)N)C(=O)O"
                                     }
                                 ]
                             },
@@ -212,11 +234,14 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20225828"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
@@ -232,9 +257,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "pubmed:20225828"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -253,11 +281,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20225828"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }

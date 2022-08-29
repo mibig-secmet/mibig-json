@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,8 +38,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Cytotoxic"
+                    "antifungal",
+                    "cytotoxic"
                 ],
                 "chem_struct": "C[C@H]1[C@H](CCCC(C)(Cl)Cl)OC(=O)C2=CSC(=N2)[C@@H](OC(C)=O)C(C)(C)OC(=O)C2=CSC(=N2)[C@@H](OC1=O)C(C)(C)O",
                 "chem_targets": [
@@ -171,10 +172,7 @@
         },
         "loci": {
             "accession": "AY974560.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001000",
         "minimal": false,
@@ -203,9 +201,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-oxo-isovaleric acid",
+                                        "name": "2-ketoisovaleric acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "O=C(C(=O)O)C(C)C"
                                     }
                                 ]
                             },
@@ -221,7 +219,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -247,9 +245,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-oxo-isovaleric acid",
+                                        "name": "2-ketoisovaleric acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "O=C(C(=O)O)C(C)C"
                                     }
                                 ]
                             },
@@ -265,7 +263,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }

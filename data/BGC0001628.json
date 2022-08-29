@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -49,8 +58,152 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001628",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1962669",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAX89998.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Heterologous expression"
+                                ],
+                                "publications": [
+                                    "pubmed:28505407"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28505407"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    },
+                                    {
+                                        "name": "cysteic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)S(=O)(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAX89999.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28505407"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28505407"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAX90000.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28505407"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28505407"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28505407"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Kibdelosporangium sp. AK-AA56",
         "publications": [
             "pubmed:28505407"

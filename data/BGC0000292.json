@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -41,8 +50,34 @@
             "start_coord": 1891389
         },
         "mibig_accession": "BGC0000292",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "341663",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EAU36744.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja3123653"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus terreus NIH2624",
         "publications": [
             "pubmed:23586797"

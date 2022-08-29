@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Removed TE-domain containing gene from NRP module information",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +40,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "CO\\C(CC(C)C(Cl)(Cl)Cl)=C\\C(=O)N(C)C(CC1=CC=CC=C1)C1=NC=CS1",
                 "compound": "barbamide",
@@ -51,10 +53,7 @@
         ],
         "loci": {
             "accession": "AF516145.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0000962",
         "minimal": false,
@@ -62,28 +61,6 @@
         "nrp": {
             "cyclic": false,
             "nrps_genes": [
-                {
-                    "gene_id": "AAN32977.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Activity assay"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Leucine",
-                                        "proteinogenic": true,
-                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "module_number": "0"
-                        }
-                    ]
-                },
                 {
                     "gene_id": "AAN32978.1",
                     "modules": [
@@ -119,7 +96,7 @@
                     ]
                 },
                 {
-                    "gene_id": "AAN32980.1",
+                    "gene_id": "AAN32981.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -129,7 +106,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -150,7 +127,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }

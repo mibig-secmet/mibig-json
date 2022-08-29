@@ -11,20 +11,14 @@
         },
         {
             "comments": [
-                "Fetch compound properties from PubChem"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
                 "Use gene names as per publication",
-                "Add structures for ilicicolin J/ 8-epi-ilicicolin H"
+                "Add structures for ilicicolin J/ 8-epi-ilicicolin H",
+                "Fetch compound properties from PubChem",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "3UOU7PODQJXIM6BEPUHHRRA5"
+                "3UOU7PODQJXIM6BEPUHHRRA5",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -169,8 +163,31 @@
             "start_coord": 1095186
         },
         "mibig_accession": "BGC0002035",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1735992",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "iliA",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Neonectria sp. DH2",
         "publications": [
             "pubmed:31216742"

@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -122,8 +131,100 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001344",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "764904",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ADH04678.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:20338521"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADH04679.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:20338521"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:20338521"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ADH04680.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:20338521"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Cystobacter sp. SBCb004",
         "publications": [
             "pubmed:20338521",

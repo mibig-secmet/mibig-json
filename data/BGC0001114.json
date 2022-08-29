@@ -22,12 +22,13 @@
         {
             "comments": [
                 "Removed gene names of 'No gene ID'",
-                "Removed duplicated gene identifier"
+                "Removed duplicated gene identifier",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,8 +39,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_struct": "C[C@H](OC(C)=O)\\C=C/C(=O)N[C@@H]1C[C@H](C)[C@H](C\\C=C(/C)\\C=C\\[C@H]2O[C@H](CC(O)=O)C[C@@]3(CO3)[C@@H]2O)O[C@@H]1C",
                 "chem_targets": [
@@ -326,14 +327,31 @@
         },
         "loci": {
             "accession": "JX307851.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001114",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "57975",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AGN11881.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Burkholderia thailandensis",
         "publications": [
             "pubmed:23517093"

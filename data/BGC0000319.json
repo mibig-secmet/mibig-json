@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,8 +37,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Inhibitor"
+                    "antibacterial",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -74,8 +75,7 @@
             "evidence": [
                 "Knock-out studies",
                 "Enzymatic assays",
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ],
             "start_coord": 142995
         },
@@ -96,9 +96,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-Amino-adipic-acid",
+                                        "name": "2-aminoadipic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C(C[C@@H](C(=O)O)N)CC(=O)O"
                                     }
                                 ]
                             },
@@ -113,7 +113,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -131,7 +131,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

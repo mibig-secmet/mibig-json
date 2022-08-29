@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,8 +43,40 @@
             "start_coord": 103096
         },
         "mibig_accession": "BGC0002375",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2259629",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1039/C8QO01104D"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "valine",
+                                    "structure": "CC(C)[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Cladosporium sp. SW67",
         "publications": [
             "doi:10.1039/C8QO01104D"

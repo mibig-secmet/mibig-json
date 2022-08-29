@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -30,14 +31,39 @@
             "completeness": "Unknown",
             "end_coord": 6782169,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 6738325
         },
         "mibig_accession": "BGC0002270",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "655844",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EFY95969.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32786262"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Metarhizium robertsii ARSEF 23",
         "publications": [
             "pubmed:32786262"

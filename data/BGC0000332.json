@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,8 +48,156 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000332",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "59625",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAZ03550.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17464052"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAZ03551.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17464052"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAZ03552.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17464052"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17464052"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-amino-6-hydroxy-2-piperidone",
+                                        "proteinogenic": false,
+                                        "structure": "C1CC(NC(=O)C1N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17464052"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17464052"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-chlorotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(Cl)C(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAZ03554.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17464052"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Microcystis sp. NIVA-CYA 172/5",
         "publications": [
             "pubmed:17464052"

@@ -24,12 +24,14 @@
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Sorted modules by module number",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,7 +42,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial",
+                    "antifungal"
                 ],
                 "chem_struct": "[H][C@@]12CS\\C(=C/C[C@@H](C)OC1=O)C(=O)NC\\C=C\\C=C\\[C@@H](O)C[C@H](O)CC1=NC(=CO1)C(=O)N2",
                 "chem_synonyms": [
@@ -60,6 +63,10 @@
                 "molecular_formula": "C22H27N3O7S"
             },
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_struct": "[H][C@]12C[C@@H](O)CN1C(=O)[C@@H](CC(C)C)NC(=O)[C@@H](NC(=O)C1=NC=CC=C1O)[C@@H](C)OC(=O)[C@H](N(C)C(=O)[C@H](C)NC(=O)[C@H](C(C)C(C)C)N(C)C(=O)CN(C)C2=O)C1=CC=CC=C1",
                 "compound": "fijimycin A",
                 "database_id": [
@@ -512,8 +519,7 @@
             "completeness": "complete",
             "end_coord": 118200,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 13530
         },
@@ -556,7 +562,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -574,7 +580,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -597,9 +603,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyproline",
+                                        "name": "4R-hydroxyproline",
                                         "proteinogenic": false,
-                                        "structure": "C1[C@H](NCC1O)C(=O)O"
+                                        "structure": "C1[C@H](NC[C@@H]1O)C(=O)O"
                                     }
                                 ]
                             },
@@ -620,9 +626,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Sarcosine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
                                     }
                                 ]
                             },
@@ -641,9 +647,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-methylleucine",
+                                        "name": "3-methylleucine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CC(C)C(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -662,7 +668,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -680,7 +686,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylglycine",
+                                        "name": "phenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC=C(C=C1)[C@@H](C(=O)O)N"
                                     }
@@ -706,7 +712,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -729,7 +735,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -754,7 +760,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }

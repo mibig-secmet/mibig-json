@@ -23,12 +23,15 @@
             "comments": [
                 "Add new compound structure (SMILES) for locillomycin",
                 "Add new compound: locillomycin B",
-                "Add new compound: locillomycin C"
+                "Add new compound: locillomycin C",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,6 +41,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal"
+                ],
                 "chem_struct": "O=C(N[C@@H]1C(N[C@@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(OC1C)=O)C(C)C)=O)Cc2ccc(O)cc2)=O)=O)CC(O)=O)=O)CC(N)=O)=O)=O)CC(O)=O)=O)CCC(N)=O)=O)CCCCCCCCCCCC",
                 "compound": "locillomycin",
                 "mol_mass": 1145.5604546880002,
@@ -61,8 +67,140 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001005",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1423",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AHI59108.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25362061"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AHI59109.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25362061"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25362061"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25362061"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AHI59110.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25362061"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25362061"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Bacillus subtilis",
         "publications": [
             "pubmed:25362061"

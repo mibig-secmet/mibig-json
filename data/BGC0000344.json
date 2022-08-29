@@ -20,12 +20,14 @@
         },
         {
             "comments": [
-                "Refined reference coordinates"
+                "Refined reference coordinates",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -34,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "swarming motility"
+                ],
                 "compound": "entolysin"
             }
         ],
@@ -44,8 +49,210 @@
             "start_coord": 3206616
         },
         "mibig_accession": "BGC0000344",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "384676",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAK15814.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAK15815.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:20023108"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pseudomonas entomophila L48",
         "publications": [
             "pubmed:20023108"

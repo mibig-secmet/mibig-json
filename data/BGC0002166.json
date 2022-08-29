@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -33,12 +34,56 @@
         ],
         "loci": {
             "accession": "MH938357.1",
-            "completeness": "Unknown",
-            "evidence": []
+            "completeness": "Unknown"
         },
         "mibig_accession": "BGC0002166",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1649241",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AZC86156.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:30452111"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "1-pyrroline-5-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)C1/N=C\\CC1"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:30452111"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Metarhizium rileyi",
         "publications": [
             "pubmed:30452111",

@@ -11,12 +11,14 @@
         },
         {
             "comments": [
-                "Fixed DOIs"
+                "Fixed DOIs",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "CUSGWVK3I4TVHJH7NHPFAP2L"
+                "CUSGWVK3I4TVHJH7NHPFAP2L",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -33,8 +35,104 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001961",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1931",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QCE20598.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Heterologous expression",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1039/C8SC05670F"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QCE20608.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Heterologous expression",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1039/C8SC05670F"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QCE20609.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Heterologous expression",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1039/C8SC05670F"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QCE20614.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Heterologous expression",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1039/C8SC05670F"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "benzoxazolinate",
+                                        "proteinogenic": false,
+                                        "structure": "c1ccc2c(c1)nc(o2)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp.",
         "publications": [
             "pubmed:30996885"

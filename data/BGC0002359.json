@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -31,8 +32,34 @@
             "start_coord": 4756396
         },
         "mibig_accession": "BGC0002359",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "337066",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "NSC23530.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33207845"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces albus subsp. chlorinus",
         "publications": [
             "pubmed:33207845",

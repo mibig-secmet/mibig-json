@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -24,8 +33,108 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001945",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1929279",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AXM43052.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:30088846"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:30088846"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:30088846"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "hydroxyproline",
+                                        "proteinogenic": false,
+                                        "structure": "C(*)1C[C@H](NC(*)1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AXM43064.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:30088846"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Myxococcus sp.",
         "publications": [
             "pubmed:30088846"

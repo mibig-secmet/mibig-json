@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Removed gene names of 'No gene ID'"
+                "Removed gene names of 'No gene ID'",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -46,7 +48,7 @@
             },
             {
                 "chem_acts": [
-                    "Sodium channel blocking"
+                    "sodium channel blocking"
                 ],
                 "chem_struct": "CO\\C(CCNC(=O)CC\\C=C\\C(C)CC\\C(CCCC#C)=C\\Cl)=C\\C(=O)N1C(C)C=CC1=O",
                 "chem_targets": [
@@ -63,6 +65,10 @@
                 "molecular_formula": "C27H37ClN2O4"
             },
             {
+                "chem_acts": [
+                    "surfactant",
+                    "toxic"
+                ],
                 "chem_struct": "CO\\C(CCNC(=O)CC\\C=C\\C(C)CC\\C(CCCC=C)=C\\Cl)=C\\C(=O)N1C(C)C=CC1=O",
                 "chem_targets": [
                     {
@@ -356,16 +362,31 @@
         },
         "loci": {
             "accession": "AY522504.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001001",
         "minimal": false,
         "ncbi_tax_id": "158786",
         "nrp": {
-            "cyclic": true
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAS98786.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         "organism_name": "Lyngbya majuscula",
         "polyketide": {

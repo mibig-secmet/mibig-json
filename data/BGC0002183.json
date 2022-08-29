@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,8 +35,56 @@
             "start_coord": 130279
         },
         "mibig_accession": "BGC0002183",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "49331",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ctg1_114",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:30799038"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ctg1_116",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:30799038"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Wickerhamiella pararugosa",
         "publications": [
             "pubmed:30799038",

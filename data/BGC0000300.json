@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "OC[C@@H](NC(=O)[C@H](CO)NC(=O)[C@H]1COC(=N1)C1=CC=CC=C1O)C(=O)N[C@@H](CO)C(=O)N[C@H](CCCN(O)C=O)C(=O)N[C@@H]1CCCN(O)C1=O",
                 "compound": "amychelin",
                 "database_id": [
@@ -43,8 +56,163 @@
             "start_coord": 2722391
         },
         "mibig_accession": "BGC0000300",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "591158",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EFL06864.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "pubmed:21699219"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "EFL06865.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "pubmed:21699219"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "pubmed:21699219"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "EFL06866.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "pubmed:21699219"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CNO"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "EFL06867.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "pubmed:21699219"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "pubmed:21699219"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-formyl-N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN(C=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "EFL06871.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Homology",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "pubmed:21699219"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "salicylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. AA4",
         "publications": [
             "pubmed:21699219"

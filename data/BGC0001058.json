@@ -23,12 +23,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Sorted modules by module number"
+                "Sorted modules by module number",
+                "Corrected NRP module numbers",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,7 +42,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "[H][C@](N)(CN[C@@]([H])(CC(N)=O)C1=NC(N)=C(C)C(=N1)C(=O)N[C@]([H])(C(=O)N[C@]([H])(CCO)[C@@]([H])(O)[C@]([H])(C)C(=O)N[C@]([H])(C(=O)NCCC1=N[C@]([H])(CS1)C1=NC(=CS1)C(=O)NCCC(N)=N)C(C)(C)O)[C@@]([H])(O[C@@H]1O[C@@H](C)[C@@H](O)[C@H](O)[C@@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](OC(N)=O)[C@@H]1O)C1=CNC=N1)C(N)=O",
                 "chem_targets": [
@@ -577,9 +579,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
@@ -595,7 +597,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Histidine",
+                                        "name": "histidine",
                                         "proteinogenic": true,
                                         "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }
@@ -618,7 +620,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homoserine",
+                                        "name": "homoserine",
                                         "proteinogenic": false,
                                         "structure": "C(CO)[C@@H](C(=O)O)N"
                                     }
@@ -651,7 +653,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -669,9 +671,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
@@ -698,50 +700,12 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference",
+                                    "Homology"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)S"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "LCL",
-                            "module_number": "10"
-                        },
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Cysteine",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)S"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "Heterocyclization",
-                            "modification_domains": [
-                                "Oxidation"
-                            ],
-                            "module_number": "11"
-                        },
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Beta-alanine",
+                                        "name": "beta-alanine",
                                         "proteinogenic": false,
                                         "structure": "NCCC(=O)O"
                                     }
@@ -750,6 +714,29 @@
                             "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "9"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            },
+                            "active": true,
+                            "c_dom_subtype": "Heterocyclization",
+                            "comments": "Trans-activates ZbmIII",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "10"
                         }
                     ]
                 },
@@ -760,6 +747,19 @@
                             "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "12"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ACG60771.1",
+                    "modules": [
+                        {
+                            "active": false,
+                            "comments": "Trans-activates cysteine",
+                            "modification_domains": [
+                                "Oxidation"
+                            ],
+                            "module_number": "11"
                         }
                     ]
                 },
@@ -794,7 +794,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

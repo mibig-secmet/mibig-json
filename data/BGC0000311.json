@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CNC(CC(C)C)C(=O)NC1C(O)C2=CC=C(OC3=C(OC4O[C@H](CO)C(O)[C@H](O)C4O)C4=CC(=C3)C(NC(=O)C(CC(N)=O)NC1=O)C(=O)NC1C3=CC(=C(O)C=C3)C3=C(O)C=C(O)C=C3C(NC(=O)C(NC1=O)C(OC1C[C@](C)(N)C(=O)C(C)O1)C1=CC=C(O4)C(Cl)=C1)C(O)=O)C(Cl)=C2",
                 "compound": "balhimycin",
                 "database_id": [
@@ -41,8 +54,164 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000311",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1081091",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAC48360.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/JB.186.18.6093-6100.2004"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-hydroxytyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@H]([C@@H](C(=O)O)N)O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAC48361.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1099/00221287-148-4-1105",
+                                    "doi:10.1016/S1074-5521(02)00101-1",
+                                    "doi:10.1128/JB.186.18.6093-6100.2004"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1099/00221287-148-4-1105",
+                                    "doi:10.1016/S1074-5521(02)00101-1",
+                                    "doi:10.1128/JB.186.18.6093-6100.2004"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1099/00221287-148-4-1105"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-hydroxytyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@H]([C@@H](C(=O)O)N)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAC48362.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1099/00221287-148-4-1105"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3,5-dihydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "N[C@H](C(=O)O)c1cc(O)cc(O)c1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAC48369.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies",
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/JB.186.18.6093-6100.2004",
+                                    "doi:10.1002/cbic.200900600"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Amycolatopsis balhimycina DSM 5908",
         "publications": [
             "pubmed:10390204",

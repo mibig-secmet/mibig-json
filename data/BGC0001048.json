@@ -21,13 +21,15 @@
         {
             "comments": [
                 "Add new compound: tallysomycin B",
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,7 +41,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC1C(C(C(C(O1)OC(C(C2=NC(=CS2)C3=NC(=CS3)C(=O)NCCCC(CC(=O)NCCCNCCCCN)N)O)NC(=O)C(C(C)O)NC(=O)CC(C(C)NC(=O)C(C(C4=CN=CN4)OC5C(C(C(C(O5)CO)O)O)OC6C(C(C(C(O6)CO)O)OC(=O)N)O)NC(=O)C7=C(C(=NC(=N7)C(CC(=O)N)NCC(C(=O)N)N)N)C)O)O)O)N",
                 "chem_targets": [
@@ -55,6 +57,9 @@
                 "molecular_formula": "C68H110N22O27S2"
             },
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "C[C@H]1[C@H]([C@H]([C@H]([C@@H](O1)OC(C(C2=NC(=CS2)C3=NC(=CS3)C(=O)NCCCNCCCCN)O)NC(=O)[C@@H]([C@@H](C)O)NC(=O)C[C@@H]([C@@H](C)NC(=O)[C@H](C(C4=CN=CN4)O[C@H]5[C@H]([C@@H]([C@H]([C@@H](O5)CO)O)O)O[C@@H]6[C@H]([C@@H]([C@@H]([C@H](O6)CO)O)OC(=O)N)O)NC(=O)C7=C(C(=NC(=N7)[C@H](CC(=O)N)NC[C@H](C(=O)N)N)N)C)O)O)O)N",
                 "compound": "tallysomycin B",
                 "mol_mass": 1602.6402552559991,
@@ -477,9 +482,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
@@ -495,7 +500,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Histidine",
+                                        "name": "histidine",
                                         "proteinogenic": true,
                                         "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }
@@ -518,7 +523,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -541,7 +546,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -569,7 +574,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -587,9 +592,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
@@ -620,7 +625,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -646,7 +651,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-alanine",
+                                        "name": "beta-alanine",
                                         "proteinogenic": false,
                                         "structure": "NCCC(=O)O"
                                     }

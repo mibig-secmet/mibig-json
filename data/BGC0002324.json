@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -43,14 +44,65 @@
             "accession": "CP069338.1",
             "completeness": "Unknown",
             "end_coord": 8368804,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 8364482
         },
         "mibig_accession": "BGC0002324",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "83451",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QRK05499.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "pubmed:34623817"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "nicotinic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CN=C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "benzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QRK05501.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:34623817"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Archangium violaceum",
         "publications": [
             "pubmed:34623817",

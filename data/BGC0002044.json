@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -28,14 +29,168 @@
             "completeness": "Unknown",
             "end_coord": 2204004,
             "evidence": [
-                "Sequence-based prediction",
                 "Knock-out studies"
             ],
             "start_coord": 2138714
         },
         "mibig_accession": "BGC0002044",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1593482",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AXA91301.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AXA91302.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AXA94654.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33918939"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Massilia sp. YMA4",
         "publications": [
             "pubmed:33918939",

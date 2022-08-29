@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CC[C@@H](C)CCCCC(=O)N[C@@H](CCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCN)C(=O)N[C@H]1CCNC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)[C@@H](C)O",
                 "compound": "colistin A",
                 "database_id": [
@@ -34,6 +47,9 @@
                 "molecular_formula": "C53H100N16O13"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "C[C@H]([C@H]1C(=O)NCC[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CCN)CCN)CC(C)C)CC(C)C)CCN)NC(=O)[C@H](CCN)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CCN)NC(=O)CCCCC(C)C)O",
                 "compound": "colistin B",
                 "database_id": [
@@ -48,8 +64,207 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001192",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "44250",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AJM89734.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AJM89735.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AJM89738.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25609230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Paenibacillus alvei",
         "publications": [
             "pubmed:25609230"

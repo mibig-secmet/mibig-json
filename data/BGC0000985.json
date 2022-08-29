@@ -22,21 +22,16 @@
         },
         {
             "comments": [
+                "Cleaned up synonym list",
                 "Update compound structure (SMILES) for nordidemnin B",
                 "Linked new PubChem id for nordidemnin B (pubchem:164049)",
-                "Add new compound: dehydrodidemnin B (aplidine)"
+                "Add new compound: dehydrodidemnin B (aplidine)",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
                 "5UL74VURKJ25VSPPPO3H2NYB"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -49,7 +44,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic",
+                    "surfactant"
                 ],
                 "chem_struct": "CC[C@H](C)[C@@H]1[C@H](CC(=O)O[C@H](C(=O)[C@@H](C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N([C@H](C(=O)O[C@@H]([C@@H](C(=O)N1)NC(=O)[C@@H](CC(C)C)N(C)C(=O)[C@@H]3CCCN3C(=O)C(C)O)C)CC4=CC=C(C=C4)OC)C)CC(C)C)C)C(C)C)O",
                 "compound": "didemnin B",
@@ -237,9 +233,6 @@
             "accession": "CP003239.1",
             "completeness": "complete",
             "end_coord": 729697,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 674941
         },
         "mibig_accession": "BGC0000985",
@@ -247,6 +240,200 @@
         "ncbi_tax_id": "1110502",
         "nrp": {
             "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "AFK57212.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AFK57214.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AFK57215.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AFK57219.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AFK57220.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AFK57221.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22458477"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
             "release_type": [
                 "Macrolactamization"
             ],

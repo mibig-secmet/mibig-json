@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Added missing polyketide class"
+                "Added missing polyketide class",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "CUSGWVK3I4TVHJH7NHPFAP2L"
+                "CUSGWVK3I4TVHJH7NHPFAP2L",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -77,8 +79,88 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000335",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "43",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AID65222.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AID65224.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ol500779s"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "S-beta-hydroxyphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "O[C@@H](C1=CC=CC=C1)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AID65225.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ol500779s"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Cystobacter fuscus",
         "publications": [
             "pubmed:24735013"

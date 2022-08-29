@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -28,14 +29,118 @@
             "end_coord": 2721317,
             "evidence": [
                 "Knock-out studies",
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ],
             "start_coord": 2686084
         },
         "mibig_accession": "BGC0002335",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "28095",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BolO",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "pubmed:32780452"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BolH",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32780452"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32780452"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32780452"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "homoserine",
+                                        "proteinogenic": false,
+                                        "structure": "C(CO)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32780452"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Burkholderia gladioli",
         "publications": [
             "pubmed:32780452",

@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -33,8 +34,35 @@
             "start_coord": 6184
         },
         "mibig_accession": "BGC0002300",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "668825",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AFJ20782.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22704654"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-acetyl-N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "CC(=O)N(CCC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. ATCC 700974",
         "publications": [
             "pubmed:22704654",

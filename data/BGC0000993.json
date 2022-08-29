@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -51,8 +52,7 @@
             "evidence": [
                 "Knock-out studies",
                 "Enzymatic assays",
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ]
         },
         "mibig_accession": "BGC0000993",
@@ -60,6 +60,91 @@
         "ncbi_tax_id": "536",
         "nrp": {
             "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABP57745.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17400765"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABP57748.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17400765"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17400765"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABP57749.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:17400765"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
             "release_type": [
                 "Macrolactamization"
             ],

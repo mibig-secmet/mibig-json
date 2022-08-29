@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "chem_struct": "COC1=C(C)C(=O)C2=C(C(CO)N3C(O)C4CC5C6OCCN6C2C3C5N4C)C1=O",
                 "compound": "naphthyridinomycin",
                 "database_id": [
@@ -41,8 +55,91 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000394",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "68232",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AGD80616.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:23841701"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "beta-hydroxy-3-hydroxy-O-methyl-5-methyltyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(C)C(=C(O)C=C1C(O)[C@@H](C(=O)O)N)OC"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGD80623.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23841701"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23841701"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23841701"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces lusitanus",
         "publications": [
             "pubmed:23841701"

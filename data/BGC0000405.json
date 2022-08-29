@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -47,7 +48,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)CCC[C@H](N)C(O)=O)C(O)=O",
                 "chem_synonyms": [
@@ -67,7 +68,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "[Na+].[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)Cc1ccccc1)C([O-])=O",
                 "chem_synonyms": [
@@ -87,7 +88,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_synonyms": [
                     "penicillin v"
@@ -177,13 +178,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ACVS assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.fgb.2007.03.008"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-Amino-adipic-acid",
+                                        "name": "2-aminoadipic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C(C[C@@H](C(=O)O)N)CC(=O)O"
                                     }
                                 ]
                             },
@@ -194,11 +198,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ACVS assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.fgb.2007.03.008"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -212,11 +219,14 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ACVS assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.fgb.2007.03.008"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

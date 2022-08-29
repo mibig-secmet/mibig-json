@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "compound": "equibactin"
             }
         ],
@@ -35,8 +48,52 @@
             "start_coord": 36024
         },
         "mibig_accession": "BGC0000347",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "148942",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAP20363.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "salicylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAP20364.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptococcus equi subsp. equi",
         "publications": [
             "pubmed:18990191"

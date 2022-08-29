@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "NC(=O)OCC(O)CC(NC(=O)C1NCCCC1O)C(=O)NC(CC1=CN=C(N)N1)C(=O)NC(C(O)C1=NC=C(Cl)N1)C(O)=O",
                 "compound": "GE81112",
                 "database_id": [
@@ -40,8 +53,170 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000360",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "762837",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CBL93716.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20710026"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S-hydroxypipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1C[C@@H]([C@H](NC1)C(=O)O)O"
+                                    },
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "D-pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@H](C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBL93718.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20710026"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "5R-hydroxy-2S-aminopentanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O[C@@H](C[C@@H](C(=O)O)N)CO"
+                                    },
+                                    {
+                                        "name": "ornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20710026"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBL93720.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20710026"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S-hydroxy-6-chlorohistidine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(NC(Cl)=N1)[C@H]([C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBL93723.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20710026"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBL93730.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20710026"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. L-49973",
         "publications": [
             "pubmed:20710026"

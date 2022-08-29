@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,8 +48,143 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001371",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1160106",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AMM63162.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Radio labelling",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23463246"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "ornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23463246"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23463246"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Radio labelling",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23463246"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "homotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23463246"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23463246"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S-hydroxy-4S-methylproline",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@@H]1[C@H](O)[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AMM63166.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23463246"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "linoleic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus nidulans NRRL 8112",
         "publications": [
             "pubmed:27502607"

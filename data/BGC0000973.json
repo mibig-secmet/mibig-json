@@ -21,13 +21,15 @@
         {
             "comments": [
                 "Linked new NPAtlas id for collismycin A (npatlas:NPA020595)",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "H5KVDLSVQ3TJW7SKCDNBDEVC",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +40,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Neuroprotectant"
+                    "antibacterial",
+                    "antifungal",
+                    "neuroprotectant"
                 ],
                 "chem_struct": "COC1=C(/C(=C\\N=O)/NC(=C1)C2=CC=CC=N2)SC",
                 "compound": "collismycin A",
@@ -139,8 +143,7 @@
             "accession": "HE575208.1",
             "completeness": "complete",
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ]
         },
         "mibig_accession": "BGC0000973",
@@ -160,7 +163,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -183,7 +186,7 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }

@@ -22,12 +22,15 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Corrected NRP gene names",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,6 +40,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CCCCCCC\\C=C\\C=C\\C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@H]1CCCCNC(=O)\\C=C\\[C@H](C)NC1=O",
                 "compound": "luminmycin A",
                 "database_id": [
@@ -101,7 +107,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -124,7 +130,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
@@ -142,7 +148,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }

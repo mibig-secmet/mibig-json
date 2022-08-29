@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -42,8 +51,31 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001255",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "42747",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AGO86662.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23614392"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fusarium heterosporum",
         "publications": [
             "pubmed:23614392",

@@ -20,12 +20,14 @@
         },
         {
             "comments": [
-                "Refined reference coordinates"
+                "Refined reference coordinates",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -34,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "C[C@@H]1[C@@H](C(=O)O[C@@H]([C@@H](C(=O)O[C@@H]([C@@H](C(=O)O1)NC(=O)CNC(=O)C2=C(C(=CC=C2)O)O)C)NC(=O)CNC(=O)C3=C(C(=CC=C3)O)O)C)NC(=O)CNC(=O)C4=C(C(=CC=C4)O)O",
                 "compound": "bacillibactin",
                 "database_id": [
@@ -50,8 +55,73 @@
             "start_coord": 3280293
         },
         "mibig_accession": "BGC0000309",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "224308",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAB15186.3",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:11112781"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:11112781"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAB15188.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:11112781"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Bacillus subtilis subsp. subtilis str. 168",
         "publications": [
             "pubmed:9384377",

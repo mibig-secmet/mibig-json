@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "C1C[C@@H](C(=O)N(C1)O)NC(=O)[C@H](CO)NC(=O)[C@@H](CCCCN)NC(=O)[C@H](CC2=CN=CN2)NC(=O)[C@@H]3COC(=N3)C4=CC=CC=C4O",
                 "compound": "gobichelin A",
                 "database_id": [
@@ -35,6 +48,9 @@
                 "molecular_formula": "C30H41N9O9"
             },
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "NCCCC[C@@H](NC(=O)[C@H](CC1=CN=CN1)NC(=O)[C@@H]1COC(=N1)C1=CC=CC=C1O)C(=O)N[C@@H](CO)C(=O)N[C@H]1CCCN(O)C1=O",
                 "compound": "gobichelin B",
                 "mol_mass": 671.302723892,
@@ -46,8 +62,137 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000366",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1286194",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AGE11891.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Radio labelling"
+                                ],
+                                "publications": [
+                                    "pubmed:23336063"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGE11892.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23336063"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "salicylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGE11898.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Radio labelling"
+                                ],
+                                "publications": [
+                                    "pubmed:23336063"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23336063"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGE11899.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23336063"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:23336063"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CNO"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. NRRL F-4415",
         "publications": [
             "pubmed:23336063"

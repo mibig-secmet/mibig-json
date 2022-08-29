@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_struct": "[H][C@@](C)(C(=O)C1=CC=CN1)[C@@]1([H])O[C@@]2(CC[C@@H](C)[C@@]([H])(CC3=NC4=C(O3)C=CC(NC)=C4C(O)=O)O2)[C@H](C)C[C@H]1C",
                 "compound": "A23187",
                 "database_id": [
@@ -35,12 +49,44 @@
                 "molecular_formula": "C29H37N3O6"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 8,
+                                "end": 400
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "proline",
+                                    "publications": [
+                                        "pubmed:21173184"
+                                    ],
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "AEH42484.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "HM452329.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000032",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1079985",
         "organism_name": "Streptomyces chartreusis NRRL 3882",
         "publications": [

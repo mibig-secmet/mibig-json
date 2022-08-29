@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -34,8 +43,67 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001823",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2020327",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ATY69584.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ATY69590.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study",
+                                    "Homology"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "D-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "1-aminocyclopropane-1-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CC1(C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    },
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. CB02120-2",
         "publications": [
             "pubmed:29229819"

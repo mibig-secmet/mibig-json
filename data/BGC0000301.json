@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,13 +36,35 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "inhibitor"
+                ],
                 "chem_struct": "CC[C@@H]([C@H]1C(NCCCC[C@@H](NC(N[C@H](C(O)=O)CCCNC(N)=N)=O)C(N[C@@H](C(C)C)C(N[C@@H](CCC2=CC=C(O)C=C2)C(N(C)[C@@H](CCC3=CC=C(O)C=C3)C(N1)=O)=O)=O)=O)=O)C",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.1016/j.bmcl.2016.09.008"
+                        ],
+                        "target": "Protease"
+                    }
+                ],
                 "compound": "anabaenopeptin 908",
                 "mol_mass": 908.5119883760002,
                 "molecular_formula": "C45H68N10O10"
             },
             {
+                "chem_acts": [
+                    "inhibitor"
+                ],
                 "chem_struct": "CC[C@H](C)[C@H]1C(=O)NCCCC[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N1)CCC2=CC=C(C=C2)O)C)CCC3=CC=C(C=C3)O)C(C)C)NC(=O)N[C@@H](CC4=CC=C(C=C4)O)C(=O)O",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.1016/j.bmcl.2016.09.008"
+                        ],
+                        "target": "Protease"
+                    }
+                ],
                 "compound": "anabaenopeptin 915",
                 "database_id": [
                     "npatlas:NPA06610"
@@ -46,8 +78,160 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000301",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "388467",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ABV79985.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21622740"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    },
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:21622740"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABV79986.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:21622740"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABV79987.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:21622740"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "homotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:21622740"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "homotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABV79988.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:21622740"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Planktothrix agardhii NIVA-CYA 126/8",
         "publications": [
             "pubmed:21622740"

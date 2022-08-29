@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,10 +37,11 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Antifungal",
-                    "Cytotoxic",
-                    "Antiviral"
+                    "antibacterial",
+                    "antifungal",
+                    "antiviral",
+                    "cytotoxic",
+                    "insecticidal"
                 ],
                 "chem_moieties": [
                     {
@@ -91,6 +102,60 @@
         "ncbi_tax_id": "285482",
         "nrp": {
             "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "ABA59547.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:16511823"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-ketoisovaleric acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(C(=O)O)C(C)C"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:16511823"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ABA59548.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:16511823"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pyruvic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(=O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
             "subclass": "Cyclic depsipeptide"
         },
         "organism_name": "Streptomyces tsusimaensis",

@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,8 +36,127 @@
             "start_coord": 4311524
         },
         "mibig_accession": "BGC0002001",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1328314",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_039806850.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29134779"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29134779"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_039806852.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29134779"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_039806856.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29134779"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,4-diaminobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CN)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_144411596.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29134779"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-formyl-N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN(C=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Azotobacter chroococcum NCIMB 8003",
         "publications": [
             "pubmed:29134779"

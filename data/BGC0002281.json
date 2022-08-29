@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -35,8 +36,35 @@
             "start_coord": 1971642
         },
         "mibig_accession": "BGC0002281",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "249398",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "smbA",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Heterologous expression"
+                                ],
+                                "publications": [
+                                    "pubmed:34581588"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fusarium commune",
         "publications": [
             "pubmed:34581588",

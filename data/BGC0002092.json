@@ -4,7 +4,8 @@
             "comments": [
                 "Submitted",
                 "Corrected NRP module activity",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "7JBBERLOMRODNNGUFOT34CPQ",
@@ -53,8 +54,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Antifungal"
+                    "antibacterial",
+                    "antifungal"
                 ],
                 "chem_struct": "CC[C@H](C)[C@H](NC([C@H](C)NC([C@@H](CCC(N)=O)NC([C@H](CC(C)C)NC([C@@H](CO)NC1=O)=O)=O)=O)=O)C(N[C@@H](CCC(O)=O)C(O[C@@H]([C@@H](NC([C@H](CC(O)=O)NC([C@@H](CC(C)C)NC(C[C@@H](O)CCCCCCC)=O)=O)=O)C(N[C@H](CC(C)C)C(N[C@@H]1CC(C)C)=O)=O)C)=O)=O",
                 "compound": "tensin",
@@ -83,7 +84,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "CC[C@H](C)[C@H](NC([C@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@H](CC(C)C)NC([C@@H](CO)NC1=O)=O)=O)=O)=O)C(N[C@@H](CCC(O)=O)C(O[C@@H]([C@@H](NC([C@H](CC(O)=O)NC([C@@H](CC(C)C)NC(C[C@@H](O)CCCCCCCCC)=O)=O)=O)C(N[C@H](CC(C)C)C(N[C@@H]1CC(C)C)=O)=O)C)=O)=O",
                 "compound": "stechlisin F",
@@ -101,10 +102,7 @@
         ],
         "loci": {
             "accession": "MT080808.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0002092",
         "minimal": false,
@@ -119,11 +117,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -137,13 +138,21 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "aspartic acid, glutamic acid",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    },
+                                    {
+                                        "name": "glutamic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -160,13 +169,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine, Serine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -178,13 +190,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine, Valine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -196,13 +211,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine, Valine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -214,11 +232,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -237,13 +258,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine, Isoleucine, Valine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -255,13 +279,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid, Glutamic acid, Glutamic acid methyl ester",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glutamic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -273,11 +300,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -291,11 +321,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamine",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
@@ -309,13 +342,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32822175"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine, Valine, aminobutyric acid",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },

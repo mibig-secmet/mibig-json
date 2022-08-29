@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -54,8 +55,34 @@
             "start_coord": 1
         },
         "mibig_accession": "BGC0002268",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "5081",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QNH68024.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32779306"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Penicillium sp.",
         "publications": [
             "pubmed:32779306"

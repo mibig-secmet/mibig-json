@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -41,8 +50,118 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001630",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "312019",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAW32322.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:27732651"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylpyruvic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)CC(=O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAW32323.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:27732651"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "beta-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "NCCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:32696567",
+                                    "pubmed:27732651"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAW32324.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:27732651"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:27732651"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-hydroxyphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "O[C@H](C1=CC=CC=C1)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "uncultured Candidatus Entotheonella sp.",
         "publications": [
             "pubmed:27732651"

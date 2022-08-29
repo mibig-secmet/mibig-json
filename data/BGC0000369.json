@@ -21,13 +21,14 @@
         {
             "comments": [
                 "Remove negative molecular mass",
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal"
                 ],
                 "chem_moieties": [
                     {
@@ -50,10 +51,7 @@
         ],
         "loci": {
             "accession": "KJ502174.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0000369",
         "minimal": false,
@@ -72,9 +70,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Dihydroxy hexadecanoic acid",
+                                        "name": "2,3-dihydroxyhexadecanoic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CCCCCCCCCCCCCC(C(C(=O)O)O)O"
                                     }
                                 ]
                             },
@@ -94,7 +92,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -112,7 +110,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -135,7 +133,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -153,7 +151,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamine",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
@@ -171,7 +169,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -194,7 +192,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -212,7 +210,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -235,9 +233,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "N-methyl-threonine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -256,9 +254,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamine / Tyrosine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },

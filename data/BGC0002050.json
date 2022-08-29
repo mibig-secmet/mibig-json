@@ -10,7 +10,8 @@
                 "Merged cross-CDS PKS modules",
                 "Sorted modules by module number",
                 "Added version to NCBI accession",
-                "Added extra compounds from annotathon data"
+                "Added extra compounds from annotathon data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "Z7AIIJAM3U3HR6IYDPQOINM4",
@@ -27,7 +28,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "CON=CC=CC(=O)NC=CC[C@H]1C[C@@H](OC(=O)[C@H](CCCCN)NC(=O)C[C@@H](C)O)[C@H]2O[C@H]2[C@@H](O)C=CC2=C(C(=O)O1)C(O)=CC=C2",
                 "compound": "necroxime A",
@@ -216,8 +217,7 @@
             "completeness": "complete",
             "end_coord": 86009,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 20001
         },
@@ -234,11 +234,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32040253"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -257,11 +260,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32040253"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -279,11 +285,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32040253"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }

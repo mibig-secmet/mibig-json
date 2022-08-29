@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "C[C@@H]1[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N2CC[C@@H]([C@H]2C(=O)N/C(=C/C3=CNC4=CC=CC=C43)/C(=O)N[C@H](C(=O)N[C@H](C(=O)N5CC[C@H]([C@H]5C(=O)O1)O)[C@H](C(C)C)O)[C@H](C)C6=CNC7=CC=CC=C76)O)C)[C@H](C)O)NC(=O)[C@H](CO)NC(=O)C[C@@H](C(=O)O)N",
                 "compound": "telomycin",
                 "database_id": [
@@ -39,8 +52,219 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001406",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "58343",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ALV86866.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "allo-threonine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@@H]([C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ALV86867.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "dehydrotryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)/C=C(/C(=O)O)\\N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-methyltryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H](C1=CNC2=CC=CC=C21)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ALV86868.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:26043159"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces canus",
         "publications": [
             "pubmed:26829473"

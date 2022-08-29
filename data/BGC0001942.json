@@ -11,28 +11,14 @@
         },
         {
             "comments": [
-                "Fetch compound properties from PubChem"
+                "Cleaned up synonym list",
+                "Fetch compound properties from PubChem",
+                "Fixed DOIs",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Fixed DOIs"
-            ],
-            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
                 "CUSGWVK3I4TVHJH7NHPFAP2L"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -61,8 +47,83 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001942",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "92743",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AYJ71720.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies",
+                                    "ACVS assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1038/s41929-018-0178-2"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies",
+                                    "ACVS assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1038/s41929-018-0178-2"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    },
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AYJ71721.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "doi:10.1038/s41929-018-0178-2"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-diaminopropionic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces rimosus subsp. paromomycinus",
         "publications": [
             "doi:10.1038/s41929-018-0178-2"

@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -34,8 +43,35 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001884",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1174528",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "DAB41917.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:30141631"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fischerella sp. PCC 9339",
         "publications": [
             "pubmed:30141631"

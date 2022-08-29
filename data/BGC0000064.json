@@ -17,10 +17,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities",
+                "Fixed biosynthetic classes"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
@@ -36,11 +47,34 @@
         ],
         "loci": {
             "accession": "AY604568.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000064",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "117187",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAT28740.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fusarium verticillioides",
         "publications": [
             "pubmed:15368570"

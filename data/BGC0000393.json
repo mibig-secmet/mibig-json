@@ -22,12 +22,15 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Corrected NRP gene names",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,6 +40,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "predation"
+                ],
                 "chem_struct": "CNC(CO)C(=O)NC(CC(C)C)C(=O)NC(C(O)(C)C)C(=O)NC(CO)C(=O)NC(C(C)C)C(=O)C(=O)NC(CO)C(=O)NC(CC1=CC=C(O)C=C1)C(=O)NC(CCCN)CC(=O)NC(C)C(=O)O",
                 "compound": "myxoprincomide-c506",
                 "database_id": [
@@ -100,9 +106,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -121,9 +130,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -141,9 +153,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "bOH-Val",
+                                        "name": "3-hydroxyvaline",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CC(O)(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -157,9 +169,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -175,9 +190,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -193,9 +211,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -211,9 +232,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -229,11 +253,14 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "bLys",
+                                        "name": "beta-lysine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C(C[C@@H](CC(=O)O)N)CN"
                                     }
                                 ]
                             },
@@ -260,9 +287,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/anie.201106305"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }

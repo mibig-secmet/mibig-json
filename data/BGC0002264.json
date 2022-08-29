@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -51,8 +52,56 @@
             "start_coord": 62010
         },
         "mibig_accession": "BGC0002264",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1873369",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "KAF7597139.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33242032"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cinnamic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)/C=C/C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "KAF7597140.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33242032"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus hancockii",
         "publications": [
             "pubmed:33242032",

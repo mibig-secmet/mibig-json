@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Removed empty gene annotations"
+                "Removed empty gene annotations",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "compound": "salinichelins"
             }
         ],
@@ -204,8 +208,88 @@
             "start_coord": 18300
         },
         "mibig_accession": "BGC0001767",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1169181",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ctg1_orf20",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28809850"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CNO"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28809850"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28809850"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CNO"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28809850"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CNO"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Salinispora pacifica CNY331",
         "publications": [
             "pubmed:28809850"

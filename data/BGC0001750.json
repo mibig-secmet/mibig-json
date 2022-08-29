@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -41,8 +50,60 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001750",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "889268",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ATG32071.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Feeding study",
+                                    "Mass spectrometry",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:28944573"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ATG32076.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Feeding study",
+                                    "Mass spectrometry",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:28944573"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Nannocystis pusilla",
         "publications": [
             "pubmed:28944573"

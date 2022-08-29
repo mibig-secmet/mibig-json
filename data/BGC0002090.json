@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Submitted",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "HSOJFFPY5IUT4HBQLSN7DGJX",
@@ -20,8 +21,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Antimalarial"
+                    "antimalarial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CCCCCCCCCCCC1=CC=C(N1)C=C2C(=CC(=N2)C3=CC=CN3)OC",
                 "compound": "undecylprodigiosin",
@@ -39,8 +40,8 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Antimalarial"
+                    "antimalarial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CCC1CCCCCCCCC2=CC1=C(N2)/C=C\\3/C(=CC(=N3)C4=CC=CN4)OC",
                 "compound": "metacycloprodigiosin",
@@ -364,14 +365,61 @@
             "accession": "JACERG010000004.1",
             "completeness": "complete",
             "end_coord": 291481,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 255172
         },
         "mibig_accession": "BGC0002090",
         "minimal": false,
         "ncbi_tax_id": "68213",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "MBA5221218.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:11514230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "MBA5221219.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:11514230"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pyrrole-2-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CNC(=C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces griseoaurantiacus",
         "polyketide": {
             "cyclic": true,

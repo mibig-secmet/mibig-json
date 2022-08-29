@@ -4,33 +4,28 @@
             "comments": [
                 "Submitted",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Sorted modules by module number"
+                "Sorted modules by module number",
+                "Removed gene annotations with no information",
+                "Removed additional gene with no identifier or information",
+                "Fixed biosynthetic classes",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "DSCNCSJNYVZZHSG74Z2O37QE",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Removed gene annotations with no information",
-                "Removed additional gene with no identifier or information"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "C[C@H]1[C@H](O[C@](CC1=C)([C@@H](C(=O)N[C@@H]2[C@@H]3[C@@H]([C@H](C([C@H](O3)C[C@@H](CO)O)(C)C)OC)OCO2)O)OC)C",
                 "chem_targets": [
@@ -500,9 +495,6 @@
             "accession": "JAAHTG010000029.1",
             "completeness": "complete",
             "end_coord": 89053,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 2626
         },
         "mibig_accession": "BGC0002055",
@@ -521,7 +513,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -540,11 +532,14 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32291345"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

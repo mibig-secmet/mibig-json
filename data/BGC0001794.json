@@ -17,10 +17,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fix biosynthetic classes",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
@@ -36,8 +47,35 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001794",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "570715",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AQV04230.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:28381497"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "benzoxazolinate",
+                                        "proteinogenic": false,
+                                        "structure": "c1ccc2c(c1)nc(o2)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Alternaria oxytropis",
         "publications": [
             "pubmed:28381497"

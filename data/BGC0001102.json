@@ -23,7 +23,9 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Merged burkholderic acid annotation"
+                "Merged burkholderic acid annotation",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -39,8 +41,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Siderophore"
+                    "antibacterial",
+                    "cytotoxic",
+                    "siderophore",
+                    "surfactant"
                 ],
                 "chem_struct": "CCCCCCC\\C=C(/C)\\C(\\O)=C1/C=C(OC1=O)C(=O)CC",
                 "chem_synonyms": [
@@ -183,9 +187,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proprionate",
+                                        "name": "propionic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CCC(=O)O"
                                     }
                                 ]
                             },

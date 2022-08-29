@@ -22,12 +22,14 @@
             "comments": [
                 "Update compound structure (SMILES) for fusaridione A",
                 "Linked new PubChem id for fusaridione A (pubchem:91819845)",
-                "Add new compound: (3R,5S)-5-(4-hydroxybenzyl)-3-methyl-3-((2E,4E,6E,8E,10E)-4,8,10-trimethyldodeca-2,4,6,8,10-pentaenoyl)pyrrolidine-2,4-dione"
+                "Add new compound: (3R,5S)-5-(4-hydroxybenzyl)-3-methyl-3-((2E,4E,6E,8E,10E)-4,8,10-trimethyldodeca-2,4,6,8,10-pentaenoyl)pyrrolidine-2,4-dione",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -58,8 +60,31 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000992",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "42747",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAV66110.2",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23614392"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fusarium heterosporum",
         "publications": [
             "pubmed:15724180",

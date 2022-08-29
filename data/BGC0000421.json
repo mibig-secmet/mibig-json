@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CC1=C(C(=C2[C@H]3[C@@H]4CC5=C([C@@H](N4C[C@H](N3C)CC2=C1)CNC(=O)[C@H](C)N)C(=O)C(=C(C5=O)C)OC)O)OC",
                 "compound": "safracin A",
                 "database_id": [
@@ -35,6 +48,9 @@
                 "molecular_formula": "C28H36N4O6"
             },
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CC1=C(OC)C(O)=C2[C@H]3[C@@H]4CC5=C(C(C(OC)=C(C)C5=O)=O)[C@H](CNC([C@@H](N)C)=O)N4C(O)[C@@H](CC2=C1)N3C",
                 "compound": "safracin B",
                 "mol_mass": 540.2583994920001,
@@ -46,8 +62,86 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000421",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "294",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAL33756.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:15773985"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAL33757.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:15773985"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    },
+                                    {
+                                        "name": "3-hydroxy-4-methoxyphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "OC1=C(C=CC(=C1)C[C@@H](C(=O)O)N)OC"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAL33758.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:15773985"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-hydroxy-O-methyltyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(O)C(=CC=C1C[C@@H](C(=O)O)N)OC"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pseudomonas fluorescens",
         "publications": [
             "pubmed:15773985"

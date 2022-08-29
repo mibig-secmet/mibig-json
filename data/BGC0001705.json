@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,8 +46,103 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001705",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1869241",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ATP76239.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:29062311"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ATP76243.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:29062311"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:29062311"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3R-methyl-D-aspartic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "N[C@H]([C@@H](O)C(O)=O)C(O)=O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ATP76244.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:29062311"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Nostoc sp. CENA543",
         "publications": [
             "pubmed:29062311"

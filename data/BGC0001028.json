@@ -23,12 +23,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed duplicate gene name",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,6 +40,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "differentiation"
+                ],
                 "chem_struct": "CCCC(=O)N[C@@H](C(C)C)C(=O)NC1COC(=O)[C@@H]2CCCN2C(=O)[C@H](CC2=CC=C(O)C=C2)NC(=O)[C@H](CC(N)=O)NC(=O)CNC(=O)[C@H](CC(C)C)NC(=O)CC(=O)[C@H](CC(C)C)NC(=O)C2C[C@H](C)CN2C1=O",
                 "compound": "nostopeptolide A2",
                 "database_id": [
@@ -170,7 +175,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -188,7 +193,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -206,9 +211,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
-                                        "proteinogenic": true,
-                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                        "name": "4S-methylproline",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H]1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },
@@ -224,7 +229,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -247,7 +252,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -265,7 +270,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -283,9 +288,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },
@@ -304,9 +309,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1016/S0040-4020(00)00764-X",
+                                    "doi:10.1016/s0378-1119(03)00587-0"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -320,13 +329,22 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/S0040-4020(00)00764-X",
+                                    "doi:10.1016/s0378-1119(03)00587-0"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "D-tyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@H](C(=O)O)N)O"
                                     }
                                 ]
                             },

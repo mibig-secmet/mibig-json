@@ -23,12 +23,15 @@
                 "Update compound structure (SMILES) for fabclavine Ia",
                 "Add new compound: fabclavine Ib",
                 "Add new compound: fabclavine IIa",
-                "Add new compound: fabclavine IIb"
+                "Add new compound: fabclavine IIb",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "H5KVDLSVQ3TJW7SKCDNBDEVC"
+                "H5KVDLSVQ3TJW7SKCDNBDEVC",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,9 +42,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Antifungal",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "antifungal",
+                    "cytotoxic",
+                    "surfactant"
                 ],
                 "chem_struct": "CC(CCCCCCCC(CCCCCCCC(CCCCCCCC(CCCCCCCC(CCNC(CC(CC(C1CCCN1C(C2NC(C(NC(C(CC(NC2C)=O)NC([C@@H](NC(CC(C(O)=O)N)=O)Cc3ccccc3)=O)=O)CC(N)=O)=O)=O)O)O)=O)O)N)N)N)N",
                 "compound": "fabclavine Ia",
@@ -80,7 +84,129 @@
         "minimal": false,
         "ncbi_tax_id": "290110",
         "nrp": {
-            "cyclic": true
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "PHM26612.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24532262"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "pubmed:24532262"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24532262"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "pubmed:24532262"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "PHM26613.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24532262"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "pubmed:24532262"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         "organism_name": "Xenorhabdus budapestensis",
         "polyketide": {

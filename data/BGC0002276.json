@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -31,8 +32,39 @@
             "start_coord": 718082
         },
         "mibig_accession": "BGC0002276",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "227321",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EAA62478.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Enzyme-coupled assay"
+                                ],
+                                "publications": [
+                                    "pubmed:31061132"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "betaine",
+                                        "proteinogenic": false,
+                                        "structure": "C[N+](C)(C)CC(=O)O"
+                                    },
+                                    {
+                                        "name": "N-dimethylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "CN(C)CC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus nidulans FGSC A4",
         "publications": [
             "pubmed:31061132",

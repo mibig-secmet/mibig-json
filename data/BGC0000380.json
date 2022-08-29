@@ -22,12 +22,13 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Fixed incorrect gene identifiers and names",
-                "Remove leading/trailing whitespace in gene identifiers"
+                "Remove leading/trailing whitespace in gene identifiers",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal"
                 ],
                 "chem_struct": "C1(OC/C(=C(/C)\\CCC[*])/C/1=C/C1C2COC(=O)C(CC(C)C)CC(=O)OC3C(C)(CO)C(=O)OC3C(C)=CCC3NC(=CC=3)C(O2)=N1)CC(C)C",
                 "compound": "leupyrrin",
@@ -310,9 +311,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1039/c0mb00240b"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteine",
+                                        "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
@@ -333,9 +337,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1039/c0mb00240b"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }

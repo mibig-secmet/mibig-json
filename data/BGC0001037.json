@@ -22,12 +22,13 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed gene names of 'No gene ID'"
+                "Removed gene names of 'No gene ID'",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "CC\\C=C/[C@H](O)[C@H](O)C1=C(C)C(=O)[C@@]2(O1)C(O)[C@](NC2=O)(OC)C(=O)C1=CC=CC=C1",
                 "chem_synonyms": [
@@ -59,7 +60,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "CC\\C=C\\C=C\\C1=C(C)C(=O)[C@@]2(O1)[C@@H](O)[C@](O)(CC1=CC=CC=C1)NC2=O",
                 "chem_targets": [
@@ -174,11 +175,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1002/cbic.200700202",
+                                    "doi:10.1016/0040-4020(81)85056-9"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }

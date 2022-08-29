@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "C[C@@H](O)[C@@H](NC(=O)[C@H](N)CCCN(O)C=O)C(=O)N(O)CCC[C@H](NC(=O)[C@H](N)CCCN(O)C=O)C(O)=O",
                 "compound": "coelichelin",
                 "database_id": [
@@ -43,8 +56,68 @@
             "start_coord": 510823
         },
         "mibig_accession": "BGC0000325",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "100226",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAB53322.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1039/b801016a"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-formyl-N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN(C=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1038/nchembio731"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1111/j.1574-6968.2000.tb09145.x"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CNO"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces coelicolor A3(2)",
         "publications": [
             "pubmed:12000953",

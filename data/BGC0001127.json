@@ -21,12 +21,15 @@
         },
         {
             "comments": [
-                "Update compound structure (SMILES) for jagaricin"
+                "Update compound structure (SMILES) for jagaricin",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,6 +38,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal"
+                ],
                 "chem_struct": "CCCCCCCCCCC[C@H](O)CC(N/C(C(N[C@H](C(N[C@H]([C@@H](O)C)C(N[C@H](CC1=CC=C(O)C=C1)C(N/C(C(N[C@H](CCC(N)=O)C(NC2)=O)=O)=C/C)=O)=O)=O)[C@@H](C)OC([C@@H](CC3=CN=CN3)NC([C@@H](NC2=O)[C@H](C)O)=O)=O)=O)=C\\C)=O",
                 "compound": "jagaricin",
                 "database_id": [
@@ -49,8 +55,170 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001127",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "55508",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CCJ67645.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CCJ67646.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CCJ67647.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CCJ67648.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "allo-threonine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23161559"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "histidine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Janthinobacterium agaricidamnosum",
         "publications": [
             "pubmed:23161559"

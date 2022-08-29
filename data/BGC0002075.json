@@ -5,7 +5,8 @@
                 "Submitted",
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "6CADHILFODRMCII55WHSHZ6V",
@@ -25,8 +26,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "O=C([C@@]1([H])N(C/2=O)CCC1)C2=C(O)/CCCCCCC",
                 "compound": "pyreudione A",
@@ -41,8 +42,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "O=C([C@@]1([H])N(C/2=O)CCC1)C2=C(O)/CCCCCCCCC",
                 "compound": "pyreudione B",
@@ -60,8 +61,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CCCCCCC/C=C/C(=C/1\\C(=O)[C@@H]2CCCN2C1=O)/O",
                 "compound": "pyreudione C",
@@ -76,8 +77,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "O=C([C@@]1([H])N(C/2=O)CCC1)C2=C(O)/CCC/C=C\\CCCCCC",
                 "compound": "pyreudione D",
@@ -94,8 +95,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "O=C([C@@](CCCC1)([H])N1C/2=O)C2=C(O)/CCCCCCC",
                 "compound": "pyreudione E",
@@ -155,13 +156,38 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay",
+                                    "Mass spectrometry",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:29606578"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "L-Proline, L-Pipecolic Acid, 3-hydroxyproline, 3-oxoproline",
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "pipecolic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "4-hydroxyproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1[C@H](NCC1O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "4-oxoproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1[C@H](NCC1=O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "azetidine-2-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)[C@H]1NCC1"
                                     }
                                 ]
                             },

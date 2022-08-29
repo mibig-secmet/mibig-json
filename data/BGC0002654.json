@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -23,14 +24,200 @@
             "accession": "MZ165589.1",
             "completeness": "Unknown",
             "end_coord": 49405,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 1
         },
         "mibig_accession": "BGC0002654",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "77133",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "UHJ79948.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-amino-2-hydroxy-3-isopropoxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)OC1=C(C=CC(=C1O)C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "UHJ79951.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "UHJ79953.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:35149673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "uncultured bacterium",
         "publications": [
             "pubmed:35149673"

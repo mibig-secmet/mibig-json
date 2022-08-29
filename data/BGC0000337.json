@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Removed duplicate gene annotation"
+                "Removed duplicate gene annotation",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -625,6 +626,142 @@
         "ncbi_tax_id": "655844",
         "nrp": {
             "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "MAA_10043",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:22232661"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "beta-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "NCCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:22232661"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-hydroxypent-4-enoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C=CCC(C(=O)O)O"
+                                    },
+                                    {
+                                        "name": "2-hydroxy-4-methylpentanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)CC(C(=O)O)O"
+                                    },
+                                    {
+                                        "name": "2,4-dihydroxypentanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(CC(C(=O)O)O)O"
+                                    },
+                                    {
+                                        "name": "2,5-dihydroxy-4-methylpentanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(CC(C(=O)O)O)CO"
+                                    },
+                                    {
+                                        "name": "2-hydroxy-4-methylpentanedioic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)CC(C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:22232661"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:22232661"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:22232661"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:22232661"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
             "release_type": [
                 "Hydrolysis"
             ]

@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Added missing compound details"
+                "Added missing compound details",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "YQF4634PJETKNUL6ADZ4RRW4"
+                "YQF4634PJETKNUL6ADZ4RRW4",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -96,8 +98,55 @@
             "start_coord": 25905
         },
         "mibig_accession": "BGC0001621",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "332952",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "XP_002379984.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:29182847"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:29182847"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus flavus NRRL3357",
         "publications": [
             "pubmed:29182847"

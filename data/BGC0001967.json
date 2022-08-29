@@ -14,13 +14,15 @@
                 "Fixed DOIs",
                 "Added missing polyketide class",
                 "Added polyene subclass",
-                "Use PubMed reference instead of DOI"
+                "Use PubMed reference instead of DOI",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "CUSGWVK3I4TVHJH7NHPFAP2L",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -30,6 +32,11 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "compound": "acyldepsipeptide 1"
             }
         ],
@@ -38,8 +45,177 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001967",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "67305",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QED88054.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:31399403"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "phenylalanine",
+                                    "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:31399403"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "serine",
+                                    "structure": "C([C@@H](C(=O)O)N)O"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Enzyme-coupled assay",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:31399403"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "proline",
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:31399403"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "N-methylalanine",
+                                    "structure": "C[C@@H](C(=O)O)NC"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QED88055.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:31399403"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "alanine",
+                                    "structure": "C[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Enzyme-coupled assay",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:31399403"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "4R-methylproline",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@@H]1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "proline",
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                },
+                                {
+                                    "name": "4R-methylproline",
+                                    "structure": "C[C@@H]1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces hawaiiensis",
         "polyketide": {
             "subclasses": [

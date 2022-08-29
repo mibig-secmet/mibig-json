@@ -24,12 +24,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
-                "Removed gene annotation with no reference name or ID"
+                "Removed gene annotation with no reference name or ID",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,6 +41,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic",
+                    "surfactant"
+                ],
                 "chem_struct": "CC(C)CCCCCCCCCCCC(C)C1OC(=O)C(NC(=O)CN(C)C(=O)\\C=C/C(=C)NC(=O)C1C)C(O)C(N)=O",
                 "compound": "rakicidin A",
                 "database_id": [
@@ -156,9 +162,6 @@
             "accession": "NZ_JOEU01000001.1",
             "completeness": "complete",
             "end_coord": 202669,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 164252
         },
         "mibig_accession": "BGC0001327",
@@ -178,7 +181,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -201,7 +204,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -227,9 +230,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-hydroxyasparagine",
+                                        "name": "3S-hydroxyasparagine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C(O)=O)[C@H](O)C(N)=O"
                                     }
                                 ]
                             },

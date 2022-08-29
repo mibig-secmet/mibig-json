@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,8 +48,39 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000342",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "61235",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAA79245.2",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "2R-hydroxyisovaleric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)[C@H](C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fusarium equiseti",
         "publications": [
             "pubmed:8483420"

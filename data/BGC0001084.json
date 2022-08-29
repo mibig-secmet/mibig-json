@@ -24,12 +24,13 @@
                 "Corrected NRP module activity",
                 "Removed duplicate prenyltransferase",
                 "Removed invalid prenyltransferase identifiers",
-                "Fixed incorrect prenyltransferase gene"
+                "Fixed incorrect prenyltransferase gene",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -44,8 +45,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_struct": "CC1(C)[C@@H]2C[C@]34CCCN3C(=O)[C@@]2(C[C@@]11C(=O)N(O)C2=C1C=CC1=C2C=CC(C)(C)O1)NC4=O",
                 "compound": "notoamide A",
@@ -82,7 +83,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -96,11 +97,17 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/np800471y",
+                                    "doi:10.1021/ja1049302",
+                                    "doi:10.1038/s41557-019-0326-6"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }

@@ -19,6 +19,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -28,6 +38,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "insecticidal"
+                ],
                 "chem_struct": "C[C@@H]1[C@H](OC=C2C1=C(C(=C(C2=O)C(=O)O)O)C)C",
                 "compound": "antimycin",
                 "database_id": [
@@ -304,8 +317,57 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001455",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "41951",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "antaC",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:29795673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "antaF",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:29795673"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "anthanillic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces argillaceus",
         "publications": [
             "pubmed:29795673"

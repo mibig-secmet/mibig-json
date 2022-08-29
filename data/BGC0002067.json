@@ -6,7 +6,9 @@
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
                 "Added version to NCBI accession",
-                "Remove duplicated gene ID"
+                "Remove duplicated gene ID",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "PAM2M7KUAUIJ3CVOXWVXWGKQ",
@@ -23,13 +25,22 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Inhibitor"
+                    "antibacterial",
+                    "antifungal",
+                    "inhibitor"
                 ],
                 "chem_struct": "CCC(C)CC(C)C(=O)C1=C(C(=C(NC1=O)OC)OC)O",
                 "chem_targets": [
                     {
                         "target": "succinate dehydrogenase"
+                    },
+                    {
+                        "publications": [
+                            "pubmed:2276974",
+                            "pubmed:3209470",
+                            "pubmed:12515859"
+                        ],
+                        "target": "human prostate cancer cells"
                     }
                 ],
                 "compound": "atpenin B",
@@ -169,8 +180,7 @@
             "completeness": "complete",
             "end_coord": 3620596,
             "evidence": [
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ],
             "start_coord": 3583596
         },
@@ -187,11 +197,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:32365298"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }

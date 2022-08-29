@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +40,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal",
+                    "surfactant"
                 ],
                 "chem_struct": "CC(C)[C@H]1NC(=O)[C@@H](NC(=O)CC(O)CCCCCCCCCCCCNC(N)=N)C(C)OC(=O)[C@@H](C)NC(=O)[C@@H](CCC(N)=O)NC(=O)[C@H](NC(=O)[C@@H](NC1=O)C(C)C)[C@H](C)O",
                 "chem_synonyms": [
@@ -184,8 +187,7 @@
             "completeness": "complete",
             "end_coord": 42549,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 10739
         },
@@ -216,7 +218,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -234,7 +236,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -248,11 +250,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.02662-06",
+                                    "doi:10.1139/w02-002",
+                                    "doi:10.1016/j.chembiol.2007.12.014"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -266,13 +273,13 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Allo-threonine",
-                                        "proteinogenic": false,
-                                        "structure": "C[C@@H]([C@@H](C(=O)O)N)O"
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -288,9 +295,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparigine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
                                 ]
                             },

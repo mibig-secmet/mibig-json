@@ -8,6 +8,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -17,18 +27,33 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "streptophenazine B"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "streptophenazine C"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "streptophenazine F"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "streptophenazine G"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "streptophenazine H"
             }
         ],
@@ -39,8 +64,61 @@
             "start_coord": 101033
         },
         "mibig_accession": "BGC0002010",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1169156",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_018960023.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenazine-1,6-dicarboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C2C(=C1)N=C3C(=N2)C=CC=C3C(=O)O)C(=O)O"
+                                    },
+                                    {
+                                        "name": "phenazine-1-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C2C(=C1)N=C3C=CC=C(C3=N2)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "WP_063738219.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Knock-out studies",
+                                    "Mass spectrometry"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N-formylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C(=O)O)NC=O"
+                                    },
+                                    {
+                                        "name": "N-formylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@@H](C(=O)O)NC=O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. CNB091",
         "publications": [
             "pubmed:30853419"

@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,8 +44,107 @@
             "start_coord": 106734
         },
         "mibig_accession": "BGC0001627",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "83332",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CCP42824.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ACVS assay",
+                                    "X-ray crystallography",
+                                    "Heterologous expression"
+                                ],
+                                "publications": [
+                                    "pubmed:23625916"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "butyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCC(=O)O"
+                                    },
+                                    {
+                                        "name": "pentanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCCC(=O)O"
+                                    },
+                                    {
+                                        "name": "isovaleric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)CC(=O)O"
+                                    },
+                                    {
+                                        "name": "hexanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCCCC(=O)O"
+                                    },
+                                    {
+                                        "name": "2-hexenoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCC=CC(=O)O"
+                                    },
+                                    {
+                                        "name": "octanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCCCCCC(=O)O"
+                                    },
+                                    {
+                                        "name": "2-octenoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCCCC=CC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CCP42826.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:28634299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:28634299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Mycobacterium tuberculosis H37Rv",
         "publications": [
             "pubmed:28634299"

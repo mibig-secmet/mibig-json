@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,7 +36,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "CC1C(C(C(C(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9C(NC(=O)C(C(C1=CC=C(O4)C=C1)OC1CC(C(C(O1)C)O)(C)N)NC7=O)C(=O)O)O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)O)O)O",
                 "chem_targets": [
@@ -47,9 +56,6 @@
             "accession": "AOHO01000074.1",
             "completeness": "complete",
             "end_coord": 343203,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 276857
         },
         "mibig_accession": "BGC0001460",
@@ -57,6 +63,164 @@
         "ncbi_tax_id": "1284240",
         "nrp": {
             "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "EME52974.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "EME52988.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3,5-dihydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "N[C@H](C(=O)O)c1cc(O)cc(O)c1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "EME52989.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-hydroxytyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@H]([C@@H](C(=O)O)N)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "EME52990.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-beta-hydroxytyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@H]([C@@H](C(=O)O)N)O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23558534"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
             "subclass": "Glycopeptide"
         },
         "organism_name": "Amycolatopsis decaplanina DSM 44594",

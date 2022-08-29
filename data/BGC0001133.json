@@ -22,13 +22,15 @@
         {
             "comments": [
                 "Refined location to exclude flanking genes",
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Corrected NRP gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "SJG3CBEHSM6A3I74YXLH6GLA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -51,8 +53,7 @@
             "completeness": "complete",
             "end_coord": 785205,
             "evidence": [
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 759318
         },
@@ -73,7 +74,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -87,11 +88,11 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Homology"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -109,14 +110,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
-                                        "proteinogenic": true,
-                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
-                                    },
-                                    {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -132,7 +133,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -155,7 +156,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -173,7 +174,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -191,7 +192,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

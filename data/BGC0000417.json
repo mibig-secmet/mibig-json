@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "CC(OC(=O)[C@@H](N)CCCN(O)C=O)[C@H](NC(=O)C1=C(O)C(O)=CC=C1)C(=O)N[C@@H](CCCN(O)C=O)C(O)=O",
                 "compound": "rhodochelin",
                 "database_id": [
@@ -42,8 +55,39 @@
             "start_coord": 2443456
         },
         "mibig_accession": "BGC0000417",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "101510",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ABG94125.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "ornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Rhodococcus jostii RHA1",
         "publications": [
             "pubmed:21381663"

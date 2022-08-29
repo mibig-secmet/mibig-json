@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP module",
+                "Updated NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,8 +36,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Signalling"
+                    "cytotoxic",
+                    "signalling"
                 ],
                 "chem_struct": "CC[C@H](C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)C(C)(C)C=C)CO",
                 "compound": "methylpendolmycin",
@@ -37,8 +47,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Signalling"
+                    "antibacterial",
+                    "signalling"
                 ],
                 "chem_struct": "CC(C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)C(C)(C)C=C)CO",
                 "compound": "pendolmycin",
@@ -117,9 +127,14 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -129,6 +144,27 @@
                                 "Methylation"
                             ],
                             "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "doi:10.1002/cbic.201100700"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "2"
                         }
                     ]
                 }

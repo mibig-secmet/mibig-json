@@ -21,12 +21,13 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,8 +39,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Neurotoxic"
+                    "cytotoxic",
+                    "neurotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -74,10 +75,7 @@
         ],
         "loci": {
             "accession": "EU140798.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0000978",
         "minimal": false,
@@ -96,9 +94,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "guanidinoacetate ",
+                                        "name": "guanidinoacetic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C(C(=O)O)N=C(N)N"
                                     }
                                 ]
                             },

@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -28,12 +38,66 @@
                 "compound": "4-Z-annimycin"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 23,
+                                "end": 428
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "2-amino-3-hydroxycyclopent-2-enone",
+                                    "publications": [
+                                        "pubmed:24120331"
+                                    ],
+                                    "structure": "C1CC(=O)C(=C1O)N"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "AGY30674.1"
+                },
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 10,
+                                "end": 408
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "5-aminolevulinic acid",
+                                    "publications": [
+                                        "pubmed:24120331"
+                                    ],
+                                    "structure": "C(CC(=O)O)C(=O)CN"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "AGY30675.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "KF683117.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001298",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "67282",
         "organism_name": "Streptomyces calvus",
         "publications": [

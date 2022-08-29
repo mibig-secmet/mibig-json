@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Retired as duplicate of BGC0001437"
+                "Retired as duplicate of BGC0001437",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -49,8 +50,39 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001710",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "294",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AQZ26587.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "(2S,3R)-2-amino-3-hydroxy-4-(4-nitrophenyl)butanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@H]([C@@H](C(=O)O)N)O)[N+](=O)[O-]"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pseudomonas fluorescens",
         "publications": [
             "pubmed:28504677"

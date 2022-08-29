@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -34,8 +43,74 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001564",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2052836",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AVR48535.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29570981"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29570981"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:29570981"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Cuspidothrix issatschenkoi CHARLIE-1",
         "publications": [
             "pubmed:29570981"

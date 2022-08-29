@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,8 +44,35 @@
             "start_coord": 13255
         },
         "mibig_accession": "BGC0001771",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1957",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "WP_051872436.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1039/C8SC03814G"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sclerotialus",
         "publications": [
             "doi:10.1101/265645"

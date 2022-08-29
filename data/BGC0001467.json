@@ -21,16 +21,9 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Fix missing gene identifier"
+                "Fix missing gene identifier",
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -46,8 +39,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "P-glycoprotein-mediated multiple drug resistance"
+                    "cytotoxic",
+                    "p-glycoprotein-mediated multiple drug resistance"
                 ],
                 "chem_struct": "CCCCCCC[C@H]1OC(=O)C[C@@H](O)[C@H](CC2=CC=CC=C2)N(C)C(=O)[C@@H](OC(=O)[C@H]1C)C(C)C",
                 "chem_targets": [
@@ -103,8 +96,7 @@
             "completeness": "complete",
             "end_coord": 6241521,
             "evidence": [
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ],
             "start_coord": 6215740
         },
@@ -135,9 +127,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-Hydroxyisovalerate",
+                                        "name": "2S-hydroxyisovaleric acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CC(C)[C@@H](C(=O)O)O"
                                     }
                                 ]
                             },
@@ -156,9 +148,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1021/jo00103a011",
+                                    "doi:10.1186/s12864-015-1855-z"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }

@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,8 +49,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000991",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "56",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAF62881.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Sorangium cellulosum",
         "publications": [
             "pubmed:10649995",

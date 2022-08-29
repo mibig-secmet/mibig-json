@@ -23,12 +23,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,7 +41,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic",
+                    "surfactant"
                 ],
                 "chem_moieties": [
                     {
@@ -68,7 +71,7 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -270,9 +273,6 @@
             "accession": "KK037233.1",
             "completeness": "complete",
             "end_coord": 233421,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 194525
         },
         "mibig_accession": "BGC0001328",
@@ -292,7 +292,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -315,7 +315,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -348,9 +348,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-hydroxyasparagine",
+                                        "name": "3S-hydroxyasparagine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C(O)=O)[C@H](O)C(N)=O"
                                     }
                                 ]
                             },

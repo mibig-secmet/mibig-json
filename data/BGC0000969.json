@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,6 +39,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CO[C@H]1C(NC(=O)[C@@H](CC2=CNC3=CC=CC=C23)N(C)C(=O)[C@H](C)NC(=O)[C@@H](C)CC(C)=C[C@H](C)[C@@H](C)OC1=O)C1=CC=C(O)C=C1",
                 "compound": "chondramide A",
                 "database_id": [
@@ -155,7 +160,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -174,11 +179,15 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2006.06.002"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
@@ -198,13 +207,26 @@
                                 ],
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2006.06.002"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(R)-bTyr",
+                                        "name": "R-beta-tyrosine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1=CC(=CC=C1[C@@H](CC(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },

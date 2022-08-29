@@ -21,17 +21,10 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
                 "Remove aminocoumarin BGC type",
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5",
@@ -48,7 +41,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal"
                 ],
                 "chem_moieties": [
                     {
@@ -76,7 +69,7 @@
             },
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal"
                 ],
                 "chem_struct": "[H][C@@]12C[C@@H](O)CN1C(=O)[C@@]([H])(NC(=O)[C@@H](C[C@@H](O)[C@@H](O)NC(=O)[C@]1([H])[C@@H](O)[C@@H](C)CN1C(=O)[C@@]([H])(NC(=O)[C@@]([H])(NC2=O)[C@H](O)[C@@H](O)C1=CC=C(O)C=C1)[C@H](O)CC(N)=O)NC(=O)CCCCCCCC[C@@H](C)C[C@@H](C)CC)[C@@H](C)O",
                 "chem_targets": [
@@ -324,8 +317,7 @@
             "completeness": "complete",
             "end_coord": 296227,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 180393
         },
@@ -368,7 +360,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -386,9 +378,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyproline",
+                                        "name": "4R-hydroxyproline",
                                         "proteinogenic": false,
-                                        "structure": "C1[C@H](NCC1O)C(=O)O"
+                                        "structure": "C1[C@H](NC[C@@H]1O)C(=O)O"
                                     }
                                 ]
                             },
@@ -404,9 +396,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3,4-hydroxyhomotyrosine",
+                                        "name": "3S,4S-dihydroxyhomotyrosine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1=CC(=CC=C1[C@H](O)[C@H]([C@@H](C(=O)O)N)O)O"
                                     }
                                 ]
                             },
@@ -440,9 +432,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3-hydroxy-4-methylproline",
+                                        "name": "3S-hydroxy-4S-methylproline",
                                         "proteinogenic": false,
-                                        "structure": "CC1C(O)[C@H](NC1)C(=O)O"
+                                        "structure": "C[C@@H]1[C@H](O)[C@H](NC1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3S-hydroxyproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1CN[C@@H]([C@H]1O)C(=O)O"
                                     }
                                 ]
                             },

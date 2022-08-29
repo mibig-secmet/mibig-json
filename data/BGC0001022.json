@@ -22,13 +22,15 @@
             "comments": [
                 "Add new compound: myxalamid A",
                 "Add new compound: myxalamid C",
-                "Add new compound: myxalamid D"
+                "Add new compound: myxalamid D",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA",
                 "5UL74VURKJ25VSPPPO3H2NYB"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,6 +40,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_struct": "C[C@@H](CO)NC(=O)/C(=C/C=C/C=C\\C=C\\C(=C\\[C@@H](C)[C@H](/C(=C/C(C)C)/C)O)\\C)/C",
                 "compound": "myxalamid",
                 "database_id": [
@@ -67,8 +73,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001022",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "41",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAK57184.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Stigmatella aurantiaca",
         "publications": [
             "pubmed:11182319"

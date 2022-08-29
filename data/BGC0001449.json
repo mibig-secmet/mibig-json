@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,8 +41,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Inhibitor"
+                    "antibacterial",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -235,8 +236,7 @@
             "evidence": [
                 "Knock-out studies",
                 "Enzymatic assays",
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ],
             "start_coord": 1175000
         },
@@ -257,9 +257,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3-Methylproline",
+                                        "name": "3S-methylproline",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1[C@H](C)[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },

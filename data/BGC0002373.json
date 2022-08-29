@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -26,14 +27,225 @@
             "accession": "MW590581.1",
             "completeness": "Unknown",
             "end_coord": 56944,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 1
         },
         "mibig_accession": "BGC0002373",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1931",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QVQ62868.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "threonine",
+                                    "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "leucine",
+                                    "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4S-acetyl-5S-methylproline",
+                                        "proteinogenic": false,
+                                        "structure": "CC(=O)O[C@H]1C[C@H](N[C@H](C)1)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "4S-acetyl-5S-methylproline",
+                                    "structure": "CC(=O)O[C@H]1C[C@H](N[C@H](C)1)C(=O)O"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "leucine",
+                                    "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QVQ62855.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N-hydroxyvaline",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)[C@@H](C(=O)O)NO"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "N-hydroxyvaline",
+                                    "structure": "CC(C)[C@@H](C(=O)O)NO"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4S-methylazetidine-2S-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H]1C[C@H](N1)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "4S-methylazetidine-2S-carboxylic acid",
+                                    "structure": "C[C@H]1C[C@H](N1)C(=O)O"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QVQ62856.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QVQ62857.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:33979513"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "3-(3,5-dichloro-4-hydroxyphenyl)-2-methoxypropenoic acid",
+                                    "structure": "C1=C(Cl)C(O)=C(Cl)C=C1/C=C(OC)/C(=O)O"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp.",
         "publications": [
             "pubmed:33979513"

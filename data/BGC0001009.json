@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Retired as incomplete duplicate of BGC0001010"
+                "Retired as incomplete duplicate of BGC0001010",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,6 +38,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "COC(\\C=C\\C1=CSC(=N1)C1CSC(=N1)C(C)=C)C(C)C(\\OC)=C/C(=O)OC",
                 "compound": "melithiazol A",
                 "database_id": [
@@ -50,8 +56,44 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001009",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "45",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAD89774.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAD89775.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Melittangium lichenicola",
         "publications": [
             "pubmed:14583260"

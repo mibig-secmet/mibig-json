@@ -20,12 +20,14 @@
         },
         {
             "comments": [
-                "Retired as duplicate of BGC0000995"
+                "Retired as duplicate of BGC0000995",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -49,8 +51,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001096",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "764483",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ADH01485.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pseudomonas sp. 2663",
         "publications": [
             "pubmed:21291275"

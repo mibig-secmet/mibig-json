@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +37,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CCCCC(=O)CCCCCCCCC[C@H](C)[C@@H]1[C@H](C(=O)N[C@H](C(=O)N/C(=C/C)/C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N([C@H](C(=O)N2CCC[C@H]2C(=O)N1)CC(=O)N)C)[C@H](C)OC)CCC(=O)N)[C@H](C)O)[C@H](C)O)C(C)C)O",
                 "compound": "puwainaphycin A",
                 "database_id": [
@@ -36,6 +49,9 @@
                 "molecular_formula": "C58H98N12O17"
             },
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CCCCC(=O)CCCCCCCCC[C@H](C)[C@@H]1[C@H](C(=O)N[C@H](C(=O)N/C(=C/C)/C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N([C@H](C(=O)N2CCC[C@H]2C(=O)N1)CC(=O)N)C)[C@H](C)OC)CCC(=O)N)C(C)C)[C@H](C)O)C(C)C)O",
                 "compound": "puwainaphycin B",
                 "database_id": [
@@ -45,6 +61,9 @@
                 "molecular_formula": "C59H100N12O16"
             },
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CCC(Cl)CCCCCCCCCC(C)C1NC(=O)C2CCCN2C(=O)C(CC(N)=O)N(C)C(=O)C(NC(=O)CNC(=O)C(CCC(N)=O)NC(=O)C(NC(=O)C(NC(=O)\\C(NC(=O)C(NC(=O)C1O)C(C)C)=C/C)C(C)O)C(C)O)C(C)OC",
                 "compound": "puwainaphycin C",
                 "database_id": [
@@ -55,6 +74,9 @@
                 "molecular_formula": "C56H95ClN12O16"
             },
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CCC(CCCCCCCCC[C@H](C)[C@@H]1[C@H](C(=O)N[C@H](C(=O)N/C(=C/C)/C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N([C@H](C(=O)N2CCC[C@H]2C(=O)N1)CC(=O)N)C)[C@H](C)OC)CCC(=O)N)C(C)C)[C@H](C)O)C(C)C)O)Cl",
                 "compound": "puwainaphycin D",
                 "database_id": [
@@ -69,8 +91,141 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001125",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1382618",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AIW82277.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AIW82282.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AIW82283.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    },
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AIW82284.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AIW82285.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Cylindrospermum alatosporum CCALA 988",
         "publications": [
             "pubmed:25369527"

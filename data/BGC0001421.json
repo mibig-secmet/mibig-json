@@ -22,12 +22,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations",
-                "Changed gene identifiers used to consistently be 'gene' names"
+                "Changed gene identifiers used to consistently be 'gene' names",
+                "Corrected NRP gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -51,10 +53,7 @@
         ],
         "loci": {
             "accession": "KX622591.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001421",
         "minimal": false,
@@ -69,11 +68,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Mass spectrometry",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28128551"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -90,11 +94,16 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Mass spectrometry",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28128551"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -113,11 +122,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Mass spectrometry",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28128551"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -131,11 +145,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Mass spectrometry",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28128551"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -149,11 +168,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Mass spectrometry",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28128551"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -167,11 +191,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Mass spectrometry",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28128551"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -185,11 +214,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Mass spectrometry",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28128551"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamine",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }

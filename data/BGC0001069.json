@@ -23,12 +23,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Merged cross-CDS PKS modules"
+                "Merged cross-CDS PKS modules",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -39,7 +41,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "antifungal",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CO[C@H]1[C@@H](OC2\\C=C/C=C/C3=COC(=N3)C(C)C(CC(O)\\C=C\\C=C\\C=C/C(C)C(OC(=O)\\C=C/C=C/C=C\\C(\\C)=C\\C2C)C(C)C(O)CC(C)O)OC)O[C@H](C)[C@@H](O)[C@@H]1OC",
                 "chem_targets": [
@@ -174,7 +177,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }

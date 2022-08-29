@@ -2,16 +2,10 @@
     "changelog": [
         {
             "comments": [
-                "Add information lost in migration from 1.4 to 2.0"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Fixed thioesterase gene ID"
+                "Fixed thioesterase gene ID",
+                "Removed NRPS module 0",
+                "Add information lost in migration from 1.4 to 2.0",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -26,7 +20,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "CC[C@H](C)[C@H]1C(=O)O[C@H]([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)[C@@H](C(C)C)O)[C@H](C2=CC=C(C=C2)O)O)NC(=O)[C@H]([C@H](C(=O)N)O)NC(=O)[C@@H](CCCN=C(N)N)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](C)N)C(=O)N",
                 "chem_targets": [
@@ -81,8 +75,7 @@
             "completeness": "complete",
             "end_coord": 3931610,
             "evidence": [
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ],
             "start_coord": 3896012
         },
@@ -96,28 +89,115 @@
                     "gene_id": "QWP75305.1",
                     "modules": [
                         {
-                            "module_number": "0"
-                        },
-                        {
-                            "c_dom_subtype": "LCL",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "module_number": "1"
                         },
                         {
-                            "c_dom_subtype": "Dual",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "c_dom_subtype": "LCL",
                             "module_number": "2"
                         },
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "Dual",
                             "module_number": "3"
                         },
                         {
-                            "c_dom_subtype": "LCL",
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            },
+                            "c_dom_subtype": "Dual",
                             "module_number": "4"
                         },
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            },
+                            "c_dom_subtype": "LCL",
                             "module_number": "5"
                         },
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "Dual",
                             "module_number": "6"
                         }
@@ -127,10 +207,40 @@
                     "gene_id": "QWP75304.1",
                     "modules": [
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "7"
                         },
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33768646"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "8"
                         }

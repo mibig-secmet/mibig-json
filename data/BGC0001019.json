@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Corrected NRP gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +40,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal"
                 ],
                 "chem_struct": "CN1CC(=O)N[C@H](CC2=CNC3=CC=CC=C23)C(=O)NCC(=O)NC[C@H](O)CC(=O)N[C@H]([C@H](O)[C@@H](O)CC=CC=CC=CC2=CC=CC=C2)[C@H](O)C(=O)N[C@@H]2CC(=O)N[C@@]2(O)CC1=O",
                 "compound": "microsclerodermin M",
@@ -216,11 +218,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Feeding study",
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24124771"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -239,11 +246,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24124771"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -260,11 +271,15 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24124771"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
@@ -278,11 +293,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24124771"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -301,11 +320,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24124771"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
