@@ -24,13 +24,14 @@
             "comments": [
                 "Remove duplicated citations",
                 "Corrected polyketide synthase gene entries",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA",
                 "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -42,8 +43,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -66,6 +68,20 @@
                     },
                     {
                         "target": "inhibitor of human topoisomerases I and II"
+                    },
+                    {
+                        "publications": [
+                            "pubmed:15728908",
+                            "pubmed:11079799"
+                        ],
+                        "target": "DNA gyrase"
+                    },
+                    {
+                        "publications": [
+                            "pubmed:15728908",
+                            "pubmed:11079799"
+                        ],
+                        "target": "topoisomerase II"
                     }
                 ],
                 "compound": "simocyclinone D8",
@@ -194,8 +210,7 @@
             "accession": "AF324838.2",
             "completeness": "complete",
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ]
         },
         "mibig_accession": "BGC0001072",

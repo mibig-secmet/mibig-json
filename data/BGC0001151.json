@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Update compound structure (SMILES) for valclavam",
-                "Linked new PubChem id for valclavam (pubchem:441132)"
+                "Linked new PubChem id for valclavam (pubchem:441132)",
+                "Updated bioactivity data"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,8 +39,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Inhibitor"
+                    "antibacterial",
+                    "antifungal",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -60,6 +63,10 @@
                 "molecular_formula": "C14H23N3O6"
             },
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_struct": "OCC[C@H]1CN2[C@H](CC2=O)O1",
                 "compound": "(-)-2-(2-hydroxyethyl)clavam",
                 "database_id": [
@@ -74,8 +81,7 @@
             "completeness": "Unknown",
             "end_coord": 35367,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 15432
         },

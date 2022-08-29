@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Fixed missing and incorrect gene identifiers"
+                "Fixed missing and incorrect gene identifiers",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -35,9 +36,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Antifungal",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "antifungal",
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -45,6 +47,14 @@
                     }
                 ],
                 "chem_struct": "CC1C/C(=C/C=C\\CC(OC(=O)/C(=C\\C(=C\\C(C1O)C)\\C)/C)C(C)C(C(C)C2(CC(C(C(O2)C(C)C)C)OC(=O)/C=C/C(=O)O)O)O)/C",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:20808316"
+                        ],
+                        "target": "V-ATPase"
+                    }
+                ],
                 "compound": "JBIR-100",
                 "database_id": [
                     "pubchem:102518265"
@@ -292,9 +302,6 @@
             "accession": "NZ_JOBF01000033.1",
             "completeness": "complete",
             "end_coord": 164000,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 93200
         },
         "mibig_accession": "BGC0001348",

@@ -21,12 +21,13 @@
         {
             "comments": [
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,11 +37,14 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor",
+                    "antibacterial",
+                    "antifungal",
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
-                        "moiety": "dialkylmaleic anhydride ",
+                        "moiety": "dialkylmaleic anhydride",
                         "subcluster": [
                             "ABW96543.1",
                             "ABW96544.1",
@@ -56,7 +60,11 @@
                 "chem_struct": "C[C@@H]1CC[C@@]2(CC[C@@H]([C@@H](O2)[C@H](C)CC[C@@H]([C@H](C)C(=O)C[C@H]([C@@H]([C@@H](C(C)C)OC(=O)C[C@H](C3=C(C(=O)OC3=O)C)O)OC)O)O)C)O[C@H]1CC[C@H](C)C(=O)C",
                 "chem_targets": [
                     {
-                        "target": "Protein Phosphatase"
+                        "publications": [
+                            "pubmed:19372564",
+                            "pubmed:3610839"
+                        ],
+                        "target": "phosphatase"
                     }
                 ],
                 "compound": "tautomycin",

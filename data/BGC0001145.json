@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Changed to GenBank accession to match gene annotations"
+                "Changed to GenBank accession to match gene annotations",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,6 +36,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_struct": "[H][C@]12CSC(=N1)C1=CSC(=N1)C1=CSC(=N1)C(=C)NC(=O)[C@@]1([H])CSC(=N1)C1=CSC(=N1)C1=CC=C3C(=N1)[C@H](C)NC(=O)[C@]1([H])CCCN1C(=O)\\C(NC(=O)CNC(=O)[C@H](CCCNC(N)=N)NC(=O)C(C)(NC(=O)\\C(NC(=O)C1CSC(=N1)[C@H](CC(N)=O)NC3=O)=C\\C)SC[C@H](NC2=O)C(O)=O)=C\\C",
                 "compound": "cyclothiazomycin b1",
                 "database_id": [
@@ -48,9 +53,6 @@
             "accession": "AORZ01000028.1",
             "completeness": "Unknown",
             "end_coord": 50744,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 35019
         },
         "mibig_accession": "BGC0001145",

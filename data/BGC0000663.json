@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,7 +35,19 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antiparasidal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "CC(CCCO)[C@H]1CC[C@@]2(C)[C@H]1CC[C@]1(C)[C@@H]2CC[C@@H]2[C@@]3(C)CCCC(C)(C)[C@@H]3C=C[C@@]12C",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.3389/fbioe.2020.00426"
+                        ],
+                        "target": "antimalarial"
+                    }
+                ],
                 "compound": "hopene",
                 "database_id": [
                     "npatlas:NPA0919",

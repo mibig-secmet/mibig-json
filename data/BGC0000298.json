@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +38,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -59,6 +61,12 @@
                     },
                     {
                         "target": "Thrombin"
+                    },
+                    {
+                        "publications": [
+                            "doi:10.1016/j.chembiol.2007.04.006"
+                        ],
+                        "target": "Protease"
                     }
                 ],
                 "compound": "aeruginosin 98-A",
@@ -71,7 +79,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -94,6 +102,12 @@
                     },
                     {
                         "target": "Thrombin"
+                    },
+                    {
+                        "publications": [
+                            "doi:10.1016/j.chembiol.2007.04.006"
+                        ],
+                        "target": "Protease"
                     }
                 ],
                 "compound": "aeruginosin 98-B",
@@ -107,7 +121,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -130,6 +144,12 @@
                     },
                     {
                         "target": "Thrombin"
+                    },
+                    {
+                        "publications": [
+                            "doi:10.1016/j.chembiol.2007.04.006"
+                        ],
+                        "target": "Protease"
                     }
                 ],
                 "compound": "aeruginosin 98-C",
@@ -161,10 +181,7 @@
         },
         "loci": {
             "accession": "FJ609416.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0000298",
         "minimal": false,
@@ -195,7 +212,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }

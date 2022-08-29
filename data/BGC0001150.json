@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +35,11 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "CCCC(CC1CCC(O1)C(C)C1OC(=O)C(C)C2CCC(CC(CCC)OC(=O)C(C)C3CCC(O3)C1C)O2)N(C)C",
                 "compound": "pamamycin-607",
                 "database_id": [
@@ -266,9 +280,6 @@
         "polyketide": {
             "cyclic": false,
             "ketide_length": 26,
-            "subclasses": [
-                "Other"
-            ],
             "synthases": [
                 {
                     "genes": [
@@ -288,7 +299,9 @@
             ]
         },
         "publications": [
-            "pubmed:25537663"
+            "pubmed:25537663",
+            "doi:10.7164/antibiotics.32.673",
+            "doi:10.3209/saj.13_11"
         ],
         "status": "active"
     }

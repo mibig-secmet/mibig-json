@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +36,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "chem_struct": "COC1C(O)C(O)C(C)OC1OC1C(OC)C(C)(O)CC2=CC3=C(C(O)=C12)C(=O)C1=C(C=C(OC)C=C1O)C3=O",
                 "compound": "steffimycin D",
                 "database_id": [
@@ -74,8 +87,7 @@
             "completeness": "complete",
             "evidence": [
                 "Knock-out studies",
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ]
         },
         "mibig_accession": "BGC0000273",

@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "CC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCN",
                 "compound": "desferrioxamin B",
                 "database_id": [
@@ -36,7 +48,7 @@
             },
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "siderophore"
                 ],
                 "chem_struct": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
                 "chem_synonyms": [
@@ -114,8 +126,7 @@
             "end_coord": 3040682,
             "evidence": [
                 "Knock-out studies",
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ],
             "start_coord": 3033355
         },

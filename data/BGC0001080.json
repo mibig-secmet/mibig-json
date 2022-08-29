@@ -19,6 +19,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -28,8 +37,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Antifungal"
+                    "antibacterial",
+                    "antifungal"
                 ],
                 "chem_struct": "CC(C)=CCC1=CC=CC2=NC3=CC=CC(C(O)=O)=C3N=C12",
                 "compound": "endophenazine A",
@@ -41,6 +50,10 @@
                 "molecular_formula": "C18H16N2O2"
             },
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_moieties": [
                     {
                         "moiety": "phenazine-1-carboxylic acid",
@@ -307,8 +320,7 @@
             "evidence": [
                 "Knock-out studies",
                 "Enzymatic assays",
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ]
         },
         "mibig_accession": "BGC0001080",

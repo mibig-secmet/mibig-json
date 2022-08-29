@@ -22,12 +22,13 @@
         {
             "comments": [
                 "Remove leading/trailing whitespace in gene identifiers",
-                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations"
+                "Removed gene annotations, including 'extra' genes, which duplicated NCBI annotations",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,6 +37,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "[H][C@@]1(O[C@@]2(C[C@@H](OC)[C@@H](C)[C@]([H])(O2)[C@H](C)[C@@H](O)[C@@H](C)C\\C(C)=C\\C)[C@H](O)C[C@@H]1C)[C@@H](C)[C@@H](O)[C@@H](C)\\C=C/C=C/C=C\\C=C\\C=C/[C@H](CC(O)=O)OC",
                 "compound": "spirangien O",
                 "database_id": [

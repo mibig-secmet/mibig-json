@@ -23,12 +23,13 @@
             "comments": [
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Merged cross-CDS PKS modules",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,12 +39,21 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor",
+                    "antifungal"
                 ],
                 "chem_struct": "CO[C@H]1\\C=C\\CC\\C=C\\C(=O)OC([C@@H](C)[C@@H]1O)C(\\C)=C\\[C@H](C)C(=O)CCCC1CC(=O)NC(=O)C1",
                 "chem_synonyms": [
                     "iso-mgs"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:19132897"
+                        ],
+                        "target": "Cell migration"
+                    }
                 ],
                 "compound": "iso-migrastatin",
                 "database_id": [
@@ -56,8 +66,9 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor",
+                    "antifungal"
                 ],
                 "chem_struct": "COC1\\C=C\\CC\\C=C\\C(=O)OC(C(C)C(=O)CCCC2CC(=O)NC(=O)C2)\\C(C)=C/C(C)C1O",
                 "chem_synonyms": [
@@ -66,6 +77,12 @@
                 "chem_targets": [
                     {
                         "target": "actin-bundling protein fascin"
+                    },
+                    {
+                        "publications": [
+                            "pubmed:19132897"
+                        ],
+                        "target": "Cell migration"
                     }
                 ],
                 "compound": "migrastatin",
@@ -78,10 +95,19 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor",
+                    "antifungal"
                 ],
                 "chem_struct": "COC(\\C=C\\CC\\C=C\\C(O)=O)C(O)C(C)\\C=C(/C)C(O)C(C)C(=O)CCCC1CC(=O)NC(=O)C1",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:19132897"
+                        ],
+                        "target": "Cell migration"
+                    }
+                ],
                 "compound": "dorrigocin A",
                 "database_id": [
                     "npatlas:NPA01445",
@@ -92,10 +118,19 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor",
+                    "antifungal"
                 ],
                 "chem_struct": "COC(\\C=C\\CC\\C=C\\C(O)=O)C(O)C(C)C(O)C(\\C)=C\\C(C)C(=O)CCCC1CC(=O)NC(=O)C1",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:19132897"
+                        ],
+                        "target": "Cell migration"
+                    }
+                ],
                 "compound": "dorrigocin B",
                 "database_id": [
                     "npatlas:NPA08223",
@@ -106,10 +141,19 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor",
+                    "antifungal"
                 ],
                 "chem_struct": "CO[C@@H](\\C=C\\CC\\C=C\\C(O)=O)[C@@H](O)[C@H](C)\\C=C(/C)[C@@H](O)[C@H](C)C(=O)CCCC1CC(=O)NC(=O)C1",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:19132897"
+                        ],
+                        "target": "Cell migration"
+                    }
+                ],
                 "compound": "13-epi-dorrigocin A",
                 "database_id": [
                     "npatlas:NPA015916",

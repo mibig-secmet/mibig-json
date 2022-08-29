@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +37,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC[C@@H]\\1CC[C@]23CC(=O)[C@H]([C@H](O2)C4=CC(=CC(=C4O3)NC(=O)C/C=C(\\C(=O)O[C@@H](/C=C1)C(C=C(C)C)O)/C)O)C",
                 "compound": "divergolide A",
@@ -49,7 +51,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC[C@@H]1CCC(=O)/C=C\\2/C(=CC3=CC(=CC(=C3O2)NC(=O)C/C=C(/C(=O)O[C@H]([C@H](C=C1)O)C=C(C)C)\\C)O)C",
                 "compound": "divergolide B",
@@ -62,7 +65,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC[C@@H]/1CCC(=O)C2=C3C(=CC(=C2O)C)C(=C4C(=C3O)[C@](C=CC(=O)N4)(C(=O)O[C@H]([C@H](/C=C1)O)C=C(C)C)C)O",
                 "compound": "divergolide C",
@@ -75,8 +79,8 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC[C@@H]/1CC(C2=C3C(=CC(=C2O)C)[C@@]4([C@H](/C=C(\\C(=O)O[C@@H](/C=C1)[C@H](C=C(C)C)O)/C)C(=O)NC4=CC3=O)O)C=O",
                 "compound": "divergolide D",
@@ -90,10 +94,7 @@
         ],
         "loci": {
             "accession": "HF563079.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001119",
         "minimal": false,

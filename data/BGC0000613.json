@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "C[C@@H](C1CO1)[C@@H]1NC(=O)[C@H](CC2=CC=C(O)C=C2)NC(=O)C2=CSC(=N2)[C@@H](NC(=O)C2=C(C)SC(=N2)[C@H](CC(N)=O)NC(=O)C2=CSC(=N2)C2=C(N=C(C=C2)C2=NC(=CS2)C(=O)NC(=C)C(=O)NC(=C)C(O)=O)C2=CSC(=N2)C2=CSC1=N2)[C@H](O)C1=CC=CC=C1",
                 "compound": "thiomuracin A",
                 "database_id": [
@@ -173,8 +185,7 @@
             "accession": "FJ461360.1",
             "completeness": "complete",
             "evidence": [
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ]
         },
         "mibig_accession": "BGC0000613",

@@ -23,12 +23,13 @@
             "comments": [
                 "Fix incorrect accession",
                 "Corrected NRP module activity",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "siderophore"
                 ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCN(=O)=O)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin A",
@@ -49,6 +50,9 @@
                 "molecular_formula": "C23H40N8O13"
             },
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCNO)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin B",
                 "database_id": [
@@ -58,6 +62,9 @@
                 "molecular_formula": "C23H42N8O12"
             },
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCN=O)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin C",
                 "database_id": [
@@ -67,6 +74,9 @@
                 "molecular_formula": "C23H40N8O12"
             },
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCN=N(=O)CCC[C@H](NC=O)C(=O)N[C@H]([C@@H](O)C(O)=O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCN(O)C=O)C(=O)NCCCCN)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin D",
                 "database_id": [
@@ -81,8 +91,7 @@
             "completeness": "complete",
             "end_coord": 2778630,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 2748130
         },
@@ -100,7 +109,7 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "N5-Hydroxyornithine",
+                                        "name": "N5-hydroxyornithine",
                                         "proteinogenic": false,
                                         "structure": "C(C[C@@H](C(=O)O)N)CNO"
                                     }
@@ -118,7 +127,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -136,7 +145,7 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -161,9 +170,9 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "N5-hydroxy-N5-formylornitine",
+                                        "name": "N5-formyl-N5-hydroxyornithine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN(C=O)O"
                                     }
                                 ]
                             },

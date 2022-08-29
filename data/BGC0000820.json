@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,9 +36,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor",
+                    "toxin"
                 ],
                 "chem_struct": "[H][C@]12N(C)CC[C@@]1(C)C1=C(C=CC(OC(=O)NC)=C1)N2C",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.1016/0041-0101(88)90282-6"
+                        ],
+                        "target": "cholinesterase"
+                    }
+                ],
                 "compound": "physostigmine",
                 "database_id": [
                     "npatlas:NPA06965",
