@@ -12,13 +12,15 @@
         {
             "comments": [
                 "Fixed DOIs",
-                "Retired as duplicate of BGC0001646"
+                "Retired as duplicate of BGC0001646",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "CUSGWVK3I4TVHJH7NHPFAP2L",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -28,6 +30,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "surfactant"
+                ],
                 "compound": "lagriamide"
             }
         ],
@@ -36,8 +41,58 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001946",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "28095",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AXA20090.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "doi:10.1038/s41467-018-04955-6"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AXA20091.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "doi:10.1038/s41467-018-04955-6"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Burkholderia gladioli",
         "publications": [
             "doi:10.1038/s41467-018-04955-6"

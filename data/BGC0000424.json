@@ -20,12 +20,14 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Corrected NRP gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,7 +37,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "siderophore"
                 ],
                 "chem_moieties": [
                     {
@@ -50,7 +52,7 @@
             },
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "siderophore"
                 ],
                 "chem_moieties": [
                     {
@@ -65,7 +67,7 @@
             },
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "siderophore"
                 ],
                 "chem_moieties": [
                     {
@@ -183,8 +185,7 @@
             "end_coord": 2687402,
             "evidence": [
                 "Knock-out studies",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 2645251
         },
@@ -195,19 +196,23 @@
             "cyclic": false,
             "nrps_genes": [
                 {
-                    "gene_id": "Hsero_2343",
+                    "gene_id": "ADJ63842.1",
                     "modules": [
                         {
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23320867"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                        "name": "3-hydroxyaspartic acid",
+                                        "proteinogenic": false,
+                                        "structure": "N[C@@H](C(C(=O)O)O)(C(=O)O)"
                                     }
                                 ]
                             },
@@ -219,11 +224,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23320867"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -237,13 +246,17 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23320867"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                        "name": "3-hydroxyaspartic acid",
+                                        "proteinogenic": false,
+                                        "structure": "N[C@@H](C(C(=O)O)O)(C(=O)O)"
                                     }
                                 ]
                             },
@@ -258,11 +271,15 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23320867"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -276,11 +293,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23320867"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -297,11 +318,15 @@
                                 ],
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23320867"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "N5-Hydroxyornithine",
+                                        "name": "N5-hydroxyornithine",
                                         "proteinogenic": false,
                                         "structure": "C(C[C@@H](C(=O)O)N)CNO"
                                     }

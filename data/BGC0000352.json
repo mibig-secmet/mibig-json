@@ -21,12 +21,15 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Corrected NRP gene names",
+                "Fixed substrate specificities",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Siderophore"
+                    "siderophore"
                 ],
                 "chem_struct": "CC(=O)N(O)CCCCNC(=O)[C@H](COC(=O)C1=C(O)C(O)=CC=C1)NC(=O)[C@@H]1COC(=N1)C1=C(O)C(O)=CC=C1",
                 "compound": "fimsbactin A",
@@ -129,8 +132,7 @@
             "end_coord": 2725713,
             "evidence": [
                 "Knock-out studies",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 2699483
         },
@@ -141,50 +143,69 @@
             "cyclic": false,
             "nrps_genes": [
                 {
-                    "gene_id": "ACIAD2773",
+                    "gene_id": "CAG69514.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C1)O)O)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "1"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAG69517.1",
                     "modules": [
                         {
                             "active": true,
-                            "c_dom_subtype": "Heterocyclization",
+                            "comments": "Trans-activates 2,3-dihydroxybenzoic acid",
                             "modification_domains": [
                                 "Unknown"
                             ],
                             "module_number": "1"
                         },
                         {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Structure-based inference"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "Serine",
-                                        "proteinogenic": true,
-                                        "structure": "C([C@@H](C(=O)O)N)O"
-                                    }
-                                ]
-                            },
                             "active": true,
-                            "c_dom_subtype": "LCL",
+                            "c_dom_subtype": "Heterocyclization",
+                            "comments": "Trans-activates serine or threonine",
                             "module_number": "2"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAG69516.1",
+                    "modules": [
                         {
                             "a_substr_spec": {
-                                "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Feeding study"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
                             "active": true,
-                            "c_dom_subtype": "LCL",
                             "module_number": "3"
                         }
                     ]

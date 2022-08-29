@@ -22,12 +22,15 @@
         {
             "comments": [
                 "Update compound structure (SMILES) for nocobactin NA",
-                "Add new compound: nocobactin NA 10152B"
+                "Add new compound: nocobactin NA 10152B",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,6 +40,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "CCCCCCC[C@H](OC([C@@H](NC(C1=C(C)OC(N1)=C2C=CC=CC2=O)=O)CCCCN(O)C(C)=O)=O)[C@H](C(N[C@@H]3CCCCN(O)C3=O)=O)C",
                 "compound": "nocobactin NA",
                 "database_id": [
@@ -59,8 +65,78 @@
             "start_coord": 820180
         },
         "mibig_accession": "BGC0001027",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "247156",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAD55611.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/JB.00897-10",
+                                    "doi:10.1074/jbc.M114.629485",
+                                    "doi:10.1016/j.abb.2016.08.004"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N6-hydroxylysine",
+                                        "proteinogenic": false,
+                                        "structure": "C(CCNO)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAD55612.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "X-ray crystallography"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/JB.00897-10",
+                                    "doi:10.1074/jbc.M114.629485",
+                                    "doi:10.1016/j.abb.2016.08.004"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N6-hydroxylysine",
+                                        "proteinogenic": false,
+                                        "structure": "C(CCNO)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAD55613.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Nocardia farcinica IFM 10152",
         "publications": [
             "pubmed:21097631"

@@ -20,18 +20,11 @@
         },
         {
             "comments": [
+                "Removed subcluster from chem_moiety",
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Reworked NRPS/PKS modules to match reference papers"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Removed subcluster from chem_moiety"
+                "Reworked NRPS/PKS modules to match reference papers",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -47,8 +40,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Cytotoxic"
+                    "antifungal",
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -85,8 +78,7 @@
                 "Knock-out studies",
                 "Enzymatic assays",
                 "Heterologous expression",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 81953
         },
@@ -107,7 +99,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -125,9 +117,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Pyruvate",
+                                        "name": "pyruvic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CC(=O)C(=O)O"
                                     }
                                 ]
                             },

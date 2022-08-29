@@ -22,12 +22,13 @@
             "comments": [
                 "Linked new NPAtlas id for microcystin LR (npatlas:NPA0593)",
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,8 +39,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_struct": "C[C@H]1[C@@H](NC(=O)[C@@H](NC(=O)[C@H]([C@@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)C(=C)N(C(=O)CC[C@@H](NC1=O)C(=O)O)C)C)CC(C)C)C(=O)O)C)CCCN=C(N)N)/C=C/C(=C/[C@H](C)[C@H](CC2=CC=CC=C2)OC)/C",
                 "chem_synonyms": [
@@ -213,8 +214,7 @@
             "accession": "AF183408.1",
             "completeness": "complete",
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ]
         },
         "mibig_accession": "BGC0001017",
@@ -230,13 +230,19 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/S1074-5521(00)00021-1",
+                                    "doi:10.1021/ja00013a066",
+                                    "doi:10.1021/cb500007v"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylacetate",
+                                        "name": "cinnamic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C1=CC=C(C=C1)/C=C/C(=O)O"
                                     }
                                 ]
                             },
@@ -254,11 +260,16 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1016/S0723-2020(11)80184-0",
+                                    "doi:10.1021/ja00013a066",
+                                    "doi:10.1042/BJ20030396"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamic acid",
-                                        "proteinogenic": true,
-                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
+                                        "name": "D-glutamic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C(CC(=O)O)[C@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -280,11 +291,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1074/jbc.M606986200",
+                                    "doi:10.1046/j.1365-2958.1997.6131982.x"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -300,11 +315,15 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/S0723-2020(11)80184-0",
+                                    "doi:10.1016/j.chembiol.2016.03.011"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -323,13 +342,36 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2016.03.011"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
                                     }
                                 ]
                             },
@@ -341,13 +383,26 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference",
+                                    "Feeding study"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/S0723-2020(11)80184-0",
+                                    "doi:10.1074/jbc.M606986200",
+                                    "doi:10.1021/ja00013a066",
+                                    "doi:10.1042/BJ20030396",
+                                    "doi:10.1016/j.bbrc.2019.05.063"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-N2-methylasparagine",
+                                        "name": "3S-methyl-D-aspartic acid branched",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H]([C@H](O)C(O)=O)C(O)=O"
+                                    },
+                                    {
+                                        "name": "D-aspartic acid branched",
+                                        "proteinogenic": false,
+                                        "structure": "C([C@H](C(=O)O)N)C(=O)O"
                                     }
                                 ]
                             },
@@ -364,13 +419,41 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2016.03.011"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    },
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    },
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },

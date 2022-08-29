@@ -23,13 +23,15 @@
                 "Update compound structure (SMILES) for frontalamide B",
                 "Linked new PubChem id for frontalamide B (pubchem:101515038)",
                 "Add new compound: frontalamide A",
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,7 +42,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal"
                 ],
                 "chem_struct": "C[C@H]1[C@H](C[C@H]2[C@@H]1[C@H]3[C@H](C2)[C@H]4C/C=C\\C(=O)NCCC(C5C(=O)C(=C(/C=C/[C@@H]4CC3=O)O)C(=O)N5)O)C=C",
                 "compound": "frontalamide B",
@@ -52,6 +54,9 @@
                 "molecular_formula": "C29H36N2O6"
             },
             {
+                "chem_acts": [
+                    "antifungal"
+                ],
                 "chem_struct": "C[C@H]1[C@H](C[C@H]2[C@@]1([C@H]3[C@H](C2)[C@H]4C/C=C\\C(=O)NCCC(C5C(=O)C(=C(/C=C/[C@@H]4CC3=O)O)C(=O)N5)O)O)C=C",
                 "compound": "frontalamide A",
                 "mol_mass": 524.2522514919999,
@@ -114,8 +119,7 @@
             "completeness": "incomplete",
             "end_coord": 4909316,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 4892742
         },
@@ -136,7 +140,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Ornithine",
+                                        "name": "ornithine",
                                         "proteinogenic": false,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN"
                                     }

@@ -17,14 +17,29 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities",
+                "Fixed biosynthetic classes"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal"
+                ],
                 "chem_struct": "CC1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(CC(C(C(CC(=O)CC(CC(CC(CC(=O)CCCC(=O)CC(=O)OC1C(C)CC(C)C(CC(=O)C2=CC=C(C=C2)N)O)O)O)O)O)C(=O)O)O)OC3C(C(C(C(O3)C)O)N)O",
                 "compound": "candicidin",
                 "database_id": [
@@ -36,11 +51,40 @@
         ],
         "loci": {
             "accession": "AY310323.2",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000034",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "206662",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAQ82561.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:14652074"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. FR-008",
         "publications": [
             "pubmed:14652074"

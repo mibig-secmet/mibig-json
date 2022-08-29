@@ -21,12 +21,15 @@
         {
             "comments": [
                 "Update compound structure (SMILES) for mycobactin",
-                "Linked new PubChem id for mycobactin (pubchem:136041711)"
+                "Linked new PubChem id for mycobactin (pubchem:136041711)",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB"
+                "5UL74VURKJ25VSPPPO3H2NYB",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,6 +39,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "CCCCCCCCCCCCCCCCCCCC(=O)N(CCCC[C@@H](C(=O)O[C@H](C)CC(=O)N[C@H]1CCCCN(C1=[OH+])O)NC(=O)[C@H]2COC(=N2)C3=CC=CC=C3O)O.[Fe]",
                 "compound": "mycobactin",
                 "database_id": [
@@ -53,8 +59,28 @@
             "start_coord": 2656200
         },
         "mibig_accession": "BGC0001021",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "83332",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CCP45167.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Mycobacterium tuberculosis H37Rv",
         "publications": [
             "pubmed:9831524"

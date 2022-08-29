@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Linked new NPAtlas id for albicidin (npatlas:NPA020027)"
+                "Linked new NPAtlas id for albicidin (npatlas:NPA020027)",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,6 +38,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_struct": "C/C(=C\\C1=CC=C(C=C1)O)/C(=O)NC2=CC=C(C=C2)C(=O)N[C@@H](CC#N)C(=O)NC3=CC=C(C=C3)C(=O)NC4=C(C(=C(C=C4)C(=O)NC5=C(C(=C(C=C5)C(=O)O)O)OC)O)OC",
                 "compound": "albicidin",
                 "database_id": [
@@ -51,8 +57,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001088",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "29447",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAE52342.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Xanthomonas albilineans",
         "publications": [
             "pubmed:15077674"

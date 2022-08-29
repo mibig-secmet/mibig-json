@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)NC(C(=O)N1)CC(C)C)CC(C)C)C)C)CC2=CC(=C(C=C2)O)[N+](=O)[O-])CC(C)C)C)CC3=CN(C4=CC=CC=C43)C(C)(C)C=C",
                 "compound": "rufomycin",
                 "mol_mass": 1011.579339664,
@@ -37,8 +50,138 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001763",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1893",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BBA20967.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28774961"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "1-(1,1-dimethylallyl)-tryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)(C=C)N1C=C(C2=CC=CC=C21)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28774961"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Knock-out studies",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:28774961"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-nitrotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)[N+](=O)[O-])O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28774961"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28774961"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28774961"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:28774961"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "trans-2-crotylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C/C=C/C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces atratus",
         "publications": [
             "pubmed:28774961"

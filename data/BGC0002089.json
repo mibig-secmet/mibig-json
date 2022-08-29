@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -50,8 +51,56 @@
             "start_coord": 3598008
         },
         "mibig_accession": "BGC0002089",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "680198",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CBG70279.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31282068"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBG70278.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31282068"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-nitrotryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C2C(=C1[N+](=O)[O-])C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces scabiei 87.22",
         "publications": [
             "pubmed:31282068"

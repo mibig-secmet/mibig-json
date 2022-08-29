@@ -21,12 +21,14 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +38,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "antibacterial",
+                    "inhibitor"
                 ],
                 "chem_struct": "[H][C@@](CCCCC)(CC(=O)NO)C(=O)N[C@@]([H])(C(C)C)C(=O)N1CCC[C@H]1CO",
                 "chem_targets": [
@@ -44,6 +47,9 @@
                         "target": "metalloproteinase"
                     },
                     {
+                        "publications": [
+                            "pubmed:10684604"
+                        ],
                         "target": "bacterial peptide deformylase"
                     }
                 ],
@@ -62,10 +68,7 @@
         ],
         "loci": {
             "accession": "KY906183.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001442",
         "minimal": false,
@@ -84,7 +87,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -116,7 +119,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }

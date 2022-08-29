@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "[H][C@@]12CCCNN1C(=O)[C@]([H])(NC(=O)[C@@H](CC1=CC=C(OC)C=C1)NC(=O)[C@@H](NC(=O)[C@@H](NC=O)C(C)C)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)NC2=O)[C@@H](C)CC",
                 "compound": "marformycin A",
                 "database_id": [
@@ -35,6 +48,9 @@
                 "molecular_formula": "C43H68N8O10"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "[H][C@@]12CCCNN1C(=O)[C@]([H])(NC(=O)[C@@H](CC1=CC=C(OC)C=C1)NC(=O)[C@@H](NC(=O)[C@@H](NC=O)[C@H](C)CC)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)NC2=O)[C@@H](C)CC",
                 "compound": "marformycin B",
                 "database_id": [
@@ -44,6 +60,9 @@
                 "molecular_formula": "C44H70N8O10"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "[H][C@@]12C[C@H](O)CNN1C(=O)[C@H](NC(=O)[C@@H](CC1=CC=C(OC)C=C1)NC(=O)[C@@H](NC(=O)[C@@H](NC=O)[C@H](C)CC)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)NC2=O)C(C)C",
                 "compound": "marformycin C",
                 "database_id": [
@@ -53,6 +72,9 @@
                 "molecular_formula": "C43H68N8O11"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "[H][C@@]12C[C@H](O)CNN1C(=O)[C@]([H])(NC(=O)[C@@H](CC1=CC=C(OC)C=C1)NC(=O)[C@@H](NC(=O)[C@@H](NC=O)[C@H](C)CC)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)NC2=O)[C@@H](C)CC",
                 "compound": "marformycin D",
                 "database_id": [
@@ -62,6 +84,9 @@
                 "molecular_formula": "C44H70N8O11"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "[H][C@@]12C[C@H](O)CNN1C(=O)[C@H](NC(=O)[C@@H](CC1=CC=C(OC)C=C1)NC(=O)[C@@H](NC(=O)[C@@H](NC=O)C(C)C)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)NC2=O)C(C)C",
                 "compound": "marformycin E",
                 "database_id": [
@@ -71,6 +96,9 @@
                 "molecular_formula": "C42H66N8O11"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "[H][C@@]12CCCNN1C(=O)[C@H](NC(=O)[C@@H](CC1=CC=C(OC)C=C1)NC(=O)[C@@H](NC(=O)[C@@H](NC=O)C(C)C)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)NC2=O)C(C)C",
                 "compound": "marformycin F",
                 "database_id": [
@@ -85,8 +113,169 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001214",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "202862",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AJV88375.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25746634"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "allo-isoleucine",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25746634"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25746634"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AJV88376.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:25746634"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "allo-isoleucine",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AJV88377.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25746634"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25746634"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AJV88383.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:25746634"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "piperazic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1C[C@H](NNC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces drozdowiczii",
         "publications": [
             "pubmed:25746634"

@@ -21,12 +21,15 @@
         },
         {
             "comments": [
-                "Added missing NRP class"
+                "Added missing NRP class",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "CUSGWVK3I4TVHJH7NHPFAP2L"
+                "CUSGWVK3I4TVHJH7NHPFAP2L",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,6 +39,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "[H][C@](O)([C@@]1([H])CCCC=C1)[C@@]12NC(=O)[C@H](CCCl)[C@]1(C)OC2=O",
                 "compound": "salinosporamide A",
                 "database_id": [
@@ -48,11 +54,40 @@
         ],
         "loci": {
             "accession": "EF397502.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000145",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "168695",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ABP73646.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:19590008"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S-cyclohex-2-enylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1C=C[C@H](CC1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Salinispora tropica",
         "publications": [
             "pubmed:19590008"

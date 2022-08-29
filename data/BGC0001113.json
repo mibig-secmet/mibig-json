@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "C[C@H]1C[C@H]([C@H](O[C@H]1C/C=C(\\C)/C=C/[C@@H]2[C@H]([C@@]3(C[C@@](O2)(C)OCCNC(=O)CCCCCNC(=O)CCCCCNC(=O)CCCC[C@H]4[C@@H]5[C@H](CS4)NC(=O)N5)CO3)O)C)NC(=O)/C=C\\[C@H](C)OC(=O)C",
                 "compound": "spliceostatin",
                 "database_id": [
@@ -49,8 +62,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001113",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1494466",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AIC32693.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Burkholderia sp. FERM BP-3421",
         "publications": [
             "pubmed:25097259"

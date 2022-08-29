@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Corrected NRP gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -86,7 +88,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-Amino-3,5-dimethyl-4-hexenoic Acid",
+                                        "name": "2-amino-3,5-dimethyl-4-hexenoic Acid",
                                         "proteinogenic": false,
                                         "structure": "CC(C=C(C)C)C(C(=O)O)N"
                                     }
@@ -99,9 +101,12 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -119,7 +124,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -137,7 +142,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -155,7 +160,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -173,7 +178,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -190,13 +195,33 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
+                                    "Feeding study",
+                                    "Knock-out studies",
                                     "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20055491"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "1-(1,1-dimethylallyl)-tryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)(C=C)N1C=C(C2=CC=CC=C21)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "N-(1-methyl)-tryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN(C)2)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "N-(1-propargyl)-tryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN(CC#C)2)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },

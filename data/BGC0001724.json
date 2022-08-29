@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,8 +45,35 @@
             "start_coord": 2193562
         },
         "mibig_accession": "BGC0001724",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "933388",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EPS29069.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:28365998"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "(S,E)-2-amino-4-decenoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCCC/C=C/C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Penicillium oxalicum 114-2",
         "publications": [
             "pubmed:28365998"

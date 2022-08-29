@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,8 +36,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Surfactant"
+                    "antifungal",
+                    "surfactant"
                 ],
                 "chem_struct": "O=C(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCO)C(N[C@H](CCN)C(N[C@@H](CCCCN)C(O)=O)=O)=O)=O)[C@@H]([C@H](O)C)NC(/C(NC([C@@H](C(C)C)NC([C@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@H](C(C)C)NC([C@@H](C(C)C)NC([C@@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@@H](C(C)C)NC([C@@H](CC(C)C)NC([C@@H](CO)NC([C@]1(C(CC(O)CCCCC)=O)N(C(/C(N)=C/C)=O)CCC1)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=C\\C)=O",
                 "chem_synonyms": [
@@ -156,8 +157,7 @@
             "accession": "JQ309920.1",
             "completeness": "complete",
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ]
         },
         "mibig_accession": "BGC0000425",
@@ -177,9 +177,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2,3-Dehydro-2-aminobutyric acid",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -195,9 +195,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-proline",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },
@@ -213,9 +213,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-serine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -231,9 +231,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-leucine",
-                                        "proteinogenic": false,
-                                        "structure": "CC(C)C[C@H](C(=O)O)N"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -249,9 +249,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-valine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -267,9 +267,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-glutamine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -290,9 +290,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-glutamine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -308,7 +308,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -326,9 +326,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-valine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -344,9 +344,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-leucine",
-                                        "proteinogenic": false,
-                                        "structure": "CC(C)C[C@H](C(=O)O)N"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -362,9 +362,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-valine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -380,7 +380,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -403,9 +403,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2,3-Dehydro-2-aminobutyric acid",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -421,9 +421,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-allothreonine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
@@ -439,7 +439,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -457,7 +457,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homoserine",
+                                        "name": "homoserine",
                                         "proteinogenic": false,
                                         "structure": "C(CO)[C@@H](C(=O)O)N"
                                     }
@@ -475,7 +475,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2,4-Diaminobutyric acid",
+                                        "name": "2,4-diaminobutyric acid",
                                         "proteinogenic": false,
                                         "structure": "C(CN)[C@@H](C(=O)O)N"
                                     }
@@ -493,7 +493,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }

@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CC1/C=C(/C(=O)C2=C3C(=CC(=C2O)C)C(=O)C4=C(C3=O)OC(CN4)(C(=O)C(C1OC(=O)C5=C(C(=CC(=N5)C(=O)NC6=C(OC7=C(C6=O)C=CC(=C7)OC)O)OC8CC(C(C(O8)C)OC)(C)[N+](=O)[O-])O)O)C)\\C",
                 "compound": "rubradirin",
                 "database_id": [
@@ -34,12 +47,41 @@
                 "molecular_formula": "C48H46N4O20"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 736,
+                                "end": 1124
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "tyrosine",
+                                    "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "CAI94718.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "AJ871581.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Enzymatic assays"
+            ]
         },
         "mibig_accession": "BGC0000141",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "285531",
         "organism_name": "Streptomyces achromogenes subsp. rubradiris",
         "publications": [

@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,6 +35,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "compound": "lichenysin"
             }
         ],
@@ -35,8 +49,148 @@
             "start_coord": 370023
         },
         "mibig_accession": "BGC0000381",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "279010",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAU39359.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1159/000079829",
+                                    "doi:10.1186/gb-2004-5-10-r77",
+                                    "doi:10.1046/j.1432-1033.2000.01467.x",
+                                    "doi:10.1111/jam.12299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1159/000079829",
+                                    "doi:10.1186/gb-2004-5-10-r77",
+                                    "doi:10.1046/j.1432-1033.2000.01467.x",
+                                    "doi:10.1111/jam.12299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1159/000079829",
+                                    "doi:10.1186/gb-2004-5-10-r77",
+                                    "doi:10.1046/j.1432-1033.2000.01467.x",
+                                    "doi:10.1111/jam.12299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAU39360.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1159/000079829",
+                                    "doi:10.1186/gb-2004-5-10-r77",
+                                    "doi:10.1046/j.1432-1033.2000.01467.x",
+                                    "doi:10.1111/jam.12299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1159/000079829",
+                                    "doi:10.1186/gb-2004-5-10-r77",
+                                    "doi:10.1046/j.1432-1033.2000.01467.x",
+                                    "doi:10.1111/jam.12299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1159/000079829",
+                                    "doi:10.1186/gb-2004-5-10-r77",
+                                    "doi:10.1046/j.1432-1033.2000.01467.x",
+                                    "doi:10.1111/jam.12299"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Bacillus licheniformis DSM 13 = ATCC 14580",
         "publications": [
             "pubmed:15383718"

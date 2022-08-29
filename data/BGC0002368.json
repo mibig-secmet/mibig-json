@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -31,8 +32,65 @@
             "start_coord": 210729
         },
         "mibig_accession": "BGC0002368",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "5077",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ctg16_307",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34230497"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "6S-methyl-pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1C[C@H](C)N[C@@H](C1)C(=O)O"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "6S-methyl-pipecolic acid",
+                                    "structure": "C1C[C@H](C)N[C@@H](C1)C(=O)O"
+                                }
+                            ]
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:34230497"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "name": "tryptophan",
+                                    "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Penicillium citrinum",
         "publications": [
             "pubmed:34230497",

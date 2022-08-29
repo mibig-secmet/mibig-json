@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +37,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -83,9 +84,6 @@
             "accession": "CP007203.2",
             "completeness": "complete",
             "end_coord": 4975880,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 4953880
         },
         "mibig_accession": "BGC0000430",
@@ -105,7 +103,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homotyrosine",
+                                        "name": "homotyrosine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
                                     }
@@ -123,7 +121,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -141,9 +139,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Argininal",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
                                 ]
                             },

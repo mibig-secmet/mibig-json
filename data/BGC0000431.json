@@ -21,13 +21,14 @@
         {
             "comments": [
                 "Remove negative molecular mass",
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,7 +38,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "compound": "stenothricin"
             }
@@ -46,9 +47,6 @@
             "accession": "DS999644.1",
             "completeness": "complete",
             "end_coord": 925039,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 870145
         },
         "mibig_accession": "BGC0000431",
@@ -68,7 +66,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Cysteic acid",
+                                        "name": "cysteic acid",
                                         "proteinogenic": false,
                                         "structure": "C([C@@H](C(=O)O)N)S(=O)(=O)O"
                                     }
@@ -90,7 +88,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -108,7 +106,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -126,7 +124,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2,3-Diaminopropionic acid",
+                                        "name": "2,3-diaminopropionic acid",
                                         "proteinogenic": false,
                                         "structure": "C([C@@H](C(=O)O)N)N"
                                     }
@@ -149,7 +147,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -167,7 +165,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -190,7 +188,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -206,9 +204,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1038/ja.2013.99"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
@@ -226,7 +227,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

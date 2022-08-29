@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +37,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antiviral",
+                    "immunosupresor"
+                ],
                 "chem_struct": "CC[C@H]1C[C@H](C)[C@@]2(NC1=O)O[C@@H](C[C@H](O)[C@@H](C)CC\\C=C\\C=C(/C)[C@@H]1C\\C=C\\C=C\\[C@H](O)[C@H](C)[C@@H](O)[C@@H](CCC(C)=O)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC3=CC(O)=CC=C3)C(=O)N3CCC[C@H](N3)C(=O)O1)[C@H](C)[C@H](O)[C@@H]2C",
                 "compound": "sanglifehrin A",
                 "database_id": [
@@ -42,8 +56,72 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001042",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "67297",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ACY06285.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21416665"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Feeding study",
+                                    "Knock-out studies",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:21416665"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "meta-tyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)O)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:21416665"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3S-carboxypiperazine",
+                                        "proteinogenic": false,
+                                        "structure": "C1NN[C@H](C(=O)O)CC1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces flaveolus",
         "publications": [
             "pubmed:21416665"

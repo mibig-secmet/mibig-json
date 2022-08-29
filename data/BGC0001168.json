@@ -21,12 +21,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,11 +38,17 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_targets": [
                     {
                         "target": "Trypsin"
+                    },
+                    {
+                        "publications": [
+                            "doi:10.1093/gbe/evt082"
+                        ],
+                        "target": "Protease"
                     }
                 ],
                 "compound": "livipeptin",
@@ -98,8 +106,7 @@
             "evidence": [
                 "Knock-out studies",
                 "Heterologous expression",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 891947
         },
@@ -120,7 +127,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }

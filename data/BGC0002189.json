@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -28,12 +29,71 @@
             "accession": "CBMF010000366.1",
             "completeness": "Unknown",
             "end_coord": 30558,
-            "evidence": [],
             "start_coord": 7001
         },
         "mibig_accession": "BGC0002189",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1318459",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BN849_0052030",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:30654953"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:30654953"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-aminoisobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(CN)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:30654953"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fusarium pseudograminearum CS5834",
         "publications": [
             "pubmed:30654953",

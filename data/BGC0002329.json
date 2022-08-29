@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -27,14 +28,127 @@
             "accession": "VJZF01000001.1",
             "completeness": "Unknown",
             "end_coord": 971769,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 930564
         },
         "mibig_accession": "BGC0002329",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "28094",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "TRX17524.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31605027"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3R-hydroxyaspartic acid",
+                                        "proteinogenic": false,
+                                        "structure": "N[C@@H]([C@H](C(=O)O)O)(C(=O)O)"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31605027"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31605027"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31605027"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-nitroso-N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "O=NN(CCC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31605027"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "TRX17523.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31605027"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N5-nitroso-N5-hydroxyornithine",
+                                        "proteinogenic": false,
+                                        "structure": "O=NN(CCC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Trinickia caryophylli",
         "publications": [
             "pubmed:31605027"

@@ -2,7 +2,9 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -16,9 +18,45 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ],
+                        "target": "PG"
+                    },
+                    {
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ],
+                        "target": "autolysins"
+                    }
+                ],
                 "compound": "misaugamycin A"
             },
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "inhibitor"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ],
+                        "target": "PG"
+                    },
+                    {
+                        "publications": [
+                            "doi:10.1021/acscentsci.1c01389"
+                        ],
+                        "target": "autolysins"
+                    }
+                ],
                 "compound": "misaugamycin B"
             }
         ],
@@ -27,15 +65,164 @@
             "completeness": "Unknown",
             "end_coord": 677424,
             "evidence": [
-                "Sequence-based prediction",
                 "Heterologous expression",
                 "Gene expression correlated with compound production"
             ],
             "start_coord": 604269
         },
         "mibig_accession": "BGC0002638",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2203201",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "MCC5036783.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/acscentsci.1c01389"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/acscentsci.1c01389"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "MCC5036784.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/acscentsci.1c01389"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "MCC5036785.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/acscentsci.1c01389"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/acscentsci.1c01389"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/acscentsci.1c01389"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "MCC5036786.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/acscentsci.1c01389"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylglycine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. WAC 00631",
         "publications": [
             "pubmed:35647273"

@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,7 +36,18 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "immunosuppressant"
+                ],
                 "chem_struct": "[H][C@]1(CC[C@@H](O)[C@@H](C1)OC)\\C=C(/C)[C@@H]1OC(=O)[C@]2([H])CCCCN2C(=O)C(=O)[C@]2(O)O[C@@]([H])([C@H](C[C@H]2C)OC)[C@H](C[C@@H](C)C\\C(C)=C\\[C@@H](CC=C)C(=O)C[C@H](O)[C@H]1C)OC",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:2484094"
+                        ],
+                        "target": "Immunosuppressant"
+                    }
+                ],
                 "compound": "tacrolimus",
                 "database_id": [
                     "npatlas:NPA019402"
@@ -40,8 +61,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000353",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "82632",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAC68816.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. MA6548",
         "publications": [
             "pubmed:9780228"

@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "NC(NCCC[C@@H](NC(=O)C1=C(O)C(O)=CC=C1)C(=O)NCC(=O)N[C@H]1CCCN(O)C1=O)=NC(=O)C1=CC=CC(O)=C1O",
                 "compound": "heterobactin A",
                 "database_id": [
@@ -36,6 +49,9 @@
                 "molecular_formula": "C27H33N7O10"
             },
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "CS(=O)(=O)C1=C(O)C(O)=C(C=C1)C(=O)N[C@H](CCCNC(N)=NC(=O)C1=CC=CC(O)=C1O)C(=O)NCC(=O)N[C@H]1CCCN(O)C1=O",
                 "compound": "heterobactin S2",
                 "database_id": [
@@ -52,8 +68,72 @@
             "start_coord": 2888228
         },
         "mibig_accession": "BGC0000371",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "234621",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAH33406.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:24274668"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAH33409.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "ornithine",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Rhodococcus erythropolis PR4",
         "publications": [
             "pubmed:24274668"

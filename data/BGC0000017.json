@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +37,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Neurotoxic"
+                    "neurotoxic"
                 ],
                 "chem_struct": "CC(=O)C1=CCC[C@@H]2CC[C@H]1N2",
                 "chem_targets": [
@@ -53,7 +54,7 @@
             },
             {
                 "chem_acts": [
-                    "Neurotoxic"
+                    "neurotoxic"
                 ],
                 "chem_struct": "CCC(=O)C1=CCC[C@@H]2CC[C@H]1N2",
                 "chem_targets": [
@@ -87,6 +88,37 @@
                     "product": "Prolyl-ACP oxidase"
                 },
                 {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 11,
+                                "end": 433
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "ATP-PPi exchange assay"
+                                    ],
+                                    "name": "proline",
+                                    "publications": [
+                                        "pubmed:19954230"
+                                    ],
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                },
+                                {
+                                    "evidence": [
+                                        "ATP-PPi exchange assay"
+                                    ],
+                                    "name": "3,4-dehydroproline",
+                                    "publications": [
+                                        "pubmed:19954230"
+                                    ],
+                                    "structure": "C1C=C[C@H](N1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
                     "functions": [
                         {
                             "category": "Precursor biosynthesis",

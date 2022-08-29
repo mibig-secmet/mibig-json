@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,6 +35,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CN1[C@H]2C[C@H]([C@@H]1[C@@H]3CC4=C([C@H]5N3[C@@H]2OC5)C(=CC=C4)OC)C(=O)O",
                 "compound": "quinocarcin",
                 "database_id": [
@@ -39,8 +52,93 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000414",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1182637",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAO84861.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAO84864.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "glycolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAO84866.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2013.10.011"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4,5-dehydroarginine",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)[C@@H](N)C/C=C/NC(N)=N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAO84868.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2013.10.011"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "meta-tyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)O)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "3-hydroxy-O-methyl-5-methyltyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=C(O)C(=C(C)C=C1C[C@@H](C(=O)O)N)OC"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces melanovinaceus",
         "publications": [
             "pubmed:24269153"

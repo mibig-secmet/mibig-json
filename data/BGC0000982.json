@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +37,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "CO[C@@H](\\C=C\\C1=CSC(=N1)C1=CSC(=N1)C(C)C)[C@@H](C)C(\\OC)=C/C(=O)OC",
                 "compound": "cystothiazole A",
                 "database_id": [
@@ -42,8 +56,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000982",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "43",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAW03326.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Cystobacter fuscus",
         "publications": [
             "pubmed:16041144"

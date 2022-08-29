@@ -2,12 +2,13 @@
     "changelog": [
         {
             "comments": [
-                "Add information lost in migration from 1.4 to 2.0"
+                "Add information lost in migration from 1.4 to 2.0",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -18,8 +19,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -52,8 +53,8 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -86,8 +87,8 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -119,8 +120,8 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic",
-                    "Inhibitor"
+                    "cytotoxic",
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -155,9 +156,6 @@
             "accession": "JAGGDC010000009.1",
             "completeness": "complete",
             "end_coord": 73744,
-            "evidence": [
-                "Sequence-based prediction"
-            ],
             "start_coord": 1
         },
         "mibig_accession": "BGC0002118",
@@ -165,6 +163,30 @@
         "ncbi_tax_id": "2818510",
         "nrp": {
             "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "MCC5026027.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:35004620"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
             "release_type": [
                 "Macrolactonization"
             ],

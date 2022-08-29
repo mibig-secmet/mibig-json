@@ -11,12 +11,14 @@
         },
         {
             "comments": [
-                "Removed gene names of 'No gene ID'"
+                "Removed gene names of 'No gene ID'",
+                "Fixed biosynthetic classes",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -24,13 +26,14 @@
             "subclass": "Pyrrolizidine"
         },
         "biosyn_class": [
-            "Polyketide",
-            "Alkaloid"
+            "Alkaloid",
+            "NRP",
+            "Polyketide"
         ],
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "O[C@H]([C@@H](CO)O[C@@H](OCCCCCC(O)CCCC(O)C/C=C/CCCCCCCCCC(CC(/C(O)=C1C(N(C[C@H](O)C2)[C@]2([H])C/1=O)=O)C)C)[C@H]3O)[C@@H]3O",
                 "chem_synonyms": [
@@ -194,6 +197,29 @@
         "mibig_accession": "BGC0001857",
         "minimal": false,
         "ncbi_tax_id": "2508778",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QBE85649.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4R-hydroxyproline",
+                                        "proteinogenic": false,
+                                        "structure": "C1[C@H](NC[C@@H]1O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus sp. CLMG-2019a",
         "polyketide": {
             "cyclic": false,

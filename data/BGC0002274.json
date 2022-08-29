@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -31,14 +32,39 @@
             "completeness": "Unknown",
             "end_coord": 330691,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 327913
         },
         "mibig_accession": "BGC0002274",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "341663",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EAU36966.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:23841722"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylpyruvic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC(=O)C(=O)O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus terreus NIH2624",
         "publications": [
             "pubmed:23841722",

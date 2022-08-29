@@ -27,13 +27,15 @@
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Sorted modules by module number",
-                "Removed invalid subcluster annotation"
+                "Removed invalid subcluster annotation",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "5UL74VURKJ25VSPPPO3H2NYB",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -44,7 +46,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic",
+                    "surfactant"
                 ],
                 "chem_moieties": [
                     {
@@ -73,7 +76,7 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -93,8 +96,7 @@
             "accession": "FJ823461.1",
             "completeness": "complete",
             "evidence": [
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ]
         },
         "mibig_accession": "BGC0001110",
@@ -114,7 +116,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

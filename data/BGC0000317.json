@@ -21,12 +21,13 @@
         },
         {
             "comments": [
-                "Retired due to involving multiple contigs"
+                "Retired due to involving multiple contigs",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -67,8 +68,50 @@
             "start_coord": 71175
         },
         "mibig_accession": "BGC0000317",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "857340",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "KFH48607.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "2-aminoadipic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Acremonium chrysogenum ATCC 11550",
         "publications": [
             "pubmed:25291769",

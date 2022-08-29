@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,9 +37,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic",
-                    "Pigment"
+                    "antibacterial",
+                    "cytotoxic",
+                    "pigment",
+                    "antifungal"
                 ],
                 "chem_moieties": [
                     {
@@ -353,6 +364,24 @@
                     "product": "3,4-AHBA carboxyl group adenylation"
                 },
                 {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 24,
+                                "end": 374
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "3-amino-4-hydroxybenzoic acid",
+                                    "structure": "C1=CC(=C(C=C1C(=O)O)N)O"
+                                }
+                            ]
+                        }
+                    ],
                     "functions": [
                         {
                             "category": "Precursor biosynthesis",

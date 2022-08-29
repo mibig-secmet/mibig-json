@@ -22,13 +22,14 @@
             "comments": [
                 "Update NCBI taxid after old taxid was merged",
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,8 +41,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_struct": "O=C([C@H](CC(N)=O)NC1=O)N[C@H](CC(N)=O)C(N[C@H]([C@@H](C)CC)C(O[C@H](C)[C@H](C(N[C@@H]1C(C)C)=O)NC(/C=C/C=C/C=C/C=C/C2=CC=C(O)C(Br)=C2)=O)=O)=O",
                 "compound": "bromoalterochromide A",
@@ -57,8 +58,7 @@
             "evidence": [
                 "Knock-out studies",
                 "Heterologous expression",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ],
             "start_coord": 204471
         },
@@ -76,7 +76,7 @@
                                 "epimerized": false,
                                 "substrates": [
                                     {
-                                        "name": "Coumaric acid",
+                                        "name": "coumaric acid",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1/C=C/C(=O)O)O"
                                     }
@@ -94,11 +94,14 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/sb500280q"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -121,7 +124,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -139,7 +142,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -162,7 +165,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Asparagine",
+                                        "name": "asparagine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)N"
                                     }
@@ -180,7 +183,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }

@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -79,15 +80,32 @@
             "completeness": "complete",
             "evidence": [
                 "Enzymatic assays",
-                "Gene expression correlated with compound production",
-                "Sequence-based prediction"
+                "Gene expression correlated with compound production"
             ]
         },
         "mibig_accession": "BGC0001165",
         "minimal": false,
         "ncbi_tax_id": "158786",
         "nrp": {
-            "cyclic": false
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "AAT70101.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         "organism_name": "Lyngbya majuscula",
         "polyketide": {

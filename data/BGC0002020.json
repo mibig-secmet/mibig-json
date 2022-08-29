@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,8 +36,32 @@
             "start_coord": 2827500
         },
         "mibig_accession": "BGC0002020",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "243265",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAE14766.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Mass spectrometry",
+                                    "Feeding study"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Photorhabdus laumondii subsp. laumondii TTO1",
         "publications": [
             "pubmed:30694662"

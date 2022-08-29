@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +37,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "COC(\\C=C\\C1=CC=CC=C1)C(C)C(OC)C(C)\\C=C\\C(\\C)=C\\C(=O)N\\C=C/C\\C=C/C(=O)NCC(=O)OC",
                 "compound": "crocacin",
                 "database_id": [
@@ -42,8 +56,44 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000974",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "52",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CBD77746.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CBD77749.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Chondromyces crocatus",
         "publications": [
             "pubmed:24981773"

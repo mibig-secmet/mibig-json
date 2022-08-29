@@ -19,6 +19,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +37,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antifungal"
+                ],
                 "chem_struct": "CC[C@H]1CC[C@@H]2[C@@H]1C=C[C@H]([C@H]2C(=O)C3=CC=CN3)/C=C/C=C(\\CC)/[C@H]4[C@H](CC[C@@H](O4)[C@@H](C)C(=O)O)C",
                 "compound": "X-14547",
                 "database_id": [
@@ -36,12 +50,43 @@
                 "molecular_formula": "C31H43NO4"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 9,
+                                "end": 394
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Homology"
+                                    ],
+                                    "name": "proline",
+                                    "publications": [
+                                        "pubmed:19301315"
+                                    ],
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ACN69986.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "FJ545274.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000079",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1890",
         "organism_name": "Streptomyces antibioticus",
         "publications": [

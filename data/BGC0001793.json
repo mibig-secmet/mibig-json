@@ -17,10 +17,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Fix biosynthetic classes",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
@@ -36,8 +47,35 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001793",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1963369",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AQV04224.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:28381497"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Chaetothyriaceae sp.",
         "publications": [
             "pubmed:28381497"

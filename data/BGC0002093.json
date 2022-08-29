@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -35,8 +36,34 @@
             "start_coord": 1
         },
         "mibig_accession": "BGC0002093",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "28576",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QBQ83704.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:30905148"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Talaromyces variabilis",
         "publications": [
             "pubmed:30905148",

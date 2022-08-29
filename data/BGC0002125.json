@@ -2,18 +2,11 @@
     "changelog": [
         {
             "comments": [
-                "Add information lost in migration from 1.4 to 2.0"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
                 "Fixed subcluster gene ID",
                 "Added organism name",
-                "Fix thioesterase gene ID"
+                "Fix thioesterase gene ID",
+                "Add information lost in migration from 1.4 to 2.0",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -28,7 +21,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Signalling"
+                    "signalling"
                 ],
                 "chem_moieties": [
                     {
@@ -126,10 +119,41 @@
                     "gene_id": "QPI18729.1",
                     "modules": [
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "1"
                         },
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "O-methylthreonine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)OC"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "2"
                         }
@@ -139,10 +163,40 @@
                     "gene_id": "QPI18728.1",
                     "modules": [
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "3"
                         },
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "4"
                         }
@@ -152,10 +206,40 @@
                     "gene_id": "QPI18727.1",
                     "modules": [
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "5"
                         },
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "DCL",
                             "module_number": "6"
                         }
@@ -165,6 +249,22 @@
                     "gene_id": "QPI18726.1",
                     "modules": [
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "Starter",
                             "module_number": "7"
                         }
@@ -174,6 +274,23 @@
                     "gene_id": "QPI18723.1",
                     "modules": [
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:33420046"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "Starter",
                             "module_number": "8"
                         }

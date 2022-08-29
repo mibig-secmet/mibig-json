@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +37,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "[H][C@@]12CC[C@@H](C)[C@@](O)(O1)C(=O)C(=O)N1CCCC[C@@]1([H])C(=O)O[C@@]([H])(CC(=O)[C@H](C)\\C=C(C)\\[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)\\C=C\\C=C\\C=C(C)\\[C@H](C2)OC)[C@H](C)C[C@@H]1CC[C@@H](O)[C@@H](C1)OC",
                 "compound": "rapamycin",
                 "database_id": [
@@ -42,8 +56,28 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001040",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1343740",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAA60461.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces rapamycinicus NRRL 5491",
         "publications": [
             "pubmed:7644502",

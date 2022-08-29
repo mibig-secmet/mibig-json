@@ -23,12 +23,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Sorted modules by module number"
+                "Sorted modules by module number",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,6 +40,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal"
+                ],
                 "chem_struct": "CO\\C(C)=C\\C(=O)N(C)C\\C=C\\CC\\C=C/C=C\\CC(=C)C1=NC(C[C@H](C)[C@@H]2OC(=O)C3=C(O)C(C)=CC=C3[C@H]2O)=CO1",
                 "compound": "ajudazol A",
                 "database_id": [
@@ -228,7 +233,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Serine",
+                                        "name": "serine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)O"
                                     }
@@ -256,9 +261,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "N-Methyl-Glycine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
                                     }
                                 ]
                             },

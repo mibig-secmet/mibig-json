@@ -2,7 +2,9 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -17,6 +19,17 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:35246663"
+                        ],
+                        "target": "ClpP|caseinolytic protease"
+                    }
+                ],
                 "compound": "clipibicyclene"
             },
             {
@@ -39,8 +52,53 @@
             "start_coord": 3428542
         },
         "mibig_accession": "BGC0002697",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1003195",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "SCATT_32630",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:35246663"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:35246663"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "azetidine-2-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)[C@H]1NCC1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces cattleya NRRL 8057 = DSM 46488",
         "publications": [
             "pubmed:35246663"

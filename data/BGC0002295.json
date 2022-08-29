@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -27,14 +28,40 @@
             "end_coord": 15193,
             "evidence": [
                 "Heterologous expression",
-                "Sequence-based prediction",
                 "Knock-out studies"
             ],
             "start_coord": 5879
         },
         "mibig_accession": "BGC0002295",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1912",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QDX19369.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "In-vitro experiments"
+                                ],
+                                "publications": [
+                                    "pubmed:31816530"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces hygroscopicus",
         "publications": [
             "pubmed:31816530"

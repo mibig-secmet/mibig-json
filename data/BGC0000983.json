@@ -22,12 +22,13 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "[H][C@@]12O[C@]1(C)[C@@H](C)[C@@]1([H])[C@H](CC3=CC=CC=C3)NC(=O)[C@]11OC(=O)O\\C=C\\[C@@](C)(O)C(=O)[C@@H](C)C\\C=C\\[C@@]21[H]",
                 "chem_targets": [
@@ -56,7 +57,7 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "[H][C@]12[C@H](CC3=CC=CC=C3)NC(=O)[C@]11C(=O)\\C=C\\C(=O)[C@H](OC(C)=O)\\C(C)=C\\[C@@H](C)C\\C=C\\[C@@]1([H])[C@@H]1O[C@]1(C)[C@H]2C",
                 "compound": "cytochalasin K",
@@ -154,9 +155,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1016/j.ymben.2011.09.008"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }

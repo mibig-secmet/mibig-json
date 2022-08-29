@@ -27,12 +27,13 @@
                 "Removed gene names of 'No gene ID'",
                 "Removed duplicate gene names",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Removed module numbers from incomplete PKS modules"
+                "Removed module numbers from incomplete PKS modules",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -733,7 +734,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -751,7 +752,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Alanine",
+                                        "name": "alanine",
                                         "proteinogenic": true,
                                         "structure": "C[C@@H](C(=O)O)N"
                                     }
@@ -769,9 +770,14 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-methoxyaspartate",
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                    },
+                                    {
+                                        "name": "3S-methylaspartic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C[C@@H]([C@@H](C(=O)O)N)C(=O)O"
                                     }
                                 ]
                             },
@@ -787,7 +793,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -806,11 +812,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja108971p"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -831,7 +841,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -845,13 +855,22 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "doi:10.1021/ja108971p"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "O-methyltyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "COC1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
-                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -868,11 +887,14 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1021/ja108971p"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "D-tryptophan",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -893,9 +915,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-leucine",
-                                        "proteinogenic": false,
-                                        "structure": "CC(C)C[C@H](C(=O)O)N"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -911,9 +933,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-leucine",
-                                        "proteinogenic": false,
-                                        "structure": "CC(C)C[C@H](C(=O)O)N"
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -932,7 +954,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

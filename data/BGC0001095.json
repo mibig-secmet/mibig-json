@@ -21,22 +21,16 @@
         },
         {
             "comments": [
+                "Cleaned up synonym list",
                 "Linked new NPAtlas id for fengycin (npatlas:NPA020186)",
                 "Corrected NRP module activity",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
-                "5UL74VURKJ25VSPPPO3H2NYB",
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "5UL74VURKJ25VSPPPO3H2NYB"
             ],
             "version": "3.0"
         }
@@ -48,7 +42,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal"
+                    "antifungal",
+                    "surfactant"
                 ],
                 "chem_struct": "CCCCCCCCCCCCCC(CC(=O)NC(CCC(=O)O)C(=O)NC(CCCN)C(=O)NC1CC2=CC=C(C=C2)OC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C3CCCN3C(=O)C(NC(=O)C(NC(=O)C(NC1=O)C(C)O)CCC(=O)O)C)CCC(=O)N)CC4=CC=C(C=C4)O)C(C)CC)O",
                 "chem_synonyms": [
@@ -156,9 +151,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamic acid",
+                                        "name": "glutamic acid",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
                                     }
@@ -174,9 +172,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Ornithine",
+                                        "name": "ornithine",
                                         "proteinogenic": false,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN"
                                     }
@@ -197,9 +198,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -215,9 +220,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
@@ -238,9 +247,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamic acid",
+                                        "name": "glutamic acid",
                                         "proteinogenic": true,
                                         "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
                                     }
@@ -256,11 +269,20 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -279,9 +301,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Proline",
+                                        "name": "proline",
                                         "proteinogenic": true,
                                         "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
@@ -297,11 +323,15 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Glutamic acid",
+                                        "name": "glutamine",
                                         "proteinogenic": true,
-                                        "structure": "C(CC(=O)O)[C@@H](C(=O)O)N"
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -315,9 +345,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -338,9 +372,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1007/s00216-015-8486-8",
+                                    "doi:10.1128/JB.186.4.1084-1096.2004"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }

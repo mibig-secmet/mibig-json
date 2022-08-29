@@ -24,12 +24,14 @@
                 "Removed duplicate gene annotation",
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Merged cross-CDS PKS modules",
-                "Excluded flanking genes"
+                "Excluded flanking genes",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,7 +42,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial",
+                    "inhibitor"
                 ],
                 "chem_struct": "CC[C@H](C(=O)NC/C=C/C=C(\\C)/[C@H]([C@@H](C)[C@H]1[C@H]([C@H]([C@H](O1)/C=C/C=C/C=C(\\C)/C(=C\\2/C(=O)C=CNC2=O)/O)O)O)OC)[C@@]3([C@@H]([C@@H](C([C@@H](O3)/C=C/C=C\\C)(C)C)O)O)O",
                 "chem_synonyms": [
@@ -135,7 +138,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -161,7 +164,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Beta-alanine",
+                                        "name": "beta-alanine",
                                         "proteinogenic": false,
                                         "structure": "NCCC(=O)O"
                                     }

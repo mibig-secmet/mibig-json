@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -27,12 +28,57 @@
             "accession": "AB205145.1",
             "completeness": "Unknown",
             "end_coord": 22810,
-            "evidence": [],
             "start_coord": 14489
         },
         "mibig_accession": "BGC0002164",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "35717",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAE06845.2",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:16091042"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "1-pyrroline-5-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)C1/N=C\\CC1"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:16091042"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Epichloe festucae",
         "publications": [
             "pubmed:16091042"

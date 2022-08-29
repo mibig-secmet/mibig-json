@@ -23,12 +23,14 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed extra genes with no information",
-                "Fix coordinates"
+                "Fix coordinates",
+                "Corrected NRP module 3",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +40,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -64,7 +66,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_moieties": [
                     {
@@ -211,8 +213,7 @@
             "completeness": "complete",
             "end_coord": 3081156,
             "evidence": [
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ],
             "start_coord": 3052001
         },
@@ -231,9 +232,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine",
+                                        "name": "phenylalanine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
@@ -246,13 +250,16 @@
                             "a_substr_spec": {
                                 "epimerized": true,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "D-lysine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -271,9 +278,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Isoleucine",
+                                        "name": "isoleucine",
                                         "proteinogenic": true,
                                         "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
@@ -294,27 +304,17 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
-                                "substrates": [
-                                    {
-                                        "name": "N-methylglycine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
-                                    }
-                                ]
-                            },
-                            "active": true,
-                            "c_dom_subtype": "LCL",
-                            "module_number": "4"
-                        },
-                        {
-                            "a_substr_spec": {
-                                "epimerized": false,
-                                "evidence": [
-                                    "Structure-based inference"
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Homophenylalanine",
+                                        "name": "homotyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "homophenylalanine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N"
                                     }
@@ -322,10 +322,7 @@
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "modification_domains": [
-                                "Methylation"
-                            ],
-                            "module_number": "A3"
+                            "module_number": "3"
                         },
                         {
                             "a_substr_spec": {
@@ -333,20 +330,32 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Homotyrosine",
-                                        "proteinogenic": false,
-                                        "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
                                     }
                                 ]
                             },
                             "active": true,
                             "c_dom_subtype": "LCL",
-                            "modification_domains": [
-                                "Methylation"
+                            "integrated_monomers": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "N-methylglycine",
+                                    "structure": "CNCC(=O)O"
+                                }
                             ],
-                            "module_number": "B3"
+                            "modification_domains": [
+                                "N-methylation"
+                            ],
+                            "module_number": "4"
                         }
                     ]
                 },
@@ -359,11 +368,19 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2010.01.017"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Homotyrosine",
+                                        "name": "homotyrosine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1CC[C@@H](C(=O)O)N)O"
+                                    },
+                                    {
+                                        "name": "homophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },

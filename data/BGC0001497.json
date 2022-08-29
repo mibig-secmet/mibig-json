@@ -21,13 +21,16 @@
         {
             "comments": [
                 "Changed to correct biosynthetic class",
-                "Retired as duplicate of BGC0001442"
+                "Retired as duplicate of BGC0001442",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "CUSGWVK3I4TVHJH7NHPFAP2L",
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +39,21 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "antiviral",
+                    "inhibitor"
+                ],
                 "chem_struct": "CCCCC[C@H](CC(=O)NO)C(=O)N[C@@H](C(C)C)C(=O)N1CCC[C@H]1CO",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "pubmed:13900478",
+                            "pubmed:24705170"
+                        ],
+                        "target": "Metalloproteinase"
+                    }
+                ],
                 "compound": "actinonin",
                 "mol_mass": 385.25767122,
                 "molecular_formula": "C19H35N3O5"
@@ -49,8 +66,44 @@
             "start_coord": 1
         },
         "mibig_accession": "BGC0001497",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1931",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ATJ34002.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "ATJ34005.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "threonine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp.",
         "publications": [
             "pubmed:29213087"

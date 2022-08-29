@@ -11,16 +11,10 @@
         },
         {
             "comments": [
-                "Fetch compound properties from PubChem"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Fetch compound properties from PubChem",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -36,8 +30,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "antifungal",
+                    "cytotoxic"
                 ],
                 "chem_struct": "C[C@H]1C(=O)N[C@H](C(=O)O[C@@H](C(=O)NC(C(=O)O[C@H](C(=O)N[C@H](C(=O)O[C@@H](C(=O)N[C@@H](C(=O)O[C@H](C(=O)N[C@H](C(=O)O[C@@H](C(=O)N[C@@H](C(=O)O1)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C",
                 "compound": "valinomycin",
@@ -52,7 +47,9 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "antibacterial",
+                    "antifungal",
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC1C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)O1)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C",
                 "chem_synonyms": [
@@ -94,9 +91,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2-Hydroxyisovalerate",
+                                        "name": "2R-hydroxyisovaleric acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "CC(C)[C@H](C(=O)O)O"
                                     }
                                 ]
                             },
@@ -119,7 +116,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -163,9 +160,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lactic acid",
+                                        "name": "lactic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C[C@@H](C(=O)O)O"
                                     }
                                 ]
                             },
@@ -184,11 +181,11 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Sequence-based prediction"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }

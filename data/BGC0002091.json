@@ -4,7 +4,8 @@
             "comments": [
                 "Submitted",
                 "Added version to NCBI accession",
-                "Convert from RefSeq to Genbank"
+                "Convert from RefSeq to Genbank",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "SJG3CBEHSM6A3I74YXLH6GLA",
@@ -21,8 +22,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Inhibitor"
+                    "antibacterial",
+                    "inhibitor"
                 ],
                 "chem_struct": "CC(=O)NC1=C2SSC=C2NC1=O",
                 "chem_targets": [
@@ -59,6 +60,31 @@
         "ncbi_tax_id": "527005",
         "nrp": {
             "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "EEP98516.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:23572522"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
             "thioesterases": [
                 {
                     "gene": "yruck0001_11720",

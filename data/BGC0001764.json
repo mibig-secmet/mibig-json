@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -33,8 +42,35 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001764",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1898652",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAW27693.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:28103675"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "(2S,6R)-diamino-(5R,7)-dihydroxy-heptanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)[C@H]([C@@H](CO)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. SoC090715LN-17",
         "publications": [
             "pubmed:28103675"

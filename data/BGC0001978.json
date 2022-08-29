@@ -11,12 +11,13 @@
         },
         {
             "comments": [
-                "Retired as duplicate of BGC0001857"
+                "Retired as duplicate of BGC0001857",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -34,8 +35,35 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001978",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2508778",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QBE85649.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:30735051"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus sp. CLMG-2019a",
         "publications": [
             "pubmed:30735051"

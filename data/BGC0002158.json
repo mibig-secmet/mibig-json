@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -30,12 +31,38 @@
             "accession": "CM001233.1",
             "completeness": "Unknown",
             "end_coord": 5813348,
-            "evidence": [],
             "start_coord": 5799814
         },
         "mibig_accession": "BGC0002158",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "242507",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EHA53213.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Steady-state kinetics"
+                                ],
+                                "publications": [
+                                    "pubmed:26503170"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pyricularia oryzae 70-15",
         "publications": [
             "pubmed:26503170",

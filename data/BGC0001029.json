@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,6 +39,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CC[C@@H](C)[C@H]1NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H]2CCCN2C(=O)CNC(=O)[C@@H](CCC(N)=O)NC(=O)[C@@H](O)[C@@H](C[C@H](O)CCCC2=CC=CC=C2)NC(=O)[C@@H]2CCCN2C1=O",
                 "compound": "nostophycin",
                 "database_id": [
@@ -49,10 +54,7 @@
         ],
         "loci": {
             "accession": "JF430079.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001029",
         "minimal": false,
@@ -67,13 +69,13 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "VGVWVAASGK",
+                                        "name": "3R-amino-2S,5R-dihydroxy-8-phenyloctanoic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C[C@H](O)CCCc1ccccc1)[C@H](O)C(O)=O"
                                     }
                                 ]
                             },
@@ -93,9 +95,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DAWLFGLIDK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glutamine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -111,9 +113,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DILALGLIWK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
                                     }
                                 ]
                             },
@@ -134,9 +136,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DVQFIAHVVK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },
@@ -148,13 +150,16 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1128/AEM.05993-11"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DAWTIAAVCK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -170,9 +175,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DAFFLGVTFK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -188,9 +193,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "DVQFIAHVVK",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },

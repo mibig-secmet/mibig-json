@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "chem_struct": "CC(C)C(NC(=O)NC(C(C)C)C(=O)NC1\\C=C/CCNC(=O)\\C=C/C(NC1=O)C(C)C)C(O)=O",
                 "compound": "syringolin A",
                 "database_id": [
@@ -43,8 +56,38 @@
             "start_coord": 7793
         },
         "mibig_accession": "BGC0000436",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1144306",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EJK79842.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Heterologous expression"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Rhizobium sp. AP16",
         "publications": [
             "pubmed:24727275"

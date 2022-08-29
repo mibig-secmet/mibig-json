@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Submitted",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "RWYY5IOXGZUT2OPVWGVF5SYB",
@@ -20,7 +21,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "C[C@@H]1[C@H](C)C(C[C@@]([C@H](O)C(N[C@@H](OC)[C@@H]2C[C@@H](O)C(C)(C)[C@@H](C[C@H](OC)CO)O2)=O)(OC)O1)=C",
                 "compound": "labrenzin",
@@ -43,6 +44,56 @@
         "mibig_accession": "BGC0002068",
         "minimal": false,
         "ncbi_tax_id": "2590016",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "QDG75035.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31787953"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "glycine",
+                                        "proteinogenic": true,
+                                        "structure": "NCC(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "QDG75033.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Homology",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:31787953"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "arginine",
+                                        "proteinogenic": true,
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Labrenzia sp. PHM005",
         "polyketide": {
             "cyclic": false,

@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "OC[C@H](CCCCNC(=O)C1=CC=CC(O)=C1O)NC(=O)C1=CC=CC(O)=C1O",
                 "compound": "myxochelin A",
                 "database_id": [
@@ -36,6 +49,9 @@
                 "molecular_formula": "C20H24N2O7"
             },
             {
+                "chem_acts": [
+                    "siderophore"
+                ],
                 "chem_struct": "C1=CC(=C(C(=C1)O)O)C(=O)NCCCC[C@@H](CN)NC(=O)C2=C(C(=CC=C2)O)O",
                 "compound": "myxochelin B",
                 "database_id": [
@@ -50,8 +66,44 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001345",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "675526",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAG31128.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAG31130.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "lysine",
+                                        "proteinogenic": true,
+                                        "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Stigmatella aurantiaca Sg a15",
         "publications": [
             "pubmed:11562468",

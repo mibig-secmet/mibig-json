@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CCCCCCCC(CC(=N/C(=C\\C)/C(=O)N1CCC[C@H]1C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C(C)C)C(=N[C@@H](C(C)C)C(=N/C(=C\\C)/C(=N[C@@H](CCO)C(=N[C@@H](C(C)C)C(=N[C@@H]([C@H](C)CC)C(=NC(=C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C(C)C)C(=N/C(=C\\C)/C(=N[C@H]2[C@@H](OC(=O)[C@@H](N=C([C@@H](N=C([C@@H](N=C([C@@H](N=C2O)C)O)CCN)O)CO)O)[C@@H](C)CC)C)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O",
                 "compound": "corpeptin A",
                 "database_id": [
@@ -35,6 +48,9 @@
                 "molecular_formula": "C98H163N23O27"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CCCC/C=C\\CC(CC(=N/C(=C\\C)/C(=O)N1CCC[C@H]1C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C(C)C)C(=N[C@@H](C(C)C)C(=N/C(=C\\C)/C(=N[C@@H](CCO)C(=N[C@@H](C(C)C)C(=N[C@@H]([C@H](C)CC)C(=NC(=C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C)C(=N[C@@H](C(C)C)C(=N/C(=C\\C)/C(=N[C@H]2[C@@H](OC(=O)[C@@H](N=C([C@@H](N=C([C@@H](N=C([C@@H](N=C2O)C)O)CCN)O)CO)O)[C@@H](C)CC)C)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O",
                 "compound": "corpeptin B",
                 "database_id": [
@@ -49,8 +65,47 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000329",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "47879",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AHY86403.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "serine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pseudomonas corrugata",
         "publications": [
             "pubmed:25231335"

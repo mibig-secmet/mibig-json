@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "siderophore"
+                ],
                 "chem_struct": "[H][C@@]1(CSC(=N1)C1=CC=CC=C1O)[C@@]1([H])SC[C@H](N1C)C(O)=O",
                 "compound": "pyochelin",
                 "database_id": [
@@ -41,8 +55,44 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000412",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "208964",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAC83656.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AAC83657.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "substrates": [
+                                    {
+                                        "name": "cysteine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)S"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pseudomonas aeruginosa PAO1",
         "publications": [
             "pubmed:9846750",

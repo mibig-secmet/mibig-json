@@ -22,16 +22,9 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -61,7 +54,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "CC(C)(C=C)C12CC3N(C1NC1=CC=CC=C21)C(=O)C(CC1=CN=CN1)NC3=O",
                 "compound": "roquefortine D",
@@ -73,7 +66,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "[H][C@@]12NC3=C(C=CC=C3)[C@@]1(C[C@@H]1N2C(=O)\\C(NC1=O)=C/C1=CN=CN1)C(C)(C)C=C",
                 "chem_synonyms": [
@@ -95,7 +88,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "CC(C)(C=C)C12C=C(C(=O)N\\3C1(NC4=CC=CC=C24)NC(=O)/C3=C\\C5=CN=CN5)O",
                 "compound": "glandicoline A",
@@ -107,7 +100,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "CC(C)(C=C)C12C=C(C(=O)N\\3C1(NC(=O)/C3=C\\C4=CN=CN4)N(C5=CC=CC=C25)O)O",
                 "compound": "glandicoline B",
@@ -259,11 +252,17 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1007/s00253-015-6676-0",
+                                    "doi:10.1371/journal.pone.0065328",
+                                    "doi:10.1038/nbt.1498"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tryptophan",
+                                        "name": "tryptophan",
                                         "proteinogenic": true,
                                         "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
                                     }
@@ -276,11 +275,17 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Activity assay"
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "doi:10.1007/s00253-015-6676-0",
+                                    "doi:10.1371/journal.pone.0065328",
+                                    "doi:10.1038/nbt.1498"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Histidine",
+                                        "name": "histidine",
                                         "proteinogenic": true,
                                         "structure": "C1=C(NC=N1)C[C@@H](C(=O)O)N"
                                     }

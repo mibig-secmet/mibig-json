@@ -21,12 +21,13 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -36,7 +37,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "N[C@@H](CCCNC(N)=N)C(N[C@H](CC(C)C)C(N[C@@H](CCCNC(N)=N)C(N[C@@H](CCCNC(N)=N)C(N[C@H](CCCNC(N)=N)C(NCCCCN)=O)=O)=O)=O)=O",
                 "compound": "bicornutin A1",
@@ -46,7 +47,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "N[C@@H](CCCNC(N)=N)C(N[C@H](CC(C)C)C(N[C@@H](CCCNC(N)=N)C(N[C@@H](CCCNC(N)=N)C(N[C@H](CCCNC(N)=N)C(NCCC1=CC=CC=C1)=O)=O)=O)=O)=O",
                 "compound": "bicornutin A2",
@@ -74,9 +75,16 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22873683"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -89,9 +97,17 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Feeding study",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22873683"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Leucine",
+                                        "name": "leucine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)C[C@@H](C(=O)O)N"
                                     }
@@ -104,9 +120,16 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22873683"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -119,9 +142,16 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22873683"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }
@@ -134,9 +164,16 @@
                         {
                             "a_substr_spec": {
                                 "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:22873683"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Arginine",
+                                        "name": "arginine",
                                         "proteinogenic": true,
                                         "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
                                     }

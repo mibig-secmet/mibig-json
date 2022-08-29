@@ -22,12 +22,14 @@
         {
             "comments": [
                 "Corrected NRP module activity",
-                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases"
+                "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -37,6 +39,10 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal",
+                    "cytotoxic"
+                ],
                 "chem_struct": "COC1=C(Cl)C=C(C[C@H]2NC(=O)\\C=C/C[C@H](OC(=O)[C@H](CC(C)C)OC(=O)[C@H](C)CNC2=O)[C@H](C)[C@H]2O[C@@H]2C2=CC=CC=C2)C=C1",
                 "compound": "cryptophycin-327",
                 "database_id": [
@@ -170,8 +176,7 @@
             "accession": "EF159954.1",
             "completeness": "complete",
             "evidence": [
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ]
         },
         "mibig_accession": "BGC0000975",
@@ -189,9 +194,13 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1021/cb6004307",
+                                    "doi:10.1021/np000316k"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -215,11 +224,15 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1021/cb6004307",
+                                    "doi:10.1021/np000316k"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "methyl beta-alanine",
+                                        "name": "3R-methylbeta-alanine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "NC[C@@H](C)C(=O)O"
                                     }
                                 ]
                             },
@@ -233,11 +246,15 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1021/cb6004307",
+                                    "doi:10.1021/np000316k"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "alpha-ketoisocaproic acid",
+                                        "name": "2-ketoisocaproic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "O=C(C(=O)O)CC(C)C"
                                     }
                                 ]
                             },

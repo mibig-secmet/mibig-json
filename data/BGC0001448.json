@@ -23,12 +23,13 @@
             "comments": [
                 "Corrected NRP module activity",
                 "Removed gene names of 'No gene ID'",
-                "Fixed duplicate gene names"
+                "Fixed duplicate gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -38,7 +39,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "C[C@@H]1C[C@H]2C(=O)NC([C@@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@@H](C(=O)N[C@H](C(=O)N2C1)C(C)C)C(C)C(=O)O)CC(=O)O)C(C(=O)O)O)CCCCN)C(C)C)NC(=O)[C@H](C(C)C(=O)O)NC(=O)/C=C/C=C\\CCC(C)C)C",
                 "chem_synonyms": [
@@ -58,7 +59,7 @@
             },
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_moieties": [
                     {
@@ -583,8 +584,7 @@
             "accession": "KY654519.1",
             "completeness": "complete",
             "evidence": [
-                "Heterologous expression",
-                "Sequence-based prediction"
+                "Heterologous expression"
             ]
         },
         "mibig_accession": "BGC0001448",
@@ -605,7 +605,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "2,3-Diamino-3-methylpropanoic acid",
+                                        "name": "2,3-diamino-3-methylpropanoic acid",
                                         "proteinogenic": false,
                                         "structure": "NC(C)[C@@H](C(=O)O)N"
                                     }
@@ -650,7 +650,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -673,7 +673,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Lysine",
+                                        "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
                                     }
@@ -691,9 +691,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Hydroxyaspartic acid",
+                                        "name": "3-hydroxyaspartic acid",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@@H](C(C(=O)O)O)(C(=O)O)"
                                     }
                                 ]
                             },
@@ -709,7 +709,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Aspartic acid",
+                                        "name": "aspartic acid",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)C(=O)O"
                                     }
@@ -727,7 +727,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }
@@ -768,7 +768,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine",
+                                        "name": "valine",
                                         "proteinogenic": true,
                                         "structure": "CC(C)[C@@H](C(=O)O)N"
                                     }
@@ -786,9 +786,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3-Methylproline",
+                                        "name": "4R-methylproline",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "C[C@@H]1C[C@H](NC1)C(=O)O"
                                     }
                                 ]
                             },

@@ -20,16 +20,9 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
-            ],
-            "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Cleaned up synonym list"
+                "Cleaned up synonym list",
+                "Corrected NRP module activity",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -44,7 +37,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial"
                 ],
                 "chem_struct": "O=C1N[C@@H](C2=CC(O3)=CC(OS(O)(=O)=O)=C2)C(N[C@@H](C(N[C@@H]45)=O)C6=CC(OC7=C(Cl)C=C(C[C@@H]1NC(C(C8=CC3=C(O)C(Cl)=C8)=O)=O)C=C7)=C(O[C@@H]9[C@H](OC%10O[C@@H](C)[C@@H](O)[C@](N)(C)C%10)[C@@H](O)[C@H](O)[C@@H](CO)O9)C(OC%11=CC=C([C@@H](O)[C@H](NC4=O)C(N[C@@H](C(O)=O)C%12=CC(O)=CC(O)=C%12C%13=CC5=CC(Cl)=C%13O)=O)C=C%11Cl)=C6)=O",
                 "chem_targets": [
@@ -108,8 +101,7 @@
             "accession": "KF192710.1",
             "completeness": "complete",
             "evidence": [
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ]
         },
         "mibig_accession": "BGC0001178",
@@ -135,7 +127,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyphenylglycine",
+                                        "name": "4-hydroxyphenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
                                     }
@@ -153,7 +145,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -183,9 +175,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3,5-Dihydroxy-phenylglycine",
+                                        "name": "3,5-dihydroxyphenylglycine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C(=O)O)c1cc(O)cc(O)c1"
                                     }
                                 ]
                             },
@@ -207,9 +199,15 @@
                                     "AGS77339.1"
                                 ],
                                 "epimerized": true,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1002/cbic.201402179"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyphenylglycine",
+                                        "name": "4-hydroxyphenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
                                     }
@@ -231,9 +229,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/cbic.201402179"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "4-Hydroxyphenylglycine",
+                                        "name": "4-hydroxyphenylglycine",
                                         "proteinogenic": false,
                                         "structure": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
                                     }
@@ -252,9 +253,12 @@
                                 "evidence": [
                                     "Structure-based inference"
                                 ],
+                                "publications": [
+                                    "doi:10.1002/cbic.201402179"
+                                ],
                                 "substrates": [
                                     {
-                                        "name": "Tyrosine",
+                                        "name": "tyrosine",
                                         "proteinogenic": true,
                                         "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
@@ -284,9 +288,9 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3,5-Dihydroxy-phenylglycine",
+                                        "name": "3,5-dihydroxyphenylglycine",
                                         "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "structure": "N[C@H](C(=O)O)c1cc(O)cc(O)c1"
                                     }
                                 ]
                             },

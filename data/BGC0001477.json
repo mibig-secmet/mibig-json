@@ -21,20 +21,15 @@
         },
         {
             "comments": [
+                "Fix DOI",
                 "Corrected NRP module activity",
-                "Removed gene names of 'No gene ID'"
+                "Removed gene names of 'No gene ID'",
+                "Updated bioactivity data",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
-            ],
-            "version": "2.1"
-        },
-        {
-            "comments": [
-                "Fix DOI"
-            ],
-            "contributors": [
-                "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
         }
@@ -47,7 +42,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial"
+                    "antibacterial",
+                    "antifungal"
                 ],
                 "chem_struct": "CC1=CC2C(CCC(C2O)O)C(C1CCC(C)C(/C(=C/CC(/C=C/C(C)C(/C=C/CC(/C(=C/CC(CC3CCCN3C(=N)N)O)/C)O)O)O)/C)O)(C)/C(=C\\4/C(=O)CNC4=O)/O",
                 "compound": "lydicamycin",
@@ -369,10 +365,7 @@
         },
         "loci": {
             "accession": "MG459168.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0001477",
         "minimal": false,
@@ -400,7 +393,7 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Glycine",
+                                        "name": "glycine",
                                         "proteinogenic": true,
                                         "structure": "NCC(=O)O"
                                     }

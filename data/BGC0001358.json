@@ -17,10 +17,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities",
+                "Fixed biosynthetic classes"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
@@ -50,8 +61,212 @@
             "start_coord": 1034990
         },
         "mibig_accession": "BGC0001358",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "33203",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "OAQ83766.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "(E)-4-methylhex-2-enoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCC(C)/C=C/C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "OAQ83772.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-methylproline",
+                                        "proteinogenic": false,
+                                        "structure": "CC1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-amino-6-hydroxy-4-methyl-8-oxodecanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCC(=O)CC(CC(C)CC(C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-hydroxyleucine",
+                                        "proteinogenic": false,
+                                        "structure": "CC(C)C([C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-aminoisobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)C(N)(C)C"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "leucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-aminoisobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)C(N)(C)C"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-aminoisobutyric acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)C(N)(C)C"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "beta-alanine",
+                                        "proteinogenic": false,
+                                        "structure": "NCCC(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:27416025"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "alanine",
+                                        "proteinogenic": true,
+                                        "structure": "C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Purpureocillium lilacinum",
         "publications": [
             "pubmed:27416025"

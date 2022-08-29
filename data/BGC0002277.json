@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -29,14 +30,44 @@
             "end_coord": 15051,
             "evidence": [
                 "Heterologous expression",
-                "Sequence-based prediction",
                 "Enzymatic assays"
             ],
             "start_coord": 11907
         },
         "mibig_accession": "BGC0002277",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "5382",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AFB76152.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:22730234"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-hydroxyphenylpyruvic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1CC(=O)C(=O)O)O"
+                                    },
+                                    {
+                                        "name": "phenylpyruvic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)CC(=O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Suillus grevillei",
         "publications": [
             "pubmed:22730234",

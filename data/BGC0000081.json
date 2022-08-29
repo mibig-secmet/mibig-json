@@ -20,23 +20,26 @@
         },
         {
             "comments": [
-                "Corrected gene identifiers"
+                "Corrected gene identifiers",
+                "Added NRP substrate specificities",
+                "Fixed biosynthetic classes"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic"
+                    "antibacterial",
+                    "cytotoxic"
                 ],
                 "chem_moieties": [
                     {
@@ -113,6 +116,29 @@
         "mibig_accession": "BGC0000081",
         "minimal": false,
         "ncbi_tax_id": "756733",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AFV52191.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:23360970"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "R-aza-beta-tyrosine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=NC=C1O)[C@@H](CC(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptoalloteichus sp. ATCC 53650",
         "polyketide": {
             "cyclic": true,

@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -37,12 +38,78 @@
             "accession": "ACJE01000002.1",
             "completeness": "Unknown",
             "end_coord": 1183500,
-            "evidence": [],
             "start_coord": 1176150
         },
         "mibig_accession": "BGC0002171",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "380704",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "EHA27898.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "pubmed:32159958"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "D-phenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C=C1)C[C@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "2-chlorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C(C(=C1)C[C@@H](C(=O)O)N)Cl"
+                                    },
+                                    {
+                                        "name": "3-chlorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC(=C1)Cl)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "4-chlorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)Cl"
+                                    },
+                                    {
+                                        "name": "4-bromophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)Br"
+                                    },
+                                    {
+                                        "name": "4-fluorophenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)F"
+                                    },
+                                    {
+                                        "name": "4-methylphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "CC1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "alpha-methylphenylalanine",
+                                        "proteinogenic": false,
+                                        "structure": "C[C@](CC1=CC=CC=C1)(C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus niger ATCC 1015",
         "publications": [
             "pubmed:32159958",

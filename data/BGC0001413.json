@@ -20,10 +20,13 @@
         },
         {
             "comments": [
-                "Add product details"
+                "Add product details",
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -34,6 +37,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CC(C)OC1=C(C=CC(=C1)C(=O)O)NC(=O)C2=C(C(=C(C=C2)NC(=O)C3=CC=C(C=C3)NC(=O)[C@H]([C@@H](C(=O)N)NC(=O)C4=CC=C(C=C4)NC(=O)C5=CC=C(C=C5)[N+](=O)[O-])OC)OC(C)C)O",
                 "compound": "cystobactamid 919-1",
                 "database_id": [
@@ -43,6 +49,9 @@
                 "molecular_formula": "C46H45N7O14"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "CC(C)OC1=C(C=CC(=C1)C(=O)O)NC(=O)C2=C(C(=C(C=C2)NC(=O)C3=CC=C(C=C3)NC(=O)[C@H]([C@@H](C(=O)N)OC)NC(=O)C4=CC=C(C=C4)NC(=O)C5=CC=C(C=C5)[N+](=O)[O-])OC(C)C)O",
                 "compound": "cystobactamid 919-2",
                 "database_id": [
@@ -52,6 +61,9 @@
                 "molecular_formula": "C46H45N7O14"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "cystobactamid 919-3"
             }
         ],
@@ -60,8 +72,166 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001413",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1679164",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AKP45395.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-hydroxy-para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C(=O)O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2,3-dihydroxy-para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C(=C(N)1)O)O)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AKP45396.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Mass spectrometry"
+                                ],
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AKP45399.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AKP45400.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "publications": [
+                                    "pubmed:33727542",
+                                    "pubmed:25510965"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "para-aminobenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "O=C(O)c1ccc(N)cc1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Cystobacter sp. Cbv34",
         "publications": [
             "pubmed:25510965"

@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antiviral"
+                ],
                 "chem_struct": "CN1C=C(NC(=O)C2=CC(NC(=O)CNC(N)=N)=CN2C)C=C1C(=O)NCCC(N)=N",
                 "compound": "netropsin",
                 "database_id": [
@@ -42,8 +55,55 @@
             "start_coord": 1082965
         },
         "mibig_accession": "BGC0000327",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "278992",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CAJ88610.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "guanidinoacetic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C(=O)O)N=C(N)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CAJ88630.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay"
+                                ],
+                                "publications": [
+                                    "doi:10.1016/j.chembiol.2009.03.010"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "4-acetamidopyrrole-2-carboxylic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC(=O)NC1=CNC(=C1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces ambofaciens ATCC 23877",
         "publications": [
             "pubmed:17074905",

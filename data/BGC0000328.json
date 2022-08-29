@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "phytotoxic"
+                ],
                 "chem_struct": "CCC1CC1(NC(=O)C1=CC(CC)CC2C1CCC2=O)C(O)=O",
                 "compound": "coronatine",
                 "database_id": [
@@ -41,8 +54,33 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000328",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "318",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AAQ93484.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "ATP-PPi exchange assay",
+                                    "Radio labelling"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "allo-isoleucine",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Pseudomonas savastanoi pv. glycinea",
         "publications": [
             "pubmed:14679222"

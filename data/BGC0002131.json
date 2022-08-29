@@ -2,12 +2,13 @@
     "changelog": [
         {
             "comments": [
-                "Add information lost in migration from 1.4 to 2.0"
+                "Add information lost in migration from 1.4 to 2.0",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -19,8 +20,8 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antifungal",
-                    "Cytotoxic"
+                    "antifungal",
+                    "cytotoxic"
                 ],
                 "chem_struct": "C[C@@H]1[C@H]([C@@H]([C@@H](O1)O[C@@H]2CO[C@H]([C@H]([C@H]2O)O)O[C@H]3[C@@H]([C@@H](COC3N4[C@H](C(=O)/C(=C(\\C=C\\C=C\\C=C\\C=C\\C=C(\\C=C(/C)\\Cl)/Cl)/O)/C4=O)CC(=O)N)O)O)OC)O",
                 "compound": "aurantoside A",
@@ -157,6 +158,21 @@
                     "gene_id": "MBV7329455.1",
                     "modules": [
                         {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "doi:10.1093/pnasnexus/pgab007"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "asparagine",
+                                        "proteinogenic": true,
+                                        "structure": "C([C@@H](C(=O)O)N)C(=O)N"
+                                    }
+                                ]
+                            },
                             "c_dom_subtype": "LCL",
                             "module_number": "3"
                         }

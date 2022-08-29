@@ -11,12 +11,13 @@
         },
         {
             "comments": [
-                "Retired as duplicate of BGC0001140"
+                "Retired as duplicate of BGC0001140",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -31,12 +32,42 @@
                 "compound": "thioplatencin"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 12,
+                                "end": 423
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Heterologous expression",
+                                        "Steady-state kinetics",
+                                        "ACVS assay"
+                                    ],
+                                    "name": "3-amino-2,4-dihydroxybenzoic acid",
+                                    "publications": [
+                                        "pubmed:29915173"
+                                    ],
+                                    "structure": "C1=CC(=C(C(=C1C(=O)O)O)N)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ACO31297.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "FJ655920.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001898",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "58346",
         "organism_name": "Streptomyces platensis",
         "publications": [

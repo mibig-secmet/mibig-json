@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -41,8 +50,102 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000304",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "298378",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ACZ66258.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:20233305"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "pipecolic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1CCN[C@@H](C1)C(=O)O"
+                                    },
+                                    {
+                                        "name": "proline",
+                                        "proteinogenic": true,
+                                        "structure": "C1C[C@H](NC1)C(=O)O"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20233305"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:20233305"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "N1-methoxytryptophan",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN(OC)2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:20233305"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2S-amino-8-oxodecanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCC(=O)CCCCC[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "2S-aminodecanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CCCCCCCC[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "2S-amino-8S-hydroxydecanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "CC[C@@H](CCCCC[C@@H](C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Fusarium incarnatum",
         "publications": [
             "pubmed:20233305"

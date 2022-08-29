@@ -7,7 +7,9 @@
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
                 "Merged cross-CDS PKS modules",
                 "Sorted modules by module number",
-                "Added version to NCBI accession"
+                "Added version to NCBI accession",
+                "Corrected NRP gene names",
+                "Updated NRP substrate specificities"
             ],
             "contributors": [
                 "RLTUJMQB5UUY7AZHW5PDUHV4",
@@ -24,7 +26,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC(/C=C/C1CC2(CO2)C[C@](O)(C)O1)=C\\C(O)C3OC(C)C(NC(/C=C\\C(OC(C(C)C)=O)C)=O)CC3C",
                 "compound": "spliceostatin L",
@@ -37,7 +39,7 @@
             },
             {
                 "chem_acts": [
-                    "Cytotoxic"
+                    "cytotoxic"
                 ],
                 "chem_struct": "CC(/C=C/C1CC2(CO2)C[C@](O)(C)O1)=C\\C(O)C3OC(C)C(NC(/C=C\\C(OC(CC)=O)C)=O)CC3C",
                 "compound": "spliceostatin M",
@@ -51,10 +53,7 @@
         ],
         "loci": {
             "accession": "BK010647.1",
-            "completeness": "complete",
-            "evidence": [
-                "Sequence-based prediction"
-            ]
+            "completeness": "complete"
         },
         "mibig_accession": "BGC0002059",
         "minimal": false,
@@ -79,11 +78,15 @@
                             "a_substr_spec": {
                                 "epimerized": false,
                                 "evidence": [
-                                    "Structure-based inference"
+                                    "Structure-based inference",
+                                    "Homology"
+                                ],
+                                "publications": [
+                                    "pubmed:33658492"
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Threonine",
+                                        "name": "threonine",
                                         "proteinogenic": true,
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }

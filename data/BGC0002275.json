@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Entry added"
+                "Entry added",
+                "Added NRP substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -42,8 +43,34 @@
             "start_coord": 44377
         },
         "mibig_accession": "BGC0002275",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1450533",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "PYH50506.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:32159958"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Aspergillus niger CBS 101883",
         "publications": [
             "pubmed:32159958",
