@@ -40,34 +40,6 @@
             "allOf": [
                 {
                     "if": {
-                        "not": {
-                            "properties": {
-                                "minimal": {
-                                    "const": true
-                                }
-                            },
-                            "required": [
-                                "minimal"
-                            ]
-                        }
-                    },
-                    "then": {
-                        "properties": {
-                            "loci": {
-                                "properties": {
-                                    "evidence": {
-                                        "minItems": 1
-                                    }
-                                },
-                                "required": [
-                                    "evidence"
-                                ]
-                            }
-                        }
-                    }
-                },
-                {
-                    "if": {
                         "properties": {
                             "status": {
                                 "const": "active"
