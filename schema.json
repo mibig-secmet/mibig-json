@@ -287,6 +287,76 @@
                                         "title": "Comments on this gene",
                                         "type": "string"
                                     },
+                                    "domains": {
+                                        "items": {
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "location": {
+                                                    "additionalProperties": false,
+                                                    "properties": {
+                                                        "begin": {
+                                                            "minimum": 0,
+                                                            "type": "number"
+                                                        },
+                                                        "end": {
+                                                            "minimum": 1,
+                                                            "type": "number"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "begin",
+                                                        "end"
+                                                    ],
+                                                    "title": "Location of the domain within the gene (in AAs)",
+                                                    "type": "object"
+                                                },
+                                                "name": {
+                                                    "type": "string"
+                                                },
+                                                "substrates": {
+                                                    "items": {
+                                                        "additionalProperties": false,
+                                                        "properties": {
+                                                            "evidence": {
+                                                                "items": {
+                                                                    "$ref": "#/$defs/substrate_evidence"
+                                                                },
+                                                                "type": "array"
+                                                            },
+                                                            "name": {
+                                                                "type": "string"
+                                                            },
+                                                            "publications": {
+                                                                "itmes": {
+                                                                    "$ref": "#/$defs/publication"
+                                                                },
+                                                                "type": "array"
+                                                            },
+                                                            "structure": {
+                                                                "$ref": "#/$defs/smiles",
+                                                                "title": "Monomer structure"
+                                                            },
+                                                            "tool": {
+                                                                "$ref": "#/$defs/tool"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "name",
+                                                            "structure"
+                                                        ],
+                                                        "type": "object"
+                                                    },
+                                                    "type": "array"
+                                                }
+                                            },
+                                            "required": [
+                                                "location",
+                                                "name"
+                                            ],
+                                            "type": "object"
+                                        },
+                                        "type": "array"
+                                    },
                                     "functions": {
                                         "items": {
                                             "additionalProperties": false,
@@ -1385,6 +1455,18 @@
                 "X-ray crystallography"
             ],
             "type": "string"
+        },
+        "tool": {
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
         }
     }
 }
