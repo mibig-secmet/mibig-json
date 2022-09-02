@@ -120,6 +120,15 @@ def check_pks_module_duplication(data: Dict[str, Any], prefix: str) -> bool:
     return True
 
 
+def check_chem_act(data: Dict[str, Any], prefix: str) -> bool:
+    for compound in data["cluster"].get("compounds", []):
+        for activity in compound.get("chem_acts", []):
+            if activity.lower() in ("unknown", "other"):
+                print(f"{prefix}contains invalid '{activity}' chemical activity")
+                return False
+    return True
+
+
 def check_all() -> bool:
     valid = check_multiple(glob.glob(os.path.join("data", "*.json")), prefix="data/")
     return valid
@@ -158,6 +167,7 @@ def check_single(file: str, prefix: str = "") -> bool:
             check_item_duplication,
             check_kr_stereochem,
             check_pks_module_duplication,
+            check_chem_act,
         ]:
             valid = func(data, prefix) and valid
     except KeyError as err:
