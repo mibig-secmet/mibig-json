@@ -20,12 +20,13 @@
         },
         {
             "comments": [
-                "Corrected NRP module activity"
+                "Corrected NRP module activity",
+                "Corrected NRP modules"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,7 +36,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 1"
@@ -47,7 +48,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 2"
@@ -59,7 +60,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 3"
@@ -71,7 +72,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 4"
@@ -83,7 +84,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 5"
@@ -95,7 +96,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 6"
@@ -107,7 +108,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 7"
@@ -119,7 +120,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 8"
@@ -131,7 +132,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 9"
@@ -143,7 +144,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_synonyms": [
                     "fungisporin 10"
@@ -197,14 +198,19 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Phenylalanine, Tyrosine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "tyrosine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             },
                             "active": true,
-                            "module_number": "0"
+                            "module_number": "1"
                         },
                         {
                             "a_substr_spec": {
@@ -214,15 +220,43 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "(Phenylalanine, Tryptophane),(Valine, Isoleucine)",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
                             "active": true,
                             "c_dom_subtype": "DCL",
-                            "module_number": "1"
+                            "comments": "A-domain sits between the C-domain and A-domain of module 2, but is activated downstream in module 4.",
+                            "module_number": "4"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "phenylalanine",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "tryptophan",
+                                        "proteinogenic": true,
+                                        "structure": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            },
+                            "active": true,
+                            "module_number": "2"
                         },
                         {
                             "a_substr_spec": {
@@ -232,17 +266,17 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "Valine, isoleucine",
-                                        "proteinogenic": false,
-                                        "structure": "[Po][Po]"
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "isoleucine",
+                                        "proteinogenic": true,
+                                        "structure": "CC[C@H](C)[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
-                            "active": true,
-                            "c_dom_subtype": "DCL",
-                            "module_number": "2"
-                        },
-                        {
                             "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "3"
@@ -251,6 +285,11 @@
                             "active": true,
                             "c_dom_subtype": "DCL",
                             "module_number": "4"
+                        },
+                        {
+                            "active": true,
+                            "c_dom_subtype": "DCL",
+                            "module_number": "5"
                         }
                     ]
                 }
