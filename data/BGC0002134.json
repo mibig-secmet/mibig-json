@@ -2,12 +2,13 @@
     "changelog": [
         {
             "comments": [
-                "Add information lost in migration from 1.4 to 2.0"
+                "Submitted",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -17,7 +18,7 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "O=CC(CCCNC(N)=N)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
                 "chem_synonyms": [
@@ -34,7 +35,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "O=CC(CC1=CC=C(O)C=C1)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
                 "compound": "leupeptin B",
@@ -60,7 +61,7 @@
             },
             {
                 "chem_acts": [
-                    "Inhibitor"
+                    "inhibitor"
                 ],
                 "chem_struct": "O=CC(CC1=CC=CC=C1)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
                 "compound": "leupeptin C",
@@ -84,6 +85,67 @@
                     "product": "activate carboxylate with CoA"
                 },
                 {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 464,
+                                "end": 663
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "arginine",
+                                    "publications": [
+                                        "pubmed:32609431"
+                                    ],
+                                    "structure": "C(C[C@@H](C(=O)O)N)CN=C(N)N"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "tyrosine",
+                                    "publications": [
+                                        "pubmed:32609431"
+                                    ],
+                                    "structure": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "phenylalanine",
+                                    "publications": [
+                                        "pubmed:32609431"
+                                    ],
+                                    "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "methionine",
+                                    "publications": [
+                                        "pubmed:32609431"
+                                    ],
+                                    "structure": "CSCC[C@@H](C(=O)O)N"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "valine",
+                                    "publications": [
+                                        "pubmed:32609431"
+                                    ],
+                                    "structure": "CC(C)[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        }
+                    ],
                     "id": "CBJ79718.1",
                     "mut_pheno": "no leupeptic acid produced",
                     "name": "leupB",

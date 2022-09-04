@@ -22,7 +22,8 @@
         {
             "comments": [
                 "Merged annotations from duplicate entry BGC0002029",
-                "Updated bioactivity data"
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities from duplicate entry BGC0002029"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -55,12 +56,46 @@
                 "compound": "bagremycin"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 85,
+                                "end": 276
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Homology"
+                                    ],
+                                    "name": "3-amino-4-hydroxybenzoic acid",
+                                    "structure": "C1=CC(=C(C=C1C(=O)O)N)O"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Homology"
+                                    ],
+                                    "name": "4-hydroxy-3-nitrobenzoic acid",
+                                    "structure": "C1=CC(=C(C=C1C(=O)O)[N+](=O)[O-])O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "AVI10276.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "MG708299.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001592",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1535768",
         "organism_name": "Streptomyces lunaelactis",
         "publications": [

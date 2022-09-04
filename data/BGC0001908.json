@@ -11,12 +11,15 @@
         },
         {
             "comments": [
-                "Retired as duplicate of BGC0001770"
+                "Retired as duplicate of BGC0001770",
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -25,15 +28,47 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antifungal"
+                ],
                 "compound": "sceliphrolactam"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 17,
+                                "end": 413
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Sequence-based prediction",
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "3S-methylaspartic acid",
+                                    "publications": [
+                                        "pubmed:21371699"
+                                    ],
+                                    "structure": "C[C@@H]([C@@H](C(=O)O)N)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ANH11404.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "KX230849.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001908",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1849710",
         "organism_name": "Streptomyces sp. SD85",
         "publications": [

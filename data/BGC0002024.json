@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -19,12 +28,37 @@
                 "compound": "nargenicin"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 8,
+                                "end": 392
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "proline",
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "AXG22420.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "MH544245.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0002024",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1311812",
         "organism_name": "Nocardia argentinensis",
         "publications": [

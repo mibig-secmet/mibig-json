@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -26,6 +36,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "chem_struct": "COC1=C(O)C2=C(C=C1O)C(OC)=C1C(C(=O)CC3CC(O)(CC(=O)C13O)C1CN1)=C2O",
                 "compound": "azicemicin B",
                 "database_id": [
@@ -35,12 +48,66 @@
                 "molecular_formula": "C22H23NO9"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 8,
+                                "end": 400
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "ATP-PPi exchange assay"
+                                    ],
+                                    "name": "aspartic acid",
+                                    "publications": [
+                                        "pubmed:19928906"
+                                    ],
+                                    "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ADB02855.1",
+                    "name": "azicM"
+                },
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 8,
+                                "end": 397
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "ATP-PPi exchange assay"
+                                    ],
+                                    "name": "cysteine",
+                                    "publications": [
+                                        "pubmed:19928906"
+                                    ],
+                                    "structure": "C([C@@H](C(=O)O)N)S"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ADB02873.1",
+                    "name": "azicV"
+                }
+            ]
+        },
         "loci": {
             "accession": "GU134622.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0000202",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "703222",
         "organism_name": "Kibdelosporangium sp. MJ126-NF4",
         "publications": [

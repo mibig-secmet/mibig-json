@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,12 +44,67 @@
                 "molecular_formula": "C25H48N2O5"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 16,
+                                "end": 408
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "alanine",
+                                    "publications": [
+                                        "pubmed:26818633"
+                                    ],
+                                    "structure": "C[C@@H](C(=O)O)N"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "BAV56002.1"
+                },
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 39,
+                                "end": 433
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Feeding study",
+                                        "X-ray crystallography",
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "aspartic acid",
+                                    "publications": [
+                                        "pubmed:26818633"
+                                    ],
+                                    "structure": "C([C@@H](C(=O)O)N)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "BAV56017.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "LC095592.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001597",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1752060",
         "organism_name": "Actinomadura fulva subsp. indica",
         "publications": [

@@ -8,6 +8,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -16,21 +26,55 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "armeniaspirol A"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "armeniaspirol B"
             },
             {
+                "chem_acts": [
+                    "antibacterial"
+                ],
                 "compound": "armeniaspirol C"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 8,
+                                "end": 396
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Homology"
+                                    ],
+                                    "name": "proline",
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "AZY92000.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "MK321256.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0002022",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "83291",
         "organism_name": "Streptomyces armeniacus",
         "publications": [

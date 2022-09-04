@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -35,6 +44,54 @@
                 "molecular_formula": "C28H35NO6"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 17,
+                                "end": 413
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Homology"
+                                    ],
+                                    "name": "3S-methylaspartic acid",
+                                    "structure": "C[C@@H]([C@@H](C(=O)O)N)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ANH11404.1"
+                },
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 21,
+                                "end": 420
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Homology"
+                                    ],
+                                    "name": "3S-aminobutyric acid",
+                                    "structure": "C[C@@H](CC(=O)O)N"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ANH11405.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "KX230849.1",
             "completeness": "Unknown",
@@ -42,7 +99,7 @@
             "start_coord": 1
         },
         "mibig_accession": "BGC0001770",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1849710",
         "organism_name": "Streptomyces sp. SD85",
         "publications": [

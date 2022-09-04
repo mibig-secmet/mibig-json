@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added AMP domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -31,12 +40,64 @@
                 "compound": "amycolamycin B"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 10,
+                                "end": 403
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "p-hydroxymandelate",
+                                    "publications": [
+                                        "pubmed:29090939"
+                                    ],
+                                    "structure": "C1=CC(=CC=C1C(C(=O)O)O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ATV95610.1"
+                },
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 32,
+                                "end": 447
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "6-methylsalicylic acid",
+                                    "publications": [
+                                        "pubmed:29090939"
+                                    ],
+                                    "structure": "CC1=C(C(=CC=C1)O)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ATV95617.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "MF990204.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001503",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "37632",
         "organism_name": "Amycolatopsis sp.",
         "publications": [
