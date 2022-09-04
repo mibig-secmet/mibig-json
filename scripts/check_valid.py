@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from collections import defaultdict
 import glob
 import json
 import os
@@ -121,11 +122,16 @@ def check_pks_module_duplication(data: Dict[str, Any], prefix: str) -> bool:
 
 
 def check_chem_act(data: Dict[str, Any], prefix: str) -> bool:
+    comp_act: Dict[str, List[str]] = defaultdict(list)
     for compound in data["cluster"].get("compounds", []):
         for activity in compound.get("chem_acts", []):
             if activity.lower() in ("unknown", "other"):
-                print(f"{prefix}contains invalid '{activity}' chemical activity")
-                return False
+                comp_act[compound["compound"]].append(activity)
+    if comp_act:
+        print(f"{prefix}contains compounds with invalid activities:")
+        for name, activities in comp_act.items():
+            print(f"\t{name}: {activities}")
+        return False
     return True
 
 
