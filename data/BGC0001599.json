@@ -23,9 +23,10 @@
                 "Merged annotations from duplicate entry BGC0001900"
             ],
             "contributors": [
-                "SJG3CBEHSM6A3I74YXLH6GLA"
+                "SJG3CBEHSM6A3I74YXLH6GLA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -50,8 +51,34 @@
             "start_coord": 222371
         },
         "mibig_accession": "BGC0001599",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1055524",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "CDN62030.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:29602945"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Burkholderia cenocepacia H111",
         "publications": [
             "pubmed:29602945"
