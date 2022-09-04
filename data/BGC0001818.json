@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Merge NRPS substrate specificities from duplicate BGC0001912"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -40,8 +49,59 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001818",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1213862",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "BAV57443.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference",
+                                    "Knock-out studies"
+                                ],
+                                "publications": [
+                                    "pubmed:28288097"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "(2S,6R)-diamino-(5R,7)-dihydroxy-heptanoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(C[C@@H](C(=O)O)N)[C@H]([C@@H](CO)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "BAV57451.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Sequence-based prediction",
+                                    "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:28288097"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "valine",
+                                        "proteinogenic": true,
+                                        "structure": "CC(C)[C@@H](C(=O)O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces sp. SANK 60404",
         "publications": [
             "pubmed:28288097"
