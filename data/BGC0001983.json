@@ -11,7 +11,8 @@
         },
         {
             "comments": [
-                "Add compound details"
+                "Add compound details",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
                 "SJG3CBEHSM6A3I74YXLH6GLA"
@@ -34,12 +35,68 @@
                 "molecular_formula": "C11H17N3O"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 48,
+                                "end": 442
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Sequence-based prediction",
+                                        "ACVS assay",
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "An acid hydrazine polyene (intermediate 14)",
+                                    "publications": [
+                                        "doi:10.1101/2021.05.12.443849"
+                                    ],
+                                    "structure": "OC(=O)CCC(=O)NNCC(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "QCT05750.1"
+                },
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 28,
+                                "end": 400
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Sequence-based prediction",
+                                        "ACVS assay",
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "succinyl-hydrazinoacetic acid",
+                                    "publications": [
+                                        "doi:10.1101/2021.05.12.443849"
+                                    ],
+                                    "structure": "N/N=C/C=C/C=C/C=C/C=C/C=C/C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "QCT05762.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "MK932017.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001983",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1894",
         "organism_name": "Kitasatospora aureofaciens",
         "publications": [

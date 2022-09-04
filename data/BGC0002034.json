@@ -11,12 +11,14 @@
         },
         {
             "comments": [
-                "Fixed DOIs"
+                "Fixed DOIs",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
-                "CUSGWVK3I4TVHJH7NHPFAP2L"
+                "CUSGWVK3I4TVHJH7NHPFAP2L",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -34,6 +36,35 @@
                 "compound": "perquinoline C"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 104,
+                                "end": 305
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Homology"
+                                    ],
+                                    "name": "Compound 4 (formed by the decarboxylative condensation of L-Phe and succinyl-CoA)",
+                                    "publications": [
+                                        "pubmed:31310031"
+                                    ],
+                                    "structure": "C1=CC=C(C=C1)C[C@@H](C(=O)CCC(=O)O)N"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "TXL86009.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "SGBF01000041.1",
             "completeness": "Unknown",
@@ -41,7 +72,7 @@
             "start_coord": 86569
         },
         "mibig_accession": "BGC0002034",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "2517818",
         "organism_name": "Streptomyces sp. IB2014 016-6",
         "publications": [

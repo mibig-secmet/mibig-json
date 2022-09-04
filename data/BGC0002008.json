@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -19,6 +28,60 @@
                 "compound": "aryl polyenes"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 137,
+                                "end": 292
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "ATP-PPi exchange assay",
+                                        "Feeding study"
+                                    ],
+                                    "name": "4-hydroxybenzoic acid",
+                                    "structure": "C1=CC(=CC=C1C(=O)O)O"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "ATP-PPi exchange assay",
+                                        "Feeding study"
+                                    ],
+                                    "name": "3-hydroxybenzoic acid",
+                                    "structure": "C1=CC(=CC(=C1)O)C(=O)O"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "ATP-PPi exchange assay",
+                                        "Feeding study"
+                                    ],
+                                    "name": "3-fluoro-4-hydroxybenzoic acid",
+                                    "structure": "C1=CC(=C(C=C1C(=O)O)F)O"
+                                },
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "ATP-PPi exchange assay",
+                                        "Feeding study"
+                                    ],
+                                    "name": "4-fluoro-3-hydroxybenzoic acid",
+                                    "structure": "C1=CC(=C(C=C1C(=O)O)O)F"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "XDD1_RS16015"
+                }
+            ]
+        },
         "loci": {
             "accession": "NZ_FO704550.1",
             "completeness": "Unknown",
@@ -26,7 +89,7 @@
             "start_coord": 3655966
         },
         "mibig_accession": "BGC0002008",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "351671",
         "organism_name": "Xenorhabdus doucetiae",
         "publications": [

@@ -20,12 +20,14 @@
         },
         {
             "comments": [
-                "Remove negative ketide_length"
+                "Remove negative ketide_length",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
-                "3UOU7PODQJXIM6BEPUHHRRA5"
+                "3UOU7PODQJXIM6BEPUHHRRA5",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -78,6 +80,25 @@
                     "name": "antF"
                 },
                 {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 17,
+                                "end": 400
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "name": "acetic acid",
+                                    "structure": "CC(=O)O"
+                                },
+                                {
+                                    "name": "malic acid",
+                                    "structure": "C(C(C(=O)O)O)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
                     "id": "plu4188",
                     "name": "antG"
                 },
@@ -96,8 +117,7 @@
             "completeness": "complete",
             "end_coord": 4907928,
             "evidence": [
-                "Knock-out studies",
-                "Sequence-based prediction"
+                "Knock-out studies"
             ],
             "start_coord": 4897935
         },

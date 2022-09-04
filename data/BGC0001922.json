@@ -8,6 +8,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added AMP-binding domain substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -16,15 +26,48 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "antibacterial",
+                    "cytotoxic"
+                ],
                 "compound": "isoindolinomycin"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 12,
+                                "end": 415
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Sequence-based prediction",
+                                        "ACVS assay"
+                                    ],
+                                    "name": "glycine",
+                                    "publications": [
+                                        "pubmed:30080389"
+                                    ],
+                                    "structure": "NCC(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "BBE36469.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "LC386909.1",
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001922",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1898658",
         "organism_name": "Streptomyces sp. SoC090715LN-16",
         "publications": [
