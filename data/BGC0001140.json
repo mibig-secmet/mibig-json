@@ -31,10 +31,12 @@
         },
         {
             "comments": [
-                "Fixed gene accessions"
+                "Fixed gene accessions",
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
         }
@@ -214,6 +216,33 @@
                     "id": "ACO31288.1",
                     "name": "ptmB2",
                     "product": "ADHOHP synthase"
+                },
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 12,
+                                "end": 423
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Heterologous expression",
+                                        "Steady-state kinetics",
+                                        "ACVS assay"
+                                    ],
+                                    "name": "3-amino-2,4-dihydroxybenzoic acid",
+                                    "publications": [
+                                        "pubmed:29915173"
+                                    ],
+                                    "structure": "C1=CC(=C(C(=C1C(=O)O)O)N)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ACO31297.1",
+                    "name": "pdmA3"
                 },
                 {
                     "functions": [
