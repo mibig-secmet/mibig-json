@@ -125,8 +125,8 @@ def check_chem_act(data: Dict[str, Any], prefix: str) -> bool:
     comp_act: Dict[str, List[str]] = defaultdict(list)
     for compound in data["cluster"].get("compounds", []):
         for activity in compound.get("chem_acts", []):
-            if activity.lower() in ("unknown", "other"):
-                comp_act[compound["compound"]].append(activity)
+            if activity["activity"].lower() in ("unknown"):
+                comp_act[compound["compound"]].append(activity["activity"])
     if comp_act:
         print(f"{prefix}contains compounds with invalid activities:")
         for name, activities in comp_act.items():

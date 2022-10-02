@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$schema_created": "2022-08-18T19:36:44+02:00",
-    "$schema_version": "2.10",
+    "$schema_version": "2.11",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -125,7 +125,7 @@
                         "properties": {
                             "chem_acts": {
                                 "items": {
-                                    "type": "string"
+                                    "$ref": "#/$defs/chemical_activity"
                                 },
                                 "title": "Molecular activities",
                                 "type": "array"
@@ -1340,6 +1340,106 @@
     "title": "MIBiG Submission form",
     "type": "object",
     "$defs": {
+        "chemical_activity": {
+            "additionalProperties": false,
+            "if": {
+                "properties": {
+                    "activity": {
+                        "const": "other"
+                    }
+                }
+            },
+            "then": {
+                "required": [
+                    "activity",
+                    "comment"
+                ]
+            },
+            "properties": {
+                "activity": {
+                    "enum": [
+                        "adhesion",
+                        "anthelmintic",
+                        "antialgal",
+                        "antibacterial",
+                        "anticancer",
+                        "anticoccidial",
+                        "antifungal",
+                        "antiinflammatory",
+                        "antimalarial",
+                        "antineoplastic",
+                        "antioomycete",
+                        "antioxidant",
+                        "antiparasidal",
+                        "antiplasmodial",
+                        "antiproliferative",
+                        "antiprotozoal",
+                        "antitubulin",
+                        "antitumor",
+                        "antiviral",
+                        "biofilm",
+                        "carbon storage",
+                        "cell differentiation",
+                        "cell envelope",
+                        "cell protectant",
+                        "cell wall",
+                        "cold stress",
+                        "cyst formation",
+                        "cytotoxic",
+                        "denitrificative",
+                        "dermatotoxic",
+                        "DNA-interfering",
+                        "emulsifier",
+                        "enterotoxic",
+                        "exopolysaccharide",
+                        "extracelluar capsule",
+                        "flavor",
+                        "fluorescent",
+                        "hemolytic",
+                        "hepatotoxic",
+                        "herbicidal",
+                        "immunomodulatory",
+                        "immunosuppressive",
+                        "inducer",
+                        "inhibitor",
+                        "insecticidal",
+                        "ionophore",
+                        "iron reducing",
+                        "irritant",
+                        "morphogen",
+                        "neuroprotective",
+                        "neurotoxic",
+                        "nitrogen reduction",
+                        "odorous metabolite",
+                        "osmolytic",
+                        "other",
+                        "phytotoxic",
+                        "pigment",
+                        "predation",
+                        "radical scavenging",
+                        "regulatory",
+                        "siderophore",
+                        "signalling",
+                        "sodium channel blocking",
+                        "surfactant",
+                        "swarming motility",
+                        "toxic",
+                        "tumor promoter",
+                        "UV protective",
+                        "vesicant",
+                        "virulence factor"
+                    ],
+                    "type": "string"
+                },
+                "comment": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "activity"
+            ],
+            "type": "object"
+        },
         "proteinogenic_amino_acids": {
             "enum": [
                 "alanine",
