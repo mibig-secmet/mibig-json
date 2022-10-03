@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,9 +45,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@]1(CCC[C@H]1C(O)=O)[C@]1([H])C\\C=C\\C=C(C#N)/[C@H](O)[C@@H](C)C[C@H](C)C[C@H](C)C[C@H](C)[C@@H](O)CC(=O)O1",
                 "compound": "borrelidin",

@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -26,7 +35,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1[C@H]([C@@]23C(=O)C4=C([C@@H]([C@@]2(O3)[C@H]([C@@]1(C(=O)[C@H]5[C@@H](O5)C)O)O)OC)C(=CC=C4)OC)O",
                 "compound": "mensacaricin",

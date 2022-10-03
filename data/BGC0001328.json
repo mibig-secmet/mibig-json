@@ -31,6 +31,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -41,8 +50,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "surfactant"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "surfactant"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -71,7 +84,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_moieties": [
                     {

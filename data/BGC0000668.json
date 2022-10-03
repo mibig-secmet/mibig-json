@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -83,9 +92,15 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1(C)[C@H]2C[C@@H](Cl)[C@@](C)(C=C)C([N+]#[C-])=C2[C@]11C(=O)NC2=CC=CC=C12",
                 "compound": "welwitindolinone A isonitrile",
@@ -98,9 +113,15 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@]1(C=C)[C@H](Cl)C[C@H]2C(=O)[C@]1(N=C=S)C1=CC=CC3=C1[C@H](C(=O)N3)C2(C)C",
                 "compound": "welwitindolinone B isothiocyanate",
@@ -112,9 +133,15 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@]1(C=C)C(Cl)=C[C@H]2C(=O)[C@]1(N=C=S)C1=CC=CC3=C1[C@H](C(=O)N3)C2(C)C",
                 "compound": "welwitindolinone C isothiocyanate",
@@ -125,6 +152,7 @@
                 "molecular_formula": "C21H19ClN2O2S"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CN1C(=O)[C@H]2C3=C1C=CC=C3[C@@]1(N=C=S)C(=O)[C@H](C=C(Cl)[C@@]1(C)C=C)C2(C)C",
                 "compound": "N-methylwelwitindolinone C isothiocyanate",
                 "database_id": [
@@ -134,6 +162,7 @@
                 "molecular_formula": "C22H21ClN2O2S"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CN1C(=O)[C@H]2C3=C1C=CC=C3[C@@]1([N+]#[C-])C(=O)[C@H](C=C(Cl)[C@@]1(C)C=C)C2(C)C",
                 "compound": "N-methylwelwitinsolinone C isonitrile",
                 "database_id": [
@@ -143,6 +172,7 @@
                 "molecular_formula": "C22H21ClN2O2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CN1C(=O)[C@@H]2C3=C1C=CC=C3[C@@]1(N=C=S)C(=O)[C@H](C[C@@H](Cl)[C@@]1(C)C=C)C2(C)C",
                 "compound": "3-epi-welwitindolinone B isothiocyanate",
                 "database_id": [
@@ -153,7 +183,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "[C-]#[N+]/C=C\\C1=CNC2=CC=CC=C21",
                 "compound": "3-(Z-2'-isocyanoethenyl)-indole",

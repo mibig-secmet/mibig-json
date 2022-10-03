@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(C1=CC=CC(O[C@H]2[C@H](OC)[C@@H](OC)[C@H](OC)[C@@H](C)O2)=C1O3)C4=C3C(O)=C(CCC5=C6C(O)=C7C(C[C@@](C)(OC[C@]8([H])C(O)=O)N8C7=O)=C5)C6=C4O",
                 "compound": "arixanthomycin A",
@@ -47,8 +60,12 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(C1=CC=CC(O)=C1O2)C3=C2C(C)=C(CCC4=C5C(O)=C6C(C[C@@](C)(OC[C@]7([H])C(O)=O)N7C6=O)=C4)C5=C3O",
                 "compound": "arixanthomycin B",
@@ -57,8 +74,12 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(C1=CC=CC(O)=C1O2)C3=C2C([H])=C(CCC4=C5C(O)=C6C(C[C@@](C)(OC[C@]7([H])C(O)=O)N7C6=O)=C4)C5=C3O",
                 "compound": "arixanthomycin C",

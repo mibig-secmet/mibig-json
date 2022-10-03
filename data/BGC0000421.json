@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=C(C(=C2[C@H]3[C@@H]4CC5=C([C@@H](N4C[C@H](N3C)CC2=C1)CNC(=O)[C@H](C)N)C(=O)C(=C(C5=O)C)OC)O)OC",
                 "compound": "safracin A",
@@ -49,7 +60,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=C(OC)C(O)=C2[C@H]3[C@@H]4CC5=C(C(C(OC)=C(C)C5=O)=O)[C@H](CNC([C@@H](N)C)=O)N4C(O)[C@@H](CC2=C1)N3C",
                 "compound": "safracin B",

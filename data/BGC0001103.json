@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,7 +48,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CCC(C)CCCCCCCCCCC1CC(=O)NC(C(=O)NC(C(=O)N2CCCC2C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CC(=O)N)CO)CC(=O)N)CC(=O)N)CC3=CC=C(C=C3)O)CCC(=O)N)CC(=O)N",
                 "compound": "mycosubtilin",

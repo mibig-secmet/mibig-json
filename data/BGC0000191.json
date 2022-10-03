@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,9 +44,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC[C@]1(C[C@@H](C2=C([C@H]1C(=O)OC)C=C3C(=C2O)C(=O)C4=C(C3=O)C=CC=C4O)OC5CC(C(C(O5)C)OC6CC(C(C(O6)C)OC7CCC(=O)C(O7)C)O)N(C)C)O",
                 "compound": "aclacinomycin",

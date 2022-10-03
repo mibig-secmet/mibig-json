@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@]12C[C@H](C)O[C@]3(N=C(C[C@H]3OC)C3=CC=CN3)[C@]1([H])C1=CC=C(CCCCCCC2)N1",
                 "compound": "marineosin A",
@@ -48,7 +59,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "COC1CC(=NC11OC(C)CC2CCCCCCCC3=CC=C(N3)C12)C1=CC=CN1",
                 "compound": "marineosin B",

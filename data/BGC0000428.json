@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CN[C@H]1[C@H](C)O[C@@H](OC2=CC3=C(N[C@H](O)[C@@H]4CC(\\C=C\\C)=CN4C3=O)C(O)=C2C)[C@H](O)[C@]1(C)O",
                 "compound": "sibiromycin",

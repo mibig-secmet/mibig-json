@@ -21,6 +21,15 @@
                 "CUSGWVK3I4TVHJH7NHPFAP2L"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -30,8 +39,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC1=C(C(=C(C2=C1NC3=CC=CC=C32)O)OC)C",
                 "compound": "carbazomycin B",

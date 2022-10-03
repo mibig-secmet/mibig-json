@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,8 +44,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@](/C=C/[C@@H]1CC=CC(=O)O1)([C@@H](C[C@H](/C=C\\C=C/C=C/CO)O)OP(=O)(O)O)O",
                 "compound": "fostriecin",

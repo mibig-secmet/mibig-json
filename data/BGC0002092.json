@@ -12,6 +12,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -54,8 +63,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC[C@H](C)[C@H](NC([C@H](C)NC([C@@H](CCC(N)=O)NC([C@H](CC(C)C)NC([C@@H](CO)NC1=O)=O)=O)=O)=O)C(N[C@@H](CCC(O)=O)C(O[C@@H]([C@@H](NC([C@H](CC(O)=O)NC([C@@H](CC(C)C)NC(C[C@@H](O)CCCCCCC)=O)=O)=O)C(N[C@H](CC(C)C)C(N[C@@H]1CC(C)C)=O)=O)C)=O)=O",
                 "compound": "tensin",
@@ -72,6 +85,7 @@
                 "molecular_formula": "C67H116N12O20"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CC[C@H](C)[C@H](NC([C@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@H](CC(C)C)NC([C@@H](CO)NC1=O)=O)=O)=O)=O)C(N[C@@H](CCC(O)=O)C(O[C@@H]([C@@H](NC([C@H](CCC(O)=O)NC([C@@H](CC(C)C)NC(C[C@@H](O)CCCCCCC)=O)=O)=O)C(N[C@H](CC(C)C)C(N[C@@H]1CC(C)C)=O)=O)C)=O)=O",
                 "compound": "stechlisin E2",
                 "evidence": [
@@ -84,7 +98,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC[C@H](C)[C@H](NC([C@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@H](CC(C)C)NC([C@@H](CO)NC1=O)=O)=O)=O)=O)C(N[C@@H](CCC(O)=O)C(O[C@@H]([C@@H](NC([C@H](CC(O)=O)NC([C@@H](CC(C)C)NC(C[C@@H](O)CCCCCCCCC)=O)=O)=O)C(N[C@H](CC(C)C)C(N[C@@H]1CC(C)C)=O)=O)C)=O)=O",
                 "compound": "stechlisin F",

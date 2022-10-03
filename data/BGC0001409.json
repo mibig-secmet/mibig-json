@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC[C@@H](C)\\C=C(\\C)C(=O)OC1C(C)OC(CC1(C)O)OC1CCC(O[C@@H]2C(O)=C(C(C)=O)C(=O)[C@@]3(O)C(=O)C4=C(O)C5=C(C(C)=C4C[C@@]23O)C(=O)C(OC)=CC5=O)OC1C",
                 "compound": "dutomycin",

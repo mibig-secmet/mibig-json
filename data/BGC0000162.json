@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,8 +44,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1C[C@@H]([C@@H]([C@@H]2[C@@H]1[C@]3([C@@H](C=C2)/C(=C\\C[C@@H](/C(=C/[C@@H]4[C@H](C=C(CC45C(=O)C(=C(O5)O)C3=O)C=O)O)/C)O[C@H]6C[C@]([C@H]([C@H](O6)C)NC(=O)OC)(C)[N+](=O)[O-])/C)C)O)C",
                 "compound": "tetrocarcin A",

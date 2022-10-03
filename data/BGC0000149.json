@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,8 +47,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]1(O[C@@]2(C[C@@H](OC)[C@@H](C)[C@]([H])(O2)[C@H](C)[C@@H](O)[C@@H](C)C\\C(C)=C\\C)[C@H](O)C[C@@H]1C)[C@@H](C)[C@@H](O)[C@@H](C)\\C=C/C=C/C=C\\C=C\\C=C/[C@H](CC(O)=O)OC",
                 "compound": "spirangien O",

@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "sunscreen",
-                    "uv protection"
+                    {
+                        "activity": "UV protective"
+                    }
                 ],
                 "chem_struct": "O[C@](CC(NCC(O)=O)=C/1OC)(CO)CC1=N/[C@@H](CO)C(O)=O",
                 "compound": "shinorine",
@@ -48,8 +58,12 @@
             },
             {
                 "chem_acts": [
-                    "antioxidant",
-                    "sunscreen"
+                    {
+                        "activity": "antioxidant"
+                    },
+                    {
+                        "activity": "UV protective"
+                    }
                 ],
                 "chem_struct": "OC1=C(OC)C(C[C@](O)(CO)C1)=O",
                 "compound": "4-deoxygadusol",
@@ -59,7 +73,9 @@
             },
             {
                 "chem_acts": [
-                    "sunscreen"
+                    {
+                        "activity": "UV protective"
+                    }
                 ],
                 "chem_struct": "O=C1C(OC)=C(NCC(O)=O)C[C@@](O)(CO)C1",
                 "compound": "mycosporine glycine",

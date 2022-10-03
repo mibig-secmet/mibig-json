@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,7 +47,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "denitrification"
+                    {
+                        "activity": "denitrificative"
+                    }
                 ],
                 "chem_struct": "CC1=C(C2=CC3=C(C(=C([N-]3)C=C4[C@@](C(=O)C(=N4)C=C5[C@@](C(=O)C(=N5)C=C1[N-]2)(C)CC(=O)O)(C)CC(=O)O)C)/C=C/C(=O)O)CCC(=O)O",
                 "compound": "heme D1",

@@ -19,6 +19,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -28,8 +37,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "antiprotozoal"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    }
                 ],
                 "chem_struct": "CCCCC[C@H]([C@@H]1[C@H](C[C@H](C[C@H](C[C@H](C[C@H](C[C@H]([C@H]([C@@H](/C(=C/C=C/C=C/C=C/C=C/[C@@H]([C@H](OC1=O)C)O)/C)O)O)O)O)O)O)O)O)O",
                 "chem_synonyms": [

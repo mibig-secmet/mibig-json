@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiviral"
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "CN1C=C(NC(=O)C2=CC(NC(=O)CNC(N)=N)=CN2C)C=C1C(=O)NCCC(N)=N",
                 "compound": "netropsin",

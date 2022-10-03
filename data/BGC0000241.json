@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC[C@@]1(OC2CC(OC)C(O)C(C)O2)[C@H](OC2CC(O)C(C(C)O2)N(C)C)C2=C(C3=C(C2=[N+]=[N-])C(=O)C2=C(O)C=CC(O)=C2C3=O)C(=O)[C@@H]1[C@H]1C(=O)C2=C([C@@H](O[C@H]3CC(O)[C@@H](C(C)O3)N(C)C)[C@@]1(CC)OC1CC(OC)C(O)C(C)O1)C(=[N+]=[N-])C1=C2C(=O)C2=C(O)C=CC(O)=C2C1=O",
                 "chem_targets": [
@@ -57,9 +70,15 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic",
-                    "dna-interfering"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "DNA-interfering"
+                    }
                 ],
                 "chem_struct": "O=C1C2=C(C([H])=C3C2=C(O)C4=C(O)C=CC(O)=C4C3=O)[C@@H](O[C@H]5O[C@@H](C)[C@@H](N(C)C)[C@@H](O)C5)[C@](O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](OC)C6)(CC)C1C7[C@@](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](OC)C8)(CC)[C@H](O[C@H]9O[C@@H](C)[C@H](N(C)C)[C@@H](O)C9)C(C(C(C(C%10=C(O)C=CC(O)=C%10%11)=O)C%12C%11=O)=[N+]=[N-])=C%12C7=O",
                 "chem_targets": [
@@ -74,9 +93,15 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic",
-                    "dna-interfering"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "DNA-interfering"
+                    }
                 ],
                 "chem_struct": "O=C1C2=C(C([H])=C3C2=C(O)C4=C(O)C=CC(O)=C4C3=O)[C@@H](O[C@H]5O[C@@H](C)[C@@H](N(C)C)[C@@H](O)C5)[C@](O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](OC)C6)(CC)C1C7[C@@](O[C@@H]8O[C@@H](C)[C@H](OC)[C@@H](OC)C8)(CC)[C@H](O[C@H]9O[C@@H](C)[C@H](N(C)C)[C@@H](O)C9)C(C(C(C(C%10=C(O)C=CC(O)=C%10%11)=O)C%12C%11=O)=[N+]=[N-])=C%12C7=O",
                 "chem_targets": [
@@ -90,6 +115,7 @@
                 "molecular_formula": "C69H86N4O24"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CC[C@@]1([C@H](C(=C2C(=CC3=C2C(=C4C(=O)C=CC(=O)C4=C3O)O)[C@H]1O[C@@H]5C[C@@H]([C@H]([C@@H](O5)C)N(C)C)O)O)[C@H]6C(=O)C7=C([C@H]([C@@]6(CC)O[C@H]8C[C@@H]([C@H]([C@@H](O8)C)OC)OC)O[C@@H]9C[C@@H]([C@H]([C@@H](O9)C)N(C)C)O)C(=[N+]=[N-])C1=C7C(=C2C(=O)C=CC(=O)C2=C1O)O)O[C@H]1C[C@@H]([C@H]([C@@H](O1)C)OC)OC",
                 "compound": "lomaiviticin E",
                 "database_id": [

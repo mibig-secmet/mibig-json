@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,8 +44,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiprotozoal",
-                    "antiviral"
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "C1[C@@H]([C@H](O[C@H]1N2C=NC3=C2NC=NC[C@H]3O)CO)O",
                 "compound": "pentostatine",
@@ -45,8 +58,12 @@
             },
             {
                 "chem_acts": [
-                    "antiprotozoal",
-                    "antiviral"
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "C1=NC2=C(C(=N1)N)N=CN2[C@H]3[C@H]([C@@H]([C@H](O3)CO)O)O",
                 "compound": "vidarabine",

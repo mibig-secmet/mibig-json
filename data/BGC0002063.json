@@ -11,6 +11,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -34,7 +43,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "C[C@@]12[C@@H](O1)C(=O)C3=C(C4=C(C=CC(=C4O)C5=C(C6=C(C=C5)O[C@]7([C@H]([C@@]8([C@@H](O8)C(=O)C7=C6O)C)OC(=O)CC(=O)O)C)O)O[C@]3([C@H]2OC(=O)CC(=O)O)C)O",
                 "compound": "cryptosporioptide A",
@@ -50,6 +61,7 @@
                 "molecular_formula": "C36H30O18"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CCC(C(=O)O)C(=O)O[C@H]1[C@@]2([C@@H](O2)C(=O)C3=C(C4=C(C=CC(=C4O)C5=C(C6=C(C=C5)O[C@]7([C@H]([C@@]8([C@@H](O8)C(=O)C7=C6O)C)OC(=O)C(CC)C(=O)O)C)O)O[C@@]13C)O)C",
                 "compound": "cryptosporioptide C",
                 "database_id": [

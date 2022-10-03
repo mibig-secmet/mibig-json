@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiplasmodial",
-                    "antiparasitic"
+                    {
+                        "activity": "antiparasidal"
+                    },
+                    {
+                        "activity": "antiplasmodial"
+                    }
                 ],
                 "chem_struct": "O=C(N[C@H](C(N[C@H](C(C)C)C(N[C@@H](C(C)C)C(N[C@H](C)C(NCCC1=O)=O)=O)=O)=O)C(C)C)[C@@H]([C@H](OC([C@@H](NC([C@@H]2N1CCC2)=O)C(C)C)=O)C)NC([C@H]([C@H](C)CC)NC([C@@H](CC(C)C)NC([C@H](C(C)C)NC([C@@H](C)NC([C@H]3N(C(CCC)=O)CCC3)=O)=O)=O)=O)=O",
                 "compound": "xenoamicin A",
@@ -47,7 +60,9 @@
             },
             {
                 "chem_acts": [
-                    "antiplasmodial"
+                    {
+                        "activity": "antiplasmodial"
+                    }
                 ],
                 "chem_struct": "O=C(N[C@H](C(N[C@H]([C@H](C)CC)C(N[C@@H](C(C)C)C(N[C@H](C)C(NCCC1=O)=O)=O)=O)=O)C(C)C)[C@@H]([C@H](OC([C@@H](NC([C@@H]2N1CCC2)=O)C(C)C)=O)C)NC([C@H]([C@H](C)CC)NC([C@@H](CC(C)C)NC([C@H](C(C)C)NC([C@@H](C)NC([C@H]3N(C(CCC)=O)CCC3)=O)=O)=O)=O)=O",
                 "compound": "xenoamicin B",

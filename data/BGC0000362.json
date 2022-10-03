@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "membrane"
+                    {
+                        "activity": "other",
+                        "comment": "highly antigenic cell surface molecule"
+                    }
                 ],
                 "chem_struct": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC(CC(=O)N[C@H](CC1=CC=CC=C1)C(=O)N[C@H]([C@@H](C)OC2[C@@H]([C@@H]([C@@H]([C@@H](O2)C)O)O)O[C@H]3[C@@H]([C@@H]([C@H]([C@@H](O3)C)O)O[C@H]4[C@@H]([C@H]([C@H]5[C@H](O4)CO[C@](O5)(C)C(=O)O)OC)O)O)C(=O)N[C@H](C)C(=O)N[C@@H](C)COC6[C@@H]([C@@H]([C@H]([C@@H](O6)C)OC)OC)O)O.O",
                 "compound": "glycopeptidolipid",

@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CSCC1N(C)C(=O)C2CSSCC(N(C)C(=O)CNC(=O)C(CSC1=O)NC(=O)C1=NC3=CC=CC=C3C=C1O)C(=O)N(C)C(CSC)C(=O)SCC(NC(=O)C1=C(O)C=C3C=CC=CC3=N1)C(=O)NCC(=O)N2C",
                 "chem_targets": [

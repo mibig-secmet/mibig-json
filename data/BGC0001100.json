@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,9 +46,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic",
-                    "immunosuppressant"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "immunosuppressive"
+                    }
                 ],
                 "chem_struct": "[H][C@]12C[C@]([H])(O)\\C=C\\C(\\C)=C\\C[C@]([H])(O)\\C=C\\C(\\C)=C\\[C@@]([H])(NC(=O)C(C)=O)[C@](C)(C(=O)O1)C(=O)[C@@H]2C",
                 "compound": "lankacidin C",

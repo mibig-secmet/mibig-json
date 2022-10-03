@@ -34,6 +34,15 @@
                 "5UL74VURKJ25VSPPPO3H2NYB"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -44,8 +53,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "surfactant"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "surfactant"
+                    }
                 ],
                 "chem_struct": "CC[C@H](C)[C@@H]1[C@H](CC(=O)O[C@H](C(=O)[C@@H](C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N([C@H](C(=O)O[C@@H]([C@@H](C(=O)N1)NC(=O)[C@@H](CC(C)C)N(C)C(=O)[C@@H]3CCCN3C(=O)C(C)O)C)CC4=CC=C(C=C4)OC)C)CC(C)C)C)C(C)C)O",
                 "compound": "didemnin B",
@@ -56,6 +69,7 @@
                 "molecular_formula": "C57H89N7O15"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@@H]1[C@@H](C(=O)N[C@@H]([C@H](CC(=O)O[C@H](C(=O)[C@@H](C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N([C@H](C(=O)O1)CC3=CC=C(C=C3)OC)C)CC(C)C)C)C(C)C)O)C(C)C)NC(=O)C(CC(C)C)N(C)C(=O)[C@@H]4CCCN4C(=O)[C@H](C)O",
                 "chem_synonyms": [
                     "Nordidemnin"
@@ -69,12 +83,14 @@
                 "molecular_formula": "C56H87N7O15"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@@H]1[C@@H](C(=O)N[C@@H]([C@H](CC(=O)O[C@H](C(=O)[C@@H](C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N([C@H](C(=O)O1)CC3=CC=C(C=C3)OC)C)CC(C)C)C)C(C)C)O)C(C)C)NC(=O)[C@@H](CC(C)C)N(C)C(=O)[C@@H]4CCCN4C(=O)[C@H](C)O",
                 "compound": "dehydrodidemnin B (aplidine)",
                 "mol_mass": 1097.626015084,
                 "molecular_formula": "C56H87N7O15"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CCCCCCC[C@H](CC(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)O[C@@H](C)C(=O)N1CCC[C@H]1C(=O)N(C)[C@H](CC(C)C)C(=O)N[C@H]2[C@@H](OC(=O)[C@@H](N(C(=O)[C@@H]3CCCN3C(=O)[C@@H](NC(=O)[C@H](C(=O)[C@@H](OC(=O)C[C@@H]([C@@H](NC2=O)[C@@H](C)CC)O)C(C)C)C)CC(C)C)C)CC4=CC=C(C=C4)OC)C)O",
                 "compound": "didemnin X",
                 "database_id": [
@@ -84,6 +100,7 @@
                 "molecular_formula": "C82H130N12O24"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CCCCCCC[C@H](CC(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)O[C@@H](C)C(=O)N1CCC[C@H]1C(=O)N(C)[C@H](CC(C)C)C(=O)N[C@H]2[C@@H](OC(=O)[C@@H](N(C(=O)[C@@H]3CCCN3C(=O)[C@@H](NC(=O)[C@H](C(=O)[C@@H](OC(=O)C[C@@H]([C@@H](NC2=O)[C@@H](C)CC)O)C(C)C)C)CC(C)C)C)CC4=CC=C(C=C4)OC)C)O",
                 "compound": "didemnin Y",
                 "database_id": [

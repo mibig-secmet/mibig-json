@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiinsectan",
-                    "siderophore"
+                    {
+                        "activity": "insecticidal"
+                    },
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "CC(CCC1)C(C1C(/C=C/C)O2)C3=C2C(C4=CC=CC=C4)=CN(O)C3=O",
                 "compound": "leporin B",

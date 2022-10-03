@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,8 +47,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiviral",
-                    "immunosupresor"
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "immunosuppressive"
+                    }
                 ],
                 "chem_struct": "CC[C@H]1C[C@H](C)[C@@]2(NC1=O)O[C@@H](C[C@H](O)[C@@H](C)CC\\C=C\\C=C(/C)[C@@H]1C\\C=C\\C=C\\[C@H](O)[C@H](C)[C@@H](O)[C@@H](CCC(C)=O)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC3=CC(O)=CC=C3)C(=O)N3CCC[C@H](N3)C(=O)O1)[C@H](C)[C@H](O)[C@@H]2C",
                 "compound": "sanglifehrin A",

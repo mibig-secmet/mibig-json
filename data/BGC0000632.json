@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,8 +48,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]1(O[C@H]2C[C@]3(C)[C@]([H])(CC[C@@]4(C)[C@@H](C[C@H](OC)[C@H](N)C(O)=O)C(C)=CC[C@]34[H])C(C)(C)[C@@H]2O)O[C@@H](C)[C@H](OC(=O)C2=CC=CC(O)=C2)[C@@H](O[C@]2([H])O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2NC(C)=O)[C@H]1O",
                 "compound": "brasilicardin A",

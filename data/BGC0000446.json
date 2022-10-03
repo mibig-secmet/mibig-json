@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,8 +47,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "enterotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "enterotoxic"
+                    }
                 ],
                 "chem_struct": "C1C[C@H]2[C@@H](NC3=C(C=CC=C3O)C(=O)N2C1)C4=CNC5=CC=CC=C54",
                 "compound": "tilivalline",
@@ -53,6 +66,7 @@
                 "molecular_formula": "C20H19N3O2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C1C2=C(C=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5",
                 "compound": "9-deoxy tilivalline",
                 "evidence": [
@@ -63,6 +77,7 @@
                 "molecular_formula": "C20H19N3O"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5",
                 "compound": "dihydroxy tilivalline",
                 "evidence": [
@@ -73,6 +88,7 @@
                 "molecular_formula": "C20H19N3O3"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C1C2=C(C(O)=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5",
                 "compound": "dehydro tilivalline",
                 "evidence": [
@@ -83,6 +99,7 @@
                 "molecular_formula": "C20H17N3O2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5",
                 "compound": "dihydroxy-dehydro tilivalline",
                 "evidence": [

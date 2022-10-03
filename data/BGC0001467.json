@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,8 +48,13 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "p-glycoprotein-mediated multiple drug resistance"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "other",
+                        "comment": "counteracts P-glycoprotein-mediated multiple drug resistance"
+                    }
                 ],
                 "chem_struct": "CCCCCCC[C@H]1OC(=O)C[C@@H](O)[C@H](CC2=CC=CC=C2)N(C)C(=O)[C@@H](OC(=O)[C@H]1C)C(C)C",
                 "chem_targets": [

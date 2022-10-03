@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,7 +48,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "insecticidal"
+                    {
+                        "activity": "insecticidal"
+                    }
                 ],
                 "chem_struct": "C[C@@H]1[C@H](OC=C2C1=C(C(=C(C2=O)C(=O)O)O)C)C",
                 "compound": "antimycin",

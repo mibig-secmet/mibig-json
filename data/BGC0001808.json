@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,8 +44,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "NC1=NC=NC2=C1C(=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O)C#N",
                 "compound": "toyocamycin",

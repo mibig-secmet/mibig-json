@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,8 +47,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1([C@H]([C@H]([C@H]([C@@H](O1)O[C@]23C=CC=C2C#C/C/4=C\\C#C[C@H]3OC5=C(C=C(C=C5Cl)[C@H](CC(=O)OC[C@@H]4OC(=O)C6=CC(=CC7=C6NC(=O)C(=C)O7)OC)N)O)O)O)N(C)C)C",
                 "compound": "lidamycin",

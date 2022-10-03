@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -43,7 +52,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CN[C@H](C(C)C)C(=O)N(C)[C@H](CC(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)NCCC1=CC=CC=C1",
                 "compound": "rhabdopeptide 2",
@@ -52,12 +63,14 @@
                 "molecular_formula": "C33H57N5O4"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CN[C@H](CC(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)N[C@H](C(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)NCCC1=CC=CC=C1",
                 "compound": "rhabdopeptide 3",
                 "mol_mass": 686.509469212,
                 "molecular_formula": "C38H66N6O5"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CN[C@H](C(C)C)C(=O)N(C)[C@H](CC(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)N(C)[C@H](C(C)C)C(=O)NCCC1=CC=CC=C1",
                 "compound": "rhabdopeptide 4",
                 "mol_mass": 700.5251192759999,

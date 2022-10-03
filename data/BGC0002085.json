@@ -11,6 +11,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -20,8 +29,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "inhibitor"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -49,14 +62,17 @@
                 ]
             },
             {
+                "chem_acts": [],
                 "chem_struct": "COC[C@H]1O[C@@H](O[C@@H]2OC[C@@H]3O[C@]4(O[C@H]3[C@H]2OC)OC[C@@](O)([C@H](C)OC)[C@@H]2OCO[C@@H]42)[C@@H](OC)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](C)[C@H](OC)[C@H](O[C@H]2C[C@@]3(C)O[C@@]4(C[C@@H](O)[C@H](O[C@H]5C[C@@H](O[C@H]6C[C@](C)(N)[C@@H](OC)[C@H](C)O6)[C@H](OC(=O)C6=C(C)C(Cl)=C(O)C(Cl)=C6OC)[C@@H](C)O5)[C@@H](C)O4)O[C@@H]3[C@@H](C)O2)[C@H]1O",
                 "compound": "everninomicin E"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "COC[C@H]1O[C@@H](O[C@@H]2OC[C@@H]3O[C@]4(O[C@H]3[C@H]2OC)OC[C@@](O)([C@H](C)OC)[C@@H]2OCO[C@@H]42)[C@@H](OC)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](C)[C@H](OC)[C@H](O[C@H]2C[C@@]3(C)O[C@@]4(C[C@@H](O)[C@H](O[C@H]5C[C@@H](O[C@H]6C[C@](C)(N=O)[C@@H](OC)[C@H](C)O6)[C@H](OC(=O)C6=C(C)C(Cl)=C(O)C(Cl)=C6OC)[C@@H](C)O5)[C@@H](C)O4)O[C@@H]3[C@@H](C)O2)[C@H]1O",
                 "compound": "everninomicin G"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "COC[C@H]1O[C@@H](O[C@@H]2OC[C@@H]3O[C@]4(O[C@H]3[C@H]2OC)OC[C@@](O)([C@H](C)OC)[C@@H]2OCO[C@@H]42)[C@@H](OC)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](C)[C@H](OC)[C@H](O[C@H]2C[C@@]3(C)O[C@@]4(C[C@@H](O)[C@H](O[C@H]5C[C@@H](O[C@H]6C[C@](C)(NO)[C@@H](OC)[C@H](C)O6)[C@H](OC(=O)C6=C(C)C(Cl)=C(O)C(Cl)=C6OC)[C@@H](C)O5)[C@@H](C)O4)O[C@@H]3[C@@H](C)O2)[C@H]1O",
                 "compound": "everninomicin F"
             }

@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -26,8 +35,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "antihelmintic"
+                    {
+                        "activity": "anthelmintic"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CCC(OC1CC(C)(O)C(OC2CCC(OC(=O)C(C)C(O)C3=CC4=C(C=C3)C(=O)C(C)=CC4=O)C(C)O2)C(C)O1)C(C)C(O)C(C)C(O)C(C)C1OC(=O)\\C=C\\C(C)C(O)CC(O)CCCC(O)CCC(C)C(O)C(=O)C2(O)CC(O)CC(CC(O)CC(O)CC(O)CCCC(O)\\C=C\\C1C)O2",
                 "compound": "cyphomycin",

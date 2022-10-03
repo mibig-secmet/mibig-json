@@ -31,6 +31,15 @@
                 "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,8 +49,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "inhibitor"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -83,8 +96,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "inhibitor"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -123,9 +140,11 @@
                 "molecular_formula": "C24H27NO6"
             },
             {
+                "chem_acts": [],
                 "compound": "thioplatensimycin"
             },
             {
+                "chem_acts": [],
                 "compound": "thioplatencin"
             }
         ],

@@ -11,6 +11,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -21,8 +30,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antimalarial",
-                    "cytotoxic"
+                    {
+                        "activity": "antimalarial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCCCCCCCCCCC1=CC=C(N1)C=C2C(=CC(=N2)C3=CC=CN3)OC",
                 "compound": "undecylprodigiosin",
@@ -40,8 +53,12 @@
             },
             {
                 "chem_acts": [
-                    "antimalarial",
-                    "cytotoxic"
+                    {
+                        "activity": "antimalarial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC1CCCCCCCCC2=CC1=C(N2)/C=C\\3/C(=CC(=N3)C4=CC=CN4)OC",
                 "compound": "metacycloprodigiosin",

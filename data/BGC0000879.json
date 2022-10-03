@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,10 +45,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "antiprotozoal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "NC1=NC=NC2=C1C(=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O)C#N",
                 "compound": "toyocamycin",
@@ -52,10 +69,18 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "antiprotozoal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "NC(=O)C1=CN([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)C2=C1C(N)=NC=N2",
                 "compound": "sangivamycin",

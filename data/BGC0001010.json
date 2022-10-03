@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,8 +49,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "COC(\\C=C\\C1=CSC(=N1)C1CSC(=N1)C(C)=C)C(C)C(\\OC)=C/C(=O)OC",
                 "chem_targets": [

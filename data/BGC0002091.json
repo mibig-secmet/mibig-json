@@ -13,6 +13,15 @@
                 "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -22,8 +31,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "inhibitor"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CC(=O)NC1=C2SSC=C2NC1=O",
                 "chem_targets": [

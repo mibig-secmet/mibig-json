@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1C(C(CC(O1)C2=CC(=C(C3=C2C(=O)C4=CC(=C5C(=O)C=C(OC5=C4C3=O)C6(C(O6)C7C(O7)C)C)C)O)C8CC(C(C(O8)C)O)(C)N(C)C)N(C)C)O",
                 "compound": "hedamycin",

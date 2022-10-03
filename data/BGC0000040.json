@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,10 +45,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiviral",
-                    "antiprotozoal",
-                    "inhibitor",
-                    "cytotoxic"
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "[H][C@@]1(OC(=O)\\C(OC)=C\\C(\\C)=C\\[C@@H](C)[C@@H](O)[C@@H](CC)[C@@H](O)[C@H](C)C\\C(C)=C\\C=C\\[C@@H]1OC)[C@@H](C)[C@@H](O)[C@H](C)[C@@]1(O)C[C@@H](O[C@H]2C[C@@H](O)[C@H](OC(N)=O)[C@@H](C)O2)[C@H](C)[C@H](O1)\\C=C\\C",
                 "chem_targets": [

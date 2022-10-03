@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,10 +45,19 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "inhibitor",
-                    "induciton of apoptosis",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inducer",
+                        "comment": "induces apoptosis"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CCCCCC1=C(C(O)=O)C(O)=C2C(C=CC3=C2C=C2C(=C3O)C(=O)C3=C(O)C=C(O)C=C3C2(C)C)=C1",
                 "chem_targets": [
@@ -58,10 +76,19 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "inhibitor",
-                    "induction of apoptosis",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inducer",
+                        "comment": "induces apoptosis"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CCCCCC1=C(C(O)=O)C(O)=C2C(CCC3=C(O)C4=C(C=C23)C(C)(C)C2=CC(O)=CC(O)=C2C4=O)=C1",
                 "chem_targets": [
@@ -80,7 +107,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "OC1=C(C(C(C(O)=C(C=CC2=C3C(O)=C(C(O)=O)C(CCCCC)=C2)C3=C4)=C4C5(C)O)=O)C5=CC(O)=C1",
                 "compound": "BE-43767",
@@ -89,8 +118,12 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "inhibitor"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "OC1=C(C(C(C(O)=C(CCC2=C3C(O)=C(C(O)=O)C(CCCCC)=C2)C3=C4)=C4C5(C)O)=O)C5=CC(O)=C1",
                 "chem_targets": [

@@ -31,6 +31,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -42,7 +51,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@](N)(CN[C@@]([H])(CC(N)=O)C1=NC(N)=C(C)C(=N1)C(=O)N[C@]([H])(C(=O)N[C@]([H])(CCO)[C@@]([H])(O)[C@]([H])(C)C(=O)N[C@]([H])(C(=O)NCCC1=N[C@]([H])(CS1)C1=NC(=CS1)C(=O)NCCC(N)=N)C(C)(C)O)[C@@]([H])(O[C@@H]1O[C@@H](C)[C@@H](O)[C@H](O)[C@@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](OC(N)=O)[C@@H]1O)C1=CNC=N1)C(N)=O",
                 "chem_targets": [

@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "CC(OC(=O)[C@@H](N)CCCN(O)C=O)[C@H](NC(=O)C1=C(O)C(O)=CC=C1)C(=O)N[C@@H](CCCN(O)C=O)C(O)=O",
                 "compound": "rhodochelin",

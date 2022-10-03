@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC(C)C1NC(=O)C(CS\\C=C/NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(C)NC1=O)C(O)C1=CN(C)C=[N+]1C)NC(=O)C(C)NC(=S)C(C)NC(=S)C(C)NC(=S)C(C)NC(=S)C(CCSC)NC(=S)C(NC(=O)C(C)(O)CC(C)=O)C(C)C",
                 "compound": "thioviridamide",

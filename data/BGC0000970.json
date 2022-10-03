@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,8 +49,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CCCC[C@@H](C)[C@H](O)[C@H](C)C(=O)C(\\C)=C\\[C@@H](OC)[C@@H](O)[C@@H](OC)C(=O)N\\C=C/C1=CC=C(O)C(Cl)=C1",
                 "compound": "chondrochloren A",

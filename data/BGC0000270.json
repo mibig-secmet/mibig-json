@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1O[C@H](C[C@@H](OC(=O)\\C=C\\C=C\\C=C\\C=C\\C(=O)NC2=C(O)C3=C(OC2=O)C(Cl)=C(O)C=C3)[C@@H]1OC(C)=O)C1=CC=C2C(=O)C34OC3(C(O)CC3(O)CC(C)=CC(=O)C43O)C(O)C2=C1O",
                 "compound": "simocyclinone D8",

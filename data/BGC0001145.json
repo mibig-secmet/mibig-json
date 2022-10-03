@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "[H][C@]12CSC(=N1)C1=CSC(=N1)C1=CSC(=N1)C(=C)NC(=O)[C@@]1([H])CSC(=N1)C1=CSC(=N1)C1=CC=C3C(=N1)[C@H](C)NC(=O)[C@]1([H])CCCN1C(=O)\\C(NC(=O)CNC(=O)[C@H](CCCNC(N)=N)NC(=O)C(C)(NC(=O)\\C(NC(=O)C1CSC(=N1)[C@H](CC(N)=O)NC3=O)=C\\C)SC[C@H](NC2=O)C(O)=O)=C\\C",
                 "compound": "cyclothiazomycin b1",

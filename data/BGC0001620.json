@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,8 +48,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N1)CC(C)C)CC(C)C)C)C)CC2=CC(=C(C=C2)O)[N+](=O)[O-])CC(C)C)C)CC3=CN(C4=CC=CC=C43)C(C)(C)C=C",
                 "compound": "ilamycin B1",
@@ -52,8 +65,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N1)CC(C)C)CC(C)C)C)C)CC2=CC(=C(C=C2)O)[N+](=O)[O-])CC(C)C)C)CC3=CN(C4=CC=CC=C43)C(C)(C)[C@H]5CO5",
                 "compound": "ilamycin B2",
@@ -65,8 +82,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H]2C[C@@H]([C@H](N(C2=O)[C@H](C(=O)N1)CC(C)C)O)C)C)C)CC3=CC(=C(C=C3)O)[N+](=O)[O-])CC(C)C)C)CC4=CN(C5=CC=CC=C54)C(C)(C)[C@H]6CO6",
                 "compound": "ilamycin C1",
@@ -78,8 +99,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H]2C[C@@H]([C@@H](N(C2=O)[C@H](C(=O)N1)CC(C)C)O)C)C)C)CC3=CC(=C(C=C3)O)[N+](=O)[O-])CC(C)C)C)CC4=CN(C5=CC=CC=C54)C(C)(C)[C@H]6CO6",
                 "compound": "ilamycin C2",
@@ -91,15 +116,23 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "compound": "ilamycin D"
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C/C=C/C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N([C@H]2C[C@@H]([C@H](N(C2=O)[C@H](C(=O)N1)CC(C)C)O)C)C)C)CC3=CC(=C(C=C3)O)[N+](=O)[O-])CC(C)C)C)CC4=CN(C5=CC=CC=C54)C(C)(C)C=C",
                 "compound": "ilamycin E1",

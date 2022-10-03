@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC1OC(CCC1OC1OC(C)C(=O)C=C1)C1=CC=C2C(=O)C3=C(C=C[C@]4(O)C[C@](C)(CC(=O)[C@]34O)OC3OC(C)C(=O)C=C3)C(=O)C2=C1O",
                 "compound": "Sch-47554",
@@ -48,7 +59,9 @@
             },
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC1C(CCC(O1)OC2CCC(OC2C)C3=C(C4=C(C=C3)C(=O)C5=C(C4=O)C=C[C@]6([C@@]5(C(=O)C[C@](C6)(C)OC7C=CC(=O)C(O7)C)O)O)O)O",
                 "compound": "Sch-47555",

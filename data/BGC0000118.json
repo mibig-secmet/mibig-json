@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,11 +44,21 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antiviral",
-                    "cytotoxic",
-                    "antiprotozoal",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=C(C(=CC=C1)O)C(=O)OC[C@]2([C@H]([C@@H]([C@]([C@@]2(C)O)([C@H](C)O)NC(=O)N(C)C)N)NC3=CC=CC(=C3)C(=O)C)O",
                 "compound": "pactamycin",

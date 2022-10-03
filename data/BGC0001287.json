@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1\\C=C\\C=C/C(=O)NC2=C(C)C(=O)C3=C(C(O)=C(C)C(O)=C3C2=O)C(=O)\\C(C)=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)[C@H](O)[C@H](C)[C@H]1O",
                 "compound": "chaxamycin A",
@@ -50,8 +63,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1\\C=C\\C=C/C(=O)NC2=C(C)C(=O)C3=C(C(O)=C(C)C=C3C2=O)C(=O)\\C(C)=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)[C@H](O)[C@H](C)[C@H]1O",
                 "compound": "chaxamycin B",
@@ -64,8 +81,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1\\C=C\\C=C/C(=O)NC2=C(C)C(=O)C3=C(C(O)=C(C)C(O)=C3C2=O)C(=O)\\C(C)=C\\[C@H](CO)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)[C@H](O)[C@H](C)[C@H]1O",
                 "compound": "chaxamycin C",
@@ -78,8 +99,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@H]1\\C=C\\C=C/C(=O)NC2=C(C)C(=O)C3=C4[C@H](O)[C@@](C)(OC4=C(C)C(O)=C3C2=O)O\\C=C\\[C@@H](O)[C@H](C)[C@H](OC(C)=O)[C@@H](C)[C@@H](O)[C@@H](C)[C@@H]1O",
                 "compound": "chaxamycin D",

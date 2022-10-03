@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,7 +44,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC[C@H](C)[C@H]1C2=N[C@@H](CO2)C(=O)N[C@@H](C3=NC(=CS3)C(=O)N[C@H](C4=N[C@@H]([C@H](O4)C)C(=O)N[C@@H](C5=NC(=CS5)C(=O)N1)C(C)C)[C@@H](C)CC)C(C)C",
                 "compound": "patellamide A",
@@ -46,6 +57,7 @@
                 "molecular_formula": "C35H50N8O6S2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CC[C@H](C)[C@H]1C2=N[C@@H]([C@H](O2)C)C(=O)N[C@@H](C3=NC(=CS3)C(=O)N[C@H](C4=N[C@@H]([C@H](O4)C)C(=O)N[C@@H](C5=NC(=CS5)C(=O)N1)C)C(C)C)CC6=CC=CC=C6",
                 "compound": "patellamide C",
                 "database_id": [

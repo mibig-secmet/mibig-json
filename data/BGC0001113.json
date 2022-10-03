@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1C[C@H]([C@H](O[C@H]1C/C=C(\\C)/C=C/[C@@H]2[C@H]([C@@]3(C[C@@](O2)(C)OCCNC(=O)CCCCCNC(=O)CCCCCNC(=O)CCCC[C@H]4[C@@H]5[C@H](CS4)NC(=O)N5)CO3)O)C)NC(=O)/C=C\\[C@H](C)OC(=O)C",
                 "compound": "spliceostatin",
@@ -48,6 +59,7 @@
                 "molecular_formula": "C51H82N6O12S"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@H]1C[C@H]([C@H](O[C@H]1C/C=C(\\C)/C=C/[C@@H]2[C@H]([C@@]3(C[C@@](O2)(C)O)CO3)O)C)NC(=O)/C=C\\[C@H](C)OC(=O)C",
                 "compound": "FR901464",
                 "database_id": [

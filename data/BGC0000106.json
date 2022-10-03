@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1\\C=C\\C=C/C=C(C)\\C(=O)NC2=C(Cl)C(=O)C3=C(C=C(C)C(O)=C3C(=O)\\C(C)=C\\[C@H](C)[C@@H](O)[C@@H](C)\\C=C\\[C@@H](O)C\\C=C(C)\\C(=O)C[C@@H]1O)C2=O",
                 "compound": "naphthomycin A",

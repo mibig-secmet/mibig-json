@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,7 +48,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CCC([C@H](C)[C@@H]([C@@H](C)[C@@H]([C@H](C)C1[C@H](/C=C/C=C/[C@H](C[C@@H](C[C@H](CC([C@@H](C2CC(C(C(O2)(C([C@@H](CC[C@@H](C[C@@H](C/C=C/C=CC(=O)O1)O)O)C)O[C@H]3C[C@H]([C@@H]([C@H](O3)CO[C@H]4[C@H]([C@H]([C@@H]([C@H](O4)C)O)O)O)O)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O)O)O)O)C)O[C@@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)NC(=O)C)O)O)O)C)O)O)O[C@H]7CC[C@H]([C@H](O7)C)O[C@H]8CC[C@H]([C@H](O8)C)O[C@H]9C[C@]([C@@H]([C@@H](O9)C)O)(C)N",
                 "compound": "ibomycin",

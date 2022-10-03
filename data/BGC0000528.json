@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC[C@H](C)[C@@H]1NC(=O)[C@H](CCSC[C@@H]2NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CCSC[C@H](NC(=O)[C@H](C)NC2=O)C(=O)N[C@@H](CCCNC(N)=N)C(O)=O)NC(=O)CNC(=O)[C@H](CS)NC(=O)[C@H](CCC(O)=O)NC1=O)[C@@H](C)CC)[C@@H](C)CC)NC(=O)[C@H](CC(C)C)NC(=O)C(\\NC(=O)[C@@H]1CSC[C@H](NC(=O)[C@@H](N)CO)C(=O)N[C@@H](CO)C(=O)NCC(=O)N[C@@H](CC2=CNC3=C2C=CC=C3)C(=O)N[C@@H](CC(C)C)C(=O)N1)=C\\C",
                 "compound": "michiganin A",

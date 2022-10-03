@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=CC2=C(C(O)=C1C(OC)=O)[C@]3(C(C4=CC5=C(C(O)=C4C([C@]3(CC2)OC)=O)C(C=C(C5=O)N[C@@H]6[C@@H]([C@H]([C@H]([C@@H](O6)C)O)O)OC)=O)=O)O",
                 "compound": "arenimycin A",

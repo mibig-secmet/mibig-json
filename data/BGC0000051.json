@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC[C@@H](C)[C@H]([C@H](C)C(=O)[C@H](C)/C=C(\\C)/C[C@H](C)[C@H]1[C@@H](C(=O)O1)C)O",
                 "compound": "ebelactone A",
@@ -48,7 +59,9 @@
             },
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC[C@H]1[C@@H](OC1=O)[C@@H](C)C/C(=C/[C@@H](C)C(=O)[C@@H](C)[C@@H]([C@H](C)CC)O)/C",
                 "compound": "ebelactone B",

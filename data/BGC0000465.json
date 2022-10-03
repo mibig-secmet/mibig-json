@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -27,7 +36,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CN[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC1=CC=CC=C1)C(=O)NCCC1=CC=CC=C1",
                 "compound": "xenortide A",
@@ -40,7 +51,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CN[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC1=CC=CC=C1)C(=O)NCCC1=CNC2=C1C=CC=C2",
                 "compound": "xenortide B",
@@ -52,6 +65,7 @@
                 "molecular_formula": "C27H36N4O2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CN[C@@H](C(C)C)C(N([C@H](C(NCCC1=CC=CC=C1)=O)CC2=CC=CC=C2)C)=O",
                 "compound": "xenortide C",
                 "mass_spec_ion_type": "[M+H]+",
@@ -59,6 +73,7 @@
                 "molecular_formula": "C24H33N3O2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CN[C@@H](C(C)C)C(=O)N(C)[C@@H](CC1=CC=CC=C1)C(=O)NCCC1=CNC2=CC=CC=C12",
                 "compound": "xenortide D",
                 "database_id": [

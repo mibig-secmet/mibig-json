@@ -20,6 +20,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -30,7 +39,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC(C)C1C(=O)OC(C(C(=O)OC(C(=O)OC(C(C(C(=O)O1)(C)C)O)CC2=CC=CC=C2)C(C)C)NC(=O)C3=C(C(=CC=C3)NC=O)O)C",
                 "compound": "neoantimycin",

@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C(C(C)=O)(NC(C(C)C)C(NC(CCSC)C(NC(C(NC(C(NC(C(NC(C(NC1C(=O)NC(C(NC(C)C(=O)NC(CC2C=CC=CC=2)C(NC(C(O)C2N(C)C=[N+](C)C=2)C(=O)NC=CSC1C)=O)=O)C(C)C)=O)C)=S)C)=S)C)=O)C)=S)=S)=O",
                 "compound": "thioholgamide A",
@@ -48,7 +59,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C(C(C)=O)(NC(C(C)C)C(NC(CCS(=O)C)C(NC(C(NC(C(NC(C(NC(C(NC1C(=O)NC(C(NC(C)C(=O)NC(CC2C=CC=CC=2)C(NC(C(O)C2N(C)C=[N+](C)C=2)C(=O)NC=CSC1C)=O)=O)C(C)C)=O)C)=S)C)=S)C)=O)C)=S)=S)=O",
                 "compound": "thioholgamide B",

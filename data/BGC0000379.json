@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CCC(C)[C@@H]1NC(=O)[C@H](NC(=O)CNC(=O)[C@H](CC(O)=O)NC(=O)CNC(=O)[C@H](CC(O)=O)NC(=O)CNC(=O)C2CCCCN2C(=O)[C@H](CNC(=O)[C@@H]2CCCN2C1=O)NC(=O)[C@H](CC(O)=O)NC(=O)\\C=C\\CCCCCCCCCC(C)C)C(C)O",
                 "compound": "glycinocin A",

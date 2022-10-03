@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,8 +44,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)C[C@@H](C(=O)O)N",
                 "compound": "alanylclavam",
@@ -49,8 +62,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)CO",
                 "compound": "2-hydroxymethylclavam",
@@ -63,8 +80,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)COC=O",
                 "compound": "2-formyloxymethylclavam",
@@ -76,8 +97,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "C1[C@H]2N(C1=O)C[C@@H](O2)C(=O)O",
                 "compound": "clavam-2-carboxylate",

@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CCCCCC(CC(=O)N/C(=C\\C)/C(=O)N1CCC[C@@H]1C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(C)C)C(=O)N[C@H](CO)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(C)C)C(=O)N/C(=C\\C)/C(=O)N[C@@H]2[C@H](OC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC2=O)[C@@H](C)CC)CCO)CCN)CCCCN)C)O",
                 "chem_targets": [
@@ -55,7 +66,9 @@
             },
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "O=C(N[C@@H](C(N[C@@H](CC(C)C)C(N[C@H](C(N1)=O)CCO)=O)=O)[C@@H](C)OC([C@H](CCCCN)NC([C@H]1CCN)=O)=O)/C(NC([C@@H](C(C)C)NC([C@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@@H](C(C)C)NC([C@@H](C(C)C)NC([C@@H](CC(C)C)NC([C@@H](CO)NC([C@@H](C(C)C)NC([C@@H](CC(C)C)NC([C@@H](CO)NC([C@H]2N(C(/C(NC(CC(CCCCC)O)=O)=C/C)=O)CCC2)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=C/C",
                 "compound": "tolaasin F",

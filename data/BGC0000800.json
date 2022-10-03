@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,7 +44,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "emulsifier"
+                    {
+                        "activity": "emulsifier"
+                    }
                 ],
                 "chem_struct": "C/C=C(/C)\\CC/C=C(/C)\\CC/C=C(/C)\\CC/C=C(/C)\\CC/C=C(/C)\\CC/C=C(/C)\\CC/C=C(/C)\\CC/C=C(/C)\\CC/C=C(\\C)/CC/C=C(\\C)/CC/C=C(\\C)/COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O[C@@H]3[C@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)[O-])O[C@H]5[C@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O)O)O)O)O)O",
                 "compound": "xanthan",

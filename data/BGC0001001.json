@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -48,7 +57,9 @@
             },
             {
                 "chem_acts": [
-                    "sodium channel blocking"
+                    {
+                        "activity": "sodium channel blocking"
+                    }
                 ],
                 "chem_struct": "CO\\C(CCNC(=O)CC\\C=C\\C(C)CC\\C(CCCC#C)=C\\Cl)=C\\C(=O)N1C(C)C=CC1=O",
                 "chem_targets": [
@@ -66,8 +77,12 @@
             },
             {
                 "chem_acts": [
-                    "surfactant",
-                    "toxic"
+                    {
+                        "activity": "surfactant"
+                    },
+                    {
+                        "activity": "toxic"
+                    }
                 ],
                 "chem_struct": "CO\\C(CCNC(=O)CC\\C=C\\C(C)CC\\C(CCCC=C)=C\\Cl)=C\\C(=O)N1C(C)C=CC1=O",
                 "chem_targets": [

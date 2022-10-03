@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,8 +47,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "beta-lactamse induction"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "O=C1C(C(C)OS(=O)(O)=O)C2N1C(C(O)=O)C(S(/C=C/NC(C)=O)=O)C2",
                 "chem_targets": [

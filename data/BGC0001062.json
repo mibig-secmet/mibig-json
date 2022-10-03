@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC(C)C1=CC2=C(C(=O)N1CC(=O)N1CC(NC(=O)C1C)C(O)=O)C(=O)C1=C3C(O)=C4C(=O)C5=C(C(O)=CC=C5O)C(=O)C4=C(OC)C3=CC=C1C2=O",
                 "compound": "TLN-05220",

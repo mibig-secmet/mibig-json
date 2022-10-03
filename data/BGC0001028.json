@@ -31,6 +31,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -41,7 +50,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "differentiation"
+                    {
+                        "activity": "cell differentiation"
+                    }
                 ],
                 "chem_struct": "CCCC(=O)N[C@@H](C(C)C)C(=O)NC1COC(=O)[C@@H]2CCCN2C(=O)[C@H](CC2=CC=C(O)C=C2)NC(=O)[C@H](CC(N)=O)NC(=O)CNC(=O)[C@H](CC(C)C)NC(=O)CC(=O)[C@H](CC(C)C)NC(=O)C2C[C@H](C)CN2C1=O",
                 "compound": "nostopeptolide A2",

@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12CC(CC)=CN1C(=O)C1=CC=C(OC)C(O)=C1N=C2",
                 "compound": "limazepine C",
@@ -49,8 +62,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC1=CN2C(=C1)C=NC1=C(O)C(OC)=CC=C1C2=O",
                 "compound": "limazepine D",
@@ -62,8 +79,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12C\\C(CN1C(=O)C1=CC=C(OC)C(O)=C1N=C2)=C/C",
                 "compound": "limazepine E",
@@ -75,8 +96,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12C\\C(CN1C(=O)C1=CC=CC=C1N[C@@H]2O)=C/C",
                 "compound": "limazepine F",
@@ -88,8 +113,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12CC(CC)=CN1C(=O)C1=CC=C(OC)C(O)=C1NC2=O",
                 "compound": "limazepine A",

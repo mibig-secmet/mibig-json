@@ -10,6 +10,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -20,8 +29,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]([C@H](OC)/C(C)=C/[C@H](C)C[C@H](C)C(C(C)(C)C)=O)[C@H](O1)[C@H](O)C2=NC=CC(O)=C2C1=O",
                 "compound": "janustatin A",
@@ -35,7 +48,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]([C@H](OC)/C(C)=C/[C@H](C)C[C@H](C)C(C(C)(C)C)=O)[C@H](O)[C@@H]1OC(C2=C1N=CC=C2O)=O",
                 "compound": "janustatin A'",
@@ -48,7 +63,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC(C(OC)/C(C)=C/C(C)CC(C)CC(C)(C)C)C(O1)C(O)C2=NC=CC(O)=C2C1=O",
                 "compound": "janustatin B",
@@ -61,7 +78,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC(C(OC)/C(C)=C/C(C)CC(C)C(C(C)(C)C)=O)C(O)C(O)C1=NC=CC(O)=C1C(O)=O",
                 "compound": "janustatin C",

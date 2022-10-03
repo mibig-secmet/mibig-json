@@ -34,6 +34,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -44,8 +53,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -84,18 +97,21 @@
                 "molecular_formula": "C26H33Cl3O6"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C(C2=C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",
                 "compound": "napyradiomycin 2",
                 "mol_mass": 510.1575941039998,
                 "molecular_formula": "C26H32Cl2O6"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C([C@@]2([H])C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",
                 "compound": "napyradiomycin 3",
                 "mol_mass": 512.1732441679999,
                 "molecular_formula": "C26H34Cl2O6"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@]1(O)CC[C@H](Cl)C(C)(C)C1C[C@]23C(C4=C(C([C@@]2(O)C[C@@H](Cl)C(C)(C)O3)=O)C(O)=C(C)C(O)=C4)=O",
                 "compound": "napyradiomycin 4",
                 "mol_mass": 528.1681587879999,

@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "[H][C@]12C[C@]3([H])C[C@]1(CC[C@]3(O)CO)[C@@]1(C)CC[C@@H](O)[C@@](C)(CO)[C@]1([H])CC2",
                 "chem_targets": [
@@ -56,6 +67,7 @@
                 "molecular_formula": "C20H34O4"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@]12CCCC([C@@H]1CC[C@@H]3[C@@]24CC[C@@]([C@@H](C3)C4)(C)O)(C)C",
                 "compound": "aphidicolan-16β-ol",
                 "database_id": [
@@ -67,6 +79,7 @@
                 "molecular_formula": "C20H34O"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "[H][C@]12C[C@]3([H])C[C@]1(CC[C@]3(O)CO)[C@@]1(C)CCC[C@@](C)(CO)[C@]1([H])CC2",
                 "compound": "3-deoxyaphidicolin",
                 "database_id": [
@@ -78,6 +91,7 @@
                 "molecular_formula": "C20H34O3"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@@]1(CO)[C@H](O)CC[C@@]2(C)[C@@]1([H])CC[C@]3([H])[C@]2(CC[C@@]4(C)O)C[C@@]4([H])C3",
                 "compound": "17-deoxyaphidicolin",
                 "mol_mass": 322.25079494799996,

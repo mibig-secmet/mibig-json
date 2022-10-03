@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -26,8 +35,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "antioomycete activity"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antioomycete"
+                    }
                 ],
                 "chem_struct": "CCCCCCC[C@@H](O)CC(N[C@@H](CC(C)C)C(N[C@H](CCC(O)=O)C(N[C@@H](C(N[C@H](CC(C)C)C(N[C@H](C(N[C@H](CO)C(N[C@@H](CC(C)C)C(N[C@H](C(N[C@@H](C(N[C@H](C1=O)[C@H](CC)C)=O)CO)=O)CC(C)C)=O)=O)=O)CC(C)C)=O)=O)[C@H](O1)C)=O)=O)=O",
                 "chem_synonyms": [],

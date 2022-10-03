@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -47,7 +56,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CO[C@H]1[C@@H](C)C(=O)O[C@@]1(C)\\C=C\\C=C\\C(\\C)=C\\C=C\\C(\\O)=C\\C(=O)\\C=C\\C=C(/C)\\C=C\\C(C)NC(=O)C(C)C\\C=C\\CC(O)CC1=CC=C(O)C=C1",
                 "compound": "thailandamide lactone",

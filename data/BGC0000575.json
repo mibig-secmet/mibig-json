@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,7 +44,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)O)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CO)NC(=O)[C@H](CC2=CN=CN2)NC(=O)CNC(=O)[C@H](C(C)C)NC(=O)[C@H](CC3=CNC4=CC=CC=C43)NC(=O)[C@@H]5CCC(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N5)CCCNC(=N)N)CC6=CC=C(C=C6)O)C(C)C)CC(C)C)CCC(=O)N)CO",
                 "compound": "lariatin",

@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "C=C(/C=C/C1=CC=CC2=C1NC=C2CC(N3O[Fe](ON4C(CC5=CNC6=C5C=CC=C6/C=C/C(C)=C)=C(N=C(C4=O)C)OC)ON7C(CC8=CNC9=C8C=CC=C9/C=C/C(C)=C)=C(N=C(C7=O)C)OC)=C(N=C(C3=O)C)OC)C",
                 "chem_synonyms": [
@@ -67,9 +81,19 @@
             },
             {
                 "chem_acts": [
-                    "iron chelator, coordinates fe3+"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "C/C(C)=C\\CC1=CC=CC2=C1NC=C2CC(N3O[Fe](ON4C(CC5=CNC6=C5C=CC=C6C/C=C(C)\\C)=C(N=C(C4=O)C)OC)ON7C(CC8=CNC9=C8C=CC=C9C/C=C(C)\\C)=C(N=C(C7=O)C)OC)=C(N=C(C3=O)C)OC",
+                "chem_targets": [
+                    {
+                        "target": "iron chelator"
+                    },
+                    {
+                        "target": "coordinates fe3+"
+                    }
+                ],
                 "compound": "astechrome",
                 "mass_spec_ion_type": "[M+H]+",
                 "mol_mass": 1112.433287192,

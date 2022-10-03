@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,7 +49,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "CCCCCCCCCCCCCCCCCCCC(=O)N(CCCC[C@@H](C(=O)O[C@H](C)CC(=O)N[C@H]1CCCCN(C1=[OH+])O)NC(=O)[C@H]2COC(=N2)C3=CC=CC=C3O)O.[Fe]",
                 "compound": "mycobactin",

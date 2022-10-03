@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,7 +48,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CCCCCCCCCCC[C@H](O)CC(N/C(C(N[C@H](C(N[C@H]([C@@H](O)C)C(N[C@H](CC1=CC=C(O)C=C1)C(N/C(C(N[C@H](CCC(N)=O)C(NC2)=O)=O)=C/C)=O)=O)=O)[C@@H](C)OC([C@@H](CC3=CN=CN3)NC([C@@H](NC2=O)[C@H](C)O)=O)=O)=O)=C\\C)=O",
                 "compound": "jagaricin",

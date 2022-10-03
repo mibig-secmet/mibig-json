@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,7 +44,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC1(CC(C2=C(C3=C(C(=C2C1)O)C(=O)C4=C(C3=O)C=CC=C4O)O)OC5CC(C(C(O5)C)OC6CCC(C(O6)C)OC7CCC(C(O7)C)O)N(C)C)OC8CC(C(C(O8)C)O)N(C)C",
                 "compound": "cytorhodin",

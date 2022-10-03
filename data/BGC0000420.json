@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -54,7 +63,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC(C)(C=C)C12CC3N(C1NC1=CC=CC=C21)C(=O)C(CC1=CN=CN1)NC3=O",
                 "compound": "roquefortine D",
@@ -66,7 +77,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12NC3=C(C=CC=C3)[C@@]1(C[C@@H]1N2C(=O)\\C(NC1=O)=C/C1=CN=CN1)C(C)(C)C=C",
                 "chem_synonyms": [
@@ -88,7 +101,9 @@
             },
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CC(C)(C=C)C12C=C(C(=O)N\\3C1(NC4=CC=CC=C24)NC(=O)/C3=C\\C5=CN=CN5)O",
                 "compound": "glandicoline A",
@@ -100,7 +115,9 @@
             },
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CC(C)(C=C)C12C=C(C(=O)N\\3C1(NC(=O)/C3=C\\C4=CN=CN4)N(C5=CC=CC=C25)O)O",
                 "compound": "glandicoline B",
@@ -111,6 +128,7 @@
                 "molecular_formula": "C22H21N5O4"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CON1C2=C(C=CC=C2)[C@]2(C=C(O)C(=O)N3\\C(=C\\C4=CNC=N4)C(=O)N[C@]123)C(C)(C)C=C",
                 "compound": "meleagrine",
                 "database_id": [

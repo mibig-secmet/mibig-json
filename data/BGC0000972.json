@@ -32,6 +32,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -42,8 +51,13 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "moderate antagonist of dopamine 5 and 5-hydroxytryptamine 7 receptors"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "other",
+                        "comment": "moderate antagonist of dopamine 5 and 5-hydroxytryptamine 7 receptors"
+                    }
                 ],
                 "chem_struct": "CCCCCCCCCCCCCC(N[C@@H](C(O)=O)CC(N)=O)=O",
                 "compound": "N-myristoyl-D-asparagine",
@@ -51,12 +65,14 @@
                 "molecular_formula": "C18H34N2O4"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CCCCCCC=CCCCCCC(N[C@@H](C(O)=O)CC(N)=O)=O",
                 "compound": "cis-7-tetradecenoyl-D-asparagine",
                 "mol_mass": 340.236207504,
                 "molecular_formula": "C18H32N2O4"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CCCCCCCCCCCCCC(N[C@@H](C(N[C@@H](C)CCC(C)=O)=O)CC(N)=O)=O",
                 "compound": "(R)-N1-((S)-5-oxohexan-2-yl)-2-tetradecanamidosuccinamide",
                 "mol_mass": 439.3410069199999,

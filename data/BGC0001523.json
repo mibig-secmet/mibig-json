@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC(CCC\\C=C\\CCCNC(N)=N)C1OC(=O)\\C(C)=C/C=C\\C(C)C(O)CC(O)C(C)C(O)CCC(C)C(O)CC2(O)OC(CC(O)C2O)CC(CC(O)CC(O)CC(O)\\C(C)=C/C=C\\C1C)OC(=O)CC(O)=O",
                 "compound": "azalomycin F3a",

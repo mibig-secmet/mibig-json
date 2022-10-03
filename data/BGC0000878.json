@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,9 +45,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antiprotozoal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@](N)(CC1=CC=C(OC)C=C1)C(=O)N[C@@H]1[C@@H](CO)O[C@H]([C@@H]1O)N1C=NC2=C1N=CN=C2N(C)C",
                 "compound": "puromycin",

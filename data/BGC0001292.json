@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,9 +44,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiparasitic",
-                    "antiprotozoal",
-                    "cytotoxic"
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C1=CC(=C(C(=C1)O)NC(=O)C2=C(C=CC=N2)O)C3=NC4=C(C=CC=C4O3)C(=O)O",
                 "compound": "A33853",

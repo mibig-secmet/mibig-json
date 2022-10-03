@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,9 +46,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiviral",
-                    "antihelmintic",
-                    "antiprotozoal"
+                    {
+                        "activity": "anthelmintic"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "COC1=C(C)C(=O)C(C)=C(O1)C1C\\C(CO1)=C\\C(\\C)=C\\C(\\C)=C\\C(\\C)=C\\C1=CC=C(C=C1)N(=O)=O",
                 "compound": "spectinabilin",
@@ -51,9 +66,15 @@
             },
             {
                 "chem_acts": [
-                    "antiviral",
-                    "antihelmintic",
-                    "antiprotozoal"
+                    {
+                        "activity": "anthelmintic"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "COC1=C(C)C(=O)C(C)=C(O1)[C@H]1C\\C(CO1)=C\\C1=CC=C(C=C1)N(=O)=O",
                 "compound": "orinocin",
@@ -65,10 +86,18 @@
             },
             {
                 "chem_acts": [
-                    "immunosuppressive",
-                    "antiviral",
-                    "antihelmintic",
-                    "antiprotozoal"
+                    {
+                        "activity": "anthelmintic"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "immunosuppressive"
+                    }
                 ],
                 "chem_struct": "[H][C@]12C(C)=CC(C)=C[C@@]1(C)[C@@H](C1=CC=C(C=C1)N(=O)=O)[C@@]21CO[C@H](C1)C1=C(C)C(=O)C(C)=C(OC)O1",
                 "compound": "SNF4435C",
@@ -81,10 +110,18 @@
             },
             {
                 "chem_acts": [
-                    "immunosuppressive",
-                    "antiviral",
-                    "antihelmintic",
-                    "antiprotozoal"
+                    {
+                        "activity": "anthelmintic"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "immunosuppressive"
+                    }
                 ],
                 "chem_struct": "[H][C@]12C(C)=CC(C)=C[C@@]1(C)[C@@H](C1=CC=C(C=C1)N(=O)=O)[C@@]21CO[C@@H](C1)C1=C(C)C(=O)C(C)=C(OC)O1",
                 "compound": "SNF4435D",

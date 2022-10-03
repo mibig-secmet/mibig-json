@@ -10,6 +10,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -20,7 +29,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC([C@@]1(C(OC)C(O)CC(CC2=O)CC(N2)=O)O)C(CO1)=C",
                 "compound": "sesbanimide C",
@@ -34,7 +45,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(C1)NC(CC1CC(O)C(OC)C(C(C(COC(CCCCC/C=C/C=C/C(O)=O)=O)=C)C)=O)=O",
                 "compound": "sesbanimide F",
@@ -45,7 +58,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(C1)NC(CC1CC(O)C(OC)C(C(C(CO)=C)C)=O)=O",
                 "compound": "sesbanimide E",

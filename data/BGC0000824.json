@@ -9,6 +9,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -21,10 +30,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antiproliferative",
-                    "anti-inflammatory",
-                    "radical scavenging",
-                    "uv protectant"
+                    {
+                        "activity": "antiinflammatory"
+                    },
+                    {
+                        "activity": "antiproliferative"
+                    },
+                    {
+                        "activity": "radical scavenging"
+                    },
+                    {
+                        "activity": "UV protective"
+                    }
                 ],
                 "chem_moieties": [
                     {

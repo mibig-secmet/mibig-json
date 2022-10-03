@@ -33,6 +33,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -43,9 +52,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "NCCCCNCCCNC(CNC([C@@H](NC(C[C@H](C[C@H]([C@@H](NC([C@@H]([C@H](N)CCCCN)NC([C@@H](NC([C@@H](C)NC([C@H](O)[C@@H](O)C[C@@H](CCCCN)O)=O)=O)CNC)=O)=O)CO)O)O)=O)CNC)=O)=O",
                 "compound": "paenilamicin",
@@ -53,18 +68,21 @@
                 "molecular_formula": "C43H88N14O13"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "NCCCCNCCCNC(CNC([C@@H](NC(C[C@H](C[C@H]([C@@H](NC([C@@H]([C@H](N)CCCCN)NC([C@@H](NC([C@@H](C)NC([C@H](O)[C@@H](O)C[C@@H](CCCN)O)=O)=O)CNC)=O)=O)CO)O)O)=O)CNC)=O)=O",
                 "compound": "paenilamicin A2",
                 "mol_mass": 994.6498788120005,
                 "molecular_formula": "C42H86N14O13"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "NCCCCNCCCNC(CNC([C@@H](NC(C[C@H](C[C@H]([C@@H](NC([C@@H]([C@H](N)CCCNC(N)=N)NC([C@@H](NC([C@@H](C)NC([C@H](O)[C@@H](O)C[C@@H](CCCCN)O)=O)=O)CNC)=O)=O)CO)O)O)=O)CNC)=O)=O",
                 "compound": "paenilamicin B1",
                 "mol_mass": 1036.6716768760004,
                 "molecular_formula": "C43H88N16O13"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "NCCCCNCCCNC(CNC([C@@H](NC(C[C@H](C[C@H]([C@@H](NC([C@@H]([C@H](N)CCCNC(N)=N)NC([C@@H](NC([C@@H](C)NC([C@H](O)[C@@H](O)C[C@@H](CCCN)O)=O)=O)CNC)=O)=O)CO)O)O)=O)CNC)=O)=O",
                 "compound": "paenilamicin B2",
                 "mol_mass": 1022.6560268120004,

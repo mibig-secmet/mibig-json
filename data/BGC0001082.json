@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -27,7 +36,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "C[C@]12CC[C@H]3C(=CC(=O)[C@H](O3)C(C)(C)O)[C@@]1(CC[C@@H]4[C@@]2(C5=C(C4)C6=CC=CC=C6N5)C)O",
                 "chem_targets": [
@@ -44,8 +55,12 @@
             },
             {
                 "chem_acts": [
-                    "antiviral",
-                    "inhibitor"
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "[H][C@]12CC3=C(NC4=CC=CC=C34)[C@]1(C)[C@@]1(C)CC[C@]3([H])O[C@@H](CC[C@@]3(C)[C@]1([H])CC2)C(C)(C)O",
                 "chem_targets": [
@@ -62,6 +77,7 @@
                 "molecular_formula": "C28H39NO2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "[H][C@]12CC3=C(NC4=CC=CC=C34)[C@]1(C)[C@@]1(C)CC[C@]3([H])O[C@@H](C(=O)C=C3[C@]1([H])CC2)C(C)(C)O",
                 "compound": "13-dehydroxypaxilline",
                 "database_id": [
@@ -71,6 +87,7 @@
                 "molecular_formula": "C27H33NO3"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CC(C)(O)C1CCC2(C=O)C(CCC3(C)C2CCC2CC4=C(NC5=CC=CC=C45)C32C)O1",
                 "compound": "paspaline B",
                 "database_id": [

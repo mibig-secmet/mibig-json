@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "COC(=O)[C@H]1O[C@@H](OC2=C(C=C(O)C(=C2O)C2=CC=CC=C2)C2=CC=CC=C2)[C@H](O)[C@@H](O)[C@@H]1O",
                 "compound": "echoside A",
@@ -50,8 +63,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "COC1=C(C=C(O[C@@H]2O[C@@H]([C@@H](O)[C@H](O)[C@H]2O)C(O)=O)C(=C1O)C1=CC=CC=C1)C1=CC=CC=C1",
                 "compound": "echoside B",
@@ -63,8 +80,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O[C@@H]1[C@@H](O)[C@H](OC2=C(C=C(O)C(=C2O)C2=CC=CC=C2)C2=CC=CC=C2)O[C@@H]([C@H]1O)C(O)=O",
                 "compound": "echoside C",
@@ -76,8 +97,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O[C@H]1[C@H](OC2=C(C3=C(SC=N3)C(=C2O)C2=CC=CC=C2)C2=CC=CC=C2)O[C@@H]([C@@H](O)[C@@H]1O)C(O)=O",
                 "compound": "echoside D",
@@ -89,8 +114,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CN1C(=O)SC2=C1C(C1=CC=CC=C1)=C(O[C@@H]1O[C@@H]([C@@H](O)[C@H](O)[C@H]1O)C(O)=O)C(O)=C2C1=CC=CC=C1",
                 "compound": "echoside E",

@@ -32,6 +32,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -42,8 +51,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "surfactant"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "surfactant"
+                    }
                 ],
                 "chem_struct": "CC(C)CCCCCCCCCCCC(C)C1OC(=O)C(NC(=O)CN(C)C(=O)\\C=C/C(=C)NC(=O)C1C)C(O)C(N)=O",
                 "compound": "rakicidin A",
@@ -54,6 +67,7 @@
                 "molecular_formula": "C32H54N4O7"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CC(C)CCCCCCCCCCCCC(C)C1OC(=O)C(NC(=O)CN(C)C(=O)\\C=C/C(=C)NC(=O)C1C)C(O)C(N)=O",
                 "compound": "rakicidin B",
                 "database_id": [

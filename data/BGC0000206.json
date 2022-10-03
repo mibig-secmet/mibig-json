@@ -9,6 +9,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -18,8 +27,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antitumor",
-                    "inhibitor"
+                    {
+                        "activity": "antitumor"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CO[C@H]1[C@@H](O)[C@@H](C)O[C@H](O[C@@H]2[C@@H](O)[C@@H](O)[C@@H](C)O[C@H]2OC2=C3C4=C5C(C(=O)OC6=CC=C(C)C(C(=O)O4)=C56)=C(O)C3=CC=C2)[C@@H]1O",
                 "chem_targets": [
