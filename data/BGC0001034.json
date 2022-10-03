@@ -32,6 +32,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -42,7 +51,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC/C=C(/C(=O)N[C@@H](C)/C=C(\\C)/C=C(\\C)/C=C/C[C@H](C)[C@@H]1[C@H](C[C@H](C(=O)O1)C)C)\\OC",
                 "compound": "pellasoren",
@@ -54,6 +65,7 @@
                 "molecular_formula": "C26H41NO4"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "CC/C=C(OC)/C(N[C@H](/C=C(/C=C(\\C=C\\C[C@H]([C@H]1[C@H](C)C[C@H](C)C(O1)=O)C)C)C)C)=O",
                 "compound": "pellasoren B",
                 "mol_mass": 431.30355879199993,

@@ -19,6 +19,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -28,8 +37,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCCC1=C(C(=O)NC2=C1C(=O)C3=C(C2=O)NC(=O)C(=C3CCC)C)C",
                 "chem_synonyms": [
@@ -48,8 +61,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCCCCC1=CC(=O)NC2=C1C(=O)C3=C(C2=O)NC(=O)C=C3CCCCC",
                 "compound": "diazaquinomycin E",
@@ -65,8 +82,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(C(N1)=C2C(CCCCC)=CC1=O)C(NC(C(C)=C3CCC)=O)=C3C2=O",
                 "compound": "diazaquinomycin F",
@@ -80,8 +101,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(C(N1)=C2C(CCC)=CC1=O)C(NC(C(C)=C3CCCCC)=O)=C3C2=O",
                 "compound": "diazaquinomycin G",

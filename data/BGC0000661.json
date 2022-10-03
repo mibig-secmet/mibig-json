@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "odorous metabolite",
-                    "taste/odor"
+                    {
+                        "activity": "odorous metabolite"
+                    },
+                    {
+                        "activity": "flavor"
+                    }
                 ],
                 "chem_struct": "C[C@@H]1CCC[C@]2(C)CCCC[C@@]12O",
                 "compound": "geosmin",

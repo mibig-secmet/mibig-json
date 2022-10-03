@@ -15,6 +15,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -25,7 +34,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "signalling"
+                    {
+                        "activity": "signalling"
+                    }
                 ],
                 "chem_struct": "CCCC(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@H]1COC(=O)[C@@H]2CCCN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)CNC(=O)[C@@H](NC(=O)CC(=O)[C@@H](NC(=O)[C@@H]3C[C@@H](CN3C1=O)C)CC(C)C)CC(C)C)CC(=O)N)CC4=CC=C(C=C4)O",
                 "compound": "nostopeptolide A1",
@@ -39,6 +50,7 @@
                 "molecular_formula": "C53H80N10O14"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "OC1=CC=C(C[C@@H](C(N2[C@@H](CCC2)C(OC[C@@H](C(N3[C@@H](C[C@H](C)C3)C(N[C@@H](CC(C)C)C(CC(N[C@H]4CC(C)C)=O)=O)=O)=O)NC([C@@H](NC(C)=O)[C@H](CC)C)=O)=O)=O)NC([C@H](CC(N)=O)NC(CNC4=O)=O)=O)C=C1",
                 "compound": "nostopeptolide 1052"
             }

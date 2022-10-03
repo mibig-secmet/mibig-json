@@ -10,6 +10,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -19,7 +28,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cancer cell migration inhibitor"
+                    {
+                        "activity": "anticancer",
+                        "comment": "cancer cell migration inhibitor"
+                    }
                 ],
                 "chem_struct": "O=C(N[C@@](Cc1ccccc1)(C(N[C@@]([C@](CC)(C)[H])(C(NCC(N[C@@](CC2=CNC3=C2C=CC=C3)(C(NCC(N[C@@](CCCCN)(C(N[C@@](C4)(C(N[C@@]([C@](CC)(C)[H])(C(N[C@@](Cc5ccccc5)(C(NCC(N[C@@](CC6=CN=CN6)(C(N[C@@](Cc7ccc(O)cc7)(C(NCC(NCC(O)=O)=O)=O)[H])=O)[H])=O)=O)[H])=O)[H])=O)[H])=O)[H])=O)=O)[H])=O)=O)[H])=O)[H])CNC4=O",
                 "compound": "ulleungdin",

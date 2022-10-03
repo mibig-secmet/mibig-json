@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,8 +47,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antiviral"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "CC(C)C(NC(=O)C(NC(=O)C(N)C1=CC=C(O)C=C1)C1=CC(O)=CC(O)=C1)C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(C)C)C(=O)NC(C(=O)NC(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC(O)=O)C(O)=O)C1=CC=C(O)C=C1)C1=CC(O)=CC(O)=C1)C1=CC(O)=CC(O)=C1)C1=CC=C(O)C=C1)C1=CC(O)=CC(O)=C1)C1=CC=C(O)C=C1)C1=CC(O)=CC(O)=C1",
                 "compound": "feglymycin",

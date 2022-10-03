@@ -19,6 +19,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -28,8 +37,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antiviral"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "CC1=CC(=O)N2COC3=C2C1=CC4=C3N(C(=O)C=C4CO)C",
                 "compound": "nybomycin",

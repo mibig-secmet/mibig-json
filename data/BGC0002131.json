@@ -9,6 +9,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -20,8 +29,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@H]1[C@H]([C@@H]([C@@H](O1)O[C@@H]2CO[C@H]([C@H]([C@H]2O)O)O[C@H]3[C@@H]([C@@H](COC3N4[C@H](C(=O)/C(=C(\\C=C\\C=C\\C=C\\C=C\\C=C(\\C=C(/C)\\Cl)/Cl)/O)/C4=O)CC(=O)N)O)O)OC)O",
                 "compound": "aurantoside A",

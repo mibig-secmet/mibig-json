@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,7 +47,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CC1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(CC(C(C(CC(=O)CC(CC(CC(CC(=O)CCCC(=O)CC(=O)OC1C(C)CC(C)C(CC(=O)C2=CC=C(C=C2)N)O)O)O)O)O)C(=O)O)O)OC3C(C(C(C(O3)C)O)N)O",
                 "compound": "candicidin",

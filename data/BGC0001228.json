@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "O=C(NC1C(NC(C)C(N(C)C2C(N(C)C3(C(C)C3)C(OC(C)C(NC(C4=NC5=CC=CC=C5C=C4O)=O)C(NC(C)C(N(C)C(C(S(C)=O)SC2)C(N(C)C6(C(C)C6)C(OC1C)=O)=O)=O)=O)=O)=O)=O)=O)C7=NC8=CC=CC=C8C=C7O",
                 "compound": "retimycin A",

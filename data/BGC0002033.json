@@ -19,6 +19,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -28,8 +37,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antiprotozoal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antiprotozoal"
+                    }
                 ],
                 "chem_struct": "C[C@@H]1C/C=C/C=C/[C@@H]([C@@H](C[C@@H]([C@@H]([C@H]([C@@H](CC(=O)O1)O)OC)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)OC4CCC(C(O4)C)N(C)C",
                 "compound": "spiramycin",

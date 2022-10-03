@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,7 +47,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@]1(NC(=O)[C@@](C)(O)[C@@]2(O)CC[C@H](C[C@@H](C)CC)[C@@H](CC)O2)[C@@H](OC(=O)[C@]([H])(C(C)C)N(O)C(=O)[C@H]2N(CC[C@@]2(C)O)C(=O)[C@H]2C[C@@H](O)CNN2C(=O)[C@H](C)N(O)C(=O)[C@H]2CCCNN2C1=O)C(C)C",
                 "compound": "polyoxypeptin",

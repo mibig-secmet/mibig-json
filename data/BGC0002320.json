@@ -9,6 +9,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -18,7 +27,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "signalling"
+                    {
+                        "activity": "signalling"
+                    }
                 ],
                 "chem_struct": "C[C@H]1[C@@H](CC(=O)[C@]2([C@@]13C[C@]4(CCC([C@H]4[C@@H]3CC2)(C)C)C)C)O",
                 "compound": "conidiogenone",

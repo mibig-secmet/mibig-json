@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -64,8 +73,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "surfactant"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "surfactant"
+                    }
                 ],
                 "chem_struct": "CCC(C)CCCCCCC/C=C\\CC(=O)N[C@@H](CC(=O)N)C(=O)N[C@H]1[C@H](NC(=O)[C@@H]2CCCN2C(=O)[C@H](NC(=O)[C@H](NC(=O)CNC(=O)[C@@H](NC(=O)CNC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H]3CCCCN3C1=O)[C@H](C)C(=O)O)CC(=O)O)CC(=O)O)[C@@H](C)N)C(C)C)C",
                 "compound": "friulimicin D",

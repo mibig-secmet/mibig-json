@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,7 +48,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CC\\C=C/[C@H](O)[C@H](O)C1=C(C)C(=O)[C@@]2(O1)C(O)[C@](NC2=O)(OC)C(=O)C1=CC=CC=C1",
                 "chem_synonyms": [
@@ -60,7 +71,9 @@
             },
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CC\\C=C\\C=C\\C1=C(C)C(=O)[C@@]2(O1)[C@@H](O)[C@](O)(CC1=CC=CC=C1)NC2=O",
                 "chem_targets": [

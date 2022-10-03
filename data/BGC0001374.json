@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "plant growth regulation"
+                    {
+                        "activity": "other",
+                        "comment": "plant growth regulation"
+                    }
                 ],
                 "chem_struct": "NC(=O)C1=CC2=C(NC3=C2C=CC(Cl)=C3)S1",
                 "compound": "thienodolin",

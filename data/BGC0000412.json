@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "siderophore"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "[H][C@@]1(CSC(=N1)C1=CC=CC=C1O)[C@@]1([H])SC[C@H](N1C)C(O)=O",
                 "compound": "pyochelin",

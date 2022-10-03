@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,7 +49,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "C[C@H]1[C@H]2C=C[C@@]3(CO3)[C@](O2)(O[C@@H]1[C@H](C)/C=C(\\C)/C=C/C(=C\\4/C(=O)[C@@H](N(C4=O)[C@@H]5CC[C@@H]([C@@H](O5)C)O)[C@H](C)C(=O)NC)/O)C",
                 "chem_targets": [

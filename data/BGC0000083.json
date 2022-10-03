@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,10 +48,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "cytotoxic",
-                    "inhibitor",
-                    "antiviral"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "C[C@@H](\\C=C(/C)C1OC(=O)\\C=C\\CC\\C=C\\C=C/[C@@H]1C)C(=O)C[C@H](O)CC1CC(=O)NC(=O)C1",
                 "chem_synonyms": [
@@ -63,9 +80,15 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antiviral",
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@H](\\C=C(/C)[C@@H]1OC(=O)\\C=C\\CC\\C=C\\CC[C@@H]1C)C(=O)C[C@H](O)CC1CC(=O)NC(=O)C1",
                 "compound": "8,9-dihydrolactimidomycin",
@@ -77,9 +100,15 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antiviral",
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@H](\\C=C(/C)[C@@H]1OC(=O)\\C=C\\CC\\C=C\\[C@@H](O)C[C@@H]1C)C(=O)C[C@H](O)CC1CC(=O)NC(=O)C1",
                 "compound": "8-hydroxy-8,9-dihydrolactidomycin",
@@ -91,9 +120,15 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antiviral",
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@@H](\\C=C(/C)[C@@H]1OC(=O)\\C=C\\CC\\C=C\\C[C@@H](O)[C@@H]1C)C(=O)C[C@H](O)CC1CC(=O)NC(=O)C1",
                 "compound": "17-hydroxy-8-desmethoxy-isomigrastatin",

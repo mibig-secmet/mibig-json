@@ -9,6 +9,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -19,7 +28,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC1(CCCC2(C1CCC(=C)C2CC34C(O3)C(C(=CC4=O)CO)O)C)C",
                 "compound": "macrophorin A",
@@ -34,6 +45,7 @@
                 "molecular_formula": "C22H32O4"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "[H][C@@]12CCC(=C)[C@H](C[C@@]34O[C@@H]3C(=O)C(CO)=CC4=O)[C@@]1(C)CCCC2(C)C",
                 "compound": "4'-oxomacrophorin A",
                 "database_id": [
@@ -44,7 +56,9 @@
             },
             {
                 "chem_acts": [
-                    "immunomodulatory activity"
+                    {
+                        "activity": "immunomodulatory"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12CCC(=C)[C@H](C[C@@]34O[C@@H]3C(=O)C(COC(=O)CC(C)(O)CC(O)=O)=CC4=O)[C@@]1(C)CCCC2(C)C",
                 "compound": "4'-oxomacrophorin D",
@@ -60,6 +74,7 @@
                 "molecular_formula": "C28H38O8"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C=C1CC[C@@]2([H])C(C)(C)CCC[C@]2(C)[C@H]1C[C@@]34[C@H](O4)C(C(COC(CC(O)=O)=O)=CC3=O)=O",
                 "compound": "4'-oxomacrophorin E",
                 "evidence": [

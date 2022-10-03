@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,11 +45,23 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "a modulator of apoptosis",
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic",
-                    "inhibitor"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antioxidant",
+                        "comment": "inhibits apoptosis"
+                    },
+                    {
+                        "activity": "antiviral",
+                        "comment": "inhibits HIV-1 protease"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=CC(=C2C3=C4C(=CC(=C13)O)C(C(=O)C5=C(C=C(C(=C45)C2=O)O)O)(C)C)O",
                 "chem_synonyms": [
@@ -71,9 +92,15 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=C2C(=O)C=C3C(C)(C)C(=O)C4=C(O)C=C(O)C5=C4C3(O)C2=C(C(O)=C1)C5=O",
                 "compound": "resistoflavine",

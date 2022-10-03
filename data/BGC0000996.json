@@ -32,6 +32,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -42,7 +51,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "C[C@H]1[C@H](C[C@H]2[C@@H]1[C@H]3[C@H](C2)[C@H]4C/C=C\\C(=O)NCCC(C5C(=O)C(=C(/C=C/[C@@H]4CC3=O)O)C(=O)N5)O)C=C",
                 "compound": "frontalamide B",
@@ -55,7 +66,9 @@
             },
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "C[C@H]1[C@H](C[C@H]2[C@@]1([C@H]3[C@H](C2)[C@H]4C/C=C\\C(=O)NCCC(C5C(=O)C(=C(/C=C/[C@@H]4CC3=O)O)C(=O)N5)O)O)C=C",
                 "compound": "frontalamide A",

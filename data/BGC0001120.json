@@ -33,6 +33,15 @@
                 "6YREL7OAGAGUVND6QATROM2X"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -43,10 +52,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic",
-                    "siderophore",
-                    "virulence factor"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "siderophore"
+                    },
+                    {
+                        "activity": "virulence factor"
+                    }
                 ],
                 "chem_struct": "CCCCCCC/C=C(C)/C(O)=C1C=C(OC/1=O)C(CC)=O",
                 "chem_synonyms": [

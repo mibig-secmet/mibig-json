@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "CC1OC(=NC1C(=O)N(O)CCC1=CNC=N1)C1=CC=CC(O)=C1O",
                 "compound": "acinetobactin",

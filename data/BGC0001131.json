@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,7 +47,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "weakly bioactive against Trypanosoma brucei rhodesiense"
+                    {
+                        "activity": "antiprotozoal",
+                        "comment": "weakly bioactive against Trypanosoma brucei rhodesiense"
+                    }
                 ],
                 "chem_struct": "CC(C)C[C@@H]1NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](CO)NC(=O)[C@H](CCCCN)NC(=O)[C@@H](CC2=CC=CC=C2)NC1=O",
                 "compound": "ambactin",

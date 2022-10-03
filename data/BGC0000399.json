@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,9 +47,16 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "anti-algal: lyses zoospores of phytophthora sp.",
-                    "antifungal",
-                    "surfactant"
+                    {
+                        "activity": "antialgal",
+                        "comment": "lyses zoospores of Phytophthora sp."
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "surfactant"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -56,6 +72,7 @@
                 "molecular_formula": "C64H114N10O17"
             },
             {
+                "chem_acts": [],
                 "chem_moieties": [
                     {
                         "moiety": "3-OH dodecanoic acid"

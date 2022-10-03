@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -66,18 +77,21 @@
                 "molecular_formula": "C30H31NO10"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "OC1=C(C(O)=C(C([C@@](C(C(C(N)=O)=C(O)C2)=O)(O)[C@@]2(O)[C@H]3O)=O)C3=C4C/C=C(C)/CC/C=C(C)/C)C4=CC(OC)=C1",
                 "compound": "previridicatumtoxin",
                 "mol_mass": 567.210446256,
                 "molecular_formula": "C30H33NO10"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "OC1=C(C(O)=C(C([C@@](C(C(C(N)=O)=C(O)C2)=O)(O)[C@@]2(O)[C@H]3O)=O)C3=C4)C4=CC(OC)=C1",
                 "compound": "5-hydroxyanthrotainin",
                 "mol_mass": 431.08524574399996,
                 "molecular_formula": "C20H17NO10"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "OC1=C(C(O)=C(C([C@@](C(C(C(N)=O)=C(O)C2)=O)(O)[C@@]2(O)C3)=O)C3=C4)C4=CC(O)=C1",
                 "compound": "8-O-desmethylanthrotainin",
                 "mol_mass": 401.07468106,

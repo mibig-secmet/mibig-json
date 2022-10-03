@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antiviral"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "CCCC(C)\\C=C(/C)C(O)C(C)\\C=C\\CCC(O)C(C)C(O)C(C)C(O)C(C)C1OC(CCC1C)C(C)C(O)=O",
                 "compound": "griseochelin",

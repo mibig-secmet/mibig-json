@@ -20,6 +20,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -29,7 +38,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antimalarial"
+                    {
+                        "activity": "antimalarial"
+                    }
                 ],
                 "chem_struct": "CCCCCCCCCCCCCCO[P@]1(=O)OC[C@@H]2COC(=O)C2=C(CCC)O1",
                 "compound": "salinipostin G",

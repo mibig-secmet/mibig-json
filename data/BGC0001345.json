@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "OC[C@H](CCCCNC(=O)C1=CC=CC(O)=C1O)NC(=O)C1=CC=CC(O)=C1O",
                 "compound": "myxochelin A",
@@ -50,7 +61,9 @@
             },
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "C1=CC(=C(C(=C1)O)O)C(=O)NCCCC[C@@H](CN)NC(=O)C2=C(C(=CC=C2)O)O",
                 "compound": "myxochelin B",

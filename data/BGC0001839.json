@@ -8,6 +8,15 @@
                 "3TRDT2IUGB7SH22LMY5TPNUZ"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -17,8 +26,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "inhibitor"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_synonyms": [
                     "zaragozic acid a"

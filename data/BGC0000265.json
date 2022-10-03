@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,8 +44,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC[C@]1(C[C@@H](C2=C(C3=C(C(=C2[C@H]1OC4CC(C(C(O4)C)O)N(C)C)O)C(=O)C5=C(C3=O)C(=CC=C5)O)O)OC6CC(C(C(O6)C)O)N(C)C)O",
                 "compound": "rhodomycin",

@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,7 +47,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC(C)OC1=C(C=CC(=C1)C(=O)O)NC(=O)C2=C(C(=C(C=C2)NC(=O)C3=CC=C(C=C3)NC(=O)[C@H]([C@@H](C(=O)N)NC(=O)C4=CC=C(C=C4)NC(=O)C5=CC=C(C=C5)[N+](=O)[O-])OC)OC(C)C)O",
                 "compound": "cystobactamid 919-1",
@@ -50,7 +61,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC(C)OC1=C(C=CC(=C1)C(=O)O)NC(=O)C2=C(C(=C(C=C2)NC(=O)C3=CC=C(C=C3)NC(=O)[C@H]([C@@H](C(=O)N)OC)NC(=O)C4=CC=C(C=C4)NC(=O)C5=CC=C(C=C5)[N+](=O)[O-])OC(C)C)O",
                 "compound": "cystobactamid 919-2",
@@ -62,7 +75,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "compound": "cystobactamid 919-3"
             }

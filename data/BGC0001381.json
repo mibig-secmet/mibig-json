@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,7 +45,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "[H][C@]12C[C@H](O)[C@@H](O)[C@](O)(CC(O)C(C)CCC(O)CC(O)CC(O)C\\C=C\\C(=O)OC(C(C)C(O)C(C)C(O)C(C)C(C)O[C@@H]3C[C@@H](OC(=O)CCCC)[C@@H](O)[C@@H](C)O3)C(C)C3OC3C(O)CCCC(CC(O)C1)OC(=O)CC(O)=O)O2",
                 "compound": "brasilinolide A",
@@ -49,7 +60,9 @@
             },
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "CCCCC(C(=O)OC)C(=O)OC1CCCC(O)C2OC2C(C)C(OC(=O)\\C=C/CC(O)CC(O)CC(O)CCC(C)C(O)C[C@]2(O)O[C@@H](C[C@H](O)[C@H]2O)CC(O)C1)C(C)C(O)C(C)C(O)C(C)C(C)OC1CC(OC)C(OC)C(C)O1",
                 "compound": "brasilinolide B",
@@ -62,7 +75,9 @@
             },
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12O[C@@]1([H])[C@H](C)[C@H](OC(=O)\\C=C\\C[C@H](O)C[C@H](O)C[C@@H](O)CC[C@@H](C)[C@H](O)C[C@]1(O)O[C@@]([H])(C[C@H](O)[C@H]1O)C[C@@H](O)C[C@H](O)CCC[C@@H]2O)[C@@H](C)[C@@H](O)[C@H](C)[C@@H](O)[C@@H](C)[C@H](C)O[C@H]1C[C@H](O)[C@H](O)[C@H](C)O1",
                 "compound": "brasilinolide C",

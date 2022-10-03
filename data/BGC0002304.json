@@ -10,6 +10,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -20,7 +29,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "OC([C@@H]1C=C[C@]2([H])CCCC[C@]2([H])[C@H]1/C(O)=C3C([C@]([H])([C@@H](C)CC)N(C)C\\3=O)=O)=O",
                 "compound": "varicidin A"

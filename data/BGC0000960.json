@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12CN1\\C([C@@H](OC(C)=O)[C@@H]2O)=C(\\NC(=O)[C@@H](OC(=O)C1=C2C=CC=C(C)C2=CC(OC)=C1)[C@]1(C)CO1)C(=O)N\\C(=C\\O)C(C)=O",
                 "compound": "azinomycin B",

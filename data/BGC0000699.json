@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC(=O)[C@H]1O[C@@H](OC2=C(O)C=C(\\C=C(/C)C(=O)N[C@@H]3[C@H](O)[C@H]4OCO[C@H]4[C@@H](O)[C@@H]3O)C=C2)[C@@H](O)[C@@H]1O",
                 "compound": "hygromycin A",

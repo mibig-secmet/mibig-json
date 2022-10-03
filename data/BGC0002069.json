@@ -10,6 +10,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -19,7 +28,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "signalling"
+                    {
+                        "activity": "signalling"
+                    }
                 ],
                 "chem_struct": "OC1=CC=C(/C=C/C2=C[C@@H](C)OC2=O)C=C1",
                 "compound": "styrolide A",
@@ -37,7 +48,9 @@
             },
             {
                 "chem_acts": [
-                    "signalling"
+                    {
+                        "activity": "signalling"
+                    }
                 ],
                 "chem_moieties": [
                     {

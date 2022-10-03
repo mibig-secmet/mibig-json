@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "antiviral"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "CCCCC1(CCC2(CCC(C)C(CC=C(C)C=CC(O)C(C)C=CC(O)=O)O2)OC1C=CC(C)=CC(O)=O)OC(=O)CCC(O)=O",
                 "compound": "reveromycin A",

@@ -31,6 +31,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,11 +49,21 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal",
-                    "antioxidant",
-                    "cytotoxic",
-                    "inhibitor"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "antioxidant"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CN1C(=O)[C@]23CC4=CC=C[C@H](O)[C@@H]4N2C(=O)[C@@]1(CO)SS3",
                 "compound": "gliotoxin",
@@ -57,7 +76,10 @@
             },
             {
                 "chem_acts": [
-                    "formation attenuates gliotoxin biosynthesis"
+                    {
+                        "activity": "inhibitor",
+                        "comment": "formation attenuates gliotoxin biosynthesis"
+                    }
                 ],
                 "chem_struct": "CN1C(=O)[C@@]2(CC3=CC=C[C@@H]([C@H]3N2C(=O)[C@@]1(CO)SC)O)SC",
                 "chem_synonyms": [

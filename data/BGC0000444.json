@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "herbicidal",
-                    "phytotoxic"
+                    {
+                        "activity": "herbicidal"
+                    },
+                    {
+                        "activity": "phytotoxic"
+                    }
                 ],
                 "chem_struct": "[H][C@@]1(CC2=CNC3=CC=CC(=C23)N(=O)=O)N(C)C(=O)[C@](O)(CC2=CC=CC(O)=C2)N(C)C1=O",
                 "compound": "thaxtomin A",

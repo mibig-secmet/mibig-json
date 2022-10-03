@@ -31,6 +31,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -41,7 +50,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "CCCCCCC[C@H](OC([C@@H](NC(C1=C(C)OC(N1)=C2C=CC=CC2=O)=O)CCCCN(O)C(C)=O)=O)[C@H](C(N[C@@H]3CCCCN(O)C3=O)=O)C",
                 "compound": "nocobactin NA",
@@ -52,6 +63,7 @@
                 "molecular_formula": "C36H53N5O10"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C[C@@H](C(N[C@@H]1CCCCN(O)C1=O)=O)[C@@H](OC([C@@H](NC(C2=C(C)OC(N2)=C3C=CC=CC3=O)=O)CCCCN(O)C(C)=O)=O)CCCCCCCCC",
                 "compound": "nocobactin NA 10152B",
                 "mol_mass": 743.410543024,

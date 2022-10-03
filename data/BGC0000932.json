@@ -32,6 +32,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -41,9 +50,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic",
-                    "signalling"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "signalling"
+                    }
                 ],
                 "chem_struct": "C1=CC(=O)C(=C2C(=C1)SS2)C(=O)O",
                 "compound": "tropodithietic acid",
@@ -54,6 +69,7 @@
                 "molecular_formula": "C8H4O3S2"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C1C=CC(O)=C(SS2)C2=C1C(O)=O",
                 "compound": "hydroxytropodithietic acid",
                 "mol_mass": 227.955100608,

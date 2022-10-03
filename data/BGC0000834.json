@@ -31,6 +31,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -41,7 +50,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CO[C@@H]1[C@@H](OC(N)=O)[C@@H](O)C(OC2=CC=C3C(O)=C(NC(=O)C4=CC(CC=C(C)C)=C(O)C=C4)C(=O)OC3=C2C)OC1(C)C",
                 "compound": "cathomycin",

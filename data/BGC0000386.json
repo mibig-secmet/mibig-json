@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,7 +48,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCN(=O)=O)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin A",
@@ -51,7 +62,9 @@
             },
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCNO)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin B",
@@ -63,7 +76,9 @@
             },
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCN=O)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin C",
@@ -75,7 +90,9 @@
             },
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "NCCCCNC(=O)[C@H](CCCN(O)C=O)NC(=O)[C@H](CO)NC(=O)[C@H](NC(=O)[C@H](CCCN=N(=O)CCC[C@H](NC=O)C(=O)N[C@H]([C@@H](O)C(O)=O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCN(O)C=O)C(=O)NCCCCN)NC=O)[C@@H](O)C(O)=O",
                 "compound": "malleobactin D",

@@ -8,6 +8,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -18,9 +27,16 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic",
-                    "inhibition of protein sumoylation"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor",
+                        "comment": "inhibits protein sumoylation"
+                    }
                 ],
                 "chem_struct": "C[C@@H]1O[C@H](CC[C@@H]1O)O[C@]12C(=O)C[C@](C)(O)C[C@@]1(O)C=CC1=C2C(=O)c2ccc([C@H]3C[C@@H](O[C@H]4CC[C@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](C)O4)[C@H](O)[C@@H](C)O3)c(O)c2C1=O",
                 "chem_synonyms": [

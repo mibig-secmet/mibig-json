@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=C(C(=O)C2=C(C1=O)C[C@H]3[C@H]4C5=C(C[C@H](N4C)[C@@H](N3[C@H]2CNC(=O)C(=O)C)C#N)C(=O)C(=C(C5=O)OC)C)OC",
                 "compound": "saframycin A",
@@ -51,8 +64,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1=C(C(=O)C2=C(C1=O)C[C@@H]3CN4[C@H]([C@H]2N3C)CC5=C([C@@H]4CNC(=O)C(=O)C)C(=O)C(=C(C5=O)C)OC)OC",
                 "compound": "saframycin B",

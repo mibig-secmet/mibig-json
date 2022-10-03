@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "surfactant"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "surfactant"
+                    }
                 ],
                 "chem_struct": "O=C(N[C@H](C(N[C@@H](C(N[C@@H](CC(O)=O)C(N[C@H](C(NCC(N[C@H](C(N[C@@H](CC(O)=O)C(N[C@H](C)C(N[C@H](C(NCC(N[C@@H](C(N[C@H](C(N[C@H]1CC(C2=CC=C(Cl)C=C2N)=O)=O)[C@H](C)CC(O)=O)=O)C)=O)=O)CC(O)=O)=O)=O)=O)CCCN)=O)=O)[C@@H](C)OC1=O)=O)=O)CC(N)=O)=O)CC3=CNC4=C3C=CC(Cl)=C4)/C=C/C=C/CCC",
                 "compound": "taromycin A",

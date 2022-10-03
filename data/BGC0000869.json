@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -35,7 +44,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "protection against o2 penetration"
+                    {
+                        "activity": "other",
+                        "comment": "protection against O2 penetration"
+                    }
                 ],
                 "compound": "heterocyst glycolipids"
             }

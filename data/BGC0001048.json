@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -41,7 +50,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC1C(C(C(C(O1)OC(C(C2=NC(=CS2)C3=NC(=CS3)C(=O)NCCCC(CC(=O)NCCCNCCCCN)N)O)NC(=O)C(C(C)O)NC(=O)CC(C(C)NC(=O)C(C(C4=CN=CN4)OC5C(C(C(C(O5)CO)O)O)OC6C(C(C(C(O6)CO)O)OC(=O)N)O)NC(=O)C7=C(C(=NC(=N7)C(CC(=O)N)NCC(C(=O)N)N)N)C)O)O)O)N",
                 "chem_targets": [
@@ -58,7 +69,9 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic"
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "C[C@H]1[C@H]([C@H]([C@H]([C@@H](O1)OC(C(C2=NC(=CS2)C3=NC(=CS3)C(=O)NCCCNCCCCN)O)NC(=O)[C@@H]([C@@H](C)O)NC(=O)C[C@@H]([C@@H](C)NC(=O)[C@H](C(C4=CN=CN4)O[C@H]5[C@H]([C@@H]([C@H]([C@@H](O5)CO)O)O)O[C@@H]6[C@H]([C@@H]([C@@H]([C@H](O6)CO)O)OC(=O)N)O)NC(=O)C7=C(C(=NC(=N7)[C@H](CC(=O)N)NC[C@H](C(=O)N)N)N)C)O)O)O)N",
                 "compound": "tallysomycin B",

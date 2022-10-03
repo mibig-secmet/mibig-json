@@ -30,6 +30,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,9 +49,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "dermatotoxic",
-                    "inhibitor"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "dermatotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "C[C@H]1[C@H](O[C@](CC1=C)([C@@H](C(=O)N[C@H]([C@@H]2C[C@H](C([C@H](O2)C[C@@H](COC)OC)(C)C)O)OC)O)OC)C",
                 "chem_targets": [
@@ -64,8 +79,12 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "inhibitor"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CC1C(OC(CC1=C)(C(C(=O)NC(C2CC(C(C(O2)CC(COC)OC)(C)C)O)OC)O)O)C",
                 "compound": "pseudopederin",
@@ -81,8 +100,12 @@
             },
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "inhibitor"
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "CC1C(OC(CC1=C)(C(C(=O)NC(C2CC(=O)C(C(O2)CC(COC)OC)(C)C)OC)O)OC)C",
                 "compound": "pederone",

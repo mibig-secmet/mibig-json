@@ -21,6 +21,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -31,7 +40,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "COC1=CC=C(C2=NC3=CC=CC(=C3N=C12)C(=O)O)CO",
                 "compound": "griseoluteic acid",
@@ -44,6 +55,7 @@
                 ]
             },
             {
+                "chem_acts": [],
                 "chem_struct": "C1=CC(=C2C(=C1)N=C3C(=N2)C=CC=C3C(=O)O)CO",
                 "compound": "demethoxygriseoluteic acid",
                 "database_id": [
@@ -57,7 +69,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "O=C([C@H](C(C)C)N)OCC1=CC=CC2=NC3=C(C(O)=O)C=CC=C3N=C21",
                 "compound": "phenaszentine A",
@@ -72,7 +86,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "O=C([C@H](CC(C)C)N)OCC1=CC=C(OC)C2=NC3=C(C(O)=O)C=CC=C3N=C21",
                 "compound": "phenaszentine C",
@@ -86,6 +102,7 @@
                 "molecular_formula": "C21H23N3O5"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C(C=C1C)CC(C1)C2=CC=CC3=NC4=C(C(O)=O)C=CC=C4N=C32",
                 "compound": "phenaszenketide C",
                 "evidence": [
@@ -97,6 +114,7 @@
                 "molecular_formula": "C20H16N2O3"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C(C)/C=C/C1=CC=C(OC)C2=NC3=C(C(O)=O)C=CC=C3N=C21",
                 "compound": "phenaszenketide D",
                 "evidence": [

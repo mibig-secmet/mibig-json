@@ -31,6 +31,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -40,9 +49,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "cytotoxic",
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CCC\\C=C\\CC1C\\C=C\\C=C(/C)\\C=C\\C=C/C(O)C(O)\\C=C(/C)\\C=C\\C=C\\C(=O)N1",
                 "compound": "BE-14106",

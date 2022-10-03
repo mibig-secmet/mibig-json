@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,10 +47,18 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antioxidant",
-                    "cytotoxic",
-                    "inhibitor",
-                    "siderophore"
+                    {
+                        "activity": "antioxidant"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    },
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
                 "chem_synonyms": [

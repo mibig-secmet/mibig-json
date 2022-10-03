@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "siderophore"
+                    {
+                        "activity": "siderophore"
+                    }
                 ],
                 "chem_struct": "NC(=O)CCC(NC(=O)C(CCCN(O)C=O)NC(=O)C1CCN=C(N1)C(CO)NC(=O)[C@@H]1CCNC2=C(NC(=O)CCC(O)=O)C=C3C=C(O)C(O)=CC3=[N+]12)C(=O)NC(CCC(N)=O)C(=O)NC(CCCN(O)C=O)C(=O)NCC(O)=O",
                 "compound": "pyoverdin",

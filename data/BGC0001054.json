@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,7 +48,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC(C)CC(C1CC2=C(C(=CC=C2)O)C(=O)O1)NC(=O)C(C(C(CCCN=C(N)N)N)O)O",
                 "compound": "xenocoumacin 1",
@@ -51,7 +62,9 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial"
+                    {
+                        "activity": "antibacterial"
+                    }
                 ],
                 "chem_struct": "CC(C)CC(NC(=O)C(O)C(O)C1CCCN1)C1CC2=C(C(=O)O1)C(O)=CC=C2",
                 "compound": "xenocoumacin II",

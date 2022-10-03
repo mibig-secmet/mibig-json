@@ -29,6 +29,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,8 +48,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antifungal"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "C/C(=C\\C1=CC=C(C=C1)O)/C(=O)NC2=CC=C(C=C2)C(=O)N[C@@H](CC#N)C(=O)NC3=CC=C(C=C3)C(=O)NC4=C(C(=C(C=C4)C(=O)NC5=C(C(=C(C=C5)C(=O)O)O)OC)O)OC",
                 "compound": "albicidin",

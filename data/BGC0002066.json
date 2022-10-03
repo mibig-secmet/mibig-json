@@ -15,6 +15,15 @@
                 "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -25,8 +34,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "inhibitor"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "COC1=C(OC)C(O)=C(C(=O)[C@@H](C)C\\C=C\\C)C(=O)N1",
                 "chem_targets": [

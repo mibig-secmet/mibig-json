@@ -18,6 +18,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
             },
             {
                 "chem_acts": [
-                    "anticancer agent",
-                    "cytotoxic"
+                    {
+                        "activity": "anticancer"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "COC1CC(C)C(OC)C2=C(O)C(NC(=O)\\C(C)=C/C=C\\C(C)C(OC(N)=O)\\C(C)=C/C(C)C1OC)=CC(O)=C2",
                 "chem_targets": [

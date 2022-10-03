@@ -9,6 +9,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -18,7 +27,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "O=CC(CCCNC(N)=N)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
                 "chem_synonyms": [
@@ -35,7 +46,9 @@
             },
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "O=CC(CC1=CC=C(O)C=C1)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
                 "compound": "leupeptin B",
@@ -49,6 +62,7 @@
                 "molecular_formula": "C23H35N3O5"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=CC(CCSC)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
                 "compound": "leupeptin D",
                 "evidence": [
@@ -61,7 +75,9 @@
             },
             {
                 "chem_acts": [
-                    "inhibitor"
+                    {
+                        "activity": "inhibitor"
+                    }
                 ],
                 "chem_struct": "O=CC(CC1=CC=CC=C1)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
                 "compound": "leupeptin C",

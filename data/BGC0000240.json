@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,8 +47,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -62,8 +75,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -82,8 +99,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_moieties": [
                     {
@@ -97,8 +118,12 @@
             },
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "cytotoxic"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "cytotoxic"
+                    }
                 ],
                 "chem_struct": "CC[C@@]1([C@H](C(=C2C(=CC3=C2C(=C4C(=O)C=CC(=O)C4=C3O)O)[C@H]1O[C@@H]5C[C@@H]([C@H]([C@@H](O5)C)N(C)C)O)O)[C@H]6C(=O)C7=C([C@H]([C@@]6(CC)O[C@H]8C[C@@H]([C@H]([C@@H](O8)C)OC)OC)O[C@@H]9C[C@@H]([C@H]([C@@H](O9)C)N(C)C)O)C(=[N+]=[N-])C1=C7C(=C2C(=O)C=CC(=O)C2=C1O)O)O[C@H]1C[C@@H]([C@H]([C@@H](O1)C)OC)OC",
                 "compound": "lomaiviticin E",

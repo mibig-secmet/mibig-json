@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "[H][C@@]12NC3=C(C=CC(Cl)=C3Cl)[C@]1(O)C[C@@H]1N2C(=O)[C@H](NC(=O)[C@H](COC)NC(=O)[C@@H]2C[C@@H](Cl)CNN2C(=O)[C@@H](OC(=O)[C@H](NC1=O)C1(C)CC1)C(C)(C)C)[C@@H](O)CC(O)=O",
                 "compound": "kutzneride 2",

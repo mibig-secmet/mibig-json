@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "insecticidal"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "insecticidal"
+                    }
                 ],
                 "chem_struct": "[H][C@@](N)(C(=O)N[C@]([H])(C(O)=O)[C@@]1([H])O[C@H]([C@H](O)[C@@H]1O)N1C=CC(=O)NC1=O)[C@]([H])(C)[C@]([H])(O)C1=NC=C(O)C=C1",
                 "compound": "neopolyoxin C",

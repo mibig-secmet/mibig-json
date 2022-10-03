@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,7 +46,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "radical scavanging"
+                    {
+                        "activity": "other",
+                        "comment": "radical scavanging"
+                    }
                 ],
                 "chem_struct": "C[C@@H](NC(=O)[C@@]1(C)COC(=N1)C1=CN(C)C2=CC(Cl)=C(C)C(O)=C12)C(=O)N[C@@H](CO)C(O)=O",
                 "compound": "JBIR-34",

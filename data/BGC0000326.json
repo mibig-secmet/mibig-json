@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -37,8 +46,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antiviral"
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
                 ],
                 "chem_struct": "CN1[C@@H](CC2=CC=C(OC3=CC4=CC(=C3O)C3=CC5=C(C=C3)C(C[C@@H](NC(=O)C(=O)C3=CC(Cl)=C(O)C(Cl)=C3)C(=O)N[C@H](C3=CC(Cl)=C(O)C(Cl)=C3)C(=O)N[C@H]4C(=O)N[C@H](C3=CC(Cl)=C(O)C(Cl)=C3)C1=O)=CN5)C=C2)C(=O)N[C@@H](C(O)=O)C1=CC=C(O)C=C1",
                 "compound": "isocomplestatin",

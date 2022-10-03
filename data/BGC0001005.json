@@ -32,6 +32,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -42,7 +51,9 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal"
+                    {
+                        "activity": "antifungal"
+                    }
                 ],
                 "chem_struct": "O=C(N[C@@H]1C(N[C@@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(OC1C)=O)C(C)C)=O)Cc2ccc(O)cc2)=O)=O)CC(O)=O)=O)CC(N)=O)=O)=O)CC(O)=O)=O)CCC(N)=O)=O)CCCCCCCCCCCC",
                 "compound": "locillomycin",
@@ -50,12 +61,14 @@
                 "molecular_formula": "C52H79N11O18"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C(N[C@@H]1C(N[C@@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(OC1C)=O)C(C)C)=O)Cc2ccc(O)cc2)=O)=O)CC(O)=O)=O)CC(N)=O)=O)=O)CC(O)=O)=O)CCC(N)=O)=O)CCCCCCCCCCCCC",
                 "compound": "locillomycin B",
                 "mol_mass": 1159.5761047520002,
                 "molecular_formula": "C53H81N11O18"
             },
             {
+                "chem_acts": [],
                 "chem_struct": "O=C(N[C@@H]1C(N[C@@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(NCC(N[C@H](C(N[C@H](C(OC1C)=O)C(C)C)=O)Cc2ccc(O)cc2)=O)=O)CC(O)=O)=O)CC(N)=O)=O)=O)CC(O)=O)=O)CCC(N)=O)=O)CCCCCCCCCCCCCC",
                 "compound": "locillomycin C",
                 "mol_mass": 1173.5917548160003,

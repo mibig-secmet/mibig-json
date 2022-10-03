@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,8 +45,12 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antifungal",
-                    "surfactant"
+                    {
+                        "activity": "antifungal"
+                    },
+                    {
+                        "activity": "surfactant"
+                    }
                 ],
                 "chem_struct": "O=C(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCO)C(N[C@H](CCN)C(N[C@@H](CCCCN)C(O)=O)=O)=O)=O)[C@@H]([C@H](O)C)NC(/C(NC([C@@H](C(C)C)NC([C@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@H](C(C)C)NC([C@@H](C(C)C)NC([C@@H](CC(C)C)NC([C@@H](CCC(N)=O)NC([C@@H](C(C)C)NC([C@@H](CC(C)C)NC([C@@H](CO)NC([C@]1(C(CC(O)CCCCC)=O)N(C(/C(N)=C/C)=O)CCC1)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=C\\C)=O",
                 "chem_synonyms": [

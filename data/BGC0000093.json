@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -36,9 +45,15 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "antibacterial",
-                    "antihelmintic",
-                    "insecticidal"
+                    {
+                        "activity": "anthelmintic"
+                    },
+                    {
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "insecticidal"
+                    }
                 ],
                 "chem_struct": "C[C@H]1CC[C@]2(C[C@@H]3C[C@H](O2)C/C=C(\\C[C@H](/C=C\\CC4COC5[C@@H]4[C@@H](C=C([C@H]5O)COC(=O)C=C(C)C)C(=O)O3)C)/C)OC1C",
                 "compound": "meilingmycin",

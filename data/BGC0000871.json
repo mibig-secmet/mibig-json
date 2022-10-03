@@ -17,6 +17,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Update chemical activity to schema version 2.11"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -38,7 +47,9 @@
             },
             {
                 "chem_acts": [
-                    "signalling"
+                    {
+                        "activity": "signalling"
+                    }
                 ],
                 "chem_struct": "CC(C)CCCCCCCCCCCC(OCC(OC(CCCCCCCCCCCC(C)C)=O)COCCCCCCCCCCCCC(C)C)=O",
                 "compound": "TG-1",
