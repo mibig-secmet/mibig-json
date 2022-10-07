@@ -28,6 +28,8 @@ EXCEPTIONS = (
     {"BGC0000742", "BGC0000743"},  # Different strains
     {"BGC0000744", "BGC0000745"},  # Different strains
     {"BGC0000746", "BGC0000748"},  # Different strains
+    {"BGC0000693", "BGC0000694"},  # Possibly different strains
+    {"BGC0000416", "BGC0001692"},  # Clusters overlap
 )
 ALREADY_RETIRED = (
     {"BGC0000246", "BGC0000247"},
@@ -39,6 +41,10 @@ ALREADY_RETIRED = (
     {"BGC0000821", "BGC0000822"},
     {"BGC0000821", "BGC0000823"},
     {"BGC0000822", "BGC0000823"},
+    {"BGC0001985", "BGC0002041"},
+    {"BGC0001985", "BGC0002292"},
+    {"BGC0002041", "BGC0002292"},
+    {"BGC0000270", "BGC0000835"},
 )
 
 
