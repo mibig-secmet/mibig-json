@@ -29,7 +29,8 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Merged with more accurate duplicate entry BGC00002463"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -48,21 +49,34 @@
                         "activity": "siderophore"
                     }
                 ],
-                "compound": "staphylobactin"
+                "chem_struct": "C(CC(=O)NCCNC(=O)C[C@](CC(=O)NC[C@@H](C(=O)O)N)(C(=O)O)O)C(=O)C(=O)O",
+                "chem_synonyms": [
+                    "staphylobactin"
+                ],
+                "compound": "staphyloferrin B",
+                "database_id": [
+                    "npatlas:NPA012996"
+                ]
             }
         ],
         "loci": {
-            "accession": "CP000253.1",
+            "accession": "LS483365.1",
             "completeness": "Unknown",
-            "end_coord": 93234,
-            "start_coord": 76521
+            "end_coord": 90444,
+            "evidence": [
+                "In vitro expression",
+                "Enzymatic assays"
+            ],
+            "start_coord": 75998
         },
         "mibig_accession": "BGC0000943",
         "minimal": true,
         "ncbi_tax_id": "93061",
         "organism_name": "Staphylococcus aureus subsp. aureus NCTC 8325",
         "publications": [
-            "pubmed:14688077"
+            "pubmed:14688077",
+            "pubmed:19775248",
+            "doi:10.1111/j.1365-2958.2009.06880.x"
         ],
         "status": "active"
     }
