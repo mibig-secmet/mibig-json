@@ -21,6 +21,8 @@ def main() -> None:
     if not args.files:
         args.files = sorted(glob.glob(os.path.join(BASE_DIR, "data", "*.json")))
 
+    run(args.files, args.version)
+
 
 def run(files: List[str], version: str) -> None:
     version_parts = version.split(".")
