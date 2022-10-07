@@ -24,7 +24,9 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Merge info from duplicate clusters BGC0002041, BGC0002292",
+                "Drop old PubChem link pointing to the wrong compound"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -44,24 +46,39 @@
                     }
                 ],
                 "chem_struct": "C([C@@H]1C([C@@H]([C@@H](O1)C2=NNC(=C2O)C(=O)N)O)O)O",
-                "compound": "pyrazomycin",
+                "chem_synonyms": [
+                    "pyrazomycin"
+                ],
+                "compound": "pyrazofurin",
                 "database_id": [
-                    "pubchem:136153629"
+                    "pubchem:135413551",
+                    "chembl:CHEMBL2105330",
+                    "chemspider:10570780",
+                    "npatlas:NPA033439"
                 ],
                 "mol_mass": 259.080435,
                 "molecular_formula": "C9H13N3O6"
             }
         ],
         "loci": {
-            "accession": "MN170532.1",
-            "completeness": "Unknown"
+            "accession": "MN305320.1",
+            "completeness": "Unknown",
+            "end_coord": 90882,
+            "evidence": [
+                "Enzymatic assays"
+            ],
+            "start_coord": 67514
         },
         "mibig_accession": "BGC0001985",
         "minimal": true,
         "ncbi_tax_id": "67283",
         "organism_name": "Streptomyces candidus",
         "publications": [
-            "doi:10.1002/cbic.201900449"
+            "doi:10.1002/cbic.201900449",
+            "pubmed:31518483",
+            "doi:10.1002/anie.201910356",
+            "pubmed:31676476",
+            "doi:10.1128/AEM.01971-19"
         ],
         "status": "active"
     }
