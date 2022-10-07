@@ -6,6 +6,9 @@ import argparse
 import json
 
 
+from add_changelog import add_changelog
+
+
 def run(args: argparse.Namespace) -> None:
     for json_file in args.file:
         with open(json_file, 'r', encoding="utf-8") as handle:
@@ -20,6 +23,9 @@ def run(args: argparse.Namespace) -> None:
             cluster['retirement_reasons'] = [args.reason]
             if args.see_also:
                 cluster['see_also'] = args.see_also
+                if args.reason.startswith("Duplicate of"):
+                    add_changelog(entry, "next", ["Retired as d" + args.reason[1:]], [])
+
         else:
             if old_status == "retired":
                 del cluster['retirement_reasons']
