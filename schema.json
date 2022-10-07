@@ -189,8 +189,8 @@
                                 "type": "array"
                             },
                             "compound": {
-                                "pattern": "^[a-zA-zα-ωΑ-Ω0-9'()/&, +-]+$",
-                                "title": "Compound name (from PUBMED)",
+                                "pattern": "^[a-zA-Zα-ωΑ-Ω0-9\\[\\]'()/&,. +-]+$",
+                                "title": "Compound name (from PUBMED or NPAtlas)",
                                 "type": "string"
                             },
                             "database_id": {
