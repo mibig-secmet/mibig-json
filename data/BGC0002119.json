@@ -12,7 +12,9 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: palmerolide D, palmerolide H.",
+                "Added NPAtlas links to compounds: palmerolide D, palmerolide H."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -43,7 +45,7 @@
                         "moiety": "Beta-branch"
                     }
                 ],
-                "chem_struct": "C/C/1=C\\C=C\\CC[C@@H]([C@H](/C=C/[C@H](CCC/C=C/C(=O)O[C@H](C1)[C@H](C)/C=C(\\C)/C=C/NC(=O)/C=C(/C)\\CC(=C)C)O)O)OC(=O)N",
+                "chem_struct": "C=C(C)C/C(C)=C\\C(=O)N/C=C/C(C)=C/[C@@H](C)[C@H]1C/C(C)=C/C=C/CC[C@H](OC(N)=O)[C@@H](O)/C=C/[C@@H](O)CCC/C=C/C(=O)O1",
                 "chem_targets": [
                     {
                         "target": "V-ATPase inhibition"
@@ -55,7 +57,8 @@
                 "compound": "palmerolide D",
                 "database_id": [
                     "pubchem:54764675",
-                    "chemspider:27025768"
+                    "chemspider:27025768",
+                    "npatlas:NPA033524"
                 ],
                 "evidence": [
                     "NMR",
@@ -82,7 +85,7 @@
                         "moiety": "sulfate"
                     }
                 ],
-                "chem_struct": "O=C(/C=C/CCC[C@@H]1OC(N)=O)O[C@H](C/C(C)=C/C=C/CCC(/C=C/[C@H]1O)OS(=O)(O)=O)[C@H](C)/C=C(C)/C=C/NC(/C=C(CC(C)=C)/C)=O",
+                "chem_struct": "C=C(C)C/C(C)=C\\C(=O)N/C=C/C(C)=C/[C@@H](C)[C@H]1C/C(C)=C/C=C/CC[C@H](OS(=O)(=O)O)/C=C\\[C@@H](O)[C@@H](OC(N)=O)CCC/C=C/C(=O)O1",
                 "chem_targets": [
                     {
                         "target": "V-ATPase inhibition"
@@ -92,6 +95,9 @@
                     }
                 ],
                 "compound": "palmerolide H",
+                "database_id": [
+                    "npatlas:NPA033528"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"

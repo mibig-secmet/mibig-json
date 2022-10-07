@@ -14,7 +14,10 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: labrenzin.",
+                "Added NPAtlas links to compounds: labrenzin.",
+                "Synonyms added: 18-o-demethylpederin for labrenzin."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,8 +37,14 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "C[C@@H]1[C@H](C)C(C[C@@]([C@H](O)C(N[C@@H](OC)[C@@H]2C[C@@H](O)C(C)(C)[C@@H](C[C@H](OC)CO)O2)=O)(OC)O1)=C",
+                "chem_struct": "C[C@H]1[C@H](O[C@](CC1=C)([C@@H](C(=O)N[C@H]([C@@H]2C[C@H](C([C@H](O2)C[C@@H](CO)OC)(C)C)O)OC)O)OC)C",
+                "chem_synonyms": [
+                    "18-o-demethylpederin"
+                ],
                 "compound": "labrenzin",
+                "database_id": [
+                    "npatlas:NPA022395"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"

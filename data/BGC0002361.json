@@ -8,6 +8,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Changed chemical structures for compounds: baikalomycin C, baikalomycin B, baikalomycin A.",
+                "Added NPAtlas links to compounds: baikalomycin C, baikalomycin B, baikalomycin A."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -17,16 +27,25 @@
         ],
         "compounds": [
             {
-                "chem_struct": "OC1=C([C@@H]2O[C@@H]([C@@H](C[C@H]3CC[C@@H](O)[C@H](C)O3)CC2)C)C=CC4=C1C(C(CCC(CC(C)(O)C5)(O)C6(O)C5=O)(O)C6(O)C4=O)=O",
-                "compound": "baikalomycin B"
+                "chem_struct": "C[C@@H]1O[C@@H](O[C@H]2CC[C@@H](C3=C(O)C4=C(C=C3)C(=O)C3(O)C(O)(CCC5(O)CC(C)(O)CC(=O)C53O)C4=O)O[C@@H]2C)CC[C@H]1O",
+                "compound": "baikalomycin B",
+                "database_id": [
+                    "npatlas:NPA033132"
+                ]
             },
             {
-                "chem_struct": "OC1=C([C@@H]2O[C@@H]([C@@H](O)CC2)C)C=CC3=C1C(C(CCC(CC(C)(O)C4)(O)C5(O)C4=O)(O)C5(O)C3=O)=O",
-                "compound": "baikalomycin A"
+                "chem_struct": "C[C@H]1O[C@@H](C2=C(O)C3=C(C=C2)C(=O)C2(O)C(O)(CCC4(O)CC(C)(O)CC(=O)C42O)C3=O)CC[C@@H]1O",
+                "compound": "baikalomycin A",
+                "database_id": [
+                    "npatlas:NPA033131"
+                ]
             },
             {
-                "chem_struct": "OC1=C([C@@H]2O[C@@H]([C@@H](O[C@H](O[C@H]3C)C=CC3=O)CC2)C)C=CC4=C1C(C(C=CC(C[C@@](C)(O)CC(O)=O)=C5O)=C5C4=O)=O",
-                "compound": "baikalomycin C"
+                "chem_struct": "C[C@@H]1O[C@@H](O[C@H]2CC[C@H](C3=C(O)C4=C(C=C3)C(=O)C3=C(C=CC(C[C@@](C)(O)CC(=O)O)=C3O)C4=O)O[C@@H]2C)C=CC1=O",
+                "compound": "baikalomycin C",
+                "database_id": [
+                    "npatlas:NPA033133"
+                ]
             }
         ],
         "loci": {

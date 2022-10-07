@@ -8,6 +8,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Added chemical structures for compounds: protochelin, azotochelin, aminochelin.",
+                "Added NPAtlas links to compounds: protochelin, azotochelin, aminochelin."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -16,13 +26,25 @@
         ],
         "compounds": [
             {
-                "compound": "aminochelin"
+                "chem_struct": "NCCCCNC(=O)C1=C(O)C(O)=CC=C1",
+                "compound": "aminochelin",
+                "database_id": [
+                    "npatlas:NPA033100"
+                ]
             },
             {
-                "compound": "azotochelin"
+                "chem_struct": "O=C(NCCCC[C@H](NC(=O)C1=C(O)C(O)=CC=C1)C(=O)O)C1=C(O)C(O)=CC=C1",
+                "compound": "azotochelin",
+                "database_id": [
+                    "npatlas:NPA032747"
+                ]
             },
             {
-                "compound": "protochelin"
+                "chem_struct": "O=C(NCCCCNC(=O)C(CCCCNC(=O)C1=C(O)C(O)=CC=C1)NC(=O)C1=C(O)C(O)=CC=C1)C1=C(O)C(O)=CC=C1",
+                "compound": "protochelin",
+                "database_id": [
+                    "npatlas:NPA032789"
+                ]
             }
         ],
         "loci": {

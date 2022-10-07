@@ -16,7 +16,11 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Removed compounds: reutericyclin A, reutericyclin B, reutericyclin C, reutericyclin D.",
+                "Changed chemical structures for compounds: reutericyclin C, reutericyclin A, reutericyclin B.",
+                "Added compounds: mutanocyclin.",
+                "Added NPAtlas links to compounds: reutericyclin C, mutanocyclin, reutericyclin A, reutericyclin B."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -31,60 +35,11 @@
         ],
         "compounds": [
             {
-                "chem_acts": [
-                    {
-                        "activity": "antibacterial"
-                    }
-                ],
-                "chem_struct": "CCCCCCC\\C=C\\C(=O)N1[C@H](CC(C)C)C(=O)C(C(C)=O)=C1O",
-                "chem_synonyms": [
-                    "rtc a"
-                ],
-                "compound": "reutericyclin A",
-                "evidence": [
-                    "NMR",
-                    "Mass spectrometry"
-                ],
-                "mol_mass": 350.2326,
-                "molecular_formula": "C20H31NO4"
-            },
-            {
-                "chem_acts": [],
-                "chem_struct": "CCCCCCCCCCC(=O)N1[C@H](CC(C)C)C(=O)C(C(C)=O)=C1O",
-                "chem_synonyms": [
-                    "rtc b"
-                ],
-                "compound": "reutericyclin B",
-                "evidence": [
-                    "Mass spectrometry"
-                ],
-                "mol_mass": 352.2482,
-                "molecular_formula": "C20H33NO4"
-            },
-            {
-                "chem_acts": [],
-                "chem_struct": "CCCCCCCCC\\C=C\\C(=O)N1[C@H](CC(C)C)C(=O)C(C(C)=O)=C1O",
-                "chem_synonyms": [
-                    "rtc c"
-                ],
-                "compound": "reutericyclin C",
-                "evidence": [
-                    "NMR",
-                    "Mass spectrometry"
-                ],
-                "mol_mass": 378.2639,
-                "molecular_formula": "C22H35NO4"
-            },
-            {
-                "chem_acts": [],
-                "chem_struct": "CCCCCCCCCCCC(=O)N1[C@H](CC(C)C)C(=O)C(C(C)=O)=C1O",
-                "chem_synonyms": [
-                    "rtc d"
-                ],
-                "compound": "reutericyclin D",
-                "mass_spec_ion_type": "M-",
-                "mol_mass": 380.2795,
-                "molecular_formula": "C22H37NO4"
+                "chem_struct": "CC(=O)C1=C(O)[C@@H](CC(C)C)NC1=O",
+                "compound": "mutanocyclin",
+                "database_id": [
+                    "npatlas:NPA027195"
+                ]
             }
         ],
         "genes": {

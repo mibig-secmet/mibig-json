@@ -8,6 +8,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Changed chemical structures for compounds: monocillin V, monocillin II.",
+                "Added chemical structures for compounds: monorden D.",
+                "Added NPAtlas links to compounds: monocillin V, monorden D, monocillin II."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -16,7 +27,11 @@
         ],
         "compounds": [
             {
-                "compound": "monorden D"
+                "chem_struct": "CC1C/C=C/CC/C=C/C(=O)CC2=C(C(=O)O1)C(O)=CC(O)=C2Cl",
+                "compound": "monorden D",
+                "database_id": [
+                    "npatlas:NPA032629"
+                ]
             },
             {
                 "chem_struct": "C[C@@H]1C/C=C/CCCCC(=O)CC2=CC(=CC(=C2C(=O)O1)O)O",
@@ -54,17 +69,19 @@
                 ]
             },
             {
-                "chem_struct": "C[C@@H]1C[C@@H]2[C@H](O2)CCCCC(=O)CC3=C(C(=CC(=C3)O)O)C(=O)O1",
+                "chem_struct": "C[C@@H]1C[C@H]2O[C@@H]2CCCCC(=O)CC2=C(C(=O)O1)C(O)=CC(O)=C2",
                 "compound": "monocillin V",
                 "database_id": [
-                    "pubchem:44566247"
+                    "pubchem:44566247",
+                    "npatlas:NPA033028"
                 ]
             },
             {
-                "chem_struct": "C[C@@H]1C/C=C/CC/C=C/C(=O)Cc2cc(O)cc(O)c2C(=O)O1",
+                "chem_struct": "C[C@@H]1C/C=C/CC/C=C/C(=O)CC2=C(C(=O)O1)C(O)=CC(O)=C2",
                 "compound": "monocillin II",
                 "database_id": [
-                    "chembl:CHEMBL562520"
+                    "chembl:CHEMBL562520",
+                    "npatlas:NPA033027"
                 ]
             }
         ],

@@ -13,6 +13,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Changed chemical structures for compounds: stieleriacine A2, stieleriacine B1, stieleriacine B2, stieleriacine A1, stieleriacine C.",
+                "Added NPAtlas links to compounds: stieleriacine A2, stieleriacine B1, stieleriacine B2, stieleriacine A1, stieleriacine C."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -21,8 +31,11 @@
         ],
         "compounds": [
             {
-                "chem_struct": "OC(C(C)=C1)=CC=C1/C=C(C(O)=O)NC(/C=C/CCCCCCCCC)=O",
+                "chem_struct": "CCCCCCCCC/C=C/C(=O)N/C(=C\\C1=CC(C)=C(O)C=C1)C(=O)O",
                 "compound": "stieleriacine A1",
+                "database_id": [
+                    "npatlas:NPA033126"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
@@ -31,20 +44,32 @@
                 "molecular_formula": "C22H31NO4"
             },
             {
-                "chem_struct": "CCCCCCCCC\\C=C\\C(=O)N\\C(=C\\C1=CC=C(O)C(C)=C1)C(O)=O",
-                "compound": "stieleriacine A2"
+                "chem_struct": "CCCCCCCCC/C=C/C(=O)N/C(=C/C1=CC(C)=C(O)C=C1)C(=O)O",
+                "compound": "stieleriacine A2",
+                "database_id": [
+                    "npatlas:NPA033127"
+                ]
             },
             {
-                "chem_struct": "CCCCCCCCCCCC(=O)N\\C(=C/C1=CC=C(O)C(C)=C1)C(O)=O",
-                "compound": "stieleriacine B1"
+                "chem_struct": "CCCCCCCCCCCC(=O)N/C(=C\\C1=CC(C)=C(O)C=C1)C(=O)O",
+                "compound": "stieleriacine B1",
+                "database_id": [
+                    "npatlas:NPA033128"
+                ]
             },
             {
-                "chem_struct": "CCCCCCCCCCCC(=O)N\\C(=C\\C1=CC=C(O)C(C)=C1)C(O)=O",
-                "compound": "stieleriacine B2"
+                "chem_struct": "CCCCCCCCCCCC(=O)N/C(=C/C1=CC(C)=C(O)C=C1)C(=O)O",
+                "compound": "stieleriacine B2",
+                "database_id": [
+                    "npatlas:NPA033125"
+                ]
             },
             {
-                "chem_struct": "CCCCCCCCCCCC(=O)NC(CC1=CC=C(O)C(C)=C1)C(O)=O",
-                "compound": "stieleriacine C"
+                "chem_struct": "CCCCCCCCCCCC(=O)N[C@@H](CC1=CC(C)=C(O)C=C1)C(=O)O",
+                "compound": "stieleriacine C",
+                "database_id": [
+                    "npatlas:NPA033129"
+                ]
             }
         ],
         "genes": {

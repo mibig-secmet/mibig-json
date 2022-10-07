@@ -8,6 +8,18 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Changed chemical structures for compounds: brasilane F, xylarenic acid B, brasilane D, brasilane E.",
+                "Added NPAtlas links to compounds: brasilane F, brasilane D, brasilane E.",
+                "Renamed compounds: xylarenic acid to xylarenic acid B.",
+                "Updated NPAtlas ID for compounds: xylarenic acid B."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -24,8 +36,8 @@
                 ]
             },
             {
-                "chem_struct": "C/C(=C/1\\CC(C[C@H]2[C@H]1CC[C@]2(C)O)(C)C)/C(=O)O",
-                "compound": "xylarenic acid",
+                "chem_struct": "CC(C(=O)O)=C1CC(C)(C)C[C@@H]2[C@@H]1C[C@@H](O)[C@@H]2C",
+                "compound": "xylarenic acid B",
                 "database_id": [
                     "npatlas:NPA010614",
                     "pubchem:4787195"
@@ -39,16 +51,25 @@
                 ]
             },
             {
-                "chem_struct": "C/C(CO)=C1CC(C)(C)C[C@]2([H])[C@]/1([H])C[C@@H](O)[C@@H]2C",
-                "compound": "brasilane F"
+                "chem_struct": "CC(CO)=C1CC(C)(C)C[C@@H]2[C@@H]1C[C@@H](O)[C@@H]2C",
+                "compound": "brasilane F",
+                "database_id": [
+                    "npatlas:NPA033047"
+                ]
             },
             {
-                "chem_struct": "CC1(C)C[C@]2([C@](C=O)(O2)CO[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3NC(C)=O)[C@](CC[C@@H]4C)([H])[C@@]4([H])C1",
-                "compound": "brasilane E"
+                "chem_struct": "CC(=O)N[C@H]1[C@@H](OC[C@@]2(C=O)O[C@@]23CC(C)(C)C[C@H]2[C@@H](C)CC[C@@H]23)O[C@H](CO)[C@@H](O)[C@@H]1O",
+                "compound": "brasilane E",
+                "database_id": [
+                    "npatlas:NPA033046"
+                ]
             },
             {
-                "chem_struct": "CC1(C)C/C([C@](CC[C@@H]2C)([H])[C@@]2([H])C1)=C(CO)\\CO[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3NC(C)=O",
-                "compound": "brasilane D"
+                "chem_struct": "CC(=O)N[C@H]1[C@@H](OC/C(CO)=C2\\CC(C)(C)C[C@H]3[C@@H](C)CC[C@H]23)O[C@H](CO)[C@@H](O)[C@@H]1O",
+                "compound": "brasilane D",
+                "database_id": [
+                    "npatlas:NPA033045"
+                ]
             }
         ],
         "loci": {

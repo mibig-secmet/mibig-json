@@ -13,7 +13,11 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: SF2487.",
+                "Added NPAtlas links to compounds: SF2487.",
+                "Renamed compounds: tetromadurin to SF2487.",
+                "Synonyms added: tetromadurin for SF2487."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -37,10 +41,14 @@
                         "moiety": "other"
                     }
                 ],
-                "chem_struct": "CC[C@H]([C@@H]1CC[C@@H](O1)[C@@]2(C[C@H]([C@@H](O2)C/C=C(\\C)/[C@@H]3[C@H](CC[C@@H](O3)/C(=C/[C@H]4C[C@H]([C@H]([C@H]([C@@H]4[C@@H](C(=O)C5C(=O)C(=C)OC5=O)OC)CO)O)C)/CO)C)C)C)O",
-                "compound": "tetromadurin",
+                "chem_struct": "C=C1OC(O)C(C(O)C(OC)C2C(/C=C(\\CO)C3CCC(C)C(/C(C)=C/CC4OC(C)(C5CCC(C(O)CC)O5)CC4C)O3)CC(C)C(O)C2CO)C1=O",
+                "chem_synonyms": [
+                    "tetromadurin"
+                ],
+                "compound": "SF2487",
                 "database_id": [
-                    "pubchem:6913170"
+                    "pubchem:6913170",
+                    "npatlas:NPA032784"
                 ],
                 "evidence": [
                     "NMR",

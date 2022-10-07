@@ -12,7 +12,9 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: leupeptin A.",
+                "Added NPAtlas links to compounds: leupeptin A."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -31,11 +33,14 @@
                         "activity": "inhibitor"
                     }
                 ],
-                "chem_struct": "O=CC(CCCNC(N)=N)NC([C@H](CC(C)C)NC([C@H](CC(C)C)NC(C)=O)=O)=O",
+                "chem_struct": "CC(C)C[C@@H](C(=O)N[C@@H](CC(C)C)C(=O)NC(CCCN=C(N)N)C=O)NC(=O)C",
                 "chem_synonyms": [
                     "leupeptin"
                 ],
                 "compound": "leupeptin A",
+                "database_id": [
+                    "npatlas:NPA017329"
+                ],
                 "evidence": [
                     "Mass spectrometry",
                     "Other"
