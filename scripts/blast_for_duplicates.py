@@ -25,6 +25,9 @@ EXCEPTIONS = (
     {"BGC0001956", "BGC0002479"},  # Different strains
     {"BGC0000703", "BGC0000705"},  # Different strains
     {"BGC0000720", "BGC0000721"},  # Different strains
+    {"BGC0000742", "BGC0000743"},  # Different strains
+    {"BGC0000744", "BGC0000745"},  # Different strains
+    {"BGC0000746", "BGC0000748"},  # Different strains
 )
 ALREADY_RETIRED = (
     {"BGC0000246", "BGC0000247"},
@@ -32,6 +35,10 @@ ALREADY_RETIRED = (
     {"BGC0001539", "BGC0001673"},
     {"BGC0000672", "BGC0002388"},
     {"BGC0001994", "BGC0002094"},
+    {"BGC0000943", "BGC0002463"},
+    {"BGC0000821", "BGC0000822"},
+    {"BGC0000821", "BGC0000823"},
+    {"BGC0000822", "BGC0000823"},
 )
 
 
