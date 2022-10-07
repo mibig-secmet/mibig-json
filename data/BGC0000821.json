@@ -32,7 +32,8 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Merged data from duplicate entries BGC0000822, BGC0000823"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -74,17 +75,21 @@
                         "moiety": "11,11'-dichlorochromopyrrolic acid"
                     }
                 ],
-                "chem_struct": "CO[C@H]1[C@H](O)[C@@H](O)[C@@H](O[C@@H]1CO)N1C2=C3NC4=C(C=CC=C4Cl)C3=C3C(=O)NC(=O)C3=C2C2=CC=CC(Cl)=C12",
+                "chem_struct": "CO[C@@H]1[C@H](O[C@H]([C@@H]([C@H]1O)O)N2C3=C(C=CC=C3Cl)C4=C5C(=C6C7=C(C(=CC=C7)Cl)NC6=C42)C(=O)NC5=O)CO",
                 "chem_targets": [
                     {
-                        "target": "topoisomerases I and II"
+                        "target": "DNA topoisomerase I"
+                    },
+                    {
+                        "target": "DNA topoisomerase II"
                     }
                 ],
                 "compound": "rebeccamycin",
                 "database_id": [
-                    "npatlas:NPA08169"
+                    "npatlas:NPA08169",
+                    "pubchem:73110"
                 ],
-                "mol_mass": 569.0756553719999,
+                "mol_mass": 569.0757,
                 "molecular_formula": "C27H21Cl2N3O7"
             }
         ],
@@ -100,7 +105,11 @@
         "ncbi_tax_id": "68170",
         "organism_name": "Lechevalieria aerocolonigenes",
         "publications": [
-            "pubmed:15743957"
+            "pubmed:15743957",
+            "pubmed:11983340",
+            "pubmed:12617516",
+            "pubmed:12619684",
+            "pubmed:14763561"
         ],
         "status": "active"
     }
