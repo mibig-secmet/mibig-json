@@ -13,7 +13,8 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Added NPAtlas links to compounds: sesbanimide F, sesbanimide E."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -33,7 +34,7 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "CC([C@@]1(C(OC)C(O)CC(CC2=O)CC(N2)=O)O)C(CO1)=C",
+                "chem_struct": "CC1C(=C)COC1(C(C(CC2CC(=O)NC(=O)C2)O)OC)O",
                 "compound": "sesbanimide C",
                 "database_id": [
                     "npatlas:NPA018944"
@@ -49,8 +50,11 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "O=C(C1)NC(CC1CC(O)C(OC)C(C(C(COC(CCCCC/C=C/C=C/C(O)=O)=O)=C)C)=O)=O",
+                "chem_struct": "C=C(COC(=O)CCCCC/C=C/C=C/C(=O)O)C(C)C(=O)C(OC)C(O)CC1CC(=O)NC(=O)C1",
                 "compound": "sesbanimide F",
+                "database_id": [
+                    "npatlas:NPA033221"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
@@ -62,8 +66,11 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "O=C(C1)NC(CC1CC(O)C(OC)C(C(C(CO)=C)C)=O)=O",
+                "chem_struct": "C=C(CO)C(C)C(=O)C(OC)C(O)CC1CC(=O)NC(=O)C1",
                 "compound": "sesbanimide E",
+                "database_id": [
+                    "npatlas:NPA033220"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"

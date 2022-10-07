@@ -8,6 +8,18 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Changed chemical structures for compounds: epipyrone A.",
+                "Added NPAtlas links to compounds: epipyrone A.",
+                "Renamed compounds: epipyrone A (orevactaene) to epipyrone A.",
+                "Synonyms added: orevactaene for epipyrone A."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -16,10 +28,14 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CCC(C)CC(C)/C=C(/C=C(\\C)/C=C/C=C/C=C/C=C/C=C/C1=CC2=C([C@@H]([C@H]([C@@H](O2)C(C(CO)O)O)O)O)C(=O)O1)\\C(=O)O",
-                "compound": "epipyrone A (orevactaene)",
+                "chem_struct": "CCC(C)CC(C)/C=C(/C=C(/C)\\C=C\\C=C\\C=C\\C=C\\C=C\\C1=CC(=C(C(=O)O1)[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O)O)O)\\C(=O)O",
+                "chem_synonyms": [
+                    "orevactaene"
+                ],
+                "compound": "epipyrone A",
                 "database_id": [
-                    "pubchem:6451130"
+                    "pubchem:6451130",
+                    "npatlas:NPA012345"
                 ]
             }
         ],

@@ -18,6 +18,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Removed compounds: xanthocillin.",
+                "Added compounds: BU-4704, xanthocillin-X monomethylether, melanocin E, melanocin F, fumiformamide.",
+                "Added NPAtlas links to compounds: BU-4704, xanthocillin-X monomethylether, melanocin E, melanocin F, fumiformamide."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -26,27 +37,39 @@
         ],
         "compounds": [
             {
-                "chem_struct": "[C-]#[N+]/C(=C\\C1=CC=C(C=C1)O)/C(=C/C2=CC=C(C=C2)O)/[N+]#[C-]",
-                "chem_synonyms": [
-                    "Xantocillin",
-                    "Xanthocillin X",
-                    "Ophthocillin",
-                    "Xanthocillinum",
-                    "Brevicid",
-                    "Brevicide",
-                    "Trianthil",
-                    "Xantyrid",
-                    "Brevicide-X",
-                    "Xantocilina",
-                    "Xantocillinum",
-                    "Xantocilline"
-                ],
-                "compound": "xanthocillin",
+                "chem_struct": "[C-]#[N+]C(=C\\C1=CC=C(OC)C=C1)/C(=C/C1=CC=C(OS(=O)(=O)O)C=C1)[N+]#[C-]",
+                "compound": "BU-4704",
                 "database_id": [
-                    "pubchem:5378293"
-                ],
-                "mol_mass": 288.089878,
-                "molecular_formula": "C18H12N2O2"
+                    "npatlas:NPA032787"
+                ]
+            },
+            {
+                "chem_struct": "COC1=CC=C(C=C1)/C=C(/C(=C/C2=CC=C(C=C2)O)/[N+]#[C-])\\[N+]#[C-]",
+                "compound": "xanthocillin-X monomethylether",
+                "database_id": [
+                    "npatlas:NPA014649"
+                ]
+            },
+            {
+                "chem_struct": "COC1=CC=C(C2=C(NC=O)C(NC=O)=CC3=CC(O)=C(O)C=C23)C=C1",
+                "compound": "melanocin E",
+                "database_id": [
+                    "npatlas:NPA032874"
+                ]
+            },
+            {
+                "chem_struct": "COC1=CC=C(CC2=C(CC3=CC=C(OS(=O)(=O)O)C=C3)N=C[NH]2)C=C1",
+                "compound": "melanocin F",
+                "database_id": [
+                    "npatlas:NPA032875"
+                ]
+            },
+            {
+                "chem_struct": "COC1=CC=C(C=C1)C=C(C(=CC2=CC=C(C=C2)OS(=O)(=O)O)NC=O)NC=O",
+                "compound": "fumiformamide",
+                "database_id": [
+                    "npatlas:NPA011631"
+                ]
             }
         ],
         "loci": {

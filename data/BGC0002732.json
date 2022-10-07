@@ -8,6 +8,17 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Removed compounds: FR901533.",
+                "Added compounds: WS 79089B, benaphthamycin, WS 79089D, WS 79089A, WS 79089C.",
+                "Added NPAtlas links to compounds: WS 79089B, benaphthamycin, WS 79089A, WS 79089C."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -16,7 +27,36 @@
         ],
         "compounds": [
             {
-                "compound": "FR901533"
+                "chem_struct": "CC(CC1=C(C(=C2C(=C1)CC(C3=C2C(=C4C(=C3OC)C(=O)C5=C(C4=O)C=CC=C5O)O)O)O)C(=O)O)O",
+                "compound": "WS 79089B",
+                "database_id": [
+                    "npatlas:NPA003624"
+                ]
+            },
+            {
+                "chem_struct": "C[C@H]1[C@H](C2=C(C(=C3C(=C2)C[C@@H](C4=C3C(=C5C(=C4OC)C(=O)C6=C(C5=O)C=CC=C6O)O)O)O)C(=O)O1)O",
+                "compound": "benaphthamycin",
+                "database_id": [
+                    "npatlas:NPA020582"
+                ]
+            },
+            {
+                "chem_struct": "CC1CC2=C(C(O1)=O)C(O)=C3C(C[C@@H](O)C4=C3C(O)=C5C(C(C6=C(C=CC(O)=C6OC)C5=O)=O)=C4OC)=C2",
+                "compound": "WS 79089D"
+            },
+            {
+                "chem_struct": "CC1CC2=C(C(=C3C(=C2)CC(C4=C3C(=C5C(=C4OC)C(=O)C6=C(C5=O)C=CC=C6O)O)O)O)C(=O)O1",
+                "compound": "WS 79089A",
+                "database_id": [
+                    "npatlas:NPA008064"
+                ]
+            },
+            {
+                "chem_struct": "CC1CC2=C(C(=C3C(=C2)CC(C4=C3C(=C5C(=C4OC)C(=O)C6=C(C5=O)C=CC=C6O)O)OC(=O)C)O)C(=O)O1",
+                "compound": "WS 79089C",
+                "database_id": [
+                    "npatlas:NPA016053"
+                ]
             }
         ],
         "loci": {

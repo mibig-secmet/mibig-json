@@ -12,7 +12,10 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: heronamide C.",
+                "Added compounds: heronamide A, heronamide B.",
+                "Added NPAtlas links to compounds: heronamide A, heronamide B, heronamide C."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -34,7 +37,7 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "O=C1/C=C/C=C/C(C)=C/[C@H](O)[C@H](O)/C=C\\\\C=C\\\\C(C)=C\\\\C=C\\\\C[C@@H](C/C=C/C=C/CCC)N1",
+                "chem_struct": "CCC/C=C/C=C/C[C@@H]1C/C=C/C=C(/C=C/C=C\\[C@@H]([C@@H](/C=C(/C=C/C=C/C(=O)N1)\\C)O)O)\\C",
                 "chem_synonyms": [
                     "ml-449"
                 ],
@@ -44,11 +47,28 @@
                     }
                 ],
                 "compound": "heronamide C",
+                "database_id": [
+                    "npatlas:NPA002588"
+                ],
                 "evidence": [
                     "NMR"
                 ],
                 "mol_mass": 449.29,
                 "molecular_formula": "C29H39NO3"
+            },
+            {
+                "chem_struct": "CCC/C=C/C=C/C[C@@H]1C[C@@H]([C@@H]2N1C(=O)[C@@H]/3[C@H]2/C(=C/[C@H]4C=C[C@H]([C@H]([C@@H]4/C(=C/C=C3)/C)O)O)/C)O",
+                "compound": "heronamide A",
+                "database_id": [
+                    "npatlas:NPA002271"
+                ]
+            },
+            {
+                "chem_struct": "CCC/C=C/C=C/C[C@@H]1C[C@@H]2/C=C/C(C)=C/[C@@H]3C=C[C@H](O)[C@H](O)[C@H]3/C(C)=C/C=C/[C@H]2C(=O)N1",
+                "compound": "heronamide B",
+                "database_id": [
+                    "npatlas:NPA032812"
+                ]
             }
         ],
         "genes": {

@@ -8,6 +8,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Changed chemical structures for compounds: BAB, BAA.",
+                "Added NPAtlas links to compounds: BAB, BAA."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -16,12 +26,18 @@
         ],
         "compounds": [
             {
-                "chem_struct": "C/C=C/C(O)C/C=C/C=C/C=C/C(O)=O",
-                "compound": "BAB"
+                "chem_struct": "C/C=C/C(O)C/C=C/C=C/C=C/C(=O)O",
+                "compound": "BAB",
+                "database_id": [
+                    "npatlas:NPA033167"
+                ]
             },
             {
-                "chem_struct": "C/C=C/C(O)C/C=C/C=C/C=C\\C(O)=O",
-                "compound": "BAA"
+                "chem_struct": "C/C=C/C(O)C/C=C/C=C/C=C\\C(=O)O",
+                "compound": "BAA",
+                "database_id": [
+                    "npatlas:NPA033166"
+                ]
             }
         ],
         "loci": {

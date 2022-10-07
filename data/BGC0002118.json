@@ -12,7 +12,10 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: palmerolide A, palmerolide C, palmerolide F, palmerolide B.",
+                "Added compounds: palmerolide G.",
+                "Added NPAtlas links to compounds: palmerolide A, palmerolide C, palmerolide F, palmerolide G, palmerolide B."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -43,7 +46,7 @@
                         "moiety": "Beta-branch"
                     }
                 ],
-                "chem_struct": "C/C/1=C\\C=C\\CC[C@@H]([C@H](/C=C/[C@H](CCC/C=C/C(=O)O[C@H](C1)[C@H](C)/C=C(\\C)/C=C/NC(=O)C=C(C)C)O)O)OC(=O)N",
+                "chem_struct": "CC(C)=CC(=O)N/C=C/C(C)=C/[C@@H](C)[C@H]1C/C(C)=C/C=C/CC[C@H](OC(N)=O)[C@@H](O)/C=C/[C@@H](O)CCC/C=C/C(=O)O1",
                 "chem_targets": [
                     {
                         "target": "V-ATPase inhibition"
@@ -56,7 +59,8 @@
                 "database_id": [
                     "pubchem:17756325",
                     "chembl:CHEMBL573783",
-                    "chemspider:21105605"
+                    "chemspider:21105605",
+                    "npatlas:NPA033521"
                 ],
                 "evidence": [
                     "NMR",
@@ -84,7 +88,7 @@
                         "moiety": "sulfate"
                     }
                 ],
-                "chem_struct": "O=C(/C=C/CCC[C@@H]1OC(N)=O)O[C@H](C/C(C)=C/C=C/CCC(/C=C/[C@H]1O)OS(=O)(O)=O)[C@H](C)/C=C(C)/C=C/NC(/C=C(C)/C)=O",
+                "chem_struct": "CC(C)=CC(=O)N/C=C/C(C)=C/[C@@H](C)[C@H]1C/C(C)=C/C=C/CC[C@H](OS(=O)(=O)O)/C=C\\[C@@H](O)[C@@H](OC(N)=O)CCC/C=C/C(=O)O1",
                 "chem_targets": [
                     {
                         "target": "V-ATPase inhibition"
@@ -94,6 +98,9 @@
                     }
                 ],
                 "compound": "palmerolide B",
+                "database_id": [
+                    "npatlas:NPA033522"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
@@ -119,7 +126,7 @@
                         "moiety": "Beta-branch"
                     }
                 ],
-                "chem_struct": "C/C/1=C/C=C/CCC[C@H]([C@H]([C@H](/C=C/CC/C=C/C(=O)O[C@H](C1)[C@H](C)/C=C(\\C)/C=C/NC(=O)C=C(C)C)O)O)OC(=O)N",
+                "chem_struct": "CC(C)=CC(=O)N/C=C/C(C)=C/[C@@H](C)[C@H]1C/C(C)=C\\C=C\\CCC[C@@H](OC(N)=O)[C@@H](O)[C@@H](O)/C=C/CC/C=C/C(=O)O1",
                 "chem_targets": [
                     {
                         "target": "V-ATPase inhibition"
@@ -131,7 +138,8 @@
                 "compound": "palmerolide C",
                 "database_id": [
                     "pubchem:102306008",
-                    "chemspider:28533889"
+                    "chemspider:28533889",
+                    "npatlas:NPA033523"
                 ],
                 "evidence": [
                     "NMR",
@@ -156,7 +164,7 @@
                         "moiety": "beta-branch"
                     }
                 ],
-                "chem_struct": "C/C/1=C\\C=C\\CC[C@@H]([C@H](/C=C/[C@H](CCC/C=C/C(=O)O[C@H](C1)[C@H](C)/C=C(\\C)/C=C/NC(=O)CC(=C)C)O)O)OC(=O)N",
+                "chem_struct": "C=C(C)CC(=O)N/C=C/C(C)=C/[C@@H](C)[C@H]1C/C(C)=C/C=C/CC[C@H](OC(N)=O)[C@@H](O)/C=C/[C@@H](O)CCC/C=C/C(=O)O1",
                 "chem_targets": [
                     {
                         "target": "V-ATPase inhibition"
@@ -169,11 +177,19 @@
                 "database_id": [
                     "pubchem:54764673",
                     "chembl:CHEMBL1915710",
-                    "chemspider:27025770"
+                    "chemspider:27025770",
+                    "npatlas:NPA033526"
                 ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
+                ]
+            },
+            {
+                "chem_struct": "CC(C)=CC(=O)N/C=C/C(C)=C\\[C@@H](C)[C@H]1C/C(C)=C/C=C/CC[C@H](OC(N)=O)[C@@H](O)/C=C/[C@@H](O)CCC/C=C/C(=O)O1",
+                "compound": "palmerolide G",
+                "database_id": [
+                    "npatlas:NPA033527"
                 ]
             }
         ],

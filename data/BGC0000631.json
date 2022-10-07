@@ -31,7 +31,10 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Removed compounds: botrydial.",
+                "Added compounds: botcinin H, botcinin I, botcinin J, cinbotolide D, botcinin K.",
+                "Added NPAtlas links to compounds: botcinin H, botcinin I, botcinin J, cinbotolide D, botcinin K."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -45,19 +48,39 @@
         ],
         "compounds": [
             {
-                "chem_acts": [
-                    {
-                        "activity": "phytotoxic"
-                    }
-                ],
-                "chem_struct": "[H][C@@]12[C@H](C[C@@H](C)[C@H](C=O)[C@]1(O)[C@](C)(CC2(C)C)C=O)OC(C)=O",
-                "compound": "botrydial",
+                "chem_struct": "CC(=O)O[C@H]1[C@@H](C)C(=O)O[C@H]2[C@H](C)[C@@H](O)[C@H](C)O[C@]12C",
+                "compound": "botcinin H",
                 "database_id": [
-                    "npatlas:NPA03924",
-                    "pubchem:185781"
-                ],
-                "mol_mass": 310.178023932,
-                "molecular_formula": "C17H26O5"
+                    "npatlas:NPA033173"
+                ]
+            },
+            {
+                "chem_struct": "CCCCC(=O)/C=C/C(=O)O[C@H]1[C@H](C)O[C@]2(C)[C@@H](O)[C@@H](C)C(=O)O[C@H]2[C@@H]1C",
+                "compound": "botcinin I",
+                "database_id": [
+                    "npatlas:NPA033174"
+                ]
+            },
+            {
+                "chem_struct": "CCCCCCC(=O)/C=C\\C(=O)O[C@H]1[C@H](C)O[C@]2(C)[C@@H](OC(C)=O)[C@@H](C)C(=O)O[C@H]2[C@@H]1C",
+                "compound": "botcinin J",
+                "database_id": [
+                    "npatlas:NPA033175"
+                ]
+            },
+            {
+                "chem_struct": "C[C@H]1C(=O)O[C@@](C)(C2O[C@](C)(O)[C@H](O)[C@H]2C)[C@H]1O",
+                "compound": "cinbotolide D",
+                "database_id": [
+                    "npatlas:NPA033177"
+                ]
+            },
+            {
+                "chem_struct": "CCCCC/C=C/C(=O)O[C@@H]1[C@@H](C)[C@@H]2OC(=O)[C@H](C)[C@H](O)[C@@]2(C)O[C@@]1(C)C(C)=O",
+                "compound": "botcinin K",
+                "database_id": [
+                    "npatlas:NPA033176"
+                ]
             }
         ],
         "genes": {

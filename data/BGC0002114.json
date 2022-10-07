@@ -13,7 +13,10 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: sandarazol A.",
+                "Added compounds: sandarazol C, sandarazol E, sandarazol G, sandarazol B, sandarazol D, sandarazol F.",
+                "Added NPAtlas links to compounds: sandarazol C, sandarazol E, sandarazol G, sandarazol B, sandarazol D, sandarazol A, sandarazol F."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -38,14 +41,59 @@
                         "moiety": "N,N dimethyl diaminopropionic acid"
                     }
                 ],
-                "chem_struct": "[C@@H](CN(C)C)(C(N[C@@H](C(C)C)C(N1[C@H](C(=O)C(=C1O)C)CC(C)C)=O)=O)NC(=O)C/C=C/[C@H]1O[C@H]1C(/C=C(/C)\\\\C)=O",
+                "chem_struct": "CC(C)=CC(=O)[C@@H]1O[C@@H]1/C=C/CC(=O)N[C@H](CN(C)C)C(=O)N[C@H](C(=O)N1C(=O)C(C)=C(O)[C@@H]1CC(C)C)C(C)C",
                 "compound": "sandarazol A",
+                "database_id": [
+                    "npatlas:NPA033243"
+                ],
                 "evidence": [
                     "NMR"
                 ],
                 "mass_spec_ion_type": "[M+H]+",
                 "mol_mass": 575.34,
                 "molecular_formula": "C30H46N4O7"
+            },
+            {
+                "chem_struct": "CC(C)=CC(=O)[C@@H]1O[C@@H]1/C=C/CC(=O)N[C@H](CN(C)C)C(=O)N[C@H](C(=O)N[C@@H](CC(C)C)C(=O)C(C)Cl)C(C)C",
+                "compound": "sandarazol C",
+                "database_id": [
+                    "npatlas:NPA033248"
+                ]
+            },
+            {
+                "chem_struct": "CC(C)=CC(=O)/C=C/C=C/CC(=O)N[C@H](CN(C)C)C(=O)N[C@H](C(=O)N1C(=O)C(C)=C(O)[C@@H]1CC(C)C)C(C)C",
+                "compound": "sandarazol E",
+                "database_id": [
+                    "npatlas:NPA033245"
+                ]
+            },
+            {
+                "chem_struct": "CC1=C(O)[C@H](CC(C)C)N(C(=O)[C@@H](NC(=O)[C@@H](CN(C)C)NC(=O)C/C=C/CCC(=O)CC(C)C)C(C)C)C1=O",
+                "compound": "sandarazol G",
+                "database_id": [
+                    "npatlas:NPA033247"
+                ]
+            },
+            {
+                "chem_struct": "CC1=C(O)[C@H](CC(C)C)N(C(=O)[C@@H](NC(=O)[C@@H](CN(C)C)NC(=O)C/C=C/[C@H]2O[C@H]2C(=O)CC(C)C)C(C)C)C1=O",
+                "compound": "sandarazol B",
+                "database_id": [
+                    "npatlas:NPA033244"
+                ]
+            },
+            {
+                "chem_struct": "CC(C)CC(=O)[C@@H]1O[C@@H]1/C=C/CC(=O)N[C@H](CN(C)C)C(=O)N[C@H](C(=O)N[C@@H](CC(C)C)C(=O)C(C)Cl)C(C)C",
+                "compound": "sandarazol D",
+                "database_id": [
+                    "npatlas:NPA033249"
+                ]
+            },
+            {
+                "chem_struct": "CC(C)=CC(=O)CC/C=C/CC(=O)N[C@H](CN(C)C)C(=O)N[C@H](C(=O)N1C(=O)C(C)=C(O)[C@@H]1CC(C)C)C(C)C",
+                "compound": "sandarazol F",
+                "database_id": [
+                    "npatlas:NPA033246"
+                ]
             }
         ],
         "genes": {

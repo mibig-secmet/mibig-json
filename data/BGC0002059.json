@@ -19,7 +19,9 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: spliceostatin L, spliceostatin M.",
+                "Added NPAtlas links to compounds: spliceostatin L, spliceostatin M."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -39,8 +41,11 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "CC(/C=C/C1CC2(CO2)C[C@](O)(C)O1)=C\\C(O)C3OC(C)C(NC(/C=C\\C(OC(C(C)C)=O)C)=O)CC3C",
+                "chem_struct": "CCC(=O)OC(C)/C=C\\C(=O)NC1CC(C)C(C(O)/C=C(C)/C=C/C2CC3(CO3)CC(C)(O)O2)OC1C",
                 "compound": "spliceostatin L",
+                "database_id": [
+                    "npatlas:NPA033157"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
@@ -54,8 +59,11 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "CC(/C=C/C1CC2(CO2)C[C@](O)(C)O1)=C\\C(O)C3OC(C)C(NC(/C=C\\C(OC(CC)=O)C)=O)CC3C",
+                "chem_struct": "CC(/C=C/C1CC2(CO2)CC(C)(O)O1)=C\\C(O)C1OC(C)C(NC(=O)/C=C\\C(C)OC(=O)C(C)C)CC1C",
                 "compound": "spliceostatin M",
+                "database_id": [
+                    "npatlas:NPA033158"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"

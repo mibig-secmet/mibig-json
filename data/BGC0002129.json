@@ -11,7 +11,9 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Changed chemical structures for compounds: metathramycin, premetathramycin.",
+                "Added NPAtlas links to compounds: metathramycin, premetathramycin."
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -33,8 +35,11 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "OC1=C(C)C(O[C@H]2C[C@@](O)(C)[C@H](O)[C@@H](C)O2)=CC3=C1C(O)=C(C([C@@H](O[C@H]4C[C@@H](O[C@H]5C[C@@H](O[C@H]6C[C@@](O)(C)[C@H](O)[C@@H](C)O6)[C@@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)C7[C@H](OC)C([C@@H](O)[C@H](O)C)=O)=O)C(C7)=C3",
+                "chem_struct": "CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)C1CC2=C(C(=O)[C@H]1O[C@H]1CC(O[C@H]3C[C@@H](O[C@H]4C[C@](C)(O)[C@H](O)[C@@H](C)O4)[C@@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O1)C(O)=C1C(O)=C(C)C(O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)=CC1=C2",
                 "compound": "metathramycin",
+                "database_id": [
+                    "npatlas:NPA033018"
+                ],
                 "evidence": [
                     "Mass spectrometry",
                     "Other"
@@ -52,8 +57,11 @@
                         "activity": "cytotoxic"
                     }
                 ],
-                "chem_struct": "OC1=C(C)C(O[C@H]2C[C@@](O)(C)[C@H](O)[C@@H](C)O2)=CC3=C1C(O)=C(C(C4(O[C@H]5C[C@@H](O[C@H]6C[C@@H](O[C@H]7C[C@@](O)(C)[C@H](O)[C@@H](C)O7)[C@@H](O)[C@@H](C)O6)[C@H](O)[C@@H](C)O5)C8[C@H](OC)C(O)=C(C(C)=O)C4=O)=O)C(C8)=C3",
+                "chem_struct": "CO[C@@H]1C(=O)C(C(C)=O)=C(O)C2(O[C@H]3CC(O[C@H]4C[C@@H](O[C@H]5C[C@](C)(O)[C@H](O)[C@@H](C)O5)[C@@H](O)[C@@H](C)O4)[C@H](O)[C@@H](C)O3)C(=O)C3=C(C=C4C=C(O[C@H]5C[C@](C)(O)[C@H](O)[C@@H](C)O5)C(C)=C(O)C4=C3O)CC12",
                 "compound": "premetathramycin",
+                "database_id": [
+                    "npatlas:NPA033019"
+                ],
                 "evidence": [
                     "NMR",
                     "Mass spectrometry",
