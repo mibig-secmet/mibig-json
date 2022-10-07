@@ -34,7 +34,8 @@
         },
         {
             "comments": [
-                "Update chemical activity to schema version 2.11"
+                "Update chemical activity to schema version 2.11",
+                "Merge info from duplicate cluster BGC0002714"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -61,6 +62,12 @@
                 ],
                 "mol_mass": 504.331170508,
                 "molecular_formula": "C27H44N4O5"
+            },
+            {
+                "compound": "glidobactin A"
+            },
+            {
+                "compound": "cepafungin"
             }
         ],
         "genes": {
@@ -74,8 +81,7 @@
                             ]
                         }
                     ],
-                    "id": "CAE14171.1",
-                    "name": "plu1878"
+                    "id": "AXG47007.1"
                 },
                 {
                     "functions": [
@@ -86,20 +92,18 @@
                             ]
                         }
                     ],
-                    "id": "CAE14173.1",
-                    "name": "plu1880",
-                    "product": "hypothetical protein"
+                    "id": "AXG49819.1"
                 }
             ]
         },
         "loci": {
-            "accession": "BX470251.1",
-            "completeness": "complete",
-            "end_coord": 2239965,
+            "accession": "CP024901.1",
+            "completeness": "Unknown",
+            "end_coord": 2257564,
             "evidence": [
                 "Heterologous expression"
             ],
-            "start_coord": 2221617
+            "start_coord": 2202808
         },
         "mibig_accession": "BGC0000383",
         "minimal": false,
@@ -108,13 +112,15 @@
             "cyclic": false,
             "nrps_genes": [
                 {
-                    "gene_id": "plu1878",
+                    "gene_id": "AXG47007.1",
                     "modules": [
                         {
                             "a_substr_spec": {
-                                "epimerized": false,
                                 "evidence": [
                                     "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31611640"
                                 ],
                                 "substrates": [
                                     {
@@ -131,19 +137,26 @@
                     ]
                 },
                 {
-                    "gene_id": "plu1880",
+                    "gene_id": "AXG49819.1",
                     "modules": [
                         {
                             "a_substr_spec": {
-                                "epimerized": false,
                                 "evidence": [
                                     "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31611640"
                                 ],
                                 "substrates": [
                                     {
                                         "name": "lysine",
                                         "proteinogenic": true,
                                         "structure": "C(CCN)C[C@@H](C(=O)O)N"
+                                    },
+                                    {
+                                        "name": "4S-hydroxylysine",
+                                        "proteinogenic": false,
+                                        "structure": "NCC[C@H](O)C[C@@H](C(=O)O)N"
                                     }
                                 ]
                             },
@@ -153,9 +166,11 @@
                         },
                         {
                             "a_substr_spec": {
-                                "epimerized": false,
                                 "evidence": [
                                     "Structure-based inference"
+                                ],
+                                "publications": [
+                                    "pubmed:31611640"
                                 ],
                                 "substrates": [
                                     {
@@ -188,7 +203,7 @@
             "synthases": [
                 {
                     "genes": [
-                        "plu1880"
+                        "AXG49819.1"
                     ],
                     "modules": [
                         {
@@ -204,7 +219,7 @@
                             ],
                             "evidence": "Structure-based inference",
                             "genes": [
-                                "plu1880"
+                                "AXG49819.1"
                             ],
                             "kr_stereochem": "D-OH",
                             "module_number": "4"
@@ -215,7 +230,7 @@
                     ],
                     "thioesterases": [
                         {
-                            "gene": "plu1880",
+                            "gene": "AXG49819.1",
                             "thioesterase_type": "Type I"
                         }
                     ]
@@ -223,9 +238,9 @@
             ]
         },
         "publications": [
-            "pubmed:22909174"
+            "pubmed:22909174",
+            "pubmed:31611640"
         ],
         "status": "active"
-    },
-    "comments": "origin of polyketide tail currently unknown"
+    }
 }
