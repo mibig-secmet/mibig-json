@@ -1,0 +1,118 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "New entry nocapeptin A BGC.",
+                "Entry reviewed and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "ZF6B6VBOHAZ5KYONQR36C2NB"
+            ],
+            "updated_at": [
+                "2023-09-12T11:20:55.221404",
+                "2023-11-10T11:18:24.262745"
+            ],
+            "version": "3.2"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "nocapeptin A",
+                "chem_struct": "C[C@H](O)[C@@H](NC(=O)[C@@H]1CCCN1C(=O)CNC(=O)[C@@H]1CC(=O)NCC(=O)N[C@@H]2Cc3cn(-c4cc(C[C@H](NC2=O)C(=O)NCC(=O)N[C@H](CO)C(=O)N[C@H](CCC(N)=O)C(=O)N[C@H](Cc2c[nH]c5ccccc25)C(=O)N1)ccc4O)c1ccccc31)C(=O)NCC(=O)N[C@H](CCC(N)=O)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N[C@H](CC(O)=O)C(O)=O",
+                "chem_acts": [
+                    {
+                        "activity": "antibacterial"
+                    }
+                ],
+                "evidence": [
+                    "NMR"
+                ]
+            }
+        ],
+        "loci": {
+            "accession": "NZ_KV411304.1",
+            "completeness": "complete",
+            "start_coord": 1626613,
+            "end_coord": 1632294,
+            "evidence": [
+                "Correlation of genomic and metabolomic data"
+            ]
+        },
+        "mibig_accession": "BGC0002825",
+        "minimal": false,
+        "ncbi_tax_id": "455432",
+        "organism_name": "Nocardia terpenica IFM 0406",
+        "publications": [
+            "doi:10.1101/2023.03.06.531328",
+            "doi:10.1039/d3sc02380j"
+        ],
+        "status": "active",
+        "genes": {
+            "annotations": [
+                {
+                    "id": "WP_171983241.1",
+                    "name": "NopA",
+                    "product": "precursor peptide",
+                    "comments": "Protein ID in publication: WP_195116738.1"
+                },
+                {
+                    "id": "WP_171983240.1",
+                    "name": "NopC",
+                    "product": "Asparagine synthase",
+                    "tailoring": [
+                        "lasso_macrolactam_formation"
+                    ],
+                    "comments": "Protein ID in publication: WP_171983240.1"
+                },
+                {
+                    "id": "WP_156674500.1",
+                    "name": "NopF",
+                    "product": "Cytochrome P450",
+                    "tailoring": [
+                        "biaryl_bond_formation"
+                    ],
+                    "comments": "Protein ID in publication: WP_156674500.1"
+                },
+                {
+                    "id": "WP_171983239.1",
+                    "name": "NopD",
+                    "product": "ABC transporter",
+                    "comments": "Protein ID in publication: WP_171983239.1"
+                },
+                {
+                    "id": "WP_197696517.1",
+                    "name": "NopE",
+                    "product": "Stand alone lasso RRE",
+                    "comments": "Protein ID in publication: WP_067588831.1"
+                },
+                {
+                    "id": "WP_082871451.1",
+                    "name": "NopB",
+                    "product": "Transglutaminase",
+                    "tailoring": [
+                        "lasso_macrolactam_formation"
+                    ],
+                    "comments": "Protein ID in publication: WP_082871451.1"
+                }
+            ]
+        },
+        "ripp": {
+            "cyclic": true,
+            "subclass": "lassopeptide",
+            "precursor_genes": [
+                {
+                    "leader_sequence": "MQQESVYESPVLFKVGTFEYDTQ",
+                    "core_sequence": [
+                        "GWYGSQWDGPTGQRD"
+                    ],
+                    "gene_id": "WP_171983241.1"
+                }
+            ]
+        }
+    }
+}

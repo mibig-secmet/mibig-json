@@ -1,0 +1,154 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Submitted",
+                "Reviewed and approved",
+                "Reviewed and approved"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "DKBFG3K6XTYSVEQEQVCFZBWY",
+                "C62OJVVH7XOTOTFZSJT727YU"
+            ],
+            "updated_at": [
+                "2023-11-19T18:29:19.960341",
+                "2023-11-19T18:29:19.960341",
+                "2023-11-20T19:32:10.546499"
+            ],
+            "version": "3.2"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "N-coronafacoyl-L-isoleucine",
+                "chem_synonyms": [
+                    "CFA-Ile",
+                    "CFA-L-Ile",
+                    "coronafacoyl-L-isoleucine"
+                ],
+                "chem_struct": "CC[C@@H]1C[C@H]2[C@H](CCC2=O)C(=C1)C(=O)N[C@@H](C(C)CC)C(=O)O",
+                "evidence": [
+                    "MS/MS"
+                ],
+                "chem_targets": [
+                    {
+                        "target": "Jasmonic acid signaling pathway"
+                    }
+                ],
+                "database_id": [
+                    "pubchem:101618766"
+                ]
+            }
+        ],
+        "loci": {
+            "accession": "FN554889.1",
+            "completeness": "complete",
+            "start_coord": 8805124,
+            "end_coord": 8836499,
+            "evidence": [
+                "Gene expression correlated with compound production",
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0002808",
+        "minimal": false,
+        "ncbi_tax_id": "680198",
+        "organism_name": "Streptomyces scabiei 87.22",
+        "publications": [
+            "doi:10.1094/MPMI-23-2-0161",
+            "doi:10.21769/BioProtoc.2214",
+            "doi:10.1094/MPMI-03-19-0070-R",
+            "doi:10.1094/MPMI-09-14-0255-R",
+            "doi:10.1128/AEM.01169-17",
+            "doi:10.1111/mmi.13378",
+            "doi:10.1371/journal.pone.0122450"
+        ],
+        "status": "active",
+        "genes": {
+            "annotations": [
+                {
+                    "id": "scab79581",
+                    "name": "orf1"
+                },
+                {
+                    "id": "scab79591",
+                    "name": "cfaR"
+                },
+                {
+                    "id": "scab79601",
+                    "name": "cfa1"
+                },
+                {
+                    "id": "scab79611",
+                    "name": "cfa2"
+                },
+                {
+                    "id": "scab79621",
+                    "name": "cfa3"
+                },
+                {
+                    "id": "scab79631",
+                    "name": "cfa4"
+                },
+                {
+                    "id": "scab79641",
+                    "name": "cfa5"
+                },
+                {
+                    "id": "scab79651",
+                    "name": "cfa6"
+                },
+                {
+                    "id": "scab79661",
+                    "name": "cfa7"
+                },
+                {
+                    "id": "scab79671",
+                    "name": "cfl"
+                },
+                {
+                    "id": "scab79681",
+                    "name": "oxr"
+                },
+                {
+                    "id": "scab79691",
+                    "name": "cyp107AK1"
+                },
+                {
+                    "id": "scab79701",
+                    "name": "cfa8"
+                },
+                {
+                    "id": "scab79721",
+                    "name": "sdr"
+                }
+            ]
+        },
+        "polyketide": {
+            "cyclic": true,
+            "starter_unit": "Ethylmalonyl-CoA",
+            "subclasses": [
+                "Other",
+                "Modular type I"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CBG74926.1"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "CBG74926.1",
+                            "thioesterase_type": "Type I"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

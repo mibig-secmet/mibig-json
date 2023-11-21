@@ -36,6 +36,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Corrected name of compound, added start:end coordinates, added BGC evidence.",
+                "Reviewed cahnges and approved."
+            ],
+            "contributors": [
+                "ZF6B6VBOHAZ5KYONQR36C2NB",
+                "C62OJVVH7XOTOTFZSJT727YU"
+            ],
+            "updated_at": [
+                "2023-11-02T10:58:19.413563",
+                "2023-11-13T10:00:00.000000"
+            ],
+            "version": "3.2"
         }
     ],
     "cluster": {
@@ -45,26 +60,35 @@
         ],
         "compounds": [
             {
-                "chem_acts": [
-                    {
-                        "activity": "antiviral"
-                    },
-                    {
-                        "activity": "cytotoxic"
-                    }
-                ],
+                "compound": "oxazolomycin",
                 "chem_struct": "COC(CC(C)C(O)\\C=C\\C=C\\CNC(=O)C(C)(C)C(O)C(\\C)=C\\C=C\\C=C\\CC1=CN=CO1)C1(O)C(C)C(=O)N(C)C11COC1=O",
-                "compound": "oxalomycin B",
                 "database_id": [
                     "npatlas:NPA012324"
                 ],
                 "mol_mass": 655.346880148,
-                "molecular_formula": "C35H49N3O9"
+                "molecular_formula": "C35H49N3O9",
+                "chem_acts": [
+                    {
+                        "activity": "cytotoxic"
+                    },
+                    {
+                        "activity": "antiviral"
+                    }
+                ],
+                "evidence": [
+                    "NMR"
+                ]
             }
         ],
         "loci": {
             "accession": "EF552687.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "start_coord": 12964,
+            "end_coord": 97799,
+            "evidence": [
+                "Heterologous expression",
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0001106",
         "minimal": true,
