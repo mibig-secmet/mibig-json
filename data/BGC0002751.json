@@ -1,0 +1,83 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Added Amyxirubin B gene cluster.",
+                "Reviewed and approved entry."
+            ],
+            "contributors": [
+                "ZF6B6VBOHAZ5KYONQR36C2NB",
+                "C62OJVVH7XOTOTFZSJT727YU"
+
+            ],
+            "updated_at": [
+                "2023-11-08T13:49:04.659950",
+                "2023-11-13T12:00:00.000000"
+            ],
+            "version": "3.2"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "Amyxirubin B",
+                "chem_synonyms": [
+                    "Clavurubin"
+                ],
+                "chem_struct": "O=C([C@@H]1C[C@]2(C3=CC4=C5C=C3)C6=C(C=CC=C6)N[C@@H]2[N@@]1C([C@H]([C@H](CC)C)NC([C@@](C7)([H])NC([C@@H](N)CC4=C[N@]5C8=CC7=CC=C8O)=O)=O)=O)N[C@H](C(O)=O)CC9=CNC%10=C9C=CC=C%10",
+                "evidence": [
+                    "NMR"
+                ]
+            }
+        ],
+        "genes": {
+            "extra_genes": [
+                {
+                    "id": "amyA",
+                    "location": {
+                        "exons": [
+                            {
+                                "start": 782614,
+                                "end": 782682
+                            }
+                        ],
+                        "strand": -1
+                    }
+                }
+            ]
+        },
+        "loci": {
+            "accession": "FNON01000005.1",
+            "completeness": "complete",
+            "start_coord": 781463,
+            "end_coord": 782682,
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0002751",
+        "minimal": false,
+        "ncbi_tax_id": "589385",
+        "organism_name": "Amycolatopsis xylanica",
+        "publications": [
+            "doi:10.1002/anie.202208361"
+        ],
+        "status": "active",
+        "ripp": {
+            "cyclic": true,
+            "precursor_genes": [
+                {
+                    "leader_sequence": "MKALMRKFKPEKSLKAY",
+                    "core_sequence": [
+                        "AWYIWW"
+                    ],
+                    "gene_id": "amyA"
+                }
+            ],
+            "subclass": "atropopeptide"
+        }
+    }
+}

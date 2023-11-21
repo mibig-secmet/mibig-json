@@ -1,0 +1,107 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Created new entry for brevione BGC.",
+                "Reviewed and approved."
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "C62OJVVH7XOTOTFZSJT727YU"
+            ],
+            "updated_at": [
+                "2023-11-14T15:51:43.681783",
+                "2023-11-14T15:51:43.681783"
+            ],
+            "version": "3.2"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "brevione E",
+                "chem_struct": "CC1=C[C@](O2)([H])[C@@]3([H])[C@]4([C@]15[C@@](C/C(O5)=C(C)\\C(C)=O)([H])O[C@H]4OC(C)=O)CC[C@]6([H])[C@]3(C)[C@]2([H])CC(C=C6C)=O",
+                "evidence": [
+                    "NMR"
+                ],
+                "database_id": [
+                    "npatlas:NPA019168",
+                    "pubchem:101092881",
+                    "chemspider:78436213"
+                ]
+            },
+            {
+                "compound": "isobrevione E",
+                "chem_struct": "[H][C@@]12C\\C(O[C@@]11C(C)=C[C@]3([H])O[C@]4([H])CC(=O)C=C(C)[C@@]5([H])CC[C@@]1([C@@H](OC(C)=O)O2)[C@]3([H])[C@]45C)=C(/C)C(C)=O",
+                "evidence": [
+                    "NMR"
+                ]
+            }
+        ],
+        "loci": {
+            "accession": "LC719581.1",
+            "completeness": "complete",
+            "start_coord": 1,
+            "end_coord": 41588,
+            "evidence": [
+                "Heterologous expression"
+            ]
+        },
+        "mibig_accession": "BGC0002759",
+        "minimal": false,
+        "ncbi_tax_id": "293381",
+        "organism_name": "Penicillium bialowiezense CBS 227.28",
+        "publications": [
+            "doi:10.1002/anie.202210938"
+        ],
+        "status": "active",
+        "genes": {
+            "annotations": [
+                {
+                    "id": "BDO47156.1",
+                    "name": "BrvF",
+                    "product": "terpene cyclase"
+                },
+                {
+                    "id": "BDO47152.1",
+                    "name": "BrvB",
+                    "product": "prenyltransferase"
+                },
+                {
+                    "id": "BDO47151.1",
+                    "name": "BrvA",
+                    "product": "polyketide synthase"
+                }
+            ]
+        },
+        "terpene": {
+            "carbon_count_subclass": "Sesquiterpene",
+            "structural_subclass": "Other",
+            "terpene_precursor": "FPP"
+        },
+        "polyketide": {
+            "cyclic": true,
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Iterative type I",
+                "Other"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "BDO47151.1"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "Macrolactonization",
+                        "nr_iterations": 3,
+                        "subtype": "Non-reducing"
+                    }
+                }
+            ]
+        }
+    }
+}

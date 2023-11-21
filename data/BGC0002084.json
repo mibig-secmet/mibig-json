@@ -21,6 +21,24 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Removed biarylitide YFH (has own entry BGC0002099); added gene annnotation, precursor annotation, publication DOI, RiPP class.",
+                "Reviewed changes and approved.",
+                "Reviewed changes and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "H5KVDLSVQ3TJW7SKCDNBDEVC",
+                "ZF6B6VBOHAZ5KYONQR36C2NB"
+            ],
+            "updated_at": [
+                "2023-09-13T08:42:02.394481",
+                "2023-09-13T12:07:57.460683",
+                "2023-09-13T12:08:21.701317"
+            ],
+            "version": "3.2"
         }
     ],
     "cluster": {
@@ -41,13 +59,6 @@
                 "mass_spec_ion_type": "[M+H]+",
                 "mol_mass": 521.52,
                 "molecular_formula": "C26H27N5O7"
-            },
-            {
-                "chem_struct": "CC(=O)NC1CC2=CC(=C(O)C=C2)C2=NC=C(CC(C(=O)O)NC(=O)C(CC3=CC=CC=C3)NC1=O)[NH]2",
-                "compound": "biarylitide YFH",
-                "database_id": [
-                    "npatlas:NPA033236"
-                ]
             }
         ],
         "loci": {
@@ -64,17 +75,19 @@
         "ncbi_tax_id": "2028102",
         "organism_name": "Planomonospora sp. ID82291",
         "publications": [
+            "doi:10.1016/j.chembiol.2020.11.009",
             "pubmed:33321099"
         ],
         "ripp": {
             "cyclic": true,
             "precursor_genes": [
                 {
+                    "leader_sequence": "MR",
                     "cleavage_recogn_site": [
                         "R"
                     ],
                     "core_sequence": [
-                        "MRYYH"
+                        "YYH"
                     ],
                     "crosslinks": [
                         {
@@ -86,9 +99,25 @@
                     "gene_id": "bytA"
                 }
             ],
-            "subclass": "Other"
+            "subclass": "biarylitide"
         },
-        "status": "active"
-    },
-    "comments": "bytA= precursor peptide; bytO= cytochrome P450"
+        "status": "active",
+        "genes": {
+            "annotations": [
+                {
+                    "id": "QRM13813.1",
+                    "name": "bytA",
+                    "product": "Precursor peptide-encoding gene"
+                },
+                {
+                    "id": "QRM13814.1",
+                    "name": "bytO",
+                    "product": "cytochrome P450",
+                    "tailoring": [
+                        "biaryl_bond_formation"
+                    ]
+                }
+            ]
+        }
+    }
 }

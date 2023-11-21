@@ -36,6 +36,27 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Specified congeners F, E, D, and C of streptothricin, as reported in reference https://doi.org/10.1038/nchembio.1040 Also added coordinates and evidence",
+                "Added synonyms and activities to all 4 metabolites (ST-F, E, D, C)",
+                "Changes reviewed and approved",
+                "Changes reviewed and approved"
+            ],
+            "contributors": [
+                "RKFOW2BJ2UIGZ6GYHFZX4BHF",
+                "RKFOW2BJ2UIGZ6GYHFZX4BHF",
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "6Q7UQYZ273A5REKZFDZCLJJ7"
+            ],
+            "updated_at": [
+                "2023-10-06T18:48:19.239086",
+                "2023-10-13T12:56:28.616593",
+                "2023-10-17T16:16:17.008122",
+                "2023-10-17T16:17:41.136133"
+            ],
+            "version": "3.2"
         }
     ],
     "cluster": {
@@ -44,23 +65,94 @@
         ],
         "compounds": [
             {
+                "compound": "streptothricin F",
+                "chem_synonyms": [
+                    "nourseothricin F",
+                    "yazumycin F",
+                    "racemomycin F"
+                ],
+                "chem_struct": "NCCC[C@H](N)CC(=O)N[C@@H]1[C@H](O)[C@@H](OC(N)=O)[C@@H](CO)O[C@H]1\\N=C1\\N[C@H]2[C@H](N1)C(=O)NC[C@H]2O",
                 "chem_acts": [
+                    {
+                        "activity": "toxic"
+                    },
                     {
                         "activity": "antibacterial"
                     }
                 ],
-                "chem_struct": "C1[C@H]([C@@H]2[C@@H](C(=O)N1)N=C(N2)N[C@H]3[C@@H]([C@@H]([C@H]([C@H](O3)CO)OC(=O)N)O)NC(=O)C[C@H](CCCNC(=O)C[C@H](CCCNC(=O)C[C@H](CCCNC(=O)C[C@H](CCCNC(=O)C[C@H](CCCNC(=O)C[C@H](CCCN)N)N)N)N)N)N)O",
-                "compound": "streptothricin",
-                "database_id": [
-                    "pubchem:198906"
+                "evidence": [
+                    "Other"
+                ]
+            },
+            {
+                "compound": "streptothricin E",
+                "chem_synonyms": [
+                    "yazumycin E",
+                    "nourseothricin E",
+                    "racemomycin E"
                 ],
-                "mol_mass": 1142.7247750679996,
-                "molecular_formula": "C49H94N18O13"
+                "chem_struct": "NCCC[C@H](N)CC(=O)NCCC[C@H](N)CC(=O)N[C@@H]1[C@H](O)[C@@H](OC(N)=O)[C@@H](CO)O[C@H]1\\N=C1\\N[C@H]2[C@H](N1)C(=O)NC[C@H]2O",
+                "chem_acts": [
+                    {
+                        "activity": "toxic"
+                    },
+                    {
+                        "activity": "antibacterial"
+                    }
+                ],
+                "evidence": [
+                    "Other"
+                ]
+            },
+            {
+                "compound": "streptothricin D",
+                "chem_synonyms": [
+                    "yazumycin D",
+                    "nourseothricin D",
+                    "racemomycin D"
+                ],
+                "chem_struct": "NCCC[C@H](N)CC(=O)NCCC[C@H](N)CC(=O)NCCC[C@H](N)CC(=O)N[C@@H]1[C@H](O)[C@@H](OC(N)=O)[C@@H](CO)O[C@H]1\\N=C1\\N[C@H]2[C@H](N1)C(=O)NC[C@H]2O",
+                "chem_acts": [
+                    {
+                        "activity": "toxic"
+                    },
+                    {
+                        "activity": "antibacterial"
+                    }
+                ],
+                "evidence": [
+                    "Other"
+                ]
+            },
+            {
+                "compound": "streptothricin C",
+                "chem_synonyms": [
+                    "racemomycin C",
+                    "yazumycin C",
+                    "nourseothricin C"
+                ],
+                "chem_struct": "NCCC[C@H](N)CC(=O)NCCC[C@H](N)CC(=O)NCCC[C@H](N)CC(=O)NCCC[C@H](N)CC(=O)N[C@@H]1[C@H](O)[C@@H](OC(N)=O)[C@@H](CO)O[C@H]1\\N=C1\\N[C@H]2[C@H](N1)C(=O)NC[C@H]2O",
+                "chem_acts": [
+                    {
+                        "activity": "toxic"
+                    },
+                    {
+                        "activity": "antibacterial"
+                    }
+                ],
+                "evidence": [
+                    "Other"
+                ]
             }
         ],
         "loci": {
             "accession": "AB684619.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "start_coord": 1,
+            "end_coord": 34051,
+            "evidence": [
+                "Heterologous expression"
+            ]
         },
         "mibig_accession": "BGC0000432",
         "minimal": false,
@@ -117,7 +209,7 @@
                 }
             ]
         },
-        "organism_name": "Streptomyces rochei",
+        "organism_name": "Streptomyces rochei NBRC 12908",
         "publications": [
             "pubmed:22820420"
         ],

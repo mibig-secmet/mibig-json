@@ -9,6 +9,24 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Fixed name (from biaylite-YFH to biarylitide YFH); restricted range to remove non-associated gene; added RiPP subclass, precursor info, NPAtlas link, gene annotation, tailoring.",
+                "Reviewed changes and approved.",
+                "Reviewed changes and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "H5KVDLSVQ3TJW7SKCDNBDEVC",
+                "ZF6B6VBOHAZ5KYONQR36C2NB"
+            ],
+            "updated_at": [
+                "2023-09-13T09:20:19.414513",
+                "2023-09-13T12:08:37.918900",
+                "2023-09-13T12:09:05.036121"
+            ],
+            "version": "3.2"
         }
     ],
     "cluster": {
@@ -18,33 +36,42 @@
         "compounds": [
             {
                 "chem_struct": "OC(C(CC1=CN=C2N1)NC(C(CC3=CC=CC=C3)NC(C(CC4=CC=C(O)C2=C4)NC(C)=O)=O)=O)=O",
-                "compound": "biarylite-YFH",
+                "compound": "biarylitide YFH",
                 "evidence": [
                     "NMR",
                     "Mass spectrometry"
                 ],
                 "mass_spec_ion_type": "[M+H]+",
                 "mol_mass": 505.52,
-                "molecular_formula": "C26H27N5O6"
+                "molecular_formula": "C26H27N5O6",
+                "database_id": [
+                    "npatlas:NPA033236"
+                ]
             }
         ],
         "loci": {
             "accession": "MW201789.1",
             "completeness": "complete",
-            "end_coord": 1920,
-            "start_coord": 1
+            "end_coord": 1504,
+            "start_coord": 1,
+            "evidence": [
+                "Homology-based prediction",
+                "Correlation of genomic and metabolomic data"
+            ]
         },
         "mibig_accession": "BGC0002099",
         "minimal": false,
         "ncbi_tax_id": "2028102",
         "organism_name": "Planomonospora sp. ID107089",
         "publications": [
-            "pubmed:33321099"
+            "pubmed:33321099",
+            "doi:10.1016/j.chembiol.2020.11.009"
         ],
         "ripp": {
             "cyclic": true,
             "precursor_genes": [
                 {
+                    "leader_sequence": "MR",
                     "core_sequence": [
                         "YFH"
                     ],
@@ -58,8 +85,25 @@
                     "gene_id": "bytA"
                 }
             ],
-            "subclass": "Other"
+            "subclass": "biarylitide"
         },
-        "status": "active"
+        "status": "active",
+        "genes": {
+            "annotations": [
+                {
+                    "id": "QRM13815.1",
+                    "name": "bytA",
+                    "product": "Precursor peptide-encoding gene"
+                },
+                {
+                    "id": "QRM13816.1",
+                    "name": "bytO",
+                    "product": "Cytochrome P450",
+                    "tailoring": [
+                        "biaryl_bond_formation"
+                    ]
+                }
+            ]
+        }
     }
 }
