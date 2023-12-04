@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$schema_created": "2022-08-18T19:36:44+02:00",
-    "$schema_version": "2.12",
+    "$schema_version": "2.13",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -229,6 +229,14 @@
                             },
                             "evidence": {
                                 "items": {
+                                    "enum": [
+                                        "Chemical derivatization",
+                                        "Mass spectrometry",
+                                        "MS/MS",
+                                        "NMR",
+                                        "Total synthesis",
+                                        "X-ray"
+                                    ],
                                     "type": "string"
                                 },
                                 "title": "Technique(s) used to elucidate/verify the structure",
