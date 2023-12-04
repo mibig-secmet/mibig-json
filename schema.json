@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$schema_created": "2022-08-18T19:36:44+02:00",
-    "$schema_version": "2.11",
+    "$schema_version": "2.12",
     "additionalProperties": false,
     "properties": {
         "changelog": {
@@ -19,6 +19,13 @@
                             "type": "string"
                         },
                         "type": "array"
+                    },
+                    "updated_at": {
+                        "items": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "type":"array"
                     },
                     "version": {
                         "pattern": "^(\\d+(\\.\\d+)*|next)$",
@@ -533,6 +540,8 @@
                         "evidence": {
                             "items": {
                                 "enum": [
+                                    "Homology-based prediction",
+                                    "Correlation of genomic and metabolomic data",
                                     "Gene expression correlated with compound production",
                                     "Knock-out studies",
                                     "Enzymatic assays",
@@ -1362,6 +1371,8 @@
                         "anthelmintic",
                         "antialgal",
                         "antibacterial",
+                        "antibacterial (Gram-negative)",
+                        "antibacterial (Gram-positive)",
                         "anticancer",
                         "anticoccidial",
                         "antifungal",
