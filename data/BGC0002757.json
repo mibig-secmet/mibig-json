@@ -5,19 +5,22 @@
                 "Entry submitted",
                 "Entry reviewed and approved.",
                 "Entry reviewed and approved.",
-                "Entry reviewed and approved."
+                "Entry reviewed and approved.",
+                "Fix compound evidence"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA",
                 "4T7Y257BCOAID5IKGPXOVORQ",
                 "C62OJVVH7XOTOTFZSJT727YU",
-                "ZF6B6VBOHAZ5KYONQR36C2NB"
+                "ZF6B6VBOHAZ5KYONQR36C2NB",
+                "3UOU7PODQJXIM6BEPUHHRRA5"
             ],
             "updated_at": [
                 "2023-11-14T15:07:06.661450",
                 "2023-11-21T14:00:00.000000",
                 "2023-11-21T14:00:00.000000",
-                "2023-11-21T14:00:00.000000"
+                "2023-11-21T14:00:00.000000",
+                "2023-12-04T19:26:25"
             ],
             "version": "next"
         }
@@ -28,44 +31,20 @@
         ],
         "compounds": [
             {
-                "compound": "avenalumic acid",
+                "chem_struct": "O=C(O)/C=C/C=C/C1=CC=C(O)C=C1",
                 "chem_synonyms": [
                     "(2E,4E)-5-(4-hydroxyphenyl)-2,4-pentadienoic acid"
                 ],
-                "chem_struct": "O=C(O)/C=C/C=C/C1=CC=C(O)C=C1",
-                "evidence": [
-                    "Other"
-                ],
+                "compound": "avenalumic acid",
                 "database_id": [
                     "pubchem:21951591"
+                ],
+                "evidence": [
+                    "NMR",
+                    "MS/MS"
                 ]
             }
         ],
-        "loci": {
-            "accession": "LC710852.1",
-            "completeness": "complete",
-            "start_coord": 3551,
-            "end_coord": 20063,
-            "evidence": [
-                "Heterologous expression"
-            ]
-        },
-        "mibig_accession": "BGC0002757",
-        "minimal": false,
-        "ncbi_tax_id": "3071577",
-        "organism_name": "Streptomyces sp.",
-        "publications": [
-            "doi:10.1002/anie.202211728"
-        ],
-        "status": "active",
-        "polyketide": {
-            "cyclic": false,
-            "starter_unit": "3-amino-4-hydroxybenzoic acid",
-            "subclasses": [
-                "Aryl Polyene",
-                "Type II"
-            ]
-        },
         "genes": {
             "annotations": [
                 {
@@ -144,6 +123,31 @@
                     "product": "putative ketoreductase"
                 }
             ]
-        }
+        },
+        "loci": {
+            "accession": "LC710852.1",
+            "completeness": "complete",
+            "end_coord": 20063,
+            "evidence": [
+                "Heterologous expression"
+            ],
+            "start_coord": 3551
+        },
+        "mibig_accession": "BGC0002757",
+        "minimal": false,
+        "ncbi_tax_id": "3071577",
+        "organism_name": "Streptomyces sp.",
+        "polyketide": {
+            "cyclic": false,
+            "starter_unit": "3-amino-4-hydroxybenzoic acid",
+            "subclasses": [
+                "Aryl Polyene",
+                "Type II"
+            ]
+        },
+        "publications": [
+            "doi:10.1002/anie.202211728"
+        ],
+        "status": "active"
     }
 }
