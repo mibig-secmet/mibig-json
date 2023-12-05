@@ -8,25 +8,47 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Removed duplicate structure, specified strain info, added chem activ, annotated RiPP information, annotated gene information, specified biosyn class saccharide (glycoslated RiPP).",
+                "Changes reviewed and approved"
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "DKBFG3K6XTYSVEQEQVCFZBWY"
+            ],
+            "updated_at": [
+                "2023-11-10T11:20:55.221404",
+                "2023-12-05T20:31:02.783261"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
         "biosyn_class": [
-            "RiPP"
+            "RiPP",
+            "Saccharide"
         ],
         "compounds": [
             {
                 "chem_struct": "CCC(C)(C1C2=NC(=CS2)C(=O)NC3C(OC(=O)C4=NC5=C(C=CC(C5O)NC(C(=O)NC(=C)C(=O)NC(=C)C(=O)NC(=C)C(=O)NC6(CCC7C(=NC(N7C6C8=CSC3=N8)(CO)C(=O)NC(=C)C(=O)NC(=C)C(=O)OC)SC)C9=NC(=CS9)C(=O)NC(C(=O)N/C(=C\\C)/C2=NC(CS2)C(=O)N1)C(C)O)C(C)OC1CC(C(C(O1)C)O)OC1CC(C(C(O1)C)O)O)C(=C4)C(C)O)C)O",
-                "compound": "sch40832",
+                "compound": "Sch40832",
                 "database_id": [
-                    "pubchem:22834596"
-                ]
-            },
-            {
-                "chem_struct": "CCC(C)(C1C2=NC(=CS2)C(=O)NC3C(OC(=O)C4=NC5=C(C=CC(C5O)NC(C(=O)NC(=C)C(=O)NC(=C)C(=O)NC(=C)C(=O)NC6(CCC7C(=NC(N7C6C8=CSC3=N8)(CO)C(=O)NC(=C)C(=O)NC(=C)C(=O)OC)SC)C9=NC(=CS9)C(=O)NC(C(=O)N/C(=C\\C)/C2=NC(CS2)C(=O)N1)C(C)O)C(C)OC1CC(C(C(O1)C)O)OC1CC(C(C(O1)C)O)O)C(=C4)C(C)O)C)O",
-                "compound": "Sch 40832",
-                "database_id": [
+                    "pubchem:22834596",
                     "npatlas:NPA018436"
+                ],
+                "chem_synonyms": [
+                    "sch40832",
+                    "Sch 40832"
+                ],
+                "evidence": [
+                    "NMR"
+                ],
+                "chem_acts": [
+                    {
+                        "activity": "antibacterial (Gram-positive)"
+                    }
                 ]
             }
         ],
@@ -41,13 +63,42 @@
             "start_coord": 1121921
         },
         "mibig_accession": "BGC0002353",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "47853",
-        "organism_name": "Micromonospora carbonacea",
+        "organism_name": "Micromonospora carbonacea ATCC 39149",
         "publications": [
-            "pubmed:34405994",
             "doi:10.1021/jacs.1c05956"
         ],
-        "status": "active"
+        "status": "active",
+        "ripp": {
+            "cyclic": true,
+            "subclass": "Thiopeptide",
+            "precursor_genes": [
+                {
+                    "leader_sequence": "MDANATTVGVDGLTGLDIDTFEIGDYLDETVLDTADLTETM",
+                    "core_sequence": [
+                        "TSSSSCTTCICTCSCSS"
+                    ],
+                    "gene_id": "QLJ99538.1"
+                }
+            ]
+        },
+        "genes": {
+            "annotations": [
+                {
+                    "id": "QLJ99538.1",
+                    "name": "SchH",
+                    "product": "precursor peptide"
+                },
+                {
+                    "id": "QLJ99542.1",
+                    "name": "SchV",
+                    "product": "glycosyltransferase",
+                    "tailoring": [
+                        "glycosylation"
+                    ]
+                }
+            ]
+        }
     }
 }

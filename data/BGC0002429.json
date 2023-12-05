@@ -8,6 +8,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Changed stop coordiante of locus entry to include genes CH63R_05473 and CH63R_05482 according to doi:10.1021/acs.jnatprod.5b00779. Added references to publications pertaining to the changes.",
+                "Changes reviewed and approved."
+            ],
+            "contributors": [
+                "7S2S3KC6XWEGKGTSIW66GBJX",
+                "C62OJVVH7XOTOTFZSJT727YU"
+            ],
+            "updated_at": [
+                "2023-10-17T14:59:03.054165",
+                "2023-12-05T21:13:50.485170"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -22,24 +37,101 @@
                 "database_id": [
                     "npatlas:NPA021815"
                 ]
+            },
+            {
+                "chem_struct": "CC(C)=C[C@@H]1C[C@]2(C)C(CC[C@]3(C)[C@H](CC4=C(O)C(C)=C(C)OC4=O)C(=C)CC[C@@H]23)O1",
+                "compound": "higginsianin A",
+                "database_id": [
+                    "npatlas:NPA021814"
+                ]
+            },
+            {
+                "chem_struct": "CC1=C(OC(=O)C(=C1O)C[C@@H]2C(=C)CC[C@@H]3[C@@]2(CC[C@@H]4[C@]3(CC[C@H](O4)C(C)(C)O)C)C)C",
+                "compound": "higginsianin C",
+                "database_id": [
+                    "pubchem:145720804",
+                    "chembl:CHEMBL4529128"
+                ]
+            },
+            {
+                "chem_struct": "CC1=C(OC(=O)C(=C1O)C[C@@H]2C(=C)CC[C@@H]3[C@@]2(CC[C@@H]4[C@]3(CC[C@@H](O4)C(C)(C)O)C)C)C",
+                "compound": "13-epi-higginsianin C",
+                "database_id": [
+                    "pubchem:145720805",
+                    "chembl:CHEMBL4519308"
+                ]
             }
         ],
         "loci": {
             "accession": "CM004458.1",
             "completeness": "Unknown",
-            "end_coord": 422890,
+            "end_coord": 480233,
             "evidence": [
                 "Heterologous expression"
             ],
             "start_coord": 408595
         },
         "mibig_accession": "BGC0002429",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "759273",
         "organism_name": "Colletotrichum higginsianum IMI 349063",
         "publications": [
-            "pubmed:32286350"
+            "doi:10.1038/s41467-020-15664-4",
+            "doi:10.1021/acs.jnatprod.5b00779",
+            "doi:10.1021/acs.jnatprod.8b00796"
         ],
-        "status": "active"
+        "status": "active",
+        "genes": {
+            "annotations": [
+                {
+                    "id": "OBR09781.1",
+                    "name": "dpchA",
+                    "product": "putative polyketide synthase"
+                },
+                {
+                    "id": "OBR09782.1",
+                    "comments": "probably not involved in biosynthesis - see DOI:10.1038/s41467-020-15664-4 Figure 3"
+                },
+                {
+                    "id": "OBR09783.1",
+                    "name": "dpchE",
+                    "product": "putative FAD binding domain-containing protein"
+                },
+                {
+                    "id": "OBR09784.1",
+                    "name": "dpchB",
+                    "comments": "putative terpene cyclase"
+                },
+                {
+                    "id": "OBR09785.1",
+                    "name": "dpchG",
+                    "product": "putative short chain dehydrogenase"
+                },
+                {
+                    "id": "OBR09786.1",
+                    "name": "dpchC",
+                    "product": "putative ubiA prenyltransferase"
+                },
+                {
+                    "id": "OBR09787.1",
+                    "name": "dpchH",
+                    "product": "putative ubiA prenyltransferase"
+                },
+                {
+                    "id": "OBR09788.1",
+                    "name": "dpchD",
+                    "product": "putative polyprenyl synthetase"
+                },
+                {
+                    "id": "OBR09789.1",
+                    "comments": "Probably ot involved in biosynthesis - see DOI:10.1038/s41467-020-15664-4 Figure 3"
+                },
+                {
+                    "id": "OBR09790.1",
+                    "name": "dpchF",
+                    "product": "Flavin-containing superfamily Amine oxidase"
+                }
+            ]
+        }
     }
 }
