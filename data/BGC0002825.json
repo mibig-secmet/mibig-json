@@ -3,15 +3,18 @@
         {
             "comments": [
                 "New entry nocapeptin A BGC.",
+                "Entry reviewed and approved.",
                 "Entry reviewed and approved."
             ],
             "contributors": [
                 "C62OJVVH7XOTOTFZSJT727YU",
-                "ZF6B6VBOHAZ5KYONQR36C2NB"
+                "ZF6B6VBOHAZ5KYONQR36C2NB",
+                "DKBFG3K6XTYSVEQEQVCFZBWY"
             ],
             "updated_at": [
                 "2023-09-12T11:20:55.221404",
-                "2023-11-10T11:18:24.262745"
+                "2023-11-10T11:18:24.262745",
+                "2023-12-06T11:18:24.262745"
             ],
             "version": "next"
         }
@@ -35,7 +38,7 @@
             }
         ],
         "loci": {
-            "accession": "NZ_KV411304.1",
+            "accession": "KV411304.1",
             "completeness": "complete",
             "start_coord": 1626613,
             "end_coord": 1632294,
@@ -55,13 +58,7 @@
         "genes": {
             "annotations": [
                 {
-                    "id": "WP_171983241.1",
-                    "name": "NopA",
-                    "product": "precursor peptide",
-                    "comments": "Protein ID in publication: WP_195116738.1"
-                },
-                {
-                    "id": "WP_171983240.1",
+                    "id": "AWN90_28360",
                     "name": "NopC",
                     "product": "Asparagine synthase",
                     "tailoring": [
@@ -70,7 +67,7 @@
                     "comments": "Protein ID in publication: WP_171983240.1"
                 },
                 {
-                    "id": "WP_156674500.1",
+                    "id": "AWN90_28365",
                     "name": "NopF",
                     "product": "Cytochrome P450",
                     "tailoring": [
@@ -79,25 +76,44 @@
                     "comments": "Protein ID in publication: WP_156674500.1"
                 },
                 {
-                    "id": "WP_171983239.1",
+                    "id": "AWN90_28370",
                     "name": "NopD",
                     "product": "ABC transporter",
                     "comments": "Protein ID in publication: WP_171983239.1"
                 },
                 {
-                    "id": "WP_197696517.1",
+                    "id": "AWN90_28375",
                     "name": "NopE",
                     "product": "Stand alone lasso RRE",
                     "comments": "Protein ID in publication: WP_067588831.1"
+                }
+            ],
+            "extra_genes": [
+                {
+                    "id": "NopA",
+                    "location": {
+                        "exons": [
+                            {
+                                "start": 1626613,
+                                "end": 1626729
+                            }
+                        ],
+                        "strand": 1
+                    },
+                    "translation": "MQQESVYESPVLFKVGTFEYDTQGWYGSQWDGPTGQRD"
                 },
                 {
-                    "id": "WP_082871451.1",
-                    "name": "NopB",
-                    "product": "Transglutaminase",
-                    "tailoring": [
-                        "lasso_macrolactam_formation"
-                    ],
-                    "comments": "Protein ID in publication: WP_082871451.1"
+                    "id": "NopB",
+                    "location": {
+                        "exons": [
+                            {
+                                "start": 1631821,
+                                "end": 1632294
+                            }
+                        ],
+                        "strand": 1
+                    },
+                    "translation": "MSGPVVLPLDAEPRLRRRLVAHLAIAAARLLAHQPPRRIRAVLTVVRVGAAPATPAQALAARDTVTGTSMMCAGPYCLPRSLATALLCRLHGTWPTWCAGVRTGPFAAHAWVEVDSEPIGEPTSAGYYRALMTVPPLTTGSAVAHRLSAPVRLGGCR"
                 }
             ]
         },
@@ -110,7 +126,7 @@
                     "core_sequence": [
                         "GWYGSQWDGPTGQRD"
                     ],
-                    "gene_id": "WP_171983241.1"
+                    "gene_id": "NopA"
                 }
             ]
         }
