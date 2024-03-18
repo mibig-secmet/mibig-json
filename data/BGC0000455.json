@@ -36,10 +36,26 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Added 'Saccharide' as additional biosynthetic class. Specified BGC evidence according to 'pubmed:24884615'. Added strain information.",
+                "Changes reviewed and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "25OPJFS6AQU3ROUADEVDYF5E"
+            ],
+            "updated_at": [
+                "2023-10-24T21:52:12.505633",
+                "2023-11-09T08:40:57.453688"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "Saccharide",
             "NRP"
         ],
         "compounds": [
@@ -60,7 +76,12 @@
         ],
         "loci": {
             "accession": "HQ679900.1",
-            "completeness": "Unknown"
+            "completeness": "complete",
+            "start_coord": 1,
+            "end_coord": 65044,
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000455",
         "minimal": false,
@@ -209,7 +230,7 @@
                 }
             ]
         },
-        "organism_name": "Amycolatopsis orientalis HCCB10007",
+        "organism_name": "Amycolatopsis orientalis HCCB10007 (ATCC43491)",
         "publications": [
             "pubmed:24884615"
         ],

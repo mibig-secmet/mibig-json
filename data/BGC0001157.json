@@ -35,6 +35,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Specified chemical target, added RiPP annotation. Added a review paper (doi:10.1039/D0NP00097C) which unifies the bottromycin gene designation.",
+                "Changes reviewed and approved"
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "DKBFG3K6XTYSVEQEQVCFZBWY"
+            ],
+            "updated_at": [
+                "2023-11-17T20:42:00.644839",
+                "2023-12-05T20:29:33.585302"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -48,13 +63,13 @@
                         "activity": "antibacterial"
                     }
                 ],
-                "chem_struct": "CC1CCN2C1C(=O)NC(C(=O)NC(C(=NCC2=O)NC(C(=O)NC(C(C)C3=CC=CC=C3)C(=O)NC(CC(=O)OC)C4=NC=CS4)C(C)(C)C)C(C)(C)C)C(C)C",
+                "chem_struct": "COC(=O)C[C@H](NC(=O)[C@@H](NC(=O)[C@@H](\\N=C1/NCC(=O)N2CC[C@@H](C)[C@H]2C(=O)N[C@@H](C(C)C)C(=O)N[C@H]1C(C)(C)C)C(C)(C)C)[C@@H](C)C1=CC=CC=C1)C1=NC=CS1",
                 "chem_targets": [
                     {
                         "publications": [
                             "doi:10.1002/anie.200804138"
                         ],
-                        "target": "Ribosome"
+                        "target": "aminoacyl-tRNA binding site (A site) on the 50S ribosome"
                     }
                 ],
                 "compound": "bottromycin A2",
@@ -263,12 +278,24 @@
         "publications": [
             "pubmed:19115340",
             "pubmed:770464",
-            "doi:10.1039/C2SC21190D"
+            "doi:10.1039/C2SC21190D",
+            "doi:10.1039/D0NP00097C"
         ],
         "ripp": {
             "cyclic": true,
-            "subclass": "Bottromycin"
+            "subclass": "Bottromycin",
+            "precursor_genes": [
+                {
+                    "leader_sequence": "M",
+                    "core_sequence": [
+                        "GPVVVFDC"
+                    ],
+                    "follower_sequence": "MTADFLNDDPNNAELSALEMEELESWGAWDGEATS",
+                    "gene_id": "CBG72694.1"
+                }
+            ]
         },
         "status": "active"
-    }
+    },
+    "comments": "The reference reporting the BGC (doi:10.1039/C2SC21190D) refers to the producer strain as 'Streptomyces scabies 87.22'."
 }

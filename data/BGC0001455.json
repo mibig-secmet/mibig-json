@@ -38,6 +38,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Specified compound from 'antimycin' to 'antimycin A1B', changed incorrect SMILES string, mol. formula, mol. mass. Specified BGC evidence according to linked paper. Specified locus start and end. ",
+                "Reviewed and approved changes."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "55JKZ6YQD2AUFWZ45WR2BXVC"
+            ],
+            "updated_at": [
+                "2023-10-05T09:55:41.010836",
+                "2023-10-05T14:17:39.237488"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -52,13 +67,13 @@
                         "activity": "insecticidal"
                     }
                 ],
-                "chem_struct": "C[C@@H]1[C@H](OC=C2C1=C(C(=C(C2=O)C(=O)O)O)C)C",
-                "compound": "antimycin",
+                "chem_struct": "CCCCCCC1C(C(OC(=O)C(C(OC1=O)C)NC(=O)C2=C(C(=CC=C2)NC=O)O)C)OC(=O)CC(C)C",
+                "compound": "antimycin A1B",
                 "database_id": [
-                    "pubchem:54680783"
+                    "pubchem:12550"
                 ],
-                "mol_mass": 250.084123548,
-                "molecular_formula": "C13H14O5"
+                "mol_mass": 548.27338086,
+                "molecular_formula": "C28H40N2O9"
             }
         ],
         "genes": {
@@ -325,7 +340,12 @@
         },
         "loci": {
             "accession": "LT989885.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "start_coord": 1,
+            "end_coord": 26743,
+            "evidence": [
+                "Correlation of genomic and metabolomic data"
+            ]
         },
         "mibig_accession": "BGC0001455",
         "minimal": false,

@@ -37,10 +37,26 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Added 'Saccharide' as additional biosynthetic class. Specified BGC evidence according to 'pubmed:11932455'.",
+                "Changes reviewed and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "25OPJFS6AQU3ROUADEVDYF5E"
+            ],
+            "updated_at": [
+                "2023-10-24T21:47:52.889365",
+                "2023-11-09T08:41:57.232704"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
         "biosyn_class": [
+            "Saccharide",
             "NRP"
         ],
         "compounds": [
@@ -62,7 +78,12 @@
         ],
         "loci": {
             "accession": "Y16952.3",
-            "completeness": "Unknown"
+            "completeness": "complete",
+            "start_coord": 1,
+            "end_coord": 66669,
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000311",
         "minimal": false,

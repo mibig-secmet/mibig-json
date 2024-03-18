@@ -36,6 +36,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Specified biological target, specified start/stop of BGC, added RiPP and gene annotations. Added a review paper (doi:10.1039/D0NP00097C) which unifies the bottromycin gene designation.",
+                "Changes reviewed and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "DKBFG3K6XTYSVEQEQVCFZBWY"
+            ],
+            "updated_at": [
+                "2023-11-17T19:24:18.109185",
+                "2023-12-05T20:26:22.249411"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -51,9 +66,15 @@
                 ],
                 "chem_struct": "[H][C@@]12[C@H](C)CCN1C(=O)CN\\C(=N/[C@H](C(=O)N[C@@H]([C@@H](C)C1=CC=CC=C1)C(=O)N[C@H](CC(=O)OC)C1=NC=CS1)C(C)(C)C)[C@@H](NC(=O)[C@@H](NC2=O)C(C)C)C(C)(C)C",
                 "compound": "bottromycin A2",
+                "chem_targets": [
+                    {
+                        "target": "aminoacyl-tRNA binding site (A site) on the 50S ribosome"
+                    }
+                ],
                 "database_id": [
                     "npatlas:NPA04746",
-                    "pubchem:3081434"
+                    "pubchem:3081434",
+                    "chemspider:26365309"
                 ],
                 "mol_mass": 822.446217324,
                 "molecular_formula": "C42H62N8O7S"
@@ -61,17 +82,43 @@
         ],
         "loci": {
             "accession": "JX235926.1",
-            "completeness": "Unknown"
+            "completeness": "complete",
+            "end_coord": 33922,
+            "start_coord": 16255,
+            "evidence": [
+                "Heterologous expression"
+            ]
         },
         "mibig_accession": "BGC0000469",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1109705",
         "organism_name": "Streptomyces sp. BC16019",
         "publications": [
-            "pubmed:23021914"
+            "pubmed:23021914",
+            "doi:10.1039/D0NP00097C"
         ],
         "ripp": {
-            "subclass": "Bottromycin"
+            "cyclic": true,
+            "subclass": "Bottromycin",
+            "precursor_genes": [
+                {
+                    "leader_sequence": "M",
+                    "core_sequence": [
+                        "GPVVVFDC"
+                    ],
+                    "follower_sequence": "MTADFLNDDPNNAELSALEMEELESWGAWDGEATS",
+                    "gene_id": "AFV25481.1"
+                }
+            ]
+        },
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AFV25481.1",
+                    "name": "BotA",
+                    "product": "precursor peptide"
+                }
+            ]
         },
         "status": "active"
     }

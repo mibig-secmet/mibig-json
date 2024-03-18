@@ -38,6 +38,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Added biological target, specified start/stop of locus, added RiPP and gene annotation, adding comment regarding missing genes. Added a review paper (doi:10.1039/D0NP00097C) which unifies the bottromycin gene designation.",
+                "Changes reviewed and approved"
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "DKBFG3K6XTYSVEQEQVCFZBWY"
+            ],
+            "updated_at": [
+                "2023-11-17T20:05:40.175968",
+                "2023-12-05T20:28:37.007219"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -51,7 +66,12 @@
                         "activity": "antibacterial"
                     }
                 ],
-                "chem_struct": "C[C@@H]1CCN2[C@@H]1C(=O)N[C@H](C(=O)N[C@H](C(=NCC2=O)N[C@H](C(=O)N[C@@H]([C@@H](C)C3=CC=CC=C3)C(=O)N[C@H](CC(=O)OC)C4=NC=CS4)C(C)(C)C)C(C)(C)C)C",
+                "chem_targets": [
+                    {
+                        "target": "aminoacyl-tRNA binding site (A site) on the 50S ribosome"
+                    }
+                ],
+                "chem_struct": "COC(=O)C[C@H](NC(=O)[C@@H](NC(=O)[C@@H](\\N=C1/NCC(=O)N2CC[C@@H](C)[C@H]2C(=O)N[C@@H](C)C(=O)N[C@H]1C(C)(C)C)C(C)(C)C)[C@@H](C)C1=CC=CC=C1)C1=NC=CS1",
                 "compound": "bottromycin D",
                 "database_id": [
                     "pubchem:71470785"
@@ -62,18 +82,45 @@
         ],
         "loci": {
             "accession": "JX827389.1",
-            "completeness": "Unknown"
+            "completeness": "Unknown",
+            "end_coord": 26921,
+            "start_coord": 12177,
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0000470",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "1234059",
-        "organism_name": "Streptomyces sp. WMMB 272",
+        "organism_name": "Streptomyces sp. WMMB272",
         "publications": [
-            "pubmed:22984777"
+            "pubmed:22984777",
+            "doi:10.1039/D0NP00097C"
         ],
         "ripp": {
-            "subclass": "Bottromycin"
+            "cyclic": true,
+            "subclass": "Bottromycin",
+            "precursor_genes": [
+                {
+                    "leader_sequence": "M",
+                    "core_sequence": [
+                        "GPAVVFDC"
+                    ],
+                    "follower_sequence": "MTADFLNDDPNNAELSSLEMEELESWGAWSDDTDQSV",
+                    "gene_id": "AFU90404.1"
+                }
+            ]
+        },
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AFU90404.1",
+                    "name": "bstA",
+                    "product": "precursor peptide"
+                }
+            ]
         },
         "status": "active"
-    }
+    },
+    "comments": "Two genes missing from BGC (a regulatory protein 'botR' and a hydrolase-like protein 'botP') due to location at end of contig."
 }

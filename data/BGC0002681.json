@@ -8,6 +8,24 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Corrected BGC name, added SMILES, compound evidence and BGC evidence information. Removed duplicate reference.",
+                "Changes reviewed and approved.",
+                "Changes reviewed and approved."
+            ],
+            "contributors": [
+                "MCETC4BSFWGKQIEMMN364L2T",
+                "CVBS4CX3MGQ2Y6Q45INSO263",
+                "C62OJVVH7XOTOTFZSJT727YU"
+            ],
+            "updated_at": [
+                "2023-10-16T10:25:18.214841",
+                "2023-10-18T11:19:10.297793",
+                "2023-10-18T11:19:52.674745"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -16,22 +34,34 @@
         ],
         "compounds": [
             {
-                "compound": "rhizobactin"
+                "compound": "rhizoferrin",
+                "chem_struct": "C(CCNC(=O)CC(CC(=O)O)(C(=O)O)O)CNC(=O)CC(CC(=O)O)(C(=O)O)O",
+                "chem_acts": [
+                    {
+                        "activity": "siderophore"
+                    }
+                ],
+                "evidence": [
+                    "MS/MS"
+                ]
             }
         ],
         "loci": {
             "accession": "AJ749949.2",
             "completeness": "Unknown",
             "end_coord": 30951,
-            "start_coord": 22630
+            "start_coord": 22630,
+            "evidence": [
+                "Knock-out studies"
+            ]
         },
         "mibig_accession": "BGC0002681",
         "minimal": true,
         "ncbi_tax_id": "177416",
         "organism_name": "Francisella tularensis subsp. tularensis SCHU S4",
         "publications": [
-            "pubmed:28421167",
-            "doi:10.3389/fcimb.2017.00107"
+            "doi:10.3389/fcimb.2017.00107",
+            "doi:10.1128/jb.00027-06"
         ],
         "status": "active"
     }

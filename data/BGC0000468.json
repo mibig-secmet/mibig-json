@@ -27,6 +27,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Added precursor peptide sequence, gene annotations, specified exact strain host of BGC ('DSM40262'), specified bioactivity. Added a review paper (doi:10.1039/D0NP00097C) which unifies the bottromycin gene designation.",
+                "Changes reviewed and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "DKBFG3K6XTYSVEQEQVCFZBWY"
+            ],
+            "updated_at": [
+                "2023-11-17T09:48:13.588776",
+                "2023-12-05T20:24:07.333058"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -43,13 +58,14 @@
                 "chem_struct": "[H][C@@]12[C@H](C)CCN1C(=O)CN\\C(=N/[C@H](C(=O)N[C@@H]([C@@H](C)C1=CC=CC=C1)C(=O)N[C@H](CC(=O)OC)C1=NC=CS1)C(C)(C)C)[C@@H](NC(=O)[C@@H](NC2=O)C(C)C)C(C)(C)C",
                 "chem_targets": [
                     {
-                        "target": "Bacterial ribosome"
+                        "target": "aminoacyl-tRNA binding site (A site) on the 50S ribosome"
                     }
                 ],
                 "compound": "bottromycin A2",
                 "database_id": [
                     "npatlas:NPA04746",
-                    "chemspider:26365309"
+                    "chemspider:26365309",
+                    "pubchem:3081434"
                 ],
                 "mol_mass": 822.446217324,
                 "molecular_formula": "C42H62N8O7S"
@@ -68,24 +84,113 @@
         "mibig_accession": "BGC0000468",
         "minimal": false,
         "ncbi_tax_id": "42235",
-        "organism_name": "Streptomyces bottropensis",
+        "organism_name": "Streptomyces bottropensis DSM40262",
         "publications": [
             "pubmed:19115340",
             "pubmed:6337880",
             "pubmed:7014241",
-            "doi:10.1039/C2SC21183A"
+            "doi:10.1039/C2SC21183A",
+            "doi:10.1039/D0NP00097C"
         ],
         "ripp": {
             "cyclic": true,
             "peptidases": [
                 "CCM09447.1",
                 "CCM09448.1",
-                "bmbK",
                 "CCM09452.1",
                 "bmbH",
-                "bmbG"
+                "bmbG",
+                "bmbK"
             ],
-            "subclass": "Bottromycin"
+            "subclass": "Bottromycin",
+            "precursor_genes": [
+                {
+                    "leader_sequence": "M",
+                    "core_sequence": [
+                        "GPVVVFDC"
+                    ],
+                    "follower_sequence": "MTADFLNDDPNNAELSALEMEELESWGAWDGEATS",
+                    "gene_id": "CCM09443.1"
+                }
+            ]
+        },
+        "genes": {
+            "annotations": [
+                {
+                    "id": "CCM09440.1",
+                    "name": "BmbT",
+                    "product": "putative integral membrane protein",
+                    "comments": "putatively involved in self-resistance"
+                },
+                {
+                    "id": "CCM09441.1",
+                    "name": "BmbA",
+                    "product": "putative SAM-dependent O-methyltransferase",
+                    "comments": "putatively converts β-COOH of Asp residue to methyl ester"
+                },
+                {
+                    "id": "CCM09442.1",
+                    "name": "BmbB",
+                    "product": "putative radical S-adenosylmethionine (SAM) enzyme",
+                    "comments": "putatively catalyzes β-methylation"
+                },
+                {
+                    "id": "CCM09443.1",
+                    "name": "BmbC",
+                    "product": "precursor peptide"
+                },
+                {
+                    "id": "CCM09444.1",
+                    "name": "BmbD",
+                    "product": "YcaO-like protein"
+                },
+                {
+                    "id": "CCM09445.1",
+                    "name": "BmbE",
+                    "product": "YcaO-like protein",
+                    "comments": "putatively catalyses ATP-dependent thiazoline formation"
+                },
+                {
+                    "id": "CCM09446.1",
+                    "name": "BmbF",
+                    "product": "putative radical S-adenosylmethionine (SAM) enzyme",
+                    "comments": "putatively catalyzes β-methylation"
+                },
+                {
+                    "id": "CCM09447.1",
+                    "name": "BmbG",
+                    "product": "putative protease",
+                    "comments": "putative follower peptide removal"
+                },
+                {
+                    "id": "CCM09448.1",
+                    "name": "BmbH",
+                    "product": "putative protease",
+                    "comments": "putative follower peptide removal"
+                },
+                {
+                    "id": "CCM09449.1",
+                    "name": "BmbI",
+                    "product": "putative cytochrome P450"
+                },
+                {
+                    "id": "CCM09450.1",
+                    "name": "BmbJ",
+                    "product": "putative radical S-adenosylmethionine (SAM) enzyme",
+                    "comments": "putatively catalyzes β-methylation"
+                },
+                {
+                    "id": "CCM09451.1",
+                    "name": "BmbR",
+                    "product": "putative negative transcriptional regulator"
+                },
+                {
+                    "id": "CCM09452.1",
+                    "name": "BmbK",
+                    "product": "putative aminopeptidase",
+                    "comments": "putatively removes N-terminal methionine"
+                }
+            ]
         },
         "status": "active"
     }

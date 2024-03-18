@@ -36,6 +36,21 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Added locus coordinates, evidence, completeness, bioactivity, precursor peptide-gene information. Changed PubMed IDs to DOIs, changed subclass to 'Lassopeptide'. Corrected SMILES structure. Added gene product annotation. Added correct strain identifier.",
+                "Changes reviewed and approved."
+            ],
+            "contributors": [
+                "C62OJVVH7XOTOTFZSJT727YU",
+                "RKFOW2BJ2UIGZ6GYHFZX4BHF"
+            ],
+            "updated_at": [
+                "2023-10-18T09:32:01.890180",
+                "2023-10-23T18:20:58.497314"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -46,10 +61,21 @@
             {
                 "chem_acts": [
                     {
-                        "activity": "surfactant"
+                        "activity": "antibacterial"
+                    },
+                    {
+                        "activity": "antibacterial (Gram-negative)"
                     }
                 ],
-                "chem_struct": "CCC(C)C1NC(=O)CNC(=O)C(NC(=O)C(CC2=CC=CC=C2)NC(=O)C(CC2=CC=C(O)C=C2)NC(=O)C(CCC(O)=O)NC(=O)C2CCCN2C(=O)C(NC(=O)C(CC2=CN=CN2)NC(=O)CNC(=O)C(C)NC(=O)CNC(=O)CNC(=O)CNC(=O)C(CC2=CC=C(O)C=C2)NC(=O)C(CC2=CC=CC=C2)NC(=O)C(CO)NC(=O)C(NC(=O)C2CCCN2C(=O)C(NC(=O)CNC1=O)C(C)O)C(C)CC)C(C)C)C(C)C",
+                "chem_targets": [
+                    {
+                        "publications": [
+                            "doi:10.1021/ja036756q"
+                        ],
+                        "target": "DNA-dependent RNA polymerase of Gram-negative bacteria"
+                    }
+                ],
+                "chem_struct": "CCC(C)C(C(=O)NCC(=O)NC(C(C)O)C(=O)N1CCCC1C(=O)NC(C(C)CC)C(=O)NC(CO)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NCC(=O)O)NC(=O)CNC(=O)C(C(C)C)NC(=O)C(CC4=CC=CC=C4)NC(=O)C(CC5=CC=C(C=C5)O)NC(=O)C6CCC(=O)NCC(=O)NCC(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)N7CCCC7C(=O)N6)C(C)C)CC8=CN=CN8)C",
                 "compound": "microcin J25",
                 "database_id": [
                     "npatlas:NPA05946",
@@ -61,19 +87,62 @@
         ],
         "loci": {
             "accession": "AF061787.1",
-            "completeness": "Unknown"
+            "completeness": "complete",
+            "start_coord": 1,
+            "end_coord": 4496,
+            "evidence": [
+                "Heterologous expression"
+            ]
         },
         "mibig_accession": "BGC0000581",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "562",
-        "organism_name": "Escherichia coli",
+        "organism_name": "Escherichia coli AY25",
         "publications": [
-            "pubmed:8655570",
-            "pubmed:10198038"
+            "doi:10.1128/jb.178.12.3661-3663.1996",
+            "doi:10.1128/JB.181.8.2659-2662.1999",
+            "doi:10.1021/ja036756q",
+            "doi:10.1021/ja0367703",
+            "doi:10.1039/b708478a",
+            "doi:10.1002/cbic.201200016"
         ],
         "ripp": {
-            "subclass": "Linaridin"
+            "subclass": "Lassopeptide",
+            "precursor_genes": [
+                {
+                    "leader_sequence": "MIKHFHFNKLSSGKKNNVPSPAKGVIQIKKSASQLTK",
+                    "core_sequence": [
+                        "GGAGHVPEYFVGIGTPISFYG"
+                    ],
+                    "gene_id": "AAD28494.1"
+                }
+            ]
+        },
+        "genes": {
+            "annotations": [
+                {
+                    "id": "AAD28494.1",
+                    "name": "mcjA",
+                    "product": "RiPP precursor peptide"
+                },
+                {
+                    "id": "AAD28495.1",
+                    "name": "mcjB",
+                    "product": "cysteine protease"
+                },
+                {
+                    "id": "AAD28496.1",
+                    "name": "mcjC",
+                    "product": "ATP-dependent lactam synthetase"
+                },
+                {
+                    "id": "AAD28497.1",
+                    "name": "mcjD",
+                    "product": "ABC transporter"
+                }
+            ]
         },
         "status": "active"
-    }
+    },
+    "comments": "BGC was originally isolated from a plasmid: see DOI: 10.1128/jb.181.8.2659-2662.1999"
 }
