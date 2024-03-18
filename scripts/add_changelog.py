@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+from datetime import datetime
 import json
 import os
 from typing import Any, Dict, List
@@ -43,22 +44,27 @@ def add_changelog(record: Dict[str, Any], release: str, comments: List[str], con
         contributors = ["AAAAAAAAAAAAAAAAAAAAAAAA"]
 
     previous = record["changelog"][-1]
+    new = False
 
     if previous["version"] != release:
-        new_entry = {
-            "comments": comments,
-            "contributors": contributors,
+        entry = {
+            "comments": [],
+            "contributors": [],
+            "updated_at": [],
             "version": release,
         }
-        record["changelog"].append(new_entry)
-        return
+        new = True
+    else:
+        entry = previous
 
-    for comment in comments:
-        if comment not in previous["comments"]:
-            previous["comments"].append(comment)
-    for contributor in contributors:
-        if contributor not in previous["contributors"]:
-            previous["contributors"].append(contributor)
+    assert len(comments) == len(contributors)
+    for comment, contributor in zip(comments, contributors):
+        entry["comments"].append(comment)
+        entry["contributors"].append(contributor)
+        entry["updated_at"].append(datetime.now().strftime("%Y-%m-%dT%H:%M:%S%:z"))
+
+    if new:
+        record["changelog"].append(entry)
 
 def amend_changelog(record: Dict[str, Any], release: str, comments: List[str], contributors: List[str]) -> None:
     entry = record["changelog"][-1]
